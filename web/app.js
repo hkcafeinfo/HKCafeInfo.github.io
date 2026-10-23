@@ -52,6 +52,10 @@
   if (sidebar && sidebarToggle) {
     setSidebarOpen(sidebarWasOpen);
     sidebarToggle.addEventListener("click", () => setSidebarOpen(sidebar.hidden));
+    document.addEventListener("click", (event) => {
+      if (sidebar.hidden || sidebar.contains(event.target) || sidebarToggle.contains(event.target)) return;
+      setSidebarOpen(false);
+    });
   }
 
   function renderChecklist() {
@@ -142,7 +146,7 @@
     const wrap = $("date-selector-wrap");
     const prev = $("date-scroll-prev"), next = $("date-scroll-next");
     if (!wrap || !prev || !next) return;
-    const max = nodes.dates.scrollWidth - nodes.dates.clientWidth;
+    const max = Math.max(0, nodes.dates.scrollWidth - nodes.dates.clientWidth);
     const canScroll = max > 2;
     const canScrollLeft = canScroll && nodes.dates.scrollLeft > 2;
     const canScrollRight = canScroll && nodes.dates.scrollLeft < max - 2;
@@ -266,8 +270,23 @@
     const gap = Number.parseFloat(styles.columnGap || styles.gap) || 0;
     return (first.getBoundingClientRect().width + gap) * 3;
   };
-  $("date-scroll-prev").addEventListener("click", () => nodes.dates.scrollBy({ left: -dateScrollStep(), behavior: "smooth" }));
-  $("date-scroll-next").addEventListener("click", () => nodes.dates.scrollBy({ left: dateScrollStep(), behavior: "smooth" }));
+  let dateScrollTarget = null;
+  let dateScrollTimer;
+  function scrollDates(direction) {
+    const max = Math.max(0, nodes.dates.scrollWidth - nodes.dates.clientWidth);
+    const current = Math.min(max, Math.max(0, nodes.dates.scrollLeft));
+    const base = dateScrollTarget == null ? current : Math.min(max, Math.max(0, dateScrollTarget));
+    const target = Math.min(max, Math.max(0, base + direction * dateScrollStep()));
+    if (Math.abs(target - current) < 1 && Math.abs(target - base) < 1) { updateDateScrollButtons(); return; }
+    dateScrollTarget = target;
+    nodes.dates.scrollTo({ left: target, behavior: "smooth" });
+    updateDateScrollButtons();
+    clearTimeout(dateScrollTimer);
+    dateScrollTimer = setTimeout(() => { dateScrollTarget = null; updateDateScrollButtons(); }, 450);
+  }
+  $("date-scroll-prev").addEventListener("click", () => scrollDates(-1));
+  $("date-scroll-next").addEventListener("click", () => scrollDates(1));
+  nodes.dates.addEventListener("pointerdown", () => { dateScrollTarget = null; clearTimeout(dateScrollTimer); }, { passive: true });
   nodes.dates.addEventListener("scroll", updateDateScrollButtons, { passive: true });
   window.addEventListener("resize", updateDateScrollButtons);
   nodes.search.addEventListener("input", () => {

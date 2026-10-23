@@ -298,7 +298,11 @@
   $("shops-across").addEventListener("click", () => setAcross("shops"));
   function move(direction) {
     const column = matrix.querySelector(".matrix-colhead");
-    viewport.scrollBy({ left: direction * (column?.getBoundingClientRect().width || 260), behavior: "smooth" });
+    const max = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
+    const current = Math.min(max, Math.max(0, viewport.scrollLeft));
+    const step = column?.getBoundingClientRect().width || 260;
+    const target = Math.min(max, Math.max(0, current + direction * step));
+    if (Math.abs(target - current) > 1) viewport.scrollTo({ left: target, behavior: "smooth" });
   }
   $("matrix-prev").addEventListener("click", () => move(-1));
   $("matrix-next").addEventListener("click", () => move(1));

@@ -8,10 +8,22 @@
     matrix.textContent = "讀唔到更表資料。請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
-  const dates = [...new Set(data.shops.flatMap((shop) => [
+  const rosterDates = [...new Set(data.shops.flatMap((shop) => [
     ...(shop.shifts || []).map((shift) => shift.date),
     ...(shop.unresolved || []).map((item) => item.date),
   ]))].sort();
+  // Keep calendar days with no published roster visible as empty columns. This
+  // makes gaps such as 6/11 explicit instead of making the table look incomplete.
+  const dates = rosterDates.length ? (() => {
+    const result = [];
+    const cursor = new Date(`${rosterDates[0]}T12:00:00Z`);
+    const end = new Date(`${rosterDates.at(-1)}T12:00:00Z`);
+    while (cursor <= end) {
+      result.push(cursor.toISOString().slice(0, 10));
+      cursor.setUTCDate(cursor.getUTCDate() + 1);
+    }
+    return result;
+  })() : [];
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();

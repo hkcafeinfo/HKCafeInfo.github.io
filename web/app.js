@@ -3,11 +3,12 @@
 
   const data = window.MAID_ROSTERS;
   const $ = (id) => document.getElementById(id);
-  const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count") };
+  const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count"), footerVersion: $("footer-version") };
   if (!data || !Array.isArray(data.shops)) {
     nodes.grid.textContent = "讀唔到更表資料，請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
+  if (nodes.footerVersion) nodes.footerVersion.textContent = `資料版本：${data.checked_at || "未標示"}（香港時間）`;
 
   const allDates = [...new Set(data.shops.flatMap((shop) => [
     ...(shop.shifts || []).map((shift) => shift.date),
@@ -270,23 +271,19 @@
     const gap = Number.parseFloat(styles.columnGap || styles.gap) || 0;
     return (first.getBoundingClientRect().width + gap) * 3;
   };
-  let dateScrollTarget = null;
   let dateScrollTimer;
   function scrollDates(direction) {
     const max = Math.max(0, nodes.dates.scrollWidth - nodes.dates.clientWidth);
     const current = Math.min(max, Math.max(0, nodes.dates.scrollLeft));
-    const base = dateScrollTarget == null ? current : Math.min(max, Math.max(0, dateScrollTarget));
-    const target = Math.min(max, Math.max(0, base + direction * dateScrollStep()));
-    if (Math.abs(target - current) < 1 && Math.abs(target - base) < 1) { updateDateScrollButtons(); return; }
-    dateScrollTarget = target;
+    const target = Math.min(max, Math.max(0, current + direction * dateScrollStep()));
+    if (Math.abs(target - current) < 1) { updateDateScrollButtons(); return; }
     nodes.dates.scrollTo({ left: target, behavior: "smooth" });
     updateDateScrollButtons();
     clearTimeout(dateScrollTimer);
-    dateScrollTimer = setTimeout(() => { dateScrollTarget = null; updateDateScrollButtons(); }, 450);
+    dateScrollTimer = setTimeout(updateDateScrollButtons, 450);
   }
   $("date-scroll-prev").addEventListener("click", () => scrollDates(-1));
   $("date-scroll-next").addEventListener("click", () => scrollDates(1));
-  nodes.dates.addEventListener("pointerdown", () => { dateScrollTarget = null; clearTimeout(dateScrollTimer); }, { passive: true });
   nodes.dates.addEventListener("scroll", updateDateScrollButtons, { passive: true });
   window.addEventListener("resize", updateDateScrollButtons);
   nodes.search.addEventListener("input", () => {

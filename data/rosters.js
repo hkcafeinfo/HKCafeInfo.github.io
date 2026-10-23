@@ -1,6 +1,6 @@
 // 由 data/*.csv 產生；修改資料後請執行 python3 產生每日更表.py
 window.MAID_ROSTERS = {
-  "checked_at": "2026-10-22",
+  "checked_at": "2026-10-23",
   "timezone": "Asia/Hong_Kong",
   "shops": [
     {
@@ -264,7 +264,8 @@ window.MAID_ROSTERS = {
               "emon",
               "真奈",
               "Sofu",
-              "冰冰"
+              "冰冰",
+              "維莉"
             ],
             "二期生": [
               "Qubi",
@@ -272,11 +273,19 @@ window.MAID_ROSTERS = {
               "巴龍",
               "Mori",
               "小喬",
-              "千靈"
+              "千靈",
+              "斯洛"
             ]
           },
-          "source": "https://www.instagram.com/astraworkshk/p/Den0uSIxweH/",
-          "event_name": "Maid Academy Reunion SP 當值日"
+          "source": "https://www.instagram.com/astraworkshk/p/Dexlwo4H6G3/",
+          "event_name": "Maid Academy Reunion SP",
+          "alternate_sources": [
+            "https://www.instagram.com/astraworkshk/p/Den0uSIxweH/"
+          ],
+          "person_notes": {
+            "維莉": "追加當值名單；來源為較新公告。",
+            "斯洛": "追加當值名單；來源為較新公告。"
+          }
         },
         {
           "date": "2026-11-03",
@@ -1981,18 +1990,22 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
+          "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
             "https://www.instagram.com/p/DeXFIJ_GRYP/"
           ],
           "person_notes": {
-            "朱古力": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "MIKAN": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "朱古力": "個人時段：17:00-22:00",
+            "MIKAN": "個人時段：17:00-22:00",
             "小犬": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "海藍": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "早早": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "Saki": "本店營業時間為 15:00-22:00；未列明個人時段。"
           },
-          "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
+          "person_times": {
+            "朱古力": "17:00-22:00",
+            "MIKAN": "17:00-22:00"
+          }
         },
         {
           "date": "2026-10-23",
@@ -2035,6 +2048,7 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
+          "event_name": "萌星人IN DEJAVU Part.2",
           "person_notes": {
             "糖糖": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "Mika": "本店營業時間為 15:00-22:00；未列明個人時段。",
@@ -2043,6 +2057,33 @@ window.MAID_ROSTERS = {
             "Kuma": "本店營業時間為 15:00-22:00；未列明個人時段。"
           },
           "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "15:00-22:00",
+          "groups": {
+            "一日限定": [
+              "正子"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/",
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "person_notes": {
+            "正子": "店舖時段；個人時段未公布。"
+          },
+          "notes": "店舖時段；個人時段未公布。"
+        }
+      ],
+      "unresolved": [
+        {
+          "date": "2026-10-30",
+          "reason": "活動日期及名稱已公布，但帖文未列當值名單。",
+          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
+        },
+        {
+          "date": "2026-11-06",
+          "reason": "活動日期及周年主角已公布；尚未找到該日當值名單。",
+          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
         }
       ]
     },
@@ -2219,15 +2260,15 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/_.hilaryowo._/p/DegrlA7E5HU/",
           "event_name": "2026企鵝生誕祭",
           "person_notes": {
-            "panda": "包場活動；店舖常規當值名單未公布。",
-            "孔子": "包場活動；店舖常規當值名單未公布。",
-            "yilam": "包場活動；店舖常規當值名單未公布。",
-            "詩弦": "包場活動；店舖常規當值名單未公布。",
-            "hotori": "包場活動；店舖常規當值名單未公布。",
-            "rina": "包場活動；店舖常規當值名單未公布。",
-            "朱朱": "包場活動；店舖常規當值名單未公布。"
+            "panda": "包場活動。",
+            "孔子": "包場活動。",
+            "yilam": "包場活動。",
+            "詩弦": "包場活動。",
+            "hotori": "包場活動。",
+            "rina": "包場活動。",
+            "朱朱": "包場活動。"
           },
-          "notes": "包場活動；店舖常規當值名單未公布。"
+          "notes": "包場活動。"
         },
         {
           "date": "2026-10-23",
@@ -3504,6 +3545,86 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
           "event_name": "白狐生誕"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "萌え魚",
+              "Snowyyyy",
+              "櫻子"
+            ],
+            "限定居民": [
+              "靚流"
+            ]
+          },
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "茜茜",
+              "大Sakura",
+              "亞也",
+              "飯糰"
+            ],
+            "限定居民": [
+              "Dovi"
+            ]
+          },
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "啫喱魚",
+              "小sakura",
+              "悅夢",
+              "Yua"
+            ]
+          },
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "萌え魚",
+              "バカ猫",
+              "mogu",
+              "奶茶",
+              "海塩"
+            ]
+          },
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
+          "event_name": "禁忌の護士病棟"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "18:00-23:00",
+          "groups": {
+            "出沒居民": [
+              "悅夢",
+              "葉子",
+              "aki",
+              "歪歪"
+            ]
+          },
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
+          "event_name": "百鬼夜行・萬聖之夜"
+        }
+      ],
+      "unresolved": [
+        {
+          "date": "2026-10-29",
+          "reason": "Sun仔生誕已列於月曆，但該日名單標示「待更新」；暫未列當值人員。",
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         }
       ]
     },
@@ -6161,7 +6282,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-19",
-          "hours": "15:00-23:00",
+          "hours": "17:00-23:00",
           "groups": {
             "女僕": [
               "九千",
@@ -9388,7 +9509,7 @@ window.MAID_ROSTERS = {
         "instagram": "https://www.instagram.com/cos_yuki52/",
         "profile_image": "",
         "source": "https://www.instagram.com/agarden_2001/p/DeJ3lD_vlLm/",
-        "person_id": "",
+        "person_id": "P0031",
         "former_handles": []
       },
       "Rinka": {

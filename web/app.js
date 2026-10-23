@@ -164,7 +164,7 @@
       title.append(photo);
     } else title.append(make("span", `shop-icon ${shop.shop.toLowerCase().replace(/[^a-z]+/g, "-")}`, iconText[shop.shop] || "✦"));
     const titleText = make("div");
-    titleText.append(make("span", "shop-label", "SHOP ROSTER"), make("h3", "shop-name", shop.shop));
+    titleText.append(make("h3", "shop-name", shop.shop));
     const shopUrl = HKCI.instagram(shop.profile);
     if (shopUrl) { const ig = make("a", "shop-ig", HKCI.handle(shopUrl)); ig.href = shopUrl; ig.target = "_blank"; ig.rel = "noopener noreferrer"; titleText.append(ig); }
     if (shop.address) titleText.append(make("small", "shop-address", shop.address));

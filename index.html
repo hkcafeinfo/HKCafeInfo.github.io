@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>HKCafeInfo · 香港女僕咖啡店更表</title>
+  <link rel="stylesheet" href="web/style.css?v=20261023-24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <script src="data/rosters.js" defer></script>
+  <script src="web/shared.js?v=20261023-4" defer></script>
+  <script src="web/app.js?v=20261023-8" defer></script>
+  <script src="web/matrix.js?v=20261023-2" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="返回更表首頁"><span class="brand-mark">✦</span><span>HKCafeInfo</span></a>
+      <span class="topbar-note">香港女僕咖啡店更表</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> DAILY ROSTER · HONG KONG MAID CAFE</span>
+          <h1 id="page-title">今日有邊個<span class="title-accent">當值</span>？</h1>
+          <p>將各間店嘅 Instagram 更表放埋一齊。揀日期、搵人名，撳來源就可以核對原帖。</p>
+          <div class="hero-meta">
+            <span id="updated-label">讀取資料中…</span>
+            <span class="meta-divider" aria-hidden="true"></span>
+            <span>時間以香港為準</span>
+          </div>
+        </div>
+        <div class="hero-art hero-logo-collage" id="hero-logos" aria-hidden="true"></div>
+      </section>
+
+      <section class="summary" aria-label="資料概況">
+        <div class="summary-item"><strong id="shop-count">—</strong><span>間店舖</span></div>
+        <div class="summary-item"><strong id="date-count">—</strong><span>個有資料日期</span></div>
+        <div class="summary-item"><strong id="person-count">—</strong><span>筆當值記錄</span></div>
+        <div class="summary-hint"><span class="hint-icon">i</span><span>資料由公開貼文整理，初期人名仍待核對</span></div>
+      </section>
+
+      <div class="content-layout">
+      <aside class="cafe-sidebar" id="cafe-sidebar" aria-labelledby="cafe-sidebar-heading" hidden>
+        <div class="sidebar-heading"><h2 id="cafe-sidebar-heading">選擇店舖</h2><span id="visible-shop-count"></span></div>
+        <p>勾選要放入卡片同總表嘅店舖。</p>
+        <div class="sidebar-actions"><button type="button" id="select-all-shops">全部顯示</button><button type="button" id="select-top-shops">恢復預設</button></div>
+        <div id="cafe-checklist" class="cafe-checklist" role="group" aria-label="選擇顯示店舖"></div>
+      </aside>
+      <div class="content-main">
+      <div class="view-controls">
+        <button id="toggle-cafe-sidebar" class="sidebar-toggle" type="button" aria-controls="cafe-sidebar" aria-expanded="false">☰ 店舖顯示 <span id="sidebar-toggle-count"></span></button>
+        <label class="field search-field global-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋人名及近期當值</span><input id="name-search" type="search" placeholder="搜尋人名，查看所有已收錄當值…" autocomplete="off"></label>
+        <div class="view-switch" role="group" aria-label="選擇顯示方式"><button id="show-cards" type="button" class="view-button" aria-pressed="false">卡片</button><button id="show-matrix" type="button" class="view-button active" aria-pressed="true">列表</button><button id="show-people" type="button" class="view-button" aria-pressed="false">女僕</button></div>
+      </div>
+
+      <section class="roster-section" id="card-view" aria-labelledby="roster-heading">
+        <div class="section-topline"><div><span class="section-kicker">EXPLORE THE SCHEDULE</span><h2 id="roster-heading">每日更表</h2></div><div class="card-range-controls"><label class="field select-field card-range-field"><span class="sr-only">每日更表日期範圍</span><select id="card-date-range"><option value="future">接下來的見面日</option><option value="all">全部更表</option></select><span class="select-arrow" aria-hidden="true">⌄</span></label><span class="result-count" id="result-count"></span></div></div>
+        <div class="date-selector-wrap" id="date-selector-wrap">
+          <div class="date-bar" id="date-bar" role="group" aria-label="選擇日期"></div>
+          <button type="button" class="date-scroll-button date-scroll-prev" id="date-scroll-prev" aria-label="向左捲動日期" title="向左捲動" hidden>‹</button>
+          <button type="button" class="date-scroll-button date-scroll-next" id="date-scroll-next" aria-label="向右捲動日期" title="向右捲動" hidden>›</button>
+        </div>
+        <div class="roster-grid" id="roster-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="people-section" id="people-view" aria-labelledby="people-heading" hidden>
+        <div class="section-topline"><div><span class="section-kicker">PEOPLE DIRECTORY</span><h2 id="people-heading">女僕</h2></div><span class="result-count" id="people-count"></span></div>
+        <p class="people-help">撳人名查看已收錄嘅當值日期同店舖。<button type="button" id="export-feedback">匯出回報 CSV</button></p>
+        <div id="people-list" class="people-list"></div>
+      </section>
+
+      <section class="matrix-section" id="matrix-view" aria-labelledby="matrix-heading" hidden>
+        <div class="section-topline"><div><span class="section-kicker">ALL CAFES · ONE TABLE</span><h2 id="matrix-heading">各店更表</h2></div><span class="result-count" id="matrix-result-count"></span></div>
+        <div class="toolbar">
+          <label class="field select-field range-field"><span class="sr-only">總表日期範圍</span><select id="date-range"><option value="future">接下來的見面日</option><option value="all">全部更表</option></select><span class="select-arrow" aria-hidden="true">⌄</span></label>
+          <button type="button" id="person-back" class="person-back" hidden>← 返回</button>
+        </div>
+        <div class="matrix-toolbar"><div class="axis-switch" role="group" aria-label="總表方向"><button id="dates-across" type="button" class="axis-button active" aria-pressed="true">日期橫排</button><button id="shops-across" type="button" class="axis-button" aria-pressed="false">店舖橫排</button></div><div class="matrix-navigation"><span id="scroll-hint">左右捲動查看更多日期</span><button type="button" id="matrix-prev" aria-label="上一欄">←</button><button type="button" id="matrix-next" aria-label="下一欄">→</button></div></div>
+        <div class="matrix-viewport" id="matrix-viewport" role="region" aria-label="完整更表，可橫向捲動" tabindex="0"><div id="roster-matrix" class="roster-matrix" aria-live="polite"></div></div>
+      </section>
+
+      <p class="roster-disclaimer" aria-label="總表資料說明">資料說明：「未公布名單」代表原帖有提及活動但未列人名；「未找到更表」代表目前未有資料，唔代表店舖休息。營業時間同個別當值時段可能不同，出發前請核對來源貼文。</p>
+      </div></div>
+    </main>
+    <footer><span>HKCafeInfo</span><span>主資料：data/*.csv · 頁面資料：data/rosters.js</span></footer>
+  </div>
+</body>
+</html>

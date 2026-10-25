@@ -3387,6 +3387,145 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "卡路里"
+            ],
+            "Maid": [
+              "月牙",
+              "天使"
+            ],
+            "Pirate Maid": [
+              "Akita",
+              "セレナ",
+              "Haka"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "咩咩"
+            ],
+            "Maid": [
+              "月牙"
+            ],
+            "Pirate Maid": [
+              "セレナ",
+              "Yuki",
+              "Mirei"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "Mizuka",
+              "Teo"
+            ],
+            "Maid": [
+              "幽靈",
+              "Reii"
+            ],
+            "Pirate Maid": [
+              "セレナ"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "照美"
+            ],
+            "Maid": [
+              "月牙",
+              "小瑤",
+              "幽靈"
+            ],
+            "Pirate Maid": [
+              "小睡"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "晴兒",
+              "Amy",
+              "Reii",
+              "Soso"
+            ],
+            "Pirate Maid": [
+              "Haka"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "Sumiyo"
+            ],
+            "Maid": [
+              "幽靈"
+            ],
+            "Pirate Maid": [
+              "Mirei",
+              "Yuki"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "18:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "Amy",
+              "晴兒",
+              "茶茶",
+              "月牙",
+              "小葵",
+              "YUKI",
+              "天使",
+              "Yukina"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+          "event_name": "純情女鬼萬聖夜"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "18:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "Amy",
+              "月牙",
+              "茶茶",
+              "Serena",
+              "浠浠"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+          "event_name": "受傷的AV女優"
         }
       ],
       "unresolved": [

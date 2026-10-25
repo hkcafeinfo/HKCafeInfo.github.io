@@ -15,138 +15,56 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-19",
-          "hours": "17:00-22:00",
-          "groups": {
-            "學生會幹部": [
-              "Haruka"
-            ],
-            "學生會": [
-              "Qubi",
-              "YY",
-              "小六",
-              "Mahiru",
-              "斯洛"
-            ],
-            "女僕研習生": [
-              "Yoku",
-              "Hakuno",
-              "瑠貓"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "學生會幹部": [
-              "Domo魚",
-              "Kokona"
-            ],
-            "學生會": [
-              "Kiu",
-              "冬瓜",
-              "小六"
-            ],
-            "女僕研習生": [
-              "Yoku"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "學生會": [
-              "YY",
-              "小六",
-              "斯洛"
-            ],
-            "女僕研習生": [
-              "Hani",
-              "Yoku",
-              "Koa",
-              "悠悠",
-              "小酒"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-22:00",
-          "groups": {
-            "學生會幹部": [
-              "Mori"
-            ],
-            "學生會": [
-              "Kiu",
-              "冬瓜",
-              "YY",
-              "小六",
-              "Miya"
-            ],
-            "女僕研習生": [
-              "Yoku",
-              "Yoru",
-              "Ayana"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
-        },
-        {
-          "date": "2026-10-25",
-          "hours": "17:00-22:00",
-          "groups": {
-            "學生會": [
-              "小六"
-            ],
-            "女僕研習生": [
-              "風花",
-              "ゆこ",
-              "瑠貓"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
-        },
-        {
           "date": "2026-10-12",
           "hours": "17:00-22:00",
           "groups": {
-            "學生會幹部": [
-              "Kokona",
-              "Domo魚",
-              "Mori"
-            ],
             "女僕研習生": [
               "YY",
               "靈兒"
+            ],
+            "學生會幹部": [
+              "Domo魚",
+              "Kokona",
+              "Mori"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
         {
+          "date": "2026-10-13",
+          "hours": "18:00-23:00",
+          "groups": {
+            "活動出席花嫁": [
+              "akana",
+              "chika",
+              "domo",
+              "kanon",
+              "kokona",
+              "rena",
+              "soy",
+              "千羽",
+              "小蚊",
+              "笛子"
+            ]
+          },
+          "source": "https://www.instagram.com/p/DeEjkdeTPsZ/",
+          "event_name": "地獄の結婚式💍運命の赤い糸🩸"
+        },
+        {
           "date": "2026-10-14",
           "hours": "17:00-22:00",
           "groups": {
-            "學生會幹部": [
-              "Mori"
-            ],
             "女僕研習生": [
-              "Yoku",
               "Qb",
               "YY",
+              "Yoku",
               "Yoru",
-              "瑠貓",
-              "小六"
+              "小六",
+              "瑠貓"
+            ],
+            "學生會幹部": [
+              "Mori"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -156,19 +74,19 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "17:00-22:00",
           "groups": {
-            "學生會幹部": [
-              "Kokona",
-              "Domo魚"
-            ],
             "女僕研習生": [
-              "冬瓜",
-              "阿毛",
+              "Ayana",
+              "Miya",
               "YY",
               "Yoku",
-              "靈兒",
+              "冬瓜",
               "真奈",
-              "Miya",
-              "Ayana"
+              "阿毛",
+              "靈兒"
+            ],
+            "學生會幹部": [
+              "Domo魚",
+              "Kokona"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -178,18 +96,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "17:00-22:00",
           "groups": {
-            "學生會幹部": [
-              "Haruka"
-            ],
             "女僕研習生": [
-              "Kora",
               "Kiu",
+              "Kora",
               "Saki",
               "YY",
               "Yoku",
               "小六",
-              "悠悠",
-              "小酒"
+              "小酒",
+              "悠悠"
+            ],
+            "學生會幹部": [
+              "Haruka"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -199,16 +117,79 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "17:00-22:00",
           "groups": {
+            "女僕研習生": [
+              "Ayana",
+              "小六",
+              "瑠貓"
+            ],
             "學生會幹部": [
               "Mori"
-            ],
-            "女僕研習生": [
-              "小六",
-              "Ayana",
-              "瑠貓"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-10-19",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕研習生": [
+              "Hakuno",
+              "Yoku",
+              "瑠貓"
+            ],
+            "學生會": [
+              "Mahiru",
+              "Qubi",
+              "YY",
+              "小六",
+              "斯洛"
+            ],
+            "學生會幹部": [
+              "Haruka"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕研習生": [
+              "Yoku"
+            ],
+            "學生會": [
+              "Kiu",
+              "冬瓜",
+              "小六"
+            ],
+            "學生會幹部": [
+              "Domo魚",
+              "Kokona"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕研習生": [
+              "Hani",
+              "Koa",
+              "Yoku",
+              "小酒",
+              "悠悠"
+            ],
+            "學生會": [
+              "YY",
+              "小六",
+              "斯洛"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周"
         },
         {
@@ -216,37 +197,105 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "私人活動嘉賓": [
-              "桃井プイ",
               "501小白",
-              "あかな",
               "Mori",
-              "冬瓜",
-              "はるか",
+              "Natsumi",
+              "あかな",
               "ども",
-              "笛子",
-              "Natsumi"
+              "はるか",
+              "冬瓜",
+              "桃井プイ",
+              "笛子"
             ]
           },
           "source": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/",
           "event_name": "一泊ですけど、服はこれだけですか？"
         },
         {
+          "date": "2026-10-23",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕研習生": [
+              "Ayana",
+              "Yoku",
+              "Yoru"
+            ],
+            "學生會": [
+              "Kiu",
+              "Miya",
+              "YY",
+              "冬瓜",
+              "小六"
+            ],
+            "學生會幹部": [
+              "Mori"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "16:00-22:00",
+          "groups": {
+            "生誕主角": [
+              "Rainy"
+            ],
+            "邀請嘉賓": [
+              "Bby",
+              "Ikuya",
+              "小泉",
+              "津津",
+              "薑餅",
+              "藍可奇"
+            ]
+          },
+          "source": "https://www.instagram.com/p/DeGwbs4vVIy/",
+          "event_name": "Rainy 生誕祭",
+          "person_notes": {
+            "Rainy": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "Bby": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "Ikuya": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "小泉": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "津津": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "薑餅": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
+            "藍可奇": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。"
+          },
+          "notes": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕研習生": [
+              "ゆこ",
+              "瑠貓",
+              "風花"
+            ],
+            "學生會": [
+              "小六"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
+          "event_name": "Halloween活動周"
+        },
+        {
           "date": "2026-10-27",
           "hours": "17:00-22:00",
           "groups": {
             "活動嘉賓": [
-              "冬瓜",
-              "Koharu",
               "Hani",
-              "津",
+              "Ichiri",
+              "Koharu",
               "Kuma",
-              "小蚊",
               "Nemui",
               "七月",
-              "茶鬼",
+              "冬瓜",
+              "冰冰",
+              "小蚊",
+              "津",
               "牙毛",
-              "Ichiri",
-              "冰冰"
+              "茶鬼"
             ]
           },
           "source": "https://www.instagram.com/amai_kumo._/p/DebN43Ombo1/",
@@ -260,21 +309,21 @@ window.MAID_ROSTERS = {
           "hours": "16:00-22:00",
           "groups": {
             "一期生": [
-              "向日葵",
-              "emon",
-              "真奈",
               "Sofu",
+              "emon",
               "冰冰",
+              "向日葵",
+              "真奈",
               "維莉"
             ],
             "二期生": [
-              "Qubi",
-              "芊月",
-              "巴龍",
               "Mori",
-              "小喬",
+              "Qubi",
               "千靈",
-              "斯洛"
+              "小喬",
+              "巴龍",
+              "斯洛",
+              "芊月"
             ]
           },
           "source": "https://www.instagram.com/astraworkshk/p/Dexlwo4H6G3/",
@@ -292,68 +341,19 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "活動嘉賓": [
-              "Kiu",
-              "Ice",
-              "Bottle",
-              "Shiro",
-              "Nagisa",
-              "Fuyuki",
-              "Sayu",
               "Azusa",
-              "Haruka"
+              "Bottle",
+              "Fuyuki",
+              "Haruka",
+              "Ice",
+              "Kiu",
+              "Nagisa",
+              "Sayu",
+              "Shiro"
             ]
           },
           "source": "https://www.instagram.com/ft1me.act/p/DeZiG1jvEGk/",
           "event_name": "Kiu 女僕五周年紀念活動《修女x悪魔》"
-        },
-        {
-          "date": "2026-10-13",
-          "hours": "18:00-23:00",
-          "groups": {
-            "活動出席花嫁": [
-              "domo",
-              "kokona",
-              "chika",
-              "akana",
-              "kanon",
-              "rena",
-              "soy",
-              "小蚊",
-              "笛子",
-              "千羽"
-            ]
-          },
-          "source": "https://www.instagram.com/p/DeEjkdeTPsZ/",
-          "event_name": "地獄の結婚式💍運命の赤い糸🩸"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "16:00-22:00",
-          "groups": {
-            "生誕主角": [
-              "Rainy"
-            ],
-            "邀請嘉賓": [
-              "薑餅",
-              "藍可奇",
-              "小泉",
-              "Ikuya",
-              "Bby",
-              "津津"
-            ]
-          },
-          "source": "https://www.instagram.com/p/DeGwbs4vVIy/",
-          "event_name": "Rainy 生誕祭",
-          "person_notes": {
-            "Rainy": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "薑餅": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "藍可奇": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "小泉": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "Ikuya": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "Bby": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。",
-            "津津": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。"
-          },
-          "notes": "活動上場 16:00-19:00、下場 19:00-22:00；個別嘉賓參與場次未列明。"
         }
       ],
       "unresolved": [
@@ -376,144 +376,17 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-19",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定護士": [
-              "小鉛梓",
-              "AME",
-              "AYU"
-            ],
-            "當值護士": [
-              "BIBI",
-              "蚊蚊",
-              "笛子",
-              "棉花"
-            ],
-            "新生護士": [
-              "什幽",
-              "MOKA",
-              "機8喵",
-              "彌亞"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值護士": [
-              "柔柔",
-              "RAKU",
-              "星星",
-              "毛毛"
-            ],
-            "新生護士": [
-              "乳酪",
-              "地鼠",
-              "小丸",
-              "彌亞"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值護士": [
-              "BIBI",
-              "棉花",
-              "蜜蜜",
-              "心心",
-              "毛毛"
-            ],
-            "新生護士": [
-              "MOKA",
-              "CREAM",
-              "地鼠",
-              "小丸"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值護士": [
-              "MIYA"
-            ],
-            "新生護士": [
-              "桃奈",
-              "乳酪",
-              "CREAM",
-              "地鼠"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-23:00",
-          "groups": {
-            "限定護士": [
-              "咲月",
-              "小欣"
-            ],
-            "當值護士": [
-              "心心",
-              "笛子",
-              "MIYABI",
-              "企鵝",
-              "小堇"
-            ],
-            "新生護士": [
-              "綠茶",
-              "LILY",
-              "DORA"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "15:00-23:00",
-          "groups": {
-            "限定護士": [
-              "MIDORIN",
-              "WIFI",
-              "懵"
-            ],
-            "當值護士": [
-              "小蚊",
-              "蚊蚊",
-              "心心",
-              "笛子",
-              "喵璃"
-            ],
-            "新生護士": [
-              "YUZU",
-              "阿敏",
-              "布布"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
-          "event_name": "Yuzu Birthday Party"
-        },
-        {
           "date": "2026-10-12",
           "hours": "17:00-22:00",
           "groups": {
-            "當值護士": [
-              "星星",
-              "棉花"
-            ],
             "新生護士": [
               "Moka",
               "小丸",
               "彌亞"
+            ],
+            "當值護士": [
+              "星星",
+              "棉花"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -522,20 +395,20 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "17:00-22:00",
           "groups": {
-            "限定護士": [
-              "Saaya"
+            "新生護士": [
+              "地鼠",
+              "彌亞",
+              "桃奈"
             ],
             "當值護士": [
-              "Rubi",
               "Miya",
-              "柔柔",
               "Raku",
+              "Rubi",
+              "柔柔",
               "棉花"
             ],
-            "新生護士": [
-              "桃奈",
-              "地鼠",
-              "彌亞"
+            "限定護士": [
+              "Saaya"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -544,24 +417,24 @@ window.MAID_ROSTERS = {
           "date": "2026-10-14",
           "hours": "17:00-22:00",
           "groups": {
-            "限定護士": [
-              "Chocolate"
+            "新生護士": [
+              "Cream",
+              "Moka",
+              "乳酪",
+              "什幽",
+              "地鼠",
+              "小丸",
+              "桃奈"
             ],
             "當值護士": [
               "Miya",
               "小堇",
-              "笛子",
               "心心",
-              "棉花"
+              "棉花",
+              "笛子"
             ],
-            "新生護士": [
-              "Moka",
-              "什幽",
-              "Cream",
-              "桃奈",
-              "小丸",
-              "地鼠",
-              "乳酪"
+            "限定護士": [
+              "Chocolate"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -570,15 +443,15 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "hours": "17:00-22:00",
           "groups": {
-            "當值護士": [
-              "柔柔",
-              "企鵝",
-              "毛毛",
-              "Lia",
-              "Tia"
-            ],
             "新生護士": [
               "露露"
+            ],
+            "當值護士": [
+              "Lia",
+              "Tia",
+              "企鵝",
+              "柔柔",
+              "毛毛"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -587,22 +460,22 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "17:00-23:00",
           "groups": {
-            "限定護士": [
-              "阿月",
-              "相沫"
+            "新生護士": [
+              "千羽",
+              "堯堯",
+              "悠依",
+              "桃奈"
             ],
             "當值護士": [
+              "Raku",
+              "小蚊",
               "棉花",
               "笛子",
-              "小蚊",
-              "蚊蚊",
-              "Raku"
+              "蚊蚊"
             ],
-            "新生護士": [
-              "桃奈",
-              "千羽",
-              "悠依",
-              "堯堯"
+            "限定護士": [
+              "相沫",
+              "阿月"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
@@ -612,24 +485,24 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "15:00-23:00",
           "groups": {
-            "限定護士": [
-              "Julie",
-              "Ame",
-              "Haru",
-              "Haruna"
+            "新生護士": [
+              "Cream",
+              "Ikuya",
+              "堯堯"
             ],
             "當值護士": [
+              "Bonnie",
+              "Qquie",
               "小堇",
               "小蚊",
-              "蚊蚊",
-              "Qquie",
-              "Bonnie",
-              "棉花"
+              "棉花",
+              "蚊蚊"
             ],
-            "新生護士": [
-              "Ikuya",
-              "堯堯",
-              "Cream"
+            "限定護士": [
+              "Ame",
+              "Haru",
+              "Haruna",
+              "Julie"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
@@ -639,64 +512,152 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "15:00-23:00",
           "groups": {
+            "新生護士": [
+              "Moka",
+              "小嘉",
+              "川"
+            ],
             "當值護士": [
               "Bibi",
               "Miya",
-              "蚊蚊",
-              "笛子",
               "喵璃",
-              "星星",
               "心心",
-              "棉花"
-            ],
-            "新生護士": [
-              "小嘉",
-              "川",
-              "Moka"
+              "星星",
+              "棉花",
+              "笛子",
+              "蚊蚊"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
-          "date": "2026-10-30",
-          "hours": "17:00-23:00",
+          "date": "2026-10-19",
+          "hours": "17:00-22:00",
           "groups": {
-            "限定護士": [
-              "Mirai",
-              "Miyuki",
-              "Noki",
-              "Shiori"
+            "新生護士": [
+              "MOKA",
+              "什幽",
+              "彌亞",
+              "機8喵"
             ],
             "當值護士": [
-              "Rinki",
-              "Hikaru",
-              "Bibi",
+              "BIBI",
+              "棉花",
+              "笛子",
               "蚊蚊"
             ],
-            "新生護士": [
-              "Yaki",
-              "Hana"
+            "限定護士": [
+              "AME",
+              "AYU",
+              "小鉛梓"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DerExwivM0i/",
-          "event_name": "Rinki 誕生祭2026"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
         },
         {
-          "date": "2026-11-07",
-          "hours": "15:00-23:00",
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
           "groups": {
-            "生誕嘉賓": [
-              "@candy_pang",
-              "@ch_afork_tsz",
-              "@cotton_ouo2",
-              "@la.ra.lara",
-              "@leomangojaii",
-              "@manju_alive",
-              "@j.y.w.t"
+            "新生護士": [
+              "乳酪",
+              "地鼠",
+              "小丸",
+              "彌亞"
+            ],
+            "當值護士": [
+              "RAKU",
+              "星星",
+              "柔柔",
+              "毛毛"
             ]
           },
-          "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
-          "event_name": "羊誕祭"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "新生護士": [
+              "CREAM",
+              "MOKA",
+              "地鼠",
+              "小丸"
+            ],
+            "當值護士": [
+              "BIBI",
+              "心心",
+              "棉花",
+              "毛毛",
+              "蜜蜜"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "17:00-22:00",
+          "groups": {
+            "新生護士": [
+              "CREAM",
+              "乳酪",
+              "地鼠",
+              "桃奈"
+            ],
+            "當值護士": [
+              "MIYA"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "17:00-23:00",
+          "groups": {
+            "新生護士": [
+              "DORA",
+              "LILY",
+              "綠茶"
+            ],
+            "當值護士": [
+              "MIYABI",
+              "企鵝",
+              "小堇",
+              "心心",
+              "笛子"
+            ],
+            "限定護士": [
+              "咲月",
+              "小欣"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "15:00-23:00",
+          "groups": {
+            "新生護士": [
+              "YUZU",
+              "布布",
+              "阿敏"
+            ],
+            "當值護士": [
+              "小蚊",
+              "心心",
+              "笛子",
+              "蚊蚊"
+            ],
+            "限定護士": [
+              "MIDORIN",
+              "WIFI",
+              "懵"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/",
+          "event_name": "Yuzu Birthday Party",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          ]
         },
         {
           "date": "2026-10-25",
@@ -706,56 +667,97 @@ window.MAID_ROSTERS = {
               "棉花"
             ],
             "生誕嘉賓": [
-              "Tio",
-              "蚊蚊",
-              "可奇",
-              "小蚊",
               "Ikuya",
-              "yaya",
-              "笛子",
+              "Rubi",
+              "Tio",
               "bibi",
               "mikari",
+              "yaya",
+              "可奇",
               "小堇",
-              "Rubi"
+              "小蚊",
+              "笛子",
+              "蚊蚊"
             ]
           },
           "source": "https://www.instagram.com/p/DenulJZTRbI/",
           "event_name": "棉花2026誕生祭・西方世界"
         },
         {
+          "date": "2026-10-30",
+          "hours": "17:00-23:00",
+          "groups": {
+            "新生護士": [
+              "Hana",
+              "Yaki"
+            ],
+            "當值護士": [
+              "Bibi",
+              "Hikaru",
+              "Rinki",
+              "蚊蚊"
+            ],
+            "限定護士": [
+              "Mirai",
+              "Miyuki",
+              "Noki",
+              "Shiori"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_clinic/p/DerExwivM0i/",
+          "event_name": "Rinki 誕生祭2026"
+        },
+        {
           "date": "2026-11-01",
           "hours": "15:00-23:00",
           "groups": {
-            "限定護士": [
-              "Saaya",
-              "Ruri",
-              "Kuma"
-            ],
-            "當值護士": [
-              "Rubi",
-              "蚊蚊",
-              "棉花",
-              "笛子",
-              "Miyabi"
-            ],
             "新生護士": [
               "Moka"
+            ],
+            "當值護士": [
+              "Miyabi",
+              "Rubi",
+              "棉花",
+              "笛子",
+              "蚊蚊"
+            ],
+            "限定護士": [
+              "Kuma",
+              "Ruri",
+              "Saaya"
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/De4UBd3Nb90/",
           "event_name": "Rubi誕生祭2026",
           "person_notes": {
-            "Saaya": "此為店舖治療時間；個人時段未另行列明。",
-            "Ruri": "此為店舖治療時間；個人時段未另行列明。",
-            "Kuma": "此為店舖治療時間；個人時段未另行列明。",
+            "Moka": "此為店舖治療時間；個人時段未另行列明。",
+            "Miyabi": "此為店舖治療時間；個人時段未另行列明。",
             "Rubi": "此為店舖治療時間；個人時段未另行列明。",
-            "蚊蚊": "此為店舖治療時間；個人時段未另行列明。",
             "棉花": "此為店舖治療時間；個人時段未另行列明。",
             "笛子": "此為店舖治療時間；個人時段未另行列明。",
-            "Miyabi": "此為店舖治療時間；個人時段未另行列明。",
-            "Moka": "此為店舖治療時間；個人時段未另行列明。"
+            "蚊蚊": "此為店舖治療時間；個人時段未另行列明。",
+            "Kuma": "此為店舖治療時間；個人時段未另行列明。",
+            "Ruri": "此為店舖治療時間；個人時段未另行列明。",
+            "Saaya": "此為店舖治療時間；個人時段未另行列明。"
           },
           "notes": "此為店舖治療時間；個人時段未另行列明。"
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "15:00-23:00",
+          "groups": {
+            "生誕嘉賓": [
+              "@candy_pang",
+              "@ch_afork_tsz",
+              "@cotton_ouo2",
+              "@j.y.w.t",
+              "@la.ra.lara",
+              "@leomangojaii",
+              "@manju_alive"
+            ]
+          },
+          "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
+          "event_name": "羊誕祭"
         }
       ]
     },
@@ -771,75 +773,26 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-29",
-          "hours": "18:00-00:30",
-          "groups": {
-            "值班醫護": [
-              "Itsu",
-              "Sai",
-              "Mugi",
-              "Natsumi",
-              "@night_0v0_",
-              "Uka",
-              "Sayori"
-            ]
-          },
-          "source": "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/",
-          "event_name": "ELYSIUM ASYLUM : PATIENT ADMISSION",
-          "person_notes": {
-            "Itsu": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Sai": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Mugi": "個人時段：18:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Natsumi": "個人時段：19:30-00:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "@night_0v0_": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Uka": "個人時段：20:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Sayori": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。"
-          },
-          "person_times": {
-            "Itsu": "18:00-23:00",
-            "Sai": "19:00-00:30",
-            "Mugi": "18:00-00:30",
-            "Natsumi": "19:30-00:00",
-            "@night_0v0_": "19:00-00:30",
-            "Uka": "20:00-00:30",
-            "Sayori": "18:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "18:00-23:00",
-          "groups": {
-            "限定修女": [
-              "真奈"
-            ]
-          },
-          "source": "https://www.instagram.com/elysium.cafe21/p/Detk-lkCjyq/",
-          "person_notes": {
-            "真奈": "只公布限定修女，未見全店當值名單。"
-          },
-          "notes": "只公布限定修女，未見全店當值名單。"
-        },
-        {
           "date": "2026-10-12",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "Momoki"
-            ],
-            "正式修女": [
-              "Sake"
+            "一日限定": [
+              "Kuro"
             ],
             "實習修女": [
               "てお"
             ],
-            "限定修女": [
-              "笛子"
-            ],
             "廚娘": [
               "Isako"
             ],
-            "一日限定": [
-              "Kuro"
+            "正式修女": [
+              "Sake"
+            ],
+            "資深修女": [
+              "Momoki"
+            ],
+            "限定修女": [
+              "笛子"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
@@ -848,21 +801,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "Nezumi鼠"
-            ],
-            "正式修士": [
-              "梓叔"
+            "一日限定": [
+              "冬瓜"
             ],
             "實習修女": [
               "Riki"
             ],
-            "限定修女": [
-              "芯宇",
-              "Sirius"
+            "正式修士": [
+              "梓叔"
             ],
-            "一日限定": [
-              "冬瓜"
+            "資深修女": [
+              "Nezumi鼠"
+            ],
+            "限定修女": [
+              "Sirius",
+              "芯宇"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
@@ -871,18 +824,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-14",
           "hours": "18:00-00:30",
           "groups": {
+            "實習修女": [
+              "Hina"
+            ],
+            "廚娘": [
+              "Isako"
+            ],
             "資深修女": [
               "NØNNØ",
               "ムギ"
             ],
-            "實習修女": [
-              "Hina"
-            ],
             "限定修女": [
               "小喬"
-            ],
-            "廚娘": [
-              "Isako"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
@@ -891,21 +844,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修士": [
-              "千秋"
+            "實習修女": [
+              "Riki"
+            ],
+            "廚娘": [
+              "NØNNØ"
             ],
             "正式修女": [
               "Nekona"
             ],
-            "實習修女": [
-              "Riki"
+            "資深修士": [
+              "千秋"
             ],
             "限定修士": [
-              "白菜",
-              "Luna"
-            ],
-            "廚娘": [
-              "NØNNØ"
+              "Luna",
+              "白菜"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
@@ -914,17 +867,17 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "18:00-01:30",
           "groups": {
-            "資深修女": [
-              "雪喵",
-              "Momoki",
-              "小奈"
-            ],
-            "限定修女": [
-              "零治",
-              "詩雨"
-            ],
             "廚娘": [
               "Isako"
+            ],
+            "資深修女": [
+              "Momoki",
+              "小奈",
+              "雪喵"
+            ],
+            "限定修女": [
+              "詩雨",
+              "零治"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
@@ -933,18 +886,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "18:00-01:30",
           "groups": {
-            "資深修女": [
-              "雪喵"
-            ],
             "實習修女": [
               "Riki"
+            ],
+            "廚娘": [
+              "小奈"
+            ],
+            "資深修女": [
+              "雪喵"
             ],
             "限定修女": [
               "Miru",
               "落星"
-            ],
-            "廚娘": [
-              "小奈"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
@@ -953,21 +906,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "安晚",
-              "艾歌",
-              "紗璉"
+            "廚娘": [
+              "布丁"
             ],
             "正式修士": [
               "Toto"
             ],
-            "限定修女": [
-              "Rei",
-              "Megu",
-              "Nami"
+            "資深修女": [
+              "安晚",
+              "紗璉",
+              "艾歌"
             ],
-            "廚娘": [
-              "布丁"
+            "限定修女": [
+              "Megu",
+              "Nami",
+              "Rei"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
@@ -976,16 +929,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-19",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "Momoki",
-              "Mizuka"
-            ],
             "實習修女": [
               "Hina"
             ],
+            "資深修女": [
+              "Mizuka",
+              "Momoki"
+            ],
             "限定修女": [
-              "TNT",
-              "Haruna"
+              "Haruna",
+              "TNT"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -997,18 +950,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-20",
           "hours": "18:00-00:30",
           "groups": {
+            "廚娘": [
+              "NØNNØ"
+            ],
+            "正式修女": [
+              "Cheese",
+              "Raku"
+            ],
             "資深修女": [
               "裘裘"
             ],
-            "正式修女": [
-              "Raku",
-              "Cheese"
-            ],
             "限定修士": [
               "Moa"
-            ],
-            "廚娘": [
-              "NØNNØ"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -1020,19 +973,19 @@ window.MAID_ROSTERS = {
           "date": "2026-10-21",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "Nezumi鼠",
-              "Mizuka"
+            "廚娘": [
+              "NØNNØ"
             ],
             "正式修女": [
               "黑井"
             ],
-            "限定修女": [
-              "Reii",
-              "Julie"
+            "資深修女": [
+              "Mizuka",
+              "Nezumi鼠"
             ],
-            "廚娘": [
-              "NØNNØ"
+            "限定修女": [
+              "Julie",
+              "Reii"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
@@ -1041,19 +994,19 @@ window.MAID_ROSTERS = {
           "date": "2026-10-22",
           "hours": "18:00-00:30",
           "groups": {
-            "資深修女": [
-              "ムギ",
-              "Momoki"
+            "廚娘": [
+              "NØNNØ"
             ],
             "正式修女": [
               "Raku"
             ],
+            "資深修女": [
+              "Momoki",
+              "ムギ"
+            ],
             "限定修女": [
               "YY",
               "柔柔"
-            ],
-            "廚娘": [
-              "NØNNØ"
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -1062,39 +1015,244 @@ window.MAID_ROSTERS = {
           ]
         },
         {
+          "date": "2026-10-23",
+          "hours": "18:00-01:30",
+          "groups": {
+            "廚娘": [
+              "Isako"
+            ],
+            "資深修士": [
+              "千秋"
+            ],
+            "資深修女": [
+              "Nazuna",
+              "NØNNØ"
+            ],
+            "限定修女": [
+              "真奈"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/Detk-lkCjyq/"
+          ],
+          "person_notes": {
+            "真奈": "個人時段：18:00-23:00；週表列明全店名單，限定修女真奈另有個別公告。"
+          },
+          "person_times": {
+            "真奈": "18:00-23:00"
+          }
+        },
+        {
           "date": "2026-10-24",
           "hours": "17:00-01:30",
           "groups": {
+            "廚娘": [
+              "Isako"
+            ],
             "活動出席人員": [
-              "梓叔",
-              "Toto",
-              "紗璉",
-              "安晚",
-              "Sai",
               "Ina",
-              "篠原紗縁"
+              "Sai",
+              "Toto",
+              "安晚",
+              "梓叔",
+              "篠原紗縁",
+              "紗璉"
             ]
           },
           "source": "https://www.instagram.com/un.cle_/p/DeWtZTnAW_l/",
           "event_name": "梓叔入院一週年·スイーツ天国",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          ],
           "person_notes": {
-            "梓叔": "個人時段：18:00-01:30；個別時段按活動帖。",
-            "Toto": "個人時段：18:00-01:30；個別時段按活動帖。",
-            "紗璉": "個人時段：18:00-01:30；個別時段按活動帖。",
-            "安晚": "個人時段：19:00-01:30；個別時段按活動帖。",
-            "Sai": "個人時段：19:00-01:30；個別時段按活動帖。",
             "Ina": "個人時段：18:00-23:00；個別時段按活動帖。",
-            "篠原紗縁": "個人時段：18:00-23:00；個別時段按活動帖。"
+            "Sai": "個人時段：19:00-01:30；個別時段按活動帖。",
+            "Toto": "個人時段：18:00-01:30；個別時段按活動帖。",
+            "安晚": "個人時段：19:00-01:30；個別時段按活動帖。",
+            "梓叔": "個人時段：18:00-01:30；個別時段按活動帖。",
+            "篠原紗縁": "個人時段：18:00-23:00；個別時段按活動帖。",
+            "紗璉": "個人時段：18:00-01:30；個別時段按活動帖。"
           },
           "person_times": {
-            "梓叔": "18:00-01:30",
-            "Toto": "18:00-01:30",
-            "紗璉": "18:00-01:30",
-            "安晚": "19:00-01:30",
-            "Sai": "19:00-01:30",
             "Ina": "18:00-23:00",
-            "篠原紗縁": "18:00-23:00"
+            "Sai": "19:00-01:30",
+            "Toto": "18:00-01:30",
+            "安晚": "19:00-01:30",
+            "梓叔": "18:00-01:30",
+            "篠原紗縁": "18:00-23:00",
+            "紗璉": "18:00-01:30"
           }
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "18:00-00:30",
+          "groups": {
+            "實習修女": [
+              "めめ"
+            ],
+            "廚娘": [
+              "布丁"
+            ],
+            "資深修女": [
+              "Nezumi鼠",
+              "ムギ"
+            ],
+            "限定修女": [
+              "詩弦"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "18:00-00:30",
+          "groups": {
+            "廚娘": [
+              "NØNNØ"
+            ],
+            "正式修女": [
+              "提提"
+            ],
+            "資深修女": [
+              "裘裘",
+              "雪喵"
+            ],
+            "限定修女": [
+              "NingNing",
+              "YK"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "18:00-00:30",
+          "groups": {
+            "廚娘": [
+              "Isako"
+            ],
+            "正式修士": [
+              "梓叔"
+            ],
+            "正式修女": [
+              "黑井"
+            ],
+            "資深修女": [
+              "NØNNØ"
+            ],
+            "限定修士": [
+              "風藍"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "18:00-00:30",
+          "groups": {
+            "實習修士": [
+              "Yukimi"
+            ],
+            "廚娘": [
+              "NØNNØ"
+            ],
+            "資深修士": [
+              "千秋"
+            ],
+            "資深修女": [
+              "小奈"
+            ],
+            "限定修女": [
+              "Kola",
+              "藍南",
+              "鏡雨"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "18:00-00:30",
+          "groups": {
+            "值班醫護": [
+              "@night_0v0_",
+              "Itsu",
+              "Mugi",
+              "Natsumi",
+              "Sai",
+              "Sayori",
+              "Uka"
+            ]
+          },
+          "source": "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/",
+          "event_name": "ELYSIUM ASYLUM : PATIENT ADMISSION",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          ],
+          "person_notes": {
+            "@night_0v0_": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Itsu": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Mugi": "個人時段：18:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Natsumi": "個人時段：19:30-00:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Sai": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Sayori": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "Uka": "個人時段：20:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。"
+          },
+          "person_times": {
+            "@night_0v0_": "19:00-00:30",
+            "Itsu": "18:00-23:00",
+            "Mugi": "18:00-00:30",
+            "Natsumi": "19:30-00:00",
+            "Sai": "19:00-00:30",
+            "Sayori": "18:00-23:00",
+            "Uka": "20:00-00:30"
+          }
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "18:00-01:30",
+          "groups": {
+            "實習修女": [
+              "てお"
+            ],
+            "廚娘": [
+              "Isako"
+            ],
+            "正式修女": [
+              "Mio"
+            ],
+            "資深修女": [
+              "NØNNØ"
+            ],
+            "限定修女": [
+              "Haruna"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "18:00-01:30",
+          "groups": {
+            "實習修女": [
+              "Riki"
+            ],
+            "廚娘": [
+              "小奈"
+            ],
+            "正式修女": [
+              "Cheese"
+            ],
+            "資深修女": [
+              "Mizuka"
+            ],
+            "限定修女": [
+              "Miru",
+              "月月"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
         }
       ]
     },
@@ -1110,220 +1268,26 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-25",
-          "hours": "15:00-23:00",
-          "groups": {
-            "當日出席精靈": [
-              "托比",
-              "Szyiu",
-              "Hami",
-              "鴨鴨",
-              "絲",
-              "Akari",
-              "okk",
-              "奶昔",
-              "RINKA",
-              "Uri",
-              "幼幼",
-              "水母",
-              "Lori",
-              "Cherry",
-              "昭子",
-              "蛋蛋",
-              "豆豆",
-              "Sumire"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Deb9qwvDx7N/",
-          "event_name": "AG 1st Anniversary × Upper Mansion：Dark Elegance 哥德夢幻週年派對",
-          "person_notes": {
-            "托比": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Szyiu": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Hami": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "鴨鴨": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "絲": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Akari": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "okk": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "奶昔": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "RINKA": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Uri": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "幼幼": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "水母": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Lori": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Cherry": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "昭子": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "蛋蛋": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "豆豆": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Sumire": "活動帖列出當日出席精靈；未逐人列明完整更期。"
-          },
-          "notes": "活動帖列出當日出席精靈；未逐人列明完整更期。"
-        },
-        {
-          "date": "2026-10-19",
-          "hours": "15:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "Toua",
-              "碌柚葉"
-            ],
-            "當值精靈": [
-              "鴨鴨",
-              "P4",
-              "Sumire",
-              "千暮雪",
-              "細rinka",
-              "貓貓",
-              "Aiya"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "奶昔",
-              "Rinka",
-              "阿月",
-              "Aya",
-              "小睡",
-              "麻糬",
-              "suu",
-              "烏龜"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "蚊蚊"
-            ],
-            "當值精靈": [
-              "絲",
-              "Akari",
-              "Lori",
-              "豆豆",
-              "蛋蛋",
-              "Sumire",
-              "阿月",
-              "aya",
-              "小睡",
-              "麻糬",
-              "mona",
-              "烏龜"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "P4",
-              "Sumire",
-              "小眠",
-              "貓貓",
-              "咩咩",
-              "Kiu Kiu"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-23:00",
-          "groups": {
-            "限定精靈": [
-              "BiBi",
-              "zoe"
-            ],
-            "當值精靈": [
-              "Akari",
-              "絲",
-              "鴨鴨",
-              "托比",
-              "Mercy",
-              "彌亞",
-              "千暮雪",
-              "小眠",
-              "細rinka",
-              "Rizuko",
-              "mona",
-              "留多晚"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "15:00-23:00",
-          "groups": {
-            "限定精靈": [
-              "魷魚",
-              "Rua",
-              "kaka",
-              "丑"
-            ],
-            "當值精靈": [
-              "幼幼",
-              "KK",
-              "Mercy",
-              "阿月",
-              "hain",
-              "Rei",
-              "魚骨",
-              "小音",
-              "Yume",
-              "留多晚",
-              "Aiya"
-            ],
-            "花園守護": [
-              "Pikachu"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
-        },
-        {
           "date": "2026-10-12",
           "hours": "17:00-22:00",
           "groups": {
-            "限定精靈": [
-              "Yuri",
-              "青蛙",
-              "Usari"
-            ],
             "當值精靈": [
-              "鴨鴨",
-              "幼幼",
-              "okk",
               "Sumire",
-              "麻糬",
-              "阿月",
+              "okk",
+              "幼幼",
               "烏龜",
-              "貓貓"
+              "貓貓",
+              "阿月",
+              "鴨鴨",
+              "麻糬"
             ],
             "花園守護": [
               "Pikachu"
+            ],
+            "限定精靈": [
+              "Usari",
+              "Yuri",
+              "青蛙"
             ]
           },
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -1332,18 +1296,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "17:00-22:00",
           "groups": {
-            "限定精靈": [
-              "朱古力"
-            ],
             "當值精靈": [
-              "絲",
               "Rinka",
+              "昭子",
+              "絲",
               "豆豆",
-              "麻糬",
-              "昭子"
+              "麻糬"
             ],
             "當值精靈兼花園守護": [
               "okk"
+            ],
+            "限定精靈": [
+              "朱古力"
             ]
           },
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -1352,23 +1316,23 @@ window.MAID_ROSTERS = {
           "date": "2026-10-14",
           "hours": "17:00-22:00",
           "groups": {
-            "限定精靈": [
-              "Suz",
-              "Kumimi"
-            ],
             "當值精靈": [
-              "鴨鴨",
+              "Aya",
               "P4",
               "Sumire",
               "Uri",
-              "Aya",
               "Yumi",
+              "小眠",
               "小睡",
               "小蛾",
-              "小眠"
+              "鴨鴨"
             ],
             "當值精靈兼花園守護": [
               "幼幼"
+            ],
+            "限定精靈": [
+              "Kumimi",
+              "Suz"
             ]
           },
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -1377,26 +1341,26 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "hours": "17:00-22:00",
           "groups": {
-            "限定精靈": [
-              "KiuKiu"
-            ],
             "當值精靈": [
-              "絲",
               "Akari",
-              "幼幼",
-              "奶昔",
-              "Uri",
-              "Sumire",
-              "蛋蛋",
               "Mercy",
-              "彌亞",
-              "魚骨",
+              "P4",
               "Rizuko",
+              "Sumire",
+              "Uri",
+              "奶昔",
+              "幼幼",
+              "彌亞",
               "細rinka",
-              "P4"
+              "絲",
+              "蛋蛋",
+              "魚骨"
             ],
             "花園守護": [
               "Pikachu"
+            ],
+            "限定精靈": [
+              "KiuKiu"
             ]
           },
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -1405,25 +1369,25 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "17:00-23:00",
           "groups": {
+            "當值精靈": [
+              "Akari",
+              "KK",
+              "Mercy",
+              "Rei",
+              "Yume",
+              "小狐狸",
+              "小蛾",
+              "留多晚",
+              "阿月",
+              "鴨鴨"
+            ],
+            "當值精靈兼花園守護": [
+              "絲"
+            ],
             "限定精靈": [
               "吱吱",
               "小鴨",
               "紫音"
-            ],
-            "當值精靈": [
-              "Akari",
-              "鴨鴨",
-              "Mercy",
-              "KK",
-              "小蛾",
-              "小狐狸",
-              "阿月",
-              "Rei",
-              "Yume",
-              "留多晚"
-            ],
-            "當值精靈兼花園守護": [
-              "絲"
             ]
           },
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -1433,15 +1397,15 @@ window.MAID_ROSTERS = {
           "hours": "15:00-23:00",
           "groups": {
             "活動出席精靈": [
-              "雪",
-              "魚骨",
-              "小睡",
-              "Keiko",
               "Hani",
-              "呆呆",
-              "Yuki",
+              "Keiko",
               "Rinka",
-              "留多晚"
+              "Yuki",
+              "呆呆",
+              "小睡",
+              "留多晚",
+              "雪",
+              "魚骨"
             ],
             "花園守護": [
               "Pikachu"
@@ -1453,15 +1417,15 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/p/DeJ3lD_vlLm/"
           ],
           "person_notes": {
+            "Hani": "按較新週更表記錄 15:00-23:00。",
+            "Keiko": "按較新週更表記錄 15:00-23:00。",
+            "Rinka": "按較新週更表記錄 15:00-23:00。",
+            "Yuki": "按較新週更表記錄 15:00-23:00。",
+            "呆呆": "按較新週更表記錄 15:00-23:00。",
+            "小睡": "按較新週更表記錄 15:00-23:00。",
+            "留多晚": "按較新週更表記錄 15:00-23:00。",
             "雪": "按較新週更表記錄 15:00-23:00。",
             "魚骨": "按較新週更表記錄 15:00-23:00。",
-            "小睡": "按較新週更表記錄 15:00-23:00。",
-            "Keiko": "按較新週更表記錄 15:00-23:00。",
-            "Hani": "按較新週更表記錄 15:00-23:00。",
-            "呆呆": "按較新週更表記錄 15:00-23:00。",
-            "Yuki": "按較新週更表記錄 15:00-23:00。",
-            "Rinka": "按較新週更表記錄 15:00-23:00。",
-            "留多晚": "按較新週更表記錄 15:00-23:00。",
             "Pikachu": "按較新週更表記錄 15:00-23:00。"
           },
           "notes": "按較新週更表記錄 15:00-23:00。"
@@ -1471,20 +1435,20 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "活動出席精靈": [
-              "魚骨",
-              "鴨鴨",
-              "奶昔",
-              "洛希",
-              "Yume",
-              "豆豆",
-              "水母",
-              "URI",
-              "咩咩",
               "Szyiu",
+              "URI",
+              "Yume",
+              "咩咩",
+              "奶昔",
               "幼幼",
+              "昭子",
+              "水母",
+              "洛希",
+              "豆豆",
               "阿月",
               "骨頭",
-              "昭子"
+              "魚骨",
+              "鴨鴨"
             ],
             "活動出席精靈兼花園守護": [
               "絲"
@@ -1494,17 +1458,211 @@ window.MAID_ROSTERS = {
           "event_name": "戀上換裝精靈"
         },
         {
+          "date": "2026-10-19",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Aiya",
+              "P4",
+              "Sumire",
+              "千暮雪",
+              "細rinka",
+              "貓貓",
+              "鴨鴨"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "Toua",
+              "碌柚葉"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Aya",
+              "Rinka",
+              "suu",
+              "奶昔",
+              "小睡",
+              "烏龜",
+              "阿月",
+              "麻糬"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Akari",
+              "Lori",
+              "Sumire",
+              "aya",
+              "mona",
+              "小睡",
+              "烏龜",
+              "絲",
+              "蛋蛋",
+              "豆豆",
+              "阿月",
+              "麻糬"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "蚊蚊"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Kiu Kiu",
+              "P4",
+              "Sumire",
+              "咩咩",
+              "小眠",
+              "貓貓"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "17:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "Akari",
+              "Mercy",
+              "Rizuko",
+              "mona",
+              "千暮雪",
+              "小眠",
+              "彌亞",
+              "托比",
+              "留多晚",
+              "細rinka",
+              "絲",
+              "鴨鴨"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "BiBi",
+              "zoe"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "15:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "Aiya",
+              "KK",
+              "Mercy",
+              "Rei",
+              "Yume",
+              "hain",
+              "小音",
+              "幼幼",
+              "留多晚",
+              "阿月",
+              "魚骨"
+            ],
+            "花園守護": [
+              "Pikachu"
+            ],
+            "限定精靈": [
+              "Rua",
+              "kaka",
+              "丑",
+              "魷魚"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "15:00-23:00",
+          "groups": {
+            "當日出席精靈": [
+              "Akari",
+              "Cherry",
+              "Hami",
+              "Lori",
+              "RINKA",
+              "Sumire",
+              "Szyiu",
+              "Uri",
+              "okk",
+              "奶昔",
+              "幼幼",
+              "托比",
+              "昭子",
+              "水母",
+              "絲",
+              "蛋蛋",
+              "豆豆",
+              "鴨鴨"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/Deb9qwvDx7N/",
+          "event_name": "AG 1st Anniversary × Upper Mansion：Dark Elegance 哥德夢幻週年派對",
+          "person_notes": {
+            "Akari": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Cherry": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Hami": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Lori": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "RINKA": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Sumire": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Szyiu": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Uri": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "okk": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "奶昔": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "幼幼": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "托比": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "昭子": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "水母": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "絲": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "蛋蛋": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "豆豆": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "鴨鴨": "活動帖列出當日出席精靈；未逐人列明完整更期。"
+          },
+          "notes": "活動帖列出當日出席精靈；未逐人列明完整更期。"
+        },
+        {
           "date": "2026-11-05",
           "hours": "17:00-22:00",
           "groups": {
             "活動出席精靈": [
-              "鴨鴨",
-              "昭子",
+              "P4",
               "szyiu",
-              "絲",
               "奶昔",
               "幼幼",
-              "P4"
+              "昭子",
+              "絲",
+              "鴨鴨"
             ]
           },
           "source": "https://www.instagram.com/p/DerCCV1vGat/",
@@ -1524,105 +1682,20 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-19",
-          "hours": "17:00-21:30",
-          "groups": {
-            "女僕人偶": [
-              "魚魚",
-              "秋雨",
-              "蘿蔔",
-              "Fumi",
-              "Kkuma"
-            ],
-            "新生人偶": [
-              "雅子"
-            ]
-          },
-          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-21:30",
-          "groups": {
-            "女僕人偶": [
-              "Yuki",
-              "梓野",
-              "四月兔",
-              "Koyuki",
-              "珊瑚",
-              "水獺"
-            ],
-            "新生人偶": [
-              "FY"
-            ],
-            "限定人偶": [
-              "阿廚"
-            ]
-          },
-          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-21:30",
-          "groups": {
-            "女僕人偶": [
-              "Mafu",
-              "梓野",
-              "Hima",
-              "小汐",
-              "水獺",
-              "Fumi"
-            ],
-            "新生人偶": [
-              "小倩",
-              "FY",
-              "Ruri"
-            ]
-          },
-          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "16:00-21:30",
-          "groups": {
-            "女僕人偶": [
-              "黑猫",
-              "奈亞",
-              "蘿蔔",
-              "Mia",
-              "栗子",
-              "水獺",
-              "Fumi"
-            ],
-            "新生人偶": [
-              "Yui"
-            ],
-            "限定人偶": [
-              "Sayori",
-              "Chika",
-              "豆豆",
-              "歪歪",
-              "hani"
-            ]
-          },
-          "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/"
-        },
-        {
           "date": "2026-10-12",
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
               "妹子",
-              "青鳥",
               "小千",
+              "青鳥",
               "黑猫"
             ],
             "限定人偶": [
-              "半眠",
-              "咩咩",
               "FY",
-              "咔咪咪"
+              "半眠",
+              "咔咪咪",
+              "咩咩"
             ]
           },
           "source": "https://www.instagram.com/p/DeRRn7FiL0D/"
@@ -1632,18 +1705,18 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "萌妃",
-              "西秀",
+              "Fumi",
+              "Kkuma",
+              "Koyuki",
               "Mafu",
-              "綾舞",
+              "Mia",
               "千歲",
               "小雫",
-              "Koyuki",
-              "珊瑚",
-              "Mia",
               "栗子",
-              "Fumi",
-              "Kkuma"
+              "珊瑚",
+              "綾舞",
+              "萌妃",
+              "西秀"
             ],
             "新生人偶": [
               "Ruri"
@@ -1660,15 +1733,15 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "秋雨",
-              "梓野",
               "奈亞",
+              "小汐",
+              "梓野",
               "玥玥",
-              "小汐"
+              "秋雨"
             ],
             "新生人偶": [
-              "狐宵赤夜",
-              "Yui"
+              "Yui",
+              "狐宵赤夜"
             ],
             "限定人偶": [
               "Kayla"
@@ -1681,16 +1754,16 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "奈亞",
-              "頌仔",
               "味醂",
+              "咩咩",
+              "奈亞",
               "水獺",
-              "咩咩"
+              "頌仔"
             ],
             "新生人偶": [
-              "魚",
               "FY",
-              "Ruri"
+              "Ruri",
+              "魚"
             ]
           },
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
@@ -1700,8 +1773,8 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "Yuka",
               "Mafu",
+              "Yuka",
               "淘淘",
               "秋雨",
               "綾舞"
@@ -1719,16 +1792,16 @@ window.MAID_ROSTERS = {
           "hours": "14:00-21:30",
           "groups": {
             "女僕人偶": [
-              "西秀",
-              "盈盈",
+              "奈亞",
               "小雫",
+              "盈盈",
               "虎徹",
-              "奈亞"
+              "西秀"
             ],
             "限定人偶": [
               "Mugi",
-              "喂魚",
-              "バカ喵"
+              "バカ喵",
+              "喂魚"
             ]
           },
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/",
@@ -1739,18 +1812,77 @@ window.MAID_ROSTERS = {
           "hours": "14:00-21:30",
           "groups": {
             "女僕人偶": [
-              "魚魚",
-              "梓野",
-              "犬憂",
-              "蘿蔔",
-              "Mia",
-              "栗子",
               "Fumi",
               "Kkuma",
-              "狐宵赤夜"
+              "Mia",
+              "栗子",
+              "梓野",
+              "犬憂",
+              "狐宵赤夜",
+              "蘿蔔",
+              "魚魚"
             ]
           },
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/"
+        },
+        {
+          "date": "2026-10-19",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Fumi",
+              "Kkuma",
+              "秋雨",
+              "蘿蔔",
+              "魚魚"
+            ],
+            "新生人偶": [
+              "雅子"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Koyuki",
+              "Yuki",
+              "四月兔",
+              "梓野",
+              "水獺",
+              "珊瑚"
+            ],
+            "新生人偶": [
+              "FY"
+            ],
+            "限定人偶": [
+              "阿廚"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Fumi",
+              "Hima",
+              "Mafu",
+              "小汐",
+              "梓野",
+              "水獺"
+            ],
+            "新生人偶": [
+              "FY",
+              "Ruri",
+              "小倩"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/",
+          "event_name": "萬聖節活動"
         },
         {
           "date": "2026-10-22",
@@ -1758,10 +1890,10 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕人偶": [
               "Cherry",
-              "綾舞",
-              "憂",
               "奈亞",
+              "憂",
               "犬憂",
+              "綾舞",
               "蘿蔔"
             ],
             "新生人偶": [
@@ -1769,8 +1901,8 @@ window.MAID_ROSTERS = {
               "Ruri"
             ],
             "限定人偶": [
-              "七月",
-              "Kuma"
+              "Kuma",
+              "七月"
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -1780,19 +1912,19 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "小樹",
-              "青鳥",
               "Mafu",
-              "憂",
               "Yuika",
-              "玥玥",
+              "咩咩",
+              "小樹",
               "小汐",
-              "咩咩"
+              "憂",
+              "玥玥",
+              "青鳥"
             ],
             "新生人偶": [
-              "魚",
+              "Ruri",
               "雅子",
-              "Ruri"
+              "魚"
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -1802,22 +1934,22 @@ window.MAID_ROSTERS = {
           "hours": "14:00-21:30",
           "groups": {
             "女僕人偶": [
-              "茶茶",
-              "Yuki",
-              "頌仔",
               "Air",
-              "珊瑚",
+              "Kkuma",
               "Mia",
-              "阿月",
+              "Yuki",
               "栗子",
-              "Kkuma"
+              "珊瑚",
+              "茶茶",
+              "阿月",
+              "頌仔"
             ],
             "限定人偶": [
-              "苺咲かなえ",
-              "櫻井ももか",
               "天宮やお",
-              "霜月ゆい",
-              "水川もえり"
+              "櫻井ももか",
+              "水川もえり",
+              "苺咲かなえ",
+              "霜月ゆい"
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -1827,20 +1959,20 @@ window.MAID_ROSTERS = {
           "hours": "14:00-21:30",
           "groups": {
             "女僕人偶": [
-              "黑猫",
-              "珊瑚",
-              "Mia",
               "Kori",
+              "Mia",
               "水獺",
-              "狐宵赤夜"
+              "狐宵赤夜",
+              "珊瑚",
+              "黑猫"
             ],
             "限定人偶": [
               "狐宵澄夜",
+              "綿辺ゆみか",
+              "路奇",
               "鬽髏ヘイニ",
               "黒崎よるみ",
-              "綿辺ゆみか",
-              "黒田やな",
-              "路奇"
+              "黒田やな"
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/",
@@ -1851,11 +1983,11 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "黑猫",
-              "小雫",
-              "Koyuki",
               "Hima",
-              "駝駝"
+              "Koyuki",
+              "小雫",
+              "駝駝",
+              "黑猫"
             ],
             "新生人偶": [
               "Charlotte",
@@ -1872,13 +2004,13 @@ window.MAID_ROSTERS = {
           "hours": "17:00-21:30",
           "groups": {
             "女僕人偶": [
-              "小凌",
-              "Mafu",
-              "梓野",
               "Koyuki",
-              "駝駝",
+              "Mafu",
+              "小凌",
               "栗子",
-              "水獺"
+              "梓野",
+              "水獺",
+              "駝駝"
             ],
             "新生人偶": [
               "FY",
@@ -1886,6 +2018,32 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "16:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Fumi",
+              "Mia",
+              "奈亞",
+              "栗子",
+              "水獺",
+              "蘿蔔",
+              "黑猫"
+            ],
+            "新生人偶": [
+              "Yui"
+            ],
+            "限定人偶": [
+              "Chika",
+              "Sayori",
+              "hani",
+              "歪歪",
+              "豆豆"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/"
         }
       ]
     },
@@ -1904,69 +2062,16 @@ window.MAID_ROSTERS = {
       ],
       "shifts": [
         {
-          "date": "2026-10-20",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值": [
-              "Miyabi",
-              "Luna",
-              "紅豆",
-              "早早",
-              "Roku",
-              "淺"
-            ]
-          },
-          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
-          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值": [
-              "Miyabi",
-              "真祐",
-              "貓丸",
-              "古古",
-              "Bella",
-              "小楠",
-              "Nedo",
-              "小金"
-            ]
-          },
-          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
-          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值": [
-              "Miku",
-              "Aiko",
-              "卡咩",
-              "hani",
-              "淺",
-              "幽幽",
-              "Kira",
-              "小金",
-              "Eru"
-            ]
-          },
-          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
-          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
-        },
-        {
           "date": "2026-10-13",
           "hours": "15:00-22:00",
           "groups": {
             "當值人員": [
-              "Miyabi",
-              "孔明",
-              "Saki",
               "Kira",
-              "理子",
-              "可娜"
+              "Miyabi",
+              "Saki",
+              "可娜",
+              "孔明",
+              "理子"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -1977,13 +2082,13 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "當值人員": [
-              "Muli",
               "Miyabi",
+              "Muli",
               "Nedo",
-              "蕃薯",
-              "淺",
               "hani",
-              "小金"
+              "小金",
+              "淺",
+              "蕃薯"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -1994,10 +2099,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "當值人員": [
-              "小金",
-              "古古",
+              "Haku",
               "Kira",
-              "Haku"
+              "古古",
+              "小金"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -2007,16 +2112,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "15:00-22:00",
           "groups": {
-            "限定侵略者": [
-              "Moka"
-            ],
             "當值人員": [
+              "Airin",
+              "Bochi",
               "卡咩",
               "安安",
-              "貓丸",
               "小犬",
-              "Bochi",
-              "Airin"
+              "貓丸"
+            ],
+            "限定侵略者": [
+              "Moka"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -2033,13 +2138,13 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "當值人員": [
+              "Bella",
               "Haku",
               "Uta",
-              "綺梨",
-              "荔枝",
+              "小犬",
               "小藍",
-              "Bella",
-              "小犬"
+              "綺梨",
+              "荔枝"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -2049,18 +2154,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "15:00-22:00",
           "groups": {
-            "限定侵略者": [
-              "粟米",
-              "拉比",
-              "Rui"
-            ],
             "當值人員": [
               "Mika",
-              "海藍",
               "Miku",
               "小楠",
+              "小犬",
               "早早",
-              "小犬"
+              "海藍"
+            ],
+            "限定侵略者": [
+              "Rui",
+              "拉比",
+              "粟米"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -2069,24 +2174,105 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/cafemaidplanet/p/Deg2oWmvaIx/"
           ],
           "person_notes": {
-            "粟米": "一日限定專帖另列個人當值時間 17:00-22:00。",
+            "Rui": "一日限定專帖另列個人當值時間 17:00-22:00。",
             "拉比": "一日限定專帖另列個人當值時間 17:00-22:00。",
-            "Rui": "一日限定專帖另列個人當值時間 17:00-22:00。"
+            "粟米": "一日限定專帖另列個人當值時間 17:00-22:00。"
           }
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Luna",
+              "Miyabi",
+              "Roku",
+              "早早",
+              "淺",
+              "紅豆"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
+          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Bella",
+              "Miyabi",
+              "Nedo",
+              "古古",
+              "小楠",
+              "小金",
+              "真祐",
+              "貓丸"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
+          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Aiko",
+              "Eru",
+              "Kira",
+              "Miku",
+              "hani",
+              "卡咩",
+              "小金",
+              "幽幽",
+              "淺"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
+          "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Kiyu",
+              "Luna",
+              "Natsuki",
+              "卡咩",
+              "可娜",
+              "安安",
+              "小犬",
+              "貓丸"
+            ]
+          },
+          "source": "https://www.instagram.com/p/DewhknsmeiE/",
+          "person_notes": {
+            "Kiyu": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "Luna": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "Natsuki": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "卡咩": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "可娜": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "安安": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "小犬": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "貓丸": "本店營業時間為 15:00-22:00；未列明個人時段。"
+          },
+          "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
         },
         {
           "date": "2026-10-24",
           "hours": "15:00-22:00",
           "groups": {
             "一日限定": [
-              "朱古力",
-              "MIKAN"
+              "MIKAN",
+              "朱古力"
             ],
             "當值": [
+              "Saki",
               "小犬",
-              "海藍",
               "早早",
-              "Saki"
+              "海藍"
             ]
           },
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
@@ -2095,66 +2281,38 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/p/DeXFIJ_GRYP/"
           ],
           "person_notes": {
-            "朱古力": "個人時段：17:00-22:00",
             "MIKAN": "個人時段：17:00-22:00",
+            "朱古力": "個人時段：17:00-22:00",
+            "Saki": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "小犬": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "海藍": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "早早": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "Saki": "本店營業時間為 15:00-22:00；未列明個人時段。"
+            "海藍": "本店營業時間為 15:00-22:00；未列明個人時段。"
           },
           "person_times": {
-            "朱古力": "17:00-22:00",
-            "MIKAN": "17:00-22:00"
+            "MIKAN": "17:00-22:00",
+            "朱古力": "17:00-22:00"
           }
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值": [
-              "Luna",
-              "安安",
-              "貓丸",
-              "卡咩",
-              "Kiyu",
-              "小犬",
-              "Natsuki",
-              "可娜"
-            ]
-          },
-          "source": "https://www.instagram.com/p/DewhknsmeiE/",
-          "person_notes": {
-            "Luna": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "安安": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "貓丸": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "卡咩": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "Kiyu": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "小犬": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "Natsuki": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "可娜": "本店營業時間為 15:00-22:00；未列明個人時段。"
-          },
-          "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
         },
         {
           "date": "2026-10-25",
           "hours": "15:00-22:00",
           "groups": {
             "當值": [
-              "糖糖",
+              "Kuma",
               "Mika",
-              "紅豆",
               "小犬",
-              "Kuma"
+              "糖糖",
+              "紅豆"
             ]
           },
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "person_notes": {
-            "糖糖": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "Kuma": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "Mika": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "紅豆": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "小犬": "本店營業時間為 15:00-22:00；未列明個人時段。",
-            "Kuma": "本店營業時間為 15:00-22:00；未列明個人時段。"
+            "糖糖": "本店營業時間為 15:00-22:00；未列明個人時段。",
+            "紅豆": "本店營業時間為 15:00-22:00；未列明個人時段。"
           },
           "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
         },
@@ -2166,8 +2324,11 @@ window.MAID_ROSTERS = {
               "正子"
             ]
           },
-          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/",
+          "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/",
           "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
+          ],
           "person_notes": {
             "正子": "店舖時段；個人時段未公布。"
           },
@@ -2177,13 +2338,13 @@ window.MAID_ROSTERS = {
       "unresolved": [
         {
           "date": "2026-10-30",
-          "reason": "活動日期及名稱已公布，但帖文未列當值名單。",
-          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
+          "reason": "10/30 Girls bar ドキ🎃プラネット活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
+          "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
         },
         {
           "date": "2026-11-06",
-          "reason": "活動日期及周年主角已公布；尚未找到該日當值名單。",
-          "source": "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
+          "reason": "11/6 MIA 女僕周年活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
+          "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
         }
       ]
     },
@@ -2199,17 +2360,151 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
+          "date": "2026-10-12",
+          "hours": "18:00-23:00",
+          "groups": {
+            "女僕": [
+              "Fuyo",
+              "周瑜",
+              "璧璧"
+            ],
+            "魔域管理員": [
+              "小椿"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
+        },
+        {
+          "date": "2026-10-13",
+          "hours": "18:00-23:00",
+          "groups": {
+            "女僕": [
+              "Beru",
+              "Yuzuki",
+              "kuri",
+              "もえね",
+              "七七",
+              "小廻"
+            ],
+            "限定女僕": [
+              "mikan"
+            ],
+            "魔域管理員": [
+              "晴晴"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
+        },
+        {
+          "date": "2026-10-14",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Guest／嘉賓": [
+              "Ara",
+              "YunaI",
+              "晞亓",
+              "蜻蜓",
+              "黛柔"
+            ],
+            "魔域管理員": [
+              "小椿"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
+          "event_name": "Yurina生誕",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/DeV9O8rutPl/"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "hours": "18:00-23:00",
+          "groups": {
+            "女僕": [
+              "midorinn",
+              "小廻",
+              "日和",
+              "阿逸"
+            ],
+            "魔域管理員": [
+              "小欣"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
+        },
+        {
+          "date": "2026-10-16",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Guest／嘉賓": [
+              "416",
+              "小奇",
+              "日和",
+              "朱朱",
+              "茶鬼"
+            ],
+            "魔域管理員": [
+              "晴晴"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
+          "event_name": "晴晴生誕",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/DebDR59NWOD/"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "Yorumi",
+              "卡路里",
+              "霍霍",
+              "黛柔"
+            ],
+            "限定女僕": [
+              "藍幽"
+            ],
+            "魔域管理員": [
+              "小欣"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/"
+        },
+        {
+          "date": "2026-10-18",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "Beru",
+              "Fumi",
+              "Midorinn",
+              "つゆめ",
+              "卡路里",
+              "黛柔"
+            ],
+            "限定女僕": [
+              "冰嵐"
+            ],
+            "魔域管理員": [
+              "小欣"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/"
+        },
+        {
           "date": "2026-10-19",
           "hours": "18:00-23:00",
           "groups": {
+            "Maid": [
+              "Beru",
+              "Yorumi",
+              "小廻",
+              "貓羅"
+            ],
             "限定女僕": [
               "小圓"
-            ],
-            "Maid": [
-              "小廻",
-              "Beru",
-              "貓羅",
-              "Yorumi"
             ],
             "魔域管理員": [
               "小欣"
@@ -2221,15 +2516,15 @@ window.MAID_ROSTERS = {
           "date": "2026-10-20",
           "hours": "18:00-23:00",
           "groups": {
-            "Maid": [
-              "黛柔",
-              "茶鬼",
-              "蜻蜓",
-              "Yuzuki"
-            ],
             "Butler": [
               "江江",
               "藍莓"
+            ],
+            "Maid": [
+              "Yuzuki",
+              "茶鬼",
+              "蜻蜓",
+              "黛柔"
             ],
             "魔域管理員": [
               "晴晴"
@@ -2241,18 +2536,18 @@ window.MAID_ROSTERS = {
           "date": "2026-10-22",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "八田",
-              "魚骨",
-              "九千"
-            ],
             "Maid": [
               "Anzu",
               "Mori",
-              "貓羅",
-              "小欣",
               "Yuna",
+              "小欣",
+              "貓羅",
               "霍霍"
+            ],
+            "限定女僕": [
+              "九千",
+              "八田",
+              "魚骨"
             ],
             "魔域管理員": [
               "晴晴"
@@ -2261,19 +2556,40 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
         },
         {
+          "date": "2026-10-23",
+          "hours": "17:00-翌日00:30",
+          "groups": {
+            "租場嘉賓": [
+              "501小白",
+              "Amy",
+              "Miya",
+              "Vivi",
+              "小蚊",
+              "小鉛梓",
+              "布布",
+              "星星",
+              "晴兒",
+              "有K",
+              "蚊蚊"
+            ]
+          },
+          "source": "https://www.instagram.com/p/DeWee1MTIQo/",
+          "event_name": "棉花2026誕生祭 前夕"
+        },
+        {
           "date": "2026-10-24",
           "hours": "17:00-23:00",
           "groups": {
             "Butler": [
+              "999",
               "Fomu",
-              "江江",
-              "藍莓",
-              "阿流",
-              "P總",
-              "有栖",
               "Haruna",
               "Nanoji",
-              "999"
+              "P總",
+              "有栖",
+              "江江",
+              "藍莓",
+              "阿流"
             ],
             "魔域管理員": [
               "晴晴"
@@ -2293,9 +2609,9 @@ window.MAID_ROSTERS = {
           "hours": "17:00-23:00",
           "groups": {
             "Maid": [
-              "璧璧",
+              "Anzu",
               "小廻",
-              "Anzu"
+              "璧璧"
             ],
             "魔域管理員": [
               "小欣"
@@ -2304,199 +2620,17 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
         },
         {
-          "date": "2026-10-17",
-          "hours": "17:00-23:00",
-          "groups": {
-            "限定女僕": [
-              "藍幽"
-            ],
-            "女僕": [
-              "黛柔",
-              "Yorumi",
-              "卡路里",
-              "霍霍"
-            ],
-            "魔域管理員": [
-              "小欣"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/"
-        },
-        {
-          "date": "2026-10-18",
-          "hours": "17:00-23:00",
-          "groups": {
-            "限定女僕": [
-              "冰嵐"
-            ],
-            "女僕": [
-              "つゆめ",
-              "Beru",
-              "Midorinn",
-              "Fumi",
-              "卡路里",
-              "黛柔"
-            ],
-            "魔域管理員": [
-              "小欣"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/"
-        },
-        {
-          "date": "2026-11-01",
-          "hours": "17:00-23:00",
-          "groups": {
-            "租場嘉賓": [
-              "panda",
-              "孔子",
-              "yilam",
-              "詩弦",
-              "hotori",
-              "rina",
-              "朱朱"
-            ]
-          },
-          "source": "https://www.instagram.com/_.hilaryowo._/p/DegrlA7E5HU/",
-          "event_name": "2026企鵝生誕祭",
-          "person_notes": {
-            "panda": "包場活動。",
-            "孔子": "包場活動。",
-            "yilam": "包場活動。",
-            "詩弦": "包場活動。",
-            "hotori": "包場活動。",
-            "rina": "包場活動。",
-            "朱朱": "包場活動。"
-          },
-          "notes": "包場活動。"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-翌日00:30",
-          "groups": {
-            "租場嘉賓": [
-              "Vivi",
-              "有K",
-              "晴兒",
-              "Amy",
-              "Miya",
-              "星星",
-              "小蚊",
-              "蚊蚊",
-              "小鉛梓",
-              "501小白",
-              "布布"
-            ]
-          },
-          "source": "https://www.instagram.com/p/DeWee1MTIQo/",
-          "event_name": "棉花2026誕生祭 前夕"
-        },
-        {
-          "date": "2026-10-12",
-          "hours": "18:00-23:00",
-          "groups": {
-            "女僕": [
-              "周瑜",
-              "Fuyo",
-              "璧璧"
-            ],
-            "魔域管理員": [
-              "小椿"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
-        },
-        {
-          "date": "2026-10-13",
-          "hours": "18:00-23:00",
-          "groups": {
-            "限定女僕": [
-              "mikan"
-            ],
-            "女僕": [
-              "小廻",
-              "もえね",
-              "七七",
-              "Beru",
-              "Yuzuki",
-              "kuri"
-            ],
-            "魔域管理員": [
-              "晴晴"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
-        },
-        {
-          "date": "2026-10-14",
-          "hours": "18:00-23:00",
-          "groups": {
-            "Guest／嘉賓": [
-              "黛柔",
-              "晞亓",
-              "YunaI",
-              "Ara",
-              "蜻蜓"
-            ],
-            "魔域管理員": [
-              "小椿"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
-          "event_name": "Yurina生誕",
-          "alternate_sources": [
-            "https://www.instagram.com/deardevil_maid.butler/p/DeV9O8rutPl/"
-          ]
-        },
-        {
-          "date": "2026-10-15",
-          "hours": "18:00-23:00",
-          "groups": {
-            "女僕": [
-              "midorinn",
-              "日和",
-              "阿逸",
-              "小廻"
-            ],
-            "魔域管理員": [
-              "小欣"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
-        },
-        {
-          "date": "2026-10-16",
-          "hours": "18:00-23:00",
-          "groups": {
-            "魔域管理員": [
-              "晴晴"
-            ],
-            "Guest／嘉賓": [
-              "日和",
-              "416",
-              "朱朱",
-              "茶鬼",
-              "小奇"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
-          "event_name": "晴晴生誕",
-          "alternate_sources": [
-            "https://www.instagram.com/deardevil_maid.butler/p/DebDR59NWOD/"
-          ]
-        },
-        {
           "date": "2026-10-31",
           "hours": "17:00-23:00",
           "groups": {
             "活動嘉賓": [
-              "Midorinn",
-              "つゆめ",
-              "朱朱",
-              "日和",
-              "Yorumi",
               "Gumi",
-              "Mii"
+              "Midorinn",
+              "Mii",
+              "Yorumi",
+              "つゆめ",
+              "日和",
+              "朱朱"
             ],
             "魔域管理員": [
               "晴晴"
@@ -2505,16 +2639,43 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De1Y_JaOvwj/",
           "event_name": "小悪魔?!鬼新娘～結婚式",
           "person_notes": {
-            "Midorinn": "按店方週末公開營業時間；個人時段未另行列明。",
-            "つゆめ": "按店方週末公開營業時間；個人時段未另行列明。",
-            "朱朱": "按店方週末公開營業時間；個人時段未另行列明。",
-            "日和": "按店方週末公開營業時間；個人時段未另行列明。",
-            "Yorumi": "按店方週末公開營業時間；個人時段未另行列明。",
             "Gumi": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Midorinn": "按店方週末公開營業時間；個人時段未另行列明。",
             "Mii": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Yorumi": "按店方週末公開營業時間；個人時段未另行列明。",
+            "つゆめ": "按店方週末公開營業時間；個人時段未另行列明。",
+            "日和": "按店方週末公開營業時間；個人時段未另行列明。",
+            "朱朱": "按店方週末公開營業時間；個人時段未另行列明。",
             "晴晴": "按店方週末公開營業時間；個人時段未另行列明。"
           },
           "notes": "按店方週末公開營業時間；個人時段未另行列明。"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "17:00-23:00",
+          "groups": {
+            "租場嘉賓": [
+              "hotori",
+              "panda",
+              "rina",
+              "yilam",
+              "孔子",
+              "朱朱",
+              "詩弦"
+            ]
+          },
+          "source": "https://www.instagram.com/_.hilaryowo._/p/DegrlA7E5HU/",
+          "event_name": "2026企鵝生誕祭",
+          "person_notes": {
+            "hotori": "包場活動。",
+            "panda": "包場活動。",
+            "rina": "包場活動。",
+            "yilam": "包場活動。",
+            "孔子": "包場活動。",
+            "朱朱": "包場活動。",
+            "詩弦": "包場活動。"
+          },
+          "notes": "包場活動。"
         }
       ]
     },
@@ -2542,8 +2703,8 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Fukuro",
-              "奇拉拉",
-              "Vivi"
+              "Vivi",
+              "奇拉拉"
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -2554,35 +2715,65 @@ window.MAID_ROSTERS = {
           "hours": "13:00-20:00",
           "groups": {
             "當值女僕": [
-              "牙涼",
-              "霖霖",
               "999",
-              "Mochi"
+              "Mochi",
+              "牙涼",
+              "霖霖"
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ",
           "person_notes": {
-            "牙涼": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。",
-            "霖霖": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。",
             "999": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。",
-            "Mochi": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。"
+            "Mochi": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。",
+            "牙涼": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。",
+            "霖霖": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。"
           },
           "notes": "原帖將 10/18 誤寫為星期六；2026/10/18 實為星期日，日期及名單按原帖保留。"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "13:00-20:00",
+          "groups": {
+            "生日主角及當值女僕": [
+              "Vivi",
+              "麻糬"
+            ],
+            "限定出勤": [
+              "Domo",
+              "Fumi",
+              "川",
+              "狐宵"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
+          "event_name": "麻糬生誕の東潢パーティー",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/"
+          ],
+          "person_notes": {
+            "Vivi": "活動專帖名單較月更表完整；兩帖同時保留來源。",
+            "麻糬": "活動專帖名單較月更表完整；兩帖同時保留來源。",
+            "Domo": "活動專帖名單較月更表完整；兩帖同時保留來源。",
+            "Fumi": "活動專帖名單較月更表完整；兩帖同時保留來源。",
+            "川": "活動專帖名單較月更表完整；兩帖同時保留來源。",
+            "狐宵": "活動專帖名單較月更表完整；兩帖同時保留來源。"
+          },
+          "notes": "活動專帖名單較月更表完整；兩帖同時保留來源。"
         },
         {
           "date": "2026-10-25",
           "hours": "13:00-20:00",
           "groups": {
             "當值女僕": [
-              "牙涼",
-              "霖霖",
               "999",
-              "小茵"
+              "小茵",
+              "牙涼",
+              "霖霖"
             ],
             "限定月下夜僕": [
-              "洛希",
-              "千夜"
+              "千夜",
+              "洛希"
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -2592,12 +2783,12 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/maid_baberucafe/p/De3hEj6zIj4/"
           ],
           "person_notes": {
-            "洛希": "個人時段：15:00-20:00",
-            "千夜": "個人時段：15:00-20:00"
+            "千夜": "個人時段：15:00-20:00",
+            "洛希": "個人時段：15:00-20:00"
           },
           "person_times": {
-            "洛希": "15:00-20:00",
-            "千夜": "15:00-20:00"
+            "千夜": "15:00-20:00",
+            "洛希": "15:00-20:00"
           }
         },
         {
@@ -2605,9 +2796,9 @@ window.MAID_ROSTERS = {
           "hours": "13:00-20:00",
           "groups": {
             "當值女僕": [
-              "椰奶",
               "三文魚公主",
-              "小茵"
+              "小茵",
+              "椰奶"
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -2618,45 +2809,15 @@ window.MAID_ROSTERS = {
           "hours": "13:00-20:00",
           "groups": {
             "當值女僕": [
-              "霖霖",
-              "牙涼",
-              "小茵",
               "999",
-              "Vivi"
+              "Vivi",
+              "小茵",
+              "牙涼",
+              "霖霖"
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "13:00-20:00",
-          "groups": {
-            "生日主角及當值女僕": [
-              "麻糬",
-              "Vivi"
-            ],
-            "限定出勤": [
-              "川",
-              "Domo",
-              "Fumi",
-              "狐宵"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
-          "event_name": "麻糬生誕の東潢パーティー",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/"
-          ],
-          "person_notes": {
-            "麻糬": "活動專帖名單較月更表完整；兩帖同時保留來源。",
-            "Vivi": "活動專帖名單較月更表完整；兩帖同時保留來源。",
-            "川": "活動專帖名單較月更表完整；兩帖同時保留來源。",
-            "Domo": "活動專帖名單較月更表完整；兩帖同時保留來源。",
-            "Fumi": "活動專帖名單較月更表完整；兩帖同時保留來源。",
-            "狐宵": "活動專帖名單較月更表完整；兩帖同時保留來源。"
-          },
-          "notes": "活動專帖名單較月更表完整；兩帖同時保留來源。"
         }
       ]
     },
@@ -2672,285 +2833,22 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-19",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "Reda",
-              "ruika",
-              "kanade",
-              "八田",
-              "龍蝦",
-              "藍莓",
-              "阿橦",
-              "yuki"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "Reda",
-              "kokomi",
-              "999",
-              "小茵",
-              "咬牙",
-              "harei",
-              "牙涼"
-            ],
-            "一日限定": [
-              "浮世"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DersHjbTaA8/"
-          ],
-          "person_notes": {
-            "Reda": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "kokomi": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "999": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "小茵": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "咬牙": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "harei": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "牙涼": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "浮世": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
-          },
-          "notes": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "空雪",
-              "小南",
-              "kusuki",
-              "七月",
-              "剎那",
-              "魷魚",
-              "貓目",
-              "yuki",
-              "momo"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "Reda",
-              "kokomi",
-              "hari",
-              "999",
-              "yui",
-              "nano",
-              "咬牙",
-              "小茵"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "小南",
-              "ruika",
-              "八田",
-              "阿橦",
-              "大毛",
-              "nako",
-              "kumo",
-              "小困",
-              "小狐狸"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定幽靈": [
-              "小嘉"
-            ],
-            "當值幽靈": [
-              "鰻魚",
-              "raku",
-              "harei",
-              "龍蝦",
-              "七月",
-              "kusuki",
-              "大毛"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-25",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定幽靈": [
-              "saki"
-            ],
-            "當值幽靈": [
-              "reda",
-              "kokomi",
-              "空雪",
-              "剎那",
-              "阿橦",
-              "キキ",
-              "鬼鬼"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-26",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "reda",
-              "ruika",
-              "八田",
-              "魷魚",
-              "9000",
-              "yuki",
-              "kumo",
-              "riko"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-27",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "reda",
-              "mizore",
-              "usagi",
-              "阿初",
-              "大毛",
-              "龍蝦",
-              "咬牙",
-              "藍莓"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-28",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定幽靈": [
-              "akaya"
-            ],
-            "當值幽靈": [
-              "空雪",
-              "hari",
-              "牙涼",
-              "七月",
-              "kusuki",
-              "nano",
-              "999",
-              "鬼鬼",
-              "reda",
-              "kokomi"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/"
-          ],
-          "person_notes": {
-            "reda": "此為店舖開放時間；個人時段未另行列明。",
-            "kokomi": "此為店舖開放時間；個人時段未另行列明。"
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定幽靈": [
-              "豆豆"
-            ],
-            "當值幽靈": [
-              "reda",
-              "貓目",
-              "yui",
-              "空雪",
-              "阿初",
-              "kokomi",
-              "999"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定幽靈": [
-              "Nana"
-            ],
-            "當值幽靈": [
-              "小南",
-              "丑",
-              "八田",
-              "ruika",
-              "剎那",
-              "raku",
-              "小狐狸"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-31",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "reda",
-              "kokomi",
-              "血血",
-              "小困",
-              "咬牙",
-              "龍蝦"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
           "date": "2026-10-16",
           "hours": "17:00-22:00",
           "groups": {
             "當值幽靈": [
-              "Reda",
-              "kokomi",
-              "小南",
               "999",
-              "raku",
-              "nekome",
               "Nano",
+              "Reda",
+              "hari",
+              "kokomi",
+              "nekome",
+              "raku",
               "yui",
-              "鬼鬼",
-              "龍蝦",
               "丑",
-              "hari"
+              "小南",
+              "鬼鬼",
+              "龍蝦"
             ]
           },
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
@@ -2960,20 +2858,20 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "17:00-22:00",
           "groups": {
+            "當值幽靈": [
+              "9000",
+              "Reda",
+              "kaka",
+              "kokomi",
+              "raku",
+              "yui",
+              "剎那",
+              "大毛",
+              "小茵",
+              "魷魚"
+            ],
             "限定幽靈": [
               "水水"
-            ],
-            "當值幽靈": [
-              "Reda",
-              "kokomi",
-              "9000",
-              "yui",
-              "raku",
-              "kaka",
-              "剎那",
-              "小茵",
-              "魷魚",
-              "大毛"
             ]
           },
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
@@ -2987,20 +2885,283 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "當值幽靈": [
-              "Reda",
-              "riko",
-              "mizore",
-              "鬼鬼",
-              "咬牙",
-              "八田",
-              "七月",
               "9000",
+              "Reda",
+              "mizore",
+              "riko",
               "sanada",
-              "小狐狸"
+              "七月",
+              "八田",
+              "咬牙",
+              "小狐狸",
+              "鬼鬼"
             ]
           },
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
           "event_name": "開幕試業"
+        },
+        {
+          "date": "2026-10-19",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "Reda",
+              "kanade",
+              "ruika",
+              "yuki",
+              "八田",
+              "藍莓",
+              "阿橦",
+              "龍蝦"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/"
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
+          "groups": {
+            "一日限定": [
+              "浮世"
+            ],
+            "當值幽靈": [
+              "999",
+              "Reda",
+              "harei",
+              "kokomi",
+              "咬牙",
+              "小茵",
+              "牙涼"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DersHjbTaA8/"
+          ],
+          "person_notes": {
+            "浮世": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "999": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "Reda": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "harei": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "kokomi": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "咬牙": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "小茵": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "牙涼": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
+          },
+          "notes": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "kusuki",
+              "momo",
+              "yuki",
+              "七月",
+              "剎那",
+              "小南",
+              "空雪",
+              "貓目",
+              "魷魚"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "999",
+              "Reda",
+              "hari",
+              "kokomi",
+              "nano",
+              "yui",
+              "咬牙",
+              "小茵"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "kumo",
+              "nako",
+              "ruika",
+              "八田",
+              "大毛",
+              "小南",
+              "小困",
+              "小狐狸",
+              "阿橦"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "harei",
+              "kusuki",
+              "raku",
+              "七月",
+              "大毛",
+              "鰻魚",
+              "龍蝦"
+            ],
+            "限定幽靈": [
+              "小嘉"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "kokomi",
+              "reda",
+              "キキ",
+              "剎那",
+              "空雪",
+              "阿橦",
+              "鬼鬼"
+            ],
+            "限定幽靈": [
+              "saki"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "9000",
+              "kumo",
+              "reda",
+              "riko",
+              "ruika",
+              "yuki",
+              "八田",
+              "魷魚"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "mizore",
+              "reda",
+              "usagi",
+              "咬牙",
+              "大毛",
+              "藍莓",
+              "阿初",
+              "龍蝦"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "999",
+              "hari",
+              "kokomi",
+              "kusuki",
+              "nano",
+              "reda",
+              "七月",
+              "牙涼",
+              "空雪",
+              "鬼鬼"
+            ],
+            "限定幽靈": [
+              "akaya"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/"
+          ],
+          "person_notes": {
+            "kokomi": "此為店舖開放時間；個人時段未另行列明。",
+            "reda": "此為店舖開放時間；個人時段未另行列明。"
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "999",
+              "kokomi",
+              "reda",
+              "yui",
+              "空雪",
+              "貓目",
+              "阿初"
+            ],
+            "限定幽靈": [
+              "豆豆"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "raku",
+              "ruika",
+              "丑",
+              "八田",
+              "剎那",
+              "小南",
+              "小狐狸"
+            ],
+            "限定幽靈": [
+              "Nana"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "event_name": "萬聖節活動"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "kokomi",
+              "reda",
+              "咬牙",
+              "小困",
+              "血血",
+              "龍蝦"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
         }
       ],
       "unresolved": [
@@ -3026,11 +3187,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-14",
           "hours": "",
           "groups": {
-            "正式女僕": [
-              "Judy"
-            ],
             "實習女僕": [
               "小貓"
+            ],
+            "正式女僕": [
+              "Judy"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -3039,11 +3200,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "hours": "",
           "groups": {
-            "新人女僕": [
-              "蝦蝦"
-            ],
             "實習女僕": [
               "Kaoko"
+            ],
+            "新人女僕": [
+              "蝦蝦"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -3052,14 +3213,14 @@ window.MAID_ROSTERS = {
           "date": "2026-10-16",
           "hours": "",
           "groups": {
-            "限定女僕": [
-              "奶茶"
+            "新人女僕": [
+              "貓貓"
             ],
             "正式女僕": [
               "薑"
             ],
-            "新人女僕": [
-              "貓貓"
+            "限定女僕": [
+              "奶茶"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/",
@@ -3074,12 +3235,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "",
           "groups": {
+            "新人女僕": [
+              "Hotaru"
+            ],
             "正式女僕": [
               "Judy",
               "冰川"
-            ],
-            "新人女僕": [
-              "Hotaru"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -3088,12 +3249,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "",
           "groups": {
-            "正式女僕": [
-              "薑"
-            ],
             "新人女僕": [
               "Bunny",
               "Noa"
+            ],
+            "正式女僕": [
+              "薑"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -3113,8 +3274,8 @@ window.MAID_ROSTERS = {
           "hours": "18:30-21:30",
           "groups": {
             "一日限定女僕": [
-              "Mio",
-              "Maru"
+              "Maru",
+              "Mio"
             ]
           },
           "source": "https://www.instagram.com/maidcafe.misty/p/DeR38_bqVJx/",
@@ -3136,12 +3297,27 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
+          "date": "2026-10-19",
+          "hours": "17:00-23:00",
+          "groups": {
+            "活動出演陣容": [
+              "@cream_ice_cos.0614",
+              "@elika_desu",
+              "@moris.zzz",
+              "@vyw1113_cos.chu",
+              "@yukina.02_"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/Dej2btnvGAE/",
+          "event_name": "Ave Mujica 假面舞會"
+        },
+        {
           "date": "2026-10-20",
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
-              "池池",
-              "fufu"
+              "fufu",
+              "池池"
             ]
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -3162,11 +3338,11 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
-              "曲奇",
+              "94",
               "Elika",
-              "潔蘿",
               "乳鴿",
-              "94"
+              "曲奇",
+              "潔蘿"
             ]
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -3176,9 +3352,9 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
+              "Aki",
               "夢兔",
-              "池池",
-              "Aki"
+              "池池"
             ],
             "限定女僕": [
               "YY"
@@ -3196,12 +3372,35 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-10-24",
+          "hours": "20:00-22:00",
+          "groups": {
+            "決賽日當值女僕": [
+              "@elika_desu",
+              "@squab_1213",
+              "@vyw1113_cos.chu",
+              "@wataru_112_",
+              "@y3_lain.cos"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/DeuE_1ND8iG/",
+          "event_name": "Bang Dream! Our Notes：Ave Mujica 音遊大賽",
+          "person_notes": {
+            "@elika_desu": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
+            "@squab_1213": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
+            "@vyw1113_cos.chu": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
+            "@wataru_112_": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
+            "@y3_lain.cos": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。"
+          },
+          "notes": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。"
+        },
+        {
           "date": "2026-10-25",
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
-              "霜",
-              "池池"
+              "池池",
+              "霜"
             ],
             "限定女僕": [
               "TakuRyo",
@@ -3215,10 +3414,10 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
-              "fufu",
-              "潔蘿",
               "Lori",
-              "Youko"
+              "Youko",
+              "fufu",
+              "潔蘿"
             ]
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -3228,51 +3427,13 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "出勤女僕": [
+              "Elika",
               "Lori",
               "Soya",
-              "乳鴿",
-              "Elika"
+              "乳鴿"
             ]
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "20:00-22:00",
-          "groups": {
-            "決賽日當值女僕": [
-              "@y3_lain.cos",
-              "@vyw1113_cos.chu",
-              "@elika_desu",
-              "@squab_1213",
-              "@wataru_112_"
-            ]
-          },
-          "source": "https://www.instagram.com/cosplace_cafe/p/DeuE_1ND8iG/",
-          "event_name": "Bang Dream! Our Notes：Ave Mujica 音遊大賽",
-          "person_notes": {
-            "@y3_lain.cos": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
-            "@vyw1113_cos.chu": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
-            "@elika_desu": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
-            "@squab_1213": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。",
-            "@wataru_112_": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。"
-          },
-          "notes": "貼文以角色配對 IG 帳戶列明決賽日當值陣容；20:00-22:00 為決賽時間，未確認各人完整當值時段。"
-        },
-        {
-          "date": "2026-10-19",
-          "hours": "17:00-23:00",
-          "groups": {
-            "活動出演陣容": [
-              "@cream_ice_cos.0614",
-              "@yukina.02_",
-              "@vyw1113_cos.chu",
-              "@elika_desu",
-              "@moris.zzz"
-            ]
-          },
-          "source": "https://www.instagram.com/cosplace_cafe/p/Dej2btnvGAE/",
-          "event_name": "Ave Mujica 假面舞會"
         }
       ]
     },
@@ -3288,18 +3449,79 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
+          "date": "2026-10-12",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "Amy",
+              "Reii",
+              "小瑤",
+              "晴兒"
+            ],
+            "Pirate Maid": [
+              "セレナ"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
+        },
+        {
+          "date": "2026-10-13",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "Kay",
+              "幽靈",
+              "月牙"
+            ],
+            "限定女僕": [
+              "小丸"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
+        },
+        {
+          "date": "2026-10-14",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "月牙",
+              "茶々"
+            ],
+            "Pirate Maid": [
+              "Yuki",
+              "蘿夏"
+            ],
+            "限定女僕": [
+              "秋刀魚"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
+        },
+        {
+          "date": "2026-10-15",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "Amy",
+              "Reii",
+              "麻油"
+            ]
+          },
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
+        },
+        {
           "date": "2026-10-16",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "梓叔",
-              "Raku"
-            ],
             "Maid": [
               "幽靈"
             ],
             "Pirate Maid": [
               "Neya"
+            ],
+            "限定女僕": [
+              "Raku",
+              "梓叔"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -3308,14 +3530,14 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "潼潼"
-            ],
             "Maid": [
               "晴兒"
             ],
             "Pirate Maid": [
               "Yume"
+            ],
+            "限定女僕": [
+              "潼潼"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -3325,9 +3547,9 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "Pirate Maid": [
+              "Yoyo",
               "小葵",
-              "浠浠",
-              "Yoyo"
+              "浠浠"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -3336,12 +3558,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-19",
           "hours": "18:00-23:00",
           "groups": {
+            "Pirate Maid": [
+              "セレナ",
+              "蘿夏"
+            ],
             "限定女僕": [
               "紫音"
-            ],
-            "Pirate Maid": [
-              "蘿夏",
-              "セレナ"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -3365,16 +3587,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-21",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "直女",
-              "Mari"
-            ],
             "Maid": [
               "月牙"
             ],
             "Pirate Maid": [
-              "蘿夏",
-              "Celia"
+              "Celia",
+              "蘿夏"
+            ],
+            "限定女僕": [
+              "Mari",
+              "直女"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -3386,8 +3608,8 @@ window.MAID_ROSTERS = {
             "生誕活動人員": [
               "Ami",
               "Asaki",
-              "寶寶",
-              "Saki"
+              "Saki",
+              "寶寶"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/",
@@ -3400,97 +3622,36 @@ window.MAID_ROSTERS = {
           "date": "2026-10-23",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "璧璧",
-              "紫喵"
-            ],
             "Maid": [
               "Kay"
             ],
             "Pirate Maid": [
-              "芽芽",
               "Yoyo",
-              "Yume"
+              "Yume",
+              "芽芽"
+            ],
+            "限定女僕": [
+              "璧璧",
+              "紫喵"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
-          "date": "2026-10-12",
-          "hours": "18:00-23:00",
-          "groups": {
-            "Maid": [
-              "小瑤",
-              "晴兒",
-              "Amy",
-              "Reii"
-            ],
-            "Pirate Maid": [
-              "セレナ"
-            ]
-          },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
-        },
-        {
-          "date": "2026-10-13",
-          "hours": "18:00-23:00",
-          "groups": {
-            "限定女僕": [
-              "小丸"
-            ],
-            "Maid": [
-              "幽靈",
-              "Kay",
-              "月牙"
-            ]
-          },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
-        },
-        {
-          "date": "2026-10-14",
-          "hours": "18:00-23:00",
-          "groups": {
-            "限定女僕": [
-              "秋刀魚"
-            ],
-            "Maid": [
-              "茶々",
-              "月牙"
-            ],
-            "Pirate Maid": [
-              "Yuki",
-              "蘿夏"
-            ]
-          },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
-        },
-        {
-          "date": "2026-10-15",
-          "hours": "18:00-23:00",
-          "groups": {
-            "Maid": [
-              "Amy",
-              "麻油",
-              "Reii"
-            ]
-          },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
-        },
-        {
           "date": "2026-10-24",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "卡路里"
-            ],
             "Maid": [
-              "月牙",
-              "天使"
+              "天使",
+              "月牙"
             ],
             "Pirate Maid": [
               "Akita",
-              "セレナ",
-              "Haka"
+              "Haka",
+              "セレナ"
+            ],
+            "限定女僕": [
+              "卡路里"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -3499,16 +3660,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-25",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "咩咩"
-            ],
             "Maid": [
               "月牙"
             ],
             "Pirate Maid": [
-              "セレナ",
+              "Mirei",
               "Yuki",
-              "Mirei"
+              "セレナ"
+            ],
+            "限定女僕": [
+              "咩咩"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -3517,16 +3678,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-26",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "Mizuka",
-              "Teo"
-            ],
             "Maid": [
-              "幽靈",
-              "Reii"
+              "Reii",
+              "幽靈"
             ],
             "Pirate Maid": [
               "セレナ"
+            ],
+            "限定女僕": [
+              "Mizuka",
+              "Teo"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -3535,16 +3696,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-27",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "照美"
-            ],
             "Maid": [
-              "月牙",
               "小瑤",
-              "幽靈"
+              "幽靈",
+              "月牙"
             ],
             "Pirate Maid": [
               "小睡"
+            ],
+            "限定女僕": [
+              "照美"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -3554,10 +3715,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "Maid": [
-              "晴兒",
               "Amy",
               "Reii",
-              "Soso"
+              "Soso",
+              "晴兒"
             ],
             "Pirate Maid": [
               "Haka"
@@ -3569,15 +3730,15 @@ window.MAID_ROSTERS = {
           "date": "2026-10-29",
           "hours": "18:00-23:00",
           "groups": {
-            "限定女僕": [
-              "Sumiyo"
-            ],
             "Maid": [
               "幽靈"
             ],
             "Pirate Maid": [
               "Mirei",
               "Yuki"
+            ],
+            "限定女僕": [
+              "Sumiyo"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -3588,13 +3749,13 @@ window.MAID_ROSTERS = {
           "groups": {
             "活動嘉賓": [
               "Amy",
-              "晴兒",
-              "茶茶",
-              "月牙",
-              "小葵",
               "YUKI",
+              "Yukina",
               "天使",
-              "Yukina"
+              "小葵",
+              "晴兒",
+              "月牙",
+              "茶茶"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -3606,10 +3767,10 @@ window.MAID_ROSTERS = {
           "groups": {
             "活動嘉賓": [
               "Amy",
-              "月牙",
-              "茶茶",
               "Serena",
-              "浠浠"
+              "月牙",
+              "浠浠",
+              "茶茶"
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -3645,8 +3806,8 @@ window.MAID_ROSTERS = {
               "貓貓"
             ],
             "限定居民": [
-              "kumi",
-              "Kuma"
+              "Kuma",
+              "kumi"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -3656,8 +3817,8 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "出沒居民": [
-              "葉子",
-              "櫻子"
+              "櫻子",
+              "葉子"
             ],
             "限定居民": [
               "小迴"
@@ -3670,10 +3831,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "啫喱魚",
+              "Sumika",
               "op",
-              "飯糰",
-              "Sumika"
+              "啫喱魚",
+              "飯糰"
             ],
             "限定居民": [
               "Nene"
@@ -3686,10 +3847,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "貓靈",
-              "悅夢",
+              "mogu",
               "バカ猫",
-              "mogu"
+              "悅夢",
+              "貓靈"
             ],
             "限定居民": [
               "小汐"
@@ -3702,10 +3863,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "萌え魚",
-              "貓貓",
               "Sumika",
-              "幽月"
+              "幽月",
+              "萌え魚",
+              "貓貓"
             ],
             "限定居民": [
               "朵拉"
@@ -3718,10 +3879,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "活動出席居民": [
-              "落塵",
-              "悅夢",
               "小夜",
-              "檸茶"
+              "悅夢",
+              "檸茶",
+              "落塵"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -3732,8 +3893,8 @@ window.MAID_ROSTERS = {
           "hours": "17:00-23:00",
           "groups": {
             "活動出席居民": [
-              "悅夢",
               "JoJo",
+              "悅夢",
               "葉子"
             ],
             "限定嘉賓": [
@@ -3751,12 +3912,12 @@ window.MAID_ROSTERS = {
               "JoJo",
               "Snowyyyy"
             ],
-            "限定居民": [
-              "凌風"
-            ],
             "影子精靈": [
               "Aki @aki_.aki45",
               "Aki @unknowndelete_aki"
+            ],
+            "限定居民": [
+              "凌風"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -3766,15 +3927,15 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "萌え魚",
               "亞也",
-              "茹兒"
-            ],
-            "限定居民": [
-              "團子"
+              "茹兒",
+              "萌え魚"
             ],
             "當值人員": [
               "Sumika"
+            ],
+            "限定居民": [
+              "團子"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -3784,10 +3945,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "啫喱魚",
-              "悅夢",
               "RuRu",
-              "Sumika"
+              "Sumika",
+              "啫喱魚",
+              "悅夢"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -3813,13 +3974,13 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
+              "悅夢",
               "茜茜",
-              "貓靈",
-              "悅夢"
+              "貓靈"
             ],
             "限定居民": [
-              "朱古力",
-              "ほたる"
+              "ほたる",
+              "朱古力"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -3830,12 +3991,12 @@ window.MAID_ROSTERS = {
           "groups": {
             "出沒居民": [
               "Sumika",
-              "飯糰",
-              "葉子"
+              "葉子",
+              "飯糰"
             ],
             "限定居民": [
-              "猫姬",
-              "Oscar"
+              "Oscar",
+              "猫姬"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
@@ -3860,9 +4021,9 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "萌え魚",
               "Snowyyyy",
-              "櫻子"
+              "櫻子",
+              "萌え魚"
             ],
             "限定居民": [
               "靚流"
@@ -3875,9 +4036,9 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "茜茜",
-              "大Sakura",
               "亞也",
+              "大Sakura",
+              "茜茜",
               "飯糰"
             ],
             "限定居民": [
@@ -3891,10 +4052,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
+              "Yua",
               "啫喱魚",
               "小sakura",
-              "悅夢",
-              "Yua"
+              "悅夢"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -3904,11 +4065,11 @@ window.MAID_ROSTERS = {
           "hours": "18:00-22:00",
           "groups": {
             "出沒居民": [
-              "萌え魚",
-              "バカ猫",
               "mogu",
+              "バカ猫",
               "奶茶",
-              "海塩"
+              "海塩",
+              "萌え魚"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -3919,10 +4080,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "出沒居民": [
-              "悅夢",
-              "葉子",
               "aki",
-              "歪歪"
+              "悅夢",
+              "歪歪",
+              "葉子"
             ]
           },
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -3953,10 +4114,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "魚莫",
-              "雅木",
+              "Ellie",
               "小嘉",
-              "Ellie"
+              "雅木",
+              "魚莫"
             ],
             "見習女僕": [
               "啾咿"
@@ -3969,12 +4130,12 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "魚",
-              "Yura"
+              "Yura",
+              "魚"
             ],
             "見習女僕": [
-              "Simanna",
               "Emi",
+              "Simanna",
               "許洛"
             ]
           },
@@ -3986,9 +4147,9 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "魚",
+              "茶茶",
               "青蛙",
-              "茶茶"
+              "魚"
             ],
             "見習女僕": [
               "牙米"
@@ -4001,13 +4162,13 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "貓月",
               "蕉",
+              "貓月",
               "青蛙"
             ],
             "見習女僕": [
-              "Kinako",
-              "Emi"
+              "Emi",
+              "Kinako"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -4017,10 +4178,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "雅木",
+              "Yuri",
               "兔仔",
-              "魚",
-              "Yuri"
+              "雅木",
+              "魚"
             ],
             "見習女僕": [
               "金魚"
@@ -4034,12 +4195,12 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Ellie",
-              "霜糖",
-              "青蛙",
-              "雅木",
-              "茶茶",
               "安柚",
-              "芊夏"
+              "芊夏",
+              "茶茶",
+              "雅木",
+              "霜糖",
+              "青蛙"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
@@ -4053,13 +4214,13 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "青蛙",
-              "有栖"
+              "有栖",
+              "青蛙"
             ],
             "見習女僕": [
-              "葵",
               "Moku",
-              "方包"
+              "方包",
+              "葵"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -4069,13 +4230,13 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "雅木",
+              "安柚",
               "狗狗",
-              "安柚"
+              "雅木"
             ],
             "見習女僕": [
-              "牙米",
-              "Asuka"
+              "Asuka",
+              "牙米"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -4090,8 +4251,8 @@ window.MAID_ROSTERS = {
               "青蛙"
             ],
             "見習女僕": [
-              "葵",
-              "Moku"
+              "Moku",
+              "葵"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -4101,11 +4262,11 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
+              "Yuri",
               "兔仔",
-              "茶茶",
-              "青蛙",
               "晏咲",
-              "Yuri"
+              "茶茶",
+              "青蛙"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -4116,10 +4277,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "青蛙",
-              "蕉蕉",
               "茶茶",
-              "貓月"
+              "蕉蕉",
+              "貓月",
+              "青蛙"
             ],
             "見習女僕": [
               "Kinako"
@@ -4133,14 +4294,14 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
+              "Yura",
               "狗狗",
-              "霜糖",
               "雅木",
-              "Yura"
+              "霜糖"
             ],
             "見習女僕": [
-              "方包",
-              "Moku"
+              "Moku",
+              "方包"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -4151,8 +4312,8 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "茶",
-              "Yuri"
+              "Yuri",
+              "茶"
             ],
             "見習女僕": [
               "Halo",
@@ -4170,11 +4331,11 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "魚",
-              "茶",
-              "Yuki",
               "Ellie",
-              "芊夏"
+              "Yuki",
+              "芊夏",
+              "茶",
+              "魚"
             ]
           },
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -4188,10 +4349,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "蕉蕉",
-              "小嘉",
               "安柚",
+              "小嘉",
               "有栖",
+              "蕉蕉",
               "雅木"
             ],
             "見習女僕": [
@@ -4207,9 +4368,9 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yura",
+              "兔仔",
               "狗狗",
-              "青蛙",
-              "兔仔"
+              "青蛙"
             ],
             "見習女僕": [
               "Simanna",
@@ -4224,9 +4385,9 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
+              "Yuri",
               "茶茶",
-              "貓月",
-              "Yuri"
+              "貓月"
             ],
             "見習女僕": [
               "牙米",
@@ -4241,9 +4402,9 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "青蛙",
+              "晏咲",
               "蕉蕉",
-              "晏咲"
+              "青蛙"
             ],
             "見習女僕": [
               "Halo",
@@ -4259,10 +4420,10 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "雅木",
+              "Himiko",
               "Yura",
               "芊夏",
-              "Himiko"
+              "雅木"
             ],
             "見習女僕": [
               "Yana"
@@ -4276,12 +4437,12 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "霜糖",
               "yuri",
+              "兔仔",
               "有梄",
-              "青蛙",
               "雅木",
-              "兔仔"
+              "霜糖",
+              "青蛙"
             ],
             "見習女僕": [
               "Yana",
@@ -4315,52 +4476,6 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-31",
-          "hours": "13:00-22:00",
-          "groups": {
-            "下午及晚上參演魔女": [
-              "Yukiko",
-              "東東",
-              "Kona",
-              "Onime",
-              "Meru"
-            ],
-            "下午場特邀魔女": [
-              "Saki",
-              "Kokona"
-            ],
-            "晚上場參演魔女": [
-              "水水"
-            ]
-          },
-          "source": "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/",
-          "event_name": "魔女觀察日記 2026 - 最終回",
-          "alternate_sources": [
-            "https://www.instagram.com/sugarfactorycafe/p/DeoQ9N2BjLu/",
-            "https://www.instagram.com/stories/highlights/18083791973269073/"
-          ],
-          "person_notes": {
-            "Yukiko": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "東東": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Kona": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Onime": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Meru": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Saki": "個人時段：13:00-17:00；兩場活動各自列明。",
-            "Kokona": "個人時段：13:00-17:00；兩場活動各自列明。",
-            "水水": "個人時段：18:00-22:00；兩場活動各自列明。"
-          },
-          "person_times": {
-            "Yukiko": "13:00-17:00、18:00-22:00",
-            "東東": "13:00-17:00、18:00-22:00",
-            "Kona": "13:00-17:00、18:00-22:00",
-            "Onime": "13:00-17:00、18:00-22:00",
-            "Meru": "13:00-17:00、18:00-22:00",
-            "Saki": "13:00-17:00",
-            "Kokona": "13:00-17:00",
-            "水水": "18:00-22:00"
-          }
-        },
-        {
           "date": "2026-10-16",
           "hours": "13:00-22:00",
           "groups": {
@@ -4386,21 +4501,21 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Yukiko",
-              "花琉",
-              "紗月"
+              "紗月",
+              "花琉"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
             "Yukiko": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "花琉": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "紗月": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "紗月": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "花琉": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
             "Yukiko": "13:00-22:00",
-            "花琉": "13:00-22:00",
-            "紗月": "13:00-22:00"
+            "紗月": "13:00-22:00",
+            "花琉": "13:00-22:00"
           },
           "notes": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
         },
@@ -4454,24 +4569,24 @@ window.MAID_ROSTERS = {
           "hours": "13:00-22:00",
           "groups": {
             "當值女僕": [
+              "Akane",
               "Kona",
               "東東",
-              "Akane",
               "紗月"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
+            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "Kona": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "東東": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "紗月": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
+            "Akane": "17:00-22:00",
             "Kona": "13:00-22:00",
             "東東": "13:00-18:00",
-            "Akane": "17:00-22:00",
             "紗月": "17:00-22:00"
           }
         },
@@ -4500,22 +4615,22 @@ window.MAID_ROSTERS = {
           "hours": "13:00-22:00",
           "groups": {
             "當值女僕": [
-              "東東",
+              "Akane",
               "Meru",
-              "Akane"
+              "東東"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
-            "東東": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "Meru": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "東東": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
-            "東東": "13:00-22:00",
+            "Akane": "17:00-22:00",
             "Meru": "13:00-22:00",
-            "Akane": "17:00-22:00"
+            "東東": "13:00-22:00"
           }
         },
         {
@@ -4524,24 +4639,24 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Onime",
-              "芊芊",
+              "小莓",
               "桃子",
-              "小莓"
+              "芊芊"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
             "Onime": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "芊芊": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "桃子": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "芊芊": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
             "Onime": "13:00-22:00",
-            "芊芊": "13:00-18:00",
+            "小莓": "17:00-22:00",
             "桃子": "13:00-18:00",
-            "小莓": "17:00-22:00"
+            "芊芊": "13:00-18:00"
           }
         },
         {
@@ -4550,21 +4665,21 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Onime",
-              "花琉",
-              "紗月"
+              "紗月",
+              "花琉"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
             "Onime": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "花琉": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "紗月": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "紗月": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "花琉": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
             "Onime": "13:00-22:00",
-            "花琉": "13:00-22:00",
-            "紗月": "17:00-22:00"
+            "紗月": "17:00-22:00",
+            "花琉": "13:00-22:00"
           }
         },
         {
@@ -4594,24 +4709,24 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Yukiko",
+              "小莓",
               "東東",
-              "桃子",
-              "小莓"
+              "桃子"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
             "Yukiko": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "東東": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "桃子": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "桃子": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
             "Yukiko": "13:00-22:00",
+            "小莓": "17:00-22:00",
             "東東": "13:00-22:00",
-            "桃子": "13:00-18:00",
-            "小莓": "17:00-22:00"
+            "桃子": "13:00-18:00"
           }
         },
         {
@@ -4619,19 +4734,19 @@ window.MAID_ROSTERS = {
           "hours": "13:00-22:00",
           "groups": {
             "當值女僕": [
-              "東東",
-              "Kona"
+              "Kona",
+              "東東"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
-            "東東": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "Kona": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "Kona": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "東東": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
-            "東東": "13:00-22:00",
-            "Kona": "13:00-22:00"
+            "Kona": "13:00-22:00",
+            "東東": "13:00-22:00"
           },
           "notes": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
         },
@@ -4661,22 +4776,22 @@ window.MAID_ROSTERS = {
           "hours": "13:00-22:00",
           "groups": {
             "當值女僕": [
-              "紗月",
+              "Akane",
               "Meru",
-              "Akane"
+              "紗月"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
-            "紗月": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
             "Meru": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "Akane": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "紗月": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
-            "紗月": "13:00-22:00",
+            "Akane": "17:00-22:00",
             "Meru": "13:00-22:00",
-            "Akane": "17:00-22:00"
+            "紗月": "13:00-22:00"
           }
         },
         {
@@ -4685,21 +4800,67 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值女僕": [
               "Onime",
-              "桃子",
-              "小莓"
+              "小莓",
+              "桃子"
             ]
           },
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
             "Onime": "個人時段：13:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "桃子": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。",
-            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。"
+            "小莓": "個人時段：17:00-22:00；圖片列明13:00-22:00 是店舖開放時間。",
+            "桃子": "個人時段：13:00-18:00；圖片列明13:00-22:00 是店舖開放時間。"
           },
           "person_times": {
             "Onime": "13:00-22:00",
-            "桃子": "13:00-18:00",
-            "小莓": "17:00-22:00"
+            "小莓": "17:00-22:00",
+            "桃子": "13:00-18:00"
+          }
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "13:00-22:00",
+          "groups": {
+            "下午及晚上參演魔女": [
+              "Kona",
+              "Meru",
+              "Onime",
+              "Yukiko",
+              "東東"
+            ],
+            "下午場特邀魔女": [
+              "Kokona",
+              "Saki"
+            ],
+            "晚上場參演魔女": [
+              "水水"
+            ]
+          },
+          "source": "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/",
+          "event_name": "魔女觀察日記 2026 - 最終回",
+          "alternate_sources": [
+            "https://www.instagram.com/sugarfactorycafe/p/DeoQ9N2BjLu/",
+            "https://www.instagram.com/stories/highlights/18083791973269073/"
+          ],
+          "person_notes": {
+            "Kona": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "Meru": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "Onime": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "Yukiko": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "東東": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "Kokona": "個人時段：13:00-17:00；兩場活動各自列明。",
+            "Saki": "個人時段：13:00-17:00；兩場活動各自列明。",
+            "水水": "個人時段：18:00-22:00；兩場活動各自列明。"
+          },
+          "person_times": {
+            "Kona": "13:00-17:00、18:00-22:00",
+            "Meru": "13:00-17:00、18:00-22:00",
+            "Onime": "13:00-17:00、18:00-22:00",
+            "Yukiko": "13:00-17:00、18:00-22:00",
+            "東東": "13:00-17:00、18:00-22:00",
+            "Kokona": "13:00-17:00",
+            "Saki": "13:00-17:00",
+            "水水": "18:00-22:00"
           }
         }
       ]
@@ -4716,12 +4877,129 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
+          "date": "2026-10-12",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "Lula",
+              "櫻染"
+            ],
+            "試工女僕": [
+              "Mao"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
+          "date": "2026-10-13",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "いせ",
+              "月璃"
+            ],
+            "限定女僕": [
+              "丑"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
+          "date": "2026-10-14",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "檸檬",
+              "藍南"
+            ],
+            "試工女僕": [
+              "安"
+            ],
+            "限定女僕": [
+              "Mika"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
+          "date": "2026-10-15",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "月璃",
+              "貓神",
+              "鏡雨"
+            ],
+            "試工女僕": [
+              "小茸",
+              "小雨"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
+          "date": "2026-10-16",
+          "hours": "17:00-22:00",
+          "groups": {
+            "一日限定女僕": [
+              "れいん"
+            ],
+            "女僕": [
+              "櫻染"
+            ],
+            "試工女僕": [
+              "Maru",
+              "安"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeeD6hXJ9oo/"
+          ],
+          "person_notes": {
+            "れいん": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "れいん": "18:30-21:30"
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "Nana",
+              "藍南",
+              "鏡雨"
+            ],
+            "試工女僕": [
+              "小茸"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
+          "date": "2026-10-18",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "ジル",
+              "千鈴",
+              "肉鬆"
+            ],
+            "試工女僕": [
+              "小雨"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
+        },
+        {
           "date": "2026-10-19",
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "優奈",
-              "Lula"
+              "Lula",
+              "優奈"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
@@ -4731,9 +5009,9 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "女僕": [
+              "いせ",
               "貓神",
-              "鏡雨",
-              "いせ"
+              "鏡雨"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
@@ -4742,16 +5020,16 @@ window.MAID_ROSTERS = {
           "date": "2026-10-21",
           "hours": "17:00-22:00",
           "groups": {
-            "限定女僕": [
-              "呆呆"
-            ],
             "女僕": [
-              "月璃",
-              "Kola"
+              "Kola",
+              "月璃"
             ],
             "試工女僕": [
               "小茸",
               "小雨"
+            ],
+            "限定女僕": [
+              "呆呆"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -4770,15 +5048,15 @@ window.MAID_ROSTERS = {
           "date": "2026-10-22",
           "hours": "17:00-22:00",
           "groups": {
-            "限定女僕": [
-              "Yako",
-              "Reii"
-            ],
             "女僕": [
-              "檸檬",
               "千鈴",
+              "檸檬",
               "肉鬆",
               "鏡雨"
+            ],
+            "限定女僕": [
+              "Reii",
+              "Yako"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -4787,25 +5065,25 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/themanorcafe/p/DevRoC6pitY/"
           ],
           "person_notes": {
-            "Yako": "個人時段：17:30-21:30；限定專帖另列。",
-            "Reii": "個人時段：17:30-21:30；限定專帖另列。"
+            "Reii": "個人時段：17:30-21:30；限定專帖另列。",
+            "Yako": "個人時段：17:30-21:30；限定專帖另列。"
           },
           "person_times": {
-            "Yako": "17:30-21:30",
-            "Reii": "17:30-21:30"
+            "Reii": "17:30-21:30",
+            "Yako": "17:30-21:30"
           }
         },
         {
           "date": "2026-10-23",
           "hours": "17:00-22:00",
           "groups": {
+            "女僕": [
+              "Kola",
+              "Nana",
+              "月璃"
+            ],
             "限定女僕": [
               "Moka"
-            ],
-            "女僕": [
-              "Nana",
-              "月璃",
-              "Kola"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -4824,8 +5102,8 @@ window.MAID_ROSTERS = {
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "ジル",
-              "Nana"
+              "Nana",
+              "ジル"
             ],
             "試工女僕": [
               "小茸",
@@ -4860,123 +5138,6 @@ window.MAID_ROSTERS = {
           "person_times": {
             "Soya": "18:30-21:30"
           }
-        },
-        {
-          "date": "2026-10-16",
-          "hours": "17:00-22:00",
-          "groups": {
-            "一日限定女僕": [
-              "れいん"
-            ],
-            "女僕": [
-              "櫻染"
-            ],
-            "試工女僕": [
-              "Maru",
-              "安"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/",
-          "alternate_sources": [
-            "https://www.instagram.com/themanorcafe/p/DeeD6hXJ9oo/"
-          ],
-          "person_notes": {
-            "れいん": "個人時段：18:30-21:30"
-          },
-          "person_times": {
-            "れいん": "18:30-21:30"
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "hours": "17:00-22:00",
-          "groups": {
-            "女僕": [
-              "Lula",
-              "櫻染"
-            ],
-            "試工女僕": [
-              "Mao"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
-        },
-        {
-          "date": "2026-10-13",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定女僕": [
-              "丑"
-            ],
-            "女僕": [
-              "月璃",
-              "いせ"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
-        },
-        {
-          "date": "2026-10-14",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定女僕": [
-              "Mika"
-            ],
-            "女僕": [
-              "檸檬",
-              "藍南"
-            ],
-            "試工女僕": [
-              "安"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
-        },
-        {
-          "date": "2026-10-15",
-          "hours": "17:00-22:00",
-          "groups": {
-            "女僕": [
-              "貓神",
-              "月璃",
-              "鏡雨"
-            ],
-            "試工女僕": [
-              "小茸",
-              "小雨"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
-        },
-        {
-          "date": "2026-10-17",
-          "hours": "15:00-22:00",
-          "groups": {
-            "女僕": [
-              "藍南",
-              "Nana",
-              "鏡雨"
-            ],
-            "試工女僕": [
-              "小茸"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
-        },
-        {
-          "date": "2026-10-18",
-          "hours": "15:00-22:00",
-          "groups": {
-            "女僕": [
-              "ジル",
-              "千鈴",
-              "肉鬆"
-            ],
-            "試工女僕": [
-              "小雨"
-            ]
-          },
-          "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         }
       ]
     },
@@ -4994,404 +5155,6 @@ window.MAID_ROSTERS = {
         1
       ],
       "shifts": [
-        {
-          "date": "2026-10-16",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "阿糖",
-              "Fuwa",
-              "gigi"
-            ],
-            "限定天使": [
-              "紗奈"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "紗奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-17",
-          "hours": "15:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "阿糖",
-              "Rina",
-              "可妍"
-            ],
-            "限定天使": [
-              "菌子"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "菌子": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-18",
-          "hours": "15:00-22:00",
-          "groups": {
-            "廚師": [
-              "Reimu"
-            ],
-            "水色天使": [
-              "喵喵",
-              "檸檬",
-              "Toyu",
-              "Hayu"
-            ],
-            "限定天使": [
-              "Tami"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "檸檬": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Tami": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "Sinyu",
-              "gigi",
-              "Mii"
-            ],
-            "限定天使": [
-              "Vivi"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Vivi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "すみれ",
-              "Reimu",
-              "Fuwa"
-            ],
-            "限定天使": [
-              "YK",
-              "Kuro"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "YK": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kuro": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "Rina",
-              "喵喵",
-              "小葵",
-              "Moli"
-            ],
-            "限定天使": [
-              "呱呱",
-              "Kirari"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Moli": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "呱呱": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kirari": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "すみれ",
-              "Sinyu"
-            ],
-            "限定天使": [
-              "だんこ"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "だんこ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "15:00-22:00",
-          "groups": {
-            "廚師": [
-              "Rina"
-            ],
-            "水色天使": [
-              "Toyu",
-              "Fuwa",
-              "檸檬",
-              "Yuzuha"
-            ],
-            "限定天使": [
-              "Kori",
-              "水獺"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "檸檬": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "水獺": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-25",
-          "hours": "15:00-22:00",
-          "groups": {
-            "廚師": [
-              "Reimu"
-            ],
-            "水色天使": [
-              "喵喵",
-              "Hayu",
-              "羊咩",
-              "香取"
-            ],
-            "限定天使": [
-              "tomori"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "羊咩": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "香取": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-27",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "可妍",
-              "Toyu",
-              "Mii"
-            ],
-            "限定天使": [
-              "haka"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-28",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "阿糖"
-            ],
-            "水色天使": [
-              "Reimu",
-              "gigi",
-              "Fumi"
-            ],
-            "限定天使": [
-              "菜菜",
-              "Miharu"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Fumi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-29",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "阿糖",
-              "すみれ",
-              "未來",
-              "小葵"
-            ],
-            "限定天使": [
-              "甘樂",
-              "Kai"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "未來": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "甘樂": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kai": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "17:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "すみれ",
-              "Hayu",
-              "Sinyu"
-            ],
-            "限定天使": [
-              "真奈"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
-        {
-          "date": "2026-10-31",
-          "hours": "15:00-22:00",
-          "groups": {
-            "廚師": [
-              "蛋撻"
-            ],
-            "水色天使": [
-              "Sinyu",
-              "Rina",
-              "Yuzuha"
-            ],
-            "限定天使": [
-              "Ayane",
-              "Stellar"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-          "event_name": "血光暗影祭",
-          "person_notes": {
-            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Ayane": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Stellar": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-        },
         {
           "date": "2026-10-13",
           "hours": "17:00-22:00",
@@ -5417,9 +5180,9 @@ window.MAID_ROSTERS = {
               "阿糖"
             ],
             "水色天使": [
-              "萌え魚",
               "Toyu",
-              "のあ"
+              "のあ",
+              "萌え魚"
             ],
             "限定天使": [
               "池池"
@@ -5435,9 +5198,9 @@ window.MAID_ROSTERS = {
               "蛋撻"
             ],
             "水色天使": [
-              "阿糖",
               "Fuwa",
-              "小葵"
+              "小葵",
+              "阿糖"
             ],
             "限定天使": [
               "Yukir",
@@ -5445,6 +5208,404 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
+        },
+        {
+          "date": "2026-10-16",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Fuwa",
+              "gigi",
+              "阿糖"
+            ],
+            "限定天使": [
+              "紗奈"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "紗奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-17",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Rina",
+              "可妍",
+              "阿糖"
+            ],
+            "限定天使": [
+              "菌子"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "菌子": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-18",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "Reimu"
+            ],
+            "水色天使": [
+              "Hayu",
+              "Toyu",
+              "喵喵",
+              "檸檬"
+            ],
+            "限定天使": [
+              "Tami"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "檸檬": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Tami": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Mii",
+              "Sinyu",
+              "gigi"
+            ],
+            "限定天使": [
+              "Vivi"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Vivi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Fuwa",
+              "Reimu",
+              "すみれ"
+            ],
+            "限定天使": [
+              "Kuro",
+              "YK"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Kuro": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "YK": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Moli",
+              "Rina",
+              "喵喵",
+              "小葵"
+            ],
+            "限定天使": [
+              "Kirari",
+              "呱呱"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Moli": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Kirari": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "呱呱": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Sinyu",
+              "すみれ"
+            ],
+            "限定天使": [
+              "だんこ"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "だんこ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "Rina"
+            ],
+            "水色天使": [
+              "Fuwa",
+              "Toyu",
+              "Yuzuha",
+              "檸檬"
+            ],
+            "限定天使": [
+              "Kori",
+              "水獺"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Fuwa": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "檸檬": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Kori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "水獺": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "Reimu"
+            ],
+            "水色天使": [
+              "Hayu",
+              "喵喵",
+              "羊咩",
+              "香取"
+            ],
+            "限定天使": [
+              "tomori"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "羊咩": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "香取": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Mii",
+              "Toyu",
+              "可妍"
+            ],
+            "限定天使": [
+              "haka"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "阿糖"
+            ],
+            "水色天使": [
+              "Fumi",
+              "Reimu",
+              "gigi"
+            ],
+            "限定天使": [
+              "Miharu",
+              "菜菜"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Fumi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "すみれ",
+              "小葵",
+              "未來",
+              "阿糖"
+            ],
+            "限定天使": [
+              "Kai",
+              "甘樂"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "未來": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Kai": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "甘樂": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Hayu",
+              "Sinyu",
+              "すみれ"
+            ],
+            "限定天使": [
+              "真奈"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Rina",
+              "Sinyu",
+              "Yuzuha"
+            ],
+            "限定天使": [
+              "Ayane",
+              "Stellar"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+          "event_name": "血光暗影祭",
+          "person_notes": {
+            "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Ayane": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "Stellar": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          },
+          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         }
       ]
     },
@@ -5459,390 +5620,6 @@ window.MAID_ROSTERS = {
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
-        {
-          "date": "2026-10-16",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "玲奈",
-              "バカ",
-              "yuzu"
-            ],
-            "當值廚娘": [
-              "奈雅",
-              "Kaoko"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "玲奈": "個人時段：12:00-17:00",
-            "バカ": "個人時段：13:00-20:00",
-            "yuzu": "個人時段：17:00-23:00",
-            "奈雅": "個人時段：12:00-17:00",
-            "Kaoko": "個人時段：20:00-23:00"
-          },
-          "person_times": {
-            "玲奈": "12:00-17:00",
-            "バカ": "13:00-20:00",
-            "yuzu": "17:00-23:00",
-            "奈雅": "12:00-17:00",
-            "Kaoko": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-17",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "Hecate",
-              "瑤瑤",
-              "sora",
-              "石榴",
-              "綰綰"
-            ],
-            "限定當值女僕": [
-              "ゆみ",
-              "Nyanko"
-            ],
-            "當值廚娘": [
-              "奈雅",
-              "真冬"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "Hecate": "個人時段：12:00-17:00",
-            "瑤瑤": "個人時段：17:00-23:00",
-            "sora": "個人時段：17:00-23:00",
-            "石榴": "個人時段：17:00-23:00",
-            "綰綰": "個人時段：18:00-23:00",
-            "ゆみ": "個人時段：18:00-23:00",
-            "Nyanko": "個人時段：18:00-23:00",
-            "奈雅": "個人時段：12:00-17:00",
-            "真冬": "個人時段：20:00-23:00"
-          },
-          "person_times": {
-            "Hecate": "12:00-17:00",
-            "瑤瑤": "17:00-23:00",
-            "sora": "17:00-23:00",
-            "石榴": "17:00-23:00",
-            "綰綰": "18:00-23:00",
-            "ゆみ": "18:00-23:00",
-            "Nyanko": "18:00-23:00",
-            "奈雅": "12:00-17:00",
-            "真冬": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-18",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "靈兔",
-              "萌え魚",
-              "Koe",
-              "玲奈",
-              "小欣",
-              "嵐嵐",
-              "石榴",
-              "綰綰"
-            ],
-            "當值廚娘": [
-              "羅露妮",
-              "Ceci"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "靈兔": "個人時段：12:00-17:00",
-            "萌え魚": "個人時段：12:00-17:00",
-            "Koe": "個人時段：13:00-18:30",
-            "玲奈": "個人時段：15:00-23:00",
-            "小欣": "個人時段：17:00-23:00",
-            "嵐嵐": "個人時段：17:00-23:00",
-            "石榴": "個人時段：17:00-23:00",
-            "綰綰": "個人時段：18:00-23:00",
-            "羅露妮": "個人時段：12:00-17:00",
-            "Ceci": "個人時段：20:00-23:00"
-          },
-          "person_times": {
-            "靈兔": "12:00-17:00",
-            "萌え魚": "12:00-17:00",
-            "Koe": "13:00-18:30",
-            "玲奈": "15:00-23:00",
-            "小欣": "17:00-23:00",
-            "嵐嵐": "17:00-23:00",
-            "石榴": "17:00-23:00",
-            "綰綰": "18:00-23:00",
-            "羅露妮": "12:00-17:00",
-            "Ceci": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-19",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "玲奈",
-              "石榴",
-              "Toffee",
-              "玄幽",
-              "綰綰"
-            ],
-            "當值廚娘": [
-              "Mo",
-              "Tina",
-              "奈雅",
-              "真冬"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "玲奈": "個人時段：12:00-17:00",
-            "石榴": "個人時段：13:00-19:00",
-            "Toffee": "個人時段：15:00-23:00",
-            "玄幽": "個人時段：17:00-23:00",
-            "綰綰": "個人時段：18:00-23:00",
-            "Mo": "個人時段：12:00-17:00",
-            "Tina": "個人時段：13:00-20:00",
-            "奈雅": "個人時段：17:00-23:00",
-            "真冬": "個人時段：20:00-23:00"
-          },
-          "person_times": {
-            "玲奈": "12:00-17:00",
-            "石榴": "13:00-19:00",
-            "Toffee": "15:00-23:00",
-            "玄幽": "17:00-23:00",
-            "綰綰": "18:00-23:00",
-            "Mo": "12:00-17:00",
-            "Tina": "13:00-20:00",
-            "奈雅": "17:00-23:00",
-            "真冬": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值廚娘": [
-              "バカ",
-              "奈雅",
-              "羅露妮",
-              "Kaoko"
-            ],
-            "限定當值女僕": [
-              "mogu"
-            ],
-            "當值女僕": [
-              "玲奈",
-              "靈兔"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "バカ": "個人時段：12:00-17:00",
-            "奈雅": "個人時段：12:00-17:00",
-            "羅露妮": "個人時段：17:00-23:00",
-            "Kaoko": "個人時段：20:00-23:00",
-            "mogu": "個人時段：12:00-17:00",
-            "玲奈": "個人時段：15:00-23:00",
-            "靈兔": "個人時段：17:00-22:00"
-          },
-          "person_times": {
-            "バカ": "12:00-17:00",
-            "奈雅": "12:00-17:00",
-            "羅露妮": "17:00-23:00",
-            "Kaoko": "20:00-23:00",
-            "mogu": "12:00-17:00",
-            "玲奈": "15:00-23:00",
-            "靈兔": "17:00-22:00"
-          }
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "Sirius",
-              "靈兔",
-              "Gigi",
-              "小嵐",
-              "玄幽",
-              "Riley",
-              "綰綰",
-              "Toffee"
-            ],
-            "當值廚娘": [
-              "奈雅"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "Sirius": "個人時段：12:00-17:00",
-            "靈兔": "個人時段：13:00-20:00",
-            "Gigi": "個人時段：17:00-23:00",
-            "小嵐": "個人時段：17:00-23:00",
-            "玄幽": "個人時段：17:00-23:00",
-            "Riley": "個人時段：17:00-23:00",
-            "綰綰": "個人時段：18:00-23:00",
-            "Toffee": "個人時段：18:00-23:00",
-            "奈雅": "個人時段：12:00-17:00"
-          },
-          "person_times": {
-            "Sirius": "12:00-17:00",
-            "靈兔": "13:00-20:00",
-            "Gigi": "17:00-23:00",
-            "小嵐": "17:00-23:00",
-            "玄幽": "17:00-23:00",
-            "Riley": "17:00-23:00",
-            "綰綰": "18:00-23:00",
-            "Toffee": "18:00-23:00",
-            "奈雅": "12:00-17:00"
-          }
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "玲奈",
-              "yuzu",
-              "Sirius",
-              "Gigi",
-              "Reii莉"
-            ],
-            "當值廚娘": [
-              "奈雅",
-              "Mo",
-              "Ceci"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "玲奈": "個人時段：12:00-17:00",
-            "yuzu": "個人時段：13:00-20:00",
-            "Sirius": "個人時段：14:00-19:00",
-            "Gigi": "個人時段：17:00-23:00",
-            "Reii莉": "個人時段：17:00-23:00",
-            "奈雅": "個人時段：12:00-17:00",
-            "Mo": "個人時段：17:00-23:00",
-            "Ceci": "個人時段：20:00-23:00"
-          },
-          "person_times": {
-            "玲奈": "12:00-17:00",
-            "yuzu": "13:00-20:00",
-            "Sirius": "14:00-19:00",
-            "Gigi": "17:00-23:00",
-            "Reii莉": "17:00-23:00",
-            "奈雅": "12:00-17:00",
-            "Mo": "17:00-23:00",
-            "Ceci": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "玲奈",
-              "Reii莉",
-              "Gigi",
-              "yuzu",
-              "バカ",
-              "Riya"
-            ],
-            "當值廚娘": [
-              "羅露妮",
-              "Kaoko",
-              "真冬"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "person_notes": {
-            "玲奈": "個人時段：12:00-17:00",
-            "Reii莉": "個人時段：13:00-20:00",
-            "Gigi": "個人時段：17:00-23:00",
-            "yuzu": "個人時段：17:00-23:00",
-            "バカ": "個人時段：17:00-23:00",
-            "Riya": "個人時段：17:00-23:00",
-            "羅露妮": "個人時段：12:00-17:00",
-            "Kaoko": "個人時段：20:00-23:00",
-            "真冬": "個人時段：17:00-23:00"
-          },
-          "person_times": {
-            "玲奈": "12:00-17:00",
-            "Reii莉": "13:00-20:00",
-            "Gigi": "17:00-23:00",
-            "yuzu": "17:00-23:00",
-            "バカ": "17:00-23:00",
-            "Riya": "17:00-23:00",
-            "羅露妮": "12:00-17:00",
-            "Kaoko": "20:00-23:00",
-            "真冬": "17:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "kano",
-              "Riya",
-              "玲奈"
-            ],
-            "生誕當值女僕": [
-              "Riri",
-              "玄幽",
-              "靈兔"
-            ],
-            "生誕當值嘉賓": [
-              "地鼠",
-              "小春",
-              "yuki",
-              "Morie"
-            ],
-            "當值廚娘": [
-              "奈雅",
-              "Ceci",
-              "真冬"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
-          "event_name": "靈兔×Mistia Luna〈Mk兔の生誕祭〉",
-          "alternate_sources": [
-            "https://www.instagram.com/mistia_luna/p/DejhyajE3Lz/"
-          ],
-          "person_notes": {
-            "kano": "個人時段：12:00-17:00",
-            "Riya": "個人時段：12:00-17:00",
-            "玲奈": "個人時段：13:00-20:00",
-            "Riri": "個人時段：17:00-23:00",
-            "玄幽": "個人時段：17:00-23:00",
-            "靈兔": "個人時段：17:00-23:00",
-            "地鼠": "個人時段：17:00-23:00",
-            "小春": "個人時段：17:00-23:00",
-            "yuki": "個人時段：17:00-23:00",
-            "Morie": "個人時段：17:00-23:00",
-            "奈雅": "個人時段：12:00-17:00",
-            "Ceci": "個人時段：20:00-23:00",
-            "真冬": "個人時段：17:00-23:00"
-          },
-          "person_times": {
-            "kano": "12:00-17:00",
-            "Riya": "12:00-17:00",
-            "玲奈": "13:00-20:00",
-            "Riri": "17:00-23:00",
-            "玄幽": "17:00-23:00",
-            "靈兔": "17:00-23:00",
-            "地鼠": "17:00-23:00",
-            "小春": "17:00-23:00",
-            "yuki": "17:00-23:00",
-            "Morie": "17:00-23:00",
-            "奈雅": "12:00-17:00",
-            "Ceci": "20:00-23:00",
-            "真冬": "17:00-23:00"
-          }
-        },
         {
           "date": "2026-10-12",
           "hours": "12:00-23:00",
@@ -5866,33 +5643,33 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "12:00-23:00",
           "groups": {
-            "當值廚娘": [
-              "バカ",
-              "奈雅",
-              "羅露妮",
-              "Ceci"
-            ],
             "當值女僕": [
               "Gigi",
               "小嵐"
+            ],
+            "當值廚娘": [
+              "Ceci",
+              "バカ",
+              "奈雅",
+              "羅露妮"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
+            "Gigi": "個人時段：17:00-22:00",
+            "小嵐": "個人時段：17:00-22:00",
+            "Ceci": "個人時段：20:00-23:00",
             "バカ": "個人時段：12:00-20:00",
             "奈雅": "個人時段：12:00-17:00",
-            "羅露妮": "個人時段：17:00-23:00",
-            "Ceci": "個人時段：20:00-23:00",
-            "Gigi": "個人時段：17:00-22:00",
-            "小嵐": "個人時段：17:00-22:00"
+            "羅露妮": "個人時段：17:00-23:00"
           },
           "person_times": {
+            "Gigi": "17:00-22:00",
+            "小嵐": "17:00-22:00",
+            "Ceci": "20:00-23:00",
             "バカ": "12:00-20:00",
             "奈雅": "12:00-17:00",
-            "羅露妮": "17:00-23:00",
-            "Ceci": "20:00-23:00",
-            "Gigi": "17:00-22:00",
-            "小嵐": "17:00-22:00"
+            "羅露妮": "17:00-23:00"
           }
         },
         {
@@ -5900,11 +5677,11 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
+              "Toffee",
               "バカ",
               "玄幽",
-              "鹹魚",
               "綰綰",
-              "Toffee"
+              "鹹魚"
             ],
             "當值廚娘": [
               "奈雅"
@@ -5912,19 +5689,19 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
+            "Toffee": "個人時段：18:00-23:00",
             "バカ": "個人時段：12:00-17:00",
             "玄幽": "個人時段：17:00-23:00",
-            "鹹魚": "個人時段：17:00-23:00",
             "綰綰": "個人時段：18:00-23:00",
-            "Toffee": "個人時段：18:00-23:00",
+            "鹹魚": "個人時段：17:00-23:00",
             "奈雅": "個人時段：12:00-23:00"
           },
           "person_times": {
+            "Toffee": "18:00-23:00",
             "バカ": "12:00-17:00",
             "玄幽": "17:00-23:00",
-            "鹹魚": "17:00-23:00",
             "綰綰": "18:00-23:00",
-            "Toffee": "18:00-23:00",
+            "鹹魚": "17:00-23:00",
             "奈雅": "12:00-23:00"
           }
         },
@@ -5933,9 +5710,9 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
+              "Gigi",
               "バカ",
               "小嵐",
-              "Gigi",
               "腰豆",
               "萌え魚"
             ],
@@ -5946,18 +5723,18 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
+            "Gigi": "個人時段：17:00-23:00",
             "バカ": "個人時段：12:00-17:00",
             "小嵐": "個人時段：12:00-17:00",
-            "Gigi": "個人時段：17:00-23:00",
             "腰豆": "個人時段：17:00-23:00",
             "萌え魚": "個人時段：17:00-23:00",
             "奈雅": "個人時段：12:00-23:00",
             "羅露妮": "個人時段：14:00-19:00"
           },
           "person_times": {
+            "Gigi": "17:00-23:00",
             "バカ": "12:00-17:00",
             "小嵐": "12:00-17:00",
-            "Gigi": "17:00-23:00",
             "腰豆": "17:00-23:00",
             "萌え魚": "17:00-23:00",
             "奈雅": "12:00-23:00",
@@ -5965,57 +5742,441 @@ window.MAID_ROSTERS = {
           }
         },
         {
-          "date": "2026-10-25",
+          "date": "2026-10-16",
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
-              "梳乎厘",
-              "萌え魚",
-              "Toffee",
-              "玄幽",
-              "Gigi",
-              "Riri",
-              "小欣",
-              "小嵐",
-              "zero",
-              "sora"
+              "yuzu",
+              "バカ",
+              "玲奈"
+            ],
+            "當值廚娘": [
+              "Kaoko",
+              "奈雅"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "yuzu": "個人時段：17:00-23:00",
+            "バカ": "個人時段：13:00-20:00",
+            "玲奈": "個人時段：12:00-17:00",
+            "Kaoko": "個人時段：20:00-23:00",
+            "奈雅": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "yuzu": "17:00-23:00",
+            "バカ": "13:00-20:00",
+            "玲奈": "12:00-17:00",
+            "Kaoko": "20:00-23:00",
+            "奈雅": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Hecate",
+              "sora",
+              "瑤瑤",
+              "石榴",
+              "綰綰"
+            ],
+            "當值廚娘": [
+              "奈雅",
+              "真冬"
             ],
             "限定當值女僕": [
-              "夢川"
+              "Nyanko",
+              "ゆみ"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Hecate": "個人時段：12:00-17:00",
+            "sora": "個人時段：17:00-23:00",
+            "瑤瑤": "個人時段：17:00-23:00",
+            "石榴": "個人時段：17:00-23:00",
+            "綰綰": "個人時段：18:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
+            "真冬": "個人時段：20:00-23:00",
+            "Nyanko": "個人時段：18:00-23:00",
+            "ゆみ": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Hecate": "12:00-17:00",
+            "sora": "17:00-23:00",
+            "瑤瑤": "17:00-23:00",
+            "石榴": "17:00-23:00",
+            "綰綰": "18:00-23:00",
+            "奈雅": "12:00-17:00",
+            "真冬": "20:00-23:00",
+            "Nyanko": "18:00-23:00",
+            "ゆみ": "18:00-23:00"
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Koe",
+              "小欣",
+              "嵐嵐",
+              "玲奈",
+              "石榴",
+              "綰綰",
+              "萌え魚",
+              "靈兔"
+            ],
+            "當值廚娘": [
+              "Ceci",
+              "羅露妮"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Koe": "個人時段：13:00-18:30",
+            "小欣": "個人時段：17:00-23:00",
+            "嵐嵐": "個人時段：17:00-23:00",
+            "玲奈": "個人時段：15:00-23:00",
+            "石榴": "個人時段：17:00-23:00",
+            "綰綰": "個人時段：18:00-23:00",
+            "萌え魚": "個人時段：12:00-17:00",
+            "靈兔": "個人時段：12:00-17:00",
+            "Ceci": "個人時段：20:00-23:00",
+            "羅露妮": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "Koe": "13:00-18:30",
+            "小欣": "17:00-23:00",
+            "嵐嵐": "17:00-23:00",
+            "玲奈": "15:00-23:00",
+            "石榴": "17:00-23:00",
+            "綰綰": "18:00-23:00",
+            "萌え魚": "12:00-17:00",
+            "靈兔": "12:00-17:00",
+            "Ceci": "20:00-23:00",
+            "羅露妮": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Toffee",
+              "玄幽",
+              "玲奈",
+              "石榴",
+              "綰綰"
+            ],
+            "當值廚娘": [
+              "Mo",
+              "Tina",
+              "奈雅",
+              "真冬"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Toffee": "個人時段：15:00-23:00",
+            "玄幽": "個人時段：17:00-23:00",
+            "玲奈": "個人時段：12:00-17:00",
+            "石榴": "個人時段：13:00-19:00",
+            "綰綰": "個人時段：18:00-23:00",
+            "Mo": "個人時段：12:00-17:00",
+            "Tina": "個人時段：13:00-20:00",
+            "奈雅": "個人時段：17:00-23:00",
+            "真冬": "個人時段：20:00-23:00"
+          },
+          "person_times": {
+            "Toffee": "15:00-23:00",
+            "玄幽": "17:00-23:00",
+            "玲奈": "12:00-17:00",
+            "石榴": "13:00-19:00",
+            "綰綰": "18:00-23:00",
+            "Mo": "12:00-17:00",
+            "Tina": "13:00-20:00",
+            "奈雅": "17:00-23:00",
+            "真冬": "20:00-23:00"
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "玲奈",
+              "靈兔"
+            ],
+            "當值廚娘": [
+              "Kaoko",
+              "バカ",
+              "奈雅",
+              "羅露妮"
+            ],
+            "限定當值女僕": [
+              "mogu"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "玲奈": "個人時段：15:00-23:00",
+            "靈兔": "個人時段：17:00-22:00",
+            "Kaoko": "個人時段：20:00-23:00",
+            "バカ": "個人時段：12:00-17:00",
+            "奈雅": "個人時段：12:00-17:00",
+            "羅露妮": "個人時段：17:00-23:00",
+            "mogu": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "玲奈": "15:00-23:00",
+            "靈兔": "17:00-22:00",
+            "Kaoko": "20:00-23:00",
+            "バカ": "12:00-17:00",
+            "奈雅": "12:00-17:00",
+            "羅露妮": "17:00-23:00",
+            "mogu": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Gigi",
+              "Riley",
+              "Sirius",
+              "Toffee",
+              "小嵐",
+              "玄幽",
+              "綰綰",
+              "靈兔"
             ],
             "當值廚娘": [
               "奈雅"
             ]
           },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Gigi": "個人時段：17:00-23:00",
+            "Riley": "個人時段：17:00-23:00",
+            "Sirius": "個人時段：12:00-17:00",
+            "Toffee": "個人時段：18:00-23:00",
+            "小嵐": "個人時段：17:00-23:00",
+            "玄幽": "個人時段：17:00-23:00",
+            "綰綰": "個人時段：18:00-23:00",
+            "靈兔": "個人時段：13:00-20:00",
+            "奈雅": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "Gigi": "17:00-23:00",
+            "Riley": "17:00-23:00",
+            "Sirius": "12:00-17:00",
+            "Toffee": "18:00-23:00",
+            "小嵐": "17:00-23:00",
+            "玄幽": "17:00-23:00",
+            "綰綰": "18:00-23:00",
+            "靈兔": "13:00-20:00",
+            "奈雅": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Gigi",
+              "Reii莉",
+              "Sirius",
+              "yuzu",
+              "玲奈"
+            ],
+            "當值廚娘": [
+              "Ceci",
+              "Mo",
+              "奈雅"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Gigi": "個人時段：17:00-23:00",
+            "Reii莉": "個人時段：17:00-23:00",
+            "Sirius": "個人時段：14:00-19:00",
+            "yuzu": "個人時段：13:00-20:00",
+            "玲奈": "個人時段：12:00-17:00",
+            "Ceci": "個人時段：20:00-23:00",
+            "Mo": "個人時段：17:00-23:00",
+            "奈雅": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "Gigi": "17:00-23:00",
+            "Reii莉": "17:00-23:00",
+            "Sirius": "14:00-19:00",
+            "yuzu": "13:00-20:00",
+            "玲奈": "12:00-17:00",
+            "Ceci": "20:00-23:00",
+            "Mo": "17:00-23:00",
+            "奈雅": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Gigi",
+              "Reii莉",
+              "Riya",
+              "yuzu",
+              "バカ",
+              "玲奈"
+            ],
+            "當值廚娘": [
+              "Kaoko",
+              "真冬",
+              "羅露妮"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "person_notes": {
+            "Gigi": "個人時段：17:00-23:00",
+            "Reii莉": "個人時段：13:00-20:00",
+            "Riya": "個人時段：17:00-23:00",
+            "yuzu": "個人時段：17:00-23:00",
+            "バカ": "個人時段：17:00-23:00",
+            "玲奈": "個人時段：12:00-17:00",
+            "Kaoko": "個人時段：20:00-23:00",
+            "真冬": "個人時段：17:00-23:00",
+            "羅露妮": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "Gigi": "17:00-23:00",
+            "Reii莉": "13:00-20:00",
+            "Riya": "17:00-23:00",
+            "yuzu": "17:00-23:00",
+            "バカ": "17:00-23:00",
+            "玲奈": "12:00-17:00",
+            "Kaoko": "20:00-23:00",
+            "真冬": "17:00-23:00",
+            "羅露妮": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "12:00-23:00",
+          "groups": {
+            "生誕當值嘉賓": [
+              "Morie",
+              "yuki",
+              "地鼠",
+              "小春"
+            ],
+            "生誕當值女僕": [
+              "Riri",
+              "玄幽",
+              "靈兔"
+            ],
+            "當值女僕": [
+              "Riya",
+              "kano",
+              "玲奈"
+            ],
+            "當值廚娘": [
+              "Ceci",
+              "奈雅",
+              "真冬"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
+          "event_name": "靈兔×Mistia Luna〈Mk兔の生誕祭〉",
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/DejhyajE3Lz/"
+          ],
+          "person_notes": {
+            "Morie": "個人時段：17:00-23:00",
+            "yuki": "個人時段：17:00-23:00",
+            "地鼠": "個人時段：17:00-23:00",
+            "小春": "個人時段：17:00-23:00",
+            "Riri": "個人時段：17:00-23:00",
+            "玄幽": "個人時段：17:00-23:00",
+            "靈兔": "個人時段：17:00-23:00",
+            "Riya": "個人時段：12:00-17:00",
+            "kano": "個人時段：12:00-17:00",
+            "玲奈": "個人時段：13:00-20:00",
+            "Ceci": "個人時段：20:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
+            "真冬": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "Morie": "17:00-23:00",
+            "yuki": "17:00-23:00",
+            "地鼠": "17:00-23:00",
+            "小春": "17:00-23:00",
+            "Riri": "17:00-23:00",
+            "玄幽": "17:00-23:00",
+            "靈兔": "17:00-23:00",
+            "Riya": "12:00-17:00",
+            "kano": "12:00-17:00",
+            "玲奈": "13:00-20:00",
+            "Ceci": "20:00-23:00",
+            "奈雅": "12:00-17:00",
+            "真冬": "17:00-23:00"
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Gigi",
+              "Riri",
+              "Toffee",
+              "sora",
+              "zero",
+              "小嵐",
+              "小欣",
+              "梳乎厘",
+              "玄幽",
+              "萌え魚"
+            ],
+            "當值廚娘": [
+              "奈雅"
+            ],
+            "限定當值女僕": [
+              "夢川"
+            ]
+          },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "陀螺盃／萬聖節event",
           "person_notes": {
-            "梳乎厘": "個人時段：12:00-17:00；",
-            "萌え魚": "個人時段：12:00-17:00；",
-            "Toffee": "個人時段：12:00-17:00；",
-            "玄幽": "個人時段：13:00-20:00；",
             "Gigi": "個人時段：17:00-23:00；",
             "Riri": "個人時段：17:00-23:00；",
-            "小欣": "個人時段：17:00-23:00；",
-            "小嵐": "個人時段：17:00-23:00；",
-            "zero": "個人時段：17:00-23:00；",
+            "Toffee": "個人時段：12:00-17:00；",
             "sora": "個人時段：17:00-23:00；",
-            "夢川": "個人時段：19:30-23:00；",
-            "奈雅": "個人時段：12:00-23:00；"
+            "zero": "個人時段：17:00-23:00；",
+            "小嵐": "個人時段：17:00-23:00；",
+            "小欣": "個人時段：17:00-23:00；",
+            "梳乎厘": "個人時段：12:00-17:00；",
+            "玄幽": "個人時段：13:00-20:00；",
+            "萌え魚": "個人時段：12:00-17:00；",
+            "奈雅": "個人時段：12:00-23:00；",
+            "夢川": "個人時段：19:30-23:00；"
           },
           "person_times": {
-            "梳乎厘": "12:00-17:00",
-            "萌え魚": "12:00-17:00",
-            "Toffee": "12:00-17:00",
-            "玄幽": "13:00-20:00",
             "Gigi": "17:00-23:00",
             "Riri": "17:00-23:00",
-            "小欣": "17:00-23:00",
-            "小嵐": "17:00-23:00",
-            "zero": "17:00-23:00",
+            "Toffee": "12:00-17:00",
             "sora": "17:00-23:00",
-            "夢川": "19:30-23:00",
-            "奈雅": "12:00-23:00"
+            "zero": "17:00-23:00",
+            "小嵐": "17:00-23:00",
+            "小欣": "17:00-23:00",
+            "梳乎厘": "12:00-17:00",
+            "玄幽": "13:00-20:00",
+            "萌え魚": "12:00-17:00",
+            "奈雅": "12:00-23:00",
+            "夢川": "19:30-23:00"
           }
         },
         {
@@ -6023,57 +6184,57 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
-              "バカ",
               "Sirius",
+              "バカ",
               "玄幽",
               "玲奈"
             ],
+            "當值廚娘": [
+              "Mo",
+              "奈雅",
+              "真冬"
+            ],
             "限定當值女僕": [
               "莓"
-            ],
-            "當值廚娘": [
-              "真冬",
-              "奈雅",
-              "Mo"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
-            "バカ": "個人時段：12:00-17:00；",
             "Sirius": "個人時段：14:00-19:00；",
+            "バカ": "個人時段：12:00-17:00；",
             "玄幽": "個人時段：17:00-23:00；",
             "玲奈": "個人時段：17:00-23:00；",
-            "莓": "個人時段：18:00-23:00；",
-            "真冬": "個人時段：12:00-17:00；",
+            "Mo": "個人時段：20:00-23:00；",
             "奈雅": "個人時段：17:00-23:00；",
-            "Mo": "個人時段：20:00-23:00；"
+            "真冬": "個人時段：12:00-17:00；",
+            "莓": "個人時段：18:00-23:00；"
           },
           "person_times": {
-            "バカ": "12:00-17:00",
             "Sirius": "14:00-19:00",
+            "バカ": "12:00-17:00",
             "玄幽": "17:00-23:00",
             "玲奈": "17:00-23:00",
-            "莓": "18:00-23:00",
-            "真冬": "12:00-17:00",
+            "Mo": "20:00-23:00",
             "奈雅": "17:00-23:00",
-            "Mo": "20:00-23:00"
+            "真冬": "12:00-17:00",
+            "莓": "18:00-23:00"
           }
         },
         {
           "date": "2026-10-27",
           "hours": "12:00-23:00",
           "groups": {
-            "當值廚娘": [
-              "バカ",
-              "Mo",
-              "Ceci",
-              "Kaoko"
-            ],
             "當值女僕": [
-              "Sirius",
               "Gigi",
+              "Sirius",
               "Toffee"
+            ],
+            "當值廚娘": [
+              "Ceci",
+              "Kaoko",
+              "Mo",
+              "バカ"
             ],
             "限定當值女僕": [
               "九四"
@@ -6082,24 +6243,24 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
-            "バカ": "個人時段：12:00-17:00；",
-            "Sirius": "個人時段：14:00-19:00；",
             "Gigi": "個人時段：17:00-22:00；",
+            "Sirius": "個人時段：14:00-19:00；",
             "Toffee": "個人時段：17:00-22:00；",
-            "九四": "個人時段：18:00-23:00；",
-            "Mo": "個人時段：12:00-17:00；",
             "Ceci": "個人時段：17:00-23:00；",
-            "Kaoko": "個人時段：20:00-23:00；"
+            "Kaoko": "個人時段：20:00-23:00；",
+            "Mo": "個人時段：12:00-17:00；",
+            "バカ": "個人時段：12:00-17:00；",
+            "九四": "個人時段：18:00-23:00；"
           },
           "person_times": {
-            "バカ": "12:00-17:00",
-            "Sirius": "14:00-19:00",
             "Gigi": "17:00-22:00",
+            "Sirius": "14:00-19:00",
             "Toffee": "17:00-22:00",
-            "九四": "18:00-23:00",
-            "Mo": "12:00-17:00",
             "Ceci": "17:00-23:00",
-            "Kaoko": "20:00-23:00"
+            "Kaoko": "20:00-23:00",
+            "Mo": "12:00-17:00",
+            "バカ": "12:00-17:00",
+            "九四": "18:00-23:00"
           }
         },
         {
@@ -6107,41 +6268,41 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
-              "神樂",
               "Sirius",
-              "玲奈",
+              "バカ",
               "玄幽",
-              "バカ"
-            ],
-            "限定當值女僕": [
-              "Haru"
+              "玲奈",
+              "神樂"
             ],
             "當值廚娘": [
               "奈雅",
               "真冬"
+            ],
+            "限定當值女僕": [
+              "Haru"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
-            "神樂": "個人時段：12:00-17:00；",
             "Sirius": "個人時段：12:00-17:00；",
-            "玲奈": "個人時段：12:00-23:00；原帖個人時段字樣為「午5:00-23:00」，時間待核對。",
-            "玄幽": "個人時段：17:00-23:00；",
             "バカ": "個人時段：17:00-23:00；",
-            "Haru": "個人時段：18:00-23:00；",
+            "玄幽": "個人時段：17:00-23:00；",
+            "玲奈": "個人時段：12:00-23:00；原帖個人時段字樣為「午5:00-23:00」，時間待核對。",
+            "神樂": "個人時段：12:00-17:00；",
             "奈雅": "個人時段：12:00-23:00；",
-            "真冬": "個人時段：17:00-23:00；"
+            "真冬": "個人時段：17:00-23:00；",
+            "Haru": "個人時段：18:00-23:00；"
           },
           "person_times": {
-            "神樂": "12:00-17:00",
             "Sirius": "12:00-17:00",
-            "玲奈": "12:00-23:00",
-            "玄幽": "17:00-23:00",
             "バカ": "17:00-23:00",
-            "Haru": "18:00-23:00",
+            "玄幽": "17:00-23:00",
+            "玲奈": "12:00-23:00",
+            "神樂": "12:00-17:00",
             "奈雅": "12:00-23:00",
-            "真冬": "17:00-23:00"
+            "真冬": "17:00-23:00",
+            "Haru": "18:00-23:00"
           }
         },
         {
@@ -6149,47 +6310,47 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
-              "神樂",
-              "yuzu",
-              "Nanami",
               "Gigi",
-              "玲奈",
+              "Nanami",
+              "Riley",
+              "yuzu",
               "小嵐",
-              "Riley"
-            ],
-            "限定當值女僕": [
-              "小汐"
+              "玲奈",
+              "神樂"
             ],
             "當值廚娘": [
               "奈雅",
               "真冬"
+            ],
+            "限定當值女僕": [
+              "小汐"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
-            "神樂": "個人時段：12:00-17:00；",
-            "yuzu": "個人時段：13:00-20:00；",
-            "Nanami": "個人時段：13:00-20:00；",
             "Gigi": "個人時段：17:00-23:00；",
-            "玲奈": "個人時段：17:00-23:00；",
-            "小嵐": "個人時段：17:00-23:00；",
+            "Nanami": "個人時段：13:00-20:00；",
             "Riley": "個人時段：17:00-23:00；",
-            "小汐": "個人時段：18:00-23:00；",
+            "yuzu": "個人時段：13:00-20:00；",
+            "小嵐": "個人時段：17:00-23:00；",
+            "玲奈": "個人時段：17:00-23:00；",
+            "神樂": "個人時段：12:00-17:00；",
             "奈雅": "個人時段：12:00-23:00；",
-            "真冬": "個人時段：17:00-23:00；"
+            "真冬": "個人時段：17:00-23:00；",
+            "小汐": "個人時段：18:00-23:00；"
           },
           "person_times": {
-            "神樂": "12:00-17:00",
-            "yuzu": "13:00-20:00",
-            "Nanami": "13:00-20:00",
             "Gigi": "17:00-23:00",
-            "玲奈": "17:00-23:00",
-            "小嵐": "17:00-23:00",
+            "Nanami": "13:00-20:00",
             "Riley": "17:00-23:00",
-            "小汐": "18:00-23:00",
+            "yuzu": "13:00-20:00",
+            "小嵐": "17:00-23:00",
+            "玲奈": "17:00-23:00",
+            "神樂": "12:00-17:00",
             "奈雅": "12:00-23:00",
-            "真冬": "17:00-23:00"
+            "真冬": "17:00-23:00",
+            "小汐": "18:00-23:00"
           }
         },
         {
@@ -6197,63 +6358,15 @@ window.MAID_ROSTERS = {
           "hours": "12:00-23:00",
           "groups": {
             "當值女僕": [
-              "Toffee",
-              "玲奈",
               "Riley",
+              "Riya",
+              "Toffee",
               "yuzu",
               "バカ",
-              "Riya"
+              "玲奈"
             ],
             "當值廚娘": [
-              "真冬",
-              "Mo",
-              "Kaoko"
-            ]
-          },
-          "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
-          "event_name": "萬聖節event",
-          "person_notes": {
-            "Toffee": "個人時段：12:00-17:00；",
-            "玲奈": "個人時段：15:00-23:00；",
-            "Riley": "個人時段：15:00-23:00；",
-            "yuzu": "個人時段：17:00-23:00；",
-            "バカ": "個人時段：17:00-23:00；",
-            "Riya": "個人時段：17:00-23:00；",
-            "真冬": "個人時段：12:00-17:00；",
-            "Mo": "個人時段：17:00-23:00；",
-            "Kaoko": "個人時段：20:00-23:00；"
-          },
-          "person_times": {
-            "Toffee": "12:00-17:00",
-            "玲奈": "15:00-23:00",
-            "Riley": "15:00-23:00",
-            "yuzu": "17:00-23:00",
-            "バカ": "17:00-23:00",
-            "Riya": "17:00-23:00",
-            "真冬": "12:00-17:00",
-            "Mo": "17:00-23:00",
-            "Kaoko": "20:00-23:00"
-          }
-        },
-        {
-          "date": "2026-10-31",
-          "hours": "12:00-23:00",
-          "groups": {
-            "當值女僕": [
-              "心雨",
-              "Reii莉",
-              "Toffee",
-              "Riley",
-              "玄幽",
-              "小欣",
-              "萌え魚",
-              "綰綰"
-            ],
-            "限定當值女僕": [
-              "奶茶"
-            ],
-            "當值廚娘": [
-              "奈雅",
+              "Kaoko",
               "Mo",
               "真冬"
             ]
@@ -6261,32 +6374,80 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
-            "心雨": "個人時段：12:00-17:00；",
-            "Reii莉": "個人時段：13:00-20:00；",
-            "Toffee": "個人時段：15:00-23:00；",
             "Riley": "個人時段：15:00-23:00；",
-            "玄幽": "個人時段：17:00-23:00；",
-            "小欣": "個人時段：17:00-23:00；",
-            "萌え魚": "個人時段：17:00-23:00；",
-            "綰綰": "個人時段：18:00-23:00；",
-            "奶茶": "個人時段：18:00-23:00；",
-            "奈雅": "個人時段：12:00-17:00；",
+            "Riya": "個人時段：17:00-23:00；",
+            "Toffee": "個人時段：12:00-17:00；",
+            "yuzu": "個人時段：17:00-23:00；",
+            "バカ": "個人時段：17:00-23:00；",
+            "玲奈": "個人時段：15:00-23:00；",
+            "Kaoko": "個人時段：20:00-23:00；",
             "Mo": "個人時段：17:00-23:00；",
-            "真冬": "個人時段：20:00-23:00；"
+            "真冬": "個人時段：12:00-17:00；"
           },
           "person_times": {
-            "心雨": "12:00-17:00",
-            "Reii莉": "13:00-20:00",
-            "Toffee": "15:00-23:00",
             "Riley": "15:00-23:00",
-            "玄幽": "17:00-23:00",
-            "小欣": "17:00-23:00",
-            "萌え魚": "17:00-23:00",
-            "綰綰": "18:00-23:00",
-            "奶茶": "18:00-23:00",
-            "奈雅": "12:00-17:00",
+            "Riya": "17:00-23:00",
+            "Toffee": "12:00-17:00",
+            "yuzu": "17:00-23:00",
+            "バカ": "17:00-23:00",
+            "玲奈": "15:00-23:00",
+            "Kaoko": "20:00-23:00",
             "Mo": "17:00-23:00",
-            "真冬": "20:00-23:00"
+            "真冬": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Reii莉",
+              "Riley",
+              "Toffee",
+              "小欣",
+              "心雨",
+              "玄幽",
+              "綰綰",
+              "萌え魚"
+            ],
+            "當值廚娘": [
+              "Mo",
+              "奈雅",
+              "真冬"
+            ],
+            "限定當值女僕": [
+              "奶茶"
+            ]
+          },
+          "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
+          "event_name": "萬聖節event",
+          "person_notes": {
+            "Reii莉": "個人時段：13:00-20:00；",
+            "Riley": "個人時段：15:00-23:00；",
+            "Toffee": "個人時段：15:00-23:00；",
+            "小欣": "個人時段：17:00-23:00；",
+            "心雨": "個人時段：12:00-17:00；",
+            "玄幽": "個人時段：17:00-23:00；",
+            "綰綰": "個人時段：18:00-23:00；",
+            "萌え魚": "個人時段：17:00-23:00；",
+            "Mo": "個人時段：17:00-23:00；",
+            "奈雅": "個人時段：12:00-17:00；",
+            "真冬": "個人時段：20:00-23:00；",
+            "奶茶": "個人時段：18:00-23:00；"
+          },
+          "person_times": {
+            "Reii莉": "13:00-20:00",
+            "Riley": "15:00-23:00",
+            "Toffee": "15:00-23:00",
+            "小欣": "17:00-23:00",
+            "心雨": "12:00-17:00",
+            "玄幽": "17:00-23:00",
+            "綰綰": "18:00-23:00",
+            "萌え魚": "17:00-23:00",
+            "Mo": "17:00-23:00",
+            "奈雅": "12:00-17:00",
+            "真冬": "20:00-23:00",
+            "奶茶": "18:00-23:00"
           }
         }
       ],
@@ -6310,83 +6471,118 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
-          "date": "2026-10-18",
+          "date": "2026-10-12",
           "hours": "18:00-23:00",
           "groups": {
-            "限定魔法使": [
-              "kumi"
-            ],
             "魔法使": [
-              "Aqua",
-              "Rika",
-              "江雨",
-              "Neya",
-              "Kona"
+              "Kiyoko",
+              "幽靈",
+              "狂",
+              "豆豆"
             ],
             "魔法導師": [
-              "小童"
+              "Ayane"
             ]
           },
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
-          "alternate_sources": [
-            "https://www.instagram.com/kirakiramaido/p/DehewaHSqoV/"
-          ],
           "person_notes": {
-            "kumi": "個人更期未另註明；此欄為店舖開放時間。",
-            "Aqua": "原圖只列店舖開放時間；個人時段未公布。",
-            "Rika": "原圖只列店舖開放時間；個人時段未公布。",
-            "江雨": "原圖只列店舖開放時間；個人時段未公布。",
-            "Neya": "原圖只列店舖開放時間；個人時段未公布。",
-            "Kona": "原圖只列店舖開放時間；個人時段未公布。",
-            "小童": "原圖只列店舖開放時間；個人時段未公布。"
-          }
+            "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
+            "幽靈": "原圖只列店舖開放時間；個人時段未公布。",
+            "狂": "原圖只列店舖開放時間；個人時段未公布。",
+            "豆豆": "原圖只列店舖開放時間；個人時段未公布。",
+            "Ayane": "原圖只列店舖開放時間；個人時段未公布。"
+          },
+          "notes": "原圖只列店舖開放時間；個人時段未公布。"
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-13",
           "hours": "18:00-23:00",
           "groups": {
-            "限定魔法使": [
-              "Haruna",
-              "Rizuko"
-            ],
             "魔法使": [
-              "Neya",
-              "Kico",
-              "小嵐",
-              "炸彈"
+              "Snowy",
+              "Yukino",
+              "Yurie",
+              "紫喵"
             ],
             "魔法導師": [
               "Kata"
             ]
           },
-          "source": "https://www.instagram.com/p/DepXJEQytGE/",
-          "alternate_sources": [
-            "https://www.instagram.com/kirakiramaido/p/DewGkKux-2I/",
-            "https://www.instagram.com/kirakiramaido/p/DewGXNpRRj2/"
-          ],
+          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "person_notes": {
-            "Haruna": "個人更期未另註明；此欄為店舖開放時間。",
-            "Rizuko": "個人更期未另註明；此欄為店舖開放時間。",
-            "Neya": "此為店舖開放時間，個人當值時段未列明。",
-            "Kico": "此為店舖開放時間，個人當值時段未列明。",
-            "小嵐": "此為店舖開放時間，個人當值時段未列明。",
-            "炸彈": "此為店舖開放時間，個人當值時段未列明。",
-            "Kata": "此為店舖開放時間，個人當值時段未列明。"
-          }
+            "Snowy": "原圖只列店舖開放時間；個人時段未公布。",
+            "Yukino": "原圖只列店舖開放時間；個人時段未公布。",
+            "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
+            "紫喵": "原圖只列店舖開放時間；個人時段未公布。",
+            "Kata": "原圖只列店舖開放時間；個人時段未公布。"
+          },
+          "notes": "原圖只列店舖開放時間；個人時段未公布。"
+        },
+        {
+          "date": "2026-10-14",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定魔法使": [
+              "Husky"
+            ],
+            "魔法使": [
+              "Nana",
+              "Yuki",
+              "kata",
+              "小嵐",
+              "炸彈"
+            ],
+            "魔法導師": [
+              "Ayane"
+            ]
+          },
+          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
+          "person_notes": {
+            "Husky": "原圖只列店舖開放時間；個人時段未公布。",
+            "Nana": "原圖只列店舖開放時間；個人時段未公布。",
+            "Yuki": "原圖只列店舖開放時間；個人時段未公布。",
+            "kata": "原圖只列店舖開放時間；個人時段未公布。",
+            "小嵐": "原圖只列店舖開放時間；個人時段未公布。",
+            "炸彈": "原圖只列店舖開放時間；個人時段未公布。",
+            "Ayane": "原圖只列店舖開放時間；個人時段未公布。"
+          },
+          "notes": "原圖只列店舖開放時間；個人時段未公布。"
+        },
+        {
+          "date": "2026-10-15",
+          "hours": "18:00-23:00",
+          "groups": {
+            "魔法使": [
+              "Kiyoko",
+              "Rain",
+              "Yurie"
+            ],
+            "魔法導師": [
+              "汪"
+            ]
+          },
+          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
+          "person_notes": {
+            "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
+            "Rain": "原圖只列店舖開放時間；個人時段未公布。",
+            "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
+            "汪": "原圖只列店舖開放時間；個人時段未公布。"
+          },
+          "notes": "原圖只列店舖開放時間；個人時段未公布。"
         },
         {
           "date": "2026-10-16",
           "hours": "18:00-23:00",
           "groups": {
             "限定魔法使": [
-              "烏龜",
-              "Mio"
+              "Mio",
+              "烏龜"
             ],
             "魔法使": [
               "Snowy",
-              "靈兔",
               "團子",
-              "童童"
+              "童童",
+              "靈兔"
             ],
             "魔法導師": [
               "幽靈"
@@ -6397,12 +6593,12 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/p/DeYlEZBxAEE/"
           ],
           "person_notes": {
-            "烏龜": "此為店舖開放時間，個人當值時段未列明。",
             "Mio": "原圖只列店舖開放時間；個人時段未公布。",
+            "烏龜": "此為店舖開放時間，個人當值時段未列明。",
             "Snowy": "原圖只列店舖開放時間；個人時段未公布。",
-            "靈兔": "原圖只列店舖開放時間；個人時段未公布。",
             "團子": "原圖只列店舖開放時間；個人時段未公布。",
             "童童": "原圖只列店舖開放時間；個人時段未公布。",
+            "靈兔": "原圖只列店舖開放時間；個人時段未公布。",
             "幽靈": "原圖只列店舖開放時間；個人時段未公布。"
           }
         },
@@ -6414,10 +6610,10 @@ window.MAID_ROSTERS = {
               "UU"
             ],
             "魔法使": [
-              "地鼠",
               "Uri",
-              "昭子",
               "Yuri",
+              "地鼠",
+              "昭子",
               "雪海"
             ],
             "魔法導師": [
@@ -6430,12 +6626,44 @@ window.MAID_ROSTERS = {
           ],
           "person_notes": {
             "UU": "此為店舖開放時間，個人當值時段未列明。",
-            "地鼠": "原圖只列店舖開放時間；個人時段未公布。",
             "Uri": "原圖只列店舖開放時間；個人時段未公布。",
-            "昭子": "原圖只列店舖開放時間；個人時段未公布。",
             "Yuri": "原圖只列店舖開放時間；個人時段未公布。",
+            "地鼠": "原圖只列店舖開放時間；個人時段未公布。",
+            "昭子": "原圖只列店舖開放時間；個人時段未公布。",
             "雪海": "原圖只列店舖開放時間；個人時段未公布。",
             "幽靈": "原圖只列店舖開放時間；個人時段未公布。"
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定魔法使": [
+              "kumi"
+            ],
+            "魔法使": [
+              "Aqua",
+              "Kona",
+              "Neya",
+              "Rika",
+              "江雨"
+            ],
+            "魔法導師": [
+              "小童"
+            ]
+          },
+          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
+          "alternate_sources": [
+            "https://www.instagram.com/kirakiramaido/p/DehewaHSqoV/"
+          ],
+          "person_notes": {
+            "kumi": "個人更期未另註明；此欄為店舖開放時間。",
+            "Aqua": "原圖只列店舖開放時間；個人時段未公布。",
+            "Kona": "原圖只列店舖開放時間；個人時段未公布。",
+            "Neya": "原圖只列店舖開放時間；個人時段未公布。",
+            "Rika": "原圖只列店舖開放時間；個人時段未公布。",
+            "江雨": "原圖只列店舖開放時間；個人時段未公布。",
+            "小童": "原圖只列店舖開放時間；個人時段未公布。"
           }
         },
         {
@@ -6443,10 +6671,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "靈兔",
-              "狂",
               "Kiyoko",
-              "Yukino"
+              "Yukino",
+              "狂",
+              "靈兔"
             ],
             "魔法導師": [
               "Mori"
@@ -6454,10 +6682,10 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
-            "靈兔": "此為店舖開放時間，個人當值時段未列明。",
-            "狂": "此為店舖開放時間，個人當值時段未列明。",
             "Kiyoko": "此為店舖開放時間，個人當值時段未列明。",
             "Yukino": "此為店舖開放時間，個人當值時段未列明。",
+            "狂": "此為店舖開放時間，個人當值時段未列明。",
+            "靈兔": "此為店舖開放時間，個人當值時段未列明。",
             "Mori": "此為店舖開放時間，個人當值時段未列明。"
           },
           "notes": "此為店舖開放時間，個人當值時段未列明。"
@@ -6467,8 +6695,8 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "Rain",
               "Kiyoko",
+              "Rain",
               "Rinka",
               "童童"
             ],
@@ -6478,8 +6706,8 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
-            "Rain": "此為店舖開放時間，個人當值時段未列明。",
             "Kiyoko": "此為店舖開放時間，個人當值時段未列明。",
+            "Rain": "此為店舖開放時間，個人當值時段未列明。",
             "Rinka": "此為店舖開放時間，個人當值時段未列明。",
             "童童": "此為店舖開放時間，個人當值時段未列明。",
             "汪": "此為店舖開放時間，個人當值時段未列明。"
@@ -6495,9 +6723,9 @@ window.MAID_ROSTERS = {
             ],
             "魔法使": [
               "Nana",
-              "紫喵",
               "Yuki",
-              "Yurie"
+              "Yurie",
+              "紫喵"
             ],
             "魔法導師": [
               "小童"
@@ -6507,12 +6735,45 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "小妖精": "此為店舖開放時間，個人當值時段未列明。",
             "Nana": "此為店舖開放時間，個人當值時段未列明。",
-            "紫喵": "此為店舖開放時間，個人當值時段未列明。",
             "Yuki": "此為店舖開放時間，個人當值時段未列明。",
             "Yurie": "此為店舖開放時間，個人當值時段未列明。",
+            "紫喵": "此為店舖開放時間，個人當值時段未列明。",
             "小童": "此為店舖開放時間，個人當值時段未列明。"
           },
           "notes": "此為店舖開放時間，個人當值時段未列明。"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定魔法使": [
+              "Haruna",
+              "Rizuko"
+            ],
+            "魔法使": [
+              "Kico",
+              "Neya",
+              "小嵐",
+              "炸彈"
+            ],
+            "魔法導師": [
+              "Kata"
+            ]
+          },
+          "source": "https://www.instagram.com/p/DepXJEQytGE/",
+          "alternate_sources": [
+            "https://www.instagram.com/kirakiramaido/p/DewGkKux-2I/",
+            "https://www.instagram.com/kirakiramaido/p/DewGXNpRRj2/"
+          ],
+          "person_notes": {
+            "Haruna": "個人更期未另註明；此欄為店舖開放時間。",
+            "Rizuko": "個人更期未另註明；此欄為店舖開放時間。",
+            "Kico": "此為店舖開放時間，個人當值時段未列明。",
+            "Neya": "此為店舖開放時間，個人當值時段未列明。",
+            "小嵐": "此為店舖開放時間，個人當值時段未列明。",
+            "炸彈": "此為店舖開放時間，個人當值時段未列明。",
+            "Kata": "此為店舖開放時間，個人當值時段未列明。"
+          }
         },
         {
           "date": "2026-10-23",
@@ -6523,9 +6784,9 @@ window.MAID_ROSTERS = {
               "阿兔"
             ],
             "魔法使": [
-              "狂",
               "Snowy",
               "Yurie",
+              "狂",
               "豆豆"
             ],
             "魔法導師": [
@@ -6536,9 +6797,9 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "貓羅": "此為店舖開放時間，個人當值時段未列明。",
             "阿兔": "此為店舖開放時間，個人當值時段未列明。",
-            "狂": "此為店舖開放時間，個人當值時段未列明。",
             "Snowy": "此為店舖開放時間，個人當值時段未列明。",
             "Yurie": "此為店舖開放時間，個人當值時段未列明。",
+            "狂": "此為店舖開放時間，個人當值時段未列明。",
             "豆豆": "此為店舖開放時間，個人當值時段未列明。",
             "幽靈": "此為店舖開放時間，個人當值時段未列明。"
           },
@@ -6549,8 +6810,8 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "芙恩",
               "江雨",
+              "芙恩",
               "雪海"
             ],
             "魔法導師": [
@@ -6559,8 +6820,8 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
-            "芙恩": "此為店舖開放時間，個人當值時段未列明。",
             "江雨": "此為店舖開放時間，個人當值時段未列明。",
+            "芙恩": "此為店舖開放時間，個人當值時段未列明。",
             "雪海": "此為店舖開放時間，個人當值時段未列明。",
             "Mori": "此為店舖開放時間，個人當值時段未列明。"
           },
@@ -6571,11 +6832,11 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "靈兔",
-              "汪",
-              "幽靈",
               "Snowy",
-              "雪海"
+              "幽靈",
+              "汪",
+              "雪海",
+              "靈兔"
             ],
             "魔法導師": [
               "Ayane"
@@ -6583,124 +6844,24 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
-            "靈兔": "此為店舖開放時間，個人當值時段未列明。",
-            "汪": "此為店舖開放時間，個人當值時段未列明。",
-            "幽靈": "此為店舖開放時間，個人當值時段未列明。",
             "Snowy": "此為店舖開放時間，個人當值時段未列明。",
+            "幽靈": "此為店舖開放時間，個人當值時段未列明。",
+            "汪": "此為店舖開放時間，個人當值時段未列明。",
             "雪海": "此為店舖開放時間，個人當值時段未列明。",
+            "靈兔": "此為店舖開放時間，個人當值時段未列明。",
             "Ayane": "此為店舖開放時間，個人當值時段未列明。"
           },
           "notes": "此為店舖開放時間，個人當值時段未列明。"
-        },
-        {
-          "date": "2026-10-12",
-          "hours": "18:00-23:00",
-          "groups": {
-            "魔法使": [
-              "狂",
-              "幽靈",
-              "Kiyoko",
-              "豆豆"
-            ],
-            "魔法導師": [
-              "Ayane"
-            ]
-          },
-          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
-          "person_notes": {
-            "狂": "原圖只列店舖開放時間；個人時段未公布。",
-            "幽靈": "原圖只列店舖開放時間；個人時段未公布。",
-            "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
-            "豆豆": "原圖只列店舖開放時間；個人時段未公布。",
-            "Ayane": "原圖只列店舖開放時間；個人時段未公布。"
-          },
-          "notes": "原圖只列店舖開放時間；個人時段未公布。"
-        },
-        {
-          "date": "2026-10-13",
-          "hours": "18:00-23:00",
-          "groups": {
-            "魔法使": [
-              "Yukino",
-              "Yurie",
-              "紫喵",
-              "Snowy"
-            ],
-            "魔法導師": [
-              "Kata"
-            ]
-          },
-          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
-          "person_notes": {
-            "Yukino": "原圖只列店舖開放時間；個人時段未公布。",
-            "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
-            "紫喵": "原圖只列店舖開放時間；個人時段未公布。",
-            "Snowy": "原圖只列店舖開放時間；個人時段未公布。",
-            "Kata": "原圖只列店舖開放時間；個人時段未公布。"
-          },
-          "notes": "原圖只列店舖開放時間；個人時段未公布。"
-        },
-        {
-          "date": "2026-10-14",
-          "hours": "18:00-23:00",
-          "groups": {
-            "魔法使": [
-              "Nana",
-              "Yuki",
-              "小嵐",
-              "炸彈",
-              "kata"
-            ],
-            "魔法導師": [
-              "Ayane"
-            ],
-            "限定魔法使": [
-              "Husky"
-            ]
-          },
-          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
-          "person_notes": {
-            "Nana": "原圖只列店舖開放時間；個人時段未公布。",
-            "Yuki": "原圖只列店舖開放時間；個人時段未公布。",
-            "小嵐": "原圖只列店舖開放時間；個人時段未公布。",
-            "炸彈": "原圖只列店舖開放時間；個人時段未公布。",
-            "kata": "原圖只列店舖開放時間；個人時段未公布。",
-            "Ayane": "原圖只列店舖開放時間；個人時段未公布。",
-            "Husky": "原圖只列店舖開放時間；個人時段未公布。"
-          },
-          "notes": "原圖只列店舖開放時間；個人時段未公布。"
-        },
-        {
-          "date": "2026-10-15",
-          "hours": "18:00-23:00",
-          "groups": {
-            "魔法使": [
-              "Rain",
-              "Kiyoko",
-              "Yurie"
-            ],
-            "魔法導師": [
-              "汪"
-            ]
-          },
-          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
-          "person_notes": {
-            "Rain": "原圖只列店舖開放時間；個人時段未公布。",
-            "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
-            "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
-            "汪": "原圖只列店舖開放時間；個人時段未公布。"
-          },
-          "notes": "原圖只列店舖開放時間；個人時段未公布。"
         },
         {
           "date": "2026-10-26",
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "江雨",
+              "UU",
               "小憐",
-              "炸彈",
-              "UU"
+              "江雨",
+              "炸彈"
             ],
             "魔法導師": [
               "Kata"
@@ -6709,10 +6870,10 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "天使與惡魔之夜",
           "person_notes": {
-            "江雨": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "小憐": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "炸彈": "原帖只列魔法結界開放時間；個人時段未公布。",
             "UU": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "小憐": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "江雨": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "炸彈": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kata": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
@@ -6722,10 +6883,10 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "藍莓",
               "Aqua",
               "Kiyoko",
-              "皇蕾"
+              "皇蕾",
+              "藍莓"
             ],
             "魔法導師": [
               "Ayane"
@@ -6734,10 +6895,10 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "天使與惡魔之夜",
           "person_notes": {
-            "藍莓": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Aqua": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kiyoko": "原帖只列魔法結界開放時間；個人時段未公布。",
             "皇蕾": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "藍莓": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
@@ -6748,10 +6909,10 @@ window.MAID_ROSTERS = {
           "groups": {
             "魔法使": [
               "Fufu",
-              "露",
               "Yukino",
               "Yurie",
-              "芽芽"
+              "芽芽",
+              "露"
             ],
             "魔法導師": [
               "Mori"
@@ -6761,10 +6922,10 @@ window.MAID_ROSTERS = {
           "event_name": "魔女之夜",
           "person_notes": {
             "Fufu": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "露": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Yukino": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Yurie": "原帖只列魔法結界開放時間；個人時段未公布。",
             "芽芽": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "露": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Mori": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
@@ -6777,20 +6938,20 @@ window.MAID_ROSTERS = {
               "小灰狼"
             ],
             "魔法使": [
-              "美麗",
-              "蘿露",
               "Kiyoko",
-              "Snowy"
+              "Snowy",
+              "美麗",
+              "蘿露"
             ]
           },
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "魔女之夜",
           "person_notes": {
             "小灰狼": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "美麗": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kiyoko": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "美麗": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
         },
@@ -6800,9 +6961,9 @@ window.MAID_ROSTERS = {
           "groups": {
             "魔法使": [
               "Mori",
-              "鈴風",
-              "豆豆",
               "橙融",
+              "豆豆",
+              "鈴風",
               "阿兔"
             ],
             "魔法導師": [
@@ -6813,9 +6974,9 @@ window.MAID_ROSTERS = {
           "event_name": "聖堂之夜",
           "person_notes": {
             "Mori": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "鈴風": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "豆豆": "原帖只列魔法結界開放時間；個人時段未公布。",
             "橙融": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "豆豆": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "鈴風": "原帖只列魔法結界開放時間；個人時段未公布。",
             "阿兔": "原帖只列魔法結界開放時間；個人時段未公布。",
             "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
@@ -6827,8 +6988,8 @@ window.MAID_ROSTERS = {
           "groups": {
             "魔法使": [
               "Kata",
-              "雷海",
-              "UU"
+              "UU",
+              "雷海"
             ],
             "魔法導師": [
               "蘿露"
@@ -6838,8 +6999,8 @@ window.MAID_ROSTERS = {
           "event_name": "奇幻之夜",
           "person_notes": {
             "Kata": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "雷海": "原帖只列魔法結界開放時間；個人時段未公布。",
             "UU": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "雷海": "原帖只列魔法結界開放時間；個人時段未公布。",
             "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
@@ -6849,9 +7010,9 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "魔法使": [
-              "昭子",
-              "Neya",
               "Kico",
+              "Neya",
+              "昭子",
               "美恩"
             ],
             "魔法導師": [
@@ -6860,9 +7021,9 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "person_notes": {
-            "昭子": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Neya": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kico": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "Neya": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "昭子": "原帖只列魔法結界開放時間；個人時段未公布。",
             "美恩": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
@@ -6892,126 +7053,126 @@ window.MAID_ROSTERS = {
           "date": "2026-10-12",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Yuzuki",
-              "Miyuki",
-              "Eve"
-            ],
             "Bartender": [
               "Dicky"
+            ],
+            "女僕": [
+              "Eve",
+              "Miyuki",
+              "Yuzuki"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
-            "Yuzuki": "個人時段：17:00-23:00",
-            "Miyuki": "個人時段：17:00-23:00",
+            "Dicky": "個人時段：19:00-23:00",
             "Eve": "個人時段：18:00-23:00",
-            "Dicky": "個人時段：19:00-23:00"
+            "Miyuki": "個人時段：17:00-23:00",
+            "Yuzuki": "個人時段：17:00-23:00"
           },
           "person_times": {
-            "Yuzuki": "17:00-23:00",
-            "Miyuki": "17:00-23:00",
+            "Dicky": "19:00-23:00",
             "Eve": "18:00-23:00",
-            "Dicky": "19:00-23:00"
+            "Miyuki": "17:00-23:00",
+            "Yuzuki": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-13",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "Dicky"
+            ],
             "女僕": [
               "501小白",
               "MORI",
               "小欣"
-            ],
-            "Bartender": [
-              "Dicky"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
+            "Dicky": "個人時段：19:00-23:00",
             "501小白": "個人時段：17:00-23:00",
             "MORI": "個人時段：18:00-23:00",
-            "小欣": "個人時段：19:00-23:00",
-            "Dicky": "個人時段：19:00-23:00"
+            "小欣": "個人時段：19:00-23:00"
           },
           "person_times": {
+            "Dicky": "19:00-23:00",
             "501小白": "17:00-23:00",
             "MORI": "18:00-23:00",
-            "小欣": "19:00-23:00",
-            "Dicky": "19:00-23:00"
+            "小欣": "19:00-23:00"
           }
         },
         {
           "date": "2026-10-14",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Raku",
-              "靈兔",
-              "吖程"
-            ],
             "Bartender": [
               "KK"
+            ],
+            "女僕": [
+              "Raku",
+              "吖程",
+              "靈兔"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
+            "KK": "個人時段：19:00-23:00",
             "Raku": "個人時段：17:00-23:00",
-            "靈兔": "個人時段：17:00-23:00",
             "吖程": "個人時段：17:00-23:00",
-            "KK": "個人時段：19:00-23:00"
+            "靈兔": "個人時段：17:00-23:00"
           },
           "person_times": {
+            "KK": "19:00-23:00",
             "Raku": "17:00-23:00",
-            "靈兔": "17:00-23:00",
             "吖程": "17:00-23:00",
-            "KK": "19:00-23:00"
+            "靈兔": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-15",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "501小白",
-              "豆豆",
-              "MORI"
-            ],
             "Bartender": [
               "SOKU"
+            ],
+            "女僕": [
+              "501小白",
+              "MORI",
+              "豆豆"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
+            "SOKU": "個人時段：19:00-23:00",
             "501小白": "個人時段：17:00-23:00",
-            "豆豆": "個人時段：17:00-23:00",
             "MORI": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：19:00-23:00"
+            "豆豆": "個人時段：17:00-23:00"
           },
           "person_times": {
+            "SOKU": "19:00-23:00",
             "501小白": "17:00-23:00",
-            "豆豆": "17:00-23:00",
             "MORI": "18:00-23:00",
-            "SOKU": "19:00-23:00"
+            "豆豆": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-16",
           "hours": "17:00-01:00",
           "groups": {
+            "Bartender": [
+              "Dicky",
+              "SOKU"
+            ],
             "女僕": [
               "Kana",
-              "九千",
               "Yuri",
+              "九千",
               "小欣"
             ],
             "限定當值": [
               "幽夜"
-            ],
-            "Bartender": [
-              "Dicky",
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -7019,99 +7180,99 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/itotsuki.cafe/p/Def9EYfk3H5/"
           ],
           "person_notes": {
-            "Kana": "個人時段：17:00-01:00",
-            "九千": "個人時段：17:00-01:00",
-            "Yuri": "個人時段：17:00-01:00",
-            "小欣": "個人時段：19:00-01:00",
-            "幽夜": "個人時段：17:00-翌日00:00",
             "Dicky": "個人時段：19:00-21:00",
-            "SOKU": "個人時段：20:30-01:00"
+            "SOKU": "個人時段：20:30-01:00",
+            "Kana": "個人時段：17:00-01:00",
+            "Yuri": "個人時段：17:00-01:00",
+            "九千": "個人時段：17:00-01:00",
+            "小欣": "個人時段：19:00-01:00",
+            "幽夜": "個人時段：17:00-翌日00:00"
           },
           "person_times": {
-            "Kana": "17:00-01:00",
-            "九千": "17:00-01:00",
-            "Yuri": "17:00-01:00",
-            "小欣": "19:00-01:00",
-            "幽夜": "17:00-翌日00:00",
             "Dicky": "19:00-21:00",
-            "SOKU": "20:30-01:00"
+            "SOKU": "20:30-01:00",
+            "Kana": "17:00-01:00",
+            "Yuri": "17:00-01:00",
+            "九千": "17:00-01:00",
+            "小欣": "19:00-01:00",
+            "幽夜": "17:00-翌日00:00"
           }
         },
         {
           "date": "2026-10-17",
           "hours": "17:00-01:00",
           "groups": {
-            "女僕": [
-              "501小白",
-              "小霧",
-              "Mii",
-              "Qubi"
-            ],
             "Bartender": [
               "Dicky",
               "SOKU"
+            ],
+            "女僕": [
+              "501小白",
+              "Mii",
+              "Qubi",
+              "小霧"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
+            "Dicky": "個人時段：19:00-21:00",
+            "SOKU": "個人時段：20:30-01:00",
             "501小白": "個人時段：17:00-01:00",
-            "小霧": "個人時段：17:00-01:00",
             "Mii": "個人時段：17:00-23:00",
             "Qubi": "個人時段：19:00-01:00",
-            "Dicky": "個人時段：19:00-21:00",
-            "SOKU": "個人時段：20:30-01:00"
+            "小霧": "個人時段：17:00-01:00"
           },
           "person_times": {
+            "Dicky": "19:00-21:00",
+            "SOKU": "20:30-01:00",
             "501小白": "17:00-01:00",
-            "小霧": "17:00-01:00",
             "Mii": "17:00-23:00",
             "Qubi": "19:00-01:00",
-            "Dicky": "19:00-21:00",
-            "SOKU": "20:30-01:00"
+            "小霧": "17:00-01:00"
           }
         },
         {
           "date": "2026-10-18",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Kana",
-              "Haruki",
-              "Jasmine"
-            ],
             "Bartender": [
               "Dicky"
+            ],
+            "女僕": [
+              "Haruki",
+              "Jasmine",
+              "Kana"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
-            "Kana": "個人時段：17:00-23:00",
+            "Dicky": "個人時段：19:00-23:00",
             "Haruki": "個人時段：17:00-23:00",
             "Jasmine": "個人時段：19:00-23:00",
-            "Dicky": "個人時段：19:00-23:00"
+            "Kana": "個人時段：17:00-23:00"
           },
           "person_times": {
-            "Kana": "17:00-23:00",
+            "Dicky": "19:00-23:00",
             "Haruki": "17:00-23:00",
             "Jasmine": "19:00-23:00",
-            "Dicky": "19:00-23:00"
+            "Kana": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-19",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
-              "九千",
-              "Kaoru"
+              "Kaoru",
+              "九千"
             ],
             "限定當值": [
               "NØNNØ",
               "Pimu",
               "Tsumi"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -7119,117 +7280,117 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/itotsuki.cafe/p/DeihZKyEyAp/"
           ],
           "person_notes": {
-            "九千": "個人時段：17:00-23:00",
+            "SOKU": "個人時段：15:00-23:00",
             "Kaoru": "個人時段：17:00-23:00",
+            "九千": "個人時段：17:00-23:00",
             "NØNNØ": "個人時段：18:00-23:00",
             "Pimu": "個人時段：18:00-23:00",
-            "Tsumi": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：15:00-23:00"
+            "Tsumi": "個人時段：18:00-23:00"
           },
           "person_times": {
-            "九千": "17:00-23:00",
+            "SOKU": "15:00-23:00",
             "Kaoru": "17:00-23:00",
+            "九千": "17:00-23:00",
             "NØNNØ": "18:00-23:00",
             "Pimu": "18:00-23:00",
-            "Tsumi": "18:00-23:00",
-            "SOKU": "15:00-23:00"
+            "Tsumi": "18:00-23:00"
           }
         },
         {
           "date": "2026-10-20",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Raku",
-              "吖程",
-              "Rio"
-            ],
             "Bartender": [
               "SOKU"
+            ],
+            "女僕": [
+              "Raku",
+              "Rio",
+              "吖程"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
+            "SOKU": "個人時段：18:00-23:00",
             "Raku": "個人時段：17:00-23:00",
-            "吖程": "個人時段：17:00-23:00",
             "Rio": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "吖程": "個人時段：17:00-23:00"
           },
           "person_times": {
+            "SOKU": "18:00-23:00",
             "Raku": "17:00-23:00",
-            "吖程": "17:00-23:00",
             "Rio": "18:00-23:00",
-            "SOKU": "18:00-23:00"
+            "吖程": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-21",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
               "501小白",
               "MORI",
               "小欣"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
+            "SOKU": "個人時段：18:00-23:00",
             "501小白": "個人時段：17:00-23:00",
             "MORI": "個人時段：18:00-23:00",
-            "小欣": "個人時段：19:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "小欣": "個人時段：19:00-23:00"
           },
           "person_times": {
+            "SOKU": "18:00-23:00",
             "501小白": "17:00-23:00",
             "MORI": "18:00-23:00",
-            "小欣": "19:00-23:00",
-            "SOKU": "18:00-23:00"
+            "小欣": "19:00-23:00"
           }
         },
         {
           "date": "2026-10-22",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "小瑤",
-              "rena",
-              "Hiri"
-            ],
             "Bartender": [
               "Dicky"
+            ],
+            "女僕": [
+              "Hiri",
+              "rena",
+              "小瑤"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
-            "小瑤": "個人時段：17:00-23:00",
-            "rena": "個人時段：17:00-23:00",
+            "Dicky": "個人時段：18:00-23:00",
             "Hiri": "個人時段：18:00-23:00",
-            "Dicky": "個人時段：18:00-23:00"
+            "rena": "個人時段：17:00-23:00",
+            "小瑤": "個人時段：17:00-23:00"
           },
           "person_times": {
-            "小瑤": "17:00-23:00",
-            "rena": "17:00-23:00",
+            "Dicky": "18:00-23:00",
             "Hiri": "18:00-23:00",
-            "Dicky": "18:00-23:00"
+            "rena": "17:00-23:00",
+            "小瑤": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-23",
           "hours": "17:00-01:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
-              "Tina",
-              "Eve"
+              "Eve",
+              "Tina"
             ],
             "限定當值": [
               "Aino",
               "Chizuru"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -7237,24 +7398,27 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/itotsuki.cafe/p/DesuuOnE-dc/"
           ],
           "person_notes": {
-            "Tina": "個人時段：17:00-01:00",
+            "SOKU": "個人時段：18:00-01:00",
             "Eve": "個人時段：20:00-01:00",
+            "Tina": "個人時段：17:00-01:00",
             "Aino": "個人時段：19:00-翌日00:00",
-            "Chizuru": "個人時段：19:00-翌日00:00",
-            "SOKU": "個人時段：18:00-01:00"
+            "Chizuru": "個人時段：19:00-翌日00:00"
           },
           "person_times": {
-            "Tina": "17:00-01:00",
+            "SOKU": "18:00-01:00",
             "Eve": "20:00-01:00",
+            "Tina": "17:00-01:00",
             "Aino": "19:00-翌日00:00",
-            "Chizuru": "19:00-翌日00:00",
-            "SOKU": "18:00-01:00"
+            "Chizuru": "19:00-翌日00:00"
           }
         },
         {
           "date": "2026-10-24",
           "hours": "17:00-01:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
               "Kana",
               "Yuri",
@@ -7262,9 +7426,6 @@ window.MAID_ROSTERS = {
             ],
             "限定當值": [
               "Jyunna"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -7272,74 +7433,74 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/itotsuki.cafe/p/Det7u-DzeH9/"
           ],
           "person_notes": {
+            "SOKU": "個人時段：18:00-01:00",
             "Kana": "個人時段：17:00-01:00",
             "Yuri": "個人時段：17:00-01:00",
             "詩桜": "個人時段：20:30-01:00",
-            "Jyunna": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-01:00"
+            "Jyunna": "個人時段：18:00-23:00"
           },
           "person_times": {
+            "SOKU": "18:00-01:00",
             "Kana": "17:00-01:00",
             "Yuri": "17:00-01:00",
             "詩桜": "20:30-01:00",
-            "Jyunna": "18:00-23:00",
-            "SOKU": "18:00-01:00"
+            "Jyunna": "18:00-23:00"
           }
         },
         {
           "date": "2026-10-25",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
               "501",
               "Jasmine",
               "MORI"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
+            "SOKU": "個人時段：18:00-23:00",
             "501": "個人時段：17:00-23:00",
             "Jasmine": "個人時段：17:00-23:00",
-            "MORI": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "MORI": "個人時段：18:00-23:00"
           },
           "person_times": {
+            "SOKU": "18:00-23:00",
             "501": "17:00-23:00",
             "Jasmine": "17:00-23:00",
-            "MORI": "18:00-23:00",
-            "SOKU": "18:00-23:00"
+            "MORI": "18:00-23:00"
           }
         },
         {
           "date": "2026-10-26",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "SOKU"
+            ],
             "女僕": [
               "Tina",
               "吖程"
             ],
             "限定當值": [
               "nexit!"
-            ],
-            "Bartender": [
-              "SOKU"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
+            "SOKU": "個人時段：18:00-23:00",
             "Tina": "個人時段：17:00-23:00",
             "吖程": "個人時段：17:00-23:00",
-            "nexit!": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "nexit!": "個人時段：18:00-23:00"
           },
           "person_times": {
+            "SOKU": "18:00-23:00",
             "Tina": "17:00-23:00",
             "吖程": "17:00-23:00",
-            "nexit!": "18:00-23:00",
-            "SOKU": "18:00-23:00"
+            "nexit!": "18:00-23:00"
           },
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/De0u21yE13h/"
@@ -7349,35 +7510,35 @@ window.MAID_ROSTERS = {
           "date": "2026-10-27",
           "hours": "17:00-23:00",
           "groups": {
+            "Bartender": [
+              "Dicky"
+            ],
             "女僕": [
               "501",
               "MORI",
               "小欣"
             ],
             "限定當值": [
-              "小瓏",
-              "Maou"
-            ],
-            "Bartender": [
-              "Dicky"
+              "Maou",
+              "小瓏"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
+            "Dicky": "個人時段：18:00-23:00",
             "501": "個人時段：17:00-23:00",
             "MORI": "個人時段：18:00-23:00",
             "小欣": "個人時段：19:00-23:00",
-            "小瓏": "個人時段：18:00-23:00",
             "Maou": "個人時段：18:00-23:00",
-            "Dicky": "個人時段：18:00-23:00"
+            "小瓏": "個人時段：18:00-23:00"
           },
           "person_times": {
+            "Dicky": "18:00-23:00",
             "501": "17:00-23:00",
             "MORI": "18:00-23:00",
             "小欣": "19:00-23:00",
-            "小瓏": "18:00-23:00",
             "Maou": "18:00-23:00",
-            "Dicky": "18:00-23:00"
+            "小瓏": "18:00-23:00"
           },
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/De1EgkCE3tK/"
@@ -7387,158 +7548,158 @@ window.MAID_ROSTERS = {
           "date": "2026-10-28",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Kaoru",
-              "Kana",
-              "殺奇"
-            ],
             "Bartender": [
               "SOKU"
+            ],
+            "女僕": [
+              "Kana",
+              "Kaoru",
+              "殺奇"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
-            "Kaoru": "個人時段：17:00-23:00",
+            "SOKU": "個人時段：18:00-23:00",
             "Kana": "個人時段：18:00-23:00",
-            "殺奇": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "Kaoru": "個人時段：17:00-23:00",
+            "殺奇": "個人時段：18:00-23:00"
           },
           "person_times": {
-            "Kaoru": "17:00-23:00",
+            "SOKU": "18:00-23:00",
             "Kana": "18:00-23:00",
-            "殺奇": "18:00-23:00",
-            "SOKU": "18:00-23:00"
+            "Kaoru": "17:00-23:00",
+            "殺奇": "18:00-23:00"
           }
         },
         {
           "date": "2026-10-29",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
-              "Raku",
-              "九千",
-              "Hiri"
-            ],
             "Bartender": [
               "SOKU"
+            ],
+            "女僕": [
+              "Hiri",
+              "Raku",
+              "九千"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
-            "Raku": "個人時段：17:00-23:00",
-            "九千": "個人時段：17:00-23:00",
+            "SOKU": "個人時段：18:00-23:00",
             "Hiri": "個人時段：18:00-23:00",
-            "SOKU": "個人時段：18:00-23:00"
+            "Raku": "個人時段：17:00-23:00",
+            "九千": "個人時段：17:00-23:00"
           },
           "person_times": {
-            "Raku": "17:00-23:00",
-            "九千": "17:00-23:00",
+            "SOKU": "18:00-23:00",
             "Hiri": "18:00-23:00",
-            "SOKU": "18:00-23:00"
+            "Raku": "17:00-23:00",
+            "九千": "17:00-23:00"
           }
         },
         {
           "date": "2026-10-30",
           "hours": "17:00-01:00",
           "groups": {
+            "Bartender": [
+              "Dicky",
+              "SOKU"
+            ],
             "女僕": [
               "501",
-              "Kana",
-              "Yuri",
-              "小瑤",
-              "Rio",
-              "詩桜",
               "Eve",
-              "九千",
               "Hiri",
-              "Tina"
-            ],
-            "Bartender": [
-              "SOKU",
-              "Dicky"
+              "Kana",
+              "Rio",
+              "Tina",
+              "Yuri",
+              "九千",
+              "小瑤",
+              "詩桜"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "event_name": "弦月嘩鬼祭",
           "person_notes": {
-            "501": "個人時段：17:00-01:00",
-            "Kana": "個人時段：17:00-21:00",
-            "Yuri": "個人時段：17:00-21:00",
-            "小瑤": "個人時段：17:00-21:00",
-            "Rio": "個人時段：17:00-21:00",
-            "詩桜": "個人時段：21:00-01:00",
-            "Eve": "個人時段：21:00-01:00",
-            "九千": "個人時段：21:00-01:00",
-            "Hiri": "個人時段：21:00-01:00",
-            "Tina": "個人時段：21:00-01:00",
+            "Dicky": "個人時段：18:00-01:00",
             "SOKU": "個人時段：18:00-01:00",
-            "Dicky": "個人時段：18:00-01:00"
+            "501": "個人時段：17:00-01:00",
+            "Eve": "個人時段：21:00-01:00",
+            "Hiri": "個人時段：21:00-01:00",
+            "Kana": "個人時段：17:00-21:00",
+            "Rio": "個人時段：17:00-21:00",
+            "Tina": "個人時段：21:00-01:00",
+            "Yuri": "個人時段：17:00-21:00",
+            "九千": "個人時段：21:00-01:00",
+            "小瑤": "個人時段：17:00-21:00",
+            "詩桜": "個人時段：21:00-01:00"
           },
           "person_times": {
-            "501": "17:00-01:00",
-            "Kana": "17:00-21:00",
-            "Yuri": "17:00-21:00",
-            "小瑤": "17:00-21:00",
-            "Rio": "17:00-21:00",
-            "詩桜": "21:00-01:00",
-            "Eve": "21:00-01:00",
-            "九千": "21:00-01:00",
-            "Hiri": "21:00-01:00",
-            "Tina": "21:00-01:00",
+            "Dicky": "18:00-01:00",
             "SOKU": "18:00-01:00",
-            "Dicky": "18:00-01:00"
+            "501": "17:00-01:00",
+            "Eve": "21:00-01:00",
+            "Hiri": "21:00-01:00",
+            "Kana": "17:00-21:00",
+            "Rio": "17:00-21:00",
+            "Tina": "21:00-01:00",
+            "Yuri": "17:00-21:00",
+            "九千": "21:00-01:00",
+            "小瑤": "17:00-21:00",
+            "詩桜": "21:00-01:00"
           }
         },
         {
           "date": "2026-10-31",
           "hours": "17:00-01:00",
           "groups": {
+            "Bartender": [
+              "Dicky",
+              "SOKU"
+            ],
             "女僕": [
               "501",
-              "Yuzuki",
-              "Miyuki",
-              "Yuri",
-              "Rio",
-              "Qubi",
               "Kana",
-              "詩桜",
+              "Miyuki",
+              "Qubi",
+              "Rio",
+              "Tina",
+              "Yuri",
+              "Yuzuki",
               "小霧",
-              "Tina"
-            ],
-            "Bartender": [
-              "SOKU",
-              "Dicky"
+              "詩桜"
             ]
           },
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "event_name": "弦月嘩鬼祭",
           "person_notes": {
-            "501": "個人時段：17:00-01:00",
-            "Yuzuki": "個人時段：17:00-21:00",
-            "Miyuki": "個人時段：17:00-21:00",
-            "Yuri": "個人時段：17:00-21:00",
-            "Rio": "個人時段：17:00-21:00",
-            "Qubi": "個人時段：21:00-01:00",
-            "Kana": "個人時段：21:00-01:00",
-            "詩桜": "個人時段：21:00-01:00",
-            "小霧": "個人時段：21:00-01:00",
-            "Tina": "個人時段：23:00-01:00",
+            "Dicky": "個人時段：22:00-01:00",
             "SOKU": "個人時段：18:00-01:00",
-            "Dicky": "個人時段：22:00-01:00"
+            "501": "個人時段：17:00-01:00",
+            "Kana": "個人時段：21:00-01:00",
+            "Miyuki": "個人時段：17:00-21:00",
+            "Qubi": "個人時段：21:00-01:00",
+            "Rio": "個人時段：17:00-21:00",
+            "Tina": "個人時段：23:00-01:00",
+            "Yuri": "個人時段：17:00-21:00",
+            "Yuzuki": "個人時段：17:00-21:00",
+            "小霧": "個人時段：21:00-01:00",
+            "詩桜": "個人時段：21:00-01:00"
           },
           "person_times": {
-            "501": "17:00-01:00",
-            "Yuzuki": "17:00-21:00",
-            "Miyuki": "17:00-21:00",
-            "Yuri": "17:00-21:00",
-            "Rio": "17:00-21:00",
-            "Qubi": "21:00-01:00",
-            "Kana": "21:00-01:00",
-            "詩桜": "21:00-01:00",
-            "小霧": "21:00-01:00",
-            "Tina": "23:00-01:00",
+            "Dicky": "22:00-01:00",
             "SOKU": "18:00-01:00",
-            "Dicky": "22:00-01:00"
+            "501": "17:00-01:00",
+            "Kana": "21:00-01:00",
+            "Miyuki": "17:00-21:00",
+            "Qubi": "21:00-01:00",
+            "Rio": "17:00-21:00",
+            "Tina": "23:00-01:00",
+            "Yuri": "17:00-21:00",
+            "Yuzuki": "17:00-21:00",
+            "小霧": "21:00-01:00",
+            "詩桜": "21:00-01:00"
           }
         }
       ]

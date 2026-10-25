@@ -4367,7 +4367,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
-          "event_name": "純情女鬼萬聖夜"
+          "event_name": "純情女鬼萬聖夜",
+          "alternate_sources": [
+            "https://www.instagram.com/infinitedreams.project_8/p/De1Q3GoKOXG/"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -4382,7 +4385,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
-          "event_name": "受傷的AV女優"
+          "event_name": "受傷的AV女優",
+          "alternate_sources": [
+            "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/"
+          ]
         }
       ],
       "unresolved": [

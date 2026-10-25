@@ -13,6 +13,38 @@
   }
   function displayName(name) { return String(name || "").replace(/ ⟦@[^⟧]+⟧$/u, ""); }
   function formatPersonTimes(value) { return String(value || "").replace(/、\s*/g, "\n"); }
+  const roleCategoryOrder = ["活動職", "限定", "資深", "普通", "見習", "廚房"];
+  const roleCategoryByShop = {
+    "Aurelia Garden": { "活動職": ["活動出席精靈", "當日出席精靈"], "限定": ["限定精靈"], "普通": ["當值精靈"], "廚房": ["活動出席精靈兼花園守護", "當值精靈兼花園守護", "花園守護"] },
+    "Baberu Cafe": { "活動職": ["生日主角及當值女僕"], "限定": ["限定出勤", "限定月下夜僕"], "普通": ["當值女僕"] },
+    "Comma Cafe": { "普通": ["女僕"], "見習": ["見習女僕"] },
+    "CosPlace Café": { "活動職": ["決賽日當值女僕", "活動出演陣容"], "限定": ["限定女僕"], "普通": ["出勤女僕", "當值執事"] },
+    "Dear Devil": { "活動職": ["Guest／嘉賓", "活動嘉賓", "租場嘉賓"], "限定": ["限定女僕"], "普通": ["Butler", "Maid", "女僕"], "廚房": ["魔域管理員"] },
+    "Elysium Cafe": { "活動職": ["值班醫護", "活動出席人員"], "限定": ["一日限定", "限定修女", "限定修士"], "資深": ["資深修女", "資深修士"], "普通": ["正式修女", "正式修士"], "見習": ["實習修女", "實習修士"], "廚房": ["廚娘"] },
+    "Itotsuki Cafe": { "限定": ["限定當值"], "普通": ["女僕"], "廚房": ["Bartender"] },
+    "Kaizoku House": { "活動職": ["活動嘉賓", "生誕活動人員"], "限定": ["限定女僕", "限定海盜"], "普通": ["Maid", "Pirate Maid"] },
+    "Kirakira Maido": { "限定": ["限定魔法使"], "資深": ["魔法導師"], "普通": ["魔法使"] },
+    "Maid Academy": { "活動職": ["一期生", "二期生", "活動出席花嫁", "活動嘉賓", "生誕主角", "私人活動嘉賓", "邀請嘉賓"], "限定": ["限定學妹"], "資深": ["學生會幹部", "學生會"], "普通": ["女僕研習生"], "見習": ["女僕實習生"] },
+    "Maid Clinic": { "活動職": ["生誕主角", "生誕嘉賓"], "限定": ["限定護士"], "資深": ["資深護士"], "普通": ["當值護士", "當值女僕"], "見習": ["新生護士"] },
+    "Maid Eidolon": { "限定": ["一日限定", "限定幽靈"], "普通": ["當值幽靈"] },
+    "Maid Minori": { "限定": ["限定天使"], "普通": ["水色天使"], "廚房": ["廚師"] },
+    "Maid Planet": { "活動職": ["當值人員"], "限定": ["一日限定", "限定侵略者"], "普通": ["當值"] },
+    "Maidoll Mirage": { "限定": ["限定人偶"], "普通": ["女僕人偶"], "見習": ["新生人偶"] },
+    "Mistia Luna": { "活動職": ["生誕當值嘉賓", "生誕當值女僕"], "限定": ["限定月亮女神", "限定當值女僕"], "普通": ["當值女僕"], "廚房": ["當值廚娘"] },
+    "Queen’s Garden": { "活動職": ["活動出席居民", "限定嘉賓"], "限定": ["限定居民"], "普通": ["出沒居民", "影子精靈", "當值人員"] },
+    "Sugar Factory Cafe": { "活動職": ["下午及晚上參演魔女", "下午場特邀魔女", "晚上場參演魔女", "當值女僕"] },
+    "The Manor Cafe": { "活動職": ["一日限定表演者"], "限定": ["一日限定女僕", "限定女僕"], "普通": ["女僕"], "見習": ["試工女僕"] },
+    "The Misty": { "限定": ["一日限定女僕", "限定女僕"], "普通": ["正式女僕"], "見習": ["實習女僕", "新人女僕"] }
+  };
+  function orderedRoleGroups(groups, shop) {
+    const buckets = new Map(roleCategoryOrder.map((label) => [label, []]));
+    const explicit = new Map(Object.entries(roleCategoryByShop[shop] || {}).flatMap(([category, roles]) => roles.map((role) => [role, category])));
+    for (const entry of Object.entries(groups || {})) {
+      const category = explicit.get(entry[0]) || "普通";
+      buckets.get(category).push(entry);
+    }
+    return roleCategoryOrder.map((label) => [label, buckets.get(label)]).filter(([, entries]) => entries.length);
+  }
   function personKey(shop, name) { return JSON.stringify([shop, name.trim().toLocaleLowerCase()]); }
   let conflicts;
   function identityKey(data, shop, name) {
@@ -119,5 +151,5 @@
     const link = document.createElement("a"); link.href = url; link.download = "人物資料待審回報.csv"; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
-  window.HKCI = { instagram, handle, displayName, formatPersonTimes, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
+  window.HKCI = { instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
 })();

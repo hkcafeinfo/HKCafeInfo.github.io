@@ -58,7 +58,7 @@
       </div>
 
       <section class="roster-section" id="card-view" aria-labelledby="roster-heading">
-        <div class="section-topline"><div><span class="section-kicker">EXPLORE THE SCHEDULE</span><h2 id="roster-heading">每日更表</h2></div><div class="card-range-controls"><label class="field select-field card-range-field"><span class="sr-only">每日更表日期範圍</span><select id="card-date-range"><option value="future">接下來的見面日</option><option value="all">全部更表</option></select><span class="select-arrow" aria-hidden="true">⌄</span></label><span class="result-count" id="result-count"></span></div></div>
+        <div class="section-topline"><div><span class="section-kicker">EXPLORE THE SCHEDULE</span><h2 id="roster-heading">每日更表</h2></div><div class="card-range-controls"><div class="range-toggle" id="card-date-range" role="group" aria-label="每日更表日期範圍"><button type="button" class="range-toggle-button" data-range="all" aria-pressed="false">所有更表</button><button type="button" class="range-toggle-button" data-range="future" aria-pressed="true">接下來的更表</button></div><span class="result-count" id="result-count"></span></div></div>
         <div class="date-selector-wrap" id="date-selector-wrap">
           <div class="date-bar" id="date-bar" role="group" aria-label="選擇日期"></div>
           <button type="button" class="date-scroll-button date-scroll-prev" id="date-scroll-prev" aria-label="向左捲動日期" title="向左捲動" hidden>‹</button>
@@ -76,7 +76,7 @@
       <section class="matrix-section" id="matrix-view" aria-labelledby="matrix-heading" hidden>
         <div class="section-topline"><div><span class="section-kicker">ALL CAFES · ONE TABLE</span><h2 id="matrix-heading">各店更表</h2></div><span class="result-count" id="matrix-result-count"></span></div>
         <div class="toolbar">
-          <label class="field select-field range-field"><span class="sr-only">總表日期範圍</span><select id="date-range"><option value="future">接下來的見面日</option><option value="all">全部更表</option></select><span class="select-arrow" aria-hidden="true">⌄</span></label>
+          <div class="range-toggle" id="date-range" role="group" aria-label="總表日期範圍"><button type="button" class="range-toggle-button" data-range="all" aria-pressed="false">所有更表</button><button type="button" class="range-toggle-button" data-range="future" aria-pressed="true">接下來的更表</button></div>
           <button type="button" id="person-back" class="person-back" hidden>← 返回</button>
         </div>
         <div class="matrix-toolbar"><div class="axis-switch" role="group" aria-label="總表方向"><button id="dates-across" type="button" class="axis-button active" aria-pressed="true">日期橫排</button><button id="shops-across" type="button" class="axis-button" aria-pressed="false">店舖橫排</button></div><div class="matrix-navigation"><span id="scroll-hint">左右捲動查看更多日期</span><button type="button" id="matrix-prev" aria-label="上一欄">←</button><button type="button" id="matrix-next" aria-label="下一欄">→</button></div></div>

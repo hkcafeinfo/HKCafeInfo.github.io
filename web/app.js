@@ -230,6 +230,11 @@
     return element;
   }
   function renderCards() {
+    for (const button of $("card-date-range").querySelectorAll("[data-range]")) {
+      const active = button.dataset.range === cardRange;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    }
     nodes.grid.replaceChildren();
     const dates = (selectedDate === "all" || search) ? cardDates() : [selectedDate];
     const shops = data.shops.filter((shop) => visibleNames.has(shop.shop));
@@ -258,9 +263,10 @@
     nodes.result.textContent = search ? `${people} 筆符合人名` : `${cards} 張店舖卡片`;
   }
   renderChecklist();
-  $("card-date-range").value = cardRange;
-  $("card-date-range").addEventListener("change", (event) => {
-    cardRange = event.target.value === "all" ? "all" : "future";
+  $("card-date-range").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-range]");
+    if (!button) return;
+    cardRange = button.dataset.range === "all" ? "all" : "future";
     if (selectedDate !== "all" && !cardDates().includes(selectedDate)) selectedDate = cardDates()[0] || "all";
     savePage(); renderDates(); renderCards();
   });

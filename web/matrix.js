@@ -177,6 +177,11 @@
     return node;
   }
   function render() {
+    for (const button of $("date-range").querySelectorAll("[data-range]")) {
+      const active = button.dataset.range === state.range;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    }
     const previousScroll = firstRender ? (saved.scrollLeft || 0) : viewport.scrollLeft;
     firstRender = false;
     const personMode = Boolean(state.search || state.person);
@@ -287,21 +292,25 @@
     }
     render();
   }
-  $("date-range").value = state.range;
   $("name-search").value = state.search;
-  $("date-range").addEventListener("change", (event) => { state.range = event.target.value; persist(); render(); });
+  $("date-range").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-range]");
+    if (!button) return;
+    state.range = button.dataset.range === "all" ? "all" : "future";
+    persist(); render();
+  });
   $("name-search").addEventListener("input", (event) => {
     const wasSearching = Boolean(state.search || state.person);
     state.search = event.target.value.trim().toLocaleLowerCase(); state.person = null;
-    if (state.search && !wasSearching) { state.range = "all"; $("date-range").value = "all"; }
+    if (state.search && !wasSearching) state.range = "all";
     persist(); render();
   });
-  window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "all"; $("date-range").value = "all"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
+  window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "all"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
   window.addEventListener("maid:visibility-change", render);
   window.addEventListener("hkcafeinfo:view-change", updateSticky);
   window.addEventListener("hkcafeinfo:reset-view", () => {
     state.search = ""; state.person = null; state.range = "future"; state.across = "dates";
-    $("name-search").value = ""; $("date-range").value = "future";
+    $("name-search").value = "";
     $("dates-across").classList.add("active"); $("dates-across").setAttribute("aria-pressed", "true");
     $("shops-across").classList.remove("active"); $("shops-across").setAttribute("aria-pressed", "false");
     viewport.scrollLeft = 0; persist(); render();

@@ -2763,17 +2763,58 @@ window.MAID_ROSTERS = {
           "groups": {
             "一日限定": [
               "正子"
+            ],
+            "當值": [
+              "Miyabi",
+              "Luna",
+              "Aina",
+              "蕃薯",
+              "Nedo",
+              "Airin"
             ]
           },
-          "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/",
+          "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
-            "https://www.instagram.com/cafemaidplanet/p/DeZsnnWBoxv/"
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
           ],
           "person_notes": {
             "正子": "店舖時段；個人時段未公布。"
+          }
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Miyabi",
+              "Luna",
+              "Miku",
+              "貓丸",
+              "hani",
+              "理子",
+              "小金"
+            ]
           },
-          "notes": "店舖時段；個人時段未公布。"
+          "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
+          "event_name": "萌星人IN DEJAVU Part.2"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Bochi",
+              "卡咩",
+              "小犬",
+              "古喵",
+              "Kira",
+              "小金",
+              "可娜"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
+          "event_name": "萌星人IN DEJAVU Part.2"
         }
       ],
       "unresolved": [

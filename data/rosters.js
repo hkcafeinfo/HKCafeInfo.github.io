@@ -6767,9 +6767,6 @@ window.MAID_ROSTERS = {
             ],
             "限定當值女僕": [
               "夢川"
-            ],
-            "限定月亮女神": [
-              "天使"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -6786,8 +6783,7 @@ window.MAID_ROSTERS = {
             "玄幽": "個人時段：13:00-20:00。",
             "萌え魚": "個人時段：12:00-17:00。",
             "奈雅": "個人時段：12:00-23:00。",
-            "夢川": "個人時段：19:30-23:00。",
-            "天使": "個人時段：19:30-23:00。"
+            "夢川": "個人時段：19:30-23:00；與限定公告的「天使」同為 @y._.tenshi_0.2，採較新的週表名稱。"
           },
           "person_times": {
             "Gigi": "17:00-23:00。",
@@ -6801,8 +6797,7 @@ window.MAID_ROSTERS = {
             "玄幽": "13:00-20:00。",
             "萌え魚": "12:00-17:00。",
             "奈雅": "12:00-23:00。",
-            "夢川": "19:30-23:00。",
-            "天使": "19:30-23:00。"
+            "夢川": "19:30-23:00"
           },
           "alternate_sources": [
             "https://www.instagram.com/mistia_luna/p/De5ThBOztfW/"
@@ -7494,6 +7489,9 @@ window.MAID_ROSTERS = {
             ],
             "魔法導師": [
               "Kata"
+            ],
+            "限定魔法使": [
+              "小白"
             ]
           },
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -7503,9 +7501,12 @@ window.MAID_ROSTERS = {
             "小憐": "原帖只列魔法結界開放時間；個人時段未公布。",
             "江雨": "原帖只列魔法結界開放時間；個人時段未公布。",
             "炸彈": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Kata": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "Kata": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "小白": "限定到訪；個人時段未另行公布。"
           },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+          "alternate_sources": [
+            "https://www.instagram.com/kirakiramaido/p/De6YqaHxPaj/"
+          ]
         },
         {
           "date": "2026-10-27",
@@ -11809,6 +11810,13 @@ window.MAID_ROSTERS = {
         "instagram": "https://www.instagram.com/husky_taroa/",
         "profile_image": "",
         "source": "https://www.instagram.com/kirakiramaido/p/DeWoE-5y2e5/",
+        "person_id": "",
+        "former_handles": []
+      },
+      "小白": {
+        "instagram": "https://www.instagram.com/yuiii_yst/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/kirakiramaido/p/De6YqaHxPaj/",
         "person_id": "",
         "former_handles": []
       }

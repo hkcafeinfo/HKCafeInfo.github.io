@@ -3142,11 +3142,18 @@ window.MAID_ROSTERS = {
               "小狐狸"
             ],
             "限定幽靈": [
-              "Nana"
+              "ろく"
             ]
           },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
+          "source": "https://www.instagram.com/maid_eidolon/p/De3OC0ZTRmz/",
+          "event_name": "萬聖節活動",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+            "https://www.instagram.com/maid_eidolon/p/De3N8Lrzym7/"
+          ],
+          "review_names": {
+            "ろく": "較新的10/30限定公告列「ろく」；較舊公告列Nana，依最新資訊更新。"
+          }
         },
         {
           "date": "2026-10-31",

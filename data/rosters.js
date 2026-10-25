@@ -3441,6 +3441,42 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值執事": [
+              "Shu"
+            ]
+          },
+          "source": "https://www.instagram.com/stories/highlights/18111337829272821/",
+          "event_name": "萬聖節執事特別活動",
+          "person_notes": {
+            "Shu": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Shu": "17:00-22:00"
+          },
+          "notes": "個人時段：17:00-22:00"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值執事": [
+              "Shu"
+            ]
+          },
+          "source": "https://www.instagram.com/stories/highlights/18111337829272821/",
+          "event_name": "萬聖節執事特別活動",
+          "person_notes": {
+            "Shu": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Shu": "17:00-22:00"
+          },
+          "notes": "個人時段：17:00-22:00"
         }
       ]
     },
@@ -10226,6 +10262,10 @@ window.MAID_ROSTERS = {
       "profile_image": ""
     },
     "龍蝦": {
+      "instagram": "",
+      "profile_image": ""
+    },
+    "Shu": {
       "instagram": "",
       "profile_image": ""
     }

@@ -400,6 +400,23 @@ window.MAID_ROSTERS = {
             "瑤瑤": "17:30-22:00"
           },
           "notes": "個人時段：17:30-22:00"
+        },
+        {
+          "date": "2026-11-14",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定學妹": [
+              "小扇"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/DeuXTldTWIo/",
+          "person_notes": {
+            "小扇": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "小扇": "17:00-22:00"
+          },
+          "notes": "個人時段：17:00-22:00"
         }
       ],
       "unresolved": [

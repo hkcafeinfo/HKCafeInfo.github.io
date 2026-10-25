@@ -417,6 +417,69 @@ window.MAID_ROSTERS = {
             "小扇": "17:00-22:00"
           },
           "notes": "個人時段：17:00-22:00"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會幹部": [
+              "Kokona",
+              "Domo魚"
+            ],
+            "學生會": [
+              "YY",
+              "靈兒",
+              "小六"
+            ],
+            "女僕研習生": [
+              "Yoku",
+              "Snow"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會幹部": [
+              "Kokona",
+              "Domo魚"
+            ],
+            "學生會": [
+              "靈兒",
+              "Mahiru",
+              "小六",
+              "Hime",
+              "YY"
+            ],
+            "女僕研習生": [
+              "悠悠",
+              "Piko"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
+          "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會": [
+              "Miya",
+              "靈兒",
+              "小六"
+            ],
+            "女僕研習生": [
+              "小酒",
+              "ゆこ",
+              "Yoku",
+              "詩雨"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
+          "event_name": "Halloween活動周"
         }
       ],
       "unresolved": [
@@ -924,33 +987,6 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
           "event_name": "羊誕祭"
-        }
-      ],
-      "unresolved": [
-        {
-          "date": "2026-10-26",
-          "reason": "新週表圖片明確標示「上圖只為第一版本，最新當值情況請參考文字版本」；已先記錄圖片列出的當值，但尚未找到文字版，需核對是否有修訂。",
-          "source": "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
-        },
-        {
-          "date": "2026-10-27",
-          "reason": "新週表圖片明確標示「上圖只為第一版本，最新當值情況請參考文字版本」；已先記錄圖片列出的當值，但尚未找到文字版，需核對是否有修訂。",
-          "source": "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
-        },
-        {
-          "date": "2026-10-28",
-          "reason": "新週表圖片明確標示「上圖只為第一版本，最新當值情況請參考文字版本」；已先記錄圖片列出的當值，但尚未找到文字版，需核對是否有修訂。",
-          "source": "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
-        },
-        {
-          "date": "2026-10-29",
-          "reason": "新週表圖片明確標示「上圖只為第一版本，最新當值情況請參考文字版本」；已先記錄圖片列出的當值，但尚未找到文字版，需核對是否有修訂。",
-          "source": "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
-        },
-        {
-          "date": "2026-10-31",
-          "reason": "新週表圖片明確標示「上圖只為第一版本，最新當值情況請參考文字版本」；已先記錄圖片列出的當值，但尚未找到文字版，需核對是否有修訂。",
-          "source": "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
         }
       ]
     },
@@ -1845,6 +1881,197 @@ window.MAID_ROSTERS = {
           "notes": "活動帖列出當日出席精靈；未逐人列明完整更期。"
         },
         {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "mona",
+              "okk",
+              "千夏",
+              "貓貓",
+              "魚骨",
+              "麻糬"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "Ringo"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Sumire",
+              "kiukiu",
+              "奶昔",
+              "幼幼",
+              "烏龜",
+              "蛋蛋",
+              "豆豆",
+              "阿月",
+              "鴨鴨"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "Kayla",
+              "Vivi"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "P4",
+              "Rinka",
+              "aya",
+              "mona",
+              "咩咩",
+              "小睡",
+              "幼幼",
+              "昭子",
+              "細rinka",
+              "羽琉那"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "Lia",
+              "Tia",
+              "蚊蚊"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "person_notes": {
+            "羽琉那": "首次當值"
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "P4",
+              "Rei",
+              "Sumire",
+              "okk",
+              "咩咩",
+              "奶昔",
+              "細rinka",
+              "絲",
+              "羽琉那",
+              "鴨鴨",
+              "麻糬"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "uu"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "Akari",
+              "KK",
+              "Lori",
+              "Mercy",
+              "Rinka",
+              "Sumire",
+              "Uri",
+              "mona",
+              "千暮雪",
+              "奶昔",
+              "留多晚",
+              "絲",
+              "貓貓",
+              "鴨鴨"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "乳酪",
+              "小璃",
+              "鏡"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "15:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "Aiya",
+              "KK",
+              "Mercy",
+              "Rei",
+              "Yumi",
+              "咩咩",
+              "小音",
+              "昭子",
+              "烏龜",
+              "絲",
+              "貓貓",
+              "阿月"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "Toua",
+              "碌柚葉",
+              "荔枝"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Haruna",
+              "Hecate",
+              "Rizuko",
+              "aya",
+              "小眠",
+              "小睡",
+              "幼幼",
+              "烏龜",
+              "阿月",
+              "阿雪",
+              "魚骨"
+            ],
+            "花園守護": [
+              "Whitney"
+            ],
+            "限定精靈": [
+              "茶熊",
+              "阿P"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
           "date": "2026-11-05",
           "hours": "17:00-22:00",
           "groups": {
@@ -1862,224 +2089,33 @@ window.MAID_ROSTERS = {
           "event_name": "極致優雅，暗夜浪漫"
         },
         {
-          "date": "2026-10-26",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "Ringo"
-            ],
-            "當值精靈": [
-              "okk",
-              "麻糬",
-              "千夏",
-              "魚骨",
-              "mona",
-              "貓貓"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-27",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "Vivi",
-              "Kayla"
-            ],
-            "當值精靈": [
-              "鴨鴨",
-              "奶昔",
-              "幼幼",
-              "豆豆",
-              "Sumire",
-              "蛋蛋",
-              "阿月",
-              "烏龜",
-              "kiukiu"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-28",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "蚊蚊",
-              "Tia",
-              "Lia"
-            ],
-            "當值精靈": [
-              "昭子",
-              "幼幼",
-              "P4",
-              "Rinka",
-              "aya",
-              "小睡",
-              "細rinka",
-              "羽琉那",
-              "mona",
-              "咩咩"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "person_notes": {
-            "羽琉那": "首次當值"
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "uu"
-            ],
-            "當值精靈": [
-              "絲",
-              "鴨鴨",
-              "奶昔",
-              "P4",
-              "okk",
-              "Sumire",
-              "麻糬",
-              "細rinka",
-              "羽琉那",
-              "Rei",
-              "咩咩"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "17:00-23:00",
-          "groups": {
-            "限定精靈": [
-              "乳酪",
-              "鏡",
-              "小璃"
-            ],
-            "當值精靈": [
-              "絲",
-              "Akari",
-              "鴨鴨",
-              "Lori",
-              "奶昔",
-              "Rinka",
-              "Uri",
-              "KK",
-              "Sumire",
-              "Mercy",
-              "千暮雪",
-              "mona",
-              "貓貓",
-              "留多晚"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行"
-        },
-        {
-          "date": "2026-10-31",
-          "hours": "15:00-23:00",
-          "groups": {
-            "限定精靈": [
-              "荔枝",
-              "Toua",
-              "碌柚葉"
-            ],
-            "當值精靈": [
-              "絲",
-              "昭子",
-              "KK",
-              "Mercy",
-              "阿月",
-              "Yumi",
-              "Rei",
-              "貓貓",
-              "咩咩",
-              "小音",
-              "烏龜",
-              "Aiya"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
-        },
-        {
-          "date": "2026-11-01",
-          "hours": "15:00-22:00",
-          "groups": {
-            "限定精靈": [
-              "阿P",
-              "茶熊"
-            ],
-            "當值精靈": [
-              "幼幼",
-              "阿月",
-              "aya",
-              "Hecate",
-              "阿雪",
-              "小睡",
-              "小眠",
-              "魚骨",
-              "Rizuko",
-              "Haruna",
-              "烏龜"
-            ],
-            "花園守護": [
-              "Whitney"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
           "date": "2026-11-08",
           "hours": "15:00-22:00",
           "groups": {
             "活動出席精靈": [
+              "Hami",
               "Uri",
-              "絲",
               "奶昔",
               "幼幼",
-              "鴨鴨",
               "水母",
+              "絲",
               "豆豆",
-              "Hami",
-              "骨頭"
+              "骨頭",
+              "鴨鴨"
             ]
           },
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
           "event_name": "想你的話...你會出現嗎？",
           "person_notes": {
+            "Hami": "個人時段未另行列明。",
             "Uri": "個人時段未另行列明。",
-            "絲": "個人時段未另行列明。",
             "奶昔": "個人時段未另行列明。",
             "幼幼": "個人時段未另行列明。",
-            "鴨鴨": "個人時段未另行列明。",
             "水母": "個人時段未另行列明。",
+            "絲": "個人時段未另行列明。",
             "豆豆": "個人時段未另行列明。",
-            "Hami": "個人時段未另行列明。",
-            "骨頭": "個人時段未另行列明。"
+            "骨頭": "個人時段未另行列明。",
+            "鴨鴨": "個人時段未另行列明。"
           },
           "notes": "個人時段未另行列明。"
         },
@@ -2088,37 +2124,37 @@ window.MAID_ROSTERS = {
           "hours": "17:00-23:00",
           "groups": {
             "活動出席精靈": [
-              "Nemu",
-              "Saki",
-              "Kora",
-              "蛋蛋",
-              "Sumire",
-              "笛子",
-              "奶昔",
               "Bibi",
+              "Kora",
+              "Nemu",
               "Rinka",
-              "企鵝",
               "Ruika",
-              "鴨鴨",
-              "幼幼"
+              "Saki",
+              "Sumire",
+              "企鵝",
+              "奶昔",
+              "幼幼",
+              "笛子",
+              "蛋蛋",
+              "鴨鴨"
             ]
           },
           "source": "https://www.instagram.com/o.akariwww.o2/p/De6gaMek6JQ/",
           "event_name": "風紀紊乱！？不良JKを徹底指導！",
           "person_notes": {
-            "Nemu": "個人時段未另行列明。",
-            "Saki": "個人時段未另行列明。",
-            "Kora": "個人時段未另行列明。",
-            "蛋蛋": "個人時段未另行列明。",
-            "Sumire": "個人時段未另行列明。",
-            "笛子": "個人時段未另行列明。",
-            "奶昔": "個人時段未另行列明。",
             "Bibi": "個人時段未另行列明。",
+            "Kora": "個人時段未另行列明。",
+            "Nemu": "個人時段未另行列明。",
             "Rinka": "個人時段未另行列明。",
-            "企鵝": "個人時段未另行列明。",
             "Ruika": "個人時段未另行列明。",
-            "鴨鴨": "個人時段未另行列明。",
-            "幼幼": "個人時段未另行列明。"
+            "Saki": "個人時段未另行列明。",
+            "Sumire": "個人時段未另行列明。",
+            "企鵝": "個人時段未另行列明。",
+            "奶昔": "個人時段未另行列明。",
+            "幼幼": "個人時段未另行列明。",
+            "笛子": "個人時段未另行列明。",
+            "蛋蛋": "個人時段未另行列明。",
+            "鴨鴨": "個人時段未另行列明。"
           },
           "notes": "個人時段未另行列明。"
         }
@@ -2771,6 +2807,23 @@ window.MAID_ROSTERS = {
           "notes": "本店營業時間為 15:00-22:00；未列明個人時段。"
         },
         {
+          "date": "2026-10-27",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Luna",
+              "Miku",
+              "Miyabi",
+              "hani",
+              "小金",
+              "理子",
+              "貓丸"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
+          "event_name": "萌星人IN DEJAVU Part.2"
+        },
+        {
           "date": "2026-10-28",
           "hours": "15:00-22:00",
           "groups": {
@@ -2778,12 +2831,12 @@ window.MAID_ROSTERS = {
               "正子"
             ],
             "當值": [
-              "Miyabi",
-              "Luna",
               "Aina",
-              "蕃薯",
+              "Airin",
+              "Luna",
+              "Miyabi",
               "Nedo",
-              "Airin"
+              "蕃薯"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
@@ -2796,34 +2849,17 @@ window.MAID_ROSTERS = {
           }
         },
         {
-          "date": "2026-10-27",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值": [
-              "Miyabi",
-              "Luna",
-              "Miku",
-              "貓丸",
-              "hani",
-              "理子",
-              "小金"
-            ]
-          },
-          "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
-          "event_name": "萌星人IN DEJAVU Part.2"
-        },
-        {
           "date": "2026-10-29",
           "hours": "15:00-22:00",
           "groups": {
             "當值": [
               "Bochi",
-              "卡咩",
-              "小犬",
-              "古喵",
               "Kira",
-              "小金",
-              "可娜"
+              "卡咩",
+              "古喵",
+              "可娜",
+              "小犬",
+              "小金"
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
@@ -7424,6 +7460,9 @@ window.MAID_ROSTERS = {
           "date": "2026-10-26",
           "hours": "18:00-23:00",
           "groups": {
+            "限定魔法使": [
+              "小白"
+            ],
             "魔法使": [
               "UU",
               "小憐",
@@ -7432,24 +7471,21 @@ window.MAID_ROSTERS = {
             ],
             "魔法導師": [
               "Kata"
-            ],
-            "限定魔法使": [
-              "小白"
             ]
           },
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "天使與惡魔之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/kirakiramaido/p/De6YqaHxPaj/"
+          ],
           "person_notes": {
+            "小白": "限定到訪；個人時段未另行公布。",
             "UU": "原帖只列魔法結界開放時間；個人時段未公布。",
             "小憐": "原帖只列魔法結界開放時間；個人時段未公布。",
             "江雨": "原帖只列魔法結界開放時間；個人時段未公布。",
             "炸彈": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Kata": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "小白": "限定到訪；個人時段未另行公布。"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/kirakiramaido/p/De6YqaHxPaj/"
-          ]
+            "Kata": "原帖只列魔法結界開放時間；個人時段未公布。"
+          }
         },
         {
           "date": "2026-10-27",

@@ -3893,7 +3893,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-25",
-          "hours": "18:00-23:00",
+          "hours": "19:00-23:00",
           "groups": {
             "Maid": [
               "月牙"
@@ -3907,7 +3907,10 @@ window.MAID_ROSTERS = {
               "咩咩"
             ]
           },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid.kaizokuhouse/p/De4NnNlzztr/"
+          ]
         },
         {
           "date": "2026-10-26",
@@ -3941,9 +3944,18 @@ window.MAID_ROSTERS = {
             ],
             "限定女僕": [
               "照美"
+            ],
+            "限定海盜": [
+              "Bake"
             ]
           },
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+          ],
+          "person_notes": {
+            "Bake": "限定海盜成員出沒公告；個人出沒時間18:00-23:00。"
+          }
         },
         {
           "date": "2026-10-28",

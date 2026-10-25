@@ -2968,10 +2968,11 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
+          "event_name": "月下夜僕、悪戯の時間だよ",
           "alternate_sources": [
+            "https://www.instagram.com/maid_baberucafe/p/De3hEj6zIj4/",
             "https://www.instagram.com/maid_baberucafe/p/De3tlrBTnQB/",
-            "https://www.instagram.com/maid_baberucafe/p/De3p4uETn43/",
-            "https://www.instagram.com/maid_baberucafe/p/De3hEj6zIj4/"
+            "https://www.instagram.com/maid_baberucafe/p/De3p4uETn43/"
           ],
           "person_notes": {
             "千夜": "個人時段：15:00-20:00",

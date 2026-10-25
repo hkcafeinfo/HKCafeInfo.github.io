@@ -2513,9 +2513,26 @@ window.MAID_ROSTERS = {
               "霖霖",
               "999",
               "小茵"
+            ],
+            "限定月下夜僕": [
+              "洛希",
+              "千夜"
             ]
           },
-          "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/"
+          "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_baberucafe/p/De3tlrBTnQB/",
+            "https://www.instagram.com/maid_baberucafe/p/De3p4uETn43/",
+            "https://www.instagram.com/maid_baberucafe/p/De3hEj6zIj4/"
+          ],
+          "person_notes": {
+            "洛希": "個人時段：15:00-20:00",
+            "千夜": "個人時段：15:00-20:00"
+          },
+          "person_times": {
+            "洛希": "15:00-20:00",
+            "千夜": "15:00-20:00"
+          }
         },
         {
           "date": "2026-10-31",

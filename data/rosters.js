@@ -1786,6 +1786,71 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "14:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "黑猫",
+              "珊瑚",
+              "Mia",
+              "Kori",
+              "水獺",
+              "狐宵赤夜"
+            ],
+            "限定人偶": [
+              "狐宵澄夜",
+              "鬽髏ヘイニ",
+              "黒崎よるみ",
+              "綿辺ゆみか",
+              "黒田やな",
+              "路奇"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/",
+          "event_name": "噬謊之村†"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "黑猫",
+              "小雫",
+              "Koyuki",
+              "Hima",
+              "駝駝"
+            ],
+            "新生人偶": [
+              "Charlotte",
+              "小倩"
+            ],
+            "限定人偶": [
+              "Kori"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "小凌",
+              "Mafu",
+              "梓野",
+              "Koyuki",
+              "駝駝",
+              "栗子",
+              "水獺"
+            ],
+            "新生人偶": [
+              "FY",
+              "Ruri"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
         }
       ]
     },

@@ -6283,6 +6283,9 @@ window.MAID_ROSTERS = {
               "Kaoko",
               "真冬",
               "羅露妮"
+            ],
+            "限定月亮女神": [
+              "烏龜"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -6295,7 +6298,8 @@ window.MAID_ROSTERS = {
             "玲奈": "個人時段：12:00-17:00",
             "Kaoko": "個人時段：20:00-23:00",
             "真冬": "個人時段：17:00-23:00",
-            "羅露妮": "個人時段：12:00-17:00"
+            "羅露妮": "個人時段：12:00-17:00",
+            "烏龜": "個人時段：18:00-23:00。"
           },
           "person_times": {
             "Gigi": "17:00-23:00",
@@ -6306,8 +6310,12 @@ window.MAID_ROSTERS = {
             "玲奈": "12:00-17:00",
             "Kaoko": "20:00-23:00",
             "真冬": "17:00-23:00",
-            "羅露妮": "12:00-17:00"
-          }
+            "羅露妮": "12:00-17:00",
+            "烏龜": "18:00-23:00。"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/DeyY-mYzXG8/"
+          ]
         },
         {
           "date": "2026-10-24",
@@ -6392,6 +6400,9 @@ window.MAID_ROSTERS = {
             ],
             "限定當值女僕": [
               "夢川"
+            ],
+            "限定月亮女神": [
+              "天使"
             ]
           },
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -6408,7 +6419,8 @@ window.MAID_ROSTERS = {
             "玄幽": "個人時段：13:00-20:00。",
             "萌え魚": "個人時段：12:00-17:00。",
             "奈雅": "個人時段：12:00-23:00。",
-            "夢川": "個人時段：19:30-23:00。"
+            "夢川": "個人時段：19:30-23:00。",
+            "天使": "個人時段：19:30-23:00。"
           },
           "person_times": {
             "Gigi": "17:00-23:00。",
@@ -6422,8 +6434,12 @@ window.MAID_ROSTERS = {
             "玄幽": "13:00-20:00。",
             "萌え魚": "12:00-17:00。",
             "奈雅": "12:00-23:00。",
-            "夢川": "19:30-23:00。"
-          }
+            "夢川": "19:30-23:00。",
+            "天使": "19:30-23:00。"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5ThBOztfW/"
+          ]
         },
         {
           "date": "2026-10-26",
@@ -10729,6 +10745,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "https://www.instagram.com/mistia_luna/p/DejhyajE3Lz/",
         "person_id": "P0034",
+        "former_handles": []
+      },
+      "天使": {
+        "instagram": "https://www.instagram.com/y._.tenshi_0.2/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/mistia_luna/p/De5ThBOztfW/",
+        "person_id": "",
         "former_handles": []
       }
     },

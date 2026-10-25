@@ -383,6 +383,23 @@ window.MAID_ROSTERS = {
             "呆呆": "18:00-22:00"
           },
           "notes": "個人時段：18:00-22:00"
+        },
+        {
+          "date": "2026-11-13",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定學妹": [
+              "瑤瑤"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/Dev0OkmR9jB/",
+          "person_notes": {
+            "瑤瑤": "個人時段：17:30-22:00"
+          },
+          "person_times": {
+            "瑤瑤": "17:30-22:00"
+          },
+          "notes": "個人時段：17:30-22:00"
         }
       ],
       "unresolved": [

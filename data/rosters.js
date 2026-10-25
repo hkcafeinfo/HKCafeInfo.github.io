@@ -187,10 +187,22 @@ window.MAID_ROSTERS = {
               "YY",
               "小六",
               "斯洛"
+            ],
+            "限定學妹": [
+              "ぴこ"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
+          "event_name": "Halloween活動周",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_academy/p/Dev19eKxj-r/"
+          ],
+          "person_notes": {
+            "ぴこ": "個人時段：18:30-22:00"
+          },
+          "person_times": {
+            "ぴこ": "18:30-22:00"
+          }
         },
         {
           "date": "2026-10-22",
@@ -354,6 +366,23 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/ft1me.act/p/DeZiG1jvEGk/",
           "event_name": "Kiu 女僕五周年紀念活動《修女x悪魔》"
+        },
+        {
+          "date": "2026-11-12",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定學妹": [
+              "呆呆"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/Dev0PyLRfOc/",
+          "person_notes": {
+            "呆呆": "個人時段：18:00-22:00"
+          },
+          "person_times": {
+            "呆呆": "18:00-22:00"
+          },
+          "notes": "個人時段：18:00-22:00"
         }
       ],
       "unresolved": [

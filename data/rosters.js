@@ -11924,14 +11924,14 @@ window.MAID_ROSTERS = {
     },
     {
       "shop": "Maid Academy",
-      "event_name": "Maid Academy Reunion SP 當值日",
+      "event_name": "Maid Academy Reunion SP",
       "image_path": "data/event_images/maid_academy_2026-10-29_reunion.jpg",
       "source": "https://www.instagram.com/p/Den0uSIxweH/",
       "opacity": "0.19"
     },
     {
       "shop": "Maid Clinic",
-      "event_name": "Rinki 誕生祭2026",
+      "event_name": "Rinki生誕當值",
       "image_path": "data/event_images/maid_clinic_2026-10-30_rinki.jpg",
       "source": "https://www.instagram.com/p/DerExwivM0i/",
       "opacity": "0.19"

@@ -179,9 +179,7 @@
     if (selectedDate === "all" || search) element.append(make("div", "card-date", `${date} · ${dateLabel(date).weekday}`));
     if (shift.event_name) element.append(make("div", "event-name", shift.event_name));
     let count = 0;
-    for (const [category, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
-      const categoryGroup = make("section", "role-category");
-      categoryGroup.append(make("h4", "role-category-title", category));
+    for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
       for (const [role, names] of roleGroups) {
       const matched = names.filter((name) => HKCI.displayName(name).toLocaleLowerCase().includes(search));
       if (!matched.length) continue;
@@ -198,9 +196,8 @@
         tags.append(tag);
       }
       group.append(tags);
-      categoryGroup.append(group);
+      element.append(group);
       }
-      if (categoryGroup.querySelector(".role-group")) element.append(categoryGroup);
     }
     if (shift.notes) element.append(make("p", "card-note", shift.notes));
     const foot = make("div", "card-foot");

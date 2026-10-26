@@ -132,9 +132,7 @@
       HKCI.eventArt(data, shop, shift, node);
       if (shift.event_name) node.append(make("strong", "matrix-event-name", shift.event_name));
       let count = 0;
-      for (const [category, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
-        const categoryGroup = make("section", "matrix-role-category");
-        categoryGroup.append(make("strong", "matrix-role-category-title", category));
+      for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
         for (const [role, names] of roleGroups) {
         const people = state.search ? names.filter((name) => HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) : names;
         if (!people.length) continue;
@@ -151,9 +149,8 @@
           tags.append(tag);
         }
         group.append(tags);
-        categoryGroup.append(group);
+        node.append(group);
         }
-        if (categoryGroup.querySelector(".matrix-role")) node.append(categoryGroup);
       }
       if (count) {
         const foot = make("div", "matrix-cell-foot");

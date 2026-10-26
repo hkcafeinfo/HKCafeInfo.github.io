@@ -12440,6 +12440,27 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/mistia_luna_2026-10-25_beyblade.jpg",
       "source": "https://www.instagram.com/mistia_luna/p/DecFh8XT2BS/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Itotsuki Cafe",
+      "event_name": "弦月嘩鬼祭",
+      "image_path": "data/event_images/itotsuki_2026-10-30_31_halloween.jpg",
+      "source": "https://www.instagram.com/itotsuki.cafe/p/Dey64pEz0Ml/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Aurelia Garden",
+      "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行",
+      "image_path": "data/event_images/aurelia_2026-10-30_31_halloween.jpg",
+      "source": "https://www.instagram.com/agarden_2001/p/Dey0wLAvsv3/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Aurelia Garden",
+      "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final",
+      "image_path": "data/event_images/aurelia_2026-10-30_31_halloween.jpg",
+      "source": "https://www.instagram.com/agarden_2001/p/Dey0wLAvsv3/",
+      "opacity": "0.19"
     }
   ]
 };

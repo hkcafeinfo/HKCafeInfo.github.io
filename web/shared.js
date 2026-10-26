@@ -153,9 +153,14 @@
   }
   function shopIntro(shop) {
     const card = document.createElement("article"); card.className = "shop-intro";
-    const title = document.createElement("h3"); title.textContent = shop.shop;
     if (shop.profile_image) { const img = document.createElement("img"); img.src = shop.profile_image; img.alt = ""; img.className = "shop-profile-photo"; img.loading = "lazy"; card.append(img); }
-    card.append(title);
+    const title = document.createElement("h3"); title.textContent = shop.shop; card.append(title);
+    const profileUrl = instagram(shop.profile);
+    if (profileUrl) {
+      const account = document.createElement("a"); account.className = "shop-intro-ig"; account.href = profileUrl;
+      account.textContent = handle(profileUrl); account.target = "_blank"; account.rel = "noopener noreferrer"; card.append(account);
+    }
+    const address = document.createElement("p"); address.className = "shop-intro-address"; address.textContent = shop.address || "地址待確認"; card.append(address);
     const heading = document.createElement("h4"); heading.textContent = "營業時間"; card.append(heading);
     const hours = document.createElement("dl"); hours.className = "opening-hours";
     for (const line of (shop.opening_hours || "").split("\n").filter(Boolean)) {
@@ -167,13 +172,13 @@
     if (hours.childElementCount) card.append(hours);
     else { const pending = document.createElement("p"); pending.className = "hours-pending"; pending.textContent = "常規營業時間待確認，請查看店舖公告。"; card.append(pending); }
     if (shop.notice) { const note = document.createElement("p"); note.className = "shop-intro-note"; note.textContent = shop.notice; card.append(note); }
-    const address = document.createElement("p"); address.className = "shop-intro-address"; address.textContent = shop.address || "地址待確認"; card.append(address);
-    const links = document.createElement("div"); links.className = "shop-intro-links";
-    for (const [url, label] of [[instagram(shop.profile), "Instagram ↗"], [instagram(shop.opening_hours_source), "營業時間來源 ↗"]]) {
-      if (!url) continue;
-      const a = document.createElement("a"); a.href = url; a.textContent = label; a.target = "_blank"; a.rel = "noopener noreferrer"; links.append(a);
+    const sourceUrl = instagram(shop.opening_hours_source);
+    if (sourceUrl) {
+      const footer = document.createElement("div"); footer.className = "shop-intro-source";
+      const source = document.createElement("a"); source.href = sourceUrl; source.textContent = "來源 ↗";
+      source.target = "_blank"; source.rel = "noopener noreferrer"; footer.append(source); card.append(footer);
     }
-    card.append(links); return card;
+    return card;
   }
   window.HKCI = { shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
 })();

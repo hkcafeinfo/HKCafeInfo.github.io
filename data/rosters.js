@@ -570,6 +570,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "reason": "Haruka Book 訂場活動；週更表未列活動嘉賓與常規當值名單，需查獨立活動帖。",
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/"
+        },
+        {
+          "date": "2026-11-14",
+          "reason": "兩則限定學妹公告出現不同姓名／時段：DeuXTldTWIo列小扇17:00-22:00，De1A-4BzkKW列小萌17:30-22:00；DeuXTldTWIo caption 無文字，貼文原圖未能從一般瀏覽器保存，故保留現有兩列待核，不能判定是否更正或兩人皆到。",
+          "source": "https://www.instagram.com/maid_academy/p/DeuXTldTWIo/ | https://www.instagram.com/maid_academy/p/De1A-4BzkKW/"
         }
       ]
     },
@@ -1374,14 +1379,13 @@ window.MAID_ROSTERS = {
               "Toto",
               "安晚",
               "梓叔",
-              "篠原紗縁",
               "紗璉"
             ]
           },
-          "source": "https://www.instagram.com/un.cle_/p/DeWtZTnAW_l/",
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "梓叔入院一週年·スイーツ天国",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+            "https://www.instagram.com/un.cle_/p/DeWtZTnAW_l/"
           ],
           "person_notes": {
             "Ina": "個人時段：18:00-23:00；個別時段按活動帖。",
@@ -1389,7 +1393,6 @@ window.MAID_ROSTERS = {
             "Toto": "個人時段：18:00-01:30；個別時段按活動帖。",
             "安晚": "個人時段：19:00-01:30；個別時段按活動帖。",
             "梓叔": "個人時段：18:00-01:30；個別時段按活動帖。",
-            "篠原紗縁": "個人時段：18:00-23:00；個別時段按活動帖。",
             "紗璉": "個人時段：18:00-01:30；個別時段按活動帖。"
           },
           "person_times": {
@@ -1398,7 +1401,6 @@ window.MAID_ROSTERS = {
             "Toto": "18:00-01:30",
             "安晚": "19:00-01:30",
             "梓叔": "18:00-01:30",
-            "篠原紗縁": "18:00-23:00",
             "紗璉": "18:00-01:30"
           }
         },
@@ -2962,14 +2964,31 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-24:00",
+          "groups": {
+            "當值": [
+              "小犬",
+              "Kira",
+              "Miyabi",
+              "卡咩",
+              "早早",
+              "Neneko",
+              "淺",
+              "hani"
+            ],
+            "一日限定": [
+              "栗米",
+              "Yuna"
+            ]
+          },
+          "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
+          "event_name": "Girls Bar ドキ💓プラネット Halloween篇"
         }
       ],
       "unresolved": [
-        {
-          "date": "2026-10-30",
-          "reason": "10/30 Girls bar ドキ🎃プラネット活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
-          "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
-        },
         {
           "date": "2026-11-06",
           "reason": "11/6 MIA 女僕周年活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
@@ -3252,37 +3271,6 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
         },
         {
-          "date": "2026-10-31",
-          "hours": "17:00-23:00",
-          "groups": {
-            "活動嘉賓": [
-              "Gumi",
-              "Midorinn",
-              "Mii",
-              "Yorumi",
-              "つゆめ",
-              "日和",
-              "朱朱"
-            ],
-            "魔域管理員": [
-              "晴晴"
-            ]
-          },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/De1Y_JaOvwj/",
-          "event_name": "小悪魔?!鬼新娘～結婚式",
-          "person_notes": {
-            "Gumi": "按店方週末公開營業時間；個人時段未另行列明。",
-            "Midorinn": "按店方週末公開營業時間；個人時段未另行列明。",
-            "Mii": "按店方週末公開營業時間；個人時段未另行列明。",
-            "Yorumi": "按店方週末公開營業時間；個人時段未另行列明。",
-            "つゆめ": "按店方週末公開營業時間；個人時段未另行列明。",
-            "日和": "按店方週末公開營業時間；個人時段未另行列明。",
-            "朱朱": "按店方週末公開營業時間；個人時段未另行列明。",
-            "晴晴": "按店方週末公開營業時間；個人時段未另行列明。"
-          },
-          "notes": "按店方週末公開營業時間；個人時段未另行列明。"
-        },
-        {
           "date": "2026-11-01",
           "hours": "17:00-23:00",
           "groups": {
@@ -3308,6 +3296,138 @@ window.MAID_ROSTERS = {
             "詩弦": "包場活動。"
           },
           "notes": "包場活動。"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "璧璧",
+              "小廻",
+              "周瑜",
+              "Yorumi",
+              "Anzu",
+              "Yuzuki",
+              "黛柔"
+            ],
+            "魔域管理員": [
+              "小椿"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "黛柔",
+              "杏杏",
+              "卡路里",
+              "阿逸",
+              "Beru"
+            ],
+            "魔域管理員": [
+              "晴晴"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "Kuri",
+              "Fuyo",
+              "茶鬼",
+              "Yuka",
+              "七七",
+              "Yunai",
+              "蜻蜓",
+              "小欣"
+            ],
+            "魔域管理員": [
+              "小椿"
+            ],
+            "限定女僕": [
+              "奶糖"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/De9wT_myybb/"
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "朱朱",
+              "416",
+              "もえね",
+              "小欣",
+              "阿流",
+              "Anzu",
+              "Mori"
+            ],
+            "魔域管理員": [
+              "晴晴"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "奶茶",
+              "霍霍",
+              "璧璧",
+              "卡路里",
+              "Beru"
+            ],
+            "魔域管理員": [
+              "小欣"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "17:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "朱朱",
+              "もえね",
+              "Gumi",
+              "Yorumi",
+              "Mii",
+              "日和",
+              "Midorinn"
+            ],
+            "魔域管理員": [
+              "晴晴"
+            ]
+          },
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "小悪魔?!鬼新娘～結婚式",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/De1Y_JaOvwj/"
+          ],
+          "person_notes": {
+            "朱朱": "按店方週末公開營業時間；個人時段未另行列明。",
+            "もえね": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Gumi": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Yorumi": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Mii": "按店方週末公開營業時間；個人時段未另行列明。",
+            "日和": "按店方週末公開營業時間；個人時段未另行列明。",
+            "Midorinn": "按店方週末公開營業時間；個人時段未另行列明。",
+            "晴晴": "按店方週末公開營業時間；個人時段未另行列明。"
+          },
+          "notes": "按店方週末公開營業時間；個人時段未另行列明。"
         }
       ]
     },
@@ -4091,36 +4211,35 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "當值執事": [
-              "Shu"
+              "Sui",
+              "霜",
+              "Haruna",
+              "Heymeow",
+              "94"
             ]
           },
-          "source": "https://www.instagram.com/stories/highlights/18111337829272821/",
+          "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
           "event_name": "萬聖節執事特別活動",
-          "person_notes": {
-            "Shu": "個人時段：17:00-22:00"
-          },
-          "person_times": {
-            "Shu": "17:00-22:00"
-          },
-          "notes": "個人時段：17:00-22:00"
+          "alternate_sources": [
+            "https://www.instagram.com/stories/highlights/18111337829272821/"
+          ]
         },
         {
           "date": "2026-11-01",
           "hours": "17:00-22:00",
           "groups": {
             "當值執事": [
-              "Shu"
+              "亞希",
+              "夜宵",
+              "しの",
+              "Heymeow"
             ]
           },
-          "source": "https://www.instagram.com/stories/highlights/18111337829272821/",
+          "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
           "event_name": "萬聖節執事特別活動",
-          "person_notes": {
-            "Shu": "個人時段：17:00-22:00"
-          },
-          "person_times": {
-            "Shu": "17:00-22:00"
-          },
-          "notes": "個人時段：17:00-22:00"
+          "alternate_sources": [
+            "https://www.instagram.com/stories/highlights/18111337829272821/"
+          ]
         }
       ]
     },

@@ -12475,6 +12475,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/maid_planet_2026-10-30_girls_bar.jpg",
       "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Dear Devil",
+      "event_name": "小悪魔?!鬼新娘～結婚式",
+      "image_path": "data/event_images/dear_devil_2026-10-31_ghost_bride.jpg",
+      "source": "https://www.instagram.com/deardevil_maid.butler/p/De1Y_JaOvwj/",
+      "opacity": "0.19"
     }
   ]
 };

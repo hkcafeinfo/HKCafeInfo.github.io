@@ -492,6 +492,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "reason": "Haruka Book 訂場活動；週更表未列活動嘉賓與常規當值名單，需查獨立活動帖。",
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "最新週表列「小牛2026生蛋」訂場活動並指向宣傳海報；尚未核實海報是否列出活動名單，不能推測當值人員。",
+          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
         }
       ]
     },
@@ -6186,10 +6191,6 @@ window.MAID_ROSTERS = {
               "Rina",
               "Sinyu",
               "Yuzuha"
-            ],
-            "限定天使": [
-              "Ayane",
-              "Stellar"
             ]
           },
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -6198,9 +6199,7 @@ window.MAID_ROSTERS = {
             "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Rina": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Ayane": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Stellar": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+            "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         }

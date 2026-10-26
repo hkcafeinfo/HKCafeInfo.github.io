@@ -11375,9 +11375,39 @@ window.MAID_ROSTERS = {
         "former_handles": []
       },
       "月牙": {
-        "instagram": "https://www.instagram.com/woofwoof_1129/",
+        "instagram": "https://www.instagram.com/crescent_1129/",
         "profile_image": "",
-        "source": "https://www.instagram.com/maid.kaizokuhouse/p/DdtfBwAT4vN/",
+        "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+        "person_id": "",
+        "former_handles": [
+          "woofwoof_1129"
+        ]
+      },
+      "Amy": {
+        "instagram": "https://www.instagram.com/1iccc_lke/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+        "person_id": "",
+        "former_handles": []
+      },
+      "Serena": {
+        "instagram": "https://www.instagram.com/serena_a.219/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+        "person_id": "",
+        "former_handles": []
+      },
+      "浠浠": {
+        "instagram": "https://www.instagram.com/qq._.missssa/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+        "person_id": "",
+        "former_handles": []
+      },
+      "茶茶": {
+        "instagram": "https://www.instagram.com/jianakwok_/",
+        "profile_image": "",
+        "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
         "person_id": "",
         "former_handles": []
       }

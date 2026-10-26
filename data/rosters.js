@@ -6321,6 +6321,9 @@ window.MAID_ROSTERS = {
             "Kirari": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "呱呱": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
+          "alternate_sources": [
+            "https://www.instagram.com/maid_minori/p/Deh9R56z5vB/"
+          ],
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         },
         {
@@ -6377,6 +6380,9 @@ window.MAID_ROSTERS = {
             "Kori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "水獺": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
+          "alternate_sources": [
+            "https://www.instagram.com/maid_minori/p/Deh9m15zN9j/"
+          ],
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         },
         {
@@ -6406,6 +6412,9 @@ window.MAID_ROSTERS = {
             "香取": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
+          "alternate_sources": [
+            "https://www.instagram.com/maid_minori/p/Deh9u9EzIPm/"
+          ],
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         },
         {
@@ -6433,6 +6442,9 @@ window.MAID_ROSTERS = {
             "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
+          "alternate_sources": [
+            "https://www.instagram.com/maid_minori/p/Deh91Z7zFWk/"
+          ],
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         },
         {
@@ -6462,6 +6474,9 @@ window.MAID_ROSTERS = {
             "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
+          "alternate_sources": [
+            "https://www.instagram.com/maid_minori/p/Deh977Pz8w6/"
+          ],
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
         },
         {

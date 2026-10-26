@@ -452,7 +452,6 @@ window.MAID_ROSTERS = {
               "小六"
             ],
             "女僕研習生": [
-              "Yoku",
               "Snow"
             ]
           },
@@ -472,10 +471,10 @@ window.MAID_ROSTERS = {
               "Mahiru",
               "小六",
               "Hime",
-              "YY"
+              "YY",
+              "悠悠"
             ],
             "女僕研習生": [
-              "悠悠",
               "Piko"
             ]
           },

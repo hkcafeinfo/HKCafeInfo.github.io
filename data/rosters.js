@@ -12519,6 +12519,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/cosplace_2026-10-31_11-01_blood_banquet.jpg",
       "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Kaizoku House",
+      "event_name": "受傷的AV女優",
+      "image_path": "data/event_images/kaizoku_2026-10-31_injured_av_idols.webp",
+      "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+      "opacity": "0.19"
     }
   ]
 };

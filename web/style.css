@@ -67,7 +67,7 @@
 .person-search-profile{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #e8ecf3}.person-search-profile strong{font-size:14px;color:#3d4b64}.person-search-profile .person-photo,.person-search-profile .person-photo-placeholder{width:38px;height:38px}
 
 /* Shared cafe, person and closure presentation. */
-.shop-ig{display:block;font-size:10px;line-height:1.1;margin-top:-2px;color:#7180c7;text-decoration:none;overflow-wrap:anywhere}
+.shop-ig{display:block;font-size:10px;color:#7180c7;text-decoration:none;overflow-wrap:anywhere}
 .shop-ig:hover,.people-ig:hover{text-decoration:underline}
 .shop-address{display:block;color:#9aa4b3;font-size:10px;line-height:1.4;overflow-wrap:anywhere}
 .person-tag,.matrix-person{border:0;cursor:pointer;font-family:inherit}
@@ -226,13 +226,13 @@
 .shop-directory{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:20px;align-items:start}
 .shop-intro{padding:24px;border:1px solid #e1e5ec;border-radius:16px;background:#fff;min-width:0}
 .shop-intro>.shop-profile-photo{width:48px;height:48px;float:right;margin:0 0 12px 12px;border-radius:12px}
-.shop-intro h3{font-size:20px;line-height:1.5;margin:0 0 4px;color:#344157;overflow-wrap:anywhere}
+.shop-intro h3{font-size:20px;line-height:1.5;margin:0;color:#344157;overflow-wrap:anywhere}
 .shop-intro h4{font-size:13px;margin:0 0 2px;color:#344157}
 .opening-hours{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 16px;margin:0;font-size:14px;line-height:1.7;clear:both}
 .opening-hours dt{color:#59677c}.opening-hours dd{margin:0;font-variant-numeric:tabular-nums;color:#344157;white-space:nowrap}
 .shop-intro-note,.hours-pending{font-size:13px;color:#6c7180;line-height:1.8;margin:12px 0}
 .shop-intro-address{border:0;padding:0;margin:8px 0 10px;font-size:14px;line-height:1.8;color:#59677c}
-.shop-intro-ig{display:inline-flex;align-items:center;min-height:28px;color:#5365a5;font-size:13px;text-underline-offset:4px}.shop-intro-source{display:flex;justify-content:flex-end;margin-top:14px}.shop-intro-source a{min-height:32px;display:flex;align-items:center;color:#5365a5;font-size:12px;text-underline-offset:4px}
+.shop-intro-ig{display:inline-flex;align-items:flex-start;min-height:28px;color:#5365a5;font-size:13px;text-underline-offset:4px}.shop-intro-source{display:flex;justify-content:flex-end;margin-top:14px}.shop-intro-source a{min-height:32px;display:flex;align-items:center;color:#5365a5;font-size:12px;text-underline-offset:4px}
 @media(max-width:900px){.content-main .view-controls{grid-template-columns:1fr auto}.global-search{grid-column:1/-1;grid-row:2}.view-switch{justify-self:end}.view-button{padding:10px 12px}}
 @media(max-width:700px){
   .content-layout{margin:0 16px}.content-main .view-controls{grid-template-columns:1fr;gap:12px}.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}.view-button{flex:1;padding:10px 6px;font-size:13px}.global-search{grid-row:2;grid-column:1;min-height:46px}.sidebar-toggle{grid-row:3;justify-self:start}

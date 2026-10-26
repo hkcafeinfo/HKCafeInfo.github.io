@@ -102,6 +102,12 @@
     }
     return { shownDates, shops };
   }
+  function shopHours(shop) {
+    const hours = make("div", "matrix-opening-hours");
+    hours.append(make("span", "hours-heading", "營業時間"));
+    for (const line of (shop.opening_hours || "常規營業時間待確認").split("\n")) hours.append(make("span", "hours-line", line));
+    return hours;
+  }
   function rowHead(label, subtitle, profile, photo, shop) {
     const node = make("div", "matrix-rowhead");
     node.setAttribute("role", "rowheader");
@@ -112,7 +118,7 @@
     node.append(title);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
     node.append(make("span", "rowhead-subtitle", subtitle));
-    if (shop) node.append(HKCI.shopInfoButton(shop));
+    if (shop) node.append(shopHours(shop));
     return node;
   }
   function columnHead(label, subtitle, active, photo, profile, shop) {
@@ -123,7 +129,7 @@
     const url = HKCI.instagram(profile);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
     node.append(make("span", null, subtitle));
-    if (shop) node.append(HKCI.shopInfoButton(shop));
+    if (shop) node.append(shopHours(shop));
     return node;
   }
   function cell(shop, date) {

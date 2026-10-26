@@ -169,7 +169,7 @@
       title.append(photo);
     } else title.append(make("span", `shop-icon ${shop.shop.toLowerCase().replace(/[^a-z]+/g, "-")}`, iconText[shop.shop] || "✦"));
     const titleText = make("div");
-    titleText.append(make("h3", "shop-name", shop.shop), HKCI.shopInfoButton(shop));
+    titleText.append(make("h3", "shop-name", shop.shop));
     const shopUrl = HKCI.instagram(shop.profile);
     if (shopUrl) { const ig = make("a", "shop-ig", HKCI.handle(shopUrl)); ig.href = shopUrl; ig.target = "_blank"; ig.rel = "noopener noreferrer"; titleText.append(ig); }
     if (shop.address) titleText.append(make("small", "shop-address", shop.address));
@@ -359,19 +359,12 @@
   function renderShops() {
     const query = $("shop-search").value.trim().toLocaleLowerCase();
     const shops = data.shops.filter(shop => `${shop.shop} ${shop.address || ""}`.toLocaleLowerCase().includes(query));
+    $("shops-count").textContent = query ? `${shops.length} / ${data.shops.length} 間店舖` : `全部 ${data.shops.length} 間店舖`;
     $("shop-directory").replaceChildren(...shops.map(shop => HKCI.shopIntro(shop)));
     if (!shops.length) $("shop-directory").append(make("p", "shops-help", "搵唔到符合嘅店舖，試下其他店名或地址。"));
   }
   $("shop-search").addEventListener("input", renderShops);
   renderShops();
-  const shopDialog = $("shop-dialog");
-  $("close-shop-dialog").addEventListener("click", () => shopDialog.close());
-  shopDialog.addEventListener("click", event => { if (event.target === shopDialog) { const r = shopDialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) shopDialog.close(); } });
-  window.addEventListener("hkcafeinfo:shop", event => {
-    $("shop-dialog-content").replaceChildren(HKCI.shopIntro(event.detail));
-    $("shop-dialog-title").textContent = event.detail.shop;
-    shopDialog.showModal();
-  });
   $("export-feedback").addEventListener("click", HKCI.exportFeedback);
   window.addEventListener("hkcafeinfo:person", () => { returnView = document.body.dataset.view || "matrix"; search = ""; nodes.search.value = ""; savePage("matrix"); showView("matrix"); });
   window.addEventListener("hkcafeinfo:return-person", () => chooseView(returnView));

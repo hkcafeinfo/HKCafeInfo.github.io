@@ -3317,7 +3317,6 @@ window.MAID_ROSTERS = {
       "profile": "https://www.instagram.com/maid_baberucafe/",
       "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
       "source_type": "pending_review",
-      "notice": "只逢週六、日營業（13:00–20:00）；平日休息。",
       "address": "太子大南街98號",
       "address_source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
       "profile_image": "data/profile_images/shops/maid_baberucafe.jpg",
@@ -5868,7 +5867,6 @@ window.MAID_ROSTERS = {
       "profile": "https://www.instagram.com/maid_minori/",
       "source": "https://www.instagram.com/maid_minori/",
       "source_type": "pending_review",
-      "notice": "星期一休息；星期二至五 17:00–22:00，星期六、日 15:00–22:00。",
       "address": "太子道西150–152號太子商業大廈1304室",
       "address_source": "https://www.instagram.com/maid_minori/",
       "profile_image": "data/profile_images/shops/maid_minori.jpg",
@@ -11987,7 +11985,7 @@ window.MAID_ROSTERS = {
       "shop": "Maid Academy",
       "event_name": "Maid Academy Reunion SP",
       "image_path": "data/event_images/maid_academy_2026-10-29_reunion.jpg",
-      "source": "https://www.instagram.com/p/Den0uSIxweH/",
+      "source": "https://www.instagram.com/p/Dexlwo4H6G3/",
       "opacity": "0.19"
     },
     {
@@ -11995,6 +11993,20 @@ window.MAID_ROSTERS = {
       "event_name": "Rinki生誕當值",
       "image_path": "data/event_images/maid_clinic_2026-10-30_rinki.jpg",
       "source": "https://www.instagram.com/p/DerExwivM0i/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Clinic",
+      "event_name": "Rubi生誕當值",
+      "image_path": "data/event_images/maid_clinic_2026-11-01_rubi.jpg",
+      "source": "https://www.instagram.com/p/De4UBd3Nb90/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Academy",
+      "event_name": "Pink Eclipse 2026 生誕祭",
+      "image_path": "data/event_images/maid_academy_2026-11-08_pink_eclipse.jpg",
+      "source": "https://www.instagram.com/p/De1ompxyJtv/",
       "opacity": "0.19"
     },
     {

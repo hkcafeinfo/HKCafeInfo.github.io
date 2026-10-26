@@ -151,13 +151,6 @@
     const link = document.createElement("a"); link.href = url; link.download = "人物資料待審回報.csv"; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
-  function shopInfoButton(shop) {
-    const button = document.createElement("button");
-    button.type = "button"; button.className = "shop-info-button";
-    button.textContent = "店舖資料"; button.setAttribute("aria-label", `${shop.shop}：營業時間及店舖資料`);
-    button.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:shop", { detail: shop })));
-    return button;
-  }
   function shopIntro(shop) {
     const card = document.createElement("article"); card.className = "shop-intro";
     const title = document.createElement("h3"); title.textContent = shop.shop;
@@ -182,5 +175,5 @@
     }
     card.append(links); return card;
   }
-  window.HKCI = { shopInfoButton, shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
+  window.HKCI = { shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
 })();

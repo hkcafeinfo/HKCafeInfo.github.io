@@ -12482,6 +12482,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/dear_devil_2026-10-31_ghost_bride.jpg",
       "source": "https://www.instagram.com/deardevil_maid.butler/p/De1Y_JaOvwj/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "CosPlace Café",
+      "event_name": "萬聖節執事特別活動",
+      "image_path": "data/event_images/cosplace_2026-10-31_11-01_blood_banquet.jpg",
+      "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
+      "opacity": "0.19"
     }
   ]
 };

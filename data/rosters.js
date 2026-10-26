@@ -5977,6 +5977,109 @@ window.MAID_ROSTERS = {
           "person_times": {
             "Soya": "18:30-21:30"
           }
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "千鈴",
+              "いせ"
+            ],
+            "試工女僕": [
+              "Mao"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "貓神",
+              "藍南",
+              "櫻染"
+            ],
+            "試工女僕": [
+              "Maru"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "一日限定表演者": [
+              "Cream&Miruku"
+            ],
+            "女僕": [
+              "千鈴",
+              "月璃"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "女僕": [
+              "優奈",
+              "Lula",
+              "月璃",
+              "櫻染"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "一日限定表演者": [
+              "小鈴"
+            ],
+            "女僕": [
+              "藍南",
+              "Kola"
+            ],
+            "試工女僕": [
+              "安"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "15:00-22:00",
+          "groups": {
+            "一日限定表演者": [
+              "Shizuru"
+            ],
+            "女僕": [
+              "貓神",
+              "ジル"
+            ],
+            "試工女僕": [
+              "Maru"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        }
+      ],
+      "unresolved": [
+        {
+          "date": "2026-11-01",
+          "reason": "最新更表同一來源同時列出「31 Oct (Sat)」及另一組「31 Oct (Sun)」名單，日期／星期標示衝突；本次只按明確的31 Oct Saturday組別記錄，Sunday組別未推定為11月1日，待店方澄清或後續明確來源。",
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
         }
       ]
     },

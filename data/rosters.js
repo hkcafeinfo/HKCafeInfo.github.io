@@ -12433,6 +12433,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/maid_academy_2026-10-30_cow.jpg",
       "source": "https://www.instagram.com/p/De6NUqCRMqj/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Mistia Luna",
+      "event_name": "陀螺盃／萬聖節event",
+      "image_path": "data/event_images/mistia_luna_2026-10-25_beyblade.jpg",
+      "source": "https://www.instagram.com/mistia_luna/p/DecFh8XT2BS/",
+      "opacity": "0.19"
     }
   ]
 };

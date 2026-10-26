@@ -497,6 +497,70 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
           "event_name": "Halloween活動周"
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "17:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "Cyan",
+              "一夕",
+              "Itsu",
+              "Koma",
+              "Roro",
+              "Yako",
+              "Rue",
+              "Shimo",
+              "靈兒"
+            ]
+          },
+          "source": "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/",
+          "event_name": "Pink Eclipse 2026 生誕祭",
+          "person_notes": {
+            "Cyan": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "一夕": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "Itsu": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "Koma": "個人時段：17:00-20:00；按活動上／下部Guest名單。",
+            "Roro": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "Yako": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
+            "Rue": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
+            "Shimo": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
+            "靈兒": "個人時段：20:00-23:00；按活動上／下部Guest名單。"
+          },
+          "person_times": {
+            "Cyan": "17:00-23:00",
+            "一夕": "17:00-23:00",
+            "Itsu": "17:00-23:00",
+            "Koma": "17:00-20:00",
+            "Roro": "17:00-23:00",
+            "Yako": "20:00-23:00",
+            "Rue": "20:00-23:00",
+            "Shimo": "20:00-23:00",
+            "靈兒": "20:00-23:00"
+          }
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "小小牛",
+              "奶糖",
+              "霧切 きり",
+              "星奈",
+              "桐桐",
+              "Sakura",
+              "小西",
+              "佩佩",
+              "津津",
+              "貓貓"
+            ]
+          },
+          "source": "https://www.instagram.com/p/De6NUqCRMqj/",
+          "event_name": "小小牛2026生蛋",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
+          ]
         }
       ],
       "unresolved": [
@@ -504,11 +568,6 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "reason": "Haruka Book 訂場活動；週更表未列活動嘉賓與常規當值名單，需查獨立活動帖。",
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/"
-        },
-        {
-          "date": "2026-10-30",
-          "reason": "最新週表列「小牛2026生蛋」訂場活動並指向宣傳海報；尚未核實海報是否列出活動名單，不能推測當值人員。",
-          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
         }
       ]
     },
@@ -12057,6 +12116,13 @@ window.MAID_ROSTERS = {
       "event_name": "Yuzu Birthday Party",
       "image_path": "data/event_images/maid_clinic_2026-10-24_yuzu.jpg",
       "source": "https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Academy",
+      "event_name": "小小牛2026生蛋",
+      "image_path": "data/event_images/maid_academy_2026-10-30_cow.jpg",
+      "source": "https://www.instagram.com/p/De6NUqCRMqj/",
       "opacity": "0.19"
     }
   ]

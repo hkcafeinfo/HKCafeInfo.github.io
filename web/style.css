@@ -67,7 +67,7 @@
 .person-search-profile{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #e8ecf3}.person-search-profile strong{font-size:14px;color:#3d4b64}.person-search-profile .person-photo,.person-search-profile .person-photo-placeholder{width:38px;height:38px}
 
 /* Shared cafe, person and closure presentation. */
-.shop-ig{display:block;font-size:10px;color:#7180c7;text-decoration:none;overflow-wrap:anywhere}
+.shop-ig{display:block;font-size:10px;line-height:1.1;margin-top:-2px;color:#7180c7;text-decoration:none;overflow-wrap:anywhere}
 .shop-ig:hover,.people-ig:hover{text-decoration:underline}
 .shop-address{display:block;color:#9aa4b3;font-size:10px;line-height:1.4;overflow-wrap:anywhere}
 .person-tag,.matrix-person{border:0;cursor:pointer;font-family:inherit}

@@ -12468,6 +12468,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/kaizoku_2026-10-30_ghost_bride.webp",
       "source": "https://www.instagram.com/infinitedreams.project_8/p/De1Q3GoKOXG/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Planet",
+      "event_name": "Girls Bar ドキ💓プラネット Halloween篇",
+      "image_path": "data/event_images/maid_planet_2026-10-30_girls_bar.jpg",
+      "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
+      "opacity": "0.19"
     }
   ]
 };

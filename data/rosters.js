@@ -12461,6 +12461,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/aurelia_2026-10-30_31_halloween.jpg",
       "source": "https://www.instagram.com/agarden_2001/p/Dey0wLAvsv3/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Kaizoku House",
+      "event_name": "純情女鬼萬聖夜",
+      "image_path": "data/event_images/kaizoku_2026-10-30_ghost_bride.webp",
+      "source": "https://www.instagram.com/infinitedreams.project_8/p/De1Q3GoKOXG/",
+      "opacity": "0.19"
     }
   ]
 };

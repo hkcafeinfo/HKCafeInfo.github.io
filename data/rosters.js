@@ -1,4 +1,4 @@
-// 由 data/*.csv 產生；修改資料後請執行 python3 產生每日更表.py
+// 由 data/*.csv 產生；修改資料後請執行 python3 tools/產生每日更表.py
 window.MAID_ROSTERS = {
   "checked_at": "2026-10-25",
   "timezone": "Asia/Hong_Kong",

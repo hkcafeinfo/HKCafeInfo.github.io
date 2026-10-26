@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>HKCafeInfo · 香港女僕咖啡店更表</title>
-  <link rel="stylesheet" href="web/style.css?v=20261026-role-order-only">
+  <link rel="stylesheet" href="web/style.css?v=20261026-cafe-info">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-  <script src="data/rosters.js?v=bc71935a057763ab" defer></script>
-  <script src="web/shared.js?v=20261026-role-categories-2" defer></script>
-  <script src="web/app.js?v=20261026-role-order-only" defer></script>
-  <script src="web/matrix.js?v=20261026-role-order-only" defer></script>
+  <script src="data/rosters.js?v=f2e267a4ac69e57b" defer></script>
+  <script src="web/shared.js?v=20261026-cafe-info" defer></script>
+  <script src="web/app.js?v=20261026-cafe-info" defer></script>
+  <script src="web/matrix.js?v=20261026-cafe-info" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -54,7 +54,7 @@
       <div class="view-controls">
         <button id="toggle-cafe-sidebar" class="sidebar-toggle" type="button" aria-controls="cafe-sidebar" aria-expanded="false">☰ 店舖顯示 <span id="sidebar-toggle-count"></span></button>
         <label class="field search-field global-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋人名及近期當值</span><input id="name-search" type="search" placeholder="搜尋人名，查看所有已收錄當值…" autocomplete="off"></label>
-        <div class="view-switch" role="group" aria-label="選擇顯示方式"><button id="show-cards" type="button" class="view-button" aria-pressed="false">卡片</button><button id="show-matrix" type="button" class="view-button active" aria-pressed="true">列表</button><button id="show-people" type="button" class="view-button" aria-pressed="false">女僕</button></div>
+        <div class="view-switch" role="group" aria-label="選擇顯示方式"><button id="show-cards" type="button" class="view-button" aria-pressed="false">卡片</button><button id="show-matrix" type="button" class="view-button active" aria-pressed="true">列表</button><button id="show-people" type="button" class="view-button" aria-pressed="false">女僕</button><button id="show-shops" type="button" class="view-button" aria-pressed="false">店舖資料</button></div>
       </div>
 
       <section class="roster-section" id="card-view" aria-labelledby="roster-heading">
@@ -65,6 +65,13 @@
           <button type="button" class="date-scroll-button date-scroll-next" id="date-scroll-next" aria-label="向右捲動日期" title="向右捲動" hidden>›</button>
         </div>
         <div class="roster-grid" id="roster-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="shops-section" id="shops-view" aria-labelledby="shops-heading" hidden>
+        <div class="section-topline"><h2 id="shops-heading">店舖資料</h2><span class="result-count">全部 20 間店舖</span></div>
+        <p class="shops-help">營業時間以店舖公告為準；特別活動及公眾假期可能另有安排。</p>
+        <label class="field shop-search"><span class="sr-only">搜尋店名或地址</span><input id="shop-search" type="search" placeholder="搜尋店名或地址…"></label>
+        <div id="shop-directory" class="shop-directory"></div>
       </section>
 
       <section class="people-section" id="people-view" aria-labelledby="people-heading" hidden>
@@ -88,5 +95,6 @@
     </main>
     <footer><span>HKCafeInfo</span><span id="footer-version">資料版本載入中…</span></footer>
   </div>
+  <dialog id="shop-dialog" aria-labelledby="shop-dialog-title"><div class="shop-dialog-bar"><strong id="shop-dialog-title">店舖資料</strong><button type="button" id="close-shop-dialog" aria-label="關閉店舖資料">✕</button></div><div id="shop-dialog-content"></div></dialog>
 </body>
 </html>

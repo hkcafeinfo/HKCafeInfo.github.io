@@ -11,6 +11,9 @@ window.MAID_ROSTERS = {
       "address": "旺角通菜街8號1樓",
       "address_source": "https://www.instagram.com/maid_academy/",
       "profile_image": "data/profile_images/shops/maid_academy.jpg",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 17:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -429,7 +432,7 @@ window.MAID_ROSTERS = {
           },
           "person_times": {
             "小扇": "17:00-22:00",
-            "小萌": "17:30-22:00。"
+            "小萌": "17:30-22:00"
           },
           "alternate_sources": [
             "https://www.instagram.com/maid_academy/p/De1A-4BzkKW/"
@@ -579,6 +582,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街88號聯興大廈10樓88室",
       "address_source": "https://www.instagram.com/maid_clinic/",
       "profile_image": "data/profile_images/shops/maid_clinic.jpg",
+      "opening_hours": "星期一至四 17:00–22:00\n星期五 17:00–23:00\n星期六、日及公眾假期 15:00–23:00",
+      "opening_hours_source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -1079,6 +1085,9 @@ window.MAID_ROSTERS = {
       "address": "旺角登打士街43號登打士廣場2105–2106室",
       "address_source": "https://www.instagram.com/elysium.cafe21/",
       "profile_image": "data/profile_images/shops/elysium.jpg",
+      "opening_hours": "星期日至四 18:00–次日00:30\n星期五、六及公眾假期前夕 18:00–次日01:30",
+      "opening_hours_source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -1574,6 +1583,9 @@ window.MAID_ROSTERS = {
       "address": "旺角好望角大廈20樓2001室",
       "address_source": "https://www.instagram.com/agarden_2001/",
       "profile_image": "data/profile_images/shops/agarden_2001.jpg",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日 15:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/agarden_2001/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -2249,6 +2261,9 @@ window.MAID_ROSTERS = {
       "address": "旺角黑布街96–102號威發大廈2樓B室",
       "address_source": "https://www.instagram.com/maidollmirage/",
       "profile_image": "data/profile_images/shops/maidollmirage.jpg",
+      "opening_hours": "星期一至五 17:00–21:30\n星期六、日 14:00–21:30",
+      "opening_hours_source": "https://www.instagram.com/maidollmirage/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -2627,6 +2642,9 @@ window.MAID_ROSTERS = {
       "address": "旺角豉油街24–26號福泰大廈11樓",
       "address_source": "https://www.instagram.com/cafemaidplanet/",
       "profile_image": "data/profile_images/shops/cafemaidplanet.jpg",
+      "opening_hours": "星期一 休息\n星期二至日 15:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/cafemaidplanet/p/Dejg5_phALk/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [
         1
@@ -2968,6 +2986,9 @@ window.MAID_ROSTERS = {
       "address": "旺角彌敦道646號陶德大廈3樓",
       "address_source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
       "profile_image": "data/profile_images/shops/deardevil_maid.jpg",
+      "opening_hours": "星期一至五 18:00–23:00\n星期六、日及公眾假期 17:00–23:00",
+      "opening_hours_source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -3300,6 +3321,9 @@ window.MAID_ROSTERS = {
       "address": "太子大南街98號",
       "address_source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
       "profile_image": "data/profile_images/shops/maid_baberucafe.jpg",
+      "opening_hours": "星期一至五 休息\n星期六、日 13:00–20:00",
+      "opening_hours_source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [
         1,
@@ -3442,6 +3466,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街5號好望角大廈1902室",
       "address_source": "https://www.instagram.com/maid_eidolon/",
       "profile_image": "data/profile_images/shops/maid_eidolon.jpg",
+      "opening_hours": "10月份營業日 17:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -3800,6 +3827,9 @@ window.MAID_ROSTERS = {
       "address": "旺角煙廠街9號興發商業大廈4樓404室",
       "address_source": "https://www.instagram.com/maidcafe.misty/",
       "profile_image": "data/profile_images/shops/maidcafe.jpg",
+      "opening_hours": "營業日 17:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/maidcafe.misty/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -3913,6 +3943,9 @@ window.MAID_ROSTERS = {
       "address": "旺角亞皆老街2C號啟如商業大廈20樓全層",
       "address_source": "https://www.instagram.com/cosplace_cafe/",
       "profile_image": "data/profile_images/shops/cosplace_cafe.jpg",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 17:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -4101,6 +4134,9 @@ window.MAID_ROSTERS = {
       "address": "旺角登打士街36號恆威商業中心12樓全層",
       "address_source": "https://www.instagram.com/maid.kaizokuhouse/",
       "profile_image": "data/profile_images/shops/maid.jpg",
+      "opening_hours": "星期一至日 18:00–23:00",
+      "opening_hours_source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -4467,6 +4503,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜街遠景大廈3樓H2室",
       "address_source": "https://www.instagram.com/queens_x_garden/",
       "profile_image": "data/profile_images/shops/queens_x_garden.jpg",
+      "opening_hours": "星期一至日 18:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/queens_x_garden/reel/De8S7vOzmMV/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -4780,6 +4819,9 @@ window.MAID_ROSTERS = {
       "address": "旺角砵蘭街215號朗晴坊8樓",
       "address_source": "https://www.instagram.com/commacafe_8/",
       "profile_image": "data/profile_images/shops/commacafe_8.jpg",
+      "opening_hours": "星期一至日 15:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -5143,9 +5185,13 @@ window.MAID_ROSTERS = {
       "profile": "https://www.instagram.com/sugarfactorycafe/",
       "source": "https://www.instagram.com/sugarfactorycafe/",
       "source_type": "pending_review",
+      "notice": "星期六 20:00 後為 Girls Bar 時段。",
       "address": "旺角登打士街36號恆威商業中心13樓全層",
       "address_source": "https://www.instagram.com/sugarfactorycafe/",
       "profile_image": "data/profile_images/shops/sugarfactorycafe.jpg",
+      "opening_hours": "星期一至日 13:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/sugarfactorycafe/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -5546,6 +5592,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街聯興大廈11樓88室",
       "address_source": "https://www.instagram.com/themanorcafe/",
       "profile_image": "data/profile_images/shops/themanorcafe.jpg",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 15:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -5823,6 +5872,9 @@ window.MAID_ROSTERS = {
       "address": "太子道西150–152號太子商業大廈1304室",
       "address_source": "https://www.instagram.com/maid_minori/",
       "profile_image": "data/profile_images/shops/maid_minori.jpg",
+      "opening_hours": "星期一 休息\n星期二至五 17:00–22:00\n星期六、日 15:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [
         1
@@ -6284,6 +6336,9 @@ window.MAID_ROSTERS = {
       "address": "深水埗福榮街31號A地下",
       "address_source": "https://www.instagram.com/mistia_luna/",
       "profile_image": "data/profile_images/shops/mistia_luna.jpg",
+      "opening_hours": "星期一至日 12:00–23:00",
+      "opening_hours_source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -6732,7 +6787,7 @@ window.MAID_ROSTERS = {
             "Kaoko": "20:00-23:00",
             "真冬": "17:00-23:00",
             "羅露妮": "12:00-17:00",
-            "烏龜": "18:00-23:00。"
+            "烏龜": "18:00-23:00"
           },
           "alternate_sources": [
             "https://www.instagram.com/mistia_luna/p/DeyY-mYzXG8/"
@@ -6840,17 +6895,17 @@ window.MAID_ROSTERS = {
             "夢川": "個人時段：19:30-23:00；與限定公告的「天使」同為 @y._.tenshi_0.2，採較新的週表名稱。"
           },
           "person_times": {
-            "Gigi": "17:00-23:00。",
-            "Riri": "17:00-23:00。",
-            "Toffee": "12:00-17:00。",
-            "sora": "17:00-23:00。",
-            "zero": "17:00-23:00。",
-            "小嵐": "17:00-23:00。",
-            "小欣": "17:00-23:00。",
-            "梳乎厘": "12:00-17:00。",
-            "玄幽": "13:00-20:00。",
-            "萌え魚": "12:00-17:00。",
-            "奈雅": "12:00-23:00。",
+            "Gigi": "17:00-23:00",
+            "Riri": "17:00-23:00",
+            "Toffee": "12:00-17:00",
+            "sora": "17:00-23:00",
+            "zero": "17:00-23:00",
+            "小嵐": "17:00-23:00",
+            "小欣": "17:00-23:00",
+            "梳乎厘": "12:00-17:00",
+            "玄幽": "13:00-20:00",
+            "萌え魚": "12:00-17:00",
+            "奈雅": "12:00-23:00",
             "夢川": "19:30-23:00"
           },
           "alternate_sources": [
@@ -6889,14 +6944,14 @@ window.MAID_ROSTERS = {
             "莓": "個人時段：18:00-23:00。"
           },
           "person_times": {
-            "Sirius": "14:00-19:00。",
-            "バカ": "12:00-17:00。",
-            "玄幽": "17:00-23:00。",
-            "玲奈": "17:00-23:00。",
-            "Mo": "20:00-23:00。",
-            "奈雅": "17:00-23:00。",
-            "真冬": "12:00-17:00。",
-            "莓": "18:00-23:00。"
+            "Sirius": "14:00-19:00",
+            "バカ": "12:00-17:00",
+            "玄幽": "17:00-23:00",
+            "玲奈": "17:00-23:00",
+            "Mo": "20:00-23:00",
+            "奈雅": "17:00-23:00",
+            "真冬": "12:00-17:00",
+            "莓": "18:00-23:00"
           }
         },
         {
@@ -6931,14 +6986,14 @@ window.MAID_ROSTERS = {
             "九四": "個人時段：18:00-23:00。"
           },
           "person_times": {
-            "Gigi": "17:00-22:00。",
-            "Sirius": "14:00-19:00。",
-            "Toffee": "17:00-22:00。",
-            "Ceci": "17:00-23:00。",
-            "Kaoko": "20:00-23:00。",
-            "Mo": "12:00-17:00。",
-            "バカ": "12:00-17:00。",
-            "九四": "18:00-23:00。"
+            "Gigi": "17:00-22:00",
+            "Sirius": "14:00-19:00",
+            "Toffee": "17:00-22:00",
+            "Ceci": "17:00-23:00",
+            "Kaoko": "20:00-23:00",
+            "Mo": "12:00-17:00",
+            "バカ": "12:00-17:00",
+            "九四": "18:00-23:00"
           }
         },
         {
@@ -6973,14 +7028,14 @@ window.MAID_ROSTERS = {
             "Haru": "個人時段：18:00-23:00。"
           },
           "person_times": {
-            "Sirius": "12:00-17:00。",
-            "バカ": "17:00-23:00。",
-            "玄幽": "17:00-23:00。",
-            "玲奈": "17:00-23:00。",
-            "神樂": "12:00-17:00。",
-            "奈雅": "12:00-23:00。",
-            "真冬": "17:00-23:00。",
-            "Haru": "18:00-23:00。"
+            "Sirius": "12:00-17:00",
+            "バカ": "17:00-23:00",
+            "玄幽": "17:00-23:00",
+            "玲奈": "17:00-23:00",
+            "神樂": "12:00-17:00",
+            "奈雅": "12:00-23:00",
+            "真冬": "17:00-23:00",
+            "Haru": "18:00-23:00"
           }
         },
         {
@@ -7019,16 +7074,16 @@ window.MAID_ROSTERS = {
             "小汐": "個人時段：18:00-23:00。"
           },
           "person_times": {
-            "Gigi": "17:00-23:00。",
-            "Nanami": "13:00-20:00。",
-            "Riley": "17:00-23:00。",
-            "yuzu": "13:00-20:00。",
-            "小嵐": "17:00-23:00。",
-            "玲奈": "17:00-23:00。",
-            "神樂": "12:00-17:00。",
-            "奈雅": "12:00-23:00。",
-            "真冬": "17:00-23:00。",
-            "小汐": "18:00-23:00。"
+            "Gigi": "17:00-23:00",
+            "Nanami": "13:00-20:00",
+            "Riley": "17:00-23:00",
+            "yuzu": "13:00-20:00",
+            "小嵐": "17:00-23:00",
+            "玲奈": "17:00-23:00",
+            "神樂": "12:00-17:00",
+            "奈雅": "12:00-23:00",
+            "真冬": "17:00-23:00",
+            "小汐": "18:00-23:00"
           }
         },
         {
@@ -7063,15 +7118,15 @@ window.MAID_ROSTERS = {
             "真冬": "個人時段：12:00-17:00。"
           },
           "person_times": {
-            "Riley": "15:00-23:00。",
-            "Riya": "17:00-23:00。",
-            "Toffee": "12:00-17:00。",
-            "yuzu": "17:00-23:00。",
-            "バカ": "17:00-23:00。",
-            "玲奈": "15:00-23:00。",
-            "Kaoko": "20:00-23:00。",
-            "Mo": "17:00-23:00。",
-            "真冬": "12:00-17:00。"
+            "Riley": "15:00-23:00",
+            "Riya": "17:00-23:00",
+            "Toffee": "12:00-17:00",
+            "yuzu": "17:00-23:00",
+            "バカ": "17:00-23:00",
+            "玲奈": "15:00-23:00",
+            "Kaoko": "20:00-23:00",
+            "Mo": "17:00-23:00",
+            "真冬": "12:00-17:00"
           }
         },
         {
@@ -7112,17 +7167,17 @@ window.MAID_ROSTERS = {
             "奶茶": "個人時段：18:00-23:00。"
           },
           "person_times": {
-            "Reii莉": "13:00-20:00。",
-            "Riley": "15:00-23:00。",
-            "Toffee": "15:00-23:00。",
-            "小欣": "17:00-23:00。",
-            "心雨": "12:00-17:00。",
-            "玄幽": "17:00-23:00。",
-            "綰綰": "18:00-23:00。",
-            "Mo": "17:00-23:00。",
-            "奈雅": "12:00-17:00。",
-            "真冬": "20:00-23:00。",
-            "奶茶": "18:00-23:00。"
+            "Reii莉": "13:00-20:00",
+            "Riley": "15:00-23:00",
+            "Toffee": "15:00-23:00",
+            "小欣": "17:00-23:00",
+            "心雨": "12:00-17:00",
+            "玄幽": "17:00-23:00",
+            "綰綰": "18:00-23:00",
+            "Mo": "17:00-23:00",
+            "奈雅": "12:00-17:00",
+            "真冬": "20:00-23:00",
+            "奶茶": "18:00-23:00"
           }
         }
       ],
@@ -7142,6 +7197,9 @@ window.MAID_ROSTERS = {
       "address": "旺角信和中心1403B室",
       "address_source": "https://www.instagram.com/kirakiramaido/",
       "profile_image": "data/profile_images/shops/kirakiramaido.jpg",
+      "opening_hours": "星期一至日 18:00–23:00",
+      "opening_hours_source": "https://www.instagram.com/kirakiramaido/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
@@ -7726,6 +7784,9 @@ window.MAID_ROSTERS = {
       "address": "尖沙咀美麗華廣場一期3樓312號舖（猫金波）",
       "address_source": "https://www.instagram.com/itotsuki.cafe/",
       "profile_image": "data/profile_images/shops/itotsuki.jpg",
+      "opening_hours": "星期日至四 17:00–23:00\n星期五、六及公眾假期前夕 17:00–次日01:00",
+      "opening_hours_source": "https://www.instagram.com/itotsuki.cafe/",
+      "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [

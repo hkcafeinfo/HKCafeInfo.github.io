@@ -48,6 +48,7 @@
     let copy = sticky.firstElementChild;
     if (!copy || copy.dataset.originalWidth !== String(header.getBoundingClientRect().width)) {
       copy = header.cloneNode(true);
+      copy.inert = true;
       copy.dataset.originalWidth = String(header.getBoundingClientRect().width);
       copy.style.gridTemplateColumns = getComputedStyle(header).gridTemplateColumns;
       copy.style.width = `${header.getBoundingClientRect().width}px`;
@@ -101,7 +102,7 @@
     }
     return { shownDates, shops };
   }
-  function rowHead(label, subtitle, profile, photo) {
+  function rowHead(label, subtitle, profile, photo, shop) {
     const node = make("div", "matrix-rowhead");
     node.setAttribute("role", "rowheader");
     const url = instagramUrl(profile);
@@ -111,9 +112,10 @@
     node.append(title);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
     node.append(make("span", "rowhead-subtitle", subtitle));
+    if (shop) node.append(HKCI.shopInfoButton(shop));
     return node;
   }
-  function columnHead(label, subtitle, active, photo, profile) {
+  function columnHead(label, subtitle, active, photo, profile, shop) {
     const node = make("div", `matrix-colhead${active ? " is-today" : ""}`);
     node.setAttribute("role", "columnheader");
     if (photo) { const img = make("img", "shop-profile-photo"); img.src = photo; img.alt = ""; node.append(img); }
@@ -121,6 +123,7 @@
     const url = HKCI.instagram(profile);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
     node.append(make("span", null, subtitle));
+    if (shop) node.append(HKCI.shopInfoButton(shop));
     return node;
   }
   function cell(shop, date) {
@@ -264,14 +267,14 @@
     header.append(corner);
     for (const item of columns) {
       if (state.across === "dates") { const info = dateLabel(item); header.append(columnHead(info.day, info.weekday, item === today)); }
-      else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile));
+      else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
     }
     matrix.append(header);
     for (const item of rows) {
       const line = make("div", "matrix-row");
       line.setAttribute("role", "row");
       if (state.across === "dates") {
-        line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image));
+        line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
         for (const date of shownDates) line.append(cell(item, date));
       } else {
         const info = dateLabel(item);

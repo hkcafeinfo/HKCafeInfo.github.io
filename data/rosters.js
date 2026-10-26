@@ -241,10 +241,22 @@ window.MAID_ROSTERS = {
             ],
             "學生會幹部": [
               "Mori"
+            ],
+            "限定學妹": [
+              "小白"
             ]
           },
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
-          "event_name": "Halloween活動周"
+          "event_name": "Halloween活動周",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_academy/p/De1FUibxfjJ/"
+          ],
+          "person_notes": {
+            "小白": "個人時段：20:30-22:00"
+          },
+          "person_times": {
+            "小白": "20:30-22:00"
+          }
         },
         {
           "date": "2026-10-24",

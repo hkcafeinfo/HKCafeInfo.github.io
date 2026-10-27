@@ -397,3 +397,6 @@ body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:blo
 .people-list>.people-item{flex:0 0 auto;width:fit-content;min-height:40px;padding:8px 12px}
 .shop-address,.shop-intro-address a,.matrix-rowhead .rowhead-subtitle{color:inherit;text-decoration:none}
 .shop-address:hover,.shop-intro-address a:hover,.matrix-rowhead .rowhead-subtitle:hover{text-decoration:underline}
+
+body:not([data-view="shops"]) .content-main .view-controls>.shop-search{display:none}
+body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.shop-search){display:flex}

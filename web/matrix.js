@@ -118,7 +118,7 @@
     if (photo) { const img = make("img", "shop-profile-photo"); img.src = photo; img.alt = ""; node.append(img); }
     node.append(title);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
-    node.append(make("span", "rowhead-subtitle", subtitle));
+    node.append(shop ? HKCI.addressLink(shop, "rowhead-subtitle") : make("span", "rowhead-subtitle", subtitle));
     if (shop) node.append(shopHours(shop));
     return node;
   }
@@ -129,7 +129,7 @@
     node.append(make("strong", null, label));
     const url = HKCI.instagram(profile);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
-    node.append(make("span", null, subtitle));
+    node.append(shop ? HKCI.addressLink(shop) : make("span", null, subtitle));
     if (shop) node.append(shopHours(shop));
     return node;
   }

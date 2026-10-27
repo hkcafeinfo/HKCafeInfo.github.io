@@ -8,7 +8,6 @@ window.MAID_ROSTERS = {
       "profile": "https://www.instagram.com/maid_academy/",
       "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
       "source_type": "caption",
-      "notice": "2026年10月31日：訂場活動，不對外營業。",
       "address": "旺角通菜街8號1樓",
       "address_source": "https://www.instagram.com/maid_academy/",
       "profile_image": "data/profile_images/shops/maid_academy.jpg",

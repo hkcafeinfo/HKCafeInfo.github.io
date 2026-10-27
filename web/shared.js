@@ -175,6 +175,16 @@
     const link = document.createElement("a"); link.href = url; link.download = "人物資料待審回報.csv"; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
+  function addressLink(shop, className = "") {
+    const node = document.createElement(shop.address ? "a" : "span");
+    node.className = className;
+    node.textContent = shop.address || "地址待確認";
+    if (shop.address) {
+      node.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("香港 " + shop.address);
+      node.target = "_blank"; node.rel = "noopener noreferrer";
+    }
+    return node;
+  }
   function shopIntro(shop) {
     const card = document.createElement("article"); card.className = "shop-intro";
     if (shop.profile_image) { const img = document.createElement("img"); img.src = shop.profile_image; img.alt = ""; img.className = "shop-profile-photo"; img.loading = "lazy"; card.append(img); }
@@ -184,7 +194,7 @@
       const account = document.createElement("a"); account.className = "shop-intro-ig"; account.href = profileUrl;
       account.textContent = handle(profileUrl); account.target = "_blank"; account.rel = "noopener noreferrer"; card.append(account);
     }
-    const address = document.createElement("p"); address.className = "shop-intro-address"; address.textContent = shop.address || "地址待確認"; card.append(address);
+    const address = document.createElement("p"); address.className = "shop-intro-address"; address.append(addressLink(shop)); card.append(address);
     const heading = document.createElement("h4"); heading.textContent = "營業時間"; card.append(heading);
     const hours = document.createElement("dl"); hours.className = "opening-hours";
     for (const line of (shop.opening_hours || "").split("\n").filter(Boolean)) {
@@ -204,5 +214,5 @@
     }
     return card;
   }
-  window.HKCI = { shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, report, exportFeedback };
+  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, report, exportFeedback };
 })();

@@ -174,7 +174,7 @@
     titleText.append(make("h3", "shop-name", shop.shop));
     const shopUrl = HKCI.instagram(shop.profile);
     if (shopUrl) { const ig = make("a", "shop-ig", HKCI.handle(shopUrl)); ig.href = shopUrl; ig.target = "_blank"; ig.rel = "noopener noreferrer"; titleText.append(ig); }
-    if (shop.address) titleText.append(make("small", "shop-address", shop.address));
+    if (shop.address) titleText.append(HKCI.addressLink(shop, "shop-address"));
     title.append(titleText);
     head.append(title, make("span", "time-badge", shift.hours || "時間未註明"));
     element.append(head);

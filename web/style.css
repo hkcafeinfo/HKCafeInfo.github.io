@@ -389,3 +389,11 @@ body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;
 }
 
 .dated-roster-notice{text-align:center;color:#675548;line-height:1.7;font-size:15px}.dated-roster-notice a{display:block;margin-top:12px;font-size:11px;color:#687ac6;text-decoration:none}.missing-card:has(.dated-roster-notice) .missing-icon{display:none}
+
+/* Shared control alignment and content-sized person names. */
+.content-main .view-controls>.sidebar-toggle,
+body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:block;text-align:center;line-height:normal}
+.people-list{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px}
+.people-list>.people-item{flex:0 0 auto;width:fit-content;min-height:40px;padding:8px 12px}
+.shop-address,.shop-intro-address a,.matrix-rowhead .rowhead-subtitle{color:inherit;text-decoration:none}
+.shop-address:hover,.shop-intro-address a:hover,.matrix-rowhead .rowhead-subtitle:hover{text-decoration:underline}

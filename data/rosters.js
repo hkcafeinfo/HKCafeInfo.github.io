@@ -570,11 +570,6 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "reason": "Haruka Book 訂場活動；週更表未列活動嘉賓與常規當值名單，需查獨立活動帖。",
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/"
-        },
-        {
-          "date": "2026-11-14",
-          "reason": "兩則限定學妹公告出現不同姓名／時段：DeuXTldTWIo列小扇17:00-22:00，De1A-4BzkKW列小萌17:30-22:00；DeuXTldTWIo caption 無文字，貼文原圖未能從一般瀏覽器保存，故保留現有兩列待核，不能判定是否更正或兩人皆到。",
-          "source": "https://www.instagram.com/maid_academy/p/DeuXTldTWIo/ | https://www.instagram.com/maid_academy/p/De1A-4BzkKW/"
         }
       ]
     },

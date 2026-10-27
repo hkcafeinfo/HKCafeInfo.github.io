@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>HKCafeInfo · 香港女僕咖啡店更表</title>
-  <link rel="stylesheet" href="web/style.css?v=20261027-shop-directory-gap">
+  <link rel="stylesheet" href="web/style.css?v=20261027-shop-search-position">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-  <script src="data/rosters.js?v=aa65230a14a1cb76" defer></script>
+  <script src="data/rosters.js?v=95ad853443d0b56e" defer></script>
   <script src="web/shared.js?v=20261026-cafe-info" defer></script>
   <script src="web/app.js?v=20261026-cafe-info" defer></script>
   <script src="web/matrix.js?v=20261026-cafe-info" defer></script>
@@ -54,6 +54,7 @@
       <div class="view-controls">
         <button id="toggle-cafe-sidebar" class="sidebar-toggle" type="button" aria-controls="cafe-sidebar" aria-expanded="false">☰ 店舖顯示 <span id="sidebar-toggle-count"></span></button>
         <label class="field search-field global-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋人名及近期當值</span><input id="name-search" type="search" placeholder="搜尋人名，查看所有已收錄當值…" autocomplete="off"></label>
+        <label class="field search-field global-search shop-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋店名或地址</span><input id="shop-search" type="search" placeholder="搜尋店名或地址…"></label>
         <div class="view-switch" role="group" aria-label="選擇顯示方式"><button id="show-cards" type="button" class="view-button" aria-pressed="false">卡片</button><button id="show-matrix" type="button" class="view-button active" aria-pressed="true">列表</button><button id="show-people" type="button" class="view-button" aria-pressed="false">女僕</button><button id="show-shops" type="button" class="view-button" aria-pressed="false">店舖</button></div>
       </div>
 
@@ -68,9 +69,8 @@
       </section>
 
       <section class="shops-section" id="shops-view" aria-labelledby="shops-heading" hidden>
-        <div class="section-topline"><h2 id="shops-heading">店舖</h2><span id="shops-count" class="result-count"></span></div>
+        <div class="section-topline"><div><span class="section-kicker">CAFES INFO</span><h2 id="shops-heading">店舖</h2></div><span id="shops-count" class="result-count"></span></div>
         <p class="shops-help">營業時間以店舖公告為準；特別活動及公眾假期可能另有安排。</p>
-        <label class="field shop-search"><span class="sr-only">搜尋店名或地址</span><input id="shop-search" type="search" placeholder="搜尋店名或地址…"></label>
         <div id="shop-directory" class="shop-directory"></div>
       </section>
 
@@ -82,11 +82,12 @@
 
       <section class="matrix-section" id="matrix-view" aria-labelledby="matrix-heading" hidden>
         <div class="section-topline"><div><span class="section-kicker">ALL CAFES · ONE TABLE</span><h2 id="matrix-heading">各店更表</h2></div><span class="result-count" id="matrix-result-count"></span></div>
-        <div class="toolbar">
+        <div class="matrix-controls-row">
           <div class="range-toggle" id="date-range" role="group" aria-label="總表日期範圍"><button type="button" class="range-toggle-button" data-range="all" aria-pressed="false">所有更表</button><button type="button" class="range-toggle-button" data-range="future" aria-pressed="true">接下來的更表</button></div>
           <button type="button" id="person-back" class="person-back" hidden>← 返回</button>
+          <div class="axis-switch" role="group" aria-label="總表方向"><button id="dates-across" type="button" class="axis-button active" aria-pressed="true">日期橫排</button><button id="shops-across" type="button" class="axis-button" aria-pressed="false">店舖橫排</button></div>
+          <div class="matrix-navigation"><span id="scroll-hint">左右捲動查看更多日期</span><button type="button" id="matrix-prev" aria-label="上一欄">←</button><button type="button" id="matrix-next" aria-label="下一欄">→</button></div>
         </div>
-        <div class="matrix-toolbar"><div class="axis-switch" role="group" aria-label="總表方向"><button id="dates-across" type="button" class="axis-button active" aria-pressed="true">日期橫排</button><button id="shops-across" type="button" class="axis-button" aria-pressed="false">店舖橫排</button></div><div class="matrix-navigation"><span id="scroll-hint">左右捲動查看更多日期</span><button type="button" id="matrix-prev" aria-label="上一欄">←</button><button type="button" id="matrix-next" aria-label="下一欄">→</button></div></div>
         <div class="matrix-viewport" id="matrix-viewport" role="region" aria-label="完整更表，可橫向捲動" tabindex="0"><div id="roster-matrix" class="roster-matrix" aria-live="polite"></div></div>
       </section>
 

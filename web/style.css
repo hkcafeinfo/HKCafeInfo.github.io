@@ -249,3 +249,109 @@ body[data-view="shops"] .view-switch{justify-self:start}
 .matrix-opening-hours{display:flex;flex-direction:column;gap:0;margin-top:8px;text-align:left;overflow-wrap:anywhere}
 .matrix-opening-hours .hours-heading,.matrix-opening-hours .hours-line{font-size:inherit;line-height:inherit;color:inherit;margin:0}
 .matrix-opening-hours .hours-heading{margin-bottom:0}
+
+/* Consistent page rhythm and controls across schedule, people and shop views. */
+.summary{margin-left:clamp(20px,3vw,44px);margin-right:clamp(20px,3vw,44px);border-radius:18px}
+.summary-item{min-width:145px;padding:0 28px}
+.summary-hint{max-width:430px}
+.content-layout,.content-layout.sidebar-collapsed{margin:0 clamp(20px,3vw,44px)}
+.content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
+  display:grid;grid-template-columns:auto minmax(220px,1fr) auto;gap:12px;align-items:center;
+  margin:20px 0 0;padding:0
+}
+.sidebar-toggle,.global-search,.view-switch{min-height:48px}
+.global-search{width:100%;height:48px;border-radius:12px}
+.global-search input{font-size:14px}
+.view-switch{padding:4px;border-radius:12px}
+.view-button{min-height:40px;padding:9px 15px;border-radius:9px;font-size:13px}
+.roster-section,.matrix-section,.people-section,.shops-section{padding-top:26px}
+.roster-section,.matrix-section{padding-bottom:42px}
+.section-topline{align-items:center;margin-bottom:18px}
+.section-topline h2{font-size:28px}
+.section-kicker{display:block;margin-bottom:4px}
+.result-count{white-space:nowrap;padding:0;color:#7e899b}
+.card-range-controls{justify-content:flex-end}
+.range-toggle,.axis-switch{border-radius:12px}
+.range-toggle-button,.axis-button{min-height:40px}
+.matrix-toolbar{margin:16px 0 12px}
+.matrix-navigation button{width:40px;height:40px;border-radius:10px}
+.matrix-viewport{border-radius:12px}
+.people-help,.shops-help{margin:0 0 16px;color:#667287;font-size:13px;line-height:1.65}
+.people-help button{margin-left:8px;border:1px solid #dfe4ed;border-radius:8px;background:#fff;color:#5365a5;padding:7px 10px;font-size:12px;font-weight:700}
+.people-list{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-top:14px}
+.people-item{min-height:48px;padding:9px 12px;border-radius:11px}
+.people-item strong,.people-name{font-size:13px}
+.shop-search{max-width:none;height:48px;margin:0;border-radius:12px}
+.shop-search input{border:0;background:transparent;padding:0 15px;font-size:14px}
+.shop-directory{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.shop-intro{padding:20px;border-radius:14px;box-shadow:0 4px 16px #27395708}
+.shop-intro h3{font-size:18px;line-height:1.35}
+.shop-intro-address{margin:10px 0;font-size:13px;line-height:1.65}
+.opening-hours{font-size:13px;line-height:1.65}
+.shop-intro-source{margin-top:10px}
+body[data-view="shops"] .content-main .view-controls{grid-template-columns:minmax(220px,1fr) auto;justify-items:stretch}
+body[data-view="shops"] .content-main .view-controls>.global-search:not(.shop-search),body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:none}
+body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:1;grid-row:1;width:100%}
+body[data-view="shops"] .view-switch{grid-column:2;grid-row:1;justify-self:end}
+@media(max-width:900px){
+  .summary{margin-left:20px;margin-right:20px}
+  .content-layout,.content-layout.sidebar-collapsed{margin:0 20px}
+  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{grid-template-columns:1fr auto;gap:10px}
+  .global-search{grid-column:1/-1;grid-row:2}
+  .view-switch{grid-column:1/-1;grid-row:1;width:100%}
+  .view-button{flex:1}
+  body[data-view="shops"] .content-main .view-controls{grid-template-columns:1fr}
+  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:1}
+  body[data-view="shops"] .view-switch{grid-column:1;grid-row:2;justify-self:stretch}
+}
+@media(max-width:700px){
+  .summary{margin-left:12px;margin-right:12px;min-height:68px}
+  .summary-item{padding:0 7px}
+  .summary-item strong{font-size:19px}
+  .summary-item span{font-size:10px}
+  .summary-hint{display:none}
+  .content-layout,.content-layout.sidebar-collapsed{margin:0 16px}
+  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{grid-template-columns:1fr;gap:9px;margin-top:14px}
+  .content-main .view-controls .view-switch{grid-column:1;grid-row:1}
+  .content-main .view-controls .global-search{grid-column:1;grid-row:2;min-width:0}
+  .content-main .view-controls .sidebar-toggle{grid-column:1;grid-row:3;justify-self:start}
+  .view-switch{width:100%;min-height:48px}
+  .view-button{min-height:40px;padding:8px 5px;font-size:12px}
+  .roster-section,.matrix-section,.people-section,.shops-section{padding-top:20px}
+  .section-topline{margin-bottom:14px}
+  .section-topline h2{font-size:24px}
+  .card-range-controls{width:100%;justify-content:space-between}
+  .card-range-controls .range-toggle{flex:1;justify-content:center}
+  .card-range-controls .result-count{font-size:11px}
+  .people-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .people-item{min-width:0;padding:8px}
+  .people-item strong,.people-name{font-size:12px}
+  .shop-search{max-width:none;margin:0}
+  .shop-directory{grid-template-columns:1fr;gap:10px}
+  .shop-intro{padding:17px}
+  .matrix-toolbar{margin-top:12px}
+}
+
+/* Keep the date-range switch in one shared position below each view title. */
+#card-view .section-topline{flex-direction:column;align-items:flex-start;gap:12px;margin-bottom:12px}
+#card-view .card-range-controls{justify-content:flex-start}
+#matrix-view .section-topline{margin-bottom:0}
+@media(max-width:700px){
+  #card-view .section-topline{gap:10px;margin-bottom:12px}
+}
+
+/* Align result totals on the same right edge and keep matrix controls on one row. */
+#card-view .section-topline{position:relative;padding-right:0}
+#card-view .card-range-controls .result-count{position:absolute;right:0;top:27px;text-align:right}
+#matrix-view .matrix-controls-row{display:flex;align-items:center;gap:12px;min-width:0;margin:12px 0 18px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+#matrix-view .matrix-controls-row>.range-toggle,#matrix-view .matrix-controls-row>.axis-switch,#matrix-view .matrix-controls-row>.matrix-navigation{flex:0 0 auto}
+#matrix-view .matrix-controls-row>.matrix-navigation{margin-left:auto;white-space:nowrap}
+@media(max-width:700px){
+  #card-view .card-range-controls .result-count{top:25px}
+  #matrix-view .matrix-controls-row{gap:8px;margin:12px 0 16px}
+  #matrix-view .matrix-controls-row>.matrix-navigation{margin-left:auto}
+  #matrix-view .axis-button{flex:0 0 auto;padding:8px 9px;font-size:11px}
+  #matrix-view .matrix-navigation{gap:5px}
+  #matrix-view .matrix-navigation span{font-size:10px}
+  #matrix-view .matrix-navigation button{width:34px;min-width:34px;height:40px}
+}

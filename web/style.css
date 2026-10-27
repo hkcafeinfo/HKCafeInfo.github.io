@@ -367,7 +367,7 @@ body[data-view="shops"] .view-switch{grid-column:3;grid-row:1;justify-self:end}
 .content-main .view-controls>.shop-search{grid-column:2;grid-row:1;width:100%;min-width:0}
 .content-main .view-controls>.view-switch{grid-column:3;grid-row:1;width:auto;justify-self:end}
 body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(0,1fr) auto}
-body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:flex;grid-column:1;grid-row:1}
+body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:inline-block;grid-column:1;grid-row:1}
 body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:2;grid-row:1}
 body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;grid-row:1;justify-self:end}
 @media(max-width:900px) and (min-width:701px){

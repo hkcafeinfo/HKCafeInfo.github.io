@@ -425,7 +425,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #matrix-view .matrix-filter-controls>.axis-switch{display:flex;flex:1 1 auto;width:auto;min-width:0;flex-wrap:nowrap}
 #matrix-view .matrix-filter-controls .range-toggle-button,
 #matrix-view .matrix-filter-controls .axis-button{flex:1 1 auto}
-#matrix-view .matrix-controls-row>.matrix-navigation{width:auto;flex:0 0 auto;max-width:100%;justify-content:flex-start;margin-left:0}
+#matrix-view .matrix-controls-row>.matrix-navigation{width:auto;flex:0 0 auto;max-width:100%;justify-content:flex-start;margin-left:auto}
 #matrix-view .matrix-navigation span{margin-right:0}
 @media(max-width:370px){
   #matrix-view .matrix-filter-controls{gap:6px}

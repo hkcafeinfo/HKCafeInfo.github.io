@@ -291,7 +291,7 @@ body[data-view="shops"] .view-switch{justify-self:start}
 .shop-intro-source{margin-top:10px}
 body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(220px,1fr) auto;justify-items:stretch}
 body[data-view="shops"] .content-main .view-controls>.global-search:not(.shop-search){display:none}
-body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:flex;grid-column:1;grid-row:1}
+body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:inline-block;grid-column:1;grid-row:1}
 body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:2;grid-row:1;width:100%}
 body[data-view="shops"] .view-switch{grid-column:3;grid-row:1;justify-self:end}
 @media(max-width:900px){
@@ -382,4 +382,7 @@ body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;
   .content-main .view-controls>.global-search:not(.shop-search),
   .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
   .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-content:center}
+  body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}
+  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
+  body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-self:stretch;text-align:left}
 }

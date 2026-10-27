@@ -420,7 +420,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 /* The two filters share available width; scroll guidance stays with its arrows. */
 .summary{margin-top:16px}
-#matrix-view .matrix-controls-row>.matrix-filter-controls{display:flex;flex:1 1 320px;min-width:0;gap:8px;align-items:center}
+#matrix-view .matrix-controls-row>.matrix-filter-controls{display:flex;flex:0 0 auto;min-width:0;gap:8px;align-items:center}
 #matrix-view .matrix-filter-controls>.range-toggle,
 #matrix-view .matrix-filter-controls>.axis-switch{display:flex;flex:1 1 auto;width:auto;min-width:0;flex-wrap:nowrap}
 #matrix-view .matrix-filter-controls .range-toggle-button,
@@ -432,3 +432,5 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
   #matrix-view .matrix-filter-controls .range-toggle-button,
   #matrix-view .matrix-filter-controls .axis-button{font-size:10px;padding:8px 5px}
 }
+
+#matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}

@@ -344,5 +344,17 @@
   $("show-matrix").addEventListener("click", render);
   $("person-back").addEventListener("click", () => window.dispatchEvent(new Event("hkcafeinfo:return-person")));
   for (const [id, active] of [["dates-across", state.across === "dates"], ["shops-across", state.across === "shops"]]) { $(id).classList.toggle("active", active); $(id).setAttribute("aria-pressed", String(active)); }
+  const controlRow = document.querySelector(".matrix-controls-row");
+  let lastControlWidth = -1;
+  new ResizeObserver(() => {
+    const width = controlRow.clientWidth;
+    if (!width || width === lastControlWidth) return;
+    lastControlWidth = width;
+    controlRow.classList.remove("is-wrapped");
+    const filters = controlRow.querySelector(".matrix-filter-controls");
+    const navigation = controlRow.querySelector(".matrix-navigation");
+    const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
+    controlRow.classList.toggle("is-wrapped", filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width);
+  }).observe(controlRow);
   render();
 })();

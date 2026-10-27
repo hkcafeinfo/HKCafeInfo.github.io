@@ -375,17 +375,22 @@ body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;
   .content-main .view-controls .view-button{padding-left:9px;padding-right:9px;font-size:12px}
 }
 @media(max-width:700px){
-  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
-    grid-template-columns:minmax(0,1fr);gap:9px
+  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls,
+  body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(0,1fr);gap:9px}
+  .content-main .view-controls>.sidebar-toggle,
+  body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{
+    grid-column:1;grid-row:1;width:auto;height:48px;min-height:48px;
+    padding:9px 8px;font-size:11px;justify-self:start;align-self:center
   }
-  body[data-view="shops"] .content-main .view-controls{grid-template-columns:minmax(0,1fr)}
-  .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}
+  .content-main .view-controls>.view-switch,
+  body[data-view="shops"] .content-main .view-controls>.view-switch{
+    grid-column:2;grid-row:1;width:100%;min-width:0;height:48px;min-height:48px;
+    padding:3px;box-sizing:border-box;justify-self:stretch;align-items:stretch
+  }
+  .content-main .view-controls .view-button{flex:1;min-width:0;min-height:0;height:100%;padding:9px 5px;font-size:11px}
   .content-main .view-controls>.global-search:not(.shop-search),
-  .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
-  .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-content:center}
-  body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}
-  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
-  body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-self:stretch;text-align:center}
+  .content-main .view-controls>.shop-search,
+  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1/-1;grid-row:2;width:100%}
 }
 
 .dated-roster-notice{text-align:center;color:#675548;line-height:1.7;font-size:15px}.dated-roster-notice a{display:block;margin-top:12px;font-size:11px;color:#687ac6;text-decoration:none}.missing-card:has(.dated-roster-notice) .missing-icon{display:none}

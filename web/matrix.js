@@ -91,7 +91,7 @@
   }
   function includesPerson(shop, date) {
     const shift = (shop.shifts || []).find((item) => item.date === date);
-    return Object.values(shift?.groups || {}).some((names) => names.some((name) => name.toLocaleLowerCase().includes(state.search)));
+    return Boolean(shift && shop.shop.toLocaleLowerCase().includes(state.search)) || Object.values(shift?.groups || {}).some((names) => names.some((name) => name.toLocaleLowerCase().includes(state.search)));
   }
   function visible() {
     let shownDates = dates;
@@ -210,7 +210,7 @@
         if (state.range !== "all" && shift.date < today) continue;
         for (const names of Object.values(shift.groups || {})) for (const name of names) {
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
-          if (!state.person && !name.toLocaleLowerCase().includes(state.search)) continue;
+          if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) continue;
           const key = HKCI.identityKey(data, shop.shop, name);
           if (!groups.has(key)) groups.set(key, { shop, name, shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;

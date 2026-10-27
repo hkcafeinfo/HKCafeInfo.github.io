@@ -183,7 +183,7 @@
     let count = 0;
     for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
       for (const [role, names] of roleGroups) {
-      const matched = names.filter((name) => HKCI.displayName(name).toLocaleLowerCase().includes(search));
+      const matched = names.filter((name) => shop.shop.toLocaleLowerCase().includes(search) || HKCI.displayName(name).toLocaleLowerCase().includes(search));
       if (!matched.length) continue;
       count += matched.length;
       const group = make("div", "role-group");
@@ -265,7 +265,7 @@
       empty.append(make("strong", null, "搵唔到符合條件嘅更表"), make("p", null, "試下換個日期、店舖或者人名。"));
       nodes.grid.append(empty);
     }
-    nodes.result.textContent = search ? `${people} 筆符合人名` : `${cards} 張店舖卡片`;
+    nodes.result.textContent = search ? `${people} 筆符合搜尋` : `${cards} 張店舖卡片`;
   }
   renderChecklist();
   $("card-date-range").addEventListener("click", (event) => {

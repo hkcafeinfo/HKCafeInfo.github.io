@@ -66,6 +66,30 @@
     }
     return conflicts.has(key) ? `${key}|shop:${shop}` : key;
   }
+  function dateNotice(shop, date) {
+    return (shop.date_notices || []).find((item) => item.date === date);
+  }
+  function dateNoticeView(item) {
+    const node = document.createElement("div");
+    node.className = "dated-roster-notice";
+    for (const text of [item.title, item.detail]) {
+      const line = document.createElement("div");
+      line.textContent = text;
+      node.append(line);
+    }
+    try {
+      const url = new URL(item.source);
+      if (url.protocol === "https:" && url.hostname === "www.instagram.com") {
+        const link = document.createElement("a");
+        link.href = url.href;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "來源 ↗";
+        node.append(link);
+      }
+    } catch { /* optional source */ }
+    return node;
+  }
   function closed(shop, date) {
     const day = new Date(`${date}T12:00:00Z`).getUTCDay();
     return (shop.closed_weekdays || []).includes(day);
@@ -180,5 +204,5 @@
     }
     return card;
   }
-  window.HKCI = { shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, closed, closedNotice, eventArt, report, exportFeedback };
+  window.HKCI = { shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, report, exportFeedback };
 })();

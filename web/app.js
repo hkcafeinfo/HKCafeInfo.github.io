@@ -13,6 +13,7 @@
   const allDates = [...new Set(data.shops.flatMap((shop) => [
     ...(shop.shifts || []).map((shift) => shift.date),
     ...(shop.unresolved || []).map((item) => item.date),
+    ...(shop.date_notices || []).map((item) => item.date),
   ]))].sort();
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const total = data.shops.reduce((sum, shop) => sum + (shop.shifts || []).reduce((count, shift) =>
@@ -227,9 +228,10 @@
   function missingCard(shop, date) {
     const element = make("article", "roster-card missing-card");
     const closed = HKCI.closed(shop, date);
+    const dated = HKCI.dateNotice(shop, date);
     element.append(make("span", "missing-icon", shop.notice ? "!" : "·"), make("h3", "shop-name", shop.shop),
-      closed ? HKCI.closedNotice(shop) : make("p", "missing-copy", "呢日暫時未找到更表資料"));
-    if (shop.notice && !closed) { const link = sourceLink(shop); if (link) element.append(link); }
+      dated ? HKCI.dateNoticeView(dated) : closed ? HKCI.closedNotice(shop) : make("p", "missing-copy", "呢日暫時未找到更表資料"));
+    if (shop.notice && !closed && !dated) { const link = sourceLink(shop); if (link) element.append(link); }
     return element;
   }
   function renderCards() {
@@ -251,7 +253,7 @@
           const result = card(shop, shift, date);
           if (result.count) { grid.append(result.element); cards++; people += result.count; }
         } else if (!search && unresolved) { grid.append(unresolvedCard(shop, unresolved, date)); cards++; }
-        else if (!search && selectedDate !== "all") { grid.append(missingCard(shop, date)); cards++; }
+        else if (!search && (selectedDate !== "all" || HKCI.dateNotice(shop, date))) { grid.append(missingCard(shop, date)); cards++; }
       }
       if (grid.childElementCount) {
         if (selectedDate === "all" || search) nodes.grid.append(make("h3", "grid-date-heading", `${date} · ${dateLabel(date).weekday}`));

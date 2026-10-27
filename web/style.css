@@ -378,6 +378,7 @@ body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;
   .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
     grid-template-columns:minmax(0,1fr);gap:9px
   }
+  body[data-view="shops"] .content-main .view-controls{grid-template-columns:minmax(0,1fr)}
   .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}
   .content-main .view-controls>.global-search:not(.shop-search),
   .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
@@ -386,3 +387,5 @@ body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;
   body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
   body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-self:stretch;text-align:left}
 }
+
+.dated-roster-notice{text-align:center;color:#675548;line-height:1.7;font-size:15px}.dated-roster-notice a{display:block;margin-top:12px;font-size:11px;color:#687ac6;text-decoration:none}.missing-card:has(.dated-roster-notice) .missing-icon{display:none}

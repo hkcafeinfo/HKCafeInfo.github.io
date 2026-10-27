@@ -567,6 +567,14 @@ window.MAID_ROSTERS = {
           ]
         }
       ],
+      "date_notices": [
+        {
+          "date": "2026-10-31",
+          "title": "訂場活動，",
+          "detail": "不對外營業。",
+          "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
+        }
+      ],
       "unresolved": [
         {
           "date": "2026-10-15",

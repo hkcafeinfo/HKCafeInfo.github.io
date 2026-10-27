@@ -11,6 +11,7 @@
   const rosterDates = [...new Set(data.shops.flatMap((shop) => [
     ...(shop.shifts || []).map((shift) => shift.date),
     ...(shop.unresolved || []).map((item) => item.date),
+    ...(shop.date_notices || []).map((item) => item.date),
   ]))].sort();
   // Keep calendar days with no published roster visible as empty columns. This
   // makes gaps such as 6/11 explicit instead of making the table look incomplete.
@@ -177,9 +178,11 @@
     } else {
       node.classList.add("matrix-cell-empty");
       const closed = HKCI.closed(shop, date);
-      if (closed) node.append(HKCI.closedNotice(shop));
+      const dated = HKCI.dateNotice(shop, date);
+      if (dated) node.append(HKCI.dateNoticeView(dated));
+      else if (closed) node.append(HKCI.closedNotice(shop));
       else node.append(make("span", "matrix-empty-symbol", "—"), make("span", "matrix-empty-copy", "未找到更表"));
-      if (shop.notice && !closed) {
+      if (shop.notice && !closed && !dated) {
         node.title = shop.notice;
         const link = sourceLink(shop);
         if (link) node.append(link);

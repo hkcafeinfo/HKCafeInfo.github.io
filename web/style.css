@@ -283,16 +283,17 @@ body[data-view="shops"] .view-switch{justify-self:start}
 .people-item strong,.people-name{font-size:13px}
 .shop-search{max-width:none;height:48px;margin:0;border-radius:12px}
 .shop-search input{border:0;background:transparent;padding:0 15px;font-size:14px}
-.shop-directory{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.shop-directory{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));grid-auto-rows:1fr;gap:14px;align-items:stretch}
 .shop-intro{padding:20px;border-radius:14px;box-shadow:0 4px 16px #27395708}
 .shop-intro h3{font-size:18px;line-height:1.35}
 .shop-intro-address{margin:10px 0;font-size:13px;line-height:1.65}
 .opening-hours{font-size:13px;line-height:1.65}
 .shop-intro-source{margin-top:10px}
-body[data-view="shops"] .content-main .view-controls{grid-template-columns:minmax(220px,1fr) auto;justify-items:stretch}
-body[data-view="shops"] .content-main .view-controls>.global-search:not(.shop-search),body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:none}
-body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:1;grid-row:1;width:100%}
-body[data-view="shops"] .view-switch{grid-column:2;grid-row:1;justify-self:end}
+body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(220px,1fr) auto;justify-items:stretch}
+body[data-view="shops"] .content-main .view-controls>.global-search:not(.shop-search){display:none}
+body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:flex;grid-column:1;grid-row:1}
+body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:2;grid-row:1;width:100%}
+body[data-view="shops"] .view-switch{grid-column:3;grid-row:1;justify-self:end}
 @media(max-width:900px){
   .summary{margin-left:20px;margin-right:20px}
   .content-layout,.content-layout.sidebar-collapsed{margin:0 20px}
@@ -301,8 +302,9 @@ body[data-view="shops"] .view-switch{grid-column:2;grid-row:1;justify-self:end}
   .view-switch{grid-column:1/-1;grid-row:1;width:100%}
   .view-button{flex:1}
   body[data-view="shops"] .content-main .view-controls{grid-template-columns:1fr}
-  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:1}
-  body[data-view="shops"] .view-switch{grid-column:1;grid-row:2;justify-self:stretch}
+  body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;justify-self:stretch}
+  body[data-view="shops"] .content-main .view-controls>.shop-search{grid-column:1;grid-row:2}
+  body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;justify-self:start}
 }
 @media(max-width:700px){
   .summary{margin-left:12px;margin-right:12px;min-height:68px}

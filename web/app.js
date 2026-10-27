@@ -83,6 +83,7 @@
     try { localStorage.setItem(storageKey, JSON.stringify([...visibleNames])); } catch { /* file browsing can block storage */ }
     renderChecklist();
     renderCards();
+    renderShops();
     window.dispatchEvent(new Event("maid:visibility-change"));
   }
   $("select-all-shops").addEventListener("click", () => { visibleNames = new Set(availableNames); window.MAID_VISIBLE_SHOPS = visibleNames; saveVisibility(); });
@@ -358,8 +359,9 @@
   $("show-shops").addEventListener("click", () => chooseView("shops"));
   function renderShops() {
     const query = $("shop-search").value.trim().toLocaleLowerCase();
-    const shops = data.shops.filter(shop => `${shop.shop} ${shop.address || ""}`.toLocaleLowerCase().includes(query));
-    $("shops-count").textContent = query ? `${shops.length} / ${data.shops.length} 間店舖` : `全部 ${data.shops.length} 間店舖`;
+    const visibleShops = data.shops.filter(shop => visibleNames.has(shop.shop));
+    const shops = visibleShops.filter(shop => `${shop.shop} ${shop.address || ""}`.toLocaleLowerCase().includes(query));
+    $("shops-count").textContent = query ? `${shops.length} / ${visibleShops.length} 間店舖` : `全部 ${visibleShops.length} 間店舖`;
     $("shop-directory").replaceChildren(...shops.map(shop => HKCI.shopIntro(shop)));
     if (!shops.length) $("shop-directory").append(make("p", "shops-help", "搵唔到符合嘅店舖，試下其他店名或地址。"));
   }

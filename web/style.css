@@ -358,15 +358,28 @@ body[data-view="shops"] .view-switch{grid-column:3;grid-row:1;justify-self:end}
   #matrix-view .matrix-navigation button{width:34px;min-width:34px;height:40px}
 }
 
-/* Keep the navigation, search and shop picker aligned through tablet widths. */
-@media(min-width:701px) and (max-width:900px){
-  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
-    grid-template-columns:auto minmax(120px,1fr) auto;gap:8px
-  }
-  .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:1}
-  .content-main .view-controls>.global-search:not(.shop-search){grid-column:2;grid-row:1;width:100%}
-  .content-main .view-controls>.shop-search{grid-column:2;grid-row:1;width:100%}
-  .content-main .view-controls>.view-switch{grid-column:3;grid-row:1;width:auto;justify-self:end}
+/* All four views share the same three-item responsive control layout. */
+.content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
+  grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center
+}
+.content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:1}
+.content-main .view-controls>.global-search:not(.shop-search),
+.content-main .view-controls>.shop-search{grid-column:2;grid-row:1;width:100%;min-width:0}
+.content-main .view-controls>.view-switch{grid-column:3;grid-row:1;width:auto;justify-self:end}
+body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(0,1fr) auto}
+body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:flex;grid-column:1;grid-row:1}
+body[data-view="shops"] .content-main .view-controls>.shop-search{display:flex;grid-column:2;grid-row:1}
+body[data-view="shops"] .content-main .view-controls>.view-switch{grid-column:3;grid-row:1;justify-self:end}
+@media(max-width:900px) and (min-width:701px){
+  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{grid-template-columns:auto minmax(0,1fr) auto;gap:8px}
   .content-main .view-controls .view-button{padding-left:9px;padding-right:9px;font-size:12px}
-  body[data-view="shops"] .content-main .view-controls{grid-template-columns:auto minmax(120px,1fr) auto}
+}
+@media(max-width:700px){
+  .content-main .view-controls,.sidebar-collapsed .content-main .view-controls{
+    grid-template-columns:minmax(0,1fr);gap:9px
+  }
+  .content-main .view-controls>.view-switch{grid-column:1;grid-row:1;width:100%;justify-self:stretch}
+  .content-main .view-controls>.global-search:not(.shop-search),
+  .content-main .view-controls>.shop-search{grid-column:1;grid-row:2;width:100%}
+  .content-main .view-controls>.sidebar-toggle{grid-column:1;grid-row:3;width:100%;justify-content:center}
 }

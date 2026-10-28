@@ -4024,10 +4024,17 @@ window.MAID_ROSTERS = {
               "咬牙",
               "小困",
               "血血",
-              "龍蝦"
+              "龍蝦",
+              "赤夜",
+              "剎那",
+              "9000"
             ]
           },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
+          "event_name": "萬聖節活動 幽靈聚會",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
         }
       ],
       "unresolved": [
@@ -12627,6 +12634,13 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/kaizoku_2026-10-31_injured_av_idols.webp",
       "source": "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Eidolon",
+      "event_name": "萬聖節活動 幽靈聚會",
+      "image_path": "data/event_images/maid_eidolon_2026-10-31_halloween.jpg",
+      "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
+      "opacity": "0.22"
     }
   ]
 };

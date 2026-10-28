@@ -3847,7 +3847,10 @@ window.MAID_ROSTERS = {
               "momo"
             ]
           },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/De1IVeUzogH/"
+          ]
         },
         {
           "date": "2026-10-22",
@@ -3928,7 +3931,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De1QOEUzlH9/"
           ]
         },
         {
@@ -3996,7 +3999,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De16PcuTQP0/"
           ],
           "person_notes": {
             "reda": "此為店舖開放時間；個人時段未另行列明。",
@@ -4023,7 +4026,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De3NvW6zfTm/"
           ]
         },
         {

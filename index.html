@@ -4,25 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>HKCafeInfo · 香港女僕咖啡店更表</title>
-  <link rel="stylesheet" href="web/style.css?v=20261028-compact-banner">
+  <title>香港MaidCafe當值更表 @hkcafeinfo</title>
+  <link rel="stylesheet" href="web/style.css?v=20261028-maidcafe-header">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-  <script src="data/rosters.js?v=aa36698dd8448ea7" defer></script>
+  <script src="data/rosters.js?v=237c9859cbabff05" defer></script>
   <script src="web/shared.js?v=20261027-mobile-shop-search" defer></script>
-  <script src="web/app.js?v=20261028-carousel" defer></script>
-  <script src="web/matrix.js?v=20261027-toolbar-natural-width" defer></script>
+  <script src="web/app.js?v=20261028-carousel-icons" defer></script>
+  <script src="web/matrix.js?v=20261028-toolbar-wrapped" defer></script>
 </head>
 <body>
   <div class="app-shell">
     <header class="topbar">
-      <a class="brand" href="index.html" aria-label="返回更表首頁"><span class="brand-mark">✦</span><span>HKCafeInfo</span></a>
-      <span class="topbar-note">香港女僕咖啡店更表</span>
+      <a class="brand" href="index.html" aria-label="返回更表首頁"><span class="brand-mark">✦</span><span class="brand-copy"><span class="brand-title">香港MaidCafe當值更表</span></span></a>
+      <a class="topbar-instagram" href="https://www.instagram.com/hkcafeinfo/" target="_blank" rel="noopener noreferrer">@hkcafeinfo</a>
     </header>
 
     <main>
-      <section class="hero" aria-label="香港女僕咖啡店更表介紹" aria-roledescription="輪播">
+      <section class="hero" aria-label="香港MaidCafe當值更表介紹" aria-roledescription="輪播">
         <div class="hero-copy">
           <div class="hero-slides" aria-live="off">
             <div class="hero-slide is-active" role="group" aria-label="1 / 3">
@@ -31,7 +31,7 @@
               <p>一次過睇各店當值名單，再決定今日去邊。</p>
             </div>
             <div class="hero-slide" role="group" aria-label="2 / 3" aria-hidden="true">
-              <span class="eyebrow"><span class="eyebrow-dot"></span>HKCAFEINFO · 香港女僕咖啡店</span>
+              <span class="eyebrow"><span class="eyebrow-dot"></span>HKCAFEINFO · 香港MaidCafe</span>
               <h2 class="hero-slide-title">各店更表，一眼睇晒。</h2>
               <p>按日期睇名單，按人名搵當值，原帖來源隨時核對。</p>
             </div>
@@ -49,12 +49,10 @@
               <button type="button" aria-label="第 3 張：出門之前，睇一睇。" aria-pressed="false" data-hero-slide="2"></button>
             </div>
             <button type="button" id="hero-next" aria-label="下一張 banner">→</button>
-            <button type="button" id="hero-pause" aria-pressed="false">暫停輪播</button>
+            <button type="button" id="hero-pause" aria-label="暫停輪播" aria-pressed="false">Ⅱ</button>
           </div>
           <div class="hero-meta">
             <span id="updated-label">讀取資料中…</span>
-            <span class="meta-divider" aria-hidden="true"></span>
-            <span>時間以香港為準</span>
           </div>
         </div>
         <div class="hero-art hero-logo-collage" id="hero-logos" aria-hidden="true"></div>

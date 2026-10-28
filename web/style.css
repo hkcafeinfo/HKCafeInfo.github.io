@@ -435,6 +435,40 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 #matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}
 
+/* Site identity and compact controls. */
+.topbar{position:sticky;top:0;z-index:50;height:auto;min-height:68px;padding-top:9px;padding-bottom:9px;gap:10px}
+.brand{min-width:0;gap:10px}
+.brand-copy{min-width:0;display:block}
+.brand-title{display:block;font-size:18px;line-height:1.25;letter-spacing:-.03em;overflow-wrap:anywhere}
+.topbar-instagram{flex:0 0 auto;margin-left:auto;color:#6879c5;text-decoration:none;font-size:10px;font-weight:700;white-space:nowrap}
+.topbar-instagram:hover{text-decoration:underline}
+.hero .hero-slide-title{font-size:clamp(34px,4.5vw,62px)}
+.hero .hero-dots button{width:28px;height:22px;padding:7px}
+.hero .hero-dots button:after{width:14px;height:3px;border-radius:3px}
+.hero .hero-dots button[aria-pressed="true"]:after{width:20px}
+.hero .hero-carousel-controls>button{height:22px;min-height:22px;min-width:24px;padding:1px 5px;line-height:1}
+#hero-pause{font-size:12px}
+#card-view .card-range-controls{width:100%;align-items:center}
+#card-view .card-range-controls>.range-toggle{width:100%;flex:1 1 auto}
+#card-view .card-range-controls .range-toggle-button{flex:1 1 0}
+#card-view .card-range-controls .result-count{position:static;flex:0 0 auto;text-align:right;white-space:nowrap}
+.matrix-navigation span,.matrix-cell-foot,.time-badge,.person-time{min-width:0;white-space:normal;overflow-wrap:anywhere}
+.person-tags .person-tag:has(.person-time),.matrix-people .matrix-person:has(.person-time){min-width:0;overflow-wrap:anywhere}
+@media(max-width:700px){
+  .topbar{min-height:60px;padding:8px 16px}
+  .brand{font-size:18px}
+  .brand-title{font-size:16px}
+  .topbar-instagram{font-size:9px}
+  .hero .eyebrow{display:flex}
+  .hero .hero-slide-title{font-size:30px;overflow-wrap:anywhere}
+  .hero p{overflow-wrap:anywhere}
+  .hero-carousel-controls{margin-top:5px}
+  #card-view .card-range-controls{gap:8px}
+  #card-view .card-range-controls .range-toggle-button{min-width:0;padding-left:6px;padding-right:6px;white-space:normal;overflow-wrap:anywhere}
+  #matrix-view .matrix-controls-row.is-wrapped>.matrix-navigation button{height:20px;min-height:20px;width:22px;min-width:22px;padding:0;font-size:13px;border-radius:6px}
+}
+@media(max-width:370px){.hero .hero-slide-title{font-size:30px}}
+
 /* Copy carousel reserves the tallest slide's space to avoid page jumps. */
 .hero-slides{display:grid}
 .hero-slide{grid-area:1/1;visibility:hidden;opacity:0;transition:opacity .3s ease;min-width:0}

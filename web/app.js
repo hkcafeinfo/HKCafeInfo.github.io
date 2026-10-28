@@ -201,7 +201,7 @@
       element.append(group);
       }
     }
-    if (shift.notes) element.append(make("p", "card-note", shift.notes));
+    if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) element.append(make("p", "card-note", shift.notes));
     const foot = make("div", "card-foot");
     foot.append(make("span", "headcount", `${count} 位女僕`));
     const link = sourceLink(shop, shift.source);
@@ -392,7 +392,8 @@
   function schedule() {
     clearInterval(timer);
     if (!paused && !document.hidden && !hero.matches(":hover, :focus-within")) timer = setInterval(() => show(current + 1), 6000);
-    pause.textContent = paused ? "播放輪播" : "暫停輪播";
+    pause.textContent = paused ? "▶" : "Ⅱ";
+    pause.setAttribute("aria-label", paused ? "播放輪播" : "暫停輪播");
     pause.setAttribute("aria-pressed", String(paused));
   }
   function show(index) {

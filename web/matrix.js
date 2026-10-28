@@ -168,7 +168,7 @@
         const link = sourceLink(shop, shift.source);
         if (link) foot.append(link);
         node.append(foot);
-        if (shift.notes) node.append(make("p", "matrix-note", shift.notes));
+        if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) node.append(make("p", "matrix-note", shift.notes));
       } else { node.classList.add("matrix-cell-empty"); node.append(make("span", "matrix-empty-copy", "—")); }
     } else if (unresolved && !state.search) {
       node.classList.add("matrix-cell-pending");

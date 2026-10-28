@@ -203,6 +203,7 @@
     firstRender = false;
     const personMode = Boolean(state.search || state.person);
     document.body.classList.toggle("person-search-mode", personMode && !$("matrix-view").hidden);
+    $("matrix-view").classList.toggle("people-card-view", personMode);
     $("person-back").hidden = !personMode;
     const { shownDates, shops } = visible();
     if (state.search || state.person) {

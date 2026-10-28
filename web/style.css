@@ -424,6 +424,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #matrix-view .matrix-controls-row>.matrix-filter-controls{display:flex;flex:0 0 auto;min-width:0;gap:8px;align-items:center}
 #matrix-view .matrix-filter-controls>.range-toggle,
 #matrix-view .matrix-filter-controls>.axis-switch{display:flex;flex:1 1 auto;width:auto;min-width:0;flex-wrap:nowrap}
+#matrix-view.people-card-view .axis-switch{display:none!important}
 #matrix-view .matrix-filter-controls .range-toggle-button,
 #matrix-view .matrix-filter-controls .axis-button{flex:1 1 auto}
 #matrix-view .matrix-controls-row>.matrix-navigation{width:auto;flex:0 0 auto;max-width:100%;justify-content:flex-start;margin-left:auto}

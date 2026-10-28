@@ -6565,47 +6565,47 @@ window.MAID_ROSTERS = {
             {
               "name": "Hami",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Uri",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "水母",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "絲",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "豆豆",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "骨頭",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
@@ -6647,67 +6647,67 @@ window.MAID_ROSTERS = {
             {
               "name": "Bibi",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Kora",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Nemu",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Rinka",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "小蛾",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Saki",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Sumire",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "企鵝",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "笛子",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "蛋蛋",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De_099_j3HU/",
@@ -23141,12 +23141,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "BIBI": {
-      "person_id": "N_BIBI",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "Bella": {
       "person_id": "N_Bella",
       "profile_image": "",
@@ -23159,16 +23153,10 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "BiBi": {
-      "person_id": "N_BiBi",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "Bibi": {
       "person_id": "N_Bibi",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Bochi": {
@@ -27629,12 +27617,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "bibi": {
-      "person_id": "R_2_ef0ba1bbcfe7",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "糖糖": {
       "person_id": "R_6_c8f55c8c5e89",
       "profile_image": "",
@@ -31196,7 +31178,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "BIBI": {
-        "person_id": "N_BIBI",
+        "person_id": "N_Bibi",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -31371,7 +31353,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "bibi": {
-        "person_id": "R_2_ef0ba1bbcfe7",
+        "person_id": "N_Bibi",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -34381,7 +34363,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "BiBi": {
-        "person_id": "N_BiBi",
+        "person_id": "N_Bibi",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -38975,5 +38957,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:50+08:00"
+  "published_at": "2026-10-29T07:39+08:00"
 };

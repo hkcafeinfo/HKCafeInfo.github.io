@@ -3019,10 +3019,14 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
-            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/",
+            "https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/"
           ],
           "person_notes": {
-            "正子": "店舖時段；個人時段未公布。"
+            "正子": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "正子": "17:00-22:00"
           }
         },
         {

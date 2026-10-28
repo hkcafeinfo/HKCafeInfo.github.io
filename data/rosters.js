@@ -3050,10 +3050,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-30",
           "hours": "17:00-24:00",
           "groups": {
-            "當值": [
+            "駐場ハートびと": [
               "小犬",
               "Kira",
-              "Miyabi",
+              "Miyabi"
+            ],
+            "當值": [
               "卡咩",
               "早早",
               "Neneko",

@@ -28,7 +28,7 @@
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
-  const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null };
+  const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
   let firstRender = true;
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
@@ -99,7 +99,7 @@
   function visible() {
     let shownDates = dates;
     if (state.range !== "all") shownDates = shownDates.filter((date) => date >= today);
-    let shops = data.shops.filter((shop) => state.search || window.MAID_VISIBLE_SHOPS?.has(shop.shop));
+    let shops = data.shops.filter((shop) => state.search || shop.shop === state.focusTarget?.shop || window.MAID_VISIBLE_SHOPS?.has(shop.shop));
     if (state.search && !state.person) {
       shownDates = shownDates.filter((date) => shops.some((shop) => includesPerson(shop, date)));
       shops = shops.filter((shop) => shownDates.some((date) => includesPerson(shop, date)));
@@ -139,6 +139,8 @@
   function cell(shop, date) {
     const node = make("div", "matrix-cell");
     node.setAttribute("role", "cell");
+    node.dataset.shop = shop.shop;
+    node.dataset.date = date;
     const shift = (shop.shifts || []).find((item) => item.date === date);
     const unresolved = (shop.unresolved || []).find((item) => item.date === date);
     if (shift) {
@@ -261,7 +263,19 @@
         const body = make("tbody");
         for (const { shop, shift, attendanceType } of person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date))) {
           const row = make("tr");
-          row.append(make("td", null, shift.date), make("td", null, shop.shop), make("td", null, shift.event_name || "—"), make("td", null, attendanceType));
+          const addJumpCell = (value, label) => {
+            const cell = make("td", "person-roster-jump-cell");
+            const button = make("button", "person-roster-jump", value);
+            button.type = "button";
+            button.setAttribute("aria-label", `在列表查看 ${shift.date} ${shop.shop} ${label}`);
+            button.addEventListener("click", () => jumpToRosterCell(shop.shop, shift.date));
+            cell.append(button);
+            row.append(cell);
+          };
+          addJumpCell(shift.date, "日期");
+          addJumpCell(shop.shop, "店舖");
+          addJumpCell(shift.event_name || "—", "活動");
+          addJumpCell(attendanceType, "類型");
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";
           row.append(source); body.append(row);
         }
@@ -313,6 +327,36 @@
     $("scroll-hint").textContent = state.across === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
     viewport.scrollLeft = previousScroll;
     sticky.replaceChildren(); updateSticky();
+  }
+  function jumpToRosterCell(shop, date) {
+    state.person = null;
+    state.search = "";
+    state.range = "all";
+    state.across = "dates";
+    state.focusTarget = { shop, date };
+    $("name-search").value = "";
+    persist();
+    window.dispatchEvent(new Event("hkcafeinfo:show-matrix"));
+    render();
+    requestAnimationFrame(() => {
+      const target = [...matrix.querySelectorAll(".matrix-cell")].find((item) => item.dataset.shop === shop && item.dataset.date === date);
+      if (!target) return;
+      const viewportBounds = viewport.getBoundingClientRect();
+      const cellBounds = target.getBoundingClientRect();
+      const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
+      viewport.scrollTo({
+        left: viewport.scrollLeft + cellBounds.left - viewportBounds.left - rowLabelWidth,
+        behavior: "smooth",
+      });
+      const headerHeight = matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0;
+      const topbarHeight = document.querySelector(".topbar")?.getBoundingClientRect().height || 0;
+      window.scrollTo({
+        top: window.scrollY + cellBounds.top - topbarHeight - headerHeight - 12,
+        behavior: "smooth",
+      });
+      target.classList.add("matrix-cell-focused");
+      window.setTimeout(() => target.classList.remove("matrix-cell-focused"), 1800);
+    });
   }
   function setAcross(value) {
     state.across = value;

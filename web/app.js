@@ -391,6 +391,7 @@
   $("show-matrix").addEventListener("click", () => chooseView("matrix"));
   $("show-people").addEventListener("click", () => chooseView("people"));
   $("show-shops").addEventListener("click", () => chooseView("shops"));
+  window.addEventListener("hkcafeinfo:show-matrix", () => showView("matrix"));
   function renderShops() {
     const query = $("shop-search").value.trim().toLocaleLowerCase();
     const visibleShops = data.shops.filter(shop => visibleNames.has(shop.shop));

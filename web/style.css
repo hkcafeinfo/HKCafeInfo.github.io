@@ -560,6 +560,13 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .person-card .person-results th:nth-child(5),.person-card .person-results td:nth-child(5){width:8%;padding-inline:3px}
 @media(max-width:700px){.people-shop-items{gap:7px}.person-card .person-results th,.person-card .person-results td{font-size:9px;padding:6px 3px}}
 
+/* Person history values jump back to the matching schedule cell. */
+.person-roster-jump-cell{padding:0!important}
+.person-roster-jump{display:block;width:100%;height:100%;min-height:32px;padding:6px 4px;border:0;background:transparent;color:inherit;text-align:inherit;font:inherit;line-height:inherit;overflow-wrap:anywhere;cursor:pointer}
+.person-roster-jump:hover{text-decoration:underline;text-decoration-color:#7383c4;text-underline-offset:3px}
+.person-roster-jump:focus-visible{outline:2px solid #6578cb;outline-offset:-2px;border-radius:4px}
+.matrix-cell-focused{position:relative;z-index:1;outline:3px solid #7384d1;outline-offset:-3px;background-color:#f0f3ff!important;transition:background-color .2s ease}
+
 /* The daily-roster range switch uses only the width of its labels. */
 #card-view .card-range-controls{width:100%;flex:1 1 auto}
 #card-view .card-range-controls>.range-toggle{width:max-content;flex:0 0 auto}

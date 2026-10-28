@@ -11,7 +11,7 @@ window.MAID_ROSTERS = {
       "address": "旺角通菜街8號1樓",
       "address_source": "https://www.instagram.com/maid_academy/",
       "profile_image": "data/profile_images/shops/maid_academy.jpg",
-      "opening_hours": "星期一至五 17:00–22:00\n星期六日及公眾假期 17:00–22:00",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
       "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
@@ -3175,7 +3175,7 @@ window.MAID_ROSTERS = {
       "address": "旺角彌敦道646號陶德大廈3樓",
       "address_source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
       "profile_image": "data/profile_images/shops/deardevil_maid.jpg",
-      "opening_hours": "星期一至五 18:00–23:00\n星期六日及公眾假期 17:00–23:00",
+      "opening_hours": "星期一至五 18:00–23:00\n星期六、日及公眾假期 17:00–23:00",
       "opening_hours_source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
       "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
@@ -4264,7 +4264,7 @@ window.MAID_ROSTERS = {
       "address": "旺角亞皆老街2C號啟如商業大廈20樓全層",
       "address_source": "https://www.instagram.com/cosplace_cafe/",
       "profile_image": "data/profile_images/shops/cosplace_cafe.jpg",
-      "opening_hours": "星期一至五 17:00–22:00\n星期六日及公眾假期 17:00–22:00",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
       "opening_hours_checked_at": "2026-10-26",
       "default_visible": true,
@@ -6016,7 +6016,7 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街聯興大廈11樓88室",
       "address_source": "https://www.instagram.com/themanorcafe/",
       "profile_image": "data/profile_images/shops/themanorcafe.jpg",
-      "opening_hours": "星期一至五 17:00–22:00\n星期六日及公眾假期 15:00–22:00",
+      "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
       "opening_hours_checked_at": "2026-10-26",
       "default_visible": false,
@@ -12842,5 +12842,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T19:56+08:00"
+  "published_at": "2026-10-28T20:00+08:00"
 };

@@ -313,12 +313,15 @@
   });
   const people = new Map();
   for (const shop of data.shops) for (const shift of shop.shifts || []) {
-    for (const names of Object.values(shift.groups || {})) for (const name of names) {
+    for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
       const key = HKCI.identityKey(data, shop.shop, name);
-      const record = people.get(key) || { name, shop: shop.shop, dates: new Set(), shops: new Set() };
+      const record = people.get(key) || { name, shops: new Map() };
       if (record.name === record.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) record.name = name;
-      record.dates.add(shift.date);
-      record.shops.add(shop.shop);
+      const appearance = record.shops.get(shop.shop) || { name, hasDuty: false };
+      if (appearance.name === appearance.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) appearance.name = name;
+      const attendance = shift.attendance_records?.find((item) => item.name === name && item.role === role)?.type || "當值";
+      if (attendance === "當值") appearance.hasDuty = true;
+      record.shops.set(shop.shop, appearance);
       people.set(key, record);
     }
   }
@@ -326,17 +329,37 @@
     const list = $("people-list");
     list.replaceChildren();
     const sorted = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
-    for (const person of sorted) {
-      const item = make("div", "people-item");
-      const nameButton = make("button", "people-name", HKCI.displayName(person.name));
-      nameButton.type = "button";
-      item.append(nameButton);
-      nameButton.addEventListener("click", () => {
-        window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: person.shop, name: person.name } }));
-        window.scrollTo({ top: $("matrix-view").offsetTop - 30, behavior: "smooth" });
+    const appendGroup = (title, entries, shopName) => {
+      if (!entries.length) return;
+      const section = make("section", "people-shop-group");
+      const heading = make("h3", "people-shop-heading", `${title} · ${entries.length}`);
+      const items = make("div", "people-shop-items");
+      for (const { person, name } of entries) {
+        const item = make("div", "people-item");
+        const nameButton = make("button", "people-name", HKCI.displayName(name));
+        nameButton.type = "button";
+        item.append(nameButton);
+        nameButton.addEventListener("click", () => {
+          const appearance = shopName && person.shops.get(shopName);
+          const homeShop = shopName || person.shops.keys().next().value;
+          window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: homeShop, name: appearance?.name || name } }));
+          window.scrollTo({ top: $("matrix-view").offsetTop - 30, behavior: "smooth" });
+        });
+        items.append(item);
+      }
+      section.append(heading, items);
+      list.append(section);
+    };
+    for (const shop of data.shops) {
+      const members = sorted.flatMap((person) => {
+        const appearance = person.shops.get(shop.shop);
+        return appearance?.hasDuty ? [{ person, name: appearance.name }] : [];
       });
-      list.append(item);
+      appendGroup(shop.shop, members, shop.shop);
     }
+    const unassigned = sorted.filter((person) => ![...person.shops.values()].some((appearance) => appearance.hasDuty))
+      .map((person) => ({ person, name: person.name }));
+    appendGroup("限定暫無所屬", unassigned, null);
     $("people-count").textContent = `${sorted.length} 位女僕`;
   }
   function showView(mode) {

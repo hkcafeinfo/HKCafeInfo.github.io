@@ -211,14 +211,17 @@
       const groups = new Map();
       for (const shop of data.shops) for (const shift of shop.shifts || []) {
         if (state.range !== "all" && shift.date < today) continue;
-        for (const names of Object.values(shift.groups || {})) for (const name of names) {
+        for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
           if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) continue;
           const key = HKCI.identityKey(data, shop.shop, name);
           if (!groups.has(key)) groups.set(key, { shop, name, shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
           groups.get(key).shops.add(shop.shop);
-          if (!groups.get(key).shifts.some((item) => item.shop.shop === shop.shop && item.shift === shift)) groups.get(key).shifts.push({ shop, shift });
+          const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
+          if (!groups.get(key).shifts.some((item) => item.shop.shop === shop.shop && item.shift === shift && item.role === role)) {
+            groups.get(key).shifts.push({ shop, shift, role, attendanceType: attendance?.type || "當值" });
+          }
         }
       }
       const list = make("div", "person-card-list");
@@ -252,12 +255,12 @@
         top.append(report); card.append(top);
         const table = make("table", "person-results");
         const head = make("thead"), headings = make("tr");
-        for (const label of ["日期", "店舖", "Event", "來源"]) headings.append(make("th", null, label));
+        for (const label of ["日期", "店舖", "Event", "當值類型", "來源"]) headings.append(make("th", null, label));
         head.append(headings); table.append(head);
         const body = make("tbody");
-        for (const { shop, shift } of person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date))) {
+        for (const { shop, shift, attendanceType } of person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date))) {
           const row = make("tr");
-          row.append(make("td", null, shift.date), make("td", null, shop.shop), make("td", null, shift.event_name || "—"));
+          row.append(make("td", null, shift.date), make("td", null, shop.shop), make("td", null, shift.event_name || "—"), make("td", null, attendanceType));
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) source.append(link); else source.textContent = "—";
           row.append(source); body.append(row);
         }

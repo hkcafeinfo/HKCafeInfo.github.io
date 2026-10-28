@@ -25,6 +25,33 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "YY",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "靈兒",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
@@ -45,6 +72,58 @@ window.MAID_ROSTERS = {
               "笛子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "akana",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "chika",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "domo",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "kanon",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "kokona",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "rena",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "soy",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "千羽",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "活動出席花嫁",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeEjkdeTPsZ/",
           "event_name": "地獄の結婚式💍運命の赤い糸🩸"
         },
@@ -64,6 +143,43 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Qb",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoru",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "瑠貓",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
@@ -86,6 +202,58 @@ window.MAID_ROSTERS = {
               "Kokona"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ayana",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "冬瓜",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "真奈",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "阿毛",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "靈兒",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
@@ -107,6 +275,53 @@ window.MAID_ROSTERS = {
               "Haruka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiu",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Kora",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小酒",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "悠悠",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Haruka",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
@@ -123,6 +338,28 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ayana",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "瑠貓",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
           "event_name": "Halloween活動周"
         },
@@ -146,6 +383,53 @@ window.MAID_ROSTERS = {
               "Haruka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hakuno",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "瑠貓",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Mahiru",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Qubi",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "斯洛",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Haruka",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周"
         },
@@ -166,6 +450,38 @@ window.MAID_ROSTERS = {
               "Kokona"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Kiu",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "冬瓜",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周"
         },
@@ -189,6 +505,53 @@ window.MAID_ROSTERS = {
               "ぴこ"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hani",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Koa",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小酒",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "悠悠",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "斯洛",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "ぴこ",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周",
           "person_notes": {
@@ -217,6 +580,53 @@ window.MAID_ROSTERS = {
               "笛子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "501小白",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mori",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Natsumi",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "あかな",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "ども",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "はるか",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "冬瓜",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "桃井プイ",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "私人活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/",
           "event_name": "一泊ですけど、服はこれだけですか？"
         },
@@ -243,6 +653,58 @@ window.MAID_ROSTERS = {
               "小白"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ayana",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoru",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Kiu",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "冬瓜",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "小白",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周",
           "person_notes": {
@@ -271,6 +733,43 @@ window.MAID_ROSTERS = {
               "藍可奇"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Rainy",
+              "role": "生誕主角",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Bby",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ikuya",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小泉",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "津津",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "薑餅",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "藍可奇",
+              "role": "邀請嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeGwbs4vVIy/",
           "event_name": "Rainy 生誕祭",
           "person_notes": {
@@ -298,6 +797,33 @@ window.MAID_ROSTERS = {
               "小六"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "ゆこ",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "瑠貓",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "風花",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Lam",
+              "role": "女僕研習生",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
           "event_name": "Halloween活動周"
         },
@@ -318,6 +844,38 @@ window.MAID_ROSTERS = {
               "Snow"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "靈兒",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Snow",
+              "role": "女僕研習生",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
           "event_name": "Halloween活動周"
         },
@@ -340,6 +898,68 @@ window.MAID_ROSTERS = {
               "茶鬼"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hani",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ichiri",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Koharu",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kuma",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Nemui",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "七月",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "冬瓜",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "冰冰",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "津",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "牙毛",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "茶鬼",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/amai_kumo._/p/DebN43Ombo1/",
           "event_name": "青い記憶・青春の誓い",
           "alternate_sources": [
@@ -366,6 +986,53 @@ window.MAID_ROSTERS = {
               "Piko"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值"
+            },
+            {
+              "name": "靈兒",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Mahiru",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Hime",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "悠悠",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "Piko",
+              "role": "女僕研習生",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
           "event_name": "Halloween活動周"
         },
@@ -391,6 +1058,73 @@ window.MAID_ROSTERS = {
               "芊月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sofu",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "emon",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "冰冰",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "向日葵",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "真奈",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "維莉",
+              "role": "一期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mori",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Qubi",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "千靈",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小喬",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "巴龍",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "斯洛",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "芊月",
+              "role": "二期生",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/astraworkshk/p/Dexlwo4H6G3/",
           "event_name": "Maid Academy Reunion SP",
           "alternate_sources": [
@@ -418,6 +1152,58 @@ window.MAID_ROSTERS = {
               "貓貓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小小牛",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奶糖",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "霧切 きり",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "星奈",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "桐桐",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sakura",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小西",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "佩佩",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "津津",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "貓貓",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/De6NUqCRMqj/",
           "event_name": "小小牛2026生蛋",
           "alternate_sources": [
@@ -440,6 +1226,43 @@ window.MAID_ROSTERS = {
               "詩雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Miya",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "靈兒",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值"
+            },
+            {
+              "name": "小酒",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "ゆこ",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值"
+            },
+            {
+              "name": "詩雨",
+              "role": "女僕研習生",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
           "event_name": "Halloween活動周"
         },
@@ -459,6 +1282,53 @@ window.MAID_ROSTERS = {
               "Shiro"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Azusa",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Bottle",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Fuyuki",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Haruka",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ice",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kiu",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Nagisa",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sayu",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Shiro",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/ft1me.act/p/DeZiG1jvEGk/",
           "event_name": "Kiu 女僕五周年紀念活動《修女x悪魔》"
         },
@@ -470,6 +1340,13 @@ window.MAID_ROSTERS = {
               "aeri"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "aeri",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/De_UgL7RH_8/",
           "person_notes": {
             "aeri": "個人時段：18:00-22:00"
@@ -495,6 +1372,53 @@ window.MAID_ROSTERS = {
               "靈兒"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cyan",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "一夕",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Itsu",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Koma",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Roro",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yako",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rue",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Shimo",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "靈兒",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/",
           "event_name": "Pink Eclipse 2026 生誕祭",
           "person_notes": {
@@ -528,6 +1452,13 @@ window.MAID_ROSTERS = {
               "夜煌"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "夜煌",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/De_UhoDR3rV/",
           "person_notes": {
             "夜煌": "個人時段：18:00-22:00"
@@ -545,6 +1476,13 @@ window.MAID_ROSTERS = {
               "呆呆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "呆呆",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/Dev0PyLRfOc/",
           "person_notes": {
             "呆呆": "個人時段：18:00-22:00"
@@ -562,6 +1500,13 @@ window.MAID_ROSTERS = {
               "瑤瑤"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "瑤瑤",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/Dev0OkmR9jB/",
           "person_notes": {
             "瑤瑤": "個人時段：17:30-22:00"
@@ -580,6 +1525,18 @@ window.MAID_ROSTERS = {
               "小萌"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小扇",
+              "role": "限定學妹",
+              "type": "限定"
+            },
+            {
+              "name": "小萌",
+              "role": "限定學妹",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_academy/p/DeuXTldTWIo/",
           "person_notes": {
             "小扇": "個人時段：17:00-22:00",
@@ -638,6 +1595,33 @@ window.MAID_ROSTERS = {
               "棉花"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
@@ -660,6 +1644,53 @@ window.MAID_ROSTERS = {
               "Saaya"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Rubi",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Saaya",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
@@ -686,6 +1717,73 @@ window.MAID_ROSTERS = {
               "Chocolate"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cream",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "什幽",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "小堇",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Chocolate",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
@@ -703,6 +1801,38 @@ window.MAID_ROSTERS = {
               "毛毛"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "露露",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Lia",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Tia",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "企鵝",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "毛毛",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
@@ -727,6 +1857,63 @@ window.MAID_ROSTERS = {
               "阿月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "千羽",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "堯堯",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "悠依",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Raku",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "相沫",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "阿月",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
           "event_name": "桃奈生誕當值"
         },
@@ -754,6 +1941,73 @@ window.MAID_ROSTERS = {
               "Julie"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cream",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ikuya",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "堯堯",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Bonnie",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Qquie",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小堇",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ame",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Haru",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Haruna",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Julie",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
           "event_name": "💘あなたに愛されるウサギになりたい 🐰垂耳兔ev 💘"
         },
@@ -777,6 +2031,63 @@ window.MAID_ROSTERS = {
               "蚊蚊"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小嘉",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "川",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Bibi",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "喵璃",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
         },
         {
@@ -801,6 +2112,63 @@ window.MAID_ROSTERS = {
               "小鉛梓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "MOKA",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "什幽",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "機8喵",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "BIBI",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "AME",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "AYU",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "小鉛梓",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
@@ -823,6 +2191,48 @@ window.MAID_ROSTERS = {
               "毛毛"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "RAKU",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "毛毛",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
@@ -846,6 +2256,53 @@ window.MAID_ROSTERS = {
               "蜜蜜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "CREAM",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "MOKA",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "BIBI",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "毛毛",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "蜜蜜",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
@@ -865,6 +2322,33 @@ window.MAID_ROSTERS = {
               "MIYA"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "CREAM",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "MIYA",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
@@ -891,6 +2375,58 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "DORA",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "LILY",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "綠茶",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "MIYABI",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "企鵝",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小堇",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "咲月",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "小欣",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
@@ -918,6 +2454,63 @@ window.MAID_ROSTERS = {
               "懵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "YUZU",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "布布",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "阿敏",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "心心",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "MIDORIN",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "WIFI",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "懵",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "喵璃",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "event_name": "Yuzu Birthday Party",
           "alternate_sources": [
@@ -946,6 +2539,68 @@ window.MAID_ROSTERS = {
               "蚊蚊"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "棉花",
+              "role": "生誕主角",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ikuya",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rubi",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Tio",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "bibi",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "mikari",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "yaya",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "可奇",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小堇",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DenulJZTRbI/",
           "event_name": "棉花2026誕生祭・西方世界"
         },
@@ -965,6 +2620,43 @@ window.MAID_ROSTERS = {
               "星星"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "露露",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
@@ -988,6 +2680,53 @@ window.MAID_ROSTERS = {
               "柔柔"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Bibi",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Miya",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "企鵝",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
@@ -1012,6 +2751,58 @@ window.MAID_ROSTERS = {
               "蜜蜜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cream",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Izumi",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Yaki",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Bibi",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "蜜蜜",
+              "role": "當值護士",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
@@ -1037,6 +2828,53 @@ window.MAID_ROSTERS = {
               "Vivi"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cream",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "小堇",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值"
+            },
+            {
+              "name": "Ame",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Chocolate",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Vivi",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
@@ -1063,6 +2901,58 @@ window.MAID_ROSTERS = {
               "Shiori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hana",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yaki",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Bibi",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Hikaru",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rinki",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mirai",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Miyuki",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Noki",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Shiori",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "event_name": "Rinki生誕當值",
           "alternate_sources": [
@@ -1094,6 +2984,78 @@ window.MAID_ROSTERS = {
               "蛋蛋"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "千羽",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "悠依",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "桃奈",
+              "role": "新生護士",
+              "type": "當值"
+            },
+            {
+              "name": "Bonnie",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "企鵝",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "喵璃",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小堇",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "心心",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "星星",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "毛毛",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Nyanko",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Sumire",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "event_name": "Halloween Party",
           "alternate_sources": [
@@ -1120,6 +3082,53 @@ window.MAID_ROSTERS = {
               "Saaya"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moka",
+              "role": "新生護士",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rubi",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "棉花",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "笛子",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kuma",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Ruri",
+              "role": "限定護士",
+              "type": "限定"
+            },
+            {
+              "name": "Saaya",
+              "role": "限定護士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "event_name": "Rubi生誕當值",
           "alternate_sources": [
@@ -1140,6 +3149,43 @@ window.MAID_ROSTERS = {
               "@manju_alive"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "@candy_pang",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@ch_afork_tsz",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@cotton_ouo2",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@j.y.w.t",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@la.ra.lara",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@leomangojaii",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@manju_alive",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
           "event_name": "羊誕祭"
         }
@@ -1189,6 +3235,38 @@ window.MAID_ROSTERS = {
               "笛子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kuro",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "てお",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Sake",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
         },
         {
@@ -1212,6 +3290,38 @@ window.MAID_ROSTERS = {
               "芯宇"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "冬瓜",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "Riki",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "梓叔",
+              "role": "正式修士",
+              "type": "當值"
+            },
+            {
+              "name": "Nezumi鼠",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Sirius",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "芯宇",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1236,6 +3346,33 @@ window.MAID_ROSTERS = {
               "小喬"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hina",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "ムギ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "小喬",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1263,6 +3400,38 @@ window.MAID_ROSTERS = {
               "白菜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Riki",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Nekona",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "千秋",
+              "role": "資深修士",
+              "type": "當值"
+            },
+            {
+              "name": "Luna",
+              "role": "限定修士",
+              "type": "限定"
+            },
+            {
+              "name": "白菜",
+              "role": "限定修士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1286,6 +3455,38 @@ window.MAID_ROSTERS = {
               "零治"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "小奈",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "雪喵",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "詩雨",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "零治",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1310,6 +3511,33 @@ window.MAID_ROSTERS = {
               "落星"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Riki",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "小奈",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "雪喵",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Miru",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "落星",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1337,6 +3565,48 @@ window.MAID_ROSTERS = {
               "Rei"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "布丁",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Toto",
+              "role": "正式修士",
+              "type": "當值"
+            },
+            {
+              "name": "安晚",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "紗璉",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "艾歌",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Megu",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "Nami",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "Rei",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1359,6 +3629,33 @@ window.MAID_ROSTERS = {
               "TNT"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hina",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "Mizuka",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Haruna",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "TNT",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1384,6 +3681,33 @@ window.MAID_ROSTERS = {
               "Moa"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Cheese",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "裘裘",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Moa",
+              "role": "限定修士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1410,6 +3734,38 @@ window.MAID_ROSTERS = {
               "Reii"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "黑井",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "Mizuka",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Nezumi鼠",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Julie",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "Reii",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1435,6 +3791,38 @@ window.MAID_ROSTERS = {
               "柔柔"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "ムギ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "柔柔",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1469,6 +3857,38 @@ window.MAID_ROSTERS = {
               "真奈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "千秋",
+              "role": "資深修士",
+              "type": "當值"
+            },
+            {
+              "name": "Nazuna",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "真奈",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "小奈",
+              "role": "資深修女",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1501,6 +3921,48 @@ window.MAID_ROSTERS = {
               "紗璉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ina",
+              "role": "限定甜品",
+              "type": "限定"
+            },
+            {
+              "name": "Sai",
+              "role": "甜品",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Toto",
+              "role": "甜品",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "安晚",
+              "role": "甜品",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "梓叔",
+              "role": "甜品",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "紗璉",
+              "role": "甜品",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sayori",
+              "role": "限定甜品",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "梓叔入院一週年·スイーツ天国",
           "alternate_sources": [
@@ -1544,6 +4006,33 @@ window.MAID_ROSTERS = {
               "詩弦"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "めめ",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "布丁",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Nezumi鼠",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "ムギ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "詩弦",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1576,6 +4065,38 @@ window.MAID_ROSTERS = {
               "YK"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "提提",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "裘裘",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "雪喵",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "NingNing",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "YK",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1611,6 +4132,33 @@ window.MAID_ROSTERS = {
               "風藍"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "梓叔",
+              "role": "正式修士",
+              "type": "當值"
+            },
+            {
+              "name": "黑井",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "風藍",
+              "role": "限定修士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1639,6 +4187,43 @@ window.MAID_ROSTERS = {
               "鏡雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yukimi",
+              "role": "實習修士",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "千秋",
+              "role": "資深修士",
+              "type": "當值"
+            },
+            {
+              "name": "小奈",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Kola",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "藍南",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "鏡雨",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1679,6 +4264,48 @@ window.MAID_ROSTERS = {
               "NØNNØ"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "安晚",
+              "role": "Nurse",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Itsu",
+              "role": "限定Dr.",
+              "type": "限定"
+            },
+            {
+              "name": "Mugi",
+              "role": "Nurse",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Natsumi",
+              "role": "限定Nurse",
+              "type": "限定"
+            },
+            {
+              "name": "Sai",
+              "role": "Head Nurse",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sayori",
+              "role": "限定Nurse",
+              "type": "限定"
+            },
+            {
+              "name": "Uka",
+              "role": "Nurse",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "廚娘",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "ELYSIUM ASYLUM : PATIENT ADMISSION",
           "alternate_sources": [
@@ -1724,6 +4351,33 @@ window.MAID_ROSTERS = {
               "Haruna"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "てお",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Mio",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Haruna",
+              "role": "限定修士",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1758,6 +4412,38 @@ window.MAID_ROSTERS = {
               "月月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Riki",
+              "role": "實習修女",
+              "type": "當值"
+            },
+            {
+              "name": "小奈",
+              "role": "廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Cheese",
+              "role": "正式修女",
+              "type": "當值"
+            },
+            {
+              "name": "Mizuka",
+              "role": "資深修女",
+              "type": "當值"
+            },
+            {
+              "name": "Miru",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "月月",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
@@ -1782,6 +4468,18 @@ window.MAID_ROSTERS = {
               "Toffee"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "玄幽",
+              "role": "限定修女",
+              "type": "限定"
+            },
+            {
+              "name": "Toffee",
+              "role": "限定修女",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DfAGXDtiT9k/",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DfAGObUiY6E/"
@@ -1835,6 +4533,68 @@ window.MAID_ROSTERS = {
               "青蛙"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "okk",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Pikachu",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "Usari",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Yuri",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "青蛙",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
         },
         {
@@ -1855,6 +4615,43 @@ window.MAID_ROSTERS = {
               "朱古力"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "昭子",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "okk",
+              "role": "當值精靈兼花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "朱古力",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
         },
         {
@@ -1880,6 +4677,68 @@ window.MAID_ROSTERS = {
               "Suz"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "P4",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Uri",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Yumi",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小眠",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小蛾",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈兼花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "Kumimi",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Suz",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
         },
         {
@@ -1908,6 +4767,83 @@ window.MAID_ROSTERS = {
               "KiuKiu"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "P4",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rizuko",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Uri",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "奶昔",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "細rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "魚骨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Pikachu",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "KiuKiu",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
         },
         {
@@ -1935,6 +4871,78 @@ window.MAID_ROSTERS = {
               "紫音"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "KK",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rei",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Yume",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小狐狸",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小蛾",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "留多晚",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "當值精靈兼花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "吱吱",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "小鴨",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "紫音",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
         },
         {
@@ -1956,6 +4964,58 @@ window.MAID_ROSTERS = {
               "Pikachu"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hani",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Keiko",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rinka",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yuki",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "呆呆",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小睡",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "留多晚",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "雪",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "魚骨",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Pikachu",
+              "role": "花園守護",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
           "event_name": "惡魔生誕派對",
           "alternate_sources": [
@@ -1999,6 +5059,83 @@ window.MAID_ROSTERS = {
               "絲"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Szyiu",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "URI",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yume",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "咩咩",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奶昔",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "幼幼",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "昭子",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "水母",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "洛希",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "豆豆",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "阿月",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "骨頭",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "魚骨",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "絲",
+              "role": "活動出席精靈兼花園守護",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
           "event_name": "戀上換裝精靈"
         },
@@ -2023,6 +5160,58 @@ window.MAID_ROSTERS = {
               "碌柚葉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aiya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "P4",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "千暮雪",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "細rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "Toua",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "碌柚葉",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
         },
         {
@@ -2043,6 +5232,53 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "suu",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "奶昔",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
         },
         {
@@ -2070,6 +5306,78 @@ window.MAID_ROSTERS = {
               "蚊蚊"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Lori",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "aya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
           "alternate_sources": [
             "https://www.instagram.com/agarden_2001/p/DewXZBNPybC/"
@@ -2089,6 +5397,33 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "P4",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小眠",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
         },
         {
@@ -2116,6 +5451,78 @@ window.MAID_ROSTERS = {
               "zoe"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rizuko",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "千暮雪",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小眠",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "彌亞",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "托比",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "留多晚",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "細rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "BiBi",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "zoe",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
         },
         {
@@ -2145,6 +5552,88 @@ window.MAID_ROSTERS = {
               "魷魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aiya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "KK",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rei",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Yume",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "hain",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小音",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "留多晚",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "魚骨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Pikachu",
+              "role": "花園守護",
+              "type": "當值"
+            },
+            {
+              "name": "Rua",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "kaka",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "丑",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "魷魚",
+              "role": "限定精靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
         },
         {
@@ -2176,6 +5665,108 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Cherry",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Hami",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Lori",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "RINKA",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sumire",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Szyiu",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Uri",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "okk",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奶昔",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "幼幼",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "托比",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "昭子",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "水母",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "絲",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "豆豆",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "P4",
+              "role": "當日出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
           "event_name": "AG 1st Anniversary × Upper Mansion：Dark Elegance 哥德夢幻週年派對",
           "alternate_sources": [
@@ -2221,6 +5812,48 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Szyiu",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "okk",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "千夏",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "魚骨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Ringo",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
         },
         {
@@ -2244,6 +5877,58 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "kiukiu",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Kayla",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
         },
         {
@@ -2270,6 +5955,73 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "昭子",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "細rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "羽琉那",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Kuri",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Tia",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Lia",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "alternate_sources": [
             "https://www.instagram.com/agarden_2001/p/De82JZovFEF/"
@@ -2302,6 +6054,73 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "奶昔",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "okk",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "細rinka",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "羽琉那",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rei",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "uu",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "zoe",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "alternate_sources": [
             "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/"
@@ -2336,6 +6155,98 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Lori",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奶昔",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rinka",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Uri",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "KK",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "千暮雪",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "留多晚",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "乳酪",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "鏡",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "小璃",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行",
           "alternate_sources": [
@@ -2372,6 +6283,103 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "昭子",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "KK",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yumi",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rei",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "貓貓",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "咩咩",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小音",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Aiya",
+              "role": "當值精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "荔枝",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Toua",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "碌柚葉",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "小堇",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "BiBi",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "阿廚",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
         },
@@ -2401,6 +6409,83 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "aya",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Hecate",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿雪",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小眠",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "魚骨",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rizuko",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Haruna",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Yumi",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿P",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "茶熊",
+              "role": "限定精靈",
+              "type": "限定"
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
         },
         {
@@ -2417,6 +6502,43 @@ window.MAID_ROSTERS = {
               "鴨鴨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "P4",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "szyiu",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奶昔",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "幼幼",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "昭子",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "絲",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DerCCV1vGat/",
           "event_name": "極致優雅，暗夜浪漫"
         },
@@ -2436,6 +6558,53 @@ window.MAID_ROSTERS = {
               "鴨鴨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hami",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Uri",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "奶昔",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "水母",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "絲",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "骨頭",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "活動出席精靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
           "event_name": "想你的話...你會出現嗎？",
           "person_notes": {
@@ -2471,6 +6640,73 @@ window.MAID_ROSTERS = {
               "鴨鴨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Bibi",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Kora",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Nemu",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Rinka",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "小蛾",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Sumire",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "企鵝",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "奶昔",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "幼幼",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "笛子",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "蛋蛋",
+              "role": "活動出席精靈",
+              "type": "當值"
+            },
+            {
+              "name": "鴨鴨",
+              "role": "活動出席精靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/agarden_2001/p/De_099_j3HU/",
           "event_name": "風紀紊乱！？不良JKを徹底指導！",
           "alternate_sources": [
@@ -2526,6 +6762,48 @@ window.MAID_ROSTERS = {
               "咩咩"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "妹子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小千",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "青鳥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "黑猫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "半眠",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "咔咪咪",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "咩咩",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeRRn7FiL0D/"
         },
         {
@@ -2554,6 +6832,83 @@ window.MAID_ROSTERS = {
               "Sui"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kkuma",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Koyuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mia",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "千歲",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小雫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "栗子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "珊瑚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "綾舞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "萌妃",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "西秀",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Eru",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "Sui",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
         },
         {
@@ -2575,6 +6930,48 @@ window.MAID_ROSTERS = {
               "Kayla"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "奈亞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小汐",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "玥玥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "秋雨",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yui",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "狐宵赤夜",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kayla",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
         },
         {
@@ -2594,6 +6991,48 @@ window.MAID_ROSTERS = {
               "魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "味醂",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "奈亞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "頌仔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "新生人偶",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
         },
         {
@@ -2612,6 +7051,43 @@ window.MAID_ROSTERS = {
               "雅子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yuka",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "淘淘",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "秋雨",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "綾舞",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "雅子",
+              "role": "新生人偶",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/",
           "event_name": "綾舞5周年"
         },
@@ -2632,6 +7108,48 @@ window.MAID_ROSTERS = {
               "喂魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "奈亞",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小雫",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "盈盈",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "虎徹",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "西秀",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mugi",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "バカ喵",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "喂魚",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/",
           "event_name": "魔法少女ノ魔女裁判 cosplay event"
         },
@@ -2651,6 +7169,53 @@ window.MAID_ROSTERS = {
               "魚魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kkuma",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mia",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "栗子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "犬憂",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "狐宵赤夜",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "蘿蔔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "魚魚",
+              "role": "女僕人偶",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/"
         },
         {
@@ -2668,6 +7233,38 @@ window.MAID_ROSTERS = {
               "雅子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kkuma",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "秋雨",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "蘿蔔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "魚魚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "雅子",
+              "role": "新生人偶",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
         },
         {
@@ -2689,6 +7286,48 @@ window.MAID_ROSTERS = {
               "阿廚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Koyuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "四月兔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "珊瑚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "阿廚",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
         },
         {
@@ -2709,6 +7348,53 @@ window.MAID_ROSTERS = {
               "小倩"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Hima",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小汐",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小倩",
+              "role": "新生人偶",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/",
           "event_name": "萬聖節活動"
         },
@@ -2733,6 +7419,58 @@ window.MAID_ROSTERS = {
               "七月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Cherry",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "奈亞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "憂",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "犬憂",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "綾舞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "蘿蔔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kuma",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "七月",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
         },
         {
@@ -2755,6 +7493,63 @@ window.MAID_ROSTERS = {
               "魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yuika",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小樹",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小汐",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "憂",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "玥玥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "青鳥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "雅子",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "新生人偶",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
         },
         {
@@ -2780,6 +7575,78 @@ window.MAID_ROSTERS = {
               "霜月ゆい"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Air",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kkuma",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mia",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "栗子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "珊瑚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "頌仔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "天宮やお",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "櫻井ももか",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "水川もえり",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "苺咲かなえ",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "霜月ゆい",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
         },
         {
@@ -2803,6 +7670,68 @@ window.MAID_ROSTERS = {
               "黒田やな"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kori",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mia",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "狐宵赤夜",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "珊瑚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "黑猫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "狐宵澄夜",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "綿辺ゆみか",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "路奇",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "鬽髏ヘイニ",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "黒崎よるみ",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "黒田やな",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/",
           "event_name": "噬謊之村†"
         },
@@ -2825,6 +7754,48 @@ window.MAID_ROSTERS = {
               "Kori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hima",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Koyuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小雫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "駝駝",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "黑猫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Charlotte",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小倩",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Kori",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
         },
         {
@@ -2845,6 +7816,53 @@ window.MAID_ROSTERS = {
               "Ruri"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Koyuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小凌",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "栗子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "駝駝",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Ruri",
+              "role": "新生人偶",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
         },
         {
@@ -2870,6 +7888,78 @@ window.MAID_ROSTERS = {
               "古喵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kura",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小影",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "年子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "筱望",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "珊瑚",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "玥玥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Nagi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "喵哥",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "檸檬",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "ika",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "haruka",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "れい",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "saaya",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "古喵",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
           "event_name": "年子生日當值2026～又飛，你就係咁～"
         },
@@ -2892,6 +7982,58 @@ window.MAID_ROSTERS = {
               "Ruri"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mafu",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Lara",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yuika",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Koyuki",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小汐",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "阿月",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "FY",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "Ruri",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
         },
         {
@@ -2918,6 +8060,73 @@ window.MAID_ROSTERS = {
               "豆豆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fumi",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Mia",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "奈亞",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "栗子",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "水獺",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "蘿蔔",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "黑猫",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Yui",
+              "role": "新生人偶",
+              "type": "當值"
+            },
+            {
+              "name": "Chika",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "Sayori",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "hani",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "歪歪",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "豆豆",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/",
           "alternate_sources": [
             "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
@@ -2940,6 +8149,48 @@ window.MAID_ROSTERS = {
               "霏霏"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "梓野",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "玥玥",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "小琪",
+              "role": "女僕人偶",
+              "type": "當值"
+            },
+            {
+              "name": "七月",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "雷婆婆",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "貓月",
+              "role": "限定人偶",
+              "type": "限定"
+            },
+            {
+              "name": "霏霏",
+              "role": "限定人偶",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
           "event_name": "咩咩生誕"
         }
@@ -2974,6 +8225,38 @@ window.MAID_ROSTERS = {
               "理子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kira",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "可娜",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "孔明",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "理子",
+              "role": "當值人員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -2991,6 +8274,43 @@ window.MAID_ROSTERS = {
               "蕃薯"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Miyabi",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Muli",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Nedo",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "hani",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "淺",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "蕃薯",
+              "role": "當值人員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3005,6 +8325,28 @@ window.MAID_ROSTERS = {
               "小金"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Haku",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Kira",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "古古",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值人員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3024,6 +8366,43 @@ window.MAID_ROSTERS = {
               "Moka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Airin",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Bochi",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "卡咩",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "安安",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "貓丸",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Moka",
+              "role": "限定侵略者",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY",
           "alternate_sources": [
@@ -3047,6 +8426,43 @@ window.MAID_ROSTERS = {
               "荔枝"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Bella",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Haku",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Uta",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小藍",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "綺梨",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "荔枝",
+              "role": "當值人員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3068,6 +8484,53 @@ window.MAID_ROSTERS = {
               "粟米"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mika",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Miku",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小楠",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "早早",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "海藍",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "Rui",
+              "role": "限定侵略者",
+              "type": "限定"
+            },
+            {
+              "name": "拉比",
+              "role": "限定侵略者",
+              "type": "限定"
+            },
+            {
+              "name": "粟米",
+              "role": "限定侵略者",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY",
           "alternate_sources": [
@@ -3097,6 +8560,38 @@ window.MAID_ROSTERS = {
               "紅豆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Luna",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Roku",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "早早",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "淺",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "紅豆",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3115,6 +8610,48 @@ window.MAID_ROSTERS = {
               "貓丸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Bella",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Nedo",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "古古",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小楠",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "真祐",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "貓丸",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3134,6 +8671,53 @@ window.MAID_ROSTERS = {
               "淺"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aiko",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Eru",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Kira",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miku",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "hani",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "幽幽",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "淺",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
           "event_name": "萌星人IN DEJAVU Part.1：夢魔的PAJAMA PARTY"
         },
@@ -3152,6 +8736,48 @@ window.MAID_ROSTERS = {
               "貓丸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiyu",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Luna",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Natsuki",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "可娜",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "安安",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "貓丸",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "person_notes": {
             "Kiyu": "本店營業時間為 15:00-22:00；未列明個人時段。",
@@ -3180,6 +8806,38 @@ window.MAID_ROSTERS = {
               "海藍"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "MIKAN",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "朱古力",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "Saki",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "早早",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "海藍",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
@@ -3211,6 +8869,33 @@ window.MAID_ROSTERS = {
               "紅豆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kuma",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Mika",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "糖糖",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "紅豆",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
@@ -3239,6 +8924,43 @@ window.MAID_ROSTERS = {
               "貓丸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Luna",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miku",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "hani",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "理子",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "貓丸",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
@@ -3261,6 +8983,43 @@ window.MAID_ROSTERS = {
               "蕃薯"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "正子",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "Aina",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Airin",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Luna",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Miyabi",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Nedo",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "蕃薯",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
@@ -3288,6 +9047,43 @@ window.MAID_ROSTERS = {
               "小金"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Bochi",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Kira",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "古喵",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "可娜",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小金",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
@@ -3315,6 +9111,58 @@ window.MAID_ROSTERS = {
               "Yuna"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小犬",
+              "role": "駐場ハートびと",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kira",
+              "role": "駐場ハートびと",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Miyabi",
+              "role": "駐場ハートびと",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "早早",
+              "role": "當值",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Neneko",
+              "role": "當值",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "淺",
+              "role": "當值",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "hani",
+              "role": "當值",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "栗米",
+              "role": "一日限定",
+              "type": "限定"
+            },
+            {
+              "name": "Yuna",
+              "role": "一日限定",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
           "event_name": "Girls Bar ドキ💓プラネット Halloween篇",
           "alternate_sources": [
@@ -3358,6 +9206,28 @@ window.MAID_ROSTERS = {
               "小椿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fuyo",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "周瑜",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "璧璧",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小椿",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
         },
         {
@@ -3379,6 +9249,48 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Beru",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuki",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "kuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "もえね",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "七七",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小廻",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "mikan",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
         },
         {
@@ -3396,6 +9308,38 @@ window.MAID_ROSTERS = {
               "小椿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ara",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "YunaI",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晞亓",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蜻蜓",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "黛柔",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小椿",
+              "role": "魔域管理員",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
           "event_name": "Yurina生誕",
           "alternate_sources": [
@@ -3416,6 +9360,33 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "midorinn",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小廻",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "日和",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "阿逸",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
         },
         {
@@ -3433,6 +9404,38 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "416",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小奇",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "日和",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "朱朱",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "茶鬼",
+              "role": "Guest／嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
           "event_name": "晴晴生誕",
           "alternate_sources": [
@@ -3456,6 +9459,38 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yorumi",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "卡路里",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "霍霍",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "黛柔",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "藍幽",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/",
           "person_notes": {
             "藍幽": "個人時段：17:00-23:00"
@@ -3483,6 +9518,48 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Beru",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Fumi",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Midorinn",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "つゆめ",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "卡路里",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "黛柔",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "冰嵐",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/",
           "person_notes": {
             "冰嵐": "個人時段：17:00-22:00"
@@ -3508,6 +9585,38 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Beru",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yorumi",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小廻",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "貓羅",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小圓",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
           "alternate_sources": [
             "https://www.instagram.com/deardevil_maid.butler/p/DemDXk2BCcT/"
@@ -3537,6 +9646,43 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "江江",
+              "role": "Butler",
+              "type": "當值"
+            },
+            {
+              "name": "藍莓",
+              "role": "Butler",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuki",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "茶鬼",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "蜻蜓",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "黛柔",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
         },
         {
@@ -3560,6 +9706,58 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Anzu",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuna",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "貓羅",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "霍霍",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "九千",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "八田",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "魚骨",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
           "alternate_sources": [
             "https://www.instagram.com/deardevil_maid.butler/p/DemlpbenyOU/"
@@ -3593,6 +9791,63 @@ window.MAID_ROSTERS = {
               "蚊蚊"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "501小白",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Amy",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Miya",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Vivi",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小蚊",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小鉛梓",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "布布",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "星星",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晴兒",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "有K",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "蚊蚊",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/p/DeWee1MTIQo/",
           "event_name": "棉花2026誕生祭 前夕"
         },
@@ -3615,6 +9870,58 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "999",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Fomu",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Haruna",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Nanoji",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "P總",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "有栖",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "江江",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "藍莓",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "阿流",
+              "role": "Butler",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DewL6lqBT_x/",
           "event_name": "Trick or Treat 萬聖節主題執事日",
           "alternate_sources": [
@@ -3637,6 +9944,28 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Anzu",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小廻",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "璧璧",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
         },
         {
@@ -3656,6 +9985,48 @@ window.MAID_ROSTERS = {
               "小椿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "璧璧",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小廻",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "周瑜",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yorumi",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Anzu",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuki",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "黛柔",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小椿",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "殭屍小惡魔萬聖節派對"
         },
@@ -3674,6 +10045,38 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "黛柔",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "杏杏",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "卡路里",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "阿逸",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Beru",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "殭屍小惡魔萬聖節派對",
           "alternate_sources": [
@@ -3700,6 +10103,53 @@ window.MAID_ROSTERS = {
               "奶糖"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kuri",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Meika",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "茶鬼",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuka",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "七七Yunai",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "蜻蜓",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小椿",
+              "role": "魔域管理員",
+              "type": "當值"
+            },
+            {
+              "name": "奶糖",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "殭屍小惡魔萬聖節派對",
           "alternate_sources": [
@@ -3723,6 +10173,48 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "朱朱",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "416",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "もえね",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "阿流",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Anzu",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "殭屍小惡魔萬聖節派對"
         },
@@ -3741,6 +10233,38 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "奶茶",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "霍霍",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "璧璧",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "卡路里",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Beru",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "魔域管理員",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "殭屍小惡魔萬聖節派對"
         },
@@ -3761,6 +10285,48 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "朱朱",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "もえね",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Gumi",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yorumi",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mii",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "日和",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Midorinn",
+              "role": "Bride",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晴晴",
+              "role": "魔域管理員",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
           "event_name": "小悪魔?!鬼新娘～結婚式",
           "alternate_sources": [
@@ -3792,6 +10358,43 @@ window.MAID_ROSTERS = {
               "詩弦"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "hotori",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "panda",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "rina",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "yilam",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "孔子",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "朱朱",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "詩弦",
+              "role": "租場嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/_.hilaryowo._/p/DegrlA7E5HU/",
           "event_name": "2026企鵝生誕祭",
           "person_notes": {
@@ -3837,6 +10440,23 @@ window.MAID_ROSTERS = {
               "奇拉拉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fukuro",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Vivi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奇拉拉",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ"
         },
@@ -3851,6 +10471,28 @@ window.MAID_ROSTERS = {
               "霖霖"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "999",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mochi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霖霖",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ",
           "person_notes": {
@@ -3876,6 +10518,38 @@ window.MAID_ROSTERS = {
               "狐宵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Vivi",
+              "role": "生日主角及當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "麻糬",
+              "role": "生日主角及當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Domo",
+              "role": "限定出勤",
+              "type": "限定"
+            },
+            {
+              "name": "Fumi",
+              "role": "限定出勤",
+              "type": "限定"
+            },
+            {
+              "name": "川",
+              "role": "限定出勤",
+              "type": "限定"
+            },
+            {
+              "name": "狐宵",
+              "role": "限定出勤",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
           "event_name": "麻糬生誕の東潢パーティー",
           "alternate_sources": [
@@ -3906,6 +10580,38 @@ window.MAID_ROSTERS = {
               "洛希"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "999",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霖霖",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "千夜",
+              "role": "限定月下夜僕",
+              "type": "限定"
+            },
+            {
+              "name": "洛希",
+              "role": "限定月下夜僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ",
           "alternate_sources": [
@@ -3932,6 +10638,23 @@ window.MAID_ROSTERS = {
               "椰奶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "三文魚公主",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "椰奶",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ"
         },
@@ -3947,6 +10670,33 @@ window.MAID_ROSTERS = {
               "霖霖"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "999",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Vivi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霖霖",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
           "event_name": "月下夜僕、悪戯の時間だよ"
         }
@@ -3985,6 +10735,68 @@ window.MAID_ROSTERS = {
               "龍蝦"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "Nano",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "hari",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "nekome",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "raku",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "丑",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小南",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "鬼鬼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
           "event_name": "開幕試業"
         },
@@ -4008,6 +10820,63 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "9000",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kaka",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "raku",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "大毛",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "魷魚",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "水水",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
           "event_name": "開幕試業",
           "alternate_sources": [
@@ -4031,6 +10900,58 @@ window.MAID_ROSTERS = {
               "鬼鬼"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "9000",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "mizore",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "riko",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "sanada",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "七月",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "八田",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小狐狸",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "鬼鬼",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
           "event_name": "開幕試業"
         },
@@ -4049,6 +10970,48 @@ window.MAID_ROSTERS = {
               "龍蝦"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kanade",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "ruika",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "八田",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "藍莓",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿橦",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/"
         },
         {
@@ -4068,6 +11031,48 @@ window.MAID_ROSTERS = {
               "浮世"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "harei",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "浮世",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/DersHjbTaA8/"
@@ -4100,6 +11105,53 @@ window.MAID_ROSTERS = {
               "momo"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "空雪",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小南",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kusuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "七月",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "魷魚",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓目",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "momo",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/De1IVeUzogH/"
@@ -4120,6 +11172,48 @@ window.MAID_ROSTERS = {
               "小茵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "hari",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "鬼鬼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小茵",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/De7_HIpz1_x/"
@@ -4140,6 +11234,48 @@ window.MAID_ROSTERS = {
               "小狐狸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小南",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "ruika",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "八田",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿橦",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "大毛",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kumo",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小困",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小狐狸",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/De7_ZeHzVq-/"
@@ -4163,6 +11299,53 @@ window.MAID_ROSTERS = {
               "小嘉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "鰻魚",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "raku",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "harei",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "七月",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kusuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "大毛",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "nako",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小嘉",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
         },
         {
@@ -4181,6 +11364,43 @@ window.MAID_ROSTERS = {
               "saki"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "空雪",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "キキ",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "鬼鬼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "saki",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4202,6 +11422,48 @@ window.MAID_ROSTERS = {
               "riko"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "ruika",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "八田",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "魷魚",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "9000",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kumo",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "riko",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4223,6 +11485,48 @@ window.MAID_ROSTERS = {
               "藍莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "mizore",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "usagi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿初",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "大毛",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "藍莓",
+              "role": "當值幽靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4249,6 +11553,63 @@ window.MAID_ROSTERS = {
               "akaya"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "空雪",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "hari",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "七月",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kusuki",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "nano",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "鬼鬼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "akaya",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4276,6 +11637,48 @@ window.MAID_ROSTERS = {
               "豆豆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "貓目",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "空雪",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "阿初",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4301,6 +11704,58 @@ window.MAID_ROSTERS = {
               "Nana"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小南",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "丑",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "八田",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "ruika",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "raku",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "小狐狸",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "牙涼",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "空雪",
+              "role": "當值幽靈",
+              "type": "當值"
+            },
+            {
+              "name": "Nana",
+              "role": "限定幽靈",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
           "event_name": "萬聖節event",
           "alternate_sources": [
@@ -4323,6 +11778,53 @@ window.MAID_ROSTERS = {
               "9000"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小困",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "血血",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "赤夜",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "9000",
+              "role": "當值幽靈",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
           "event_name": "萬聖節活動 幽靈聚會",
           "alternate_sources": [
@@ -4363,6 +11865,18 @@ window.MAID_ROSTERS = {
               "Judy"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小貓",
+              "role": "實習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Judy",
+              "role": "正式女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
         },
         {
@@ -4376,6 +11890,18 @@ window.MAID_ROSTERS = {
               "蝦蝦"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kaoko",
+              "role": "實習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蝦蝦",
+              "role": "新人女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
         },
         {
@@ -4392,6 +11918,23 @@ window.MAID_ROSTERS = {
               "奶茶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "貓貓",
+              "role": "新人女僕",
+              "type": "當值"
+            },
+            {
+              "name": "薑",
+              "role": "正式女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奶茶",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/",
           "alternate_sources": [
             "https://www.instagram.com/maidcafe.misty/p/DeZRD7LKO_s/"
@@ -4412,6 +11955,23 @@ window.MAID_ROSTERS = {
               "冰川"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hotaru",
+              "role": "新人女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Judy",
+              "role": "正式女僕",
+              "type": "當值"
+            },
+            {
+              "name": "冰川",
+              "role": "正式女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
         },
         {
@@ -4426,6 +11986,23 @@ window.MAID_ROSTERS = {
               "薑"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Bunny",
+              "role": "新人女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Noa",
+              "role": "新人女僕",
+              "type": "當值"
+            },
+            {
+              "name": "薑",
+              "role": "正式女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
         },
         {
@@ -4436,6 +12013,13 @@ window.MAID_ROSTERS = {
               "YK Kuro"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "YK Kuro",
+              "role": "一日限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/"
         },
         {
@@ -4447,6 +12031,18 @@ window.MAID_ROSTERS = {
               "Mio"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Maru",
+              "role": "一日限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "Mio",
+              "role": "一日限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeR38_bqVJx/",
           "alternate_sources": [
             "https://www.instagram.com/maidcafe.misty/p/DeR4O1jqYvK/"
@@ -4476,6 +12072,13 @@ window.MAID_ROSTERS = {
               "發發"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "發發",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/Dd3txg2PQc5/",
           "person_notes": {
             "發發": "個人時段：18:00-22:00"
@@ -4497,6 +12100,33 @@ window.MAID_ROSTERS = {
               "@yukina.02_"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "@cream_ice_cos.0614",
+              "role": "活動出演陣容",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@elika_desu",
+              "role": "活動出演陣容",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@moris.zzz",
+              "role": "活動出演陣容",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@vyw1113_cos.chu",
+              "role": "活動出演陣容",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@yukina.02_",
+              "role": "活動出演陣容",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/Dej2btnvGAE/",
           "event_name": "Ave Mujica 假面舞會"
         },
@@ -4509,6 +12139,18 @@ window.MAID_ROSTERS = {
               "池池"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "fufu",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "池池",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4520,6 +12162,18 @@ window.MAID_ROSTERS = {
               "翻車魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Youko",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "翻車魚",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4534,6 +12188,33 @@ window.MAID_ROSTERS = {
               "潔蘿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "94",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Elika",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "乳鴿",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "曲奇",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "潔蘿",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4549,6 +12230,28 @@ window.MAID_ROSTERS = {
               "YY"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aki",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "夢兔",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "池池",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "YY",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
           "alternate_sources": [
             "https://www.instagram.com/cosplace_cafe/p/DewF3gGP-f_/"
@@ -4572,6 +12275,33 @@ window.MAID_ROSTERS = {
               "@y3_lain.cos"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "@elika_desu",
+              "role": "決賽日當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@squab_1213",
+              "role": "決賽日當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@vyw1113_cos.chu",
+              "role": "決賽日當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@wataru_112_",
+              "role": "決賽日當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "@y3_lain.cos",
+              "role": "決賽日當值女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DeuE_1ND8iG/",
           "event_name": "Bang Dream! Our Notes：Ave Mujica 音遊大賽",
           "person_notes": {
@@ -4596,6 +12326,28 @@ window.MAID_ROSTERS = {
               "藍莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "池池",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霜",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "TakuRyo",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "藍莓",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4609,6 +12361,28 @@ window.MAID_ROSTERS = {
               "潔蘿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Lori",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Youko",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "fufu",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "潔蘿",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4622,6 +12396,28 @@ window.MAID_ROSTERS = {
               "乳鴿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Elika",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Lori",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Soya",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "乳鴿",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
@@ -4632,6 +12428,13 @@ window.MAID_ROSTERS = {
               "94"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "94",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         },
@@ -4647,6 +12450,33 @@ window.MAID_ROSTERS = {
               "曲奇"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Moris",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚杯",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "潔蘿",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "しの",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "曲奇",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         },
@@ -4664,6 +12494,43 @@ window.MAID_ROSTERS = {
               "布布"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "乳鴿",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "翻車魚",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雪糕",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蕾",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Elika",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "夢兔",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "布布",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         },
@@ -4679,6 +12546,33 @@ window.MAID_ROSTERS = {
               "Heymeow"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sui",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "霜",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Haruna",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "94",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Heymeow",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
@@ -4702,6 +12596,58 @@ window.MAID_ROSTERS = {
               "夜宵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "fufu",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "しの",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "梳乎厘",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Elika",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "霜",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Heymeow",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "亞希",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Lori",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Youko",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "夜宵",
+              "role": "當值執事",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
@@ -4716,6 +12662,13 @@ window.MAID_ROSTERS = {
               "Soya"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Soya",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         },
@@ -4731,6 +12684,33 @@ window.MAID_ROSTERS = {
               "Wataru"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "乳鴿",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "ハル",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Elika",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "94",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Wataru",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         },
@@ -4743,6 +12723,18 @@ window.MAID_ROSTERS = {
               "喵奈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "夜宵",
+              "role": "出勤女僕",
+              "type": "當值"
+            },
+            {
+              "name": "喵奈",
+              "role": "出勤女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
         }
@@ -4776,6 +12768,33 @@ window.MAID_ROSTERS = {
               "セレナ"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Amy",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Reii",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小瑤",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "晴兒",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
         },
         {
@@ -4791,6 +12810,28 @@ window.MAID_ROSTERS = {
               "小丸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kay",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小丸",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
         },
         {
@@ -4809,6 +12850,33 @@ window.MAID_ROSTERS = {
               "秋刀魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "茶々",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "蘿夏",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "秋刀魚",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
         },
         {
@@ -4821,6 +12889,23 @@ window.MAID_ROSTERS = {
               "麻油"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Amy",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Reii",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "麻油",
+              "role": "Maid",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
         },
         {
@@ -4838,6 +12923,28 @@ window.MAID_ROSTERS = {
               "梓叔"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Neya",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "梓叔",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4854,6 +12961,23 @@ window.MAID_ROSTERS = {
               "潼潼"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "晴兒",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yume",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "潼潼",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4866,6 +12990,23 @@ window.MAID_ROSTERS = {
               "浠浠"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yoyo",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小葵",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "浠浠",
+              "role": "Pirate Maid",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4880,6 +13021,23 @@ window.MAID_ROSTERS = {
               "紫音"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "蘿夏",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "紫音",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4895,6 +13053,28 @@ window.MAID_ROSTERS = {
               "Yuki"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小瑤",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "茶々",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "Pirate Maid",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4913,6 +13093,33 @@ window.MAID_ROSTERS = {
               "直女"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Celia",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "蘿夏",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mari",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "直女",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4926,6 +13133,28 @@ window.MAID_ROSTERS = {
               "寶寶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ami",
+              "role": "生誕活動人員",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Asaki",
+              "role": "生誕活動人員",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Saki",
+              "role": "生誕活動人員",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "寶寶",
+              "role": "生誕活動人員",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/",
           "event_name": "あWonderland・非生日茶話會2026",
           "alternate_sources": [
@@ -4949,6 +13178,38 @@ window.MAID_ROSTERS = {
               "紫喵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kay",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yoyo",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yume",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "芽芽",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "璧璧",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "紫喵",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
         },
         {
@@ -4968,6 +13229,38 @@ window.MAID_ROSTERS = {
               "卡路里"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "天使",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Akita",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Haka",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "卡路里",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
         },
         {
@@ -4986,6 +13279,33 @@ window.MAID_ROSTERS = {
               "咩咩"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mirei",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "咩咩",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "alternate_sources": [
             "https://www.instagram.com/maid.kaizokuhouse/p/De4NnNlzztr/"
@@ -5007,6 +13327,33 @@ window.MAID_ROSTERS = {
               "Teo"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reii",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mizuka",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "Teo",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
         },
         {
@@ -5028,6 +13375,38 @@ window.MAID_ROSTERS = {
               "Bake"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小瑤",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "小睡",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "照美",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "Bake",
+              "role": "限定海盜",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "person_notes": {
             "Bake": "限定海盜成員出沒公告；個人出沒時間18:00-23:00。"
@@ -5050,6 +13429,33 @@ window.MAID_ROSTERS = {
               "Haka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Amy",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Reii",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Soso",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "晴兒",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Haka",
+              "role": "Pirate Maid",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
         },
         {
@@ -5067,6 +13473,28 @@ window.MAID_ROSTERS = {
               "Sumiyo"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Mirei",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "Pirate Maid",
+              "type": "當值"
+            },
+            {
+              "name": "Sumiyo",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
         },
         {
@@ -5084,6 +13512,48 @@ window.MAID_ROSTERS = {
               "茶茶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Amy",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "YUKI",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yukina",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "天使",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小葵",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "晴兒",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "月牙",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "茶茶",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "event_name": "純情女鬼萬聖夜",
           "alternate_sources": [
@@ -5102,6 +13572,33 @@ window.MAID_ROSTERS = {
               "茶茶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Amy",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Serena",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "月牙",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "浠浠",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "茶茶",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "event_name": "受傷的AV女優",
           "alternate_sources": [
@@ -5145,6 +13642,33 @@ window.MAID_ROSTERS = {
               "kumi"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小Sakura",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Kuma",
+              "role": "限定居民",
+              "type": "限定"
+            },
+            {
+              "name": "kumi",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5159,6 +13683,23 @@ window.MAID_ROSTERS = {
               "小迴"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "櫻子",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "葉子",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "小迴",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5175,6 +13716,33 @@ window.MAID_ROSTERS = {
               "Nene"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "op",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "啫喱魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "飯糰",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Nene",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5191,6 +13759,33 @@ window.MAID_ROSTERS = {
               "小汐"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "mogu",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "バカ猫",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "貓靈",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "小汐",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5207,6 +13802,33 @@ window.MAID_ROSTERS = {
               "朵拉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "幽月",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "朵拉",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5220,6 +13842,28 @@ window.MAID_ROSTERS = {
               "落塵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小夜",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "悅夢",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "檸茶",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "落塵",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
           "event_name": "兔女郎之夜"
         },
@@ -5236,6 +13880,28 @@ window.MAID_ROSTERS = {
               "Max"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "JoJo",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "悅夢",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "葉子",
+              "role": "活動出席居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Max",
+              "role": "限定嘉賓",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
           "event_name": "Halloween 王子執事日"
         },
@@ -5255,6 +13921,33 @@ window.MAID_ROSTERS = {
               "凌風"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "JoJo",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Snowyyyy",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Aki @aki_.aki45",
+              "role": "影子精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Aki @unknowndelete_aki",
+              "role": "影子精靈",
+              "type": "當值"
+            },
+            {
+              "name": "凌風",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
         },
         {
@@ -5273,6 +13966,33 @@ window.MAID_ROSTERS = {
               "團子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "亞也",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "茹兒",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Sumika",
+              "role": "當值人員",
+              "type": "當值"
+            },
+            {
+              "name": "團子",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
         },
         {
@@ -5286,6 +14006,28 @@ window.MAID_ROSTERS = {
               "悅夢"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "RuRu",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "啫喱魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
         },
         {
@@ -5302,6 +14044,33 @@ window.MAID_ROSTERS = {
               "Yua"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "亞也",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "小Sakura",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "櫻子",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Yua",
+              "role": "影子精靈",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
         },
         {
@@ -5318,6 +14087,33 @@ window.MAID_ROSTERS = {
               "朱古力"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "茜茜",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "貓靈",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "ほたる",
+              "role": "限定居民",
+              "type": "限定"
+            },
+            {
+              "name": "朱古力",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
         },
         {
@@ -5334,6 +14130,33 @@ window.MAID_ROSTERS = {
               "猫姬"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "葉子",
+              "role": "出沒居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "飯糰",
+              "role": "出沒居民",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Oscar",
+              "role": "限定居民",
+              "type": "限定"
+            },
+            {
+              "name": "猫姬",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
           "event_name": "Sumika週年祭・古靈精怪辦公室"
         },
@@ -5348,6 +14171,28 @@ window.MAID_ROSTERS = {
               "飯糰"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "茹兒",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "貓貓",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "飯糰",
+              "role": "出沒居民",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
           "event_name": "白狐生誕"
         },
@@ -5364,6 +14209,28 @@ window.MAID_ROSTERS = {
               "靚流"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Snowyyyy",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "櫻子",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "靚流",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5380,6 +14247,33 @@ window.MAID_ROSTERS = {
               "Dovi"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "亞也",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "大Sakura",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "茜茜",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "飯糰",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "Dovi",
+              "role": "限定居民",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5393,6 +14287,28 @@ window.MAID_ROSTERS = {
               "悅夢"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yua",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "啫喱魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "小sakura",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
@@ -5407,6 +14323,33 @@ window.MAID_ROSTERS = {
               "萌え魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "mogu",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "バカ猫",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "奶茶",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "海塩",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
           "event_name": "禁忌の護士病棟"
         },
@@ -5421,6 +14364,28 @@ window.MAID_ROSTERS = {
               "葉子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "aki",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "歪歪",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
+              "name": "葉子",
+              "role": "出沒居民",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
           "event_name": "百鬼夜行・萬聖之夜"
         }
@@ -5461,6 +14426,33 @@ window.MAID_ROSTERS = {
               "啾咿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ellie",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嘉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚莫",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "啾咿",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5477,6 +14469,33 @@ window.MAID_ROSTERS = {
               "許洛"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yura",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Emi",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Simanna",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "許洛",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5493,6 +14512,33 @@ window.MAID_ROSTERS = {
               "牙米"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5509,6 +14555,33 @@ window.MAID_ROSTERS = {
               "Kinako"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蕉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Emi",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kinako",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5525,6 +14598,33 @@ window.MAID_ROSTERS = {
               "金魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "兔仔",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5541,6 +14641,43 @@ window.MAID_ROSTERS = {
               "青蛙"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ellie",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "安柚",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "芊夏",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "霜糖",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
           "event_name": "芊夏偶像生日祭",
           "alternate_sources": [
@@ -5561,6 +14698,33 @@ window.MAID_ROSTERS = {
               "葵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "有栖",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Moku",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "方包",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "葵",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5577,6 +14741,33 @@ window.MAID_ROSTERS = {
               "牙米"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "安柚",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Asuka",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5593,6 +14784,33 @@ window.MAID_ROSTERS = {
               "葵"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霜糖",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Moku",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "葵",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
@@ -5607,6 +14825,33 @@ window.MAID_ROSTERS = {
               "青蛙"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "兔仔",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "晏咲",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5624,6 +14869,33 @@ window.MAID_ROSTERS = {
               "Kinako"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蕉蕉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kinako",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5642,6 +14914,38 @@ window.MAID_ROSTERS = {
               "方包"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yura",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霜糖",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Moku",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "方包",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5658,6 +14962,28 @@ window.MAID_ROSTERS = {
               "牙米"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Halo",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event",
           "person_notes": {
@@ -5676,6 +15002,33 @@ window.MAID_ROSTERS = {
               "魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Ellie",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "芊夏",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event",
           "person_notes": {
@@ -5697,6 +15050,38 @@ window.MAID_ROSTERS = {
               "Asuka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "安柚",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嘉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "有栖",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蕉蕉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Asuka",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5715,6 +15100,38 @@ window.MAID_ROSTERS = {
               "啾咿"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yura",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "兔仔",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Simanna",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "啾咿",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5732,6 +15149,33 @@ window.MAID_ROSTERS = {
               "金魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5750,6 +15194,38 @@ window.MAID_ROSTERS = {
               "金魚"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "晏咲",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蕉蕉",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Halo",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "方包",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5767,6 +15243,33 @@ window.MAID_ROSTERS = {
               "Yana"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Himiko",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yura",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "芊夏",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yana",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event"
         },
@@ -5787,10 +15290,122 @@ window.MAID_ROSTERS = {
               "方包"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "兔仔",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "有梄",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "霜糖",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yana",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "方包",
+              "role": "見習女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event",
           "person_notes": {
             "有梄": "原帖字樣為「有梄」；待核對是否「有栖」。"
+          }
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "15:00-22:00",
+          "groups": {
+            "牛郎成員": [
+              "有栖",
+              "貓月",
+              "狗狗",
+              "晏咲",
+              "Eille",
+              "Yuki",
+              "許洛",
+              "青蛙"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "有栖",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "貓月",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "狗狗",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "晏咲",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "Eille",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "許洛",
+              "role": "牛郎成員",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "牛郎成員",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+          "event_name": "牛郎之夜•第五章",
+          "person_notes": {
+            "有栖": "本帖標註 @pum_pkin_a；個人時段未另列。",
+            "貓月": "本帖標註 @maau_yut_；個人時段未另列。",
+            "狗狗": "本帖標註 @inui._.ovo；個人時段未另列。",
+            "晏咲": "本帖標註 @annzi_ssk；個人時段未另列。",
+            "Eille": "本帖標註 @ellie_maid.030；個人時段未另列。",
+            "Yuki": "本帖標註 @yukiii._.1111；個人時段未另列。",
+            "許洛": "本帖標註 @_luy_bnw_；個人時段未另列。",
+            "青蛙": "本帖標註 @frog._.maid；個人時段未另列。"
           }
         }
       ],
@@ -5834,6 +15449,43 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "生誕主角",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "下午場當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Akane",
+              "role": "下午場當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yukiko",
+              "role": "夜晚場當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Onime",
+              "role": "夜晚場當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "夜晚場當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "水水",
+              "role": "夜晚場當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/sugarfactory_maid_kona/p/Dbi140LJ7p6/",
           "event_name": "Kona生誕祭2026",
           "person_notes": {
@@ -5871,6 +15523,43 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "生誕主角",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yukiko",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "芊芊",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小莓",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kona",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "東東",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "水水",
+              "role": "嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/sugarfactory_maid_onime/p/Dcu_GMIu5-V/",
           "event_name": "Onime生誕祭2026",
           "person_notes": {
@@ -5901,6 +15590,18 @@ window.MAID_ROSTERS = {
               "小莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -5922,6 +15623,23 @@ window.MAID_ROSTERS = {
               "花琉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -5945,6 +15663,18 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "水水",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -5967,6 +15697,23 @@ window.MAID_ROSTERS = {
               "花琉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -5992,6 +15739,28 @@ window.MAID_ROSTERS = {
               "紗月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6016,6 +15785,18 @@ window.MAID_ROSTERS = {
               "小莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6037,6 +15818,23 @@ window.MAID_ROSTERS = {
               "東東"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6061,6 +15859,28 @@ window.MAID_ROSTERS = {
               "芊芊"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "桃子",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "芊芊",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6086,6 +15906,23 @@ window.MAID_ROSTERS = {
               "花琉"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6108,6 +15945,18 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "水水",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "alternate_sources": [
@@ -6130,6 +15979,28 @@ window.MAID_ROSTERS = {
               "桃子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "桃子",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6154,6 +16025,18 @@ window.MAID_ROSTERS = {
               "東東"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6175,6 +16058,18 @@ window.MAID_ROSTERS = {
               "小莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6197,6 +16092,23 @@ window.MAID_ROSTERS = {
               "紗月"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6220,6 +16132,23 @@ window.MAID_ROSTERS = {
               "桃子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "桃子",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "person_notes": {
@@ -6252,6 +16181,48 @@ window.MAID_ROSTERS = {
               "水水"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "下午及晚上參演魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Meru",
+              "role": "下午及晚上參演魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Onime",
+              "role": "下午及晚上參演魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Yukiko",
+              "role": "下午及晚上參演魔女",
+              "type": "當值"
+            },
+            {
+              "name": "東東",
+              "role": "下午及晚上參演魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Kokona",
+              "role": "下午場特邀魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "下午場特邀魔女",
+              "type": "當值"
+            },
+            {
+              "name": "水水",
+              "role": "晚上場參演魔女",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "alternate_sources": [
@@ -6308,6 +16279,23 @@ window.MAID_ROSTERS = {
               "Mao"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Lula",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "櫻染",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mao",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6322,6 +16310,23 @@ window.MAID_ROSTERS = {
               "丑"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "いせ",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "丑",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6339,6 +16344,28 @@ window.MAID_ROSTERS = {
               "Mika"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "檸檬",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "藍南",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "安",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mika",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6355,6 +16382,33 @@ window.MAID_ROSTERS = {
               "小雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "貓神",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "鏡雨",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茸",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小雨",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6372,6 +16426,28 @@ window.MAID_ROSTERS = {
               "安"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "れいん",
+              "role": "一日限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "櫻染",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Maru",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "安",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/",
           "alternate_sources": [
             "https://www.instagram.com/themanorcafe/p/DeeD6hXJ9oo/"
@@ -6396,6 +16472,28 @@ window.MAID_ROSTERS = {
               "小茸"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Nana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "藍南",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "鏡雨",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茸",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6411,6 +16509,28 @@ window.MAID_ROSTERS = {
               "小雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "ジル",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "千鈴",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "肉鬆",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小雨",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
         },
         {
@@ -6422,6 +16542,18 @@ window.MAID_ROSTERS = {
               "優奈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Lula",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "優奈",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
         },
         {
@@ -6434,6 +16566,23 @@ window.MAID_ROSTERS = {
               "鏡雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "いせ",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "貓神",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "鏡雨",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
         },
         {
@@ -6452,6 +16601,33 @@ window.MAID_ROSTERS = {
               "呆呆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kola",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茸",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小雨",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "呆呆",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "event_name": "貓尾料理",
           "alternate_sources": [
@@ -6479,6 +16655,38 @@ window.MAID_ROSTERS = {
               "Yako"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "千鈴",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "檸檬",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "肉鬆",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "鏡雨",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Reii",
+              "role": "限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "Yako",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "alternate_sources": [
             "https://www.instagram.com/themanorcafe/p/DevRjETJv3y/",
@@ -6506,6 +16714,28 @@ window.MAID_ROSTERS = {
               "Moka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kola",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Nana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Moka",
+              "role": "限定女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "alternate_sources": [
             "https://www.instagram.com/themanorcafe/p/DevR83Cp9Kv/"
@@ -6530,6 +16760,28 @@ window.MAID_ROSTERS = {
               "小雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Nana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "ジル",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小茸",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小雨",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6550,6 +16802,23 @@ window.MAID_ROSTERS = {
               "安"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Soya",
+              "role": "一日限定表演者",
+              "type": "限定"
+            },
+            {
+              "name": "肉鬆",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "安",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6575,6 +16844,23 @@ window.MAID_ROSTERS = {
               "Mao"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "千鈴",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "いせ",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mao",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6594,6 +16880,28 @@ window.MAID_ROSTERS = {
               "Maru"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "貓神",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "藍南",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "櫻染",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Maru",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6613,6 +16921,28 @@ window.MAID_ROSTERS = {
               "Mirei"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "千鈴",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzu",
+              "role": "一日限定表演者",
+              "type": "限定"
+            },
+            {
+              "name": "Mirei",
+              "role": "一日限定表演者",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6640,6 +16970,28 @@ window.MAID_ROSTERS = {
               "櫻染"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "優奈",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Lula",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "月璃",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "櫻染",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6661,6 +17013,28 @@ window.MAID_ROSTERS = {
               "安"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小鈴",
+              "role": "一日限定表演者",
+              "type": "限定"
+            },
+            {
+              "name": "藍南",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kola",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "安",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6683,6 +17057,33 @@ window.MAID_ROSTERS = {
               "靜流"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "貓神",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "ジル",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Maru",
+              "role": "試工女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Hanami",
+              "role": "一日限定表演者",
+              "type": "限定"
+            },
+            {
+              "name": "靜流",
+              "role": "一日限定表演者",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6701,6 +17102,23 @@ window.MAID_ROSTERS = {
               "安"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "貓神",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "優奈",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "安",
+              "role": "試工女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
@@ -6721,6 +17139,33 @@ window.MAID_ROSTERS = {
               "小雨"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Nana",
+              "role": "生誕主角",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "藍南",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Mao",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小茸",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小雨",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
           "event_name": "Nana生誕2026",
           "alternate_sources": [
@@ -6767,6 +17212,28 @@ window.MAID_ROSTERS = {
               "Saki"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Reimu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
         },
         {
@@ -6785,6 +17252,33 @@ window.MAID_ROSTERS = {
               "池池"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "阿糖",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "のあ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "池池",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
         },
         {
@@ -6804,6 +17298,38 @@ window.MAID_ROSTERS = {
               "月牙"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "小葵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Yukir",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "月牙",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
         },
         {
@@ -6822,6 +17348,33 @@ window.MAID_ROSTERS = {
               "紗奈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "gigi",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "紗奈",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6849,6 +17402,33 @@ window.MAID_ROSTERS = {
               "菌子"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Rina",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "可妍",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "菌子",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6877,6 +17457,38 @@ window.MAID_ROSTERS = {
               "Tami"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reimu",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Hayu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "檸檬",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Tami",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6905,6 +17517,33 @@ window.MAID_ROSTERS = {
               "Vivi"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Mii",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "gigi",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Vivi",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6933,6 +17572,38 @@ window.MAID_ROSTERS = {
               "YK"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Reimu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Kuro",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "YK",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6963,6 +17634,43 @@ window.MAID_ROSTERS = {
               "呱呱"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Moli",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Rina",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "小葵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Kirari",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "呱呱",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -6994,6 +17702,28 @@ window.MAID_ROSTERS = {
               "だんこ"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "だんこ",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7022,6 +17752,43 @@ window.MAID_ROSTERS = {
               "水獺"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Rina",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuha",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "檸檬",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Kori",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "水獺",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7055,6 +17822,38 @@ window.MAID_ROSTERS = {
               "tomori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reimu",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Hayu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "羊咩",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "香取",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "tomori",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7086,6 +17885,33 @@ window.MAID_ROSTERS = {
               "haka"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Mii",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "可妍",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "haka",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7117,6 +17943,38 @@ window.MAID_ROSTERS = {
               "菜菜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "阿糖",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Fumi",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Reimu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "gigi",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Miharu",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "菜菜",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7150,6 +18008,43 @@ window.MAID_ROSTERS = {
               "甘樂"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "小葵",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "未來",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Kai",
+              "role": "限定天使",
+              "type": "限定"
+            },
+            {
+              "name": "甘樂",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7179,6 +18074,33 @@ window.MAID_ROSTERS = {
               "真奈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Hayu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "真奈",
+              "role": "限定天使",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7203,6 +18125,28 @@ window.MAID_ROSTERS = {
               "Yuzuha"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值"
+            },
+            {
+              "name": "Rina",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuha",
+              "role": "水色天使",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "person_notes": {
@@ -7238,6 +18182,18 @@ window.MAID_ROSTERS = {
               "玄幽"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
             "バカ": "個人時段：12:00-17:00",
@@ -7263,6 +18219,38 @@ window.MAID_ROSTERS = {
               "羅露妮"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Ceci",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "羅露妮",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
             "Gigi": "個人時段：17:00-22:00",
@@ -7296,6 +18284,38 @@ window.MAID_ROSTERS = {
               "奈雅"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "鹹魚",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
             "Toffee": "個人時段：18:00-23:00",
@@ -7330,6 +18350,43 @@ window.MAID_ROSTERS = {
               "羅露妮"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "腰豆",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "羅露妮",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
@@ -7364,6 +18421,33 @@ window.MAID_ROSTERS = {
               "奈雅"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoko",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "yuzu": "個人時段：17:00-23:00",
@@ -7400,6 +18484,53 @@ window.MAID_ROSTERS = {
               "ゆみ"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Hecate",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "sora",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "瑤瑤",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "石榴",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Nyanko",
+              "role": "限定當值女僕",
+              "type": "限定"
+            },
+            {
+              "name": "ゆみ",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Hecate": "個人時段：12:00-17:00",
@@ -7443,6 +18574,58 @@ window.MAID_ROSTERS = {
               "羅露妮"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Koe",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "嵐嵐",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "石榴",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Ceci",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "羅露妮",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Koe": "個人時段：13:00-18:30",
@@ -7487,6 +18670,53 @@ window.MAID_ROSTERS = {
               "真冬"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "石榴",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Tina",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Toffee": "個人時段：15:00-23:00",
@@ -7529,6 +18759,43 @@ window.MAID_ROSTERS = {
               "mogu"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoko",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "羅露妮",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "mogu",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "玲奈": "個人時段：15:00-23:00",
@@ -7567,6 +18834,53 @@ window.MAID_ROSTERS = {
               "奈雅"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
@@ -7608,6 +18922,48 @@ window.MAID_ROSTERS = {
               "奈雅"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Reii莉",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Ceci",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
@@ -7651,6 +19007,58 @@ window.MAID_ROSTERS = {
               "烏龜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Reii莉",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Riya",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoko",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "羅露妮",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "烏龜",
+              "role": "限定月亮女神",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
@@ -7706,6 +19114,73 @@ window.MAID_ROSTERS = {
               "真冬"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Morie",
+              "role": "生誕當值嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "yuki",
+              "role": "生誕當值嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "地鼠",
+              "role": "生誕當值嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小春",
+              "role": "生誕當值嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Riri",
+              "role": "生誕當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "玄幽",
+              "role": "生誕當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "靈兔",
+              "role": "生誕當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Riya",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "kano",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Ceci",
+              "role": "當值廚娘",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
           "event_name": "靈兔×Mistia Luna〈Mk兔の生誕祭〉",
           "alternate_sources": [
@@ -7765,6 +19240,68 @@ window.MAID_ROSTERS = {
               "夢川"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Riri",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "sora",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "zero",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小欣",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "梳乎厘",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "夢川",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "陀螺盃／萬聖節event",
           "person_notes": {
@@ -7818,6 +19355,48 @@ window.MAID_ROSTERS = {
               "莓"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "莓",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -7860,6 +19439,48 @@ window.MAID_ROSTERS = {
               "九四"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Ceci",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoko",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "九四",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -7902,6 +19523,48 @@ window.MAID_ROSTERS = {
               "Haru"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "神樂",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Haru",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -7946,6 +19609,58 @@ window.MAID_ROSTERS = {
               "小汐"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Nanami",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "神樂",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "小汐",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -7991,6 +19706,53 @@ window.MAID_ROSTERS = {
               "真冬"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Riya",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoko",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -8038,6 +19800,63 @@ window.MAID_ROSTERS = {
               "奶茶"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Reii莉",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "心雨",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "綰綰",
+              "role": "當值女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值"
+            },
+            {
+              "name": "奶茶",
+              "role": "限定當值女僕",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
           "person_notes": {
@@ -8104,6 +19923,33 @@ window.MAID_ROSTERS = {
               "Ayane"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "狂",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Ayane",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "person_notes": {
             "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
@@ -8128,6 +19974,33 @@ window.MAID_ROSTERS = {
               "Kata"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Snowy",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yukino",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yurie",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "紫喵",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Kata",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "person_notes": {
             "Snowy": "原圖只列店舖開放時間；個人時段未公布。",
@@ -8156,6 +20029,43 @@ window.MAID_ROSTERS = {
               "Ayane"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Husky",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Nana",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "kata",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "炸彈",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Ayane",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "person_notes": {
             "Husky": "原圖只列店舖開放時間；個人時段未公布。",
@@ -8181,6 +20091,28 @@ window.MAID_ROSTERS = {
               "汪"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Rain",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yurie",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "汪",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "person_notes": {
             "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
@@ -8208,6 +20140,43 @@ window.MAID_ROSTERS = {
               "幽靈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mio",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "烏龜",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Snowy",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "團子",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "童童",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "alternate_sources": [
             "https://www.instagram.com/p/DeYlEZBxAEE/"
@@ -8240,6 +20209,43 @@ window.MAID_ROSTERS = {
               "幽靈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "UU",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Uri",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yuri",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "地鼠",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "昭子",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "雪海",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "alternate_sources": [
             "https://www.instagram.com/p/Ded0pQ8xRbQ/"
@@ -8272,6 +20278,43 @@ window.MAID_ROSTERS = {
               "小童"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "kumi",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Aqua",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Kona",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Neya",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Rika",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "江雨",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "小童",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
           "alternate_sources": [
             "https://www.instagram.com/kirakiramaido/p/DehewaHSqoV/"
@@ -8300,6 +20343,33 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yukino",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "狂",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "Kiyoko": "此為店舖開放時間，個人當值時段未列明。",
@@ -8324,6 +20394,33 @@ window.MAID_ROSTERS = {
               "汪"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Rain",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Rinka",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "童童",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "汪",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "Kiyoko": "此為店舖開放時間，個人當值時段未列明。",
@@ -8351,6 +20448,38 @@ window.MAID_ROSTERS = {
               "小童"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小妖精",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Nana",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yuki",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yurie",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "紫喵",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "小童",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "小妖精": "此為店舖開放時間，個人當值時段未列明。",
@@ -8380,6 +20509,43 @@ window.MAID_ROSTERS = {
               "Kata"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Haruna",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Rizuko",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Kico",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Neya",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "小嵐",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "炸彈",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Kata",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "alternate_sources": [
             "https://www.instagram.com/kirakiramaido/p/DewGkKux-2I/",
@@ -8413,6 +20579,43 @@ window.MAID_ROSTERS = {
               "幽靈"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "貓羅",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "阿兔",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Snowy",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yurie",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "狂",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "貓羅": "此為店舖開放時間，個人當值時段未列明。",
@@ -8438,6 +20641,28 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "江雨",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "芙恩",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "雪海",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "江雨": "此為店舖開放時間，個人當值時段未列明。",
@@ -8462,6 +20687,38 @@ window.MAID_ROSTERS = {
               "Ayane"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Snowy",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "汪",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "雪海",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Ayane",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
           "person_notes": {
             "Snowy": "此為店舖開放時間，個人當值時段未列明。",
@@ -8490,6 +20747,38 @@ window.MAID_ROSTERS = {
               "Kata"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小白",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "UU",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "小憐",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "江雨",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "炸彈",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Kata",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "天使與惡魔之夜",
           "alternate_sources": [
@@ -8518,6 +20807,33 @@ window.MAID_ROSTERS = {
               "Ayane"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Aqua",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "皇蕾",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "藍莓",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Ayane",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "天使與惡魔之夜",
           "person_notes": {
@@ -8544,6 +20860,38 @@ window.MAID_ROSTERS = {
               "Mori"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Fufu",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yukino",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Yurie",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "芽芽",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "ぴこ",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Mori",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "魔女之夜",
           "person_notes": {
@@ -8569,6 +20917,33 @@ window.MAID_ROSTERS = {
               "蘿露"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "小灰狼",
+              "role": "限定魔法使",
+              "type": "限定"
+            },
+            {
+              "name": "Kiyoko",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Snowy",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "美麗",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "蘿露",
+              "role": "魔法使",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "魔女之夜",
           "person_notes": {
@@ -8595,6 +20970,38 @@ window.MAID_ROSTERS = {
               "蘿露"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Mori",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "橙融",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "鈴風",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "阿兔",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "蘿露",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "聖堂之夜",
           "person_notes": {
@@ -8620,6 +21027,28 @@ window.MAID_ROSTERS = {
               "蘿露"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kata",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "UU",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "雷海",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "蘿露",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "event_name": "奇幻之夜",
           "person_notes": {
@@ -8644,6 +21073,33 @@ window.MAID_ROSTERS = {
               "Ayane"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Kico",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Neya",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "昭子",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "美恩",
+              "role": "魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Ayane",
+              "role": "魔法導師",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
           "person_notes": {
             "Kico": "原帖只列魔法結界開放時間；個人時段未公布。",
@@ -8690,6 +21146,28 @@ window.MAID_ROSTERS = {
               "Yuzuki"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Eve",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Miyuki",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuzuki",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
             "Dicky": "個人時段：19:00-23:00",
@@ -8717,6 +21195,28 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "MORI",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
             "Dicky": "個人時段：19:00-23:00",
@@ -8744,6 +21244,28 @@ window.MAID_ROSTERS = {
               "靈兔"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "KK",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "吖程",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "靈兔",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
             "KK": "個人時段：19:00-23:00",
@@ -8771,6 +21293,28 @@ window.MAID_ROSTERS = {
               "豆豆"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "MORI",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "豆豆",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
             "SOKU": "個人時段：19:00-23:00",
@@ -8803,6 +21347,43 @@ window.MAID_ROSTERS = {
               "幽夜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "九千",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "幽夜",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/Def9EYfk3H5/"
@@ -8841,6 +21422,38 @@ window.MAID_ROSTERS = {
               "小霧"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Mii",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Qubi",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小霧",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
           "person_notes": {
             "Dicky": "個人時段：19:00-21:00",
@@ -8872,6 +21485,28 @@ window.MAID_ROSTERS = {
               "Kana"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Haruki",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Jasmine",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
             "Dicky": "個人時段：19:00-23:00",
@@ -8903,6 +21538,38 @@ window.MAID_ROSTERS = {
               "Tsumi"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoru",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "九千",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "NØNNØ",
+              "role": "限定當值",
+              "type": "限定"
+            },
+            {
+              "name": "Pimu",
+              "role": "限定當值",
+              "type": "限定"
+            },
+            {
+              "name": "Tsumi",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/DeihZKyEyAp/"
@@ -8937,6 +21604,28 @@ window.MAID_ROSTERS = {
               "吖程"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Rio",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "吖程",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -8964,6 +21653,28 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "MORI",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -8991,6 +21702,28 @@ window.MAID_ROSTERS = {
               "小瑤"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Hiri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "rena",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小瑤",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "person_notes": {
             "Dicky": "個人時段：18:00-23:00",
@@ -9021,6 +21754,33 @@ window.MAID_ROSTERS = {
               "Chizuru"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Eve",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Tina",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Aino",
+              "role": "限定當值",
+              "type": "限定"
+            },
+            {
+              "name": "Chizuru",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/DesuuOnE-dc/"
@@ -9056,6 +21816,33 @@ window.MAID_ROSTERS = {
               "Jyunna"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "詩桜",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Jyunna",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "alternate_sources": [
             "https://www.instagram.com/itotsuki.cafe/p/Det7u-DzeH9/"
@@ -9088,6 +21875,28 @@ window.MAID_ROSTERS = {
               "MORI"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Jasmine",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "MORI",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -9117,6 +21926,28 @@ window.MAID_ROSTERS = {
               "nexit!"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Tina",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "吖程",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "nexit!",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -9151,6 +21982,38 @@ window.MAID_ROSTERS = {
               "小瓏"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "501",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "MORI",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Maou",
+              "role": "限定當值",
+              "type": "限定"
+            },
+            {
+              "name": "小瓏",
+              "role": "限定當值",
+              "type": "限定"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
             "Dicky": "個人時段：18:00-23:00",
@@ -9185,6 +22048,28 @@ window.MAID_ROSTERS = {
               "殺奇"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Kaoru",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "殺奇",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -9212,6 +22097,28 @@ window.MAID_ROSTERS = {
               "九千"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "當值"
+            },
+            {
+              "name": "Hiri",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Raku",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "九千",
+              "role": "女僕",
+              "type": "當值"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "person_notes": {
             "SOKU": "個人時段：18:00-23:00",
@@ -9247,6 +22154,68 @@ window.MAID_ROSTERS = {
               "詩桜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "501",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Eve",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Hiri",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rio",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Tina",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "九千",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小瑤",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "詩桜",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "event_name": "弦月嘩鬼祭",
           "person_notes": {
@@ -9299,6 +22268,68 @@ window.MAID_ROSTERS = {
               "詩桜"
             ]
           },
+          "attendance_records": [
+            {
+              "name": "Dicky",
+              "role": "Bartender",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "SOKU",
+              "role": "Bartender",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "501",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Miyuki",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Qubi",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Rio",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Tina",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Yuzuki",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "小霧",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "詩桜",
+              "role": "女僕",
+              "type": "活動嘉賓"
+            }
+          ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
           "event_name": "弦月嘩鬼祭",
           "person_notes": {
@@ -13000,6 +26031,10 @@ window.MAID_ROSTERS = {
         {
           "handle": "_arisulll_",
           "status": "current"
+        },
+        {
+          "handle": "pum_pkin_a",
+          "status": "current"
         }
       ],
       "instagram": "https://www.instagram.com/_arisulll_/"
@@ -15587,6 +28622,18 @@ window.MAID_ROSTERS = {
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
+    },
+    "Eille": {
+      "person_id": "IG_9e6ccdfab89f78ea",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "ellie_maid.030",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/ellie_maid.030/"
     }
   },
   "person_accounts": {
@@ -19231,6 +32278,10 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "_arisulll_",
+            "status": "current"
+          },
+          {
+            "handle": "pum_pkin_a",
             "status": "current"
           }
         ]
@@ -23067,6 +36118,10 @@ window.MAID_ROSTERS = {
           {
             "handle": "_arisulll_",
             "status": "current"
+          },
+          {
+            "handle": "pum_pkin_a",
+            "status": "current"
           }
         ]
       },
@@ -23109,6 +36164,84 @@ window.MAID_ROSTERS = {
           },
           {
             "handle": "ttea_maid_",
+            "status": "current"
+          }
+        ]
+      },
+      "貓月": {
+        "person_id": "IG_54d416de6bc98e30",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/maau_yut_/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "maau_yut_",
+            "status": "current"
+          }
+        ]
+      },
+      "狗狗": {
+        "person_id": "IG_c837bbc51b110547",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/inui._.ovo/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "inui._.ovo",
+            "status": "current"
+          }
+        ]
+      },
+      "晏咲": {
+        "person_id": "IG_c97ffe14f7e1b139",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/annzi_ssk/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "annzi_ssk",
+            "status": "current"
+          }
+        ]
+      },
+      "Eille": {
+        "person_id": "IG_9e6ccdfab89f78ea",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/ellie_maid.030/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "ellie_maid.030",
+            "status": "current"
+          }
+        ]
+      },
+      "Yuki": {
+        "person_id": "IG_8f1575c578ebf5b4",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/yukiii._.1111/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "yukiii._.1111",
+            "status": "current"
+          }
+        ]
+      },
+      "許洛": {
+        "person_id": "IG_b2605c8908c12a53",
+        "profile_image": "",
+        "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+        "instagram": "https://www.instagram.com/_luy_bnw_/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "_luy_bnw_",
             "status": "current"
           }
         ]
@@ -23169,14 +36302,6 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "許洛": {
-        "person_id": "N___613",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
       "牙米": {
         "person_id": "N___540",
         "profile_image": "",
@@ -23187,14 +36312,6 @@ window.MAID_ROSTERS = {
       },
       "蕉": {
         "person_id": "N___600",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "貓月": {
-        "person_id": "N___619",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -23265,24 +36382,8 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "狗狗": {
-        "person_id": "N___542",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
       "Asuka": {
         "person_id": "N_Asuka",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "晏咲": {
-        "person_id": "R_14_f084410e71c9",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -23307,14 +36408,6 @@ window.MAID_ROSTERS = {
       },
       "Halo": {
         "person_id": "R_14_f47331651bd5",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "Yuki": {
-        "person_id": "N_Yuki",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -25996,5 +39089,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:12+08:00"
+  "published_at": "2026-10-29T04:19+08:00"
 };

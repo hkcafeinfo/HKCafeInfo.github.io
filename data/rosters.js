@@ -1149,6 +1149,13 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
           "event_name": "羊誕祭"
         }
+      ],
+      "unresolved": [
+        {
+          "date": "2026-10-23",
+          "reason": "10/23心心生日原帖高清海報列Inari、Kyo；現行週表名單另有企鵝、Lily，尚無已確認別名對應，不能據人像合併。活動帖10/19發布且標已編輯；週表10/18發布，未取得精確編輯時間／名單修訂關係。保留現行名單及兩來源，待確認活動海報是否新增或取代當值名單。",
+          "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/|https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        }
       ]
     },
     {

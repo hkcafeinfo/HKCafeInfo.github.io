@@ -380,3 +380,37 @@
   showView(search ? "matrix" : (["cards", "matrix", "people", "shops"].includes(savedPage.mode) ? savedPage.mode : "matrix"));
   requestAnimationFrame(() => { if (Number.isFinite(savedPage.scrollY)) window.scrollTo(0, savedPage.scrollY); });
 })();
+
+(() => {
+  "use strict";
+  const hero = document.querySelector(".hero");
+  const slides = [...hero.querySelectorAll(".hero-slide")];
+  const dots = [...hero.querySelectorAll("[data-hero-slide]")];
+  const pause = document.getElementById("hero-pause");
+  let current = 0, timer;
+  let paused = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function schedule() {
+    clearInterval(timer);
+    if (!paused && !document.hidden && !hero.matches(":hover, :focus-within")) timer = setInterval(() => show(current + 1), 6000);
+    pause.textContent = paused ? "播放輪播" : "暫停輪播";
+    pause.setAttribute("aria-pressed", String(paused));
+  }
+  function show(index) {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("is-active", i === current);
+      slide.setAttribute("aria-hidden", String(i !== current));
+      dots[i].setAttribute("aria-pressed", String(i === current));
+    });
+  }
+  dots.forEach((dot, i) => dot.addEventListener("click", () => { show(i); schedule(); }));
+  document.getElementById("hero-prev").addEventListener("click", () => { show(current - 1); schedule(); });
+  document.getElementById("hero-next").addEventListener("click", () => { show(current + 1); schedule(); });
+  pause.addEventListener("click", () => { paused = !paused; schedule(); });
+  hero.addEventListener("mouseenter", () => clearInterval(timer));
+  hero.addEventListener("mouseleave", schedule);
+  hero.addEventListener("focusin", () => clearInterval(timer));
+  hero.addEventListener("focusout", () => requestAnimationFrame(schedule));
+  document.addEventListener("visibilitychange", schedule);
+  schedule();
+})();

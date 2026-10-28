@@ -434,3 +434,20 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 }
 
 #matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}
+
+/* Copy carousel reserves the tallest slide's space to avoid page jumps. */
+.hero-slides{display:grid}
+.hero-slide{grid-area:1/1;visibility:hidden;opacity:0;transition:opacity .3s ease;min-width:0}
+.hero-slide.is-active{visibility:visible;opacity:1}
+.hero .hero-slide-title{font-size:clamp(30px,4.5vw,58px);line-height:1.2;letter-spacing:-.04em;margin:18px 0 16px;font-weight:800;color:#27344b}
+.hero-carousel-controls{display:flex;align-items:center;gap:8px;margin-top:16px}
+.hero-carousel-controls>button{min-height:36px;min-width:36px;padding:6px 10px;border:1px solid #dce2ef;border-radius:9px;background:#ffffffb3;color:#5365a5;font-size:12px}
+.hero-dots{display:flex;gap:4px;align-items:center}
+.hero-dots button{width:28px;height:36px;border:0;background:transparent;padding:9px;position:relative}
+.hero-dots button:after{content:"";display:block;width:8px;height:8px;border-radius:50%;background:#bdc6df}
+.hero-dots button[aria-pressed="true"]:after{background:#6677c9}
+.hero .hero-meta{margin-top:16px}
+@media(max-width:700px){.hero .hero-slide-title{font-size:30px}.hero .eyebrow{font-size:9px;letter-spacing:.1em}.hero-carousel-controls{gap:5px}.hero .hero-meta{font-size:10px;gap:10px}}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+
+.hero-copy{min-width:0;width:100%}.hero-slides{grid-template-columns:minmax(0,1fr)}

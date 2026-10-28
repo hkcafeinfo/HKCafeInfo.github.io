@@ -590,9 +590,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街88號聯興大廈10樓88室",
       "address_source": "https://www.instagram.com/maid_clinic/",
       "profile_image": "data/profile_images/shops/maid_clinic.jpg",
-      "opening_hours": "星期一至四 17:00–22:00\n星期五 17:00–23:00\n星期六日及公眾假期 15:00–23:00",
+      "opening_hours": "星期一至四 17:00–22:00\n星期五 17:00–23:00\n星期六、日及公眾假期 15:00–23:00",
       "opening_hours_source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
-      "opening_hours_checked_at": "2026-10-26",
+      "opening_hours_checked_at": "2026-10-28",
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
@@ -767,13 +767,16 @@ window.MAID_ROSTERS = {
               "笛子",
               "蚊蚊"
             ],
-            "限定護士": [
+            "限定女僕": [
               "AME",
               "AYU",
               "小鉛梓"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
+          ]
         },
         {
           "date": "2026-10-20",
@@ -792,7 +795,10 @@ window.MAID_ROSTERS = {
               "毛毛"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
+          ]
         },
         {
           "date": "2026-10-21",
@@ -812,7 +818,10 @@ window.MAID_ROSTERS = {
               "蜜蜜"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
+          ]
         },
         {
           "date": "2026-10-22",
@@ -828,7 +837,10 @@ window.MAID_ROSTERS = {
               "MIYA"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
+          ]
         },
         {
           "date": "2026-10-23",
@@ -839,7 +851,7 @@ window.MAID_ROSTERS = {
               "LILY",
               "綠茶"
             ],
-            "當值護士": [
+            "當值女僕": [
               "MIYABI",
               "企鵝",
               "小堇",
@@ -851,7 +863,10 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
+          ]
         },
         {
           "date": "2026-10-24",
@@ -862,11 +877,12 @@ window.MAID_ROSTERS = {
               "布布",
               "阿敏"
             ],
-            "當值護士": [
+            "當值女僕": [
               "小蚊",
               "心心",
               "笛子",
-              "蚊蚊"
+              "蚊蚊",
+              "喵璃"
             ],
             "限定護士": [
               "MIDORIN",
@@ -874,10 +890,11 @@ window.MAID_ROSTERS = {
               "懵"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/",
+          "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "event_name": "Yuzu Birthday Party",
           "alternate_sources": [
-            "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+            "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/",
+            "https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/|https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
           ]
         },
         {
@@ -920,7 +937,10 @@ window.MAID_ROSTERS = {
               "星星"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/"
+          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
+          ]
         },
         {
           "date": "2026-10-27",
@@ -940,7 +960,10 @@ window.MAID_ROSTERS = {
               "柔柔"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/"
+          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -961,7 +984,10 @@ window.MAID_ROSTERS = {
               "蜜蜜"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/"
+          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
+          ]
         },
         {
           "date": "2026-10-29",
@@ -983,7 +1009,10 @@ window.MAID_ROSTERS = {
               "Vivi"
             ]
           },
-          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/"
+          "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -1009,7 +1038,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "event_name": "Rinki生誕當值",
           "alternate_sources": [
-            "https://www.instagram.com/maid_clinic/p/DerExwivM0i/"
+            "https://www.instagram.com/maid_clinic/p/DerExwivM0i/|https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
           ]
         },
         {
@@ -1038,7 +1067,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
-          "event_name": "Halloween Party"
+          "event_name": "Halloween Party",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
+          ]
         },
         {
           "date": "2026-11-01",
@@ -1063,7 +1095,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
           "event_name": "Rubi生誕當值",
           "alternate_sources": [
-            "https://www.instagram.com/maid_clinic/p/De4UBd3Nb90/"
+            "https://www.instagram.com/maid_clinic/p/De4UBd3Nb90/|https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
           ]
         },
         {

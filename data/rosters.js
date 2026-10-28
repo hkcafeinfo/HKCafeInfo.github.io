@@ -25834,8 +25834,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/maid_eidolon_2026-10-31_halloween.jpg",
       "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Sugar Factory Cafe",
+      "event_name": "Onime生誕祭2026",
+      "image_path": "data/event_images/sugar_2026-09-26_onime.jpg",
+      "source": "https://www.instagram.com/sugarfactory_maid_onime/p/Dcu_GMIu5-V/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T03:31+08:00"
+  "published_at": "2026-10-29T03:33+08:00"
 };

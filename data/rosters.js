@@ -3332,7 +3332,16 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/DemDXk2BCcT/"
+          ],
+          "person_notes": {
+            "小圓": "個人時段：19:00-23:00"
+          },
+          "person_times": {
+            "小圓": "19:00-23:00"
+          }
         },
         {
           "date": "2026-10-20",
@@ -12855,5 +12864,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:03+08:00"
+  "published_at": "2026-10-28T20:07+08:00"
 };

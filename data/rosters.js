@@ -2203,197 +2203,6 @@ window.MAID_ROSTERS = {
           "notes": "活動帖列出當日出席精靈；未逐人列明完整更期。"
         },
         {
-          "date": "2026-10-26",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "mona",
-              "okk",
-              "千夏",
-              "貓貓",
-              "魚骨",
-              "麻糬"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "Ringo"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-27",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "Sumire",
-              "kiukiu",
-              "奶昔",
-              "幼幼",
-              "烏龜",
-              "蛋蛋",
-              "豆豆",
-              "阿月",
-              "鴨鴨"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "Kayla",
-              "Vivi"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-28",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "P4",
-              "Rinka",
-              "aya",
-              "mona",
-              "咩咩",
-              "小睡",
-              "幼幼",
-              "昭子",
-              "細rinka",
-              "羽琉那"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "Lia",
-              "Tia",
-              "蚊蚊"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "person_notes": {
-            "羽琉那": "首次當值"
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "P4",
-              "Rei",
-              "Sumire",
-              "okk",
-              "咩咩",
-              "奶昔",
-              "細rinka",
-              "絲",
-              "羽琉那",
-              "鴨鴨",
-              "麻糬"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "uu"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "17:00-23:00",
-          "groups": {
-            "當值精靈": [
-              "Akari",
-              "KK",
-              "Lori",
-              "Mercy",
-              "Rinka",
-              "Sumire",
-              "Uri",
-              "mona",
-              "千暮雪",
-              "奶昔",
-              "留多晚",
-              "絲",
-              "貓貓",
-              "鴨鴨"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "乳酪",
-              "小璃",
-              "鏡"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行"
-        },
-        {
-          "date": "2026-10-31",
-          "hours": "15:00-23:00",
-          "groups": {
-            "當值精靈": [
-              "Aiya",
-              "KK",
-              "Mercy",
-              "Rei",
-              "Yumi",
-              "咩咩",
-              "小音",
-              "昭子",
-              "烏龜",
-              "絲",
-              "貓貓",
-              "阿月"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "Toua",
-              "碌柚葉",
-              "荔枝"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
-        },
-        {
-          "date": "2026-11-01",
-          "hours": "15:00-22:00",
-          "groups": {
-            "當值精靈": [
-              "Haruna",
-              "Hecate",
-              "Rizuko",
-              "aya",
-              "小眠",
-              "小睡",
-              "幼幼",
-              "烏龜",
-              "阿月",
-              "阿雪",
-              "魚骨"
-            ],
-            "花園守護": [
-              "Whitney"
-            ],
-            "限定精靈": [
-              "茶熊",
-              "阿P"
-            ]
-          },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
-        },
-        {
           "date": "2026-11-05",
           "hours": "17:00-22:00",
           "groups": {
@@ -2479,6 +2288,198 @@ window.MAID_ROSTERS = {
             "鴨鴨": "個人時段未另行列明。"
           },
           "notes": "個人時段未另行列明。"
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Szyiu",
+              "okk",
+              "麻糬",
+              "千夏",
+              "魚骨",
+              "貓貓"
+            ],
+            "限定精靈": [
+              "Ringo"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "鴨鴨",
+              "幼幼",
+              "豆豆",
+              "Sumire",
+              "蛋蛋",
+              "阿月",
+              "烏龜",
+              "kiukiu"
+            ],
+            "限定精靈": [
+              "Kayla"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "昭子",
+              "幼幼",
+              "月",
+              "Rinka",
+              "細rinka",
+              "羽琉那",
+              "mona",
+              "烏龜"
+            ],
+            "限定精靈": [
+              "蚊蚊",
+              "Kuri",
+              "Tia",
+              "Lia"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "person_notes": {
+            "羽琉那": "首次當值"
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "鴨鴨",
+              "奶昔",
+              "okk",
+              "Sumire",
+              "麻糬",
+              "細rinka",
+              "羽琉那",
+              "Rei",
+              "咩咩"
+            ],
+            "限定精靈": [
+              "uu",
+              "zoe"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "Akari",
+              "鴨鴨",
+              "Lori",
+              "奶昔",
+              "Rinka",
+              "Uri",
+              "KK",
+              "Sumire",
+              "Mercy",
+              "千暮雪",
+              "mona",
+              "貓貓",
+              "留多晚"
+            ],
+            "限定精靈": [
+              "乳酪",
+              "鏡",
+              "小璃"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "15:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "昭子",
+              "KK",
+              "Mercy",
+              "阿月",
+              "Yumi",
+              "Rei",
+              "貓貓",
+              "咩咩",
+              "小音",
+              "烏龜",
+              "Aiya"
+            ],
+            "限定精靈": [
+              "荔枝",
+              "Toua",
+              "碌柚葉",
+              "小堇",
+              "BiBi",
+              "阿廚"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "幼幼",
+              "阿月",
+              "aya",
+              "Hecate",
+              "阿雪",
+              "小睡",
+              "小眠",
+              "魚骨",
+              "Rizuko",
+              "Haruna",
+              "Yumi",
+              "烏龜"
+            ],
+            "限定精靈": [
+              "阿P",
+              "茶熊"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
         }
       ]
     },
@@ -13027,5 +13028,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:52+08:00"
+  "published_at": "2026-10-28T21:01+08:00"
 };

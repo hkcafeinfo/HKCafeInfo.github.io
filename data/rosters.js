@@ -12834,5 +12834,6 @@ window.MAID_ROSTERS = {
       "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
       "opacity": "0.22"
     }
-  ]
+  ],
+  "published_at": "2026-10-28T19:55+08:00"
 };

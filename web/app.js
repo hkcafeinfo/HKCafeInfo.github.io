@@ -8,7 +8,13 @@
     nodes.grid.textContent = "讀唔到更表資料，請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
-  if (nodes.footerVersion) nodes.footerVersion.textContent = `資料版本：${data.checked_at || "未標示"}（香港時間）`;
+  const lastUpdate = (() => {
+    if (!data.published_at) return data.checked_at || "未標示";
+    const date = new Date(data.published_at);
+    if (Number.isNaN(date.getTime())) return data.checked_at || "未標示";
+    return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(date).replace(", ", " ");
+  })();
+  if (nodes.footerVersion) nodes.footerVersion.textContent = `最後更新：${lastUpdate}（香港時間）`;
 
   const allDates = [...new Set(data.shops.flatMap((shop) => [
     ...(shop.shifts || []).map((shift) => shift.date),
@@ -93,7 +99,7 @@
   $("shop-count").textContent = data.shops.length;
   $("date-count").textContent = allDates.length;
   $("person-count").textContent = total;
-  $("updated-label").textContent = `資料擷取：${data.checked_at || "未註明"}`;
+  $("updated-label").textContent = `最後更新：${lastUpdate}`;
   const heroLogos = $("hero-logos");
   const bannerOrder = [
     "Maidoll Mirage", "Maid Planet", "Maid Academy", "Maid Clinic", "Elysium Cafe",

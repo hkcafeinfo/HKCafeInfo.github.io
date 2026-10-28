@@ -2076,16 +2076,17 @@ window.MAID_ROSTERS = {
               "蚊蚊"
             ]
           },
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/DewXZBNPybC/"
+          ]
         },
         {
           "date": "2026-10-22",
           "hours": "17:00-22:00",
           "groups": {
             "當值精靈": [
-              "Kiu Kiu",
               "P4",
-              "Sumire",
               "咩咩",
               "小眠",
               "貓貓"
@@ -2111,8 +2112,7 @@ window.MAID_ROSTERS = {
               "托比",
               "留多晚",
               "細rinka",
-              "絲",
-              "鴨鴨"
+              "絲"
             ],
             "花園守護": [
               "Whitney"
@@ -2175,11 +2175,18 @@ window.MAID_ROSTERS = {
               "絲",
               "蛋蛋",
               "豆豆",
-              "鴨鴨"
+              "鴨鴨",
+              "P4"
+            ],
+            "花園守護": [
+              "Whitney"
             ]
           },
-          "source": "https://www.instagram.com/agarden_2001/p/Deb9qwvDx7N/",
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
           "event_name": "AG 1st Anniversary × Upper Mansion：Dark Elegance 哥德夢幻週年派對",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/Deb9qwvDx7N/"
+          ],
           "person_notes": {
             "Akari": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "Cherry": "活動帖列出當日出席精靈；未逐人列明完整更期。",
@@ -2199,8 +2206,7 @@ window.MAID_ROSTERS = {
             "蛋蛋": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "豆豆": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "鴨鴨": "活動帖列出當日出席精靈；未逐人列明完整更期。"
-          },
-          "notes": "活動帖列出當日出席精靈；未逐人列明完整更期。"
+          }
         },
         {
           "date": "2026-11-05",
@@ -2275,21 +2281,6 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/o.akariwww.o2/p/De6gaMek6JQ/"
           ],
-          "review_names": {
-            "Bibi": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "Kora": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "Nemu": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "Rinka": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "小蛾": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "Saki": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "Sumire": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "企鵝": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "奶昔": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "幼幼": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "笛子": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "蛋蛋": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。",
-            "鴨鴨": "10/27店方完整公告13人；較10/25已核舊名單新，Ruika改小蛾，舊來源保留。"
-          },
           "person_notes": {
             "Bibi": "個人時段未另行列明。",
             "Kora": "個人時段未另行列明。",
@@ -2376,6 +2367,9 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/De82JZovFEF/"
+          ],
           "person_notes": {
             "羽琉那": "首次當值"
           }
@@ -2404,7 +2398,10 @@ window.MAID_ROSTERS = {
               "Whitney"
             ]
           },
-          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
+          "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -2436,7 +2433,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行"
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/DfBz2HGvD8A/"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -13046,5 +13046,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T21:10+08:00"
+  "published_at": "2026-10-28T21:39+08:00"
 };

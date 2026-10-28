@@ -435,6 +435,10 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 #matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}
 
+/* Place the person-search return button after both filters and align it right. */
+#matrix-view .matrix-controls-row>.person-back{height:50px;min-height:50px;margin:0 0 0 auto;padding:0 12px;align-self:center}
+.person-search-mode #matrix-view .matrix-navigation{display:none}
+
 /* Site identity and compact controls. */
 .topbar{position:sticky;top:0;z-index:50;height:auto;min-height:68px;padding-top:9px;padding-bottom:9px;gap:10px}
 .brand{min-width:0;gap:10px}

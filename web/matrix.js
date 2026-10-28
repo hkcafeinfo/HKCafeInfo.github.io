@@ -41,8 +41,11 @@
     const header = matrix.querySelector(".matrix-header");
     if (!header || $("matrix-view").hidden) { sticky.hidden = true; return; }
     const bounds = viewport.getBoundingClientRect();
-    const height = header.getBoundingClientRect().height;
-    const visible = bounds.top < 0 && bounds.bottom > height;
+    const headerBounds = header.getBoundingClientRect();
+    const height = headerBounds.height;
+    const top = Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0);
+    sticky.style.top = `${top}px`;
+    const visible = headerBounds.top <= top && bounds.bottom > top + height;
     sticky.hidden = !visible;
     if (!visible) return;
     sticky.style.left = `${bounds.left}px`; sticky.style.width = `${bounds.width}px`; sticky.style.height = `${height}px`;

@@ -28,7 +28,6 @@
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
   const savedPage = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-page-v1") || "{}"); } catch { return {}; } })();
   let cardRange = savedPage.cardRange === "all" ? "all" : "future";
-  if (savedPage.selectedDate && (savedPage.selectedDate === "all" || allDates.includes(savedPage.selectedDate))) selectedDate = savedPage.selectedDate;
   const cardDates = () => cardRange === "all" ? allDates : allDates.filter((date) => date >= today);
   if (selectedDate !== "all" && !cardDates().includes(selectedDate)) selectedDate = cardDates()[0] || "all";
   let search = savedPage.search || "";

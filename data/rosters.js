@@ -14848,7 +14848,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event"
+          "event_name": "萬聖節Event",
+          "alternate_sources": [
+            "https://www.instagram.com/commacafe_8/p/DewT4aRtrjv/"
+          ]
         },
         {
           "date": "2026-10-22",
@@ -15128,7 +15131,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event"
+          "event_name": "萬聖節Event",
+          "alternate_sources": [
+            "https://www.instagram.com/commacafe_8/p/De_vyhftHmV/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -38952,5 +38958,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:47+08:00"
+  "published_at": "2026-10-29T04:48+08:00"
 };

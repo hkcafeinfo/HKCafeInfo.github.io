@@ -14442,37 +14442,37 @@ window.MAID_ROSTERS = {
             {
               "name": "雅木",
               "role": "白百合精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Yuri",
               "role": "繡球花精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "青蛙",
               "role": "荷花精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "有栖",
               "role": "薔薇精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "魚莫",
               "role": "櫻花精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "芊夏",
               "role": "太陽花精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "茶茶",
               "role": "山茶花精靈",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DeHl2ipNIIy/",
@@ -39168,8 +39168,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/comma_2026-11-08_host.jpg",
       "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Comma Cafe",
+      "event_name": "雅木女僕四周年·花精靈宅邸盛典",
+      "image_path": "data/event_images/comma_2026-10-10_anniversary.jpg",
+      "source": "https://www.instagram.com/commacafe_8/p/DeHl2ipNIIy/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:29+08:00"
+  "published_at": "2026-10-29T04:34+08:00"
 };

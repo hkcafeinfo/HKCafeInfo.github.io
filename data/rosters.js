@@ -23003,12 +23003,6 @@ window.MAID_ROSTERS = {
       ],
       "instagram": "https://www.instagram.com/yukina.02_/"
     },
-    "AME": {
-      "person_id": "N_AME",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "AYU": {
       "person_id": "N_AYU",
       "profile_image": "",
@@ -23084,7 +23078,7 @@ window.MAID_ROSTERS = {
     "Ame": {
       "person_id": "N_Ame",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Amy": {
@@ -23120,7 +23114,7 @@ window.MAID_ROSTERS = {
     "Aya": {
       "person_id": "N_Aya",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Ayana": {
@@ -23189,12 +23183,6 @@ window.MAID_ROSTERS = {
       ],
       "instagram": "https://www.instagram.com/bunny_luuuuoxo/"
     },
-    "CREAM": {
-      "person_id": "N_CREAM",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "Ceci": {
       "person_id": "N_Ceci",
       "profile_image": "",
@@ -23246,7 +23234,7 @@ window.MAID_ROSTERS = {
     "Cream": {
       "person_id": "N_Cream",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "DORA": {
@@ -23759,12 +23747,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "MOKA": {
-      "person_id": "N_MOKA",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "MORI": {
       "person_id": "N_MORI",
       "profile_image": "",
@@ -23828,7 +23810,7 @@ window.MAID_ROSTERS = {
     "Midorinn": {
       "person_id": "N_Midorinn",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Miharu": {
@@ -23918,7 +23900,7 @@ window.MAID_ROSTERS = {
     "Moka": {
       "person_id": "N_Moka",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Moku": {
@@ -23966,7 +23948,7 @@ window.MAID_ROSTERS = {
     "Nano": {
       "person_id": "N_Nano",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Nanoji": {
@@ -24113,10 +24095,10 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "RAKU": {
+    "Raku": {
       "person_id": "N_RAKU",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "RINKA": {
@@ -24125,16 +24107,10 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "Raku": {
-      "person_id": "N_Raku",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "Reda": {
       "person_id": "N_Reda",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "Rei": {
@@ -24356,7 +24332,7 @@ window.MAID_ROSTERS = {
     "Szyiu": {
       "person_id": "N_Szyiu",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "TNT": {
@@ -24641,12 +24617,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "aya": {
-      "person_id": "N_aya",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "emon": {
       "person_id": "N_emon",
       "profile_image": "",
@@ -24761,12 +24731,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "midorinn": {
-      "person_id": "N_midorinn",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "mikan": {
       "person_id": "N_mikan",
       "profile_image": "",
@@ -24793,12 +24757,6 @@ window.MAID_ROSTERS = {
     },
     "nako": {
       "person_id": "N_nako",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
-    "nano": {
-      "person_id": "N_nano",
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
@@ -24841,12 +24799,6 @@ window.MAID_ROSTERS = {
     },
     "raku": {
       "person_id": "N_raku",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
-    "reda": {
-      "person_id": "N_reda",
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
@@ -27086,7 +27038,7 @@ window.MAID_ROSTERS = {
     "Kata": {
       "person_id": "R_19_b903d686792c",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "akana": {
@@ -27191,12 +27143,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "kata": {
-      "person_id": "R_19_af7f3d90ec68",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "炸彈": {
       "person_id": "R_19_bfdf2fcd6648",
       "profile_image": "",
@@ -27230,7 +27176,7 @@ window.MAID_ROSTERS = {
     "KiuKiu": {
       "person_id": "R_4_472b468f549e",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": []
     },
     "麻油": {
@@ -27839,12 +27785,6 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": []
     },
-    "小sakura": {
-      "person_id": "R_13_32591b64a6f2",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
     "Sumiyo": {
       "person_id": "R_12_ac0c20e1298b",
       "profile_image": "",
@@ -27967,12 +27907,6 @@ window.MAID_ROSTERS = {
     },
     "美恩": {
       "person_id": "R_19_b6ee65348454",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
-    "szyiu": {
-      "person_id": "R_4_0dbe76871a84",
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
@@ -28393,12 +28327,6 @@ window.MAID_ROSTERS = {
     },
     "Ringo": {
       "person_id": "R_4_305b65f4a7ee",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
-    },
-    "kiukiu": {
-      "person_id": "R_4_765e2de8d068",
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
@@ -30933,7 +30861,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "Raku": {
-        "person_id": "N_Raku",
+        "person_id": "N_RAKU",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -31162,7 +31090,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "MOKA": {
-        "person_id": "N_MOKA",
+        "person_id": "N_Moka",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -31186,7 +31114,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "AME": {
-        "person_id": "N_AME",
+        "person_id": "N_Ame",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -31223,7 +31151,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "CREAM": {
-        "person_id": "N_CREAM",
+        "person_id": "N_Cream",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -31732,7 +31660,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "midorinn": {
-        "person_id": "N_midorinn",
+        "person_id": "N_Midorinn",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -34339,7 +34267,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "aya": {
-        "person_id": "N_aya",
+        "person_id": "N_Aya",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -34451,7 +34379,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "szyiu": {
-        "person_id": "R_4_0dbe76871a84",
+        "person_id": "N_Szyiu",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -34523,7 +34451,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "kiukiu": {
-        "person_id": "R_4_765e2de8d068",
+        "person_id": "R_4_472b468f549e",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -35872,12 +35800,17 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "小sakura": {
-        "person_id": "R_13_32591b64a6f2",
+        "person_id": "N__Sakura",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/zz_sakura_zz/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "zz_sakura_zz",
+            "status": "current"
+          }
+        ]
       },
       "奶茶": {
         "person_id": "N___432",
@@ -36662,7 +36595,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "kata": {
-        "person_id": "R_19_af7f3d90ec68",
+        "person_id": "R_19_b903d686792c",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -38419,7 +38352,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "reda": {
-        "person_id": "N_reda",
+        "person_id": "N_Reda",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -38571,7 +38504,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "nano": {
-        "person_id": "N_nano",
+        "person_id": "N_Nano",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -38957,5 +38890,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T07:45+08:00"
+  "published_at": "2026-10-29T07:54+08:00"
 };

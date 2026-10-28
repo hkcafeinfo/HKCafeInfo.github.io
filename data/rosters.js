@@ -6531,7 +6531,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-10-25",
@@ -6550,7 +6553,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
-            "https://www.instagram.com/themanorcafe/p/DevTGVIpgWR/"
+            "https://www.instagram.com/themanorcafe/p/DevTGVIpgWR/",
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
           ],
           "person_notes": {
             "Soya": "個人時段：18:30-21:30；限定專帖另列。"
@@ -6572,7 +6576,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-10-27",
@@ -6588,7 +6595,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -6607,7 +6617,8 @@ window.MAID_ROSTERS = {
           "event_name": "Manor Circus Night",
           "alternate_sources": [
             "https://www.instagram.com/themanorcafe/p/DfCBHvaJKIF/",
-            "https://www.instagram.com/themanorcafe/p/DfCBEpLp-Yh/"
+            "https://www.instagram.com/themanorcafe/p/DfCBEpLp-Yh/",
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
           ],
           "person_notes": {
             "Yuzu": "個人時段：18:30-21:30",
@@ -6630,7 +6641,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -6648,7 +6662,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -6667,7 +6684,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-11-01",
@@ -6682,7 +6702,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         },
         {
           "date": "2026-11-08",
@@ -6699,7 +6722,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
-          "event_name": "Nana生誕2026"
+          "event_name": "Nana生誕2026",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
+          ]
         }
       ],
       "address": "旺角西洋菜南街聯興大廈11樓88室",
@@ -25970,5 +25996,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:00+08:00"
+  "published_at": "2026-10-29T04:12+08:00"
 };

@@ -453,3 +453,20 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .hero-copy{min-width:0;width:100%}.hero-slides{grid-template-columns:minmax(0,1fr)}
 
 @media(max-width:370px){.hero .hero-slide-title{font-size:26px}}
+
+/* Compact carousel keeps the banner below two thirds of its former height. */
+.hero{min-height:0;padding-top:10px;padding-bottom:10px}
+.hero .eyebrow{font-size:9px;line-height:12px}
+.hero .hero-slide-title{font-size:32px;line-height:1.15;margin:5px 0 6px}
+.hero p{font-size:12px;line-height:1.5}
+.hero-carousel-controls{margin-top:6px;gap:5px}
+.hero-carousel-controls>button{height:30px;min-height:30px;min-width:30px;padding:4px 8px;font-size:11px}
+.hero-dots button{height:30px;width:24px;padding:8px}
+.hero .hero-meta{margin-top:5px;font-size:10px;line-height:12px;gap:10px}
+@media(max-width:700px){
+  .hero{padding:10px 24px}
+  .hero .eyebrow{display:none}
+  .hero .hero-slide-title{font-size:26px;margin:0 0 5px}
+  .hero p{font-size:11px;line-height:1.5}
+  .hero .hero-meta{flex-wrap:nowrap;font-size:9px;gap:8px}
+}

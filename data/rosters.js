@@ -1650,6 +1650,29 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "18:00-00:30",
+          "groups": {
+            "限定修女": [
+              "玄幽",
+              "Toffee"
+            ]
+          },
+          "source": "https://www.instagram.com/elysium.cafe21/p/DfAGXDtiT9k/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfAGObUiY6E/"
+          ],
+          "person_notes": {
+            "玄幽": "個人時段：18:00-23:00",
+            "Toffee": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "玄幽": "18:00-23:00",
+            "Toffee": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
         }
       ]
     },
@@ -12876,5 +12899,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:22+08:00"
+  "published_at": "2026-10-28T20:27+08:00"
 };

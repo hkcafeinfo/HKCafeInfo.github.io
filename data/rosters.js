@@ -1434,7 +1434,8 @@ window.MAID_ROSTERS = {
             ],
             "資深修女": [
               "Nazuna",
-              "NØNNØ"
+              "NØNNØ",
+              "小奈"
             ],
             "限定修女": [
               "真奈"
@@ -1453,13 +1454,16 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-24",
-          "hours": "17:00-01:30",
+          "hours": "18:00-01:30",
           "groups": {
             "廚娘": [
               "Isako"
             ],
-            "活動出席人員": [
+            "限定甜品": [
               "Ina",
+              "Sayori"
+            ],
+            "甜品": [
               "Sai",
               "Toto",
               "安晚",
@@ -1478,7 +1482,8 @@ window.MAID_ROSTERS = {
             "Toto": "個人時段：18:00-01:30；個別時段按活動帖。",
             "安晚": "個人時段：19:00-01:30；個別時段按活動帖。",
             "梓叔": "個人時段：18:00-01:30；個別時段按活動帖。",
-            "紗璉": "個人時段：18:00-01:30；個別時段按活動帖。"
+            "紗璉": "個人時段：18:00-01:30；個別時段按活動帖。",
+            "Sayori": "個人時段：18:00-23:00"
           },
           "person_times": {
             "Ina": "18:00-23:00",
@@ -1486,7 +1491,8 @@ window.MAID_ROSTERS = {
             "Toto": "18:00-01:30",
             "安晚": "19:00-01:30",
             "梓叔": "18:00-01:30",
-            "紗璉": "18:00-01:30"
+            "紗璉": "18:00-01:30",
+            "Sayori": "18:00-23:00"
           }
         },
         {
@@ -1613,23 +1619,32 @@ window.MAID_ROSTERS = {
           "date": "2026-10-29",
           "hours": "18:00-00:30",
           "groups": {
-            "值班醫護": [
-              "@night_0v0_",
-              "Itsu",
+            "Nurse": [
+              "安晚",
               "Mugi",
-              "Natsumi",
-              "Sai",
-              "Sayori",
               "Uka"
+            ],
+            "限定Dr.": [
+              "Itsu"
+            ],
+            "限定Nurse": [
+              "Natsumi",
+              "Sayori"
+            ],
+            "Head Nurse": [
+              "Sai"
+            ],
+            "廚娘": [
+              "NØNNØ"
             ]
           },
-          "source": "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/",
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "ELYSIUM ASYLUM : PATIENT ADMISSION",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+            "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/"
           ],
           "person_notes": {
-            "@night_0v0_": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
+            "安晚": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
             "Itsu": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
             "Mugi": "個人時段：18:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
             "Natsumi": "個人時段：19:30-00:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
@@ -1638,7 +1653,7 @@ window.MAID_ROSTERS = {
             "Uka": "個人時段：20:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。"
           },
           "person_times": {
-            "@night_0v0_": "19:00-00:30",
+            "安晚": "19:00-00:30",
             "Itsu": "18:00-23:00",
             "Mugi": "18:00-00:30",
             "Natsumi": "19:30-00:00",
@@ -12960,5 +12975,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:39+08:00"
+  "published_at": "2026-10-28T20:43+08:00"
 };

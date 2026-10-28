@@ -3777,244 +3777,6 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/"
         },
         {
-          "date": "2026-10-20",
-          "hours": "17:00-22:00",
-          "groups": {
-            "一日限定": [
-              "浮世"
-            ],
-            "當值幽靈": [
-              "999",
-              "Reda",
-              "harei",
-              "kokomi",
-              "咬牙",
-              "小茵",
-              "牙涼"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DersHjbTaA8/"
-          ],
-          "person_notes": {
-            "浮世": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "999": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "Reda": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "harei": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "kokomi": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "咬牙": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "小茵": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
-            "牙涼": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
-          },
-          "notes": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
-        },
-        {
-          "date": "2026-10-21",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "kusuki",
-              "momo",
-              "yuki",
-              "七月",
-              "剎那",
-              "小南",
-              "空雪",
-              "貓目",
-              "魷魚"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-22",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "999",
-              "Reda",
-              "hari",
-              "kokomi",
-              "nano",
-              "yui",
-              "咬牙",
-              "小茵"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-23",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "kumo",
-              "nako",
-              "ruika",
-              "八田",
-              "大毛",
-              "小南",
-              "小困",
-              "小狐狸",
-              "阿橦"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-24",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "harei",
-              "kusuki",
-              "raku",
-              "七月",
-              "大毛",
-              "鰻魚",
-              "龍蝦"
-            ],
-            "限定幽靈": [
-              "小嘉"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-        },
-        {
-          "date": "2026-10-25",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "kokomi",
-              "reda",
-              "キキ",
-              "剎那",
-              "空雪",
-              "阿橦",
-              "鬼鬼"
-            ],
-            "限定幽靈": [
-              "saki"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-26",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "9000",
-              "kumo",
-              "reda",
-              "riko",
-              "ruika",
-              "yuki",
-              "八田",
-              "魷魚"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-27",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "mizore",
-              "reda",
-              "usagi",
-              "咬牙",
-              "大毛",
-              "藍莓",
-              "阿初",
-              "龍蝦"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-28",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "999",
-              "hari",
-              "kokomi",
-              "kusuki",
-              "nano",
-              "reda",
-              "七月",
-              "牙涼",
-              "空雪",
-              "鬼鬼"
-            ],
-            "限定幽靈": [
-              "akaya"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/"
-          ],
-          "person_notes": {
-            "kokomi": "此為店舖開放時間；個人時段未另行列明。",
-            "reda": "此為店舖開放時間；個人時段未另行列明。"
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "999",
-              "kokomi",
-              "reda",
-              "yui",
-              "空雪",
-              "貓目",
-              "阿初"
-            ],
-            "限定幽靈": [
-              "豆豆"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-          "event_name": "萬聖節活動"
-        },
-        {
-          "date": "2026-10-30",
-          "hours": "17:00-22:00",
-          "groups": {
-            "當值幽靈": [
-              "raku",
-              "ruika",
-              "丑",
-              "八田",
-              "剎那",
-              "小南",
-              "小狐狸"
-            ],
-            "限定幽靈": [
-              "ろく"
-            ]
-          },
-          "source": "https://www.instagram.com/maid_eidolon/p/De3OC0ZTRmz/",
-          "event_name": "萬聖節活動",
-          "alternate_sources": [
-            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
-            "https://www.instagram.com/maid_eidolon/p/De3N8Lrzym7/"
-          ],
-          "review_names": {
-            "ろく": "較新的10/30限定公告列「ろく」；較舊公告列Nana，依最新資訊更新。"
-          }
-        },
-        {
           "date": "2026-10-31",
           "hours": "17:00-22:00",
           "groups": {
@@ -4034,6 +3796,259 @@ window.MAID_ROSTERS = {
           "event_name": "萬聖節活動 幽靈聚會",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "Reda",
+              "kokomi",
+              "999",
+              "小茵",
+              "咬牙",
+              "harei",
+              "牙涼"
+            ],
+            "限定幽靈": [
+              "浮世"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DersHjbTaA8/"
+          ],
+          "person_notes": {
+            "Reda": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "kokomi": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "999": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "小茵": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "咬牙": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "harei": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "牙涼": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。",
+            "浮世": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
+          },
+          "notes": "限定幽靈資料互相矛盾：週更表寫「浮世」，單日貼文寫「ふみ」；暫不列入當值名單。"
+        },
+        {
+          "date": "2026-10-21",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "空雪",
+              "小南",
+              "kusuki",
+              "七月",
+              "剎那",
+              "魷魚",
+              "貓目",
+              "yuki",
+              "momo"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-22",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "Reda",
+              "kokomi",
+              "hari",
+              "999",
+              "yui",
+              "鬼鬼",
+              "咬牙",
+              "小茵"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/De7_HIpz1_x/"
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "小南",
+              "ruika",
+              "八田",
+              "阿橦",
+              "大毛",
+              "kumo",
+              "小困",
+              "小狐狸"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/De7_ZeHzVq-/"
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "鰻魚",
+              "raku",
+              "harei",
+              "龍蝦",
+              "七月",
+              "kusuki",
+              "大毛",
+              "nako"
+            ],
+            "限定幽靈": [
+              "小嘉"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-25",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "reda",
+              "kokomi",
+              "空雪",
+              "剎那",
+              "キキ",
+              "鬼鬼"
+            ],
+            "限定幽靈": [
+              "saki"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "reda",
+              "ruika",
+              "八田",
+              "魷魚",
+              "9000",
+              "yuki",
+              "kumo",
+              "riko"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "reda",
+              "mizore",
+              "usagi",
+              "阿初",
+              "大毛",
+              "龍蝦",
+              "咬牙",
+              "藍莓"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "空雪",
+              "hari",
+              "牙涼",
+              "七月",
+              "kusuki",
+              "nano",
+              "999",
+              "鬼鬼",
+              "reda",
+              "kokomi"
+            ],
+            "限定幽靈": [
+              "akaya"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ],
+          "person_notes": {
+            "reda": "此為店舖開放時間；個人時段未另行列明。",
+            "kokomi": "此為店舖開放時間；個人時段未另行列明。"
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "reda",
+              "貓目",
+              "yui",
+              "空雪",
+              "阿初",
+              "kokomi",
+              "999"
+            ],
+            "限定幽靈": [
+              "豆豆"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "小南",
+              "丑",
+              "八田",
+              "ruika",
+              "剎那",
+              "raku",
+              "小狐狸",
+              "牙涼",
+              "空雪"
+            ],
+            "限定幽靈": [
+              "Nana"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/maid_eidolon/p/De3OC0ZTRmz/|https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De3N8Lrzym7/"
           ]
         }
       ],

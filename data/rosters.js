@@ -6683,6 +6683,23 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "15:00-22:00",
+          "groups": {
+            "生誕主角": [
+              "Nana"
+            ],
+            "女僕": [
+              "藍南",
+              "Mao",
+              "小茸",
+              "小雨"
+            ]
+          },
+          "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
+          "event_name": "Nana生誕2026"
         }
       ],
       "address": "旺角西洋菜南街聯興大廈11樓88室",
@@ -25943,8 +25960,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/sugar_2026-09-26_onime.jpg",
       "source": "https://www.instagram.com/sugarfactory_maid_onime/p/Dcu_GMIu5-V/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "The Manor Cafe",
+      "event_name": "Nana生誕2026",
+      "image_path": "data/event_images/manor_2026-11-08_nana.jpg",
+      "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T03:58+08:00"
+  "published_at": "2026-10-29T04:00+08:00"
 };

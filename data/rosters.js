@@ -6594,16 +6594,29 @@ window.MAID_ROSTERS = {
           "date": "2026-10-28",
           "hours": "17:00-22:00",
           "groups": {
-            "一日限定表演者": [
-              "Cream&Miruku"
-            ],
             "女僕": [
               "千鈴",
               "月璃"
+            ],
+            "一日限定表演者": [
+              "Yuzu",
+              "Mirei"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
-          "event_name": "Manor Circus Night"
+          "event_name": "Manor Circus Night",
+          "alternate_sources": [
+            "https://www.instagram.com/themanorcafe/p/DfCBHvaJKIF/",
+            "https://www.instagram.com/themanorcafe/p/DfCBEpLp-Yh/"
+          ],
+          "person_notes": {
+            "Yuzu": "個人時段：18:30-21:30",
+            "Mirei": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "Yuzu": "18:30-21:30",
+            "Mirei": "18:30-21:30"
+          }
         },
         {
           "date": "2026-10-29",
@@ -6641,15 +6654,31 @@ window.MAID_ROSTERS = {
           "date": "2026-10-31",
           "hours": "15:00-22:00",
           "groups": {
-            "一日限定表演者": [
-              "Shizuru"
-            ],
             "女僕": [
               "貓神",
               "ジル"
             ],
             "試工女僕": [
               "Maru"
+            ],
+            "一日限定表演者": [
+              "Hanami",
+              "靜流"
+            ]
+          },
+          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "event_name": "Manor Circus Night"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "貓神",
+              "優奈"
+            ],
+            "試工女僕": [
+              "安"
             ]
           },
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -15497,6 +15526,24 @@ window.MAID_ROSTERS = {
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
+    },
+    "Yuzu": {
+      "person_id": "R_73a1a672cc461997",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": []
+    },
+    "Hanami": {
+      "person_id": "R_2fb3c13fd7cfe610",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": []
+    },
+    "靜流": {
+      "person_id": "R_9e392a69df39239f",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": []
     }
   },
   "person_accounts": {
@@ -15817,14 +15864,6 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "Cream&Miruku": {
-        "person_id": "R_16_42a3bfaf5574",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
       "小鈴": {
         "person_id": "R_16_b23e21b9b262",
         "profile_image": "",
@@ -15833,8 +15872,32 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "Shizuru": {
-        "person_id": "R_16_5cf4263762f6",
+      "Yuzu": {
+        "person_id": "R_73a1a672cc461997",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "Mirei": {
+        "person_id": "R_e41562857834f139",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "Hanami": {
+        "person_id": "R_2fb3c13fd7cfe610",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "靜流": {
+        "person_id": "R_9e392a69df39239f",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -25883,5 +25946,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T03:38+08:00"
+  "published_at": "2026-10-29T03:53+08:00"
 };

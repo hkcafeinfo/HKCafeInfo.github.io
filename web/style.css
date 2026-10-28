@@ -545,11 +545,14 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #people-list.people-list{display:block}
 .people-shop-group{margin:18px 0 28px}
 .people-shop-heading{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid #e5e9f1;color:#43516a;font-size:15px}
-.people-shop-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
-.people-shop-items .people-item{min-width:0}
-.person-card .person-results th:nth-child(1){width:18%}
-.person-card .person-results th:nth-child(2){width:19%}
-.person-card .person-results th:nth-child(3){width:24%}
-.person-card .person-results th:nth-child(4){width:21%}
-.person-card .person-results th:nth-child(5){width:18%}
-@media(max-width:700px){.people-shop-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.person-card .person-results th,.person-card .person-results td{font-size:9px;padding:6px 3px}.person-card .person-results th:nth-child(1){width:20%}.person-card .person-results th:nth-child(2){width:18%}.person-card .person-results th:nth-child(3){width:22%}.person-card .person-results th:nth-child(4){width:21%}.person-card .person-results th:nth-child(5){width:19%}}
+.people-shop-items{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px}
+.people-shop-items .people-item{width:fit-content;min-width:0}
+.person-card .person-results-wrap{overflow-x:auto}
+.person-card .person-results{width:max-content;min-width:100%;table-layout:auto}
+.person-card .person-results th,.person-card .person-results td{white-space:nowrap;overflow-wrap:normal}
+.person-card .person-results th:nth-child(1),.person-card .person-results td:nth-child(1){min-width:76px}
+.person-card .person-results th:nth-child(2),.person-card .person-results td:nth-child(2){min-width:100px}
+.person-card .person-results th:nth-child(3),.person-card .person-results td:nth-child(3){min-width:120px}
+.person-card .person-results th:nth-child(4),.person-card .person-results td:nth-child(4){width:1%;padding-inline:3px}
+.person-card .person-results th:nth-child(5),.person-card .person-results td:nth-child(5){width:1%;padding-inline:3px}
+@media(max-width:700px){.people-shop-items{gap:7px}.person-card .person-results th,.person-card .person-results td{font-size:9px;padding:6px 3px}}

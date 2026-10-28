@@ -14413,6 +14413,81 @@ window.MAID_ROSTERS = {
       "closed_weekdays": [],
       "shifts": [
         {
+          "date": "2026-10-10",
+          "hours": "15:00-22:00",
+          "groups": {
+            "白百合精靈": [
+              "雅木"
+            ],
+            "繡球花精靈": [
+              "Yuri"
+            ],
+            "荷花精靈": [
+              "青蛙"
+            ],
+            "薔薇精靈": [
+              "有栖"
+            ],
+            "櫻花精靈": [
+              "魚莫"
+            ],
+            "太陽花精靈": [
+              "芊夏"
+            ],
+            "山茶花精靈": [
+              "茶茶"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "雅木",
+              "role": "白百合精靈",
+              "type": "當值"
+            },
+            {
+              "name": "Yuri",
+              "role": "繡球花精靈",
+              "type": "當值"
+            },
+            {
+              "name": "青蛙",
+              "role": "荷花精靈",
+              "type": "當值"
+            },
+            {
+              "name": "有栖",
+              "role": "薔薇精靈",
+              "type": "當值"
+            },
+            {
+              "name": "魚莫",
+              "role": "櫻花精靈",
+              "type": "當值"
+            },
+            {
+              "name": "芊夏",
+              "role": "太陽花精靈",
+              "type": "當值"
+            },
+            {
+              "name": "茶茶",
+              "role": "山茶花精靈",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/commacafe_8/p/DeHl2ipNIIy/",
+          "event_name": "雅木女僕四周年·花精靈宅邸盛典",
+          "person_notes": {
+            "雅木": "本帖標註 @8mumu_ya5；個人時段未另列。",
+            "Yuri": "本帖標註 @yuriii.maid_；個人時段未另列。",
+            "青蛙": "本帖標註 @frog._.maid；個人時段未另列。",
+            "有栖": "本帖標註 @_arisulll_；個人時段未另列。",
+            "魚莫": "本帖標註 @maid.fishyumo.o；個人時段未另列。",
+            "芊夏": "本帖標註 @chi_ka_qq；個人時段未另列。",
+            "茶茶": "本帖標註 @ttea_maid_；個人時段未另列。"
+          }
+        },
+        {
           "date": "2026-10-12",
           "hours": "15:00-22:00",
           "groups": {
@@ -39096,5 +39171,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:26+08:00"
+  "published_at": "2026-10-29T04:29+08:00"
 };

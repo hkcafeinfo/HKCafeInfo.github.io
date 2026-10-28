@@ -224,7 +224,11 @@
       const list = make("div", "person-card-list");
       for (const person of [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK"))) {
         const card = make("article", "person-card");
-        const info = data.person_accounts?.[person.shop.shop]?.[person.name] || data.people?.[person.name];
+        const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
+        const sharedInfo = data.people?.[person.name] || {};
+        const info = { ...sharedInfo, ...shopInfo,
+          instagram: shopInfo.instagram || sharedInfo.instagram || "",
+          profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
         const top = make("div", "person-card-top");
         const profile = make("div", "person-search-profile");
         if (info?.profile_image) {

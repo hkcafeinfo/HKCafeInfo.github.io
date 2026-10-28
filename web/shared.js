@@ -47,18 +47,31 @@
   }
   function personKey(shop, name) { return JSON.stringify([shop, name.trim().toLocaleLowerCase()]); }
   let conflicts;
-  function identityKey(data, shop, name) {
+  function personIdentity(data, shop, name) {
     const account = data.person_accounts?.[shop]?.[name];
-    const base = account?.person_id ? `person:${account.person_id}` : null;
-    const username = handle(account?.instagram).toLocaleLowerCase();
-    const key = base || (username ? `ig:${username}` : `name:${name.trim().toLocaleLowerCase()}`);
+    const shared = data.people?.[name];
+    const username = handle(account?.instagram || shared?.instagram).toLocaleLowerCase();
+    let personId = account?.person_id;
+    if (!personId && username) {
+      for (const accounts of Object.values(data.person_accounts || {})) {
+        for (const info of Object.values(accounts || {})) {
+          if (info?.person_id && handle(info.instagram).toLocaleLowerCase() === username) {
+            personId = info.person_id;
+            break;
+          }
+        }
+        if (personId) break;
+      }
+    }
+    return personId ? `person:${personId}` : (username ? `ig:${username}` : `name:${name.trim().toLocaleLowerCase()}`);
+  }
+  function identityKey(data, shop, name) {
+    const key = personIdentity(data, shop, name);
     if (!conflicts) {
       const appearances = new Map(); conflicts = new Set();
       for (const cafe of data.shops || []) for (const shift of cafe.shifts || [])
         for (const names of Object.values(shift.groups || {})) for (const person of names) {
-          const info = data.person_accounts?.[cafe.shop]?.[person];
-          const ig = handle(info?.instagram).toLocaleLowerCase();
-          const identity = info?.person_id ? `person:${info.person_id}` : (ig ? `ig:${ig}` : `name:${person.trim().toLocaleLowerCase()}`);
+          const identity = personIdentity(data, cafe.shop, person);
           const dated = `${identity}|${shift.date}`;
           if (appearances.has(dated) && appearances.get(dated) !== cafe.shop) conflicts.add(identity);
           else appearances.set(dated, cafe.shop);

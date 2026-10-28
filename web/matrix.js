@@ -236,10 +236,16 @@
         } else profile.append(make("span", "person-photo-placeholder", "♡"));
         const identity = make("div", "person-identity");
         identity.append(make("strong", null, HKCI.displayName(person.name)));
-        const url = HKCI.instagram(info?.instagram);
-        if (url) {
-          const ig = make("a", "people-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; identity.append(ig);
+        const instagramAccounts = Array.isArray(info?.instagram_accounts) ? info.instagram_accounts : [];
+        const links = instagramAccounts.length ? instagramAccounts : (info?.instagram ? [{ handle: info.instagram, status: "current" }] : []);
+        const igList = make("div", "people-ig-list");
+        for (const account of links) {
+          const url = HKCI.instagram(account.handle?.startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`);
+          if (!url) continue;
+          const ig = make("a", "people-ig", `${HKCI.handle(url)}${account.status === "former" ? " · 曾用" : ""}`);
+          ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; igList.append(ig);
         }
+        if (igList.childElementCount) identity.append(igList);
         profile.append(identity); top.append(profile);
         const report = make("button", "person-report", "回報 IG／錯誤"); report.type = "button";
         report.addEventListener("click", () => HKCI.report(person.shop.shop, HKCI.displayName(person.name)));

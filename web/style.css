@@ -86,6 +86,7 @@
 .person-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid #e8ecf3}
 .person-card .person-search-profile{border:0;padding:0}
 .person-identity{display:flex;flex-direction:column;gap:2px}
+.people-ig-list{display:flex;flex-wrap:wrap;gap:2px 8px;min-width:0}
 .person-identity small{font-size:10px;color:#98a3b4}
 .person-report{border:1px solid #e3e7ee;background:#fafbfe;color:#6c7890;border-radius:7px;padding:5px 7px;font-size:10px;cursor:pointer}
 .person-report:hover{background:#eef1fb}

@@ -321,7 +321,8 @@
       const appearance = record.shops.get(shop.shop) || { name, hasDuty: false };
       if (appearance.name === appearance.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) appearance.name = name;
       const attendance = shift.attendance_records?.find((item) => item.name === name && item.role === role)?.type || "當值";
-      if (attendance === "當值") appearance.hasDuty = true;
+      const reunionException = shop.shop === "Maid Academy" && shift.event_name === "Maid Academy Reunion SP";
+      if (attendance === "當值" || reunionException) appearance.hasDuty = true;
       record.shops.set(shop.shop, appearance);
       people.set(key, record);
     }
@@ -333,7 +334,9 @@
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;
       const section = make("section", "people-shop-group");
-      const heading = make("h3", "people-shop-heading", `${title} · ${entries.length}`);
+      const heading = make("h3", "people-shop-heading");
+      heading.append(make("span", "people-shop-title", title),
+        make("span", "people-shop-count", `${entries.length} 位女僕`));
       const items = make("div", "people-shop-items");
       for (const { person, name } of entries) {
         const item = make("div", "people-item");

@@ -14491,7 +14491,10 @@ window.MAID_ROSTERS = {
               "type": "當值"
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
+          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
+          "alternate_sources": [
+            "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/"
+          ]
         },
         {
           "date": "2026-10-14",
@@ -15416,14 +15419,14 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
       "opening_hours_checked_at": "2026-10-26",
+      "date_notices": [],
       "unresolved": [
         {
           "date": "2026-10-24",
           "reason": "官方週表寫「茶」；未核實是否另一名「茶茶」，暫依原文分開。",
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
         }
-      ],
-      "date_notices": []
+      ]
     },
     {
       "shop": "Sugar Factory Cafe",
@@ -28495,6 +28498,12 @@ window.MAID_ROSTERS = {
         }
       ],
       "instagram": "https://www.instagram.com/ellie_maid.030/"
+    },
+    "包包": {
+      "person_id": "N_34832e43c3a54793",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": []
     }
   },
   "person_accounts": {
@@ -36314,6 +36323,14 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "包包": {
+        "person_id": "N_34832e43c3a54793",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
       }
     },
     "Sugar Factory Cafe": {
@@ -38958,5 +38975,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:48+08:00"
+  "published_at": "2026-10-29T04:50+08:00"
 };

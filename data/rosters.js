@@ -3202,7 +3202,8 @@ window.MAID_ROSTERS = {
           "reason": "10/23心心生日原帖高清海報列Inari、Kyo；現行週表名單另有企鵝、Lily，尚無已確認別名對應，不能據人像合併。活動帖10/19發布且標已編輯；週表10/18發布，未取得精確編輯時間／名單修訂關係。保留現行名單及兩來源，待確認活動海報是否新增或取代當值名單。",
           "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/|https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Elysium Cafe",
@@ -4500,7 +4501,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/elysium.jpg",
       "opening_hours": "星期日至四 18:00–次日00:30\n星期五、六及公眾假期前夕 18:00–次日01:30",
       "opening_hours_source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Aurelia Garden",
@@ -6735,7 +6738,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/agarden_2001.jpg",
       "opening_hours": "星期一至五 17:00–22:00\n星期六日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/agarden_2001/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Maidoll Mirage",
@@ -8200,7 +8205,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/maidollmirage.jpg",
       "opening_hours": "星期一至五 17:00–21:30\n星期六日 14:00–21:30",
       "opening_hours_source": "https://www.instagram.com/maidollmirage/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Maid Planet",
@@ -9183,7 +9190,8 @@ window.MAID_ROSTERS = {
           "reason": "11/6 MIA 女僕周年活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
           "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Dear Devil",
@@ -10414,7 +10422,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/deardevil_maid.jpg",
       "opening_hours": "星期一至五 18:00–23:00\n星期六、日及公眾假期 17:00–23:00",
       "opening_hours_source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Baberu Cafe",
@@ -10706,7 +10716,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/maid_baberucafe.jpg",
       "opening_hours": "星期一至五 休息\n星期六日 13:00–20:00",
       "opening_hours_source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Maid Eidolon",
@@ -11844,7 +11856,8 @@ window.MAID_ROSTERS = {
           "reason": "已編輯的新帖 DeYd4QEPxQO 未列出舊更表中的「阿橦」；其餘名單相符。此人員是否已取消需店方確認，先保留原記錄並標記待核對。",
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "The Misty",
@@ -12054,7 +12067,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/maidcafe.jpg",
       "opening_hours": "營業日 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maidcafe.misty/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "CosPlace Café",
@@ -12064,30 +12079,6 @@ window.MAID_ROSTERS = {
       "default_visible": true,
       "closed_weekdays": [],
       "shifts": [
-        {
-          "date": "2026-09-30",
-          "hours": "17:00-22:00",
-          "groups": {
-            "限定女僕": [
-              "發發"
-            ]
-          },
-          "attendance_records": [
-            {
-              "name": "發發",
-              "role": "限定女僕",
-              "type": "限定"
-            }
-          ],
-          "source": "https://www.instagram.com/cosplace_cafe/p/Dd3txg2PQc5/",
-          "person_notes": {
-            "發發": "個人時段：18:00-22:00"
-          },
-          "person_times": {
-            "發發": "18:00-22:00"
-          },
-          "notes": "個人時段：18:00-22:00"
-        },
         {
           "date": "2026-10-19",
           "hours": "17:00-23:00",
@@ -12744,7 +12735,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/cosplace_cafe.jpg",
       "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Kaizoku House",
@@ -13618,7 +13611,8 @@ window.MAID_ROSTERS = {
           "reason": "週表列 10/18 限定「魚」；其獨立專帖卻寫 11/18，日期互相矛盾。週表其他名單已收錄，魚的日期需再核對。",
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Dejlj6ZzTcO/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Queen’s Garden",
@@ -14402,7 +14396,8 @@ window.MAID_ROSTERS = {
           "reason": "Sun仔生誕已列於月曆，但該日名單標示「待更新」；暫未列當值人員。",
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Comma Cafe",
@@ -14412,81 +14407,6 @@ window.MAID_ROSTERS = {
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
-        {
-          "date": "2026-10-10",
-          "hours": "15:00-22:00",
-          "groups": {
-            "白百合精靈": [
-              "雅木"
-            ],
-            "繡球花精靈": [
-              "Yuri"
-            ],
-            "荷花精靈": [
-              "青蛙"
-            ],
-            "薔薇精靈": [
-              "有栖"
-            ],
-            "櫻花精靈": [
-              "魚莫"
-            ],
-            "太陽花精靈": [
-              "芊夏"
-            ],
-            "山茶花精靈": [
-              "茶茶"
-            ]
-          },
-          "attendance_records": [
-            {
-              "name": "雅木",
-              "role": "白百合精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "Yuri",
-              "role": "繡球花精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "青蛙",
-              "role": "荷花精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "有栖",
-              "role": "薔薇精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "魚莫",
-              "role": "櫻花精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "芊夏",
-              "role": "太陽花精靈",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "茶茶",
-              "role": "山茶花精靈",
-              "type": "活動嘉賓"
-            }
-          ],
-          "source": "https://www.instagram.com/commacafe_8/p/DeHl2ipNIIy/",
-          "event_name": "雅木女僕四周年·花精靈宅邸盛典",
-          "person_notes": {
-            "雅木": "本帖標註 @8mumu_ya5；個人時段未另列。",
-            "Yuri": "本帖標註 @yuriii.maid_；個人時段未另列。",
-            "青蛙": "本帖標註 @frog._.maid；個人時段未另列。",
-            "有栖": "本帖標註 @_arisulll_；個人時段未另列。",
-            "魚莫": "本帖標註 @maid.fishyumo.o；個人時段未另列。",
-            "芊夏": "本帖標註 @chi_ka_qq；個人時段未另列。",
-            "茶茶": "本帖標註 @ttea_maid_；個人時段未另列。"
-          }
-        },
         {
           "date": "2026-10-12",
           "hours": "15:00-22:00",
@@ -15496,7 +15416,8 @@ window.MAID_ROSTERS = {
           "reason": "官方週表寫「茶」；未核實是否另一名「茶茶」，暫依原文分開。",
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Sugar Factory Cafe",
@@ -15506,156 +15427,6 @@ window.MAID_ROSTERS = {
       "default_visible": false,
       "closed_weekdays": [],
       "shifts": [
-        {
-          "date": "2026-08-30",
-          "hours": "13:00-22:00",
-          "groups": {
-            "生誕主角": [
-              "Kona"
-            ],
-            "下午場當值女僕": [
-              "小莓",
-              "Akane"
-            ],
-            "夜晚場當值女僕": [
-              "Yukiko",
-              "Onime",
-              "東東",
-              "水水"
-            ]
-          },
-          "attendance_records": [
-            {
-              "name": "Kona",
-              "role": "生誕主角",
-              "type": "當值"
-            },
-            {
-              "name": "小莓",
-              "role": "下午場當值女僕",
-              "type": "當值"
-            },
-            {
-              "name": "Akane",
-              "role": "下午場當值女僕",
-              "type": "當值"
-            },
-            {
-              "name": "Yukiko",
-              "role": "夜晚場當值女僕",
-              "type": "當值"
-            },
-            {
-              "name": "Onime",
-              "role": "夜晚場當值女僕",
-              "type": "當值"
-            },
-            {
-              "name": "東東",
-              "role": "夜晚場當值女僕",
-              "type": "當值"
-            },
-            {
-              "name": "水水",
-              "role": "夜晚場當值女僕",
-              "type": "當值"
-            }
-          ],
-          "source": "https://www.instagram.com/sugarfactory_maid_kona/p/Dbi140LJ7p6/",
-          "event_name": "Kona生誕祭2026",
-          "person_notes": {
-            "Kona": "個人時段：13:00-17:00、18:00-22:00；下午生日特別當值；晚上生誕派對。",
-            "小莓": "個人時段：13:00-17:00；下午生日特別當值；晚上生誕派對。",
-            "Akane": "個人時段：13:00-17:00；下午生日特別當值；晚上生誕派對。",
-            "Yukiko": "個人時段：18:00-22:00；下午生日特別當值；晚上生誕派對。",
-            "Onime": "個人時段：18:00-22:00；下午生日特別當值；晚上生誕派對。",
-            "東東": "個人時段：18:00-22:00；下午生日特別當值；晚上生誕派對。",
-            "水水": "個人時段：18:00-22:00；下午生日特別當值；晚上生誕派對。"
-          },
-          "person_times": {
-            "Kona": "13:00-17:00、18:00-22:00",
-            "小莓": "13:00-17:00",
-            "Akane": "13:00-17:00",
-            "Yukiko": "18:00-22:00",
-            "Onime": "18:00-22:00",
-            "東東": "18:00-22:00",
-            "水水": "18:00-22:00"
-          }
-        },
-        {
-          "date": "2026-09-26",
-          "hours": "13:00-22:00",
-          "groups": {
-            "生誕主角": [
-              "Onime"
-            ],
-            "嘉賓": [
-              "Yukiko",
-              "芊芊",
-              "小莓",
-              "Kona",
-              "東東",
-              "水水"
-            ]
-          },
-          "attendance_records": [
-            {
-              "name": "Onime",
-              "role": "生誕主角",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "Yukiko",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "芊芊",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "小莓",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "Kona",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "東東",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            },
-            {
-              "name": "水水",
-              "role": "嘉賓",
-              "type": "活動嘉賓"
-            }
-          ],
-          "source": "https://www.instagram.com/sugarfactory_maid_onime/p/Dcu_GMIu5-V/",
-          "event_name": "Onime生誕祭2026",
-          "person_notes": {
-            "Onime": "個人時段：13:00-17:00、18:00-22:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "Yukiko": "個人時段：13:00-17:00、18:00-22:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "芊芊": "個人時段：13:00-17:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "小莓": "個人時段：13:00-17:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "Kona": "個人時段：18:00-22:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "東東": "個人時段：18:00-22:00；Session A 13:00-17:00；Session B 18:00-22:00。",
-            "水水": "個人時段：18:00-22:00；Session A 13:00-17:00；Session B 18:00-22:00。"
-          },
-          "person_times": {
-            "Onime": "13:00-17:00、18:00-22:00",
-            "Yukiko": "13:00-17:00、18:00-22:00",
-            "芊芊": "13:00-17:00",
-            "小莓": "13:00-17:00",
-            "Kona": "18:00-22:00",
-            "東東": "18:00-22:00",
-            "水水": "18:00-22:00"
-          }
-        },
         {
           "date": "2026-10-16",
           "hours": "13:00-22:00",
@@ -16332,7 +16103,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/sugarfactorycafe.jpg",
       "opening_hours": "星期一至日 13:00–22:00",
       "opening_hours_source": "https://www.instagram.com/sugarfactorycafe/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "The Manor Cafe",
@@ -17260,7 +17033,8 @@ window.MAID_ROSTERS = {
           "reason": "最新更表同一來源同時列出「31 Oct (Sat)」及另一組「31 Oct (Sun)」名單，日期／星期標示衝突；本次只按明確的31 Oct Saturday組別記錄，Sunday組別未推定為11月1日，待店方澄清或後續明確來源。",
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Maid Minori",
@@ -18238,7 +18012,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/maid_minori.jpg",
       "opening_hours": "星期一 休息\n星期二至五 17:00–22:00\n星期六日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     },
     {
       "shop": "Mistia Luna",
@@ -19974,7 +19750,8 @@ window.MAID_ROSTERS = {
           "reason": "10/28 玲奈個人時段原帖印為「午5:00-23:00」，無法確定是否表示 17:00-23:00；需核對原圖。",
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Kirakira Maido",
@@ -21198,7 +20975,8 @@ window.MAID_ROSTERS = {
           "reason": "12–18 日圖片週表另列一位魔法使，字樣似「樽茶」但不能可靠辨認，暫未列入。",
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Itotsuki Cafe",
@@ -22442,7 +22220,9 @@ window.MAID_ROSTERS = {
       "profile_image": "data/profile_images/shops/itotsuki.jpg",
       "opening_hours": "星期日至四 17:00–23:00\n星期五、六及公眾假期前夕 17:00–次日01:00",
       "opening_hours_source": "https://www.instagram.com/itotsuki.cafe/",
-      "opening_hours_checked_at": "2026-10-26"
+      "opening_hours_checked_at": "2026-10-26",
+      "unresolved": [],
+      "date_notices": []
     }
   ],
   "people": {
@@ -35610,14 +35390,6 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
-      },
-      "發發": {
-        "person_id": "R_11_5adf2f173b94",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
       }
     },
     "Queen’s Garden": {
@@ -36515,6 +36287,14 @@ window.MAID_ROSTERS = {
       },
       "有梄": {
         "person_id": "R_14_449abfa02a72",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "ellie": {
+        "person_id": "N_Ellie",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -39149,13 +38929,6 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     },
     {
-      "shop": "Sugar Factory Cafe",
-      "event_name": "Onime生誕祭2026",
-      "image_path": "data/event_images/sugar_2026-09-26_onime.jpg",
-      "source": "https://www.instagram.com/sugarfactory_maid_onime/p/Dcu_GMIu5-V/",
-      "opacity": "0.22"
-    },
-    {
       "shop": "The Manor Cafe",
       "event_name": "Nana生誕2026",
       "image_path": "data/event_images/manor_2026-11-08_nana.jpg",
@@ -39168,15 +38941,8 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/comma_2026-11-08_host.jpg",
       "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
       "opacity": "0.22"
-    },
-    {
-      "shop": "Comma Cafe",
-      "event_name": "雅木女僕四周年·花精靈宅邸盛典",
-      "image_path": "data/event_images/comma_2026-10-10_anniversary.jpg",
-      "source": "https://www.instagram.com/commacafe_8/p/DeHl2ipNIIy/",
-      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:34+08:00"
+  "published_at": "2026-10-29T04:39+08:00"
 };

@@ -547,12 +547,17 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .people-shop-heading{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid #e5e9f1;color:#43516a;font-size:15px}
 .people-shop-items{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px}
 .people-shop-items .people-item{flex:0 0 auto;width:max-content;min-width:0}
-.person-card .person-results-wrap{overflow-x:auto}
-.person-card .person-results{width:max-content;min-width:100%;table-layout:auto}
-.person-card .person-results th,.person-card .person-results td{white-space:nowrap;overflow-wrap:normal}
-.person-card .person-results th:nth-child(1),.person-card .person-results td:nth-child(1){min-width:76px}
-.person-card .person-results th:nth-child(2),.person-card .person-results td:nth-child(2){min-width:100px}
-.person-card .person-results th:nth-child(3),.person-card .person-results td:nth-child(3){min-width:120px}
-.person-card .person-results th:nth-child(4),.person-card .person-results td:nth-child(4){width:1%;padding-inline:3px}
-.person-card .person-results th:nth-child(5),.person-card .person-results td:nth-child(5){width:1%;padding-inline:3px}
+.person-card .person-results-wrap{overflow:hidden}
+.person-card .person-results{width:100%;min-width:0;table-layout:fixed}
+.person-card .person-results th,.person-card .person-results td{white-space:normal;overflow-wrap:anywhere}
+.person-card .person-results th:nth-child(1),.person-card .person-results td:nth-child(1){width:20%}
+.person-card .person-results th:nth-child(2),.person-card .person-results td:nth-child(2){width:22%}
+.person-card .person-results th:nth-child(3),.person-card .person-results td:nth-child(3){width:36%}
+.person-card .person-results th:nth-child(4),.person-card .person-results td:nth-child(4){width:14%;padding-inline:3px}
+.person-card .person-results th:nth-child(5),.person-card .person-results td:nth-child(5){width:8%;padding-inline:3px}
 @media(max-width:700px){.people-shop-items{gap:7px}.person-card .person-results th,.person-card .person-results td{font-size:9px;padding:6px 3px}}
+
+/* The daily-roster range switch uses only the width of its labels. */
+#card-view .card-range-controls{width:auto;flex:0 0 auto}
+#card-view .card-range-controls>.range-toggle{width:max-content;flex:0 0 auto}
+#card-view .card-range-controls .range-toggle-button{flex:0 0 auto;width:auto;white-space:nowrap}

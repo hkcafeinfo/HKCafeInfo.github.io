@@ -278,7 +278,8 @@
     const button = event.target.closest("[data-range]");
     if (!button) return;
     cardRange = button.dataset.range === "all" ? "all" : "future";
-    if (selectedDate !== "all" && !cardDates().includes(selectedDate)) selectedDate = cardDates()[0] || "all";
+    const availableDates = cardDates();
+    selectedDate = availableDates.includes(today) ? today : (availableDates[0] || "all");
     savePage(); renderDates(); renderCards();
   });
   const dateScrollStep = () => {

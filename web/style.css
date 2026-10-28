@@ -558,6 +558,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 @media(max-width:700px){.people-shop-items{gap:7px}.person-card .person-results th,.person-card .person-results td{font-size:9px;padding:6px 3px}}
 
 /* The daily-roster range switch uses only the width of its labels. */
-#card-view .card-range-controls{width:auto;flex:0 0 auto}
+#card-view .card-range-controls{width:100%;flex:1 1 auto}
 #card-view .card-range-controls>.range-toggle{width:max-content;flex:0 0 auto}
 #card-view .card-range-controls .range-toggle-button{flex:0 0 auto;width:auto;white-space:nowrap}
+#card-view .card-range-controls .result-count{margin-left:auto}

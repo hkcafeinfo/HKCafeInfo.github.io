@@ -507,3 +507,26 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
   .hero-carousel-controls{margin-top:5px}
 }
 @media(max-width:370px){.hero .hero-slide-title{font-size:30px}}
+
+/* Shop directory cards: make maps links visible and pin sources to the lower edge. */
+.shop-directory{align-items:stretch}
+.shop-intro{position:relative;padding-bottom:58px}
+.shop-intro-address a{text-decoration:underline;text-decoration-color:#c5ccda;text-underline-offset:3px}
+.shop-intro-address a:after{content:" ↗";font-size:.8em;color:#7383c4;white-space:nowrap}
+.shop-intro-address a:hover{text-decoration-color:#5365a5}
+.shop-intro-source{position:absolute;right:20px;bottom:12px;margin:0}
+.shop-intro-source a{min-height:32px}
+@media(max-width:700px){
+  .shop-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:stretch}
+  .shop-intro{padding:12px 10px 48px}
+  .shop-intro>.shop-profile-photo{width:36px;height:36px;margin:0 0 6px 6px;border-radius:9px}
+  .shop-intro h3{font-size:16px;line-height:1.3}
+  .shop-intro-ig{font-size:11px;min-height:24px;overflow-wrap:anywhere}
+  .shop-intro-address{font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+  .opening-hours{grid-template-columns:minmax(0,1fr) auto;gap:4px 6px;font-size:11px;line-height:1.5}
+  .opening-hours dt,.opening-hours dd{min-width:0;overflow-wrap:anywhere}
+  .opening-hours dd{white-space:normal;text-align:right;font-variant-numeric:tabular-nums}
+  .shop-intro-note,.hours-pending{font-size:11px;line-height:1.55;overflow-wrap:anywhere}
+  .shop-intro-source{right:10px;bottom:8px}
+  .shop-intro-source a{font-size:11px;min-height:28px}
+}

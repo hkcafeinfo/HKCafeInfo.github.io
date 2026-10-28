@@ -494,7 +494,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 }
 
 /* Final banner overrides: keep the subhead and controls visible on small screens. */
-.hero .hero-slide-title{font-size:clamp(36px,4.5vw,62px)}
+.hero .hero-slide-title{font-size:clamp(40px,4.5vw,66px);line-height:1.2;margin:9px 0 10px}
 .hero .hero-dots button{width:28px;height:22px;padding:7px}
 .hero .hero-dots button:after{width:14px;height:3px;border-radius:3px}
 .hero .hero-dots button[aria-pressed="true"]:after{width:20px}
@@ -502,11 +502,11 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .matrix-controls-row.is-wrapped .matrix-navigation button{height:20px;min-height:20px;width:22px;min-width:22px;padding:0;font-size:13px;border-radius:6px}
 @media(max-width:700px){
   .hero .eyebrow{display:flex}
-  .hero .hero-slide-title{font-size:30px;overflow-wrap:anywhere}
+  .hero .hero-slide-title{font-size:34px;overflow-wrap:anywhere}
   .hero p{overflow-wrap:anywhere}
   .hero-carousel-controls{margin-top:5px}
 }
-@media(max-width:370px){.hero .hero-slide-title{font-size:30px}}
+@media(max-width:370px){.hero .hero-slide-title{font-size:34px}}
 
 /* Shop directory cards: make maps links visible and pin sources to the lower edge. */
 .shop-directory{align-items:stretch}

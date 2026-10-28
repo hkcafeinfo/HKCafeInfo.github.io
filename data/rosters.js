@@ -3375,7 +3375,20 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/DemlpbenyOU/"
+          ],
+          "person_notes": {
+            "九千": "個人時段：19:00-23:00",
+            "八田": "個人時段：19:00-23:00",
+            "魚骨": "個人時段：19:00-23:00"
+          },
+          "person_times": {
+            "九千": "19:00-23:00",
+            "八田": "19:00-23:00",
+            "魚骨": "19:00-23:00"
+          }
         },
         {
           "date": "2026-10-23",
@@ -12842,5 +12855,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:00+08:00"
+  "published_at": "2026-10-28T20:03+08:00"
 };

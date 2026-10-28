@@ -581,6 +581,23 @@ window.MAID_ROSTERS = {
             "夜煌": "18:00-22:00"
           },
           "notes": "個人時段：18:00-22:00"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定學妹": [
+              "aeri"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/De_UgL7RH_8/",
+          "person_notes": {
+            "aeri": "個人時段：18:00-22:00"
+          },
+          "person_times": {
+            "aeri": "18:00-22:00"
+          },
+          "notes": "個人時段：18:00-22:00"
         }
       ],
       "date_notices": [

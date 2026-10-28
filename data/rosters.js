@@ -1566,7 +1566,20 @@ window.MAID_ROSTERS = {
               "鏡雨"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/De8r9zqiV9W/"
+          ],
+          "person_notes": {
+            "Kola": "個人時段：18:00-23:00",
+            "藍南": "個人時段：18:00-23:00",
+            "鏡雨": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Kola": "18:00-23:00",
+            "藍南": "18:00-23:00",
+            "鏡雨": "18:00-23:00"
+          }
         },
         {
           "date": "2026-10-29",
@@ -1622,11 +1635,20 @@ window.MAID_ROSTERS = {
             "資深修女": [
               "NØNNØ"
             ],
-            "限定修女": [
+            "限定修士": [
               "Haruna"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfAE-sTEuMV/"
+          ],
+          "person_notes": {
+            "Haruna": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Haruna": "18:00-23:00"
+          }
         },
         {
           "date": "2026-10-31",
@@ -1649,7 +1671,18 @@ window.MAID_ROSTERS = {
               "月月"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfAFmPtiTp3/"
+          ],
+          "person_notes": {
+            "Miru": "個人時段：18:00-23:00",
+            "月月": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Miru": "18:00-23:00",
+            "月月": "18:00-23:00"
+          }
         },
         {
           "date": "2026-11-02",
@@ -12899,5 +12932,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:27+08:00"
+  "published_at": "2026-10-28T20:31+08:00"
 };

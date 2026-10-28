@@ -3485,7 +3485,8 @@ window.MAID_ROSTERS = {
               "小椿"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "殭屍小惡魔萬聖節派對"
         },
         {
           "date": "2026-10-27",
@@ -3502,7 +3503,11 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "殭屍小惡魔萬聖節派對",
+          "alternate_sources": [
+            "https://www.instagram.com/deardevil_maid.butler/p/De_wy8FhXeL/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -3510,11 +3515,10 @@ window.MAID_ROSTERS = {
           "groups": {
             "Maid": [
               "Kuri",
-              "Fuyo",
+              "Meika",
               "茶鬼",
               "Yuka",
-              "七七",
-              "Yunai",
+              "七七Yunai",
               "蜻蜓",
               "小欣"
             ],
@@ -3526,6 +3530,7 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "殭屍小惡魔萬聖節派對",
           "alternate_sources": [
             "https://www.instagram.com/deardevil_maid.butler/p/De9wT_myybb/"
           ]
@@ -3547,7 +3552,8 @@ window.MAID_ROSTERS = {
               "晴晴"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "殭屍小惡魔萬聖節派對"
         },
         {
           "date": "2026-10-30",
@@ -3564,13 +3570,14 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
+          "event_name": "殭屍小惡魔萬聖節派對"
         },
         {
           "date": "2026-10-31",
           "hours": "17:00-23:00",
           "groups": {
-            "活動嘉賓": [
+            "Bride": [
               "朱朱",
               "もえね",
               "Gumi",
@@ -12835,5 +12842,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T19:55+08:00"
+  "published_at": "2026-10-28T19:56+08:00"
 };

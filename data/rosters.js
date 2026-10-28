@@ -564,6 +564,23 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
           ]
+        },
+        {
+          "date": "2026-11-10",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定學妹": [
+              "夜煌"
+            ]
+          },
+          "source": "https://www.instagram.com/maid_academy/p/De_UhoDR3rV/",
+          "person_notes": {
+            "夜煌": "個人時段：18:00-22:00"
+          },
+          "person_times": {
+            "夜煌": "18:00-22:00"
+          },
+          "notes": "個人時段：18:00-22:00"
         }
       ],
       "date_notices": [

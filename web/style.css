@@ -451,3 +451,5 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 @media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
 
 .hero-copy{min-width:0;width:100%}.hero-slides{grid-template-columns:minmax(0,1fr)}
+
+@media(max-width:370px){.hero .hero-slide-title{font-size:26px}}

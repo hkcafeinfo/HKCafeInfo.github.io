@@ -2841,9 +2841,14 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/cafemaidplanet/p/Deg2oWmvaIx/"
           ],
           "person_notes": {
-            "Rui": "一日限定專帖另列個人當值時間 17:00-22:00。",
-            "拉比": "一日限定專帖另列個人當值時間 17:00-22:00。",
-            "粟米": "一日限定專帖另列個人當值時間 17:00-22:00。"
+            "Rui": "個人時段：17:00-22:00",
+            "拉比": "個人時段：17:00-22:00",
+            "粟米": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Rui": "17:00-22:00",
+            "拉比": "17:00-22:00",
+            "粟米": "17:00-22:00"
           }
         },
         {
@@ -2945,7 +2950,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
-            "https://www.instagram.com/p/DeXFIJ_GRYP/"
+            "https://www.instagram.com/p/DeXFIJ_GRYP/|https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/"
           ],
           "person_notes": {
             "MIKAN": "個人時段：17:00-22:00",
@@ -2974,6 +2980,9 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ],
           "person_notes": {
             "Kuma": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "Mika": "本店營業時間為 15:00-22:00；未列明個人時段。",
@@ -2998,7 +3007,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
-          "event_name": "萌星人IN DEJAVU Part.2"
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -3020,7 +3032,7 @@ window.MAID_ROSTERS = {
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
             "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/",
-            "https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/"
+            "https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/|https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
           ],
           "person_notes": {
             "正子": "個人時段：17:00-22:00"
@@ -3044,7 +3056,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
-          "event_name": "萌星人IN DEJAVU Part.2"
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -3068,7 +3083,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
-          "event_name": "Girls Bar ドキ💓プラネット Halloween篇"
+          "event_name": "Girls Bar ドキ💓プラネット Halloween篇",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ]
         }
       ],
       "unresolved": [

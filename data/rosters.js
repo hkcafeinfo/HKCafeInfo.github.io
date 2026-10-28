@@ -1412,7 +1412,15 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DetkezsifaD/"
-          ]
+          ],
+          "person_notes": {
+            "YY": "個人時段：18:00-23:00",
+            "柔柔": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "YY": "18:00-23:00",
+            "柔柔": "18:00-23:00"
+          }
         },
         {
           "date": "2026-10-23",
@@ -12952,5 +12960,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:36+08:00"
+  "published_at": "2026-10-28T20:39+08:00"
 };

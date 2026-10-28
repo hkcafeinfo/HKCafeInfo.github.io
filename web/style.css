@@ -530,3 +530,9 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
   .shop-intro-source{right:10px;bottom:8px}
   .shop-intro-source a{font-size:11px;min-height:28px}
 }
+
+/* Keep the matrix header directly below the fixed site title while scrolling. */
+:root{--topbar-sticky-height:68px}
+.matrix-header{top:var(--topbar-sticky-height)}
+.matrix-sticky-header{top:var(--topbar-sticky-height)}
+@media(max-width:700px){:root{--topbar-sticky-height:60px}}

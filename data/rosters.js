@@ -4453,6 +4453,23 @@ window.MAID_ROSTERS = {
           },
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "天使與惡魔之夜"
+        },
+        {
+          "date": "2026-09-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定女僕": [
+              "發發"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/Dd3txg2PQc5/",
+          "person_notes": {
+            "發發": "個人時段：18:00-22:00"
+          },
+          "person_times": {
+            "發發": "18:00-22:00"
+          },
+          "notes": "個人時段：18:00-22:00"
         }
       ]
     },

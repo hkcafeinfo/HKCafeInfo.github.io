@@ -1499,7 +1499,16 @@ window.MAID_ROSTERS = {
               "詩弦"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/De4JlrkiWI6/"
+          ],
+          "person_notes": {
+            "詩弦": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "詩弦": "18:00-23:00"
+          }
         },
         {
           "date": "2026-10-26",
@@ -1520,7 +1529,18 @@ window.MAID_ROSTERS = {
               "YK"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/De4aLdEkl4X/"
+          ],
+          "person_notes": {
+            "NingNing": "個人時段：18:00-23:00",
+            "YK": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "NingNing": "18:00-23:00",
+            "YK": "18:00-23:00"
+          }
         },
         {
           "date": "2026-10-27",
@@ -12932,5 +12952,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:31+08:00"
+  "published_at": "2026-10-28T20:36+08:00"
 };

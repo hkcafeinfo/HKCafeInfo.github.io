@@ -3298,7 +3298,7 @@ window.MAID_ROSTERS = {
           "date": "2026-10-18",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
+            "Maid": [
               "Beru",
               "Fumi",
               "Midorinn",
@@ -3313,7 +3313,13 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/",
+          "person_notes": {
+            "冰嵐": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "冰嵐": "17:00-22:00"
+          }
         },
         {
           "date": "2026-10-19",
@@ -12864,5 +12870,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:07+08:00"
+  "published_at": "2026-10-28T20:10+08:00"
 };

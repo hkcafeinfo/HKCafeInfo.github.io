@@ -2707,7 +2707,77 @@ window.MAID_ROSTERS = {
               "豆豆"
             ]
           },
-          "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/"
+          "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/",
+          "alternate_sources": [
+            "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "14:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Kura",
+              "小影",
+              "年子",
+              "筱望",
+              "珊瑚",
+              "玥玥",
+              "Nagi"
+            ],
+            "限定人偶": [
+              "喵哥",
+              "檸檬",
+              "ika",
+              "haruka",
+              "れい",
+              "saaya",
+              "古喵"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
+          "event_name": "年子生日當值2026～又飛，你就係咁～"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "Mafu",
+              "Lara",
+              "Yuika",
+              "Koyuki",
+              "小汐",
+              "阿月",
+              "水獺",
+              "Fumi"
+            ],
+            "限定人偶": [
+              "FY",
+              "Ruri"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "16:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "梓野",
+              "玥玥",
+              "咩咩",
+              "小琪"
+            ],
+            "限定人偶": [
+              "七月",
+              "雷婆婆",
+              "貓月",
+              "霏霏"
+            ]
+          },
+          "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
+          "event_name": "咩咩生誕"
         }
       ]
     },

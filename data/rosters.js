@@ -4333,6 +4333,49 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
         },
         {
+          "date": "2026-10-28",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "94"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "Moris",
+              "魚杯",
+              "潔蘿",
+              "しの",
+              "曲奇"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "乳鴿",
+              "翻車魚",
+              "雪糕",
+              "蕾",
+              "Elika",
+              "夢兔",
+              "布布"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
+        },
+        {
           "date": "2026-10-31",
           "hours": "17:00-22:00",
           "groups": {
@@ -4340,14 +4383,14 @@ window.MAID_ROSTERS = {
               "Sui",
               "霜",
               "Haruna",
-              "Heymeow",
-              "94"
+              "94",
+              "Heymeow"
             ]
           },
-          "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
-            "https://www.instagram.com/stories/highlights/18111337829272821/"
+            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/|https://www.instagram.com/stories/highlights/18111337829272821/"
           ]
         },
         {
@@ -4355,17 +4398,61 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "當值執事": [
-              "亞希",
-              "夜宵",
+              "fufu",
               "しの",
-              "Heymeow"
+              "梳乎厘",
+              "Elika",
+              "霜",
+              "Heymeow",
+              "亞希",
+              "Lori",
+              "Youko",
+              "夜宵"
             ]
           },
-          "source": "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
-            "https://www.instagram.com/stories/highlights/18111337829272821/"
+            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/|https://www.instagram.com/stories/highlights/18111337829272821/"
           ]
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "Soya"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "乳鴿",
+              "ハル",
+              "Elika",
+              "94",
+              "Wataru"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "出勤女僕": [
+              "夜宵",
+              "喵奈"
+            ]
+          },
+          "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
+          "event_name": "天使與惡魔之夜"
         }
       ]
     },

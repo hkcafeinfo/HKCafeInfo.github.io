@@ -15357,42 +15357,42 @@ window.MAID_ROSTERS = {
             {
               "name": "有栖",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "貓月",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "狗狗",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "晏咲",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Eille",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Yuki",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "許洛",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "青蛙",
               "role": "牛郎成員",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
@@ -39086,8 +39086,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/manor_2026-11-08_nana.jpg",
       "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Comma Cafe",
+      "event_name": "牛郎之夜•第五章",
+      "image_path": "data/event_images/comma_2026-11-08_host.jpg",
+      "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:24+08:00"
+  "published_at": "2026-10-29T04:26+08:00"
 };

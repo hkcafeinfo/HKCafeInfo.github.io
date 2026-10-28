@@ -36300,6 +36300,14 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "halo": {
+        "person_id": "R_14_f47331651bd5",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
       }
     },
     "Sugar Factory Cafe": {
@@ -38944,5 +38952,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T04:39+08:00"
+  "published_at": "2026-10-29T04:41+08:00"
 };

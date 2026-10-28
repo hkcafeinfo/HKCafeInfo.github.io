@@ -1218,7 +1218,11 @@ window.MAID_ROSTERS = {
               "芯宇"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-14",
@@ -1238,7 +1242,11 @@ window.MAID_ROSTERS = {
               "小喬"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-15",
@@ -1261,7 +1269,11 @@ window.MAID_ROSTERS = {
               "白菜"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-16",
@@ -1280,7 +1292,11 @@ window.MAID_ROSTERS = {
               "零治"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-17",
@@ -1300,7 +1316,11 @@ window.MAID_ROSTERS = {
               "落星"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-18",
@@ -1323,7 +1343,11 @@ window.MAID_ROSTERS = {
               "Rei"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-19",
@@ -1342,8 +1366,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DejkAxvCa7C/"
+            "https://www.instagram.com/elysium.cafe21/p/DejkAxvCa7C/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ]
         },
         {
@@ -1365,8 +1391,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DejkW39ictp/"
+            "https://www.instagram.com/elysium.cafe21/p/DejkW39ictp/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ]
         },
         {
@@ -1388,7 +1416,11 @@ window.MAID_ROSTERS = {
               "Reii"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-22",
@@ -1410,8 +1442,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DetkezsifaD/"
+            "https://www.instagram.com/elysium.cafe21/p/DetkezsifaD/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "YY": "個人時段：18:00-23:00",
@@ -1442,7 +1476,9 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/",
             "https://www.instagram.com/elysium.cafe21/p/Detk-lkCjyq/"
           ],
           "person_notes": {
@@ -1474,7 +1510,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "梓叔入院一週年·スイーツ天国",
           "alternate_sources": [
-            "https://www.instagram.com/un.cle_/p/DeWtZTnAW_l/"
+            "https://www.instagram.com/un.cle_/p/DeWtZTnAW_l/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "Ina": "個人時段：18:00-23:00；個別時段按活動帖。",
@@ -1514,8 +1551,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/De4JlrkiWI6/"
+            "https://www.instagram.com/elysium.cafe21/p/De4JlrkiWI6/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "詩弦": "個人時段：18:00-23:00"
@@ -1544,8 +1583,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/De4aLdEkl4X/"
+            "https://www.instagram.com/elysium.cafe21/p/De4aLdEkl4X/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "NingNing": "個人時段：18:00-23:00",
@@ -1576,7 +1617,11 @@ window.MAID_ROSTERS = {
               "風藍"
             ]
           },
-          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/"
+          "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -1601,8 +1646,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/De8r9zqiV9W/"
+            "https://www.instagram.com/elysium.cafe21/p/De8r9zqiV9W/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "Kola": "個人時段：18:00-23:00",
@@ -1641,7 +1688,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
           "event_name": "ELYSIUM ASYLUM : PATIENT ADMISSION",
           "alternate_sources": [
-            "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/"
+            "https://www.instagram.com/sai_nekopill/p/DemA8SMEn_z/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "安晚": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。",
@@ -1683,8 +1731,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DfAE-sTEuMV/"
+            "https://www.instagram.com/elysium.cafe21/p/DfAE-sTEuMV/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "Haruna": "個人時段：18:00-23:00"
@@ -1715,8 +1765,10 @@ window.MAID_ROSTERS = {
             ]
           },
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
+          "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DfAFmPtiTp3/"
+            "https://www.instagram.com/elysium.cafe21/p/DfAFmPtiTp3/",
+            "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
           "person_notes": {
             "Miru": "個人時段：18:00-23:00",
@@ -12975,5 +13027,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:43+08:00"
+  "published_at": "2026-10-28T20:52+08:00"
 };

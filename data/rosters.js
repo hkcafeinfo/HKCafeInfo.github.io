@@ -3279,7 +3279,7 @@ window.MAID_ROSTERS = {
           "date": "2026-10-17",
           "hours": "17:00-23:00",
           "groups": {
-            "女僕": [
+            "Maid": [
               "Yorumi",
               "卡路里",
               "霍霍",
@@ -3292,7 +3292,13 @@ window.MAID_ROSTERS = {
               "小欣"
             ]
           },
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/",
+          "person_notes": {
+            "藍幽": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "藍幽": "17:00-23:00"
+          }
         },
         {
           "date": "2026-10-18",
@@ -12870,5 +12876,5 @@ window.MAID_ROSTERS = {
       "opacity": "0.22"
     }
   ],
-  "published_at": "2026-10-28T20:13+08:00"
+  "published_at": "2026-10-28T20:17+08:00"
 };

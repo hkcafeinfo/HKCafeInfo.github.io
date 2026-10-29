@@ -12892,7 +12892,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
-            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/|https://www.instagram.com/stories/highlights/18111337829272821/"
+            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
+            "https://www.instagram.com/stories/highlights/18111337829272821/"
           ]
         },
         {
@@ -12967,7 +12968,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
           "event_name": "萬聖節執事特別活動",
           "alternate_sources": [
-            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/|https://www.instagram.com/stories/highlights/18111337829272821/"
+            "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
+            "https://www.instagram.com/stories/highlights/18111337829272821/"
           ]
         },
         {
@@ -23438,10 +23440,16 @@ window.MAID_ROSTERS = {
       "person_id": "N_94",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "ouo._.926",
+          "status": "current"
+        }
+      ],
       "names": [
         "94"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/ouo._.926/"
     },
     "999": {
       "person_id": "N_999",
@@ -29012,10 +29020,16 @@ window.MAID_ROSTERS = {
       "person_id": "N___644",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "komorebi._.l",
+          "status": "current"
+        }
+      ],
       "names": [
         "霜"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/komorebi._.l/"
     },
     "霜糖": {
       "person_id": "N___645",
@@ -31141,10 +31155,16 @@ window.MAID_ROSTERS = {
       "person_id": "R_11_a24f40c1ae2f",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "shino_no.o",
+          "status": "current"
+        }
+      ],
       "names": [
         "しの"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/shino_no.o/"
     },
     "雪糕": {
       "person_id": "R_11_0cb75a34b483",
@@ -31168,28 +31188,46 @@ window.MAID_ROSTERS = {
       "person_id": "R_11_08680f0dca75",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "heymeow_mak",
+          "status": "current"
+        }
+      ],
       "names": [
         "Heymeow"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/heymeow_mak/"
     },
     "亞希": {
       "person_id": "R_11_9c6374e89779",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "k1a.0_7",
+          "status": "current"
+        }
+      ],
       "names": [
         "亞希"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/k1a.0_7/"
     },
     "夜宵": {
       "person_id": "R_11_1e9c687d72f9",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "je2xiu1",
+          "status": "current"
+        }
+      ],
       "names": [
         "夜宵"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/je2xiu1/"
     },
     "ハル": {
       "person_id": "R_11_847051fb2889",
@@ -37958,9 +37996,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_94",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/ouo._.926/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "ouo._.926",
+            "status": "current"
+          }
+        ]
       },
       "Elika": {
         "person_id": "N_Elika",
@@ -38066,9 +38109,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___644",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/komorebi._.l/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "komorebi._.l",
+            "status": "current"
+          }
+        ]
       },
       "TakuRyo": {
         "person_id": "N_TakuRyo",
@@ -38132,9 +38180,14 @@ window.MAID_ROSTERS = {
         "person_id": "R_11_a24f40c1ae2f",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/shino_no.o/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "shino_no.o",
+            "status": "current"
+          }
+        ]
       },
       "雪糕": {
         "person_id": "R_11_0cb75a34b483",
@@ -38169,9 +38222,14 @@ window.MAID_ROSTERS = {
         "person_id": "R_11_548d08d37940",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/sui.cafeee/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "sui.cafeee",
+            "status": "current"
+          }
+        ]
       },
       "Haruna": {
         "person_id": "N_Haruna",
@@ -38194,9 +38252,14 @@ window.MAID_ROSTERS = {
         "person_id": "R_11_08680f0dca75",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/heymeow_mak/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "heymeow_mak",
+            "status": "current"
+          }
+        ]
       },
       "梳乎厘": {
         "person_id": "R_11_580ce68d7441",
@@ -38210,17 +38273,27 @@ window.MAID_ROSTERS = {
         "person_id": "R_11_9c6374e89779",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/k1a.0_7/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "k1a.0_7",
+            "status": "current"
+          }
+        ]
       },
       "夜宵": {
         "person_id": "R_11_1e9c687d72f9",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/je2xiu1/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "je2xiu1",
+            "status": "current"
+          }
+        ]
       },
       "ハル": {
         "person_id": "R_11_847051fb2889",
@@ -49543,5 +49616,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T07:35+08:00"
+  "published_at": "2026-10-30T07:59+08:00"
 };

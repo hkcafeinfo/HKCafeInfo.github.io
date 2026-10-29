@@ -113,7 +113,8 @@
 .has-event-art{position:relative;isolation:isolate}
 .has-event-art:before{content:"";position:absolute;inset:0;background-image:var(--event-image);background-size:cover;background-position:center;opacity:var(--event-opacity);pointer-events:none;z-index:0}
 .has-event-art>*{position:relative;z-index:1}
-.has-event-art .card-head{background:rgba(255,255,255,.5)}
+.has-event-art .card-head{isolation:isolate;background:transparent}
+.has-event-art .card-head::before{content:"";position:absolute;inset:calc(-1 * var(--card-pad-top, 18px)) calc(-1 * var(--card-pad-x, 16px)) 0;background:rgba(255,255,255,.5);pointer-events:none;z-index:-1}
 .roster-card.has-event-art{overflow:hidden}
 .person-time{display:block;white-space:pre;font-size:10px;line-height:1.2;color:#7e8bab;font-weight:500;margin-top:3px;overflow-wrap:normal}
 .person-tag:has(.person-time),.matrix-person:has(.person-time){display:inline-flex;flex-direction:column;align-items:flex-start}
@@ -631,8 +632,8 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 @media(max-width:440px){.events-controls-row .range-toggle-button{font-size:10px;padding:7px 5px;min-width:0}.events-controls-row .range-toggle{gap:0;padding:2px}.events-controls-row{gap:4px}}
 
 /* Shared cards fill the available row; names and hours share the heading row. */
-.date-grid,.events-grid{gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(300px,calc((100% - 12px)/2)),1fr))}
-.roster-card{min-width:0;padding:18px 16px 14px;container-type:inline-size}
+.date-grid,.events-grid{gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(300px,calc((100% - 12px)/2)),1fr))}
+.roster-card{--card-pad-x:16px;--card-pad-top:18px;min-width:0;padding:18px 16px 14px;container-type:inline-size}
 .roster-card .card-head:has(.time-badge){display:grid;grid-template-columns:24px minmax(0,1fr) max-content;column-gap:8px;row-gap:2px;align-items:center;padding-bottom:12px}
 .roster-card .card-head:has(.time-badge) .card-title-wrap,
 .roster-card .card-head:has(.time-badge) .card-title-wrap>div{display:contents}
@@ -664,7 +665,7 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
   .roster-card .card-foot{font-size:10px}
 }
 @media(max-width:440px){
-  .roster-card{padding:12px 8px 10px;border-radius:11px}
+  .roster-card{--card-pad-x:8px;--card-pad-top:12px;padding:12px 8px 10px;border-radius:11px}
   .roster-card .card-foot{font-size:9px;gap:2px}
 }
 
@@ -675,7 +676,7 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 
 /* Keep daily/event cards roomy on browser widths up to 1500px. */
 @media(max-width:1500px){
-  .date-grid,.events-grid{grid-template-columns:repeat(auto-fit,minmax(max(calc((100% - 24px)/3),min(300px,calc((100% - 12px)/2))),1fr))}
+  .date-grid,.events-grid{grid-template-columns:repeat(auto-fill,minmax(max(calc((100% - 24px)/3),min(300px,calc((100% - 12px)/2))),1fr))}
 }
 
 /* Event calendar 41C: larger calendar within a compact shop header. */

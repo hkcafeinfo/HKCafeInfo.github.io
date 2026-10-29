@@ -720,3 +720,4 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .date-button.is-sunday .date-weekday,.date-button.is-sunday .date-day{color:#c34b56}
 .date-button.is-sunday.active{border-color:#d96a74;background:#fff0f1;box-shadow:0 5px 18px #d45c681c}
 .date-button.is-sunday.active .date-weekday,.date-button.is-sunday.active .date-day{color:#b83e49}
+.roster-note-divider,footer{background-color:rgba(255,255,255,.5);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}

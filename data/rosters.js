@@ -1446,7 +1446,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-11-10",
-          "hours": "17:00-22:00",
+          "hours": "18:00-22:00",
           "groups": {
             "限定學妹": [
               "夜煌"
@@ -1460,6 +1460,9 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De_UhoDR3rV/",
+          "review_names": {
+            "夜煌": "2026-10-30 source check: De_UhoDR3rV poster states 18:00-22:00; previous value 17:00 corrected."
+          },
           "person_notes": {
             "夜煌": "個人時段：18:00-22:00"
           },
@@ -49047,5 +49050,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T23:28+08:00"
+  "published_at": "2026-10-29T23:31+08:00"
 };

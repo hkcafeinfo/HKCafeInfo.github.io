@@ -6387,7 +6387,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
-          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final"
+          "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final",
+          "alternate_sources": [
+            "https://www.instagram.com/agarden_2001/p/DfEyxmSPNT5/"
+          ]
         },
         {
           "date": "2026-11-01",
@@ -6757,7 +6760,13 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至五 17:00–22:00\n星期六日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/agarden_2001/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [],
+      "unresolved": [
+        {
+          "date": "2026-10-31",
+          "reason": "同一活動陣容來源稱「月」及「Yume」，SQLite當日既有來源名分別為「阿月」及「Yumi」；無同一IG或其他身份證據，不合併亦不改原名。請後續來源核對或用戶裁決。",
+          "source": "https://www.instagram.com/agarden_2001/p/DfEyxmSPNT5/"
+        }
+      ],
       "date_notices": []
     },
     {
@@ -49262,5 +49271,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T01:39+08:00"
+  "published_at": "2026-10-30T01:58+08:00"
 };

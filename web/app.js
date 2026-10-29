@@ -317,8 +317,9 @@
   const people = new Map();
   for (const shop of data.shops) for (const shift of shop.shifts || []) {
     for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
-      const key = HKCI.identityKey(data, shop.shop, name);
-      const record = people.get(key) || { name, shops: new Map() };
+      const pid = data.person_accounts?.[shop.shop]?.[name]?.person_id || data.people?.[name]?.person_id;
+      const key = pid ? `person:${pid}` : HKCI.identityKey(data, shop.shop, name);
+      const record = people.get(key) || { name, pid, shops: new Map() };
       if (record.name === record.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) record.name = name;
       const appearance = record.shops.get(shop.shop) || { name, hasDuty: false };
       if (appearance.name === appearance.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) appearance.name = name;
@@ -335,7 +336,7 @@
     const sorted = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;
-      const section = make("details", "people-shop-group");
+      const section = make("details", "people-shop-group"); section.open = true;
       const heading = make("summary", "people-shop-heading");
       const shop = data.shops.find(item => item.shop === shopName);
       if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
@@ -361,11 +362,13 @@
     for (const shop of data.shops) {
       const members = sorted.flatMap((person) => {
         const appearance = person.shops.get(shop.shop);
-        return appearance?.hasDuty ? [{ person, name: appearance.name }] : [];
+        const affiliation = data.person_affiliations?.[person.pid];
+        const belongs = affiliation ? affiliation.shops.includes(shop.shop) : appearance?.hasDuty;
+        return belongs ? [{ person, name: appearance?.name || person.name }] : [];
       });
       appendGroup(shop.shop, members, shop.shop);
     }
-    const unassigned = sorted.filter((person) => ![...person.shops.values()].some((appearance) => appearance.hasDuty))
+    const unassigned = sorted.filter((person) => data.person_affiliations?.[person.pid] ? !data.person_affiliations[person.pid].shops.length : ![...person.shops.values()].some((appearance) => appearance.hasDuty))
       .map((person) => ({ person, name: person.name }));
     appendGroup("限定暫無所屬", unassigned, null);
     $("people-count").textContent = `${sorted.length} 位女僕`;
@@ -442,6 +445,14 @@
   $("export-feedback").addEventListener("click", HKCI.exportFeedback);
   window.addEventListener("hkcafeinfo:person", () => { returnView = document.body.dataset.view || "matrix"; search = ""; nodes.search.value = ""; savePage("matrix"); showView("matrix"); });
   window.addEventListener("hkcafeinfo:return-person", () => chooseView(returnView));
+  for (const mode of ["events", "people"]) {
+    const controls = document.getElementById(`${mode}-fold-controls`);
+    const selector = mode === "events" ? ".event-shop" : ".people-shop-group";
+    const sync = () => { const groups = [...document.querySelectorAll(selector)]; for (const button of controls.querySelectorAll("button")) { const active = groups.length > 0 && groups.every(group => group.open === (button.dataset.fold === "open")); button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active)); } };
+    controls.addEventListener("click", event => { const button = event.target.closest("[data-fold]"); if (!button) return; document.querySelectorAll(selector).forEach(group => { group.open = button.dataset.fold === "open"; }); sync(); });
+    document.getElementById(`${mode}-list`).addEventListener("toggle", sync, true);
+    window.addEventListener("hkcafeinfo:view-change", sync);
+  }
   renderPeople();
   renderDates();
   renderCards();

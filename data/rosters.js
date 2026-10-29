@@ -38557,6 +38557,7052 @@ window.MAID_ROSTERS = {
       }
     }
   },
+  "person_affiliations": {
+    "P0022": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0010": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0013": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0026": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P0009": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0019": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0027": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0031": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0040": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0017": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0025": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0042": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0044": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0024": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0046": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "P0047": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "P0011": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0033": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0037": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P-MUGI-ELYSIUM": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "P0028": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P0053": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0003": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0021": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0038": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "P0045": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "P0004": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0030": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0034": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P0051": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0054": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0035": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "P0005": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0020": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0014": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0016": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0018": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0043": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "P0050": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "P0052": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0029": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0006": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0008": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0032": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0012": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0002": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0015": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0039": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0036": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "P0001": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0023": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0007": {
+      "override": null,
+      "default": [
+        "The Manor Cafe"
+      ],
+      "shops": [
+        "The Manor Cafe"
+      ]
+    },
+    "P0048": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "P0041": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P0049": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_416": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_501_": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_9000": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_94": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_999": {
+      "override": null,
+      "default": [
+        "Maid Eidolon",
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Maid Eidolon",
+        "Baberu Cafe"
+      ]
+    },
+    "N__cream_ice_cos_0614": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__elika_desu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__moris_zzz": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__squab_1213": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__vyw1113_cos_chu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__wataru_112_": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__y3_lain_cos": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__yukina_02_": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_AYU": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Aiko": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Aino": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Airin": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Aiya": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Akari": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Aki": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_Aki_aki__aki45": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Aki_unknowndelete_aki": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Ame": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Ami": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Amy": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N_Anzu": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_Ara": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Asaki": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Asuka": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Aya": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Ayana": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Ayane": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N_Azusa": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Bella": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Beru": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_Bibi": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Bochi": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Bonnie": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Bottle": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Bunny": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N_Ceci": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Celia": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N_Cheese": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Cherry": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Chika": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Chizuru": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Chocolate": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Cream": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_DORA": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Dicky": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Domo": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Domo_": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Elika": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_Ellie": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Emi": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Eru": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Eve": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_FY": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Fomu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Fukuro": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N_Fumi": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage",
+        "Dear Devil",
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maidoll Mirage",
+        "Dear Devil",
+        "Maid Minori"
+      ]
+    },
+    "N_Fuwa": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Fuyo": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_Fuyuki": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Gigi": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Haku": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Hakuno": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Hami": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Hana": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Hani": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Haru": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Haruka": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Haruki": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Haruna": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Hayu": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Hecate": {
+      "override": null,
+      "default": [
+        "Mistia Luna",
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Mistia Luna",
+        "Aurelia Garden"
+      ]
+    },
+    "N_Hikaru": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Hima": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Hina": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Hiri": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Hotaru": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N_Husky": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Ice": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Ichiri": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Ikuya": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Isako": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Itsu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Jasmine": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_JoJo": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Judy": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N_Julie": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Jyunna": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_KK": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Aurelia Garden"
+      ]
+    },
+    "N_Kai": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kana": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Kanade": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kaoko": {
+      "override": null,
+      "default": [
+        "The Misty",
+        "Mistia Luna"
+      ],
+      "shops": [
+        "The Misty",
+        "Mistia Luna"
+      ]
+    },
+    "N_Kaoru": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Kay": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N_Keiko": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kinako": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Kira": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Kirari": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kiu": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Kiu_Kiu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kkuma": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Koa": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Koharu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kokona": {
+      "override": null,
+      "default": [
+        "Maid Academy",
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Maid Academy",
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N_Kola": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Kona": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Sugar Factory Cafe",
+        "Kirakira Maido"
+      ]
+    },
+    "N_Kora": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Kori": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Koyuki": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Kuma": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Kuro": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_LILY": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Lia": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Lori": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "CosPlace Café"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "CosPlace Café"
+      ]
+    },
+    "N_Lula": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Luna": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_MIDORIN": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_MIYA": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_MIYABI": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_MORI": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Mafu": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Mahiru": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Mari": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Maru": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Max": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Megu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Mercy": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Meru": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N_Mia": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Midorinn": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_Miharu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Mii": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Maid Minori"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Maid Minori"
+      ]
+    },
+    "N_Mika": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Miku": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Mio": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Mirai": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Miru": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Miyabi": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Miyuki": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Mizuka": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Mo": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Moa": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Mochi": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N_Moka": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Moku": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Moli": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Momoki": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Mori": {
+      "override": null,
+      "default": [
+        "Maid Academy",
+        "Kirakira Maido",
+        "Dear Devil"
+      ],
+      "shops": [
+        "Maid Academy",
+        "Kirakira Maido",
+        "Dear Devil"
+      ]
+    },
+    "N_Muli": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Nagisa": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Nami": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Nana": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N_Nano": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_Nanoji": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Natsumi": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Nedo": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Nekona": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Nemui": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Nene": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Neya": {
+      "override": null,
+      "default": [
+        "Kaizoku House",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kaizoku House",
+        "Kirakira Maido"
+      ]
+    },
+    "N_Nezumi_": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Noa": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N_Noki": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_N_NN_": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Onime": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N_Oscar": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_P4": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Pikachu": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Pimu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Qb": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Qquie": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Qubi": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Maid Academy"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Maid Academy"
+      ]
+    },
+    "N_RAKU": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_RINKA": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Raku": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Elysium Cafe"
+      ]
+    },
+    "N_Reda": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_Rei": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Reii": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N_Reii_": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Reimu": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Riki": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Rina": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Rinka": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ]
+    },
+    "N_Rinki": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Rio": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Riri": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Riya": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Rizuko": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Roku": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_RuRu": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Rua": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Rubi": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Rui": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Ruri": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_SOKU": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Saaya": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Sake": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N_Saki": {
+      "override": null,
+      "default": [
+        "Maid Planet",
+        "Maid Academy",
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Maid Planet",
+        "Maid Academy",
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N_Sayu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Shiori": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Shiro": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Simanna": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Sinyu": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Sirius": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Snowyyyy": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Sofu": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Soya": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_Stellar": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Sumika": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Sumire": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_Szyiu": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_TNT": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_TakuRyo": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Tami": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Tia": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Tina": {
+      "override": null,
+      "default": [
+        "Mistia Luna",
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Mistia Luna",
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_Toffee": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_Toto": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Toua": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Toyu": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Tsumi": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_UU": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N_Uka": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Uri": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ]
+    },
+    "N_Uta": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_Vivi": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N_WIFI": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Whitney": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_YK": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_YK_Kuro": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_YUZU": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_YY": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Yaki": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N_Yako": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Yoku": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Yoru": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_Yorumi": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_Youko": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_Yoyo": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N_Yua": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_Yui": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Yuki": {
+      "override": null,
+      "default": [
+        "Kaizoku House",
+        "Kirakira Maido",
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Kaizoku House",
+        "Kirakira Maido",
+        "Maidoll Mirage"
+      ]
+    },
+    "N_Yukiko": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N_Yume": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Kaizoku House"
+      ]
+    },
+    "N_Yuna": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_YunaI": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_Yura": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_Yuri": {
+      "override": null,
+      "default": [
+        "Comma Cafe",
+        "Itotsuki Cafe",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Comma Cafe",
+        "Itotsuki Cafe",
+        "Kirakira Maido"
+      ]
+    },
+    "N_Yuzuha": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_Yuzuki": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Dear Devil"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Dear Devil"
+      ]
+    },
+    "N_akaya": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_emon": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N_fufu": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N_gigi": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N_hain": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_haka": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_hani": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N_harei": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_hari": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_hotori": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_kaka": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_kanade": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_kano": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_kokomi": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_kumi": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_kumo": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_kuri": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N_kusuki": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_mikan": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_mizore": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_mogu": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_momo": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_mona": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_nako": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_nekome": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_okk": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_op": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N_panda": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_raku": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_rena": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N_riko": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_rina": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_ruika": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_saki": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_sanada": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_sora": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_suu": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N_tomori": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_usagi": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_yilam": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N_yui": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_yuki": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_yuzu": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N_zoe": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___365": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___366": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___367": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___368": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___369": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___370": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___371": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___372": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___373": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___374": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___375": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___376": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___377": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___378": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___379": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___380": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___381": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___382": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___383": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N___384": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___385": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___386": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___387": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___388": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___389": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___390": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___391": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___392": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___393": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___394": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___395": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___396": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___397": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N___398": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___399": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___400": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___401": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___402": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___403": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___404": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___405": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___406": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___407": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___408": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___409": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___410": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___411": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___412": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___413": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___414": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___415": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage",
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Maidoll Mirage",
+        "Aurelia Garden"
+      ]
+    },
+    "N___416": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___417": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___418": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___419": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___420": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___421": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___422": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___423": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N___424": {
+      "override": null,
+      "default": [
+        "Maid Clinic",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Maid Clinic",
+        "Kirakira Maido"
+      ]
+    },
+    "N___425": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___426": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___427": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___428": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N___429": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___430": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___431": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___432": {
+      "override": null,
+      "default": [
+        "Dear Devil",
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Dear Devil",
+        "Queen’s Garden"
+      ]
+    },
+    "N___433": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___434": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___435": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___436": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___437": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___438": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___439": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__Sakura": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___441": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___442": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___443": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___444": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___445": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___446": {
+      "override": null,
+      "default": [
+        "Comma Cafe",
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Comma Cafe",
+        "Maid Clinic"
+      ]
+    },
+    "N___447": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___448": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___449": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___450": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___451": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___452": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___453": {
+      "override": null,
+      "default": [
+        "Mistia Luna",
+        "Kirakira Maido",
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Mistia Luna",
+        "Kirakira Maido",
+        "Maid Clinic"
+      ]
+    },
+    "N___454": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___455": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___456": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___457": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Dear Devil",
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Dear Devil",
+        "Mistia Luna"
+      ]
+    },
+    "N___458": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___459": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___460": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Maid Eidolon"
+      ]
+    },
+    "N___461": {
+      "override": null,
+      "default": [
+        "Kaizoku House",
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Kaizoku House",
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___462": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___463": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Kaizoku House"
+      ]
+    },
+    "N___464": {
+      "override": null,
+      "default": [
+        "Maid Eidolon",
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Maid Eidolon",
+        "Baberu Cafe"
+      ]
+    },
+    "N___465": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___466": {
+      "override": null,
+      "default": [
+        "Maid Minori",
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Maid Minori",
+        "Kaizoku House"
+      ]
+    },
+    "N___467": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___468": {
+      "override": null,
+      "default": [
+        "Queen’s Garden",
+        "The Misty"
+      ],
+      "shops": [
+        "Queen’s Garden",
+        "The Misty"
+      ]
+    },
+    "N___469": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___470": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___471": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___472": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___473": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___474": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___475": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___476": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___477": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___478": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___479": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___480": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___481": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___482": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___483": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___484": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___485": {
+      "override": null,
+      "default": [
+        "Kirakira Maido",
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kirakira Maido",
+        "Kaizoku House"
+      ]
+    },
+    "N___486": {
+      "override": null,
+      "default": [
+        "Maid Clinic",
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Maid Clinic",
+        "Aurelia Garden"
+      ]
+    },
+    "N___487": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___488": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___489": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___490": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___491": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___492": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___493": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___494": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___495": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___496": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___497": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___498": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___499": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Kirakira Maido"
+      ]
+    },
+    "N___500": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___501": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___502": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___503": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___504": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___505": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__K": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___507": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___508": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___509": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___510": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___511": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___512": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N___513": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___514": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___515": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___516": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___517": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___518": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___519": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N__8_": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___521": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___522": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___523": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___524": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___525": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___526": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___527": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N___528": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___529": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___530": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___531": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___532": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___533": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___534": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___535": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___536": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___537": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___538": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___539": {
+      "override": null,
+      "default": [
+        "Baberu Cafe",
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Baberu Cafe",
+        "Maid Eidolon"
+      ]
+    },
+    "N___540": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___541": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___542": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___543": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___544": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___545": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___546": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___547": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___548": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___549": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___550": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___551": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___552": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___553": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___554": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___555": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___556": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___557": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___558": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___559": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___560": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___561": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___562": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___563": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___564": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___565": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___566": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___567": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___568": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "N___569": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___570": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N___571": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N__rinka": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___573": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___574": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___575": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___576": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___577": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "N___578": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___579": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___580": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___581": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___582": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___583": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___584": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___585": {
+      "override": null,
+      "default": [
+        "Kaizoku House",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kaizoku House",
+        "Kirakira Maido"
+      ]
+    },
+    "N___586": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___587": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___588": {
+      "override": null,
+      "default": [
+        "Comma Cafe",
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Comma Cafe",
+        "Maidoll Mirage"
+      ]
+    },
+    "N___589": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___590": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___591": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___592": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___593": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___594": {
+      "override": null,
+      "default": [
+        "Maid Minori",
+        "Mistia Luna",
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Maid Minori",
+        "Mistia Luna",
+        "Queen’s Garden"
+      ]
+    },
+    "N___595": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___596": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___597": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___598": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___599": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___600": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___601": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N___602": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___603": {
+      "override": null,
+      "default": [
+        "Maid Eidolon",
+        "Dear Devil",
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Maid Eidolon",
+        "Dear Devil",
+        "Kirakira Maido"
+      ]
+    },
+    "N___604": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "N___605": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___606": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___607": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___608": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___609": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___610": {
+      "override": null,
+      "default": [
+        "The Misty"
+      ],
+      "shops": [
+        "The Misty"
+      ]
+    },
+    "N___611": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___612": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___613": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___614": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___615": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___616": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___617": {
+      "override": null,
+      "default": [
+        "Kirakira Maido",
+        "Aurelia Garden",
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Kirakira Maido",
+        "Aurelia Garden",
+        "Itotsuki Cafe"
+      ]
+    },
+    "N___618": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "N___619": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___620": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___621": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___622": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___623": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "The Misty"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "The Misty"
+      ]
+    },
+    "N___624": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___625": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___626": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___627": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "N___628": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___629": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___630": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___631": {
+      "override": null,
+      "default": [
+        "Aurelia Garden",
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Aurelia Garden",
+        "Maidoll Mirage"
+      ]
+    },
+    "N___632": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___633": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___634": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___635": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___636": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___637": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___638": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___639": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___640": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___641": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "N___642": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___643": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "N___644": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "N___645": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___646": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "N___647": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___648": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe",
+        "Kirakira Maido",
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Itotsuki Cafe",
+        "Kirakira Maido",
+        "Mistia Luna"
+      ]
+    },
+    "N___649": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___650": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "N___651": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "N___652": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "N___653": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___654": {
+      "override": null,
+      "default": [
+        "Comma Cafe",
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Comma Cafe",
+        "Maidoll Mirage"
+      ]
+    },
+    "N___655": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N___656": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___657": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___658": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___659": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N___660": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___661": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "N___662": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "N___663": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "N___664": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "N___665": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "N_Shu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "A_18_132": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "A_19_133": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "A_12_135": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_a86abadedf42": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_191d8f3d45bb": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_2ec8a4755a32": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_63a387113b03": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_d1ba791ecedc": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_ce03ec88fbe8": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_9503b5bf3529": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_ad966590cb51": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_3f9541f5f893": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_fb80eb2a18db": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_59d1b7dbec3b": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_b903d686792c": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_1_1dac0608b4b8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_1e31cdeeb18e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_74ca7f73c6f3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_0b04231a94b6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_e3b3e6a498ff": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_a2db9cab4db3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_186a4efcccbd": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_e954c414a80f": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_21cfd47ea2a3": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_a8bc1705cb3e": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_20fa9a6fe616": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_370eb79767fc": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_c1f4db18af1c": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_e1fe1b688158": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_ce3f17bec0ec": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_5a9199c02634": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_19be7a6cc696": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_bfdf2fcd6648": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_17_cfb7d69f7a31": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "R_5_9399fa12040f": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_9c0b315d5f4f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_18_f4af96bc4f93": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "R_4_472b468f549e": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_12_8d8d79a38e39": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_19_4c6bb2f06da5": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_f1cbbedb4b53": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_17_16c645a5ce97": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_e61d2b63c43e": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_f2478efbb57c": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_18_cd135dcbb3f2": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "R_4_1f065367a1e8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_f601b43a513e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_9d464ee3147a": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_0103fe832812": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_ff35584321af": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_15_d81f6aa49d96": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "R_19_a1db47c0358b": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_a021e0e76216": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_2c65c29dcb19": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_4b722f2709fa": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_bfcf5666377a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_15_bdef833b3c48": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "R_4_21f0dac29f88": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_2f46e2e482ec": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_136ede4261c0": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_3259deb59718": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_f3b555298955": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_19b1a1664dd8": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_12835b96768a": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_ee1d50cb613b": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_15_aa81bd6d660a": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "R_14_f084410e71c9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_181cf5be089b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_d3386b9a96f7": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_14_40fd96f532ed": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_19_c3bcd4dbbb62": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_4905fbca89ef": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_3_0e7800817868": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_6_babcc879089f": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_6_533c72519547": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_5_c8848fd79b15": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_49e4026fbfd9": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_15_cf48351f37d5": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "R_15_66986e3aa579": {
+      "override": null,
+      "default": [
+        "Sugar Factory Cafe"
+      ],
+      "shops": [
+        "Sugar Factory Cafe"
+      ]
+    },
+    "R_14_e1b3006eb750": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_14_f47331651bd5": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_7_cd2eeb1c7ab9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_e5cc77f2dee8": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_12_4d0ae8e3de94": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_12_588c056c8cd6": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_19_6b04d5afd7ff": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_1_fc078b3bb9fb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_1b845ce89ed1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_8c53bbeb7892": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_994e5414447b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_55ffdc5a8cd1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_03b883edf598": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_6_1e6ea465c29d": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_3806a06f7be1": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_5834ec504ad8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_613ca943764d": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_4920d4424c77": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_91bf4563c6b8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_36c55a4a9708": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_8_f1e20589dde4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_8_58456c5c75ec": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_82a6b2c79a53": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_20_8217311899ad": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_935f3028976b": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_6_c8f55c8c5e89": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_5_cdd27dc38bd3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_9f1ddec16ebe": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_8979916c7ec3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_3efff25ebbcb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_5f3c0f2fed6b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_d1a83a5bd7cc": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_18_87cdde6a4685": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_18_3fb0e4bbc657": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_18_2b5440c13c37": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_0168f69d662c": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_17187e1e1f01": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_20_4fd0d6b0db58": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_fac622b0d7b4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_09b96c1b4b4d": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_ac728fa4b8cd": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_a95ed96046a7": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_18_3fea1a0e7092": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_13_ff63e183e4ee": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_e1f3269efb25": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_20_4d7a4ccae0a5": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_20_09a9c063fac6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_5f223b9d36b1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_15e03a4063c8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_4671460d2df0": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_5_672f561f1f67": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_18_cfea9c6ea7f1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_13_7e5e641f2b84": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "R_13_e4d6c17afcff": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_df55849edb7d": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_348fb60024d2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_20_89c2b733ffec": {
+      "override": null,
+      "default": [
+        "Itotsuki Cafe"
+      ],
+      "shops": [
+        "Itotsuki Cafe"
+      ]
+    },
+    "R_12_61649adbbe73": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_19_c58cb53519c5": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_b02c5ecdc922": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_2_4cad5a1d0a89": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "R_6_8537de34e4b4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_6_3499e9fb7d26": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_18_e813b33a37e7": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "R_12_ac0c20e1298b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_43ddc4750791": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_11dcc8ee96ff": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_be2a57a34b63": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_1_c82f813b0cb4": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_6_38f5bdc365da": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_18_c656ccb2a47c": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "R_14_40d8b6bc7be5": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_14_12a051788bf8": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_12_8c9c51b2e66f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_12_685542e4d37b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_54439cc6ac9a": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_19_11fcee52be2f": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_13_31002e80c800": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "R_14_ab997328677e": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_14_449abfa02a72": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "R_3_019508bfe7a2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_19_df892037d52b": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_18_2ce657d78928": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "R_13_6167a5ce84ff": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "R_19_b6ee65348454": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "R_2_e3070717d696": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_eb9a3cd2e30a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_8c40569842ac": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_aabf4bf57697": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_811cda9bc58d": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_9a8c3c45b55f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_f9536b6b46a8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_e183d3a55d45": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_4635f10f2b25": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_a081fcaf4b50": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_9ff6a942a1c1": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_97283e734e3b": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_a27c516eefba": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_7488c0d74b7a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_0e76e6477f60": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_c3077c892dc1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_41b8ff5e7fd6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_43755de2d5a9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_f657deeaeaf2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_a1219c65d716": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_b91b69234e35": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_4a946b3fe3ea": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_cff6921ea901": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_ffed1e08e64f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_1640d2c53147": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_f7ebf38d41e5": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_d94021a77c9e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_c265266e153f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_6_2d160606996a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_6_12381dc57fb3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_b4b9332987f3": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "R_7_3a741e723c95": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "R_7_4531ec801441": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "R_7_40f0f98382e2": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "R_7_3033d31605b3": {
+      "override": null,
+      "default": [
+        "Dear Devil"
+      ],
+      "shops": [
+        "Dear Devil"
+      ]
+    },
+    "R_7_2a5d007e5d87": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_5d68942cff30": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_16_42a3bfaf5574": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_16_b23e21b9b262": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_16_5cf4263762f6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_a897b557dcbd": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_03521629c868": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_1_b7f0ad528022": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_9_d7b0db7622fb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_9_27f87794aadc": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_11_7f51ccfe3aaf": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_f772a88f87c6": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_a24f40c1ae2f": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_0cb75a34b483": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_4a4bd493cc1e": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_548d08d37940": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_11_08680f0dca75": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_11_580ce68d7441": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_11_9c6374e89779": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_11_1e9c687d72f9": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_847051fb2889": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_7f5b8cc7de0f": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_71094d8a7d94": {
+      "override": null,
+      "default": [
+        "CosPlace Café"
+      ],
+      "shops": [
+        "CosPlace Café"
+      ]
+    },
+    "R_11_5adf2f173b94": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_43cc84a2aabb": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_e5baa7766e3a": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_8f0e05319069": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_3855393fdd68": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_1879309cc751": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_cbcd63baf21e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_d4fb61a215e7": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_cc6ba36b047e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_ba9970bbe3dd": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_694aac7bc434": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_77141b215bc7": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_239745ebf31d": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_3962bc8527b8": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "R_5_eb077deee1e3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_5_e308ce5edf65": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_cf4cef42ed57": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_305b65f4a7ee": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_d213f7aabdce": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_0c5a44ca31f0": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_df93a66d8d95": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_0ce047b640a2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_3dafaf2916b4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_c562f5589cea": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_3c5a41306104": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_c519cf7a6976": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "R_4_43d2f0d106ae": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_4_2979ea2e3409": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_73a1a672cc461997": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_e41562857834f139": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2fb3c13fd7cfe610": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_9e392a69df39239f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_54d416de6bc98e30": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "IG_c837bbc51b110547": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "IG_c97ffe14f7e1b139": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "IG_9e6ccdfab89f78ea": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_8f1575c578ebf5b4": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "IG_b2605c8908c12a53": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
+    },
+    "N_34832e43c3a54793": {
+      "override": null,
+      "default": [],
+      "shops": []
+    }
+  },
   "event_images": [
     {
       "shop": "Maid Clinic",
@@ -38910,5 +45956,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T15:38+08:00"
+  "published_at": "2026-10-29T15:57+08:00"
 };

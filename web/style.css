@@ -623,3 +623,5 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .event-shop-heading:after,.people-shop-heading:after{content:"＋";margin-left:auto;color:#96a1b4}
 .event-shop[open]>.event-shop-heading:after,.people-shop-group[open]>.people-shop-heading:after{content:"−"}
 .people-shop-group:not([open])>.people-shop-items{display:none}
+
+.fold-controls{display:flex;justify-content:flex-end;margin:12px 0}

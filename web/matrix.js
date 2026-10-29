@@ -4,6 +4,17 @@
   const $ = (id) => document.getElementById(id);
   const matrix = $("roster-matrix");
   const viewport = $("matrix-viewport");
+  function normalizedInstagramHandle(value) {
+    let handle = String(value || "").trim().replace(/^@+/, "");
+    if (!handle) return "";
+    if (/^(?:https?:\/\/)?(?:www\.)?instagram\.com\//i.test(handle)) {
+      try {
+        const url = new URL(/^https?:\/\//i.test(handle) ? handle : `https://${handle}`);
+        handle = url.pathname.split("/").filter(Boolean)[0] || "";
+      } catch { return ""; }
+    }
+    return handle.replace(/^@+/, "").replace(/[/?#].*$/, "").trim().toLocaleLowerCase();
+  }
   if (!data || !Array.isArray(data.shops)) {
     matrix.textContent = "讀唔到更表資料。請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
@@ -238,16 +249,24 @@
           instagram: shopInfo.instagram || sharedInfo.instagram || "",
           profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
         const allNames = new Set([person.name]), allHandles = new Map();
+        const addInstagramAccount = (account) => {
+          const handle = normalizedInstagramHandle(account?.handle);
+          if (!handle) return;
+          const existing = allHandles.get(handle);
+          if (!existing || (existing.status !== "current" && account.status === "current")) {
+            allHandles.set(handle, { ...account, handle });
+          }
+        };
         if (person.personId) {
           for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
             allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);
-            for (const account of candidate.instagram_accounts || []) if (account.handle) allHandles.set(String(account.handle).toLowerCase(), account);
-            const handle = HKCI.handle(candidate.instagram || ""); if (handle) allHandles.set(handle.toLowerCase(), { handle, status: "current" });
+            for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
+            addInstagramAccount({ handle: candidate.instagram, status: "current" });
           }
           for (const entries of Object.values(data.person_accounts || {})) for (const [name, candidate] of Object.entries(entries || {})) if (candidate.person_id === person.personId) {
             allNames.add(name);
-            for (const account of candidate.instagram_accounts || []) if (account.handle) allHandles.set(String(account.handle).toLowerCase(), account);
-            const handle = HKCI.handle(candidate.instagram || ""); if (handle) allHandles.set(handle.toLowerCase(), { handle, status: "current" });
+            for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
+            addInstagramAccount({ handle: candidate.instagram, status: "current" });
           }
         }
         const top = make("div", "person-card-top");

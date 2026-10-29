@@ -428,6 +428,8 @@
   $("show-shops").addEventListener("click", () => chooseView("shops"));
   window.addEventListener("hkcafeinfo:show-matrix", () => showView("matrix"));
   let eventsRange = "future";
+  // Hong Kong public holidays that fall within the currently published event dates.
+  const hkPublicHolidays = new Set(["2026-10-19"]); // Chung Yeung Festival
   function renderEvents() {
     const list = $("events-list");
     const openShops = new Set([...list.querySelectorAll("details[open]")].map(node => node.dataset.shop));
@@ -464,8 +466,11 @@
         calendar.dateTime = shift.date;
         calendar.setAttribute("aria-label", `${shift.date} ${dateLabel(shift.date).weekday}`);
         const [year, month, day] = shift.date.split("-");
-        const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-        calendar.append(make("span", "event-calendar-month", `${months[Number(month) - 1]} ${year}`), make("strong", "event-calendar-day", String(Number(day))), make("span", "event-calendar-weekday", dateLabel(shift.date).weekday));
+        const weekday = new Date(`${shift.date}T12:00:00Z`).getUTCDay();
+        const isSundayOrHoliday = weekday === 0 || hkPublicHolidays.has(shift.date);
+        calendar.classList.toggle("is-sunday-or-holiday", isSundayOrHoliday);
+        if (hkPublicHolidays.has(shift.date)) calendar.setAttribute("aria-label", `${shift.date} ${dateLabel(shift.date).weekday} 香港公眾假期`);
+        calendar.append(make("span", "event-calendar-month", `${year}年${Number(month)}月`), make("strong", "event-calendar-day", String(Number(day))), make("span", "event-calendar-weekday", dateLabel(shift.date).weekday));
         head.append(calendar);
         grid.append(result);
       }

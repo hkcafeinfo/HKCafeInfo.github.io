@@ -2988,57 +2988,57 @@ window.MAID_ROSTERS = {
             {
               "name": "千羽",
               "role": "新生護士",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "悠依",
               "role": "新生護士",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Bonnie",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "企鵝",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "喵璃",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "小堇",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "心心",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "星星",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "毛毛",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Nyanko",
@@ -10469,17 +10469,17 @@ window.MAID_ROSTERS = {
             {
               "name": "Fukuro",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "奇拉拉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10500,22 +10500,22 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Mochi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10609,22 +10609,22 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "千夜",
@@ -10667,17 +10667,17 @@ window.MAID_ROSTERS = {
             {
               "name": "三文魚公主",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "椰奶",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10699,27 +10699,27 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -39026,12 +39026,10 @@ window.MAID_ROSTERS = {
     "N_999": {
       "override": null,
       "default": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Maid Eidolon"
       ],
       "shops": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Maid Eidolon"
       ]
     },
     "N__cream_ice_cos_0614": {
@@ -39264,12 +39262,8 @@ window.MAID_ROSTERS = {
     },
     "N_Bonnie": {
       "override": null,
-      "default": [
-        "Maid Clinic"
-      ],
-      "shops": [
-        "Maid Clinic"
-      ]
+      "default": [],
+      "shops": []
     },
     "N_Bottle": {
       "override": null,
@@ -39438,12 +39432,8 @@ window.MAID_ROSTERS = {
     },
     "N_Fukuro": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N_Fumi": {
       "override": null,
@@ -40124,12 +40114,8 @@ window.MAID_ROSTERS = {
     },
     "N_Mochi": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N_Moka": {
       "override": null,
@@ -40779,12 +40765,8 @@ window.MAID_ROSTERS = {
     },
     "N_Vivi": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N_WIFI": {
       "override": null,
@@ -41479,12 +41461,8 @@ window.MAID_ROSTERS = {
     },
     "N___383": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___384": {
       "override": null,
@@ -41638,12 +41616,8 @@ window.MAID_ROSTERS = {
     },
     "N___402": {
       "override": null,
-      "default": [
-        "Maid Clinic"
-      ],
-      "shops": [
-        "Maid Clinic"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___403": {
       "override": null,
@@ -41856,12 +41830,8 @@ window.MAID_ROSTERS = {
     },
     "N___428": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___429": {
       "override": null,
@@ -42167,12 +42137,10 @@ window.MAID_ROSTERS = {
     "N___464": {
       "override": null,
       "default": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Maid Eidolon"
       ],
       "shops": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Maid Eidolon"
       ]
     },
     "N___465": {
@@ -42381,12 +42349,8 @@ window.MAID_ROSTERS = {
     },
     "N___489": {
       "override": null,
-      "default": [
-        "Maid Clinic"
-      ],
-      "shops": [
-        "Maid Clinic"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___490": {
       "override": null,
@@ -42621,12 +42585,8 @@ window.MAID_ROSTERS = {
     },
     "N___519": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N__8_": {
       "override": null,
@@ -42782,11 +42742,9 @@ window.MAID_ROSTERS = {
     "N___539": {
       "override": null,
       "default": [
-        "Baberu Cafe",
         "Maid Eidolon"
       ],
       "shops": [
-        "Baberu Cafe",
         "Maid Eidolon"
       ]
     },
@@ -43615,12 +43573,8 @@ window.MAID_ROSTERS = {
     },
     "N___643": {
       "override": null,
-      "default": [
-        "Baberu Cafe"
-      ],
-      "shops": [
-        "Baberu Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___644": {
       "override": null,
@@ -45625,6 +45579,68 @@ window.MAID_ROSTERS = {
       "shops": []
     }
   },
+  "weekly_events": [
+    {
+      "shop": "Kirakira Maido",
+      "event_name": "天使與惡魔之夜"
+    },
+    {
+      "shop": "Elysium Cafe",
+      "event_name": "東方靈符與西方十字交會之夜"
+    },
+    {
+      "shop": "Maid Planet",
+      "event_name": "萌星人IN DEJAVU Part.2"
+    },
+    {
+      "shop": "Dear Devil",
+      "event_name": "殭屍小惡魔萬聖節派對"
+    },
+    {
+      "shop": "Maid Eidolon",
+      "event_name": "萬聖節event"
+    },
+    {
+      "shop": "CosPlace Café",
+      "event_name": "天使與惡魔之夜"
+    },
+    {
+      "shop": "Comma Cafe",
+      "event_name": "萬聖節Event"
+    },
+    {
+      "shop": "Sugar Factory Cafe",
+      "event_name": "魔女觀察日記 2026 - 最終回"
+    },
+    {
+      "shop": "The Manor Cafe",
+      "event_name": "Manor Circus Night"
+    },
+    {
+      "shop": "Maid Minori",
+      "event_name": "血光暗影祭"
+    },
+    {
+      "shop": "Mistia Luna",
+      "event_name": "萬聖節event"
+    },
+    {
+      "shop": "Kirakira Maido",
+      "event_name": "聖堂之夜"
+    },
+    {
+      "shop": "Kirakira Maido",
+      "event_name": "奇幻之夜"
+    },
+    {
+      "shop": "Kirakira Maido",
+      "event_name": "魔女之夜"
+    },
+    {
+      "shop": "Baberu Cafe",
+      "event_name": "月下夜僕、悪戯の時間だよ"
+    }
+  ],
   "event_images": [
     {
       "shop": "Maid Clinic",
@@ -45982,8 +45998,29 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/aurelia_2026-11-08_akiko_anniversary.jpg",
       "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Clinic",
+      "event_name": "Halloween Party",
+      "image_path": "data/event_images/maid_clinic_2026-10-31_halloween.jpg",
+      "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Aurelia Garden",
+      "event_name": "風紀紊乱！？不良JKを徹底指導！",
+      "image_path": "data/event_images/aurelia_2026-11-15_akari_jk.jpg",
+      "source": "https://www.instagram.com/agarden_2001/p/De_099_j3HU/",
+      "opacity": "0.19"
+    },
+    {
+      "shop": "Baberu Cafe",
+      "event_name": "月下夜僕、悪戯の時間だよ",
+      "image_path": "data/event_images/baberu_2026-10_halloween.jpg",
+      "source": "https://www.instagram.com/p/DegMv19ARg_/",
+      "opacity": "0.19"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T16:10+08:00"
+  "published_at": "2026-10-29T16:33+08:00"
 };

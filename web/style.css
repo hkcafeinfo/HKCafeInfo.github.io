@@ -625,3 +625,8 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .people-shop-group:not([open])>.people-shop-items{display:none}
 
 .fold-controls{display:flex;justify-content:flex-end;margin:12px 0}
+
+.events-controls-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0;min-width:0}
+.events-controls-row>.fold-controls{margin:0 0 0 auto;flex:0 0 auto}
+.events-controls-row>.range-toggle{flex:0 1 auto;min-width:0}
+@media(max-width:440px){.events-controls-row .range-toggle-button{font-size:10px;padding:7px 5px;min-width:0}.events-controls-row .range-toggle{gap:0;padding:2px}.events-controls-row{gap:4px}}

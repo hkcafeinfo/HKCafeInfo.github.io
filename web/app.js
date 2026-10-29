@@ -410,7 +410,7 @@
     const openShops = new Set([...list.querySelectorAll("details[open]")].map(node => node.dataset.shop));
     list.replaceChildren();
     for (const shop of data.shops.filter(item => visibleNames.has(item.shop))) {
-      const shifts = (shop.shifts || []).filter(shift => shift.event_name && !/活動[週周]|[週周]活動|[週周]表|更表/.test(shift.event_name) && (eventsRange === "all" || shift.date >= today)).sort((a,b) => a.date.localeCompare(b.date));
+      const shifts = (shop.shifts || []).filter(shift => shift.event_name && !(data.weekly_events || []).some(item => item.shop === shop.shop && item.event_name === shift.event_name) && !/活動[週周]|[週周]活動|[週周]表|更表/.test(shift.event_name) && (eventsRange === "all" || shift.date >= today)).sort((a,b) => a.date.localeCompare(b.date));
       if (!shifts.length) continue;
       const group = make("details", "event-shop"); group.dataset.shop = shop.shop; group.open = openShops.has(shop.shop);
       const heading = make("summary", "event-shop-heading");

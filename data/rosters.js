@@ -9005,7 +9005,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-28",
-          "hours": "15:00-22:00",
+          "hours": "17:00-22:00",
           "groups": {
             "一日限定": [
               "正子"
@@ -9063,10 +9063,7 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/|https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
           ],
           "person_notes": {
-            "正子": "個人時段：17:00-22:00"
-          },
-          "person_times": {
-            "正子": "17:00-22:00"
+            "正子": "來源貼文明列當值時間17:00-22:00。"
           }
         },
         {
@@ -49367,5 +49364,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T05:36+08:00"
+  "published_at": "2026-10-30T05:43+08:00"
 };

@@ -90,6 +90,7 @@
     renderChecklist();
     renderCards();
     renderShops();
+    renderEvents();
     window.dispatchEvent(new Event("maid:visibility-change"));
   }
   $("select-all-shops").addEventListener("click", () => { visibleNames = new Set(availableNames); window.MAID_VISIBLE_SHOPS = visibleNames; saveVisibility(); });
@@ -148,7 +149,7 @@
       button.addEventListener("click", () => { selectedDate = item.value; savePage(); renderDates(); renderCards(); });
       nodes.dates.append(button);
     }
-    requestAnimationFrame(updateDateScrollButtons);
+    requestAnimationFrame(() => { const active = nodes.dates.querySelector(".active"); if (active && nodes.dates.clientWidth) nodes.dates.scrollLeft = Math.max(0, active.offsetLeft - nodes.dates.offsetLeft); updateDateScrollButtons(); });
   }
   function updateDateScrollButtons() {
     const wrap = $("date-selector-wrap");
@@ -373,8 +374,11 @@
     $("matrix-view").hidden = mode !== "matrix";
     $("people-view").hidden = mode !== "people";
     $("shops-view").hidden = mode !== "shops";
+    $("events-view").hidden = mode !== "events";
+    if (mode === "events") renderEvents();
+    if (mode === "cards") renderDates();
     document.body.classList.toggle("person-search-mode", Boolean(search) && mode === "matrix");
-    for (const [id, active] of [["show-cards", mode === "cards"], ["show-matrix", mode === "matrix"], ["show-people", mode === "people"], ["show-shops", mode === "shops"]]) {
+    for (const [id, active] of [["show-events", mode === "events"], ["show-cards", mode === "cards"], ["show-matrix", mode === "matrix"], ["show-people", mode === "people"], ["show-shops", mode === "shops"]]) {
       $(id).classList.toggle("active", active);
       $(id).setAttribute("aria-pressed", String(active));
     }
@@ -387,11 +391,38 @@
     window.dispatchEvent(new Event("hkcafeinfo:reset-view"));
     showView(mode);
   }
+  $("show-events").addEventListener("click", () => chooseView("events"));
   $("show-cards").addEventListener("click", () => chooseView("cards"));
   $("show-matrix").addEventListener("click", () => chooseView("matrix"));
   $("show-people").addEventListener("click", () => chooseView("people"));
   $("show-shops").addEventListener("click", () => chooseView("shops"));
   window.addEventListener("hkcafeinfo:show-matrix", () => showView("matrix"));
+  let eventsRange = "future";
+  function renderEvents() {
+    const list = $("events-list");
+    const openShops = new Set([...list.querySelectorAll("details[open]")].map(node => node.dataset.shop));
+    list.replaceChildren();
+    for (const shop of data.shops.filter(item => visibleNames.has(item.shop))) {
+      const shifts = (shop.shifts || []).filter(shift => shift.event_name && !/活動[週周]|[週周]活動|[週周]表|更表/.test(shift.event_name) && (eventsRange === "all" || shift.date >= today)).sort((a,b) => a.date.localeCompare(b.date));
+      if (!shifts.length) continue;
+      const group = make("details", "event-shop"); group.dataset.shop = shop.shop; group.open = openShops.has(shop.shop);
+      group.append(make("summary", null, `${shop.shop} 》`));
+      const grid = make("div", "events-grid");
+      for (const shift of shifts) {
+        const result = card(shop, shift, shift.date).element;
+        if (!result.querySelector(".card-date")) result.querySelector(".card-head").after(make("div", "card-date", `${shift.date} · ${dateLabel(shift.date).weekday}`));
+        grid.append(result);
+      }
+      group.append(grid); list.append(group);
+    }
+    if (!list.childElementCount) list.append(make("p", "shops-help", "暫時未有符合日期範圍嘅活動資料。"));
+  }
+  $("events-date-range").addEventListener("click", event => {
+    const button = event.target.closest("[data-range]"); if (!button) return;
+    eventsRange = button.dataset.range;
+    for (const item of $("events-date-range").querySelectorAll("button")) { const active = item === button; item.classList.toggle("active", active); item.setAttribute("aria-pressed", String(active)); }
+    renderEvents();
+  });
   function renderShops() {
     const query = $("shop-search").value.trim().toLocaleLowerCase();
     const visibleShops = data.shops.filter(shop => visibleNames.has(shop.shop));
@@ -410,7 +441,7 @@
   renderCards();
   nodes.dates.hidden = Boolean(search);
   updateDateScrollButtons();
-  showView(search ? "matrix" : (["cards", "matrix", "people", "shops"].includes(savedPage.mode) ? savedPage.mode : "matrix"));
+  showView(search ? "matrix" : (["cards", "matrix", "events", "people", "shops"].includes(savedPage.mode) ? savedPage.mode : "matrix"));
   requestAnimationFrame(() => { if (Number.isFinite(savedPage.scrollY)) window.scrollTo(0, savedPage.scrollY); });
 })();
 

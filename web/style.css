@@ -593,3 +593,21 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .roster-note-divider{border-top:1px solid #e9ecee;padding:16px clamp(24px,5vw,78px) 0}
 .roster-note-divider .roster-disclaimer{display:grid;grid-template-columns:max-content minmax(0,1fr);margin:0;gap:0}
 .roster-note-divider+footer{border-top:0}
+
+/* Daily dates remain directly below the permanent header. */
+#date-selector-wrap{position:sticky;top:var(--topbar-sticky-height);z-index:35;background:#fbfbf9;padding-top:8px}
+.instagram-credit{white-space:nowrap;font-size:10px;color:#a6afbd}
+.topbar>.instagram-credit{margin-left:auto}
+.instagram-credit a{color:#6879c5;text-decoration:none}
+.instagram-credit a:hover{text-decoration:underline}
+.roster-note-divider+footer{height:46px}
+.roster-card>.card-foot{margin-top:auto;position:relative}
+.roster-card>.card-foot:before{content:"";display:block;position:absolute;left:0;right:0;top:-17px;height:16px}
+.roster-card>.role-group:last-of-type{margin-bottom:18px}
+.events-section{padding:28px 0 36px}
+#events-list{margin-top:20px}
+.event-shop{border-bottom:1px solid #e5e9ef;padding:16px 0}
+.event-shop>summary{cursor:pointer;font-size:16px;color:#43516a;font-weight:600}
+.events-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-top:18px}
+body[data-view="events"] .global-search{display:none}
+@media(max-width:700px){.view-button{padding-left:5px;padding-right:5px}.view-switch{gap:0}.events-grid{grid-template-columns:1fr}.instagram-credit{font-size:9px}}

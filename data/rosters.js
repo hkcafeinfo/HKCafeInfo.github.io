@@ -8815,6 +8815,9 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
+          "alternate_sources": [
+            "https://www.instagram.com/cafemaidplanet/p/DewhknsmeiE/"
+          ],
           "person_notes": {
             "Kiyu": "本店營業時間為 15:00-22:00；未列明個人時段。",
             "Luna": "本店營業時間為 15:00-22:00；未列明個人時段。",
@@ -8877,8 +8880,12 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
-            "https://www.instagram.com/p/DeXFIJ_GRYP/|https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/",
-            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/|https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/"
+            "https://www.instagram.com/p/DeXFIJ_GRYP/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/",
+            "https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/",
+            "https://www.instagram.com/cafemaidplanet/p/DeyhtUtvlMH/",
+            "https://www.instagram.com/cafemaidplanet/p/DewhknsmeiE/"
           ],
           "person_notes": {
             "MIKAN": "個人時段：17:00-22:00",
@@ -8935,7 +8942,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
           "event_name": "萌星人IN DEJAVU Part.2",
           "alternate_sources": [
-            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/",
+            "https://www.instagram.com/cafemaidplanet/p/DewhknsmeiE/"
           ],
           "person_notes": {
             "Kuma": "本店營業時間為 15:00-22:00；未列明個人時段。",
@@ -49364,5 +49372,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T05:43+08:00"
+  "published_at": "2026-10-30T06:02+08:00"
 };

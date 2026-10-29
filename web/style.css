@@ -588,3 +588,8 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #matrix-view.people-card-view .matrix-navigation{display:none}
 #matrix-view.people-card-view .matrix-filter-controls{flex:0 1 auto}
 #matrix-view.people-card-view .person-back{order:3;margin-left:auto}
+
+/* Place the hanging note below the footer divider. */
+.roster-note-divider{border-top:1px solid #e9ecee;padding:16px clamp(24px,5vw,78px) 0}
+.roster-note-divider .roster-disclaimer{display:grid;grid-template-columns:max-content minmax(0,1fr);margin:0;gap:0}
+.roster-note-divider+footer{border-top:0}

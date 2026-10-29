@@ -333,7 +333,19 @@
   function renderPeople() {
     const list = $("people-list");
     list.replaceChildren();
-    const sorted = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
+    const sorted = [...people.values()].map((person) => {
+      const names = new Set([person.name]), handles = new Set();
+      for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
+        names.add(name); for (const alias of info.names || []) if (alias) names.add(alias);
+        for (const account of info.instagram_accounts || []) if (account.handle) handles.add(account.handle);
+        const handle = HKCI.handle(info.instagram || ""); if (handle) handles.add(handle);
+      }
+      for (const entries of Object.values(data.person_accounts || {})) for (const [name, info] of Object.entries(entries || {})) if (person.pid && info.person_id === person.pid) {
+        names.add(name); for (const account of info.instagram_accounts || []) if (account.handle) handles.add(account.handle);
+        const handle = HKCI.handle(info.instagram || ""); if (handle) handles.add(handle);
+      }
+      person.allNames = [...names].filter(Boolean); person.handles = [...handles].filter(Boolean); return person;
+    }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;
       const section = make("details", "people-shop-group"); section.open = true;
@@ -345,9 +357,10 @@
       const items = make("div", "people-shop-items");
       for (const { person, name } of entries) {
         const item = make("div", "people-item");
-        const nameButton = make("button", "people-name", HKCI.displayName(name));
+        const nameButton = make("button", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
         nameButton.type = "button";
         item.append(nameButton);
+        if (person.handles.length) item.append(make("small", "people-accounts", person.handles.map((handle) => `@${handle}`).join(" · ")));
         nameButton.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;

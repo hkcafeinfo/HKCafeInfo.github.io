@@ -12109,6 +12109,9 @@ window.MAID_ROSTERS = {
             ],
             "新人女僕": [
               "蝦蝦"
+            ],
+            "一日限定女僕": [
+              "CC"
             ]
           },
           "attendance_records": [
@@ -12121,10 +12124,24 @@ window.MAID_ROSTERS = {
               "name": "蝦蝦",
               "role": "新人女僕",
               "type": "當值"
+            },
+            {
+              "name": "CC",
+              "role": "一日限定女僕",
+              "type": "限定"
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
-          "event_name": "CE 混亂邪惡魔法週"
+          "event_name": "CE 混亂邪惡魔法週",
+          "person_notes": {
+            "CC": "個人時段：18:30-21:30；caption時間18:30，圖片18:40，差異待店方澄清。"
+          },
+          "person_times": {
+            "CC": "18:30-21:30"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/maidcafe.misty/p/DfEjqPPK2NY/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -12159,7 +12176,13 @@ window.MAID_ROSTERS = {
       "opening_hours": "營業日 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maidcafe.misty/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [],
+      "unresolved": [
+        {
+          "date": "2026-10-29",
+          "reason": "CC限定caption18:30-21:30，但同帖圖片18:40-21:30；先保留明確caption並標時間差異，不猜修改。",
+          "source": "https://www.instagram.com/maidcafe.misty/p/DfEjqPPK2NY/"
+        }
+      ],
       "date_notices": []
     },
     {
@@ -28553,6 +28576,18 @@ window.MAID_ROSTERS = {
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": []
+    },
+    "CC": {
+      "person_id": "IG_ccwith_u",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "ccwith_u",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/ccwith_u/"
     }
   },
   "person_accounts": {
@@ -34630,6 +34665,19 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "0mi4o",
+            "status": "current"
+          }
+        ]
+      },
+      "CC": {
+        "person_id": "IG_ccwith_u",
+        "profile_image": "",
+        "source": "https://www.instagram.com/maidcafe.misty/p/DfEjqPPK2NY/",
+        "instagram": "https://www.instagram.com/ccwith_u/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "ccwith_u",
             "status": "current"
           }
         ]
@@ -45687,6 +45735,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "IG_ccwith_u": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -46136,5 +46189,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T18:16+08:00"
+  "published_at": "2026-10-29T18:18+08:00"
 };

@@ -25509,11 +25509,17 @@ window.MAID_ROSTERS = {
     "YUZU": {
       "person_id": "N_YUZU",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "yuzuuu._q",
+          "status": "current"
+        }
+      ],
       "names": [
         "YUZU"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/yuzuuu._q/"
     },
     "YY": {
       "person_id": "N_YY",
@@ -32684,9 +32690,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_YUZU",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/yuzuuu._q/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "yuzuuu._q",
+            "status": "current"
+          }
+        ]
       },
       "布布": {
         "person_id": "N___480",
@@ -49036,5 +49047,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T23:18+08:00"
+  "published_at": "2026-10-29T23:26+08:00"
 };

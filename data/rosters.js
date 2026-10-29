@@ -12075,6 +12075,82 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maidcafe.misty/p/DeR4O1jqYvK/"
           ]
+        },
+        {
+          "date": "2026-10-28",
+          "hours": "",
+          "groups": {
+            "實習女僕": [
+              "Judy",
+              "小貓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Judy",
+              "role": "實習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "小貓",
+              "role": "實習女僕",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
+          "event_name": "CE 混亂邪惡魔法週"
+        },
+        {
+          "date": "2026-10-29",
+          "hours": "",
+          "groups": {
+            "正式女僕": [
+              "薑"
+            ],
+            "新人女僕": [
+              "蝦蝦"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "薑",
+              "role": "正式女僕",
+              "type": "當值"
+            },
+            {
+              "name": "蝦蝦",
+              "role": "新人女僕",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
+          "event_name": "CE 混亂邪惡魔法週"
+        },
+        {
+          "date": "2026-10-30",
+          "hours": "",
+          "groups": {
+            "正式女僕": [
+              "薑"
+            ],
+            "實習女僕": [
+              "Judy"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "薑",
+              "role": "正式女僕",
+              "type": "當值"
+            },
+            {
+              "name": "Judy",
+              "role": "實習女僕",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
+          "event_name": "CE 混亂邪惡魔法週"
         }
       ],
       "address": "旺角煙廠街9號興發商業大廈4樓404室",
@@ -45673,6 +45749,10 @@ window.MAID_ROSTERS = {
     {
       "shop": "Baberu Cafe",
       "event_name": "月下夜僕、悪戯の時間だよ"
+    },
+    {
+      "shop": "The Misty",
+      "event_name": "CE 混亂邪惡魔法週"
     }
   ],
   "event_images": [
@@ -46056,5 +46136,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T18:10+08:00"
+  "published_at": "2026-10-29T18:16+08:00"
 };

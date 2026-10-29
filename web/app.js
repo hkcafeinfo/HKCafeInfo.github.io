@@ -350,7 +350,7 @@
         item.append(nameButton);
         nameButton.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
-          const homeShop = shopName || person.shops.keys().next().value;
+          const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;
           window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: homeShop, name: appearance?.name || name } }));
           window.scrollTo({ top: $("matrix-view").offsetTop - 30, behavior: "smooth" });
         });

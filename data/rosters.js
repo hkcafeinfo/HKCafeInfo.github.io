@@ -6567,7 +6567,8 @@ window.MAID_ROSTERS = {
               "絲",
               "豆豆",
               "骨頭",
-              "鴨鴨"
+              "鴨鴨",
+              "昭子"
             ]
           },
           "attendance_records": [
@@ -6615,10 +6616,15 @@ window.MAID_ROSTERS = {
               "name": "鴨鴨",
               "role": "活動出席精靈",
               "type": "活動嘉賓"
+            },
+            {
+              "name": "昭子",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
-          "event_name": "想你的話...你會出現嗎？",
+          "event_name": "「想你的話...你會出現嗎？」 昭子一週年",
           "person_notes": {
             "Hami": "個人時段未另行列明。",
             "Uri": "個人時段未另行列明。",
@@ -6628,9 +6634,9 @@ window.MAID_ROSTERS = {
             "絲": "個人時段未另行列明。",
             "豆豆": "個人時段未另行列明。",
             "骨頭": "個人時段未另行列明。",
-            "鴨鴨": "個人時段未另行列明。"
-          },
-          "notes": "個人時段未另行列明。"
+            "鴨鴨": "個人時段未另行列明。",
+            "昭子": "用戶確認補回週年主角；原帖海報昭子一週年。個人時段未另行列明。"
+          }
         },
         {
           "date": "2026-11-15",
@@ -25781,8 +25787,14 @@ window.MAID_ROSTERS = {
     "昭子": {
       "person_id": "N___499",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "cec.akiko",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/cec.akiko/"
     },
     "晞亓": {
       "person_id": "N___500",
@@ -31003,10 +31015,15 @@ window.MAID_ROSTERS = {
       "昭子": {
         "person_id": "N___499",
         "profile_image": "",
-        "source": "",
-        "instagram": "",
+        "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
+        "instagram": "https://www.instagram.com/cec.akiko/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cec.akiko",
+            "status": "current"
+          }
+        ]
       },
       "絲": {
         "person_id": "N___573",
@@ -37901,9 +37918,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___499",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cec.akiko/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cec.akiko",
+            "status": "current"
+          }
+        ]
       },
       "雪海": {
         "person_id": "R_19_a1db47c0358b",
@@ -45953,8 +45975,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/comma_2026-11-08_host.jpg",
       "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Aurelia Garden",
+      "event_name": "「想你的話...你會出現嗎？」 昭子一週年",
+      "image_path": "data/event_images/aurelia_2026-11-08_akiko_anniversary.jpg",
+      "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
+      "opacity": "0.19"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T15:57+08:00"
+  "published_at": "2026-10-29T16:09+08:00"
 };

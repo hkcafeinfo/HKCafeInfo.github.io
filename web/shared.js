@@ -200,8 +200,9 @@
   }
   function shopIntro(shop) {
     const card = document.createElement("article"); card.className = "shop-intro";
-    if (shop.profile_image) { const img = document.createElement("img"); img.src = shop.profile_image; img.alt = ""; img.className = "shop-profile-photo"; img.loading = "lazy"; card.append(img); }
-    const title = document.createElement("h3"); title.textContent = shop.shop; card.append(title);
+    const heading = document.createElement("div"); heading.className = "shop-intro-heading";
+    if (shop.profile_image) { const img = document.createElement("img"); img.src = shop.profile_image; img.alt = ""; img.className = "shop-profile-photo"; img.loading = "lazy"; heading.append(img); }
+    const title = document.createElement("h3"); title.textContent = shop.shop; heading.append(title); card.append(heading);
     const profileUrl = instagram(shop.profile);
     if (profileUrl) {
       const account = document.createElement("a"); account.className = "shop-intro-ig"; account.href = profileUrl;

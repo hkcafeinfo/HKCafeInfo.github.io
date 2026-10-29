@@ -582,3 +582,9 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .hero-slides{display:block}
 .hero-slide{display:none;visibility:visible;opacity:1;transition:none}
 .hero-slide.is-active{display:block}
+
+/* Person results need the date range and a right-aligned return action only. */
+#matrix-view.people-card-view .axis-switch,
+#matrix-view.people-card-view .matrix-navigation{display:none}
+#matrix-view.people-card-view .matrix-filter-controls{flex:0 1 auto}
+#matrix-view.people-card-view .person-back{order:3;margin-left:auto}

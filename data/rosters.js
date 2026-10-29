@@ -25403,10 +25403,16 @@ window.MAID_ROSTERS = {
       "person_id": "N_Toffee",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "_toffee_324",
+          "status": "current"
+        }
+      ],
       "names": [
         "Toffee"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/_toffee_324/"
     },
     "Toua": {
       "person_id": "N_Toua",
@@ -33779,9 +33785,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_Toffee",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/_toffee_324/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "_toffee_324",
+            "status": "current"
+          }
+        ]
       }
     },
     "Aurelia Garden": {
@@ -40274,9 +40285,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_Toffee",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/_toffee_324/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "_toffee_324",
+            "status": "current"
+          }
+        ]
       },
       "綰綰": {
         "person_id": "N___575",
@@ -49218,5 +49234,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T01:13+08:00"
+  "published_at": "2026-10-30T01:28+08:00"
 };

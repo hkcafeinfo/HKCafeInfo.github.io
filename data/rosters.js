@@ -20148,13 +20148,13 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "汪",
-              "role": "魔法導師",
+              "name": "檸茶",
+              "role": "魔法使",
               "type": "當值"
             },
             {
-              "name": "檸茶",
-              "role": "魔法使",
+              "name": "汪",
+              "role": "魔法導師",
               "type": "當值"
             }
           ],
@@ -20163,8 +20163,8 @@ window.MAID_ROSTERS = {
             "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
             "Rain": "原圖只列店舖開放時間；個人時段未公布。",
             "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
-            "汪": "原圖只列店舖開放時間；個人時段未公布。",
-            "檸茶": "User corrected the unclear poster text: the extra magician is 檸茶, not 樽茶. Image gives shop open hours 18:00-23:00 only; individual shift hours not stated. Identity remains provisional, no IG inferred."
+            "檸茶": "User corrected the unclear poster text: the extra magician is 檸茶, not 樽茶. Image gives shop open hours 18:00-23:00 only; individual shift hours not stated. Identity remains provisional, no IG inferred.",
+            "汪": "原圖只列店舖開放時間；個人時段未公布。"
           }
         },
         {
@@ -21116,6 +21116,9 @@ window.MAID_ROSTERS = {
             ],
             "魔法導師": [
               "Ayane"
+            ],
+            "限定魔法使": [
+              "viko"
             ]
           },
           "attendance_records": [
@@ -21143,17 +21146,25 @@ window.MAID_ROSTERS = {
               "name": "Ayane",
               "role": "魔法導師",
               "type": "當值"
+            },
+            {
+              "name": "viko",
+              "role": "限定魔法使",
+              "type": "限定"
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
+          "alternate_sources": [
+            "https://www.instagram.com/kirakiramaido/p/DfBvxHjxdIH/"
+          ],
           "person_notes": {
             "Kico": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Neya": "原帖只列魔法結界開放時間；個人時段未公布。",
             "昭子": "原帖只列魔法結界開放時間；個人時段未公布。",
             "美恩": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。"
-          },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "viko": "原帖未列個人時段；貼文及店舖profile均列店舖營業時間18:00–23:00。"
+          }
         }
       ],
       "address": "旺角信和中心1403B室",
@@ -23731,7 +23742,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "DORA"
+        "DORA",
+        "Dora"
       ]
     },
     "Dicky": {
@@ -24405,7 +24417,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "LILY"
+        "LILY",
+        "Lily"
       ]
     },
     "Lia": {
@@ -24459,7 +24472,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "MIYABI"
+        "MIYABI",
+        "Miyabi ⟦@N_MIYABI⟧"
       ]
     },
     "MORI": {
@@ -29766,7 +29780,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "茶"
+        "茶",
+        "茶 ⟦@R_14_e1b3006eb750⟧"
       ]
     },
     "Halo": {
@@ -31307,6 +31322,21 @@ window.MAID_ROSTERS = {
         "Nekora"
       ],
       "instagram": "https://www.instagram.com/_ttwyy._._/"
+    },
+    "viko": {
+      "person_id": "R_19_9ac4c97ec76d",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "vik70_",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "viko"
+      ],
+      "instagram": "https://www.instagram.com/vik70_/"
     }
   },
   "person_accounts": {
@@ -32639,7 +32669,7 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "DORA": {
+      "Dora": {
         "person_id": "N_DORA",
         "profile_image": "",
         "source": "",
@@ -32647,7 +32677,7 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "LILY": {
+      "Lily": {
         "person_id": "N_LILY",
         "profile_image": "",
         "source": "",
@@ -32663,7 +32693,7 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "MIYABI": {
+      "Miyabi ⟦@N_MIYABI⟧": {
         "person_id": "N_MIYABI",
         "profile_image": "",
         "source": "",
@@ -33075,30 +33105,6 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
-      },
-      "Dora": {
-        "person_id": "N_DORA",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "Lily": {
-        "person_id": "N_LILY",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "Miyabi ⟦@N_MIYABI⟧": {
-        "person_id": "N_MIYABI",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
       },
       "bibi": {
         "person_id": "N_Bibi",
@@ -38136,6 +38142,14 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "魚": {
+        "person_id": "R_12_3953d101efec42ca",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
       "紫音": {
         "person_id": "N___571",
         "profile_image": "",
@@ -38393,14 +38407,6 @@ window.MAID_ROSTERS = {
       },
       "YUKI": {
         "person_id": "R_12_8c9c51b2e66f",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "魚": {
-        "person_id": "R_12_3953d101efec42ca",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -39240,8 +39246,8 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "茶": {
-        "person_id": "R_14_e1b3006eb750",
+      "茶 ⟦@R_14_143787021eebbd05⟧": {
+        "person_id": "R_14_143787021eebbd05",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -39268,6 +39274,14 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "茶 ⟦@R_14_e1b3006eb750⟧": {
+        "person_id": "R_14_e1b3006eb750",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
       },
       "Himiko": {
         "person_id": "R_14_40d8b6bc7be5",
@@ -39305,22 +39319,6 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
-      },
-      "茶 ⟦@R_14_143787021eebbd05⟧": {
-        "person_id": "R_14_143787021eebbd05",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "茶 ⟦@R_14_e1b3006eb750⟧": {
-        "person_id": "R_14_e1b3006eb750",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
       },
       "yuri": {
         "person_id": "R_14_ab997328677e",
@@ -40810,6 +40808,14 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
+      "檸茶": {
+        "person_id": "R_19_5d9fb569d92aed95",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
       "汪": {
         "person_id": "R_19_f1cbbedb4b53",
         "profile_image": "",
@@ -41216,16 +41222,21 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "kata": {
-        "person_id": "R_19_b903d686792c",
+      "viko": {
+        "person_id": "R_19_9ac4c97ec76d",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/vik70_/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "vik70_",
+            "status": "current"
+          }
+        ]
       },
-      "檸茶": {
-        "person_id": "R_19_5d9fb569d92aed95",
+      "kata": {
+        "person_id": "R_19_b903d686792c",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -48683,6 +48694,11 @@ window.MAID_ROSTERS = {
       "shops": [
         "Comma Cafe"
       ]
+    },
+    "R_19_9ac4c97ec76d": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -49139,5 +49155,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:28+08:00"
+  "published_at": "2026-10-30T00:54+08:00"
 };

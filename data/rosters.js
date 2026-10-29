@@ -9204,6 +9204,95 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
           ]
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "16:00-22:00",
+          "groups": {
+            "駐場魔女": [
+              "海藍",
+              "小犬",
+              "早早",
+              "小藍",
+              "Saki",
+              "Airin",
+              "古喵"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "海藍",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "早早",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "小藍",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Saki",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "Airin",
+              "role": "駐場魔女",
+              "type": "當值"
+            },
+            {
+              "name": "古喵",
+              "role": "駐場魔女",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/cafemaidplanet/p/DfCdLPXmTLw/",
+          "event_name": "Halloween Party"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "卡咩",
+              "小犬",
+              "淺",
+              "Haku"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "小犬",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "淺",
+              "role": "當值",
+              "type": "當值"
+            },
+            {
+              "name": "Haku",
+              "role": "當值",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
         }
       ],
       "notice": "逢星期一休息（公眾假期除外）；特別活動營業時間可能改動",
@@ -9218,6 +9307,11 @@ window.MAID_ROSTERS = {
           "date": "2026-11-06",
           "reason": "11/6 MIA 女僕周年活動已公布，帖文未列當值名單；舊來源仍保留在活動宣傳帖 DeZsnnWBoxv。",
           "source": "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "本輪 caption 原文「粟米」，SQLite既有「栗米」分屬不同 provisional person_id，無IG證據；不合併或重複新增，待用戶核實。",
+          "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
         }
       ],
       "date_notices": []
@@ -49273,5 +49367,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T02:07+08:00"
+  "published_at": "2026-10-30T05:36+08:00"
 };

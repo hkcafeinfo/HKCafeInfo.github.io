@@ -3201,6 +3201,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-23",
           "reason": "10/23心心生日原帖高清海報列Inari、Kyo；現行週表名單另有企鵝、Lily，尚無已確認別名對應，不能據人像合併。活動帖10/19發布且標已編輯；週表10/18發布，未取得精確編輯時間／名單修訂關係。保留現行名單及兩來源，待確認活動海報是否新增或取代當值名單。",
           "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/|https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
+        },
+        {
+          "date": "2026-10-23",
+          "reason": "生日活動海報列有9個姓名但caption無當值名單說明；部分與當日更表不同。需核對完整名單／標註姓名對應，未將其猜作活動嘉賓或修改當值。",
+          "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
         }
       ],
       "date_notices": []
@@ -25057,11 +25062,17 @@ window.MAID_ROSTERS = {
     "Rinki": {
       "person_id": "N_Rinki",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "usa.ouo.ki",
+          "status": "current"
+        }
+      ],
       "names": [
         "Rinki"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/usa.ouo.ki/"
     },
     "Rio": {
       "person_id": "N_Rio",
@@ -32831,9 +32842,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_Rinki",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/usa.ouo.ki/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "usa.ouo.ki",
+            "status": "current"
+          }
+        ]
       },
       "Mirai": {
         "person_id": "N_Mirai",
@@ -49020,5 +49036,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T23:04+08:00"
+  "published_at": "2026-10-29T23:18+08:00"
 };

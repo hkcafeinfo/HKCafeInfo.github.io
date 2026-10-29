@@ -6502,7 +6502,8 @@ window.MAID_ROSTERS = {
               "幼幼",
               "昭子",
               "絲",
-              "鴨鴨"
+              "鴨鴨",
+              "Hami"
             ]
           },
           "attendance_records": [
@@ -6540,10 +6541,18 @@ window.MAID_ROSTERS = {
               "name": "鴨鴨",
               "role": "活動出席精靈",
               "type": "活動嘉賓"
+            },
+            {
+              "name": "Hami",
+              "role": "活動出席精靈",
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/p/DerCCV1vGat/",
-          "event_name": "極致優雅，暗夜浪漫"
+          "event_name": "Hamiの1週年",
+          "person_notes": {
+            "Hami": "用戶確認補回週年主角；原帖海報標示 Hami の一周年。"
+          }
         },
         {
           "date": "2026-11-08",
@@ -23354,8 +23363,14 @@ window.MAID_ROSTERS = {
     "Hami": {
       "person_id": "N_Hami",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": []
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "n_.kei",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/n_.kei/"
     },
     "Hana": {
       "person_id": "N_Hana",
@@ -33825,6 +33840,19 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "Hami": {
+        "person_id": "N_Hami",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DerCCV1vGat/",
+        "instagram": "https://www.instagram.com/n_.kei/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "n_.kei",
+            "status": "current"
+          }
+        ]
+      },
       "Sumire": {
         "person_id": "N_Sumire",
         "profile_image": "",
@@ -34356,14 +34384,6 @@ window.MAID_ROSTERS = {
       },
       "Cherry": {
         "person_id": "N_Cherry",
-        "profile_image": "",
-        "source": "",
-        "instagram": "",
-        "former_handles": [],
-        "instagram_accounts": []
-      },
-      "Hami": {
-        "person_id": "N_Hami",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -38624,8 +38644,8 @@ window.MAID_ROSTERS = {
     },
     {
       "shop": "Aurelia Garden",
-      "event_name": "極致優雅，暗夜浪漫",
-      "image_path": "data/event_images/aurelia_2026-11-05_night.jpg",
+      "event_name": "Hamiの1週年",
+      "image_path": "data/event_images/aurelia_2026-11-05_hami_anniversary.jpg",
       "source": "https://www.instagram.com/p/DerCCV1vGat/",
       "opacity": "0.19"
     },
@@ -38890,5 +38910,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T15:07+08:00"
+  "published_at": "2026-10-29T15:15+08:00"
 };

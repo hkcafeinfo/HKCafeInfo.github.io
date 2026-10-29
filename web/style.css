@@ -646,6 +646,9 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .roster-card .card-foot{gap:4px;padding-top:12px;flex-wrap:nowrap}
 .roster-card .headcount{white-space:nowrap}
 @container(max-width:260px){
+  .unresolved-card .card-head{flex-wrap:wrap}
+  .unresolved-card .card-title-wrap{flex:1 1 100%}
+  .unresolved-card .pending-icon{display:none}
   .roster-card .card-head:has(.time-badge){grid-template-columns:minmax(0,1fr) max-content;column-gap:4px}
   .roster-card .card-head:has(.time-badge) .shop-profile-photo,
   .roster-card .card-head:has(.time-badge) .shop-icon{display:none}
@@ -667,4 +670,9 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 @container(max-width:130px){
   .roster-card .card-head:has(.time-badge) .shop-name{font-size:7.2px}
   .roster-card .time-badge{padding-inline:0;letter-spacing:-.03em}
+}
+
+/* Keep daily/event cards roomy on browser widths up to 1500px. */
+@media(max-width:1500px){
+  .date-grid,.events-grid{grid-template-columns:repeat(auto-fit,minmax(max(calc((100% - 24px)/3),min(300px,calc((100% - 12px)/2))),1fr))}
 }

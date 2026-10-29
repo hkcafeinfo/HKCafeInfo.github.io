@@ -144,14 +144,23 @@
     nodes.dates.replaceChildren();
     const dates = [{ value: "all", day: "全部日期", weekday: "總覽" }, ...cardDates().map((date) => ({ value: date, ...dateLabel(date) }))];
     for (const item of dates) {
-      const button = make("button", `date-button${selectedDate === item.value ? " active" : ""}`);
+      const isSunday = item.value !== "all" && new Date(`${item.value}T12:00:00Z`).getUTCDay() === 0;
+      const button = make("button", `date-button${selectedDate === item.value ? " active" : ""}${isSunday ? " is-sunday" : ""}`);
       button.type = "button";
       button.setAttribute("aria-pressed", String(selectedDate === item.value));
       button.append(make("span", "date-weekday", item.weekday), make("strong", "date-day", item.day));
       button.addEventListener("click", () => { selectedDate = item.value; savePage(); renderDates(); renderCards(); });
       nodes.dates.append(button);
     }
-    requestAnimationFrame(() => { const active = nodes.dates.querySelector(".active"); if (active && nodes.dates.clientWidth) nodes.dates.scrollLeft = Math.max(0, active.offsetLeft - nodes.dates.offsetLeft); updateDateScrollButtons(); });
+    requestAnimationFrame(() => {
+      const active = nodes.dates.querySelector(".active");
+      if (active && nodes.dates.clientWidth) {
+        // Keep the selected date clear of the fixed left arrow overlay.
+        const activeLeft = active.offsetLeft - nodes.dates.offsetLeft;
+        nodes.dates.scrollLeft = Math.max(0, activeLeft - 50);
+      }
+      updateDateScrollButtons();
+    });
   }
   function updateDateScrollButtons() {
     const wrap = $("date-selector-wrap");

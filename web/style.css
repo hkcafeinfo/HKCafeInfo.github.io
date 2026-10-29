@@ -601,9 +601,8 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .instagram-credit a{color:#6879c5;text-decoration:none}
 .instagram-credit a:hover{text-decoration:underline}
 .roster-note-divider+footer{height:46px}
-.roster-card>.card-foot{margin-top:auto;position:relative}
-.roster-card>.card-foot:before{content:"";display:block;position:absolute;left:0;right:0;top:-17px;height:16px}
-.roster-card>.role-group:last-of-type{margin-bottom:18px}
+.roster-card>.card-foot{margin-top:auto}
+.roster-card>:has(+.card-foot){margin-bottom:18px}
 .events-section{padding:28px 0 36px}
 #events-list{margin-top:20px}
 .event-shop{border-bottom:1px solid #e5e9ef;padding:16px 0}
@@ -613,7 +612,6 @@ body[data-view="events"] .global-search{display:none}
 @media(max-width:700px){.view-button{padding-left:5px;padding-right:5px}.view-switch{gap:0}.events-grid{grid-template-columns:1fr}.instagram-credit{font-size:9px}}
 
 .roster-note-divider+footer{height:38.5px}
-.roster-card>.card-foot{margin-top:18px}
 body[data-view="events"] .content-main .view-controls .global-search{display:none}
 @media(max-width:370px){.content-main .view-controls .view-button{font-size:10px;padding-left:4px;padding-right:4px}}
 
@@ -630,3 +628,30 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .events-controls-row>.fold-controls{margin:0 0 0 auto;flex:0 0 auto}
 .events-controls-row>.range-toggle{flex:0 1 auto;min-width:0}
 @media(max-width:440px){.events-controls-row .range-toggle-button{font-size:10px;padding:7px 5px;min-width:0}.events-controls-row .range-toggle{gap:0;padding:2px}.events-controls-row{gap:4px}}
+
+/* Shared daily/event cards: two compact columns through five roomy columns. */
+.date-grid,.events-grid{gap:12px;grid-template-columns:repeat(auto-fill,minmax(max(calc((100% - 48px)/5),min(240px,calc((100% - 12px)/2))),1fr))}
+.roster-card{min-width:0;padding:18px 16px 14px;container-type:inline-size}
+.roster-card .card-head{flex-direction:column;align-items:flex-start;padding-bottom:12px}
+.roster-card .card-title-wrap{width:100%;gap:8px}
+.roster-card .card-title-wrap>div{min-width:0}
+.roster-card .shop-name{white-space:normal;overflow-wrap:anywhere}
+.roster-card .time-badge,.roster-card .person-time{white-space:nowrap;overflow-wrap:normal;max-width:100%}
+.roster-card .person-tag:has(.person-time){flex:0 1 auto;width:auto;min-width:0;max-width:100%}
+.roster-card .card-foot{gap:4px;padding-top:12px;flex-wrap:nowrap}
+.roster-card .headcount{white-space:nowrap}
+@container(max-width:210px){
+  .card-title-wrap .shop-profile-photo,.card-title-wrap .shop-icon{width:24px;height:24px;font-size:16px}
+  .roster-card .shop-name{font-size:13px}
+  .roster-card .shop-address{font-size:10px}
+  .roster-card .person-tags{gap:5px}
+  .roster-card .person-tag{font-size:11px;min-height:30px;padding:5px 6px}
+  .roster-card .person-time{font-size:9px}
+  .roster-card .card-foot{font-size:10px}
+}
+@media(max-width:440px){
+  .roster-card{padding:12px 8px 10px;border-radius:11px}
+  .roster-card .card-title-wrap{gap:5px}
+  .roster-card .card-foot{font-size:9px;gap:2px}
+  .roster-card .time-badge{font-size:10px;padding:5px 6px}
+}

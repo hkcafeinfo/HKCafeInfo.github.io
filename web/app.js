@@ -423,7 +423,20 @@
         result.querySelector(".card-date")?.remove();
         const head = result.querySelector(".card-head");
         const hours = head.querySelector(".time-badge");
-        if (hours) { hours.classList.add("event-hours"); head.after(hours); }
+        const foot = result.querySelector(".card-foot");
+        foot.querySelector(".headcount")?.remove();
+        const times = make("div", "event-footer-times");
+        const sessionPattern = /([ABＡＢ上下])\s*場[：:\s]*([0-2]?\d)[：:]?(\d{2})\s*[-–—至]\s*([0-2]?\d)[：:]?(\d{2})/g;
+        const sessions = [...`${shift.hours || ""} ${shift.notes || ""}`.matchAll(sessionPattern)];
+        if (sessions.length > 1) {
+          for (const match of sessions) times.append(make("div", null, `${match[1]}場：${match[2].padStart(2, "0")}${match[3]}-${match[4].padStart(2, "0")}${match[5]}`));
+        } else times.textContent = shift.hours || "時間未註明";
+        hours?.remove();
+        foot.prepend(times);
+        const fee = shift.entry_fee || shift.admission_fee || (shift.notes || "").match(/(?:入場費|入場料金|門票)[：:\s]*((?:HK\$|HKD|\$)\s*\d+(?:\s*[／/]\s*[^；;。\n]+)?|免費)/i)?.[1];
+        if (fee) times.after(make("span", "event-footer-fee", `入場 ${fee}`));
+        const source = foot.querySelector("a");
+        if (source) source.textContent = "來源 ↗";
         const calendar = make("time", "event-calendar");
         calendar.dateTime = shift.date;
         calendar.setAttribute("aria-label", `${shift.date} ${dateLabel(shift.date).weekday}`);

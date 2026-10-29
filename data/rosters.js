@@ -12430,7 +12430,8 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
           "alternate_sources": [
-            "https://www.instagram.com/cosplace_cafe/p/DewF3gGP-f_/"
+            "https://www.instagram.com/cosplace_cafe/p/DewF3gGP-f_/",
+            "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
           ],
           "person_notes": {
             "YY": "個人時段：18:00-22:00；限定專帖另列。"
@@ -46431,5 +46432,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T20:04+08:00"
+  "published_at": "2026-10-29T20:38+08:00"
 };

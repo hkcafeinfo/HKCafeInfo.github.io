@@ -27562,11 +27562,17 @@ window.MAID_ROSTERS = {
     "棉花": {
       "person_id": "N___518",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "cotton_ouo2",
+          "status": "current"
+        }
+      ],
       "names": [
         "棉花"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/cotton_ouo2/"
     },
     "椰奶": {
       "person_id": "N___519",
@@ -32233,9 +32239,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___518",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cotton_ouo2/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cotton_ouo2",
+            "status": "current"
+          }
+        ]
       },
       "地鼠": {
         "person_id": "N___424",
@@ -49009,5 +49020,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T22:37+08:00"
+  "published_at": "2026-10-29T23:00+08:00"
 };

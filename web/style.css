@@ -689,7 +689,7 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 }
 
 /* Event calendar 41C: larger calendar within a compact shop header. */
-.event-calendar-card .card-head{min-height:88px;padding:5px 0 11px;align-items:center;gap:12px}
+.event-calendar-card .card-head{min-height:88px;padding:5px 0 11px;align-items:flex-start;gap:12px}
 .event-calendar-card .card-title-wrap{flex:1;min-width:0;gap:10px}
 .event-calendar-card .shop-name{white-space:normal;overflow-wrap:anywhere}
 .event-calendar-card .shop-address{line-height:1.4}

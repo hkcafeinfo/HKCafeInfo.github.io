@@ -13154,6 +13154,9 @@ window.MAID_ROSTERS = {
               "Yoyo",
               "小葵",
               "浠浠"
+            ],
+            "限定海盜": [
+              "魚"
             ]
           },
           "attendance_records": [
@@ -13171,9 +13174,17 @@ window.MAID_ROSTERS = {
               "name": "浠浠",
               "role": "Pirate Maid",
               "type": "當值"
+            },
+            {
+              "name": "魚",
+              "role": "限定海盜",
+              "type": "限定"
             }
           ],
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/",
+          "person_notes": {
+            "魚": "User confirmed to follow October date (2026-10-18) from the weekly roster. Standalone official post states 「限定海盜：魚」, 2026-11-18, 18:00-23:00; date conflict resolved by user in favor of October. IG identity unverified; retained as a new shop-specific provisional person ID, not merged with same-name people in other cafes. Source URL: https://www.instagram.com/maid.kaizokuhouse/p/Dejlj6ZzTcO/"
+          }
         },
         {
           "date": "2026-10-19",
@@ -13778,13 +13789,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至日 18:00–23:00",
       "opening_hours_source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [
-        {
-          "date": "2026-10-18",
-          "reason": "週表列 10/18 限定「魚」；其獨立專帖卻寫 11/18，日期互相矛盾。週表其他名單已收錄，魚的日期需再核對。",
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/Dejlj6ZzTcO/"
-        }
-      ],
+      "unresolved": [],
       "date_notices": []
     },
     {
@@ -38393,6 +38398,14 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "魚": {
+        "person_id": "R_12_3953d101efec42ca",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
       }
     },
     "Queen’s Garden": {
@@ -48623,6 +48636,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_12_3953d101efec42ca": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -49079,5 +49097,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:00+08:00"
+  "published_at": "2026-10-30T00:03+08:00"
 };

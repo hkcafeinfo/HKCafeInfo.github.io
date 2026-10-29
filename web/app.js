@@ -335,8 +335,10 @@
     const sorted = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;
-      const section = make("section", "people-shop-group");
-      const heading = make("h3", "people-shop-heading");
+      const section = make("details", "people-shop-group");
+      const heading = make("summary", "people-shop-heading");
+      const shop = data.shops.find(item => item.shop === shopName);
+      if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
       heading.append(make("span", "people-shop-title", title),
         make("span", "people-shop-count", `${entries.length} 位女僕`));
       const items = make("div", "people-shop-items");
@@ -408,7 +410,9 @@
       const shifts = (shop.shifts || []).filter(shift => shift.event_name && !/活動[週周]|[週周]活動|[週周]表|更表/.test(shift.event_name) && (eventsRange === "all" || shift.date >= today)).sort((a,b) => a.date.localeCompare(b.date));
       if (!shifts.length) continue;
       const group = make("details", "event-shop"); group.dataset.shop = shop.shop; group.open = openShops.has(shop.shop);
-      group.append(make("summary", null, `${shop.shop} 》`));
+      const heading = make("summary", "event-shop-heading");
+      if (shop.profile_image) { const logo = make("img", "group-shop-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
+      heading.append(make("span", null, shop.shop)); group.append(heading);
       const grid = make("div", "events-grid");
       for (const shift of shifts) {
         const result = card(shop, shift, shift.date).element;

@@ -616,3 +616,10 @@ body[data-view="events"] .global-search{display:none}
 .roster-card>.card-foot{margin-top:18px}
 body[data-view="events"] .content-main .view-controls .global-search{display:none}
 @media(max-width:370px){.content-main .view-controls .view-button{font-size:10px;padding-left:4px;padding-right:4px}}
+
+.group-shop-logo{width:32px;height:32px;border-radius:50%;object-fit:cover;flex:0 0 32px}
+.event-shop-heading,.people-shop-group>summary.people-shop-heading{display:flex;align-items:center;gap:10px;cursor:pointer;list-style:none}
+.event-shop-heading::-webkit-details-marker,.people-shop-heading::-webkit-details-marker{display:none}
+.event-shop-heading:after,.people-shop-heading:after{content:"＋";margin-left:auto;color:#96a1b4}
+.event-shop[open]>.event-shop-heading:after,.people-shop-group[open]>.people-shop-heading:after{content:"−"}
+.people-shop-group:not([open])>.people-shop-items{display:none}

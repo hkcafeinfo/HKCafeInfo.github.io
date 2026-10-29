@@ -223,6 +223,8 @@
 .people-accounts{display:flex;flex-wrap:wrap;gap:3px 8px;max-width:100%;margin:3px 0 0;padding-left:7px;}
 .people-accounts .people-ig{font-size:10px;color:#6879b8;white-space:normal;overflow-wrap:anywhere;text-decoration:none;}
 .people-accounts .people-ig:hover{text-decoration:underline;}
+.person-card .person-results th:first-child,.person-card .person-results td:first-child{white-space:nowrap;overflow-wrap:normal;}
+.person-card .person-results td:first-child .person-roster-jump{white-space:nowrap;overflow-wrap:normal;}
 
 /* Put navigation, search and table options in distinct, readable rows. */
 .content-main .view-controls{display:grid;grid-template-columns:auto minmax(180px,1fr) auto;gap:12px;align-items:center;flex-wrap:wrap}

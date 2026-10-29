@@ -24001,6 +24001,10 @@ window.MAID_ROSTERS = {
         {
           "handle": "h4rnyq_s2",
           "status": "current"
+        },
+        {
+          "handle": "haruna.hachu",
+          "status": "current"
         }
       ],
       "names": [
@@ -32614,6 +32618,10 @@ window.MAID_ROSTERS = {
           {
             "handle": "h4rnyq_s2",
             "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
+            "status": "current"
           }
         ]
       },
@@ -33467,6 +33475,10 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "h4rnyq_s2",
+            "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
             "status": "current"
           }
         ]
@@ -34610,6 +34622,10 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "h4rnyq_s2",
+            "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
             "status": "current"
           }
         ]
@@ -36502,6 +36518,10 @@ window.MAID_ROSTERS = {
           {
             "handle": "h4rnyq_s2",
             "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
+            "status": "current"
           }
         ]
       },
@@ -37898,6 +37918,10 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "h4rnyq_s2",
+            "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
             "status": "current"
           }
         ]
@@ -41076,6 +41100,10 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "h4rnyq_s2",
+            "status": "current"
+          },
+          {
+            "handle": "haruna.hachu",
             "status": "current"
           }
         ]
@@ -49234,5 +49262,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T01:28+08:00"
+  "published_at": "2026-10-30T01:39+08:00"
 };

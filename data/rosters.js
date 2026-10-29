@@ -20481,7 +20481,7 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "限定魔法使": [
-              "小妖精"
+              "小妖精 ⟦@R_19_181cf5be089b⟧"
             ],
             "魔法使": [
               "Nana",
@@ -20495,7 +20495,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "小妖精",
+              "name": "小妖精 ⟦@R_19_181cf5be089b⟧",
               "role": "限定魔法使",
               "type": "限定"
             },
@@ -20526,8 +20526,11 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
+          "source_names": {
+            "小妖精 ⟦@R_19_181cf5be089b⟧": "小妖精"
+          },
           "person_notes": {
-            "小妖精": "此為店舖開放時間，個人當值時段未列明。",
+            "小妖精 ⟦@R_19_181cf5be089b⟧": "此為店舖開放時間，個人當值時段未列明。",
             "Nana": "此為店舖開放時間，個人當值時段未列明。",
             "Yuki": "此為店舖開放時間，個人當值時段未列明。",
             "Yurie": "此為店舖開放時間，個人當值時段未列明。",
@@ -20953,7 +20956,8 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "限定魔法使": [
-              "小灰狼"
+              "小灰狼",
+              "小妖精 ⟦@youseii.030⟧"
             ],
             "魔法使": [
               "Kiyoko",
@@ -20987,6 +20991,11 @@ window.MAID_ROSTERS = {
               "name": "蘿露",
               "role": "魔法使",
               "type": "當值"
+            },
+            {
+              "name": "小妖精 ⟦@youseii.030⟧",
+              "role": "限定魔法使",
+              "type": "限定"
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -20996,9 +21005,12 @@ window.MAID_ROSTERS = {
             "Kiyoko": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。",
             "美麗": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。",
+            "小妖精 ⟦@youseii.030⟧": "店舖營業時間18:00–23:00；個人時段未公布。"
           },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+          "source_names": {
+            "小妖精 ⟦@youseii.030⟧": "小妖精"
+          }
         },
         {
           "date": "2026-10-30",
@@ -41242,6 +41254,27 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "小妖精 ⟦@R_19_181cf5be089b⟧": {
+        "person_id": "R_19_181cf5be089b",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "小妖精 ⟦@youseii.030⟧": {
+        "person_id": "R_19_4d8ec49a20e2",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/youseii.030/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "youseii.030",
+            "status": "current"
+          }
+        ]
       }
     },
     "Itotsuki Cafe": {
@@ -48699,6 +48732,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_19_4d8ec49a20e2": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -49155,5 +49193,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:54+08:00"
+  "published_at": "2026-10-30T00:59+08:00"
 };

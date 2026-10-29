@@ -12168,6 +12168,58 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
           "event_name": "CE 混亂邪惡魔法週"
+        },
+        {
+          "date": "2026-10-31",
+          "hours": "17:00-22:00",
+          "groups": {
+            "活動嘉賓": [
+              "Nekora",
+              "Bunny",
+              "Vivi",
+              "貓貓",
+              "海ほたる"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Nekora",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Bunny",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "Vivi",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "貓貓",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            },
+            {
+              "name": "海ほたる",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
+            }
+          ],
+          "source": "https://www.instagram.com/htr.aruaru/p/DeLJ97hSl-O/",
+          "event_name": "海ほたる2026生誕祭：魔界の宴〜絕對支配の薄暮",
+          "alternate_sources": [
+            "https://www.instagram.com/htr.aruaru/p/DfCD6-VEmbX/"
+          ],
+          "person_notes": {
+            "Nekora": "海報活動人員；未另公布個人當值時段。",
+            "Bunny": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
+            "Vivi": "海報活動人員；未另公布個人當值時段。",
+            "貓貓": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
+            "海ほたる": "活動主角；表演時段：19:30-20:00（整段節目安排）。"
+          }
         }
       ],
       "address": "旺角煙廠街9號興發商業大廈4樓404室",
@@ -28588,6 +28640,18 @@ window.MAID_ROSTERS = {
         }
       ],
       "instagram": "https://www.instagram.com/ccwith_u/"
+    },
+    "Nekora": {
+      "person_id": "IG__ttwyy._._",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "_ttwyy._._",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/_ttwyy._._/"
     }
   },
   "person_accounts": {
@@ -34678,6 +34742,45 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "ccwith_u",
+            "status": "current"
+          }
+        ]
+      },
+      "Nekora": {
+        "person_id": "IG__ttwyy._._",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/_ttwyy._._/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "_ttwyy._._",
+            "status": "current"
+          }
+        ]
+      },
+      "Vivi": {
+        "person_id": "IG_vivia.ayan",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/vivia.ayan/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "vivia.ayan",
+            "status": "current"
+          }
+        ]
+      },
+      "海ほたる": {
+        "person_id": "N_Hotaru",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/htr.aruaru/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "htr.aruaru",
             "status": "current"
           }
         ]
@@ -45740,6 +45843,26 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "IG__ttwyy._._": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_bunny1111.ouo": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_vivia.ayan": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_cc_little_poketto_": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -46186,8 +46309,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/baberu_2026-10_halloween.jpg",
       "source": "https://www.instagram.com/p/DegMv19ARg_/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "The Misty",
+      "event_name": "海ほたる2026生誕祭：魔界の宴〜絕對支配の薄暮",
+      "image_path": "data/event_images/misty_2026-10-31_hotaru.jpg",
+      "source": "https://www.instagram.com/htr.aruaru/p/DeLJ97hSl-O/",
+      "opacity": ""
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T19:36+08:00"
+  "published_at": "2026-10-29T19:38+08:00"
 };

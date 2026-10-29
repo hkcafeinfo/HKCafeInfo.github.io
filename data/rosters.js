@@ -17214,13 +17214,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至五 17:00–22:00\n星期六、日及公眾假期 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [
-        {
-          "date": "2026-11-01",
-          "reason": "最新更表同一來源同時列出「31 Oct (Sat)」及另一組「31 Oct (Sun)」名單，日期／星期標示衝突；本次只按明確的31 Oct Saturday組別記錄，Sunday組別未推定為11月1日，待店方澄清或後續明確來源。",
-          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
-        }
-      ],
+      "unresolved": [],
       "date_notices": []
     },
     {
@@ -20124,7 +20118,8 @@ window.MAID_ROSTERS = {
             "魔法使": [
               "Kiyoko",
               "Rain",
-              "Yurie"
+              "Yurie",
+              "檸茶"
             ],
             "魔法導師": [
               "汪"
@@ -20150,6 +20145,11 @@ window.MAID_ROSTERS = {
               "name": "汪",
               "role": "魔法導師",
               "type": "當值"
+            },
+            {
+              "name": "檸茶",
+              "role": "魔法使",
+              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20157,9 +20157,9 @@ window.MAID_ROSTERS = {
             "Kiyoko": "原圖只列店舖開放時間；個人時段未公布。",
             "Rain": "原圖只列店舖開放時間；個人時段未公布。",
             "Yurie": "原圖只列店舖開放時間；個人時段未公布。",
-            "汪": "原圖只列店舖開放時間；個人時段未公布。"
-          },
-          "notes": "原圖只列店舖開放時間；個人時段未公布。"
+            "汪": "原圖只列店舖開放時間；個人時段未公布。",
+            "檸茶": "User corrected the unclear poster text: the extra magician is 檸茶, not 樽茶. Image gives shop open hours 18:00-23:00 only; individual shift hours not stated. Identity remains provisional, no IG inferred."
+          }
         },
         {
           "date": "2026-10-16",
@@ -21156,13 +21156,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至日 18:00–23:00",
       "opening_hours_source": "https://www.instagram.com/kirakiramaido/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [
-        {
-          "date": "2026-10-15",
-          "reason": "12–18 日圖片週表另列一位魔法使，字樣似「樽茶」但不能可靠辨認，暫未列入。",
-          "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/"
-        }
-      ],
+      "unresolved": [],
       "date_notices": []
     },
     {
@@ -41207,6 +41201,14 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "檸茶": {
+        "person_id": "R_19_5d9fb569d92aed95",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
       }
     },
     "Itotsuki Cafe": {
@@ -48641,6 +48643,15 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_19_5d9fb569d92aed95": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
     }
   },
   "weekly_events": [
@@ -49097,5 +49108,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:03+08:00"
+  "published_at": "2026-10-30T00:11+08:00"
 };

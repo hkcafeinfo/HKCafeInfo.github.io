@@ -574,5 +574,11 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #card-view .card-range-controls .result-count{margin-left:auto}
 
 /* Keep the schedule time/source footer at the bottom of every roster cell. */
-.matrix-cell-roster{display:flex;flex-direction:column}
+.matrix-row{align-items:stretch}
+.matrix-cell-roster{display:flex;flex-direction:column;align-self:stretch}
 .matrix-cell-roster>.matrix-cell-foot{margin-top:auto}
+
+/* Hidden carousel slides must not reserve height when their text wraps. */
+.hero-slides{display:block}
+.hero-slide{display:none;visibility:visible;opacity:1;transition:none}
+.hero-slide.is-active{display:block}

@@ -6390,7 +6390,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "event_name": "Halloween Tales 🦇 異界精靈・百鬼夜行 Final",
           "alternate_sources": [
-            "https://www.instagram.com/agarden_2001/p/DfEyxmSPNT5/"
+            "https://www.instagram.com/agarden_2001/p/DfEyxmSPNT5/",
+            "https://www.instagram.com/agarden_2001/p/DfEf_ENP1v_/"
           ]
         },
         {
@@ -49272,5 +49273,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T02:02+08:00"
+  "published_at": "2026-10-30T02:04+08:00"
 };

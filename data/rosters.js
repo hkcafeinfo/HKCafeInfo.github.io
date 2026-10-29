@@ -15134,7 +15134,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "茶"
+              "茶 ⟦@R_14_143787021eebbd05⟧"
             ],
             "見習女僕": [
               "Halo",
@@ -15148,7 +15148,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "茶",
+              "name": "茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "當值"
             },
@@ -15165,8 +15165,11 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event",
+          "source_names": {
+            "茶 ⟦@R_14_143787021eebbd05⟧": "茶"
+          },
           "person_notes": {
-            "茶": "原帖寫「茶」；未核實是否「茶茶」。"
+            "茶 ⟦@R_14_143787021eebbd05⟧": "User confirms this Comma Cafe roster name 「茶」 can be identified as Comma maid 「茶茶」, but explicitly says she is not person N___588 (handles jianakwok_, ttea_maid_). Assigned separate Comma-scoped provisional ID R_14_143787021eebbd05. The supplied highlight is titled 茶茶🍵; one reposted story viewed, but original handle at top is not legible enough to verify; no handle linked. Highlight: https://www.instagram.com/stories/highlights/17905196123932875/."
           }
         },
         {
@@ -15177,7 +15180,7 @@ window.MAID_ROSTERS = {
               "Ellie",
               "Yuki",
               "芊夏",
-              "茶",
+              "茶 ⟦@R_14_e1b3006eb750⟧",
               "魚"
             ]
           },
@@ -15198,7 +15201,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "茶",
+              "name": "茶 ⟦@R_14_e1b3006eb750⟧",
               "role": "女僕",
               "type": "當值"
             },
@@ -15210,8 +15213,11 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
           "event_name": "萬聖節Event",
+          "source_names": {
+            "茶 ⟦@R_14_e1b3006eb750⟧": "茶"
+          },
           "person_notes": {
-            "茶": "原帖寫「茶」；未核實是否「茶茶」。"
+            "茶 ⟦@R_14_e1b3006eb750⟧": "原帖寫「茶」；未核實是否「茶茶」。"
           }
         },
         {
@@ -15600,8 +15606,8 @@ window.MAID_ROSTERS = {
       "unresolved": [
         {
           "date": "2026-10-24",
-          "reason": "官方週表寫「茶」；未核實是否另一名「茶茶」，暫依原文分開。",
-          "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
+          "reason": "User confirms Comma weekly roster literal「茶」is the Comma maid「茶茶」, but not existing person N___588 (handles jianakwok_, ttea_maid_). Assigned separate Comma-scoped provisional person ID. Need verify her IG handle from the supplied person-name Highlight; first reposted Story account label is not legible enough to link safely.",
+          "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/|https://www.instagram.com/stories/highlights/17905196123932875/"
         }
       ],
       "date_notices": []
@@ -39300,6 +39306,22 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "茶 ⟦@R_14_143787021eebbd05⟧": {
+        "person_id": "R_14_143787021eebbd05",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "茶 ⟦@R_14_e1b3006eb750⟧": {
+        "person_id": "R_14_e1b3006eb750",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
       "yuri": {
         "person_id": "R_14_ab997328677e",
         "profile_image": "",
@@ -48652,6 +48674,15 @@ window.MAID_ROSTERS = {
       "shops": [
         "Kirakira Maido"
       ]
+    },
+    "R_14_143787021eebbd05": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
     }
   },
   "weekly_events": [
@@ -49108,5 +49139,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:13+08:00"
+  "published_at": "2026-10-30T00:17+08:00"
 };

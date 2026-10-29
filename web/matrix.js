@@ -220,7 +220,7 @@
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
           if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) continue;
           const key = HKCI.identityKey(data, shop.shop, name);
-          if (!groups.has(key)) groups.set(key, { shop, name, shifts: [], shops: new Set() });
+          if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || data.people?.[name]?.person_id || "", shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
           groups.get(key).shops.add(shop.shop);
           const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
@@ -233,19 +233,32 @@
       for (const person of [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK"))) {
         const card = make("article", "person-card");
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
-        const sharedInfo = data.people?.[person.name] || {};
+        const sharedInfo = data.people?.[person.name] || Object.values(data.people || {}).find(info => person.personId && info.person_id === person.personId) || {};
         const info = { ...sharedInfo, ...shopInfo,
           instagram: shopInfo.instagram || sharedInfo.instagram || "",
           profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
+        const allNames = new Set([person.name]), allHandles = new Map();
+        if (person.personId) {
+          for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
+            allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);
+            for (const account of candidate.instagram_accounts || []) if (account.handle) allHandles.set(String(account.handle).toLowerCase(), account);
+            const handle = HKCI.handle(candidate.instagram || ""); if (handle) allHandles.set(handle.toLowerCase(), { handle, status: "current" });
+          }
+          for (const entries of Object.values(data.person_accounts || {})) for (const [name, candidate] of Object.entries(entries || {})) if (candidate.person_id === person.personId) {
+            allNames.add(name);
+            for (const account of candidate.instagram_accounts || []) if (account.handle) allHandles.set(String(account.handle).toLowerCase(), account);
+            const handle = HKCI.handle(candidate.instagram || ""); if (handle) allHandles.set(handle.toLowerCase(), { handle, status: "current" });
+          }
+        }
         const top = make("div", "person-card-top");
         const profile = make("div", "person-search-profile");
         if (info?.profile_image) {
           const photo = make("img", "person-photo"); photo.src = info.profile_image; photo.alt = ""; profile.append(photo);
         } else profile.append(make("span", "person-photo-placeholder", "♡"));
         const identity = make("div", "person-identity");
-        identity.append(make("strong", null, HKCI.displayName(person.name)));
+        identity.append(make("strong", null, [...allNames].map(HKCI.displayName).join(" ／ ")));
         const instagramAccounts = Array.isArray(info?.instagram_accounts) ? info.instagram_accounts : [];
-        const links = instagramAccounts.length ? instagramAccounts : (info?.instagram ? [{ handle: info.instagram, status: "current" }] : []);
+        const links = allHandles.size ? [...allHandles.values()] : (instagramAccounts.length ? instagramAccounts : (info?.instagram ? [{ handle: info.instagram, status: "current" }] : []));
         const igList = make("div", "people-ig-list");
         for (const account of links) {
           const url = HKCI.instagram(account.handle?.startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`);

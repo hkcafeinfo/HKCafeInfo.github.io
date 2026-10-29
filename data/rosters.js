@@ -11937,7 +11937,7 @@ window.MAID_ROSTERS = {
           "hours": "",
           "groups": {
             "新人女僕": [
-              "貓貓"
+              "貓貓 ⟦@cc_little_g⟧"
             ],
             "正式女僕": [
               "薑"
@@ -11948,7 +11948,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "貓貓",
+              "name": "貓貓 ⟦@cc_little_g⟧",
               "role": "新人女僕",
               "type": "當值"
             },
@@ -11967,6 +11967,9 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maidcafe.misty/p/DeZRD7LKO_s/"
           ],
+          "source_names": {
+            "貓貓 ⟦@cc_little_g⟧": "貓貓"
+          },
           "person_notes": {
             "奶茶": "限定專帖列個人時段 18:30-21:30。"
           }
@@ -12007,7 +12010,7 @@ window.MAID_ROSTERS = {
           "hours": "",
           "groups": {
             "新人女僕": [
-              "Bunny",
+              "Bunny ⟦@bunny_luuuuoxo⟧",
               "Noa"
             ],
             "正式女僕": [
@@ -12016,7 +12019,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "Bunny",
+              "name": "Bunny ⟦@bunny_luuuuoxo⟧",
               "role": "新人女僕",
               "type": "當值"
             },
@@ -12031,7 +12034,10 @@ window.MAID_ROSTERS = {
               "type": "當值"
             }
           ],
-          "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
+          "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/",
+          "source_names": {
+            "Bunny ⟦@bunny_luuuuoxo⟧": "Bunny"
+          }
         },
         {
           "date": "2026-10-19",
@@ -12175,9 +12181,9 @@ window.MAID_ROSTERS = {
           "groups": {
             "活動嘉賓": [
               "Nekora",
-              "Bunny",
+              "Bunny ⟦@bunny1111.ouo⟧",
               "Vivi",
-              "貓貓",
+              "貓貓 ⟦@cc_little_poketto_⟧",
               "海ほたる"
             ]
           },
@@ -12188,7 +12194,7 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓"
             },
             {
-              "name": "Bunny",
+              "name": "Bunny ⟦@bunny1111.ouo⟧",
               "role": "活動嘉賓",
               "type": "活動嘉賓"
             },
@@ -12198,7 +12204,7 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓"
             },
             {
-              "name": "貓貓",
+              "name": "貓貓 ⟦@cc_little_poketto_⟧",
               "role": "活動嘉賓",
               "type": "活動嘉賓"
             },
@@ -12215,10 +12221,14 @@ window.MAID_ROSTERS = {
           ],
           "person_notes": {
             "Nekora": "海報活動人員；未另公布個人當值時段。",
-            "Bunny": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
+            "Bunny ⟦@bunny1111.ouo⟧": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
             "Vivi": "海報活動人員；未另公布個人當值時段。",
-            "貓貓": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
+            "貓貓 ⟦@cc_little_poketto_⟧": "海報活動人員；未另公布個人當值時段。表演時段：19:30-20:00（整段節目安排，非各人全段演出）。",
             "海ほたる": "活動主角；表演時段：19:30-20:00（整段節目安排）。"
+          },
+          "source_names": {
+            "Bunny ⟦@bunny1111.ouo⟧": "Bunny",
+            "貓貓 ⟦@cc_little_poketto_⟧": "貓貓"
           }
         }
       ],
@@ -34746,6 +34756,32 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "貓貓 ⟦@cc_little_g⟧": {
+        "person_id": "N___623",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/cc_little_g/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "cc_little_g",
+            "status": "current"
+          }
+        ]
+      },
+      "Bunny ⟦@bunny_luuuuoxo⟧": {
+        "person_id": "N_Bunny",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/bunny_luuuuoxo/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "bunny_luuuuoxo",
+            "status": "current"
+          }
+        ]
+      },
       "Nekora": {
         "person_id": "IG__ttwyy._._",
         "profile_image": "",
@@ -34759,6 +34795,19 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "Bunny ⟦@bunny1111.ouo⟧": {
+        "person_id": "IG_bunny1111.ouo",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/bunny1111.ouo/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "bunny1111.ouo",
+            "status": "current"
+          }
+        ]
+      },
       "Vivi": {
         "person_id": "IG_vivia.ayan",
         "profile_image": "",
@@ -34768,6 +34817,19 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "vivia.ayan",
+            "status": "current"
+          }
+        ]
+      },
+      "貓貓 ⟦@cc_little_poketto_⟧": {
+        "person_id": "IG_cc_little_poketto_",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/cc_little_poketto_/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "cc_little_poketto_",
             "status": "current"
           }
         ]
@@ -46319,5 +46381,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T19:38+08:00"
+  "published_at": "2026-10-29T19:45+08:00"
 };

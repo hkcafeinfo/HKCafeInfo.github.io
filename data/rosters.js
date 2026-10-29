@@ -10469,17 +10469,17 @@ window.MAID_ROSTERS = {
             {
               "name": "Fukuro",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "奇拉拉",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10500,22 +10500,22 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "Mochi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10609,22 +10609,22 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "千夜",
@@ -10667,17 +10667,17 @@ window.MAID_ROSTERS = {
             {
               "name": "三文魚公主",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "椰奶",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10699,27 +10699,27 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -39026,10 +39026,12 @@ window.MAID_ROSTERS = {
     "N_999": {
       "override": null,
       "default": [
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ],
       "shops": [
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ]
     },
     "N__cream_ice_cos_0614": {
@@ -39432,8 +39434,12 @@ window.MAID_ROSTERS = {
     },
     "N_Fukuro": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N_Fumi": {
       "override": null,
@@ -40114,8 +40120,12 @@ window.MAID_ROSTERS = {
     },
     "N_Mochi": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N_Moka": {
       "override": null,
@@ -40765,8 +40775,12 @@ window.MAID_ROSTERS = {
     },
     "N_Vivi": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N_WIFI": {
       "override": null,
@@ -41461,8 +41475,12 @@ window.MAID_ROSTERS = {
     },
     "N___383": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N___384": {
       "override": null,
@@ -41830,8 +41848,12 @@ window.MAID_ROSTERS = {
     },
     "N___428": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N___429": {
       "override": null,
@@ -42137,10 +42159,12 @@ window.MAID_ROSTERS = {
     "N___464": {
       "override": null,
       "default": [
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ],
       "shops": [
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ]
     },
     "N___465": {
@@ -42585,8 +42609,12 @@ window.MAID_ROSTERS = {
     },
     "N___519": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N__8_": {
       "override": null,
@@ -42742,9 +42770,11 @@ window.MAID_ROSTERS = {
     "N___539": {
       "override": null,
       "default": [
+        "Baberu Cafe",
         "Maid Eidolon"
       ],
       "shops": [
+        "Baberu Cafe",
         "Maid Eidolon"
       ]
     },
@@ -43573,8 +43603,12 @@ window.MAID_ROSTERS = {
     },
     "N___643": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
     },
     "N___644": {
       "override": null,
@@ -46022,5 +46056,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T16:33+08:00"
+  "published_at": "2026-10-29T16:36+08:00"
 };

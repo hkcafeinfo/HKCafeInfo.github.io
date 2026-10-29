@@ -217,6 +217,13 @@
   .date-button,.people-item{touch-action:manipulation}
 }
 
+/* Person cards show every name and link each known Instagram account. */
+.people-item{display:flex;flex-direction:column;align-items:flex-start;max-width:100%;}
+.people-item .people-name{max-width:100%;white-space:normal;line-height:1.5;overflow-wrap:anywhere;}
+.people-accounts{display:flex;flex-wrap:wrap;gap:3px 8px;max-width:100%;margin:3px 0 0;padding-left:7px;}
+.people-accounts .people-ig{font-size:10px;color:#6879b8;white-space:normal;overflow-wrap:anywhere;text-decoration:none;}
+.people-accounts .people-ig:hover{text-decoration:underline;}
+
 /* Put navigation, search and table options in distinct, readable rows. */
 .content-main .view-controls{display:grid;grid-template-columns:auto minmax(180px,1fr) auto;gap:12px;align-items:center;flex-wrap:wrap}
 .view-switch{display:flex;min-width:0}.view-button{min-height:44px;padding:10px 16px;font-size:13px;white-space:nowrap}

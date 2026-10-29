@@ -22711,6 +22711,10 @@ window.MAID_ROSTERS = {
       "identity_status": "confirmed",
       "instagram_accounts": [
         {
+          "handle": "__oiovo",
+          "status": "current"
+        },
+        {
           "handle": "mugii_onq",
           "status": "current"
         }
@@ -22719,7 +22723,7 @@ window.MAID_ROSTERS = {
         "Mugi",
         "ムギ"
       ],
-      "instagram": "https://www.instagram.com/mugii_onq/"
+      "instagram": "https://www.instagram.com/__oiovo/"
     },
     "Riley": {
       "person_id": "P0028",
@@ -33217,9 +33221,13 @@ window.MAID_ROSTERS = {
         "person_id": "P-MUGI-ELYSIUM",
         "profile_image": "",
         "source": "",
-        "instagram": "https://www.instagram.com/mugii_onq/",
+        "instagram": "https://www.instagram.com/__oiovo/",
         "former_handles": [],
         "instagram_accounts": [
+          {
+            "handle": "__oiovo",
+            "status": "current"
+          },
           {
             "handle": "mugii_onq",
             "status": "current"
@@ -33643,9 +33651,13 @@ window.MAID_ROSTERS = {
         "person_id": "P-MUGI-ELYSIUM",
         "profile_image": "",
         "source": "",
-        "instagram": "https://www.instagram.com/mugii_onq/",
+        "instagram": "https://www.instagram.com/__oiovo/",
         "former_handles": [],
         "instagram_accounts": [
+          {
+            "handle": "__oiovo",
+            "status": "current"
+          },
           {
             "handle": "mugii_onq",
             "status": "current"
@@ -34993,9 +35005,13 @@ window.MAID_ROSTERS = {
         "person_id": "P-MUGI-ELYSIUM",
         "profile_image": "",
         "source": "",
-        "instagram": "https://www.instagram.com/mugii_onq/",
+        "instagram": "https://www.instagram.com/__oiovo/",
         "former_handles": [],
         "instagram_accounts": [
+          {
+            "handle": "__oiovo",
+            "status": "current"
+          },
           {
             "handle": "mugii_onq",
             "status": "current"
@@ -49050,5 +49066,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T23:31+08:00"
+  "published_at": "2026-10-29T23:37+08:00"
 };

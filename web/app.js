@@ -360,7 +360,17 @@
         const nameButton = make("button", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
         nameButton.type = "button";
         item.append(nameButton);
-        if (person.handles.length) item.append(make("small", "people-accounts", person.handles.map((handle) => `@${handle}`).join(" · ")));
+        if (person.handles.length) {
+          const accounts = make("div", "people-accounts");
+          for (const handle of person.handles) {
+            const account = make("a", "people-ig", `@${handle}`);
+            account.href = `https://www.instagram.com/${encodeURIComponent(handle)}/`;
+            account.target = "_blank"; account.rel = "noopener noreferrer";
+            account.setAttribute("aria-label", `開啟 Instagram 帳號 ${handle}`);
+            accounts.append(account);
+          }
+          item.append(accounts);
+        }
         nameButton.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;

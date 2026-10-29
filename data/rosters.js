@@ -20957,7 +20957,8 @@ window.MAID_ROSTERS = {
           "groups": {
             "限定魔法使": [
               "小灰狼",
-              "小妖精 ⟦@youseii.030⟧"
+              "小妖精 ⟦@youseii.030⟧",
+              "毛毛"
             ],
             "魔法使": [
               "Kiyoko",
@@ -20996,6 +20997,11 @@ window.MAID_ROSTERS = {
               "name": "小妖精 ⟦@youseii.030⟧",
               "role": "限定魔法使",
               "type": "限定"
+            },
+            {
+              "name": "毛毛",
+              "role": "限定魔法使",
+              "type": "限定"
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21006,7 +21012,8 @@ window.MAID_ROSTERS = {
             "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。",
             "美麗": "原帖只列魔法結界開放時間；個人時段未公布。",
             "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "小妖精 ⟦@youseii.030⟧": "店舖營業時間18:00–23:00；個人時段未公布。"
+            "小妖精 ⟦@youseii.030⟧": "店舖營業時間18:00–23:00；個人時段未公布。",
+            "毛毛": "店舖營業時間18:00–23:00；個人時段未公布。"
           },
           "source_names": {
             "小妖精 ⟦@youseii.030⟧": "小妖精"
@@ -41247,6 +41254,19 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "毛毛": {
+        "person_id": "R_19_5164d1e53b80",
+        "profile_image": "",
+        "source": "https://www.instagram.com/kirakiramaido/p/De_Ho-VRqkv/",
+        "instagram": "https://www.instagram.com/maoo_1216/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "maoo_1216",
+            "status": "current"
+          }
+        ]
+      },
       "kata": {
         "person_id": "R_19_b903d686792c",
         "profile_image": "",
@@ -48737,6 +48757,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_19_5164d1e53b80": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -49193,5 +49218,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T00:59+08:00"
+  "published_at": "2026-10-30T01:02+08:00"
 };

@@ -29,6 +29,7 @@
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
   const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
+  let focusTodayOnNextRender = state.range === "all" && state.across === "dates";
   let firstRender = true;
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
@@ -307,7 +308,12 @@
     corner.setAttribute("role", "columnheader");
     header.append(corner);
     for (const item of columns) {
-      if (state.across === "dates") { const info = dateLabel(item); header.append(columnHead(info.day, info.weekday, item === today)); }
+      if (state.across === "dates") {
+        const info = dateLabel(item);
+        const heading = columnHead(info.day, info.weekday, item === today);
+        heading.dataset.date = item;
+        header.append(heading);
+      }
       else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
     }
     matrix.append(header);
@@ -324,11 +330,38 @@
       }
       matrix.append(line);
     }
+    requestAnimationFrame(alignRosterFooters);
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
     $("scroll-hint").textContent = state.across === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
     viewport.scrollLeft = previousScroll;
+    if (focusTodayOnNextRender && state.range === "all" && state.across === "dates") {
+      focusTodayOnNextRender = false;
+      const todayHeading = matrix.querySelector(`.matrix-colhead[data-date="${today}"]`);
+      if (todayHeading) {
+        const viewportLeft = viewport.getBoundingClientRect().left;
+        const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
+        viewport.scrollLeft += todayHeading.getBoundingClientRect().left - viewportLeft - rowLabelWidth;
+      }
+    }
     sticky.replaceChildren(); updateSticky();
   }
+  function alignRosterFooters() {
+    for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
+      const cells = [...row.querySelectorAll(".matrix-cell-roster")];
+      if (!cells.length) continue;
+      cells.forEach((cell) => cell.style.removeProperty("min-height"));
+      const height = Math.ceil(row.getBoundingClientRect().height);
+      if (!height) continue;
+      cells.forEach((cell) => cell.style.setProperty("min-height", `${height}px`));
+    }
+  }
+  let observedMatrixSize = "";
+  new ResizeObserver(([entry]) => {
+    const size = `${Math.round(entry.contentRect.width)}x${Math.round(entry.contentRect.height)}`;
+    if (!entry.contentRect.width || size === observedMatrixSize) return;
+    observedMatrixSize = size;
+    requestAnimationFrame(alignRosterFooters);
+  }).observe(matrix);
   function jumpToRosterCell(shop, date) {
     state.person = null;
     state.search = "";
@@ -361,6 +394,7 @@
   }
   function setAcross(value) {
     state.across = value;
+    focusTodayOnNextRender = state.range === "all" && value === "dates";
     persist();
     for (const [id, active] of [["dates-across", value === "dates"], ["shops-across", value === "shops"]]) {
       $(id).classList.toggle("active", active);
@@ -373,6 +407,7 @@
     const button = event.target.closest("[data-range]");
     if (!button) return;
     state.range = button.dataset.range === "all" ? "all" : "future";
+    focusTodayOnNextRender = state.range === "all" && state.across === "dates";
     persist(); render();
   });
   $("name-search").addEventListener("input", (event) => {

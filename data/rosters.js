@@ -6053,8 +6053,8 @@ window.MAID_ROSTERS = {
               "咩咩"
             ],
             "限定精靈": [
-              "uu",
-              "zoe"
+              "UU",
+              "Zoe"
             ],
             "花園守護": [
               "Whitney"
@@ -6112,12 +6112,12 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "uu",
+              "name": "UU",
               "role": "限定精靈",
               "type": "限定"
             },
             {
-              "name": "zoe",
+              "name": "Zoe",
               "role": "限定精靈",
               "type": "限定"
             },
@@ -6129,7 +6129,8 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
           "alternate_sources": [
-            "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/"
+            "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/",
+            "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
           ]
         },
         {
@@ -26269,14 +26270,20 @@ window.MAID_ROSTERS = {
         "yuzu"
       ]
     },
-    "zoe": {
+    "Zoe": {
       "person_id": "N_zoe",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "zoe_1999._.21",
+          "status": "current"
+        }
+      ],
       "names": [
-        "zoe"
-      ]
+        "Zoe"
+      ],
+      "instagram": "https://www.instagram.com/zoe_1999._.21/"
     },
     "あかな": {
       "person_id": "N__",
@@ -31327,15 +31334,6 @@ window.MAID_ROSTERS = {
         "羽琉那"
       ]
     },
-    "uu": {
-      "person_id": "R_4_3dafaf2916b4",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
-      "names": [
-        "uu"
-      ]
-    },
     "鏡": {
       "person_id": "R_4_c562f5589cea",
       "profile_image": "",
@@ -34510,13 +34508,18 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "zoe": {
+      "Zoe": {
         "person_id": "N_zoe",
         "profile_image": "",
-        "source": "",
-        "instagram": "",
+        "source": "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/",
+        "instagram": "https://www.instagram.com/zoe_1999._.21/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "zoe_1999._.21",
+            "status": "current"
+          }
+        ]
       },
       "hain": {
         "person_id": "N_hain",
@@ -34651,13 +34654,18 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "uu": {
+      "UU": {
         "person_id": "R_4_3dafaf2916b4",
         "profile_image": "",
-        "source": "",
-        "instagram": "",
+        "source": "https://www.instagram.com/agarden_2001/p/DfBzli4vbzR/",
+        "instagram": "https://www.instagram.com/twtuuuui/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "twtuuuui",
+            "status": "current"
+          }
+        ]
       },
       "乳酪": {
         "person_id": "N___386",
@@ -34811,6 +34819,19 @@ window.MAID_ROSTERS = {
         "instagram": "",
         "former_handles": [],
         "instagram_accounts": []
+      },
+      "zoe": {
+        "person_id": "N_zoe",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/zoe_1999._.21/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "zoe_1999._.21",
+            "status": "current"
+          }
+        ]
       },
       "RINKA": {
         "person_id": "N_RINKA",
@@ -49372,5 +49393,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T06:02+08:00"
+  "published_at": "2026-10-30T06:23+08:00"
 };

@@ -27960,25 +27960,49 @@ window.MAID_ROSTERS = {
       "person_id": "R_2_aabf4bf57697",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": []
+      "instagram_accounts": [
+        {
+          "handle": "j.y.w.t",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/j.y.w.t/"
     },
     "@la.ra.lara": {
       "person_id": "R_2_811cda9bc58d",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": []
+      "instagram_accounts": [
+        {
+          "handle": "la.ra.lara",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/la.ra.lara/"
     },
     "@leomangojaii": {
       "person_id": "R_2_9a8c3c45b55f",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": []
+      "instagram_accounts": [
+        {
+          "handle": "leomangojaii",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/leomangojaii/"
     },
     "@manju_alive": {
       "person_id": "R_2_f9536b6b46a8",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": []
+      "instagram_accounts": [
+        {
+          "handle": "manju_alive",
+          "status": "current"
+        }
+      ],
+      "instagram": "https://www.instagram.com/manju_alive/"
     },
     "小扇": {
       "person_id": "R_1_e183d3a55d45",
@@ -30094,33 +30118,53 @@ window.MAID_ROSTERS = {
         "person_id": "R_2_aabf4bf57697",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/j.y.w.t/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "j.y.w.t",
+            "status": "current"
+          }
+        ]
       },
       "@la.ra.lara": {
         "person_id": "R_2_811cda9bc58d",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/la.ra.lara/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "la.ra.lara",
+            "status": "current"
+          }
+        ]
       },
       "@leomangojaii": {
         "person_id": "R_2_9a8c3c45b55f",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/leomangojaii/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "leomangojaii",
+            "status": "current"
+          }
+        ]
       },
       "@manju_alive": {
         "person_id": "R_2_f9536b6b46a8",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/manju_alive/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "manju_alive",
+            "status": "current"
+          }
+        ]
       },
       "MOKA": {
         "person_id": "N_Moka",
@@ -38866,5 +38910,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T15:37+08:00"
+  "published_at": "2026-10-29T15:38+08:00"
 };

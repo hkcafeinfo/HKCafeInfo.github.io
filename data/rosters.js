@@ -2362,12 +2362,12 @@ window.MAID_ROSTERS = {
           "hours": "17:00-23:00",
           "groups": {
             "新生護士": [
-              "DORA",
-              "LILY",
+              "Dora",
+              "Lily",
               "綠茶"
             ],
             "當值女僕": [
-              "MIYABI",
+              "Miyabi ⟦@N_MIYABI⟧",
               "企鵝",
               "小堇",
               "心心",
@@ -2380,12 +2380,12 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "DORA",
+              "name": "Dora",
               "role": "新生護士",
               "type": "當值"
             },
             {
-              "name": "LILY",
+              "name": "Lily",
               "role": "新生護士",
               "type": "當值"
             },
@@ -2395,7 +2395,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "MIYABI",
+              "name": "Miyabi ⟦@N_MIYABI⟧",
               "role": "當值女僕",
               "type": "當值"
             },
@@ -2433,7 +2433,10 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
-          ]
+          ],
+          "source_names": {
+            "Miyabi ⟦@N_MIYABI⟧": "Miyabi"
+          }
         },
         {
           "date": "2026-10-24",
@@ -3073,7 +3076,7 @@ window.MAID_ROSTERS = {
               "Moka"
             ],
             "當值女僕": [
-              "Miyabi",
+              "Miyabi ⟦@N_Miyabi⟧",
               "Rubi",
               "棉花",
               "笛子",
@@ -3092,7 +3095,7 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓"
             },
             {
-              "name": "Miyabi",
+              "name": "Miyabi ⟦@N_Miyabi⟧",
               "role": "當值女僕",
               "type": "活動嘉賓"
             },
@@ -3136,7 +3139,10 @@ window.MAID_ROSTERS = {
           "event_name": "Rubi生誕當值",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/De4UBd3Nb90/|https://www.instagram.com/maid_clinic/p/De6zwpSpKVP/"
-          ]
+          ],
+          "source_names": {
+            "Miyabi ⟦@N_Miyabi⟧": "Miyabi"
+          }
         },
         {
           "date": "2026-11-07",
@@ -3199,18 +3205,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至四 17:00–22:00\n星期五 17:00–23:00\n星期六、日及公眾假期 15:00–23:00",
       "opening_hours_source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
       "opening_hours_checked_at": "2026-10-28",
-      "unresolved": [
-        {
-          "date": "2026-10-23",
-          "reason": "10/23心心生日原帖高清海報列Inari、Kyo；現行週表名單另有企鵝、Lily，尚無已確認別名對應，不能據人像合併。活動帖10/19發布且標已編輯；週表10/18發布，未取得精確編輯時間／名單修訂關係。保留現行名單及兩來源，待確認活動海報是否新增或取代當值名單。",
-          "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/|https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/"
-        },
-        {
-          "date": "2026-10-23",
-          "reason": "生日活動海報列有9個姓名但caption無當值名單說明；部分與當日更表不同。需核對完整名單／標註姓名對應，未將其猜作活動嘉賓或修改當值。",
-          "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
-        }
-      ],
+      "unresolved": [],
       "date_notices": []
     },
     {
@@ -12154,7 +12149,7 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/maidcafe.misty/p/DfEjqPPK2NY/"
           ],
           "person_notes": {
-            "CC": "個人時段：18:30-21:30；caption時間18:30，圖片18:40，差異待店方澄清。"
+            "CC": "個人時段：18:30-21:30；按用戶確認採用 caption 原文時間（18:30-21:30）。同帖圖片標 18:40，caption 與圖片相差 10 分鐘。"
           },
           "person_times": {
             "CC": "18:30-21:30"
@@ -12245,13 +12240,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "營業日 17:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maidcafe.misty/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [
-        {
-          "date": "2026-10-29",
-          "reason": "CC限定caption18:30-21:30，但同帖圖片18:40-21:30；先保留明確caption並標時間差異，不猜修改。",
-          "source": "https://www.instagram.com/maidcafe.misty/p/DfEjqPPK2NY/"
-        }
-      ],
+      "unresolved": [],
       "date_notices": []
     },
     {
@@ -33082,6 +33071,30 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "Dora": {
+        "person_id": "N_DORA",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "Lily": {
+        "person_id": "N_LILY",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "Miyabi ⟦@N_MIYABI⟧": {
+        "person_id": "N_MIYABI",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
       "bibi": {
         "person_id": "N_Bibi",
         "profile_image": "",
@@ -33090,7 +33103,7 @@ window.MAID_ROSTERS = {
         "former_handles": [],
         "instagram_accounts": []
       },
-      "Miyabi": {
+      "Miyabi ⟦@N_Miyabi⟧": {
         "person_id": "N_Miyabi",
         "profile_image": "",
         "source": "",
@@ -49066,5 +49079,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T23:58+08:00"
+  "published_at": "2026-10-30T00:00+08:00"
 };

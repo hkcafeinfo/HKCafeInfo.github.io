@@ -113,6 +113,7 @@
 .has-event-art{position:relative;isolation:isolate}
 .has-event-art:before{content:"";position:absolute;inset:0;background-image:var(--event-image);background-size:cover;background-position:center;opacity:var(--event-opacity);pointer-events:none;z-index:0}
 .has-event-art>*{position:relative;z-index:1}
+.has-event-art .card-head{background:rgba(255,255,255,.5)}
 .roster-card.has-event-art{overflow:hidden}
 .person-time{display:block;white-space:pre;font-size:10px;line-height:1.2;color:#7e8bab;font-weight:500;margin-top:3px;overflow-wrap:normal}
 .person-tag:has(.person-time),.matrix-person:has(.person-time){display:inline-flex;flex-direction:column;align-items:flex-start}

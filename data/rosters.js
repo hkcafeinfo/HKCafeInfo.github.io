@@ -12044,17 +12044,26 @@ window.MAID_ROSTERS = {
           "hours": "18:30-21:30",
           "groups": {
             "一日限定女僕": [
-              "YK Kuro"
+              "YK",
+              "Kuro"
             ]
           },
           "attendance_records": [
             {
-              "name": "YK Kuro",
+              "name": "YK",
+              "role": "一日限定女僕",
+              "type": "限定"
+            },
+            {
+              "name": "Kuro",
               "role": "一日限定女僕",
               "type": "限定"
             }
           ],
-          "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/"
+          "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/",
+          "person_notes": {
+            "YK": "原合寫YK Kuro為兩人；圖片位置標註已核。"
+          }
         },
         {
           "date": "2026-10-24",
@@ -34782,6 +34791,19 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "YK": {
+        "person_id": "IG_yk_.desu",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/yk_.desu/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "yk_.desu",
+            "status": "current"
+          }
+        ]
+      },
       "Nekora": {
         "person_id": "IG__ttwyy._._",
         "profile_image": "",
@@ -34843,6 +34865,19 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "htr.aruaru",
+            "status": "current"
+          }
+        ]
+      },
+      "Kuro": {
+        "person_id": "IG_kurosakio8",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/kurosakio8/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "kurosakio8",
             "status": "current"
           }
         ]
@@ -45925,6 +45960,21 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "IG_99mio__": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_yk_.desu": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "IG_kurosakio8": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -46381,5 +46431,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-29T19:45+08:00"
+  "published_at": "2026-10-29T19:51+08:00"
 };

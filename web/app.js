@@ -419,7 +419,18 @@
       const grid = make("div", "events-grid");
       for (const shift of shifts) {
         const result = card(shop, shift, shift.date).element;
-        if (!result.querySelector(".card-date")) result.querySelector(".card-head").after(make("div", "card-date", `${shift.date} · ${dateLabel(shift.date).weekday}`));
+        result.classList.add("event-calendar-card");
+        result.querySelector(".card-date")?.remove();
+        const head = result.querySelector(".card-head");
+        const hours = head.querySelector(".time-badge");
+        if (hours) { hours.classList.add("event-hours"); head.after(hours); }
+        const calendar = make("time", "event-calendar");
+        calendar.dateTime = shift.date;
+        calendar.setAttribute("aria-label", `${shift.date} ${dateLabel(shift.date).weekday}`);
+        const [year, month, day] = shift.date.split("-");
+        const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+        calendar.append(make("span", "event-calendar-month", `${months[Number(month) - 1]} ${year}`), make("strong", "event-calendar-day", String(Number(day))), make("span", "event-calendar-weekday", dateLabel(shift.date).weekday));
+        head.append(calendar);
         grid.append(result);
       }
       group.append(grid); list.append(group);

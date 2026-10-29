@@ -676,3 +676,14 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 @media(max-width:1500px){
   .date-grid,.events-grid{grid-template-columns:repeat(auto-fit,minmax(max(calc((100% - 24px)/3),min(300px,calc((100% - 12px)/2))),1fr))}
 }
+
+/* Event calendar 41C: larger calendar within a compact shop header. */
+.event-calendar-card .card-head{min-height:88px;padding:5px 0 11px;align-items:center;gap:12px}
+.event-calendar-card .card-title-wrap{flex:1;min-width:0;gap:10px}
+.event-calendar-card .shop-name{white-space:normal;overflow-wrap:anywhere}
+.event-calendar-card .shop-address{line-height:1.4}
+.event-calendar{display:flex;flex-direction:column;width:78px;flex:0 0 78px;text-align:center;border:1px solid #cbd4e9;border-radius:8px;overflow:hidden;background:#fff;color:#6575b9;font-style:normal}
+.event-calendar-month{background:#8191cb;color:#fff;font-size:9px;line-height:12px;padding:2px;font-weight:700}
+.event-calendar-day{font-size:37px;line-height:38px;padding:0;font-weight:800}
+.event-calendar-weekday{font-size:10px;line-height:13px;padding-bottom:2px;font-weight:700}
+.event-calendar-card .event-hours{align-self:flex-start;margin-top:12px}

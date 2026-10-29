@@ -572,3 +572,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 #card-view .card-range-controls>.range-toggle{width:max-content;flex:0 0 auto}
 #card-view .card-range-controls .range-toggle-button{flex:0 0 auto;width:auto;white-space:nowrap}
 #card-view .card-range-controls .result-count{margin-left:auto}
+
+/* Keep the schedule time/source footer at the bottom of every roster cell. */
+.matrix-cell-roster{display:flex;flex-direction:column}
+.matrix-cell-roster>.matrix-cell-foot{margin-top:auto}

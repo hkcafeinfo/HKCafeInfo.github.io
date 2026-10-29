@@ -29,7 +29,7 @@
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
   const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
-  let focusTodayOnNextRender = state.range === "all" && state.across === "dates";
+  let focusTodayOnNextRender = state.across === "dates";
   let firstRender = true;
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
@@ -334,7 +334,7 @@
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
     $("scroll-hint").textContent = state.across === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
     viewport.scrollLeft = previousScroll;
-    if (focusTodayOnNextRender && state.range === "all" && state.across === "dates") {
+    if (focusTodayOnNextRender && state.across === "dates") {
       focusTodayOnNextRender = false;
       const todayHeading = matrix.querySelector(`.matrix-colhead[data-date="${today}"]`);
       if (todayHeading) {
@@ -394,7 +394,7 @@
   }
   function setAcross(value) {
     state.across = value;
-    focusTodayOnNextRender = state.range === "all" && value === "dates";
+    focusTodayOnNextRender = value === "dates";
     persist();
     for (const [id, active] of [["dates-across", value === "dates"], ["shops-across", value === "shops"]]) {
       $(id).classList.toggle("active", active);
@@ -407,7 +407,7 @@
     const button = event.target.closest("[data-range]");
     if (!button) return;
     state.range = button.dataset.range === "all" ? "all" : "future";
-    focusTodayOnNextRender = state.range === "all" && state.across === "dates";
+    focusTodayOnNextRender = state.across === "dates";
     persist(); render();
   });
   $("name-search").addEventListener("input", (event) => {

@@ -611,3 +611,8 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .events-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-top:18px}
 body[data-view="events"] .global-search{display:none}
 @media(max-width:700px){.view-button{padding-left:5px;padding-right:5px}.view-switch{gap:0}.events-grid{grid-template-columns:1fr}.instagram-credit{font-size:9px}}
+
+.roster-note-divider+footer{height:38.5px}
+.roster-card>.card-foot{margin-top:18px}
+body[data-view="events"] .content-main .view-controls .global-search{display:none}
+@media(max-width:370px){.content-main .view-controls .view-button{font-size:10px;padding-left:4px;padding-right:4px}}

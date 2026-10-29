@@ -1,6 +1,8 @@
 (() => {
   "use strict";
 
+  const headerObserver = new ResizeObserver(entries => document.documentElement.style.setProperty("--topbar-sticky-height", `${entries[0].target.getBoundingClientRect().height}px`));
+  headerObserver.observe(document.querySelector(".topbar"));
   const data = window.MAID_ROSTERS;
   const $ = (id) => document.getElementById(id);
   const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count"), footerVersion: $("footer-version") };

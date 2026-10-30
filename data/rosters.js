@@ -14727,9 +14727,11 @@ window.MAID_ROSTERS = {
             "出沒居民": [
               "mogu",
               "バカ猫",
-              "奶茶",
-              "海塩",
               "萌え魚"
+            ],
+            "限定居民": [
+              "奶茶",
+              "海塩"
             ]
           },
           "attendance_records": [
@@ -14745,13 +14747,13 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "奶茶",
-              "role": "出沒居民",
-              "type": "當值"
+              "role": "限定居民",
+              "type": "限定"
             },
             {
               "name": "海塩",
-              "role": "出沒居民",
-              "type": "當值"
+              "role": "限定居民",
+              "type": "限定"
             },
             {
               "name": "萌え魚",
@@ -14760,7 +14762,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
-          "event_name": "禁忌の護士病棟"
+          "event_name": "禁忌の護士病棟",
+          "alternate_sources": [
+            "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -14810,6 +14815,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-29",
           "reason": "Sun仔生誕已列於月曆，但該日名單標示「待更新」；暫未列當值人員。",
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "2026-10-30 re-read edited White Fox birthday caption lists 悅夢、貓貓、茹兒; SQLite also has 飯糰. Existing prior weekly and current edited specific source conflict; hold roster changes pending source chronology / whether lineup was revised.",
+          "source": "https://www.instagram.com/queens_x_garden/p/De6cmtiRtcE/"
         }
       ],
       "date_notices": []
@@ -27043,10 +27053,16 @@ window.MAID_ROSTERS = {
       "person_id": "N___432",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "cos06.28",
+          "status": "current"
+        }
+      ],
       "names": [
         "奶茶"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/cos06.28/"
     },
     "孔子": {
       "person_id": "N___433",
@@ -30567,10 +30583,16 @@ window.MAID_ROSTERS = {
       "person_id": "R_13_e4d6c17afcff",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "dovvvv_4444",
+          "status": "current"
+        }
+      ],
       "names": [
         "Dovi"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/dovvvv_4444/"
     },
     "Yukimi": {
       "person_id": "R_3_df55849edb7d",
@@ -30765,10 +30787,16 @@ window.MAID_ROSTERS = {
       "person_id": "R_13_31002e80c800",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "xka13n._sama",
+          "status": "current"
+        }
+      ],
       "names": [
         "海塩"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/xka13n._sama/"
     },
     "yuri": {
       "person_id": "R_14_ab997328677e",
@@ -37049,9 +37077,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___432",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cos06.28/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cos06.28",
+            "status": "current"
+          }
+        ]
       },
       "Gumi": {
         "person_id": "R_7_5d68942cff30",
@@ -37862,9 +37895,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___432",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cos06.28/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cos06.28",
+            "status": "current"
+          }
+        ]
       },
       "Hotaru": {
         "person_id": "N_Hotaru",
@@ -39471,25 +39509,40 @@ window.MAID_ROSTERS = {
         "person_id": "R_13_e4d6c17afcff",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/dovvvv_4444/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "dovvvv_4444",
+            "status": "current"
+          }
+        ]
       },
       "奶茶": {
         "person_id": "N___432",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cos06.28/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cos06.28",
+            "status": "current"
+          }
+        ]
       },
       "海塩": {
         "person_id": "R_13_31002e80c800",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/xka13n._sama/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "xka13n._sama",
+            "status": "current"
+          }
+        ]
       },
       "aki": {
         "person_id": "R_13_6167a5ce84ff",
@@ -41266,9 +41319,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___432",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cos06.28/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "cos06.28",
+            "status": "current"
+          }
+        ]
       }
     },
     "Kirakira Maido": {
@@ -45532,12 +45590,10 @@ window.MAID_ROSTERS = {
     "N___432": {
       "override": null,
       "default": [
-        "Dear Devil",
-        "Queen’s Garden"
+        "Dear Devil"
       ],
       "shops": [
-        "Dear Devil",
-        "Queen’s Garden"
+        "Dear Devil"
       ]
     },
     "N___433": {
@@ -48572,12 +48628,8 @@ window.MAID_ROSTERS = {
     },
     "R_13_31002e80c800": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_14_ab997328677e": {
       "override": null,
@@ -49826,5 +49878,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T09:04+08:00"
+  "published_at": "2026-10-30T09:45+08:00"
 };

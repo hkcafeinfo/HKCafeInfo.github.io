@@ -168,12 +168,20 @@
         group.append(make("span", "matrix-role-label", role));
         const tags = make("div", "matrix-people");
         for (const name of people) {
-          const tag = make("button", `matrix-person${shift.review_names?.[name] ? " needs-review" : ""}`, HKCI.displayName(name));
+          const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
+          const cancelled = Boolean(attendance.cancelled);
+          const tag = make("button", `matrix-person${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");
           tag.type = "button";
+          tag.append(make("span", cancelled ? "cancelled-name" : null, HKCI.displayName(name)));
           if (shift.person_times?.[name]) tag.append(make("small", "person-time", HKCI.formatPersonTimes(shift.person_times[name])));
           tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
           if (shift.review_names?.[name]) tag.title = shift.review_names[name];
-          tags.append(tag);
+          if (cancelled) {
+            const source = HKCI.cancellationSource(attendance.cancellation_source);
+            const marker = source ? make("a", "cancelled-attendance-link", "（已取消）") : make("span", "cancelled-attendance-label", "（已取消）");
+            if (source) { marker.href = source; marker.target = "_blank"; marker.rel = "noopener noreferrer"; }
+            const attendanceTag = make("span", "person-attendance"); attendanceTag.append(tag, marker); tags.append(attendanceTag);
+          } else tags.append(tag);
         }
         group.append(tags);
         node.append(group);
@@ -236,7 +244,8 @@
           groups.get(key).shops.add(shop.shop);
           const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
           if (!groups.get(key).shifts.some((item) => item.shop.shop === shop.shop && item.shift === shift && item.role === role)) {
-            groups.get(key).shifts.push({ shop, shift, role, attendanceType: attendance?.type || "當值" });
+            groups.get(key).shifts.push({ shop, shift, role, attendanceType: attendance?.type || "當值",
+              cancelled: Boolean(attendance?.cancelled), cancellationSource: attendance?.cancellation_source || "" });
           }
         }
       }
@@ -302,11 +311,18 @@
             button.addEventListener("click", () => jumpToRosterCell(shop.shop, shift.date));
             cell.append(button);
             row.append(cell);
+            return cell;
           };
           addJumpCell(shift.date, "日期");
           addJumpCell(shop.shop, "店舖");
           addJumpCell(shift.event_name || "—", "活動");
-          addJumpCell(attendanceType, "類型");
+          const typeCell = addJumpCell(attendanceType, "類型");
+          if (shift.cancelled) {
+            const href = HKCI.cancellationSource(shift.cancellationSource);
+            const marker = href ? make("a", "cancelled-attendance-link", "（已取消）") : make("span", "cancelled-attendance-label", "（已取消）");
+            if (href) { marker.href = href; marker.target = "_blank"; marker.rel = "noopener noreferrer"; }
+            typeCell.append(marker);
+          }
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";
           row.append(source); body.append(row);
         }

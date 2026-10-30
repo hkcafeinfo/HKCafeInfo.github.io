@@ -721,3 +721,4 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .date-button.is-sunday.active{border-color:#d96a74;background:#fff0f1;box-shadow:0 5px 18px #d45c681c}
 .date-button.is-sunday.active .date-weekday,.date-button.is-sunday.active .date-day{color:#b83e49}
 .roster-note-divider,footer{background-color:#eef4fb;background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),linear-gradient(106deg,#eef4fb 0%,#eef1fb 52%,#fbeff1 100%);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.person-attendance{display:inline-flex;align-items:center;gap:3px;max-width:100%}.cancelled-name{color:#b13e4c;text-decoration-line:line-through;text-decoration-style:double;text-decoration-thickness:1.5px}.cancelled-attendance-link,.cancelled-attendance-label{color:#b13e4c;font-size:.9em;font-weight:700;white-space:nowrap;text-decoration:none}.cancelled-attendance-link:hover{text-decoration:underline}

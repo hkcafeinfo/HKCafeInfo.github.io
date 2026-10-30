@@ -29,27 +29,37 @@ window.MAID_ROSTERS = {
             {
               "name": "YY",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo魚",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kokona",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -76,52 +86,72 @@ window.MAID_ROSTERS = {
             {
               "name": "akana",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "chika",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "domo",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kanon",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokona",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "rena",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "soy",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千羽",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "活動出席花嫁",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeEjkdeTPsZ/",
@@ -147,37 +177,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Qb",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoru",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "瑠貓",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -206,52 +250,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Ayana",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冬瓜",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真奈",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿毛",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo魚",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kokona",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -279,47 +343,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiu",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kora",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小酒",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悠悠",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruka",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -342,22 +424,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Ayana",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "瑠貓",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/",
@@ -387,47 +477,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Hakuno",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "瑠貓",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mahiru",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Qubi",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "斯洛",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruka",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
@@ -454,32 +562,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kiu",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冬瓜",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo魚",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kokona",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
@@ -509,47 +629,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Hani",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koa",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小酒",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悠悠",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "斯洛",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ぴこ",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
@@ -584,47 +722,65 @@ window.MAID_ROSTERS = {
             {
               "name": "501小白",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Natsumi",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "あかな",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ども",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "はるか",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冬瓜",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃井プイ",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "私人活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/",
@@ -657,52 +813,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Ayana",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoru",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kiu",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冬瓜",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小白",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
@@ -737,37 +913,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Rainy",
               "role": "生誕主角",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bby",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ikuya",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小泉",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "津津",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "薑餅",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍可奇",
               "role": "邀請嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeGwbs4vVIy/",
@@ -801,27 +991,37 @@ window.MAID_ROSTERS = {
             {
               "name": "ゆこ",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "瑠貓",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "風花",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lam",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DepBqGnCXmI/",
@@ -848,32 +1048,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Kokona",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo魚",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snow",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
@@ -902,62 +1114,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Hani",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ichiri",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koharu",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuma",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nemui",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冬瓜",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冰冰",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "津",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙毛",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶鬼",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/amai_kumo._/p/DebN43Ombo1/",
@@ -990,47 +1226,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Kokona",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo魚",
               "role": "學生會幹部",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mahiru",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hime",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悠悠",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Piko",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
@@ -1062,67 +1316,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Sofu",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "emon",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冰冰",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "向日葵",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真奈",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "維莉",
               "role": "一期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Qubi",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千靈",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小喬",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "巴龍",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "斯洛",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芊月",
               "role": "二期生",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/astraworkshk/p/Dexlwo4H6G3/",
@@ -1156,52 +1436,72 @@ window.MAID_ROSTERS = {
             {
               "name": "小小牛",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶糖",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霧切 きり",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星奈",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桐桐",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sakura",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小西",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "佩佩",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "津津",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/De6NUqCRMqj/",
@@ -1230,37 +1530,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Miya",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小六",
               "role": "學生會",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小酒",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ゆこ",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoku",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩雨",
               "role": "女僕研習生",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/",
@@ -1286,47 +1600,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Azusa",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bottle",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fuyuki",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruka",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ice",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kiu",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nagisa",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sayu",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Shiro",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/ft1me.act/p/DeZiG1jvEGk/",
@@ -1344,7 +1676,9 @@ window.MAID_ROSTERS = {
             {
               "name": "aeri",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De_UgL7RH_8/",
@@ -1376,47 +1710,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Cyan",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "一夕",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Itsu",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koma",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Roro",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yako",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rue",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Shimo",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兒",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/",
@@ -1456,7 +1808,9 @@ window.MAID_ROSTERS = {
             {
               "name": "夜煌",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/De_UhoDR3rV/",
@@ -1483,7 +1837,9 @@ window.MAID_ROSTERS = {
             {
               "name": "呆呆",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/Dev0PyLRfOc/",
@@ -1507,7 +1863,9 @@ window.MAID_ROSTERS = {
             {
               "name": "瑤瑤",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/Dev0OkmR9jB/",
@@ -1532,12 +1890,16 @@ window.MAID_ROSTERS = {
             {
               "name": "小扇",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小萌",
               "role": "限定學妹",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_academy/p/DeuXTldTWIo/",
@@ -1602,27 +1964,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -1651,47 +2023,65 @@ window.MAID_ROSTERS = {
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rubi",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saaya",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -1724,67 +2114,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Cream",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳酪",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "什幽",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Chocolate",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -1808,32 +2224,44 @@ window.MAID_ROSTERS = {
             {
               "name": "露露",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lia",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tia",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "企鵝",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "毛毛",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -1864,57 +2292,79 @@ window.MAID_ROSTERS = {
             {
               "name": "千羽",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "堯堯",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悠依",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "相沫",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
@@ -1948,67 +2398,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Cream",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ikuya",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "堯堯",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bonnie",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Qquie",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ame",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haru",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Julie",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
@@ -2038,57 +2514,79 @@ window.MAID_ROSTERS = {
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嘉",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "川",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bibi",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵璃",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/"
@@ -2119,57 +2617,79 @@ window.MAID_ROSTERS = {
             {
               "name": "MOKA",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "什幽",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "機8喵",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "BIBI",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "AME",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "AYU",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小鉛梓",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2198,42 +2718,58 @@ window.MAID_ROSTERS = {
             {
               "name": "乳酪",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "RAKU",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "毛毛",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2263,47 +2799,65 @@ window.MAID_ROSTERS = {
             {
               "name": "CREAM",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MOKA",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "BIBI",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "毛毛",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蜜蜜",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2329,27 +2883,37 @@ window.MAID_ROSTERS = {
             {
               "name": "CREAM",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳酪",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MIYA",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2382,52 +2946,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Dora",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lily",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綠茶",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi ⟦@N_MIYABI⟧",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "企鵝",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咲月",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2464,57 +3048,79 @@ window.MAID_ROSTERS = {
             {
               "name": "YUZU",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "布布",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿敏",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵璃",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MIDORIN",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "WIFI",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "懵",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
@@ -2549,62 +3155,86 @@ window.MAID_ROSTERS = {
             {
               "name": "棉花",
               "role": "生誕主角",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ikuya",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rubi",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tio",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "bibi",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mikari",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yaya",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可奇",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DenulJZTRbI/",
@@ -2630,37 +3260,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳酪",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "露露",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -2690,47 +3334,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bibi",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "企鵝",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -2761,52 +3423,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Cream",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Izumi",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yaki",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳酪",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bibi",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蜜蜜",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -2838,47 +3520,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Cream",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "當值護士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ame",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Chocolate",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -2911,52 +3611,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Hana",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yaki",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bibi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hikaru",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinki",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mirai",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyuki",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Noki",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Shiori",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -2994,72 +3714,100 @@ window.MAID_ROSTERS = {
             {
               "name": "千羽",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悠依",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃奈",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bonnie",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "企鵝",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵璃",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心心",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "毛毛",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nyanko",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -3092,47 +3840,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Moka",
               "role": "新生護士",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi ⟦@N_Miyabi⟧",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rubi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuma",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saaya",
               "role": "限定護士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
@@ -3162,37 +3928,51 @@ window.MAID_ROSTERS = {
             {
               "name": "@candy_pang",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@ch_afork_tsz",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "棉花",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@j.y.w.t",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@la.ra.lara",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@leomangojaii",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@manju_alive",
               "role": "生誕嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
@@ -3243,32 +4023,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Kuro",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "てお",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sake",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Momoki",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/"
@@ -3298,32 +4090,44 @@ window.MAID_ROSTERS = {
             {
               "name": "冬瓜",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riki",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓叔",
               "role": "正式修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nezumi鼠",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sirius",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芯宇",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
@@ -3354,27 +4158,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Hina",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ムギ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小喬",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
@@ -3408,32 +4222,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Riki",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nekona",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千秋",
               "role": "資深修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Luna",
               "role": "限定修士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "白菜",
               "role": "限定修士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeO6RjLiS8G/",
@@ -3463,32 +4289,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Momoki",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奈",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪喵",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩雨",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "零治",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3519,27 +4357,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Riki",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奈",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪喵",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miru",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "落星",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3573,42 +4421,58 @@ window.MAID_ROSTERS = {
             {
               "name": "布丁",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toto",
               "role": "正式修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安晚",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗璉",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "艾歌",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Megu",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nami",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rei",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3637,27 +4501,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Hina",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mizuka",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Momoki",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "TNT",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3689,27 +4563,37 @@ window.MAID_ROSTERS = {
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Cheese",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "裘裘",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moa",
               "role": "限定修士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3742,32 +4626,44 @@ window.MAID_ROSTERS = {
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑井",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mizuka",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nezumi鼠",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Julie",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3799,32 +4695,44 @@ window.MAID_ROSTERS = {
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Momoki",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ムギ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "柔柔",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DeodNcHCeDl/",
@@ -3865,32 +4773,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千秋",
               "role": "資深修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nazuna",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奈",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真奈",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -3929,42 +4849,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ina",
               "role": "限定甜品",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sayori",
               "role": "限定甜品",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sai",
               "role": "甜品",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toto",
               "role": "甜品",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安晚",
               "role": "甜品",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓叔",
               "role": "甜品",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗璉",
               "role": "甜品",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4014,27 +4950,37 @@ window.MAID_ROSTERS = {
             {
               "name": "めめ",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "布丁",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nezumi鼠",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ムギ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩弦",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4073,32 +5019,44 @@ window.MAID_ROSTERS = {
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "提提",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "裘裘",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪喵",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NingNing",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YK",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4140,27 +5098,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓叔",
               "role": "正式修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑井",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "風藍",
               "role": "限定修士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4195,37 +5163,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Yukimi",
               "role": "實習修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千秋",
               "role": "資深修士",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奈",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kola",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡雨",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4272,42 +5254,58 @@ window.MAID_ROSTERS = {
             {
               "name": "安晚",
               "role": "Nurse",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mugi",
               "role": "Nurse",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uka",
               "role": "Nurse",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Itsu",
               "role": "限定Dr.",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Natsumi",
               "role": "限定Nurse",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sayori",
               "role": "限定Nurse",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sai",
               "role": "Head Nurse",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4359,27 +5357,37 @@ window.MAID_ROSTERS = {
             {
               "name": "てお",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Isako",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mio",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "限定修士",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4420,32 +5428,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Riki",
               "role": "實習修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奈",
               "role": "廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Cheese",
               "role": "正式修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mizuka",
               "role": "資深修女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miru",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月月",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
@@ -4476,12 +5496,16 @@ window.MAID_ROSTERS = {
             {
               "name": "玄幽",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "限定修女",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DfAGXDtiT9k/",
@@ -4543,62 +5567,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "okk",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Pikachu",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Usari",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -4625,37 +5673,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "okk",
               "role": "當值精靈兼花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朱古力",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -4687,62 +5749,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Aya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "P4",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yumi",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小眠",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蛾",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈兼花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kumimi",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Suz",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -4777,77 +5863,107 @@ window.MAID_ROSTERS = {
             {
               "name": "Akari",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "P4",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rizuko",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "細rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Pikachu",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "KiuKiu",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -4881,72 +5997,100 @@ window.MAID_ROSTERS = {
             {
               "name": "Akari",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "KK",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rei",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yume",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小狐狸",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蛾",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "留多晚",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當值精靈兼花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "吱吱",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小鴨",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紫音",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
@@ -4974,52 +6118,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Hani",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Keiko",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "呆呆",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "留多晚",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Pikachu",
               "role": "花園守護",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
@@ -5069,77 +6233,107 @@ window.MAID_ROSTERS = {
             {
               "name": "Szyiu",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "URI",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yume",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水母",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "洛希",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "骨頭",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "活動出席精靈兼花園守護",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
@@ -5170,52 +6364,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Aiya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "P4",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千暮雪",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "細rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toua",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "碌柚葉",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
@@ -5242,47 +6456,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Aya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "suu",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
@@ -5316,72 +6548,100 @@ window.MAID_ROSTERS = {
             {
               "name": "Akari",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lori",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "aya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mona",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
@@ -5407,27 +6667,37 @@ window.MAID_ROSTERS = {
             {
               "name": "P4",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小眠",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
@@ -5461,72 +6731,100 @@ window.MAID_ROSTERS = {
             {
               "name": "Akari",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rizuko",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mona",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千暮雪",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小眠",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "彌亞",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "托比",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "留多晚",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "細rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "BiBi",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "zoe",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
@@ -5562,82 +6860,114 @@ window.MAID_ROSTERS = {
             {
               "name": "Aiya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "KK",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rei",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yume",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hain",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小音",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "留多晚",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Pikachu",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rua",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kaka",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "丑",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魷魚",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
@@ -5675,102 +7005,142 @@ window.MAID_ROSTERS = {
             {
               "name": "Akari",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Cherry",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hami",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lori",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "RINKA",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Szyiu",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "okk",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "托比",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水母",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "P4",
               "role": "當日出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
@@ -5822,42 +7192,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Szyiu",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "okk",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千夏",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ringo",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
@@ -5887,52 +7273,72 @@ window.MAID_ROSTERS = {
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kiukiu",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kayla",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
@@ -5965,67 +7371,93 @@ window.MAID_ROSTERS = {
             {
               "name": "昭子",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "細rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羽琉那",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mona",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuri",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tia",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lia",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
@@ -6064,67 +7496,93 @@ window.MAID_ROSTERS = {
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "okk",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "細rinka",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羽琉那",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rei",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "UU",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Zoe",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
@@ -6166,92 +7624,128 @@ window.MAID_ROSTERS = {
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Akari",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lori",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "KK",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千暮雪",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mona",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "留多晚",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳酪",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小璃",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
@@ -6295,97 +7789,135 @@ window.MAID_ROSTERS = {
             {
               "name": "絲",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "KK",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mercy",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yumi",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rei",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小音",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aiya",
               "role": "當值精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "荔枝",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toua",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "碌柚葉",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小堇",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "BiBi",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿廚",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/",
@@ -6425,77 +7957,107 @@ window.MAID_ROSTERS = {
             {
               "name": "幼幼",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "aya",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hecate",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿雪",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小眠",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rizuko",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yumi",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "當值精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿P",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶熊",
               "role": "限定精靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
@@ -6519,42 +8081,58 @@ window.MAID_ROSTERS = {
             {
               "name": "P4",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "szyiu",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hami",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DerCCV1vGat/",
@@ -6584,52 +8162,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Hami",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水母",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "絲",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "骨頭",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
@@ -6671,67 +8269,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Bibi",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kora",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nemu",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蛾",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumire",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "企鵝",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶昔",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幼幼",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "笛子",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蛋蛋",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鴨鴨",
               "role": "活動出席精靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/agarden_2001/p/De_099_j3HU/",
@@ -6801,42 +8425,58 @@ window.MAID_ROSTERS = {
             {
               "name": "妹子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小千",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青鳥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑猫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "半眠",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咔咪咪",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeRRn7FiL0D/"
@@ -6871,77 +8511,107 @@ window.MAID_ROSTERS = {
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kkuma",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koyuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mia",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千歲",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "珊瑚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綾舞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌妃",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "西秀",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eru",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sui",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
@@ -6969,42 +8639,58 @@ window.MAID_ROSTERS = {
             {
               "name": "奈亞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玥玥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "秋雨",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yui",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狐宵赤夜",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kayla",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
@@ -7030,42 +8716,58 @@ window.MAID_ROSTERS = {
             {
               "name": "味醂",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈亞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "頌仔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeZKqnXAXof/"
@@ -7090,37 +8792,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuka",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淘淘",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "秋雨",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綾舞",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅子",
               "role": "新生人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/",
@@ -7147,42 +8863,58 @@ window.MAID_ROSTERS = {
             {
               "name": "奈亞",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雫",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "盈盈",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "虎徹",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "西秀",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mugi",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ喵",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喂魚",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/",
@@ -7208,47 +8940,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kkuma",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mia",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "犬憂",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狐宵赤夜",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿蔔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚魚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/Dei_1PBgWSD/"
@@ -7272,32 +9022,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kkuma",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "秋雨",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿蔔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚魚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅子",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
@@ -7325,42 +9087,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Koyuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "四月兔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "珊瑚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿廚",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/"
@@ -7387,47 +9165,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hima",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小倩",
               "role": "新生人偶",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/Den1smBHUYS/",
@@ -7458,52 +9254,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Cherry",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈亞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "憂",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "犬憂",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綾舞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿蔔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuma",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -7532,57 +9348,79 @@ window.MAID_ROSTERS = {
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuika",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小樹",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "憂",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玥玥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青鳥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅子",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -7614,72 +9452,100 @@ window.MAID_ROSTERS = {
             {
               "name": "Air",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kkuma",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mia",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "珊瑚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "頌仔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "天宮やお",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻井ももか",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水川もえり",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "苺咲かなえ",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜月ゆい",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/DewfLAdgYFX/"
@@ -7709,62 +9575,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Kori",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mia",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狐宵赤夜",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "珊瑚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑猫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狐宵澄夜",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綿辺ゆみか",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "路奇",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬽髏ヘイニ",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黒崎よるみ",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黒田やな",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/",
@@ -7793,42 +9683,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Hima",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koyuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "駝駝",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑猫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Charlotte",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小倩",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kori",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
@@ -7855,47 +9761,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Koyuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小凌",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "駝駝",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De36yg-je8C/"
@@ -7927,72 +9851,100 @@ window.MAID_ROSTERS = {
             {
               "name": "Kura",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小影",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "年子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "筱望",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "珊瑚",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玥玥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nagi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵哥",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸檬",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ika",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "haruka",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "れい",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "saaya",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "古喵",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
@@ -8021,52 +9973,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Mafu",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lara",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuika",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Koyuki",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿月",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "FY",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
@@ -8099,67 +10071,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Fumi",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mia",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈亞",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗子",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿蔔",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黑猫",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yui",
               "role": "新生人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Chika",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sayori",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hani",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "歪歪",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/DeteSMvD4hh/",
@@ -8188,42 +10186,58 @@ window.MAID_ROSTERS = {
             {
               "name": "梓野",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玥玥",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小琪",
               "role": "女僕人偶",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雷婆婆",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓月",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霏霏",
               "role": "限定人偶",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
@@ -8266,32 +10280,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Kira",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可娜",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "孔明",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "理子",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -8315,37 +10341,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Miyabi",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Muli",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nedo",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hani",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淺",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕃薯",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -8366,22 +10406,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Haku",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kira",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "古古",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeXFIJ_GRYP/",
@@ -8407,37 +10455,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Airin",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bochi",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡咩",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安安",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓丸",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moka",
               "role": "限定侵略者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -8467,37 +10529,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Bella",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haku",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uta",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小藍",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綺梨",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "荔枝",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -8525,47 +10601,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Mika",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miku",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小楠",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "海藍",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rui",
               "role": "限定侵略者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "拉比",
               "role": "限定侵略者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "粟米",
               "role": "限定侵略者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DeeG-pKmTJT/",
@@ -8601,32 +10695,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Luna",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Roku",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淺",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紅豆",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
@@ -8651,42 +10757,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Bella",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nedo",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "古古",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小楠",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真祐",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓丸",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
@@ -8712,47 +10834,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Aiko",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eru",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kira",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miku",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hani",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡咩",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽幽",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淺",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DepUp-jE43s/",
@@ -8777,42 +10917,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiyu",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Luna",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Natsuki",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡咩",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可娜",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安安",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓丸",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
@@ -8850,32 +11006,44 @@ window.MAID_ROSTERS = {
             {
               "name": "MIKAN",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朱古力",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "海藍",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
@@ -8917,27 +11085,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kuma",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mika",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "糖糖",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紅豆",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DewhknsmeiE/",
@@ -8973,37 +11151,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Luna",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miku",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hani",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "理子",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓丸",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
@@ -9032,37 +11224,51 @@ window.MAID_ROSTERS = {
             {
               "name": "正子",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aina",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Airin",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Luna",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nedo",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕃薯",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
@@ -9093,37 +11299,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Bochi",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kira",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡咩",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "古喵",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可娜",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小金",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De6pBbumV1Y/",
@@ -9157,52 +11377,72 @@ window.MAID_ROSTERS = {
             {
               "name": "小犬",
               "role": "駐場ハートびと",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kira",
               "role": "駐場ハートびと",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyabi",
               "role": "駐場ハートびと",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡咩",
               "role": "當值",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "當值",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Neneko",
               "role": "當值",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淺",
               "role": "當值",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hani",
               "role": "當值",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "栗米",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuna",
               "role": "一日限定",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/De9OK74mdLQ/",
@@ -9229,37 +11469,51 @@ window.MAID_ROSTERS = {
             {
               "name": "海藍",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小藍",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Airin",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "古喵",
               "role": "駐場魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DfCdLPXmTLw/",
@@ -9280,22 +11534,30 @@ window.MAID_ROSTERS = {
             {
               "name": "卡咩",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "淺",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haku",
               "role": "當值",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
@@ -9347,22 +11609,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Fuyo",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "周瑜",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "璧璧",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小椿",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
@@ -9390,42 +11660,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Beru",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuki",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "もえね",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七七",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小廻",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mikan",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
@@ -9449,32 +11735,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Ara",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YunaI",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晞亓",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蜻蜓",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黛柔",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小椿",
               "role": "魔域管理員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
@@ -9501,27 +11799,37 @@ window.MAID_ROSTERS = {
             {
               "name": "midorinn",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小廻",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "日和",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿逸",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
@@ -9545,32 +11853,44 @@ window.MAID_ROSTERS = {
             {
               "name": "416",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小奇",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "日和",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朱朱",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶鬼",
               "role": "Guest／嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
@@ -9600,32 +11920,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Yorumi",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡路里",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霍霍",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黛柔",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍幽",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/",
@@ -9659,42 +11991,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Beru",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fumi",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Midorinn",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "つゆめ",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡路里",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黛柔",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冰嵐",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/Dek2pYen6lX/",
@@ -9726,32 +12074,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Beru",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yorumi",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小廻",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓羅",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小圓",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
@@ -9787,37 +12147,51 @@ window.MAID_ROSTERS = {
             {
               "name": "江江",
               "role": "Butler",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "Butler",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuki",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶鬼",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蜻蜓",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黛柔",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
@@ -9847,52 +12221,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Anzu",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuna",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓羅",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霍霍",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九千",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚骨",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/",
@@ -9932,57 +12326,79 @@ window.MAID_ROSTERS = {
             {
               "name": "501小白",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Amy",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miya",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小蚊",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小鉛梓",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "布布",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "星星",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴兒",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "有K",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DeWee1MTIQo/",
@@ -10011,52 +12427,72 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fomu",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nanoji",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "P總",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "有栖",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "江江",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿流",
               "role": "Butler",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DewL6lqBT_x/",
@@ -10085,22 +12521,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Anzu",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小廻",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "璧璧",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
@@ -10126,42 +12570,58 @@ window.MAID_ROSTERS = {
             {
               "name": "璧璧",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小廻",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "周瑜",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yorumi",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Anzu",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuki",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "黛柔",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小椿",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10186,32 +12646,44 @@ window.MAID_ROSTERS = {
             {
               "name": "黛柔",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "杏杏",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡路里",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿逸",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Beru",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10244,47 +12716,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Kuri",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Meika",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶鬼",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuka",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七七Yunai",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蜻蜓",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小椿",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶糖",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10314,42 +12804,58 @@ window.MAID_ROSTERS = {
             {
               "name": "朱朱",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "416",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "もえね",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿流",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Anzu",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10374,32 +12880,44 @@ window.MAID_ROSTERS = {
             {
               "name": "奶茶",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霍霍",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "璧璧",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡路里",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Beru",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "魔域管理員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10426,42 +12944,58 @@ window.MAID_ROSTERS = {
             {
               "name": "朱朱",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "もえね",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Gumi",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yorumi",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mii",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "日和",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Midorinn",
               "role": "Bride",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴晴",
               "role": "魔域管理員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
@@ -10499,37 +13033,51 @@ window.MAID_ROSTERS = {
             {
               "name": "hotori",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "panda",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "rina",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yilam",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "孔子",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朱朱",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩弦",
               "role": "租場嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/_.hilaryowo._/p/DegrlA7E5HU/",
@@ -10599,17 +13147,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Fukuro",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奇拉拉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10630,22 +13184,30 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mochi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10677,32 +13239,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Vivi",
               "role": "生日主角及當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻糬",
               "role": "生日主角及當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Domo",
               "role": "限定出勤",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fumi",
               "role": "限定出勤",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "川",
               "role": "限定出勤",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狐宵",
               "role": "限定出勤",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/DeosqSCgS1h/",
@@ -10739,32 +13313,44 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千夜",
               "role": "限定月下夜僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "洛希",
               "role": "限定月下夜僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10797,17 +13383,23 @@ window.MAID_ROSTERS = {
             {
               "name": "三文魚公主",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "椰奶",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10829,27 +13421,37 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霖霖",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
@@ -10907,62 +13509,86 @@ window.MAID_ROSTERS = {
             {
               "name": "999",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nano",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hari",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "nekome",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "raku",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yui",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "丑",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小南",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬼鬼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "龍蝦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
@@ -10992,57 +13618,79 @@ window.MAID_ROSTERS = {
             {
               "name": "9000",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kaka",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "raku",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yui",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "剎那",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "大毛",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魷魚",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
@@ -11072,52 +13720,72 @@ window.MAID_ROSTERS = {
             {
               "name": "9000",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mizore",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "riko",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "sanada",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咬牙",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小狐狸",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬼鬼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/",
@@ -11142,42 +13810,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kanade",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ruika",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿橦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "龍蝦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DebEj2xPrnD/"
@@ -11203,42 +13887,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "999",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咬牙",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "harei",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "浮世",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
@@ -11277,47 +13977,65 @@ window.MAID_ROSTERS = {
             {
               "name": "空雪",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小南",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kusuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "剎那",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魷魚",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓目",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "momo",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
@@ -11344,42 +14062,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hari",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "999",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yui",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬼鬼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咬牙",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茵",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
@@ -11406,42 +14140,58 @@ window.MAID_ROSTERS = {
             {
               "name": "小南",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ruika",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿橦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "大毛",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kumo",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小困",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小狐狸",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
@@ -11471,47 +14221,65 @@ window.MAID_ROSTERS = {
             {
               "name": "鰻魚",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "raku",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "harei",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "龍蝦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kusuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "大毛",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "nako",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嘉",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
@@ -11536,37 +14304,51 @@ window.MAID_ROSTERS = {
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "空雪",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "剎那",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "キキ",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬼鬼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "saki",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11594,42 +14376,58 @@ window.MAID_ROSTERS = {
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ruika",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魷魚",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "9000",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kumo",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "riko",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11657,42 +14455,58 @@ window.MAID_ROSTERS = {
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mizore",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "usagi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿初",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "大毛",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "龍蝦",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咬牙",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11725,57 +14539,79 @@ window.MAID_ROSTERS = {
             {
               "name": "空雪",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "hari",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "七月",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kusuki",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "nano",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "999",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鬼鬼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "akaya",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11809,42 +14645,58 @@ window.MAID_ROSTERS = {
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓目",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yui",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "空雪",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿初",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "999",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11877,57 +14729,79 @@ window.MAID_ROSTERS = {
             {
               "name": "小南",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "丑",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "八田",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ruika",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "剎那",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "raku",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小狐狸",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙涼",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "空雪",
               "role": "當值幽靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nana",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ろく",
               "role": "限定幽靈",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
@@ -11959,47 +14833,65 @@ window.MAID_ROSTERS = {
             {
               "name": "kokomi",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "reda",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咬牙",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小困",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "血血",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "龍蝦",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "赤夜",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "剎那",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "9000",
               "role": "當值幽靈",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_eidolon/p/DfB_BTCTNU-/",
@@ -12052,12 +14944,16 @@ window.MAID_ROSTERS = {
             {
               "name": "小貓",
               "role": "實習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Judy",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -12077,12 +14973,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Kaoko",
               "role": "實習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蝦蝦",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -12105,17 +15005,23 @@ window.MAID_ROSTERS = {
             {
               "name": "貓貓 ⟦@cc_little_g⟧",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "薑",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶茶",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/",
@@ -12142,17 +15048,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Hotaru",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Judy",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "冰川",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -12173,17 +15085,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Bunny ⟦@bunny_luuuuoxo⟧",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Noa",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "薑",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DejZZpsR33C/"
@@ -12201,12 +15119,16 @@ window.MAID_ROSTERS = {
             {
               "name": "YK",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuro",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/",
@@ -12227,12 +15149,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Maru",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mio",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeR38_bqVJx/",
@@ -12253,12 +15179,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Judy",
               "role": "實習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小貓",
               "role": "實習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
@@ -12282,17 +15212,23 @@ window.MAID_ROSTERS = {
             {
               "name": "薑",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蝦蝦",
               "role": "新人女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "CC",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
@@ -12322,12 +15258,16 @@ window.MAID_ROSTERS = {
             {
               "name": "薑",
               "role": "正式女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Judy",
               "role": "實習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DfCG06URer3/",
@@ -12349,27 +15289,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Nekora",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bunny ⟦@bunny1111.ouo⟧",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓 ⟦@cc_little_poketto_⟧",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "海ほたる",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/htr.aruaru/p/DeLJ97hSl-O/",
@@ -12419,27 +15369,37 @@ window.MAID_ROSTERS = {
             {
               "name": "@cream_ice_cos.0614",
               "role": "活動出演陣容",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@elika_desu",
               "role": "活動出演陣容",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@moris.zzz",
               "role": "活動出演陣容",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@vyw1113_cos.chu",
               "role": "活動出演陣容",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@yukina.02_",
               "role": "活動出演陣容",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/Dej2btnvGAE/",
@@ -12458,12 +15418,16 @@ window.MAID_ROSTERS = {
             {
               "name": "fufu",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "池池",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12481,12 +15445,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Youko",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "翻車魚",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12507,27 +15475,37 @@ window.MAID_ROSTERS = {
             {
               "name": "94",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Elika",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳鴿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "曲奇",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "潔蘿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12549,22 +15527,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Aki",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "夢兔",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "池池",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YY",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/",
@@ -12595,27 +15581,37 @@ window.MAID_ROSTERS = {
             {
               "name": "@elika_desu",
               "role": "決賽日當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@squab_1213",
               "role": "決賽日當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@vyw1113_cos.chu",
               "role": "決賽日當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@wataru_112_",
               "role": "決賽日當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "@y3_lain.cos",
               "role": "決賽日當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DeuE_1ND8iG/",
@@ -12646,22 +15642,30 @@ window.MAID_ROSTERS = {
             {
               "name": "池池",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "TakuRyo",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12681,22 +15685,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Lori",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Youko",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "fufu",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "潔蘿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12716,22 +15728,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Elika",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lori",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Soya",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "乳鴿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/DetM8YVj-6O/"
@@ -12748,7 +15768,9 @@ window.MAID_ROSTERS = {
             {
               "name": "94",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -12770,27 +15792,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Moris",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚杯",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "潔蘿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "しの",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "曲奇",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -12814,37 +15846,51 @@ window.MAID_ROSTERS = {
             {
               "name": "乳鴿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "翻車魚",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪糕",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕾",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Elika",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "夢兔",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "布布",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -12866,27 +15912,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Sui",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruna",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "94",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Heymeow",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -12917,52 +15973,72 @@ window.MAID_ROSTERS = {
             {
               "name": "fufu",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "しの",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梳乎厘",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Elika",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Heymeow",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "亞希",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lori",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Youko",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "夜宵",
               "role": "當值執事",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -12984,7 +16060,9 @@ window.MAID_ROSTERS = {
             {
               "name": "Soya",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -13006,27 +16084,37 @@ window.MAID_ROSTERS = {
             {
               "name": "乳鴿",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ハル",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Elika",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "94",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Wataru",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -13045,12 +16133,16 @@ window.MAID_ROSTERS = {
             {
               "name": "夜宵",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵奈",
               "role": "出勤女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cosplace_cafe/p/De_3se7j1nY/",
@@ -13092,27 +16184,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Amy",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小瑤",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴兒",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "セレナ",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
@@ -13134,22 +16236,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Kay",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小丸",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
@@ -13174,27 +16284,37 @@ window.MAID_ROSTERS = {
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶々",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿夏",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "秋刀魚",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
@@ -13213,17 +16333,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Amy",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "麻油",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DeMT4VnE7TL/"
@@ -13247,22 +16373,30 @@ window.MAID_ROSTERS = {
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Neya",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梓叔",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13285,17 +16419,23 @@ window.MAID_ROSTERS = {
             {
               "name": "晴兒",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yume",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "潼潼",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13317,22 +16457,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Yoyo",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小葵",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "浠浠",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/",
@@ -13356,17 +16504,23 @@ window.MAID_ROSTERS = {
             {
               "name": "セレナ",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿夏",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紫音",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13388,22 +16542,30 @@ window.MAID_ROSTERS = {
             {
               "name": "小瑤",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶々",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13428,27 +16590,37 @@ window.MAID_ROSTERS = {
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Celia",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿夏",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mari",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "直女",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13468,22 +16640,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Ami",
               "role": "生誕活動人員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Asaki",
               "role": "生誕活動人員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "生誕活動人員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "寶寶",
               "role": "生誕活動人員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/",
@@ -13513,32 +16693,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Kay",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yoyo",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yume",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芽芽",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "璧璧",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紫喵",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/Degsd-VE3Pt/"
@@ -13564,32 +16756,44 @@ window.MAID_ROSTERS = {
             {
               "name": "天使",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Akita",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haka",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "セレナ",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "卡路里",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -13614,27 +16818,37 @@ window.MAID_ROSTERS = {
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mirei",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "セレナ",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "咩咩",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -13667,27 +16881,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Reii",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "セレナ",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mizuka",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Teo",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -13717,32 +16941,44 @@ window.MAID_ROSTERS = {
             {
               "name": "小瑤",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小睡",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "照美",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Bake",
               "role": "限定海盜",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -13773,27 +17009,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Amy",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Soso",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴兒",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haka",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -13817,22 +17063,30 @@ window.MAID_ROSTERS = {
             {
               "name": "幽靈",
               "role": "Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mirei",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "Pirate Maid",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumiyo",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
@@ -13856,42 +17110,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Amy",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YUKI",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukina",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "天使",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小葵",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晴兒",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -13917,32 +17187,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Amy",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Serena",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "浠浠",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙喵",
               "role": "活動嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
@@ -14007,27 +17289,37 @@ window.MAID_ROSTERS = {
             {
               "name": "小Sakura",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuma",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kumi",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14048,17 +17340,23 @@ window.MAID_ROSTERS = {
             {
               "name": "櫻子",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小迴",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14081,27 +17379,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Sumika",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "op",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "啫喱魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "飯糰",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nene",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14124,27 +17432,37 @@ window.MAID_ROSTERS = {
             {
               "name": "mogu",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ猫",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓靈",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14167,27 +17485,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Sumika",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽月",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朵拉",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14207,22 +17535,30 @@ window.MAID_ROSTERS = {
             {
               "name": "小夜",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸茶",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "落塵",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14245,22 +17581,30 @@ window.MAID_ROSTERS = {
             {
               "name": "JoJo",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "活動出席居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Max",
               "role": "限定嘉賓",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14286,27 +17630,37 @@ window.MAID_ROSTERS = {
             {
               "name": "JoJo",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snowyyyy",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aki @aki_.aki45",
               "role": "影子精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aki @unknowndelete_aki",
               "role": "影子精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "凌風",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -14331,27 +17685,37 @@ window.MAID_ROSTERS = {
             {
               "name": "亞也",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茹兒",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumika",
               "role": "當值人員",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "團子",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -14371,22 +17735,30 @@ window.MAID_ROSTERS = {
             {
               "name": "RuRu",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sumika",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "啫喱魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -14409,27 +17781,37 @@ window.MAID_ROSTERS = {
             {
               "name": "亞也",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小Sakura",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻子",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yua",
               "role": "影子精靈",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -14452,27 +17834,37 @@ window.MAID_ROSTERS = {
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茜茜",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓靈",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ほたる",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "朱古力",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
@@ -14495,27 +17887,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Sumika",
               "role": "出沒居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "出沒居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "飯糰",
               "role": "出沒居民",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Oscar",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "猫姬",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
@@ -14536,22 +17938,30 @@ window.MAID_ROSTERS = {
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茹兒",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓貓",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "飯糰",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
@@ -14574,22 +17984,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Snowyyyy",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻子",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靜流",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14618,27 +18036,37 @@ window.MAID_ROSTERS = {
             {
               "name": "亞也",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "大Sakura",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茜茜",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "飯糰",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Dovi",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14658,22 +18086,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Yua",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "啫喱魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小sakura",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
@@ -14693,22 +18129,30 @@ window.MAID_ROSTERS = {
             {
               "name": "悅夢",
               "role": "當值魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "當值魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "飯團",
               "role": "當值魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snowyyyy",
               "role": "當值魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DfEvsGczMKU/",
@@ -14738,27 +18182,37 @@ window.MAID_ROSTERS = {
             {
               "name": "mogu",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ猫",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶茶",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "海塩",
               "role": "限定居民",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14782,22 +18236,30 @@ window.MAID_ROSTERS = {
             {
               "name": "aki",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "歪歪",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "出沒居民",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14850,27 +18312,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Ellie",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嘉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚莫",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "啾咿",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -14893,27 +18365,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yura",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Emi",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Simanna",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "許洛",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/",
@@ -14947,27 +18429,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙米",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -14990,27 +18482,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蕉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓月",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Emi",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kinako",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15033,27 +18535,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "兔仔",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "金魚",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15076,37 +18588,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Ellie",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安柚",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芊夏",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜糖",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
@@ -15133,27 +18659,37 @@ window.MAID_ROSTERS = {
             {
               "name": "有栖",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moku",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "方包",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葵",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15176,27 +18712,37 @@ window.MAID_ROSTERS = {
             {
               "name": "安柚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狗狗",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Asuka",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙米",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15219,27 +18765,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜糖",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moku",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "葵",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15260,27 +18816,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "兔仔",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晏咲",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15307,27 +18873,37 @@ window.MAID_ROSTERS = {
             {
               "name": "茶茶",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕉蕉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓月",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kinako",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15352,32 +18928,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Yura",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狗狗",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜糖",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moku",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "方包",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15400,22 +18988,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Halo",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙米",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15443,27 +19039,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Ellie",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芊夏",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶 ⟦@R_14_e1b3006eb750⟧",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "魚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15494,32 +19100,44 @@ window.MAID_ROSTERS = {
             {
               "name": "安柚",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嘉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "有栖",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕉蕉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Asuka",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15544,32 +19162,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Yura",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "啾咿",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "兔仔",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狗狗",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Simanna",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/De_vyhftHmV/",
@@ -15605,27 +19235,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "茶茶",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓月",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "牙米",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "金魚",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15650,32 +19290,44 @@ window.MAID_ROSTERS = {
             {
               "name": "晏咲",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Halo",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "金魚",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蕉蕉",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "方包",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DfEvnb3tsL9/",
@@ -15710,27 +19362,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Himiko",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yura",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芊夏",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yana",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15757,42 +19419,58 @@ window.MAID_ROSTERS = {
             {
               "name": "yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "兔仔",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "有梄",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雅木",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "霜糖",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yana",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "方包",
               "role": "見習女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
@@ -15820,42 +19498,58 @@ window.MAID_ROSTERS = {
             {
               "name": "有栖",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓月",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狗狗",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "晏咲",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eille",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "許洛",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "青蛙",
               "role": "牛郎成員",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
@@ -15913,12 +19607,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Onime",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -15946,17 +19644,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Yukiko",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗月",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "花琉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -15986,12 +19690,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Kona",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16020,17 +19728,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Yukiko",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "花琉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16062,22 +19776,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Akane",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kona",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗月",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16108,12 +19830,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Meru",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16141,17 +19867,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Akane",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Meru",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16182,22 +19914,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Onime",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃子",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芊芊",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16229,17 +19969,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Onime",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗月",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "花琉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16268,12 +20014,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Yukiko",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16302,22 +20052,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Yukiko",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃子",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16348,12 +20106,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Kona",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16381,12 +20143,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Onime",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16415,17 +20181,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Akane",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Meru",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗月",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16455,17 +20227,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Onime",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小莓",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "桃子",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
@@ -16504,42 +20282,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Kona",
               "role": "下午及晚上參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Meru",
               "role": "下午及晚上參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Onime",
               "role": "下午及晚上參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukiko",
               "role": "下午及晚上參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "下午及晚上參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kokona",
               "role": "下午場特邀魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "下午場特邀魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "晚上場參演魔女",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/",
@@ -16604,17 +20398,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Lula",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻染",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mao",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16635,17 +20435,23 @@ window.MAID_ROSTERS = {
             {
               "name": "いせ",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "丑",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16669,22 +20475,30 @@ window.MAID_ROSTERS = {
             {
               "name": "檸檬",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mika",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16707,27 +20521,37 @@ window.MAID_ROSTERS = {
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓神",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡雨",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茸",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雨",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16751,22 +20575,30 @@ window.MAID_ROSTERS = {
             {
               "name": "れいん",
               "role": "一日限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻染",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Maru",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/",
@@ -16797,22 +20629,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Nana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡雨",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茸",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16834,22 +20674,30 @@ window.MAID_ROSTERS = {
             {
               "name": "ジル",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "千鈴",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "肉鬆",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雨",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeYIyNJpb0R/"
@@ -16867,12 +20715,16 @@ window.MAID_ROSTERS = {
             {
               "name": "Lula",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "優奈",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
@@ -16891,17 +20743,23 @@ window.MAID_ROSTERS = {
             {
               "name": "いせ",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "貓神",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡雨",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/"
@@ -16926,27 +20784,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kola",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茸",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雨",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "呆呆",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -16980,32 +20848,44 @@ window.MAID_ROSTERS = {
             {
               "name": "千鈴",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸檬",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "肉鬆",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鏡雨",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yako",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -17039,22 +20919,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Kola",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moka",
               "role": "限定女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -17085,22 +20973,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Nana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ジル",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茸",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雨",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -17127,17 +21023,23 @@ window.MAID_ROSTERS = {
             {
               "name": "Soya",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "肉鬆",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/DeqXnn0iQQc/",
@@ -17169,17 +21071,23 @@ window.MAID_ROSTERS = {
             {
               "name": "千鈴",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "いせ",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mao",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17205,22 +21113,30 @@ window.MAID_ROSTERS = {
             {
               "name": "貓神",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻染",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Maru",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17246,22 +21162,30 @@ window.MAID_ROSTERS = {
             {
               "name": "千鈴",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzu",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mirei",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17295,22 +21219,30 @@ window.MAID_ROSTERS = {
             {
               "name": "優奈",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Lula",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月璃",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "櫻染",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17338,22 +21270,30 @@ window.MAID_ROSTERS = {
             {
               "name": "小鈴",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kola",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17382,27 +21322,37 @@ window.MAID_ROSTERS = {
             {
               "name": "貓神",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ジル",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Maru",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hanami",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靜流",
               "role": "一日限定表演者",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17427,17 +21377,23 @@ window.MAID_ROSTERS = {
             {
               "name": "貓神",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "優奈",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "安",
               "role": "試工女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
@@ -17464,27 +21420,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Nana",
               "role": "生誕主角",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍南",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mao",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小茸",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小雨",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/nana.desu_/p/De--eNgj102/",
@@ -17532,22 +21498,30 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reimu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "すみれ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
@@ -17572,27 +21546,37 @@ window.MAID_ROSTERS = {
             {
               "name": "阿糖",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "のあ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "池池",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
@@ -17618,32 +21602,44 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fuwa",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小葵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿糖",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukir",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "月牙",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/Dd7VJWEk78Z/"
@@ -17668,27 +21664,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fuwa",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "gigi",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿糖",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紗奈",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -17722,27 +21728,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rina",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可妍",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿糖",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "菌子",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -17777,32 +21793,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Reimu",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hayu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵喵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸檬",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tami",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -17837,27 +21865,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mii",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sinyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "gigi",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Vivi",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -17892,32 +21930,44 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fuwa",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reimu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "すみれ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kuro",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "YK",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -17954,37 +22004,51 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Moli",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rina",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵喵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小葵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kirari",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "呱呱",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18022,22 +22086,30 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sinyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "すみれ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "だんこ",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18072,37 +22144,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Rina",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fuwa",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuha",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸檬",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kori",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "水獺",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18142,32 +22228,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Reimu",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hayu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "喵喵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羊咩",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "香取",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "tomori",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18205,27 +22303,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mii",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "可妍",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "haka",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18263,32 +22371,44 @@ window.MAID_ROSTERS = {
             {
               "name": "阿糖",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Fumi",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reimu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "gigi",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miharu",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "菜菜",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18328,37 +22448,51 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "すみれ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小葵",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "未來",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿糖",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kai",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "甘樂",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18394,27 +22528,37 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hayu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sinyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "すみれ",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真奈",
               "role": "限定天使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18445,22 +22589,30 @@ window.MAID_ROSTERS = {
             {
               "name": "蛋撻",
               "role": "廚師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rina",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sinyu",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuha",
               "role": "水色天使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -18504,12 +22656,16 @@ window.MAID_ROSTERS = {
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
@@ -18541,32 +22697,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ceci",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羅露妮",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
@@ -18606,32 +22774,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鹹魚",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
@@ -18672,37 +22852,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "腰豆",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羅露妮",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/DeNFo6Hkx16/",
@@ -18743,27 +22937,37 @@ window.MAID_ROSTERS = {
             {
               "name": "yuzu",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoko",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -18806,47 +23010,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Hecate",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "sora",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "瑤瑤",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "石榴",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nyanko",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ゆみ",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -18896,52 +23118,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Koe",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "嵐嵐",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "石榴",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ceci",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羅露妮",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -18992,47 +23234,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "石榴",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tina",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19081,37 +23341,51 @@ window.MAID_ROSTERS = {
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoko",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羅露妮",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "mogu",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19156,47 +23430,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riley",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sirius",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19244,42 +23536,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii莉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sirius",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuzu",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ceci",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19329,52 +23637,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Reii莉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riya",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuzu",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoko",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "羅露妮",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "限定月亮女神",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19436,67 +23764,93 @@ window.MAID_ROSTERS = {
             {
               "name": "Morie",
               "role": "生誕當值嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuki",
               "role": "生誕當值嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "生誕當值嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小春",
               "role": "生誕當值嘉賓",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riri",
               "role": "生誕當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "生誕當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "生誕當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riya",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kano",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ceci",
               "role": "當值廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -19562,62 +23916,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riri",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "sora",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "zero",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "梳乎厘",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "萌え魚",
               "role": "當值女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "夢川",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -19677,42 +24055,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Sirius",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "莓",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -19761,42 +24155,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Sirius",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ceci",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoko",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九四",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -19845,42 +24255,58 @@ window.MAID_ROSTERS = {
             {
               "name": "Sirius",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "神樂",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haru",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -19931,52 +24357,72 @@ window.MAID_ROSTERS = {
             {
               "name": "Gigi",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nanami",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riley",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuzu",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "神樂",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小汐",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -20028,47 +24474,65 @@ window.MAID_ROSTERS = {
             {
               "name": "Riley",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riya",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "yuzu",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "バカ",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玲奈",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoko",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -20122,57 +24586,79 @@ window.MAID_ROSTERS = {
             {
               "name": "Reii莉",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Riley",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Toffee",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "心雨",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "奶茶",
               "role": "限定當值女僕",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -20246,27 +24732,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狂",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ayane",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20297,27 +24793,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Snowy",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukino",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yurie",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紫喵",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kata",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20352,37 +24858,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Husky",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nana",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "kata",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "炸彈",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ayane",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20415,27 +24935,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rain",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yurie",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "檸茶",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "汪",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20469,37 +24999,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Mio",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "烏龜",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snowy",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "團子",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "童童",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20538,37 +25082,51 @@ window.MAID_ROSTERS = {
             {
               "name": "UU",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Uri",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "地鼠",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪海",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20607,37 +25165,51 @@ window.MAID_ROSTERS = {
             {
               "name": "kumi",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aqua",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kona",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Neya",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rika",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "江雨",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小童",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/DeV1MmjxJpO/",
@@ -20672,27 +25244,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukino",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狂",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -20723,27 +25305,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rain",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rinka",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "童童",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "汪",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -20777,32 +25369,44 @@ window.MAID_ROSTERS = {
             {
               "name": "小妖精 ⟦@R_19_181cf5be089b⟧",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Nana",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuki",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yurie",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "紫喵",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小童",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -20841,37 +25445,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Haruna",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rizuko",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kico",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Neya",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小嵐",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "炸彈",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kata",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -20911,37 +25529,51 @@ window.MAID_ROSTERS = {
             {
               "name": "貓羅",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿兔",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snowy",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yurie",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "狂",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -20973,22 +25605,30 @@ window.MAID_ROSTERS = {
             {
               "name": "江雨",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芙恩",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪海",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -21019,32 +25659,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Snowy",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽靈",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "汪",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雪海",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ayane",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DepXJEQytGE/",
@@ -21079,32 +25731,44 @@ window.MAID_ROSTERS = {
             {
               "name": "小白",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "UU",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小憐",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "江雨",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "炸彈",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kata",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21139,27 +25803,37 @@ window.MAID_ROSTERS = {
             {
               "name": "Aqua",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "皇蕾",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "藍莓",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ayane",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21192,32 +25866,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Fufu",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yukino",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yurie",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "芽芽",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "ぴこ",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mori",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21251,37 +25937,51 @@ window.MAID_ROSTERS = {
             {
               "name": "小灰狼",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小妖精 ⟦@youseii.030⟧",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "毛毛",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kiyoko",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Snowy",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "美麗",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿露",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21318,32 +26018,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Mori",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "橙融",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "鈴風",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "阿兔",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿露",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21375,22 +26087,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Kata",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "UU",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "雷海",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "蘿露",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21424,32 +26144,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Kico",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Neya",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "昭子",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "美恩",
               "role": "魔法使",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Ayane",
               "role": "魔法導師",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "viko",
               "role": "限定魔法使",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -21500,22 +26232,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eve",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyuki",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuki",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21549,22 +26289,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MORI",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21598,22 +26346,30 @@ window.MAID_ROSTERS = {
             {
               "name": "KK",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "吖程",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "靈兔",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21647,22 +26403,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MORI",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "豆豆",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21701,37 +26465,51 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九千",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "幽夜",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21776,32 +26554,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Mii",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Qubi",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小霧",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DeTaeDmzArz/",
@@ -21839,22 +26629,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Haruki",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Jasmine",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -21892,32 +26690,44 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoru",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九千",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "NØNNØ",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Pimu",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tsumi",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -21958,22 +26768,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rio",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "吖程",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -22007,22 +26825,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MORI",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -22056,22 +26882,30 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hiri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "rena",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小瑤",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -22108,27 +26942,37 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eve",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tina",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Aino",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Chizuru",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -22170,27 +27014,37 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩桜",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Jyunna",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
@@ -22229,22 +27083,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Jasmine",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MORI",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22280,22 +27142,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tina",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "吖程",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "nexit!",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22336,32 +27206,44 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "MORI",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小欣",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Maou",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小瓏",
               "role": "限定當值",
-              "type": "限定"
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22402,22 +27284,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kaoru",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "殺奇",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22451,22 +27341,30 @@ window.MAID_ROSTERS = {
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hiri",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Raku",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九千",
               "role": "女僕",
-              "type": "當值"
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22508,62 +27406,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Eve",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Hiri",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rio",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tina",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "九千",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小瑤",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩桜",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -22622,62 +27544,86 @@ window.MAID_ROSTERS = {
             {
               "name": "Dicky",
               "role": "Bartender",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "SOKU",
               "role": "Bartender",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "501小白",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Kana",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Miyuki",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Qubi",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Rio",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Tina",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuri",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "Yuzuki",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "小霧",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             },
             {
               "name": "詩桜",
               "role": "女僕",
-              "type": "活動嘉賓"
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/De2WIusTWMv/",
@@ -47469,5 +52415,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T10:25+08:00"
+  "published_at": "2026-10-30T10:56+08:00"
 };

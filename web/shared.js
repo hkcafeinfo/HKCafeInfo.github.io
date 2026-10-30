@@ -11,6 +11,12 @@
     const url = instagram(value);
     return url ? `@${new URL(url).pathname.split("/").filter(Boolean)[0]}` : "";
   }
+  function cancellationSource(value) {
+    const source = String(value || "").trim();
+    if (/^data\/cancellation_images\/[A-Za-z0-9._-]+$/i.test(source)) return `/${source}`;
+    try { const url = new URL(source); return ["http:", "https:"].includes(url.protocol) ? url.href : ""; }
+    catch { return ""; }
+  }
   function displayName(name) { return String(name || "").replace(/ ⟦@[^⟧]+⟧$/u, ""); }
   function formatPersonTimes(value) { return String(value || "").replace(/、\s*/g, "\n"); }
   const roleCategoryOrder = ["活動職", "限定", "資深", "普通", "見習", "廚房"];
@@ -234,5 +240,5 @@
     }
     return card;
   }
-  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, report, exportFeedback };
+  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

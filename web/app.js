@@ -343,28 +343,21 @@
     const list = $("people-list");
     list.replaceChildren();
     const sorted = [...people.values()].map((person) => {
-      const names = new Map(), handles = new Map();
+      const names = new Map();
       const addName = (value) => {
         const name = HKCI.displayName(value).trim();
         if (!name) return;
         const key = name.normalize("NFKC").toLocaleLowerCase();
         if (!names.has(key)) names.set(key, name);
       };
-      const addHandle = (value) => {
-        const handle = String(value || "").replace(/^@+/, "").trim();
-        if (!handle) return;
-        const key = handle.toLocaleLowerCase();
-        if (!handles.has(key)) handles.set(key, handle);
-      };
       for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
         addName(name); for (const alias of info.names || []) addName(alias);
-        for (const account of info.instagram_accounts || []) addHandle(account.handle);
       }
       for (const entries of Object.values(data.person_accounts || {})) for (const [name, info] of Object.entries(entries || {})) if (person.pid && info.person_id === person.pid) {
-        addName(name); for (const account of info.instagram_accounts || []) addHandle(account.handle);
+        addName(name);
       }
       addName(person.name);
-      person.allNames = [...names.values()]; person.handles = [...handles.values()]; return person;
+      person.allNames = [...names.values()]; return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;
@@ -380,17 +373,6 @@
         const nameButton = make("button", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
         nameButton.type = "button";
         item.append(nameButton);
-        if (person.handles.length) {
-          const accounts = make("div", "people-accounts");
-          for (const handle of person.handles) {
-            const account = make("a", "people-ig", `@${handle}`);
-            account.href = `https://www.instagram.com/${encodeURIComponent(handle)}/`;
-            account.target = "_blank"; account.rel = "noopener noreferrer";
-            account.setAttribute("aria-label", `開啟 Instagram 帳號 ${handle}`);
-            accounts.append(account);
-          }
-          item.append(accounts);
-        }
         nameButton.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;

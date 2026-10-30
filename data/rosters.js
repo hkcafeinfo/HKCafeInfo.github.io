@@ -20865,7 +20865,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-25",
-          "hours": "18:30-22:00",
+          "hours": "13:00-22:00",
           "groups": {
             "當值女僕": [
               "Yukiko",
@@ -20894,10 +20894,14 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/sugarfactorycafe/p/De0-gGNh7WU/"
           ],
           "person_notes": {
-            "Yukiko": "原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。",
-            "水水": "原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。"
+            "Yukiko": "個人時段：13:00-22:00；原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。",
+            "水水": "個人時段：13:00-22:00；原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。"
           },
-          "notes": "原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。"
+          "person_times": {
+            "Yukiko": "13:00-22:00",
+            "水水": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00；原排班：13:00-22:00；店方另公告因大廈電力維修暫停營業至18:30，其後恢復接待；個人時段未另行修訂。"
         },
         {
           "date": "2026-10-26",
@@ -21144,35 +21148,35 @@ window.MAID_ROSTERS = {
             {
               "name": "Kona",
               "role": "下午及晚上參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Meru",
               "role": "下午及晚上參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Onime",
               "role": "下午及晚上參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Yukiko",
               "role": "下午及晚上參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "下午及晚上參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
@@ -21198,7 +21202,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/",
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
           "event_name": "魔女觀察日記 2026 - 最終回",
           "alternate_sources": [
             "https://www.instagram.com/sugarfactorycafe/p/DeoQ9N2BjLu/",
@@ -21206,21 +21210,21 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/"
           ],
           "person_notes": {
-            "Kona": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Meru": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Onime": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "Yukiko": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
-            "東東": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
+            "Kona": "個人時段：18:00-22:00；兩場活動各自列明。",
+            "Meru": "個人時段：13:00-22:00；兩場活動各自列明。",
+            "Onime": "個人時段：18:00-22:00；兩場活動各自列明。",
+            "Yukiko": "個人時段：13:00-22:00；兩場活動各自列明。",
+            "東東": "個人時段：18:00-22:00；兩場活動各自列明。",
             "Kokona": "個人時段：13:00-17:00；兩場活動各自列明。",
             "Saki": "個人時段：13:00-17:00；兩場活動各自列明。",
             "水水": "個人時段：18:00-22:00；兩場活動各自列明。"
           },
           "person_times": {
-            "Kona": "13:00-17:00、18:00-22:00",
-            "Meru": "13:00-17:00、18:00-22:00",
-            "Onime": "13:00-17:00、18:00-22:00",
-            "Yukiko": "13:00-17:00、18:00-22:00",
-            "東東": "13:00-17:00、18:00-22:00",
+            "Kona": "18:00-22:00",
+            "Meru": "13:00-22:00",
+            "Onime": "18:00-22:00",
+            "Yukiko": "13:00-22:00",
+            "東東": "18:00-22:00",
             "Kokona": "13:00-17:00",
             "Saki": "13:00-17:00",
             "水水": "18:00-22:00"
@@ -27328,9 +27332,9 @@ window.MAID_ROSTERS = {
             ],
             "魔法使": [
               "UU",
-              "小憐",
               "江雨",
-              "炸彈"
+              "炸彈",
+              "小嵐"
             ],
             "魔法導師": [
               "Kata"
@@ -27346,13 +27350,6 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "UU",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
-              "name": "小憐",
               "role": "魔法使",
               "type": "當值",
               "cancelled": false,
@@ -27378,6 +27375,13 @@ window.MAID_ROSTERS = {
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "小嵐",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -27388,7 +27392,6 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "小白": "限定到訪；個人時段未另行公布。",
             "UU": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "小憐": "原帖只列魔法結界開放時間；個人時段未公布。",
             "江雨": "原帖只列魔法結界開放時間；個人時段未公布。",
             "炸彈": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kata": "原帖只列魔法結界開放時間；個人時段未公布。"
@@ -27401,8 +27404,8 @@ window.MAID_ROSTERS = {
             "魔法使": [
               "Aqua",
               "Kiyoko",
-              "皇蕾",
-              "藍莓"
+              "幽靈",
+              "童童"
             ],
             "魔法導師": [
               "Ayane"
@@ -27424,22 +27427,22 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "皇蕾",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
-              "name": "藍莓",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
               "name": "Ayane",
               "role": "魔法導師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽靈",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "童童",
+              "role": "魔法使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -27450,11 +27453,8 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "Aqua": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Kiyoko": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "皇蕾": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "藍莓": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。"
-          },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+          }
         },
         {
           "date": "2026-10-28",
@@ -27465,7 +27465,7 @@ window.MAID_ROSTERS = {
               "Yukino",
               "Yurie",
               "芽芽",
-              "ぴこ"
+              "鈺"
             ],
             "魔法導師": [
               "Mori"
@@ -27501,15 +27501,15 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "ぴこ",
-              "role": "魔法使",
+              "name": "Mori",
+              "role": "魔法導師",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "Mori",
-              "role": "魔法導師",
+              "name": "鈺",
+              "role": "魔法使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -27522,7 +27522,6 @@ window.MAID_ROSTERS = {
             "Yukino": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Yurie": "原帖只列魔法結界開放時間；個人時段未公布。",
             "芽芽": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "ぴこ": "更表原圖辨認為「ぴこ」；個人時段未公布。",
             "Mori": "原帖只列魔法結界開放時間；個人時段未公布。"
           }
         },
@@ -27538,8 +27537,11 @@ window.MAID_ROSTERS = {
             "魔法使": [
               "Kiyoko",
               "Snowy",
-              "美麗",
-              "蘿露"
+              "芙恩",
+              "紫喵"
+            ],
+            "魔法導師": [
+              "茈"
             ]
           },
           "attendance_records": [
@@ -27579,15 +27581,22 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "美麗",
+              "name": "芙恩",
               "role": "魔法使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "蘿露",
+              "name": "紫喵",
               "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "茈",
+              "role": "魔法導師",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -27600,9 +27609,7 @@ window.MAID_ROSTERS = {
             "小妖精 ⟦@youseii.030⟧": "店舖營業時間18:00–23:00；個人時段未公布。",
             "毛毛": "店舖營業時間18:00–23:00；個人時段未公布。",
             "Kiyoko": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "美麗": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "Snowy": "原帖只列魔法結界開放時間；個人時段未公布。"
           },
           "source_names": {
             "小妖精 ⟦@youseii.030⟧": "小妖精"
@@ -27614,25 +27621,19 @@ window.MAID_ROSTERS = {
           "groups": {
             "魔法使": [
               "Mori",
-              "橙融",
               "豆豆",
-              "鈴風",
-              "阿兔"
+              "阿兔",
+              "靈兔",
+              "鈺",
+              "地鼠"
             ],
             "魔法導師": [
-              "蘿露"
+              "幽靈"
             ]
           },
           "attendance_records": [
             {
               "name": "Mori",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
-              "name": "橙融",
               "role": "魔法使",
               "type": "當值",
               "cancelled": false,
@@ -27646,13 +27647,6 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "鈴風",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
               "name": "阿兔",
               "role": "魔法使",
               "type": "當值",
@@ -27660,7 +27654,28 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "蘿露",
+              "name": "靈兔",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "鈺",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "地鼠",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽靈",
               "role": "魔法導師",
               "type": "當值",
               "cancelled": false,
@@ -27671,13 +27686,9 @@ window.MAID_ROSTERS = {
           "event_name": "聖堂之夜",
           "person_notes": {
             "Mori": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "橙融": "原帖只列魔法結界開放時間；個人時段未公布。",
             "豆豆": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "鈴風": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "阿兔": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
-          },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "阿兔": "原帖只列魔法結界開放時間；個人時段未公布。"
+          }
         },
         {
           "date": "2026-10-31",
@@ -27686,10 +27697,10 @@ window.MAID_ROSTERS = {
             "魔法使": [
               "Kata",
               "UU",
-              "雷海"
+              "雲海"
             ],
             "魔法導師": [
-              "蘿露"
+              "幽靈"
             ]
           },
           "attendance_records": [
@@ -27708,14 +27719,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "雷海",
+              "name": "雲海",
               "role": "魔法使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "蘿露",
+              "name": "幽靈",
               "role": "魔法導師",
               "type": "當值",
               "cancelled": false,
@@ -27726,11 +27737,8 @@ window.MAID_ROSTERS = {
           "event_name": "奇幻之夜",
           "person_notes": {
             "Kata": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "UU": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "雷海": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "蘿露": "原帖只列魔法結界開放時間；個人時段未公布。"
-          },
-          "notes": "原帖只列魔法結界開放時間；個人時段未公布。"
+            "UU": "原帖只列魔法結界開放時間；個人時段未公布。"
+          }
         },
         {
           "date": "2026-11-01",
@@ -27740,7 +27748,7 @@ window.MAID_ROSTERS = {
               "Kico",
               "Neya",
               "昭子",
-              "美恩"
+              "芙恩"
             ],
             "魔法導師": [
               "Ayane"
@@ -27772,13 +27780,6 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "美恩",
-              "role": "魔法使",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
               "name": "Ayane",
               "role": "魔法導師",
               "type": "當值",
@@ -27791,6 +27792,13 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "芙恩",
+              "role": "魔法使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/kirakiramaido/p/De3_G_RS_-e/",
@@ -27801,7 +27809,6 @@ window.MAID_ROSTERS = {
             "Kico": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Neya": "原帖只列魔法結界開放時間；個人時段未公布。",
             "昭子": "原帖只列魔法結界開放時間；個人時段未公布。",
-            "美恩": "原帖只列魔法結界開放時間；個人時段未公布。",
             "Ayane": "原帖只列魔法結界開放時間；個人時段未公布。",
             "viko": "原帖未列個人時段；貼文及店舖profile均列店舖營業時間18:00–23:00。"
           }
@@ -36159,7 +36166,7 @@ window.MAID_ROSTERS = {
     "小白": {
       "person_id": "A_19_133",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": [
         {
           "handle": "yuiii_yst",
@@ -38707,6 +38714,33 @@ window.MAID_ROSTERS = {
       "instagram_accounts": [],
       "names": [
         "pikari"
+      ]
+    },
+    "鈺": {
+      "person_id": "P_5173828d109244a0",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "鈺"
+      ]
+    },
+    "茈": {
+      "person_id": "P_b146c4fc5e174887",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "茈"
+      ]
+    },
+    "雲海": {
+      "person_id": "P_f4e7856488694d33",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "雲海"
       ]
     }
   },
@@ -46914,6 +46948,24 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "鈺": {
+        "person_id": "P_5173828d109244a0",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De3_G_RS_-e/",
+        "instagram_accounts": []
+      },
+      "茈": {
+        "person_id": "P_b146c4fc5e174887",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De3_G_RS_-e/",
+        "instagram_accounts": []
+      },
+      "雲海": {
+        "person_id": "P_f4e7856488694d33",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De3_G_RS_-e/",
+        "instagram_accounts": []
+      },
       "kata": {
         "person_id": "R_19_b903d686792c",
         "profile_image": "",
@@ -51962,13 +52014,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [
         "Maid Eidolon",
-        "Dear Devil",
-        "Kirakira Maido"
+        "Dear Devil"
       ],
       "shops": [
         "Maid Eidolon",
-        "Dear Devil",
-        "Kirakira Maido"
+        "Dear Devil"
       ]
     },
     "N___604": {
@@ -53332,12 +53382,8 @@ window.MAID_ROSTERS = {
     },
     "R_19_09b96c1b4b4d": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_5_ac728fa4b8cd": {
       "override": null,
@@ -53394,12 +53440,8 @@ window.MAID_ROSTERS = {
     },
     "R_19_4671460d2df0": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_5_672f561f1f67": {
       "override": null,
@@ -53472,12 +53514,8 @@ window.MAID_ROSTERS = {
     },
     "R_19_b02c5ecdc922": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_2_4cad5a1d0a89": {
       "override": null,
@@ -53523,21 +53561,13 @@ window.MAID_ROSTERS = {
     },
     "R_19_11dcc8ee96ff": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_19_be2a57a34b63": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_1_c82f813b0cb4": {
       "override": null,
@@ -53596,21 +53626,13 @@ window.MAID_ROSTERS = {
     },
     "R_19_54439cc6ac9a": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_19_11fcee52be2f": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_13_31002e80c800": {
       "override": null,
@@ -53642,12 +53664,8 @@ window.MAID_ROSTERS = {
     },
     "R_19_df892037d52b": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_18_2ce657d78928": {
       "override": null,
@@ -53669,12 +53687,8 @@ window.MAID_ROSTERS = {
     },
     "R_19_b6ee65348454": {
       "override": null,
-      "default": [
-        "Kirakira Maido"
-      ],
-      "shops": [
-        "Kirakira Maido"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_2_e3070717d696": {
       "override": null,
@@ -54604,6 +54618,33 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_5173828d109244a0": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "P_b146c4fc5e174887": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
+    },
+    "P_f4e7856488694d33": {
+      "override": null,
+      "default": [
+        "Kirakira Maido"
+      ],
+      "shops": [
+        "Kirakira Maido"
+      ]
     }
   },
   "weekly_events": [
@@ -55060,5 +55101,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T07:34+08:00"
+  "published_at": "2026-10-31T07:35+08:00"
 };

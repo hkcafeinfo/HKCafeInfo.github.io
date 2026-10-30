@@ -14673,6 +14673,48 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
         },
         {
+          "date": "2026-10-29",
+          "hours": "18:00-22:00",
+          "groups": {
+            "當值魔法使": [
+              "悅夢",
+              "葉子",
+              "飯團",
+              "Snowyyyy"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "悅夢",
+              "role": "當值魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "葉子",
+              "role": "當值魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "飯團",
+              "role": "當值魔法使",
+              "type": "當值"
+            },
+            {
+              "name": "Snowyyyy",
+              "role": "當值魔法使",
+              "type": "當值"
+            }
+          ],
+          "source": "https://www.instagram.com/queens_x_garden/p/DfEvsGczMKU/",
+          "event_name": "Sun仔生誕祭",
+          "review_names": {
+            "悅夢": "IG帳戶未出現在此來源；飯團另保留 provisional 身份。",
+            "葉子": "IG帳戶未出現在此來源；飯團另保留 provisional 身份。",
+            "飯團": "IG帳戶未出現在此來源；飯團另保留 provisional 身份。",
+            "Snowyyyy": "IG帳戶未出現在此來源；飯團另保留 provisional 身份。"
+          }
+        },
+        {
           "date": "2026-10-30",
           "hours": "18:00-22:00",
           "groups": {
@@ -31707,6 +31749,15 @@ window.MAID_ROSTERS = {
         "牙喵"
       ],
       "instagram": "https://www.instagram.com/meow__0825/"
+    },
+    "飯團": {
+      "person_id": "R_2fc7a9af2cf3ba51",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "飯團"
+      ]
     }
   },
   "person_accounts": {
@@ -39441,6 +39492,14 @@ window.MAID_ROSTERS = {
       },
       "歪歪": {
         "person_id": "N___524",
+        "profile_image": "",
+        "source": "",
+        "instagram": "",
+        "former_handles": [],
+        "instagram_accounts": []
+      },
+      "飯團": {
+        "person_id": "R_2fc7a9af2cf3ba51",
         "profile_image": "",
         "source": "",
         "instagram": "",
@@ -49293,6 +49352,15 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_2fc7a9af2cf3ba51": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
     }
   },
   "weekly_events": [
@@ -49749,5 +49817,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T08:32+08:00"
+  "published_at": "2026-10-30T08:45+08:00"
 };

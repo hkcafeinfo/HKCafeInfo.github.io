@@ -14593,12 +14593,12 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
-          "review_names": {
-            "靜流": "名稱由新官方單日公告更正：舊資料「靚流」；海報原文「靜流」並標註@shi_zu_ruu；person_id保留。"
-          },
           "alternate_sources": [
             "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
-          ]
+          ],
+          "review_names": {
+            "靜流": "名稱由新官方單日公告更正：舊資料「靚流」；海報原文「靜流」並標註@shi_zu_ruu；person_id保留。"
+          }
         },
         {
           "date": "2026-10-27",
@@ -14746,6 +14746,11 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值"
+            },
+            {
               "name": "奶茶",
               "role": "限定居民",
               "type": "限定"
@@ -14754,11 +14759,6 @@ window.MAID_ROSTERS = {
               "name": "海塩",
               "role": "限定居民",
               "type": "限定"
-            },
-            {
-              "name": "萌え魚",
-              "role": "出沒居民",
-              "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
@@ -14896,13 +14896,13 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "魚",
-              "role": "女僕",
+              "name": "Emi",
+              "role": "見習女僕",
               "type": "當值"
             },
             {
-              "name": "Emi",
-              "role": "見習女僕",
+              "name": "魚",
+              "role": "女僕",
               "type": "當值"
             },
             {
@@ -14923,8 +14923,8 @@ window.MAID_ROSTERS = {
           ],
           "review_names": {
             "Yura": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
-            "魚": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
             "Emi": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "魚": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
             "Simanna": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
             "許洛": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees."
           }
@@ -15547,6 +15547,16 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
+              "name": "啾咿",
+              "role": "女僕",
+              "type": "當值"
+            },
+            {
               "name": "兔仔",
               "role": "見習女僕",
               "type": "當值"
@@ -15557,18 +15567,8 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "青蛙",
-              "role": "女僕",
-              "type": "當值"
-            },
-            {
               "name": "Simanna",
               "role": "見習女僕",
-              "type": "當值"
-            },
-            {
-              "name": "啾咿",
-              "role": "女僕",
               "type": "當值"
             }
           ],
@@ -15580,11 +15580,11 @@ window.MAID_ROSTERS = {
           ],
           "review_names": {
             "Yura": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
+            "青蛙": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
+            "啾咿": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
             "兔仔": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
             "狗狗": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "青蛙": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "Simanna": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "啾咿": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles."
+            "Simanna": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles."
           }
         },
         {
@@ -15653,6 +15653,16 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
+              "name": "Halo",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值"
+            },
+            {
               "name": "蕉蕉",
               "role": "女僕",
               "type": "當值"
@@ -15663,18 +15673,8 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "Halo",
-              "role": "見習女僕",
-              "type": "當值"
-            },
-            {
               "name": "方包",
               "role": "女僕",
-              "type": "當值"
-            },
-            {
-              "name": "金魚",
-              "role": "見習女僕",
               "type": "當值"
             }
           ],
@@ -15685,11 +15685,11 @@ window.MAID_ROSTERS = {
           ],
           "review_names": {
             "晏咲": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
+            "Halo": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
+            "金魚": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
             "蕉蕉": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
             "青蛙": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
-            "Halo": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
-            "方包": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
-            "金魚": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles."
+            "方包": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles."
           }
         },
         {
@@ -37700,6 +37700,12 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "飯團": {
+        "person_id": "R_2fc7a9af2cf3ba51",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "奶茶": {
         "person_id": "N___432",
         "profile_image": "",
@@ -37730,12 +37736,6 @@ window.MAID_ROSTERS = {
       },
       "歪歪": {
         "person_id": "N___524",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "飯團": {
-        "person_id": "R_2fc7a9af2cf3ba51",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -37799,14 +37799,14 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "魚": {
-        "person_id": "N___654",
+      "Emi": {
+        "person_id": "N_Emi",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
       },
-      "Emi": {
-        "person_id": "N_Emi",
+      "魚": {
+        "person_id": "N___654",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -37838,6 +37838,12 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "茶茶": {
+        "person_id": "R_14_143787021eebbd05",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       },
       "青蛙": {
         "person_id": "N___649",
@@ -37986,7 +37992,7 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "茶茶": {
+      "茶 ⟦@R_14_143787021eebbd05⟧": {
         "person_id": "R_14_143787021eebbd05",
         "profile_image": "",
         "source": "",
@@ -38044,28 +38050,11 @@ window.MAID_ROSTERS = {
           }
         ]
       },
-      "茶 ⟦@R_14_143787021eebbd05⟧": {
-        "person_id": "R_14_143787021eebbd05",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
       "yuri": {
         "person_id": "R_14_ab997328677e",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
-      },
-      "halo": {
-        "person_id": "N_YY",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": [
-          {
-            "handle": "_yuet.big.dick_",
-            "status": "current"
-          }
-        ]
       }
     },
     "Sugar Factory Cafe": {
@@ -42123,11 +42112,9 @@ window.MAID_ROSTERS = {
     "N_YY": {
       "override": null,
       "default": [
-        "Comma Cafe",
         "Maid Academy"
       ],
       "shops": [
-        "Comma Cafe",
         "Maid Academy"
       ]
     },
@@ -47482,5 +47469,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T10:14+08:00"
+  "published_at": "2026-10-30T10:21+08:00"
 };

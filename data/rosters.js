@@ -14567,7 +14567,7 @@ window.MAID_ROSTERS = {
               "萌え魚"
             ],
             "限定居民": [
-              "靚流"
+              "靜流"
             ]
           },
           "attendance_records": [
@@ -14587,12 +14587,18 @@ window.MAID_ROSTERS = {
               "type": "當值"
             },
             {
-              "name": "靚流",
+              "name": "靜流",
               "role": "限定居民",
               "type": "限定"
             }
           ],
-          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+          "source": "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/",
+          "review_names": {
+            "靜流": "名稱由新官方單日公告更正：舊資料「靚流」；海報原文「靜流」並標註@shi_zu_ruu；person_id保留。"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
+          ]
         },
         {
           "date": "2026-10-27",
@@ -30454,14 +30460,21 @@ window.MAID_ROSTERS = {
         "莓"
       ]
     },
-    "靚流": {
+    "靜流": {
       "person_id": "R_13_ff63e183e4ee",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "shi_zu_ruu",
+          "status": "current"
+        }
+      ],
       "names": [
+        "靜流",
         "靚流"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/shi_zu_ruu/"
     },
     "風藍": {
       "person_id": "R_3_e1f3269efb25",
@@ -31595,15 +31608,6 @@ window.MAID_ROSTERS = {
       "instagram_accounts": [],
       "names": [
         "Hanami"
-      ]
-    },
-    "靜流": {
-      "person_id": "R_9e392a69df39239f",
-      "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
-      "names": [
-        "靜流"
       ]
     },
     "Eille": {
@@ -39442,13 +39446,18 @@ window.MAID_ROSTERS = {
           }
         ]
       },
-      "靚流": {
+      "靜流": {
         "person_id": "R_13_ff63e183e4ee",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/shi_zu_ruu/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "shi_zu_ruu",
+            "status": "current"
+          }
+        ]
       },
       "大Sakura": {
         "person_id": "R_13_7e5e641f2b84",
@@ -49817,5 +49826,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T08:45+08:00"
+  "published_at": "2026-10-30T09:04+08:00"
 };

@@ -1704,6 +1704,9 @@ window.MAID_ROSTERS = {
               "Rue",
               "Shimo",
               "靈兒"
+            ],
+            "生誕主角": [
+              "日井"
             ]
           },
           "attendance_records": [
@@ -1769,27 +1772,37 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "日井",
+              "role": "生誕主角",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/",
+          "source": "https://www.instagram.com/p/De1ompxyJtv/",
           "event_name": "Pink Eclipse 2026 生誕祭",
+          "alternate_sources": [
+            "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/"
+          ],
           "person_notes": {
-            "Cyan": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
-            "一夕": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
-            "Itsu": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "Cyan": "個人時段：17:00-20:00、20:00-23:00；按活動上／下部Guest名單。",
+            "一夕": "個人時段：17:00-20:00、20:00-23:00；按活動上／下部Guest名單。",
+            "Itsu": "個人時段：17:00-20:00、20:00-23:00；按活動上／下部Guest名單。",
             "Koma": "個人時段：17:00-20:00；按活動上／下部Guest名單。",
-            "Roro": "個人時段：17:00-23:00；按活動上／下部Guest名單。",
+            "Roro": "個人時段：17:00-20:00、20:00-23:00；按活動上／下部Guest名單。",
             "Yako": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
             "Rue": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
             "Shimo": "個人時段：20:00-23:00；按活動上／下部Guest名單。",
             "靈兒": "個人時段：20:00-23:00；按活動上／下部Guest名單。"
           },
           "person_times": {
-            "Cyan": "17:00-23:00",
-            "一夕": "17:00-23:00",
-            "Itsu": "17:00-23:00",
+            "Cyan": "17:00-20:00、20:00-23:00",
+            "一夕": "17:00-20:00、20:00-23:00",
+            "Itsu": "17:00-20:00、20:00-23:00",
             "Koma": "17:00-20:00",
-            "Roro": "17:00-23:00",
+            "Roro": "17:00-20:00、20:00-23:00",
             "Yako": "20:00-23:00",
             "Rue": "20:00-23:00",
             "Shimo": "20:00-23:00",
@@ -5521,6 +5534,94 @@ window.MAID_ROSTERS = {
             "Toffee": "18:00-23:00"
           },
           "notes": "個人時段：18:00-23:00"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "18:00-00:30",
+          "groups": {
+            "限定修女": [
+              "Sayori"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Sayori",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfH6USFiUEO/",
+          "person_notes": {
+            "Sayori": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Sayori": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "18:00-00:30",
+          "groups": {
+            "限定修女": [
+              "Mayako"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Mayako",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfH6yfACaTI/",
+          "person_notes": {
+            "Mayako": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Mayako": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "18:00-00:30",
+          "groups": {
+            "限定修女": [
+              "Zoru",
+              "Enna"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Zoru",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Enna",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfH7BaWCV60/",
+          "person_notes": {
+            "Zoru": "個人時段：18:00-23:00",
+            "Enna": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Zoru": "18:00-23:00",
+            "Enna": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
         }
       ],
       "address": "旺角登打士街43號登打士廣場2105–2106室",
@@ -5656,7 +5757,7 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "當值精靈": [
-              "Rinka",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "昭子",
               "絲",
               "豆豆",
@@ -5671,7 +5772,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "當值精靈",
               "type": "當值",
               "cancelled": false,
@@ -5720,7 +5821,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
+          "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka"
+          }
         },
         {
           "date": "2026-10-14",
@@ -5730,7 +5834,7 @@ window.MAID_ROSTERS = {
               "Aya",
               "P4",
               "Sumire",
-              "Uri",
+              "Uri ⟦@N_Uri⟧",
               "Yumi",
               "小眠",
               "小睡",
@@ -5768,7 +5872,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Uri",
+              "name": "Uri ⟦@N_Uri⟧",
               "role": "當值精靈",
               "type": "當值",
               "cancelled": false,
@@ -5831,7 +5935,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
+          "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
+          "source_names": {
+            "Uri ⟦@N_Uri⟧": "Uri"
+          }
         },
         {
           "date": "2026-10-15",
@@ -5843,7 +5950,7 @@ window.MAID_ROSTERS = {
               "P4",
               "Rizuko",
               "Sumire",
-              "Uri",
+              "Uri ⟦@N_Uri⟧",
               "奶昔",
               "幼幼",
               "彌亞",
@@ -5896,7 +6003,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Uri",
+              "name": "Uri ⟦@N_Uri⟧",
               "role": "當值精靈",
               "type": "當值",
               "cancelled": false,
@@ -5966,7 +6073,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/p/DeR6uAIj_g4/"
+          "source": "https://www.instagram.com/p/DeR6uAIj_g4/",
+          "source_names": {
+            "Uri ⟦@N_Uri⟧": "Uri"
+          }
         },
         {
           "date": "2026-10-16",
@@ -6102,7 +6212,7 @@ window.MAID_ROSTERS = {
             "活動出席精靈": [
               "Hani",
               "Keiko",
-              "Rinka",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "Yuki",
               "呆呆",
               "小睡",
@@ -6130,7 +6240,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "活動出席精靈",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -6194,7 +6304,7 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "Hani": "按較新週更表記錄 15:00-23:00。",
             "Keiko": "按較新週更表記錄 15:00-23:00。",
-            "Rinka": "按較新週更表記錄 15:00-23:00。",
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "按較新週更表記錄 15:00-23:00。",
             "Yuki": "按較新週更表記錄 15:00-23:00。",
             "呆呆": "按較新週更表記錄 15:00-23:00。",
             "小睡": "按較新週更表記錄 15:00-23:00。",
@@ -6202,6 +6312,9 @@ window.MAID_ROSTERS = {
             "雪": "按較新週更表記錄 15:00-23:00。",
             "魚骨": "按較新週更表記錄 15:00-23:00。",
             "Pikachu": "按較新週更表記錄 15:00-23:00。"
+          },
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka"
           },
           "notes": "按較新週更表記錄 15:00-23:00。"
         },
@@ -6440,7 +6553,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值精靈": [
               "Aya",
-              "Rinka",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "suu",
               "奶昔",
               "小睡",
@@ -6461,7 +6574,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "當值精靈",
               "type": "當值",
               "cancelled": false,
@@ -6517,7 +6630,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/"
+          "source": "https://www.instagram.com/agarden_2001/p/Dej9sqAHQpf/",
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka"
+          }
         },
         {
           "date": "2026-10-21",
@@ -6984,7 +7100,7 @@ window.MAID_ROSTERS = {
               "RINKA",
               "Sumire",
               "Szyiu",
-              "Uri",
+              "Uri ⟦@N_Uri⟧",
               "okk",
               "奶昔",
               "幼幼",
@@ -7052,7 +7168,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Uri",
+              "name": "Uri ⟦@N_Uri⟧",
               "role": "當日出席精靈",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -7156,7 +7272,7 @@ window.MAID_ROSTERS = {
             "RINKA": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "Sumire": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "Szyiu": "活動帖列出當日出席精靈；未逐人列明完整更期。",
-            "Uri": "活動帖列出當日出席精靈；未逐人列明完整更期。",
+            "Uri ⟦@N_Uri⟧": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "okk": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "奶昔": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "幼幼": "活動帖列出當日出席精靈；未逐人列明完整更期。",
@@ -7167,6 +7283,9 @@ window.MAID_ROSTERS = {
             "蛋蛋": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "豆豆": "活動帖列出當日出席精靈；未逐人列明完整更期。",
             "鴨鴨": "活動帖列出當日出席精靈；未逐人列明完整更期。"
+          },
+          "source_names": {
+            "Uri ⟦@N_Uri⟧": "Uri"
           }
         },
         {
@@ -7351,7 +7470,7 @@ window.MAID_ROSTERS = {
               "昭子",
               "幼幼",
               "月",
-              "Rinka",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "細rinka",
               "羽琉那",
               "mona",
@@ -7390,7 +7509,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "當值精靈",
               "type": "當值",
               "cancelled": false,
@@ -7464,6 +7583,9 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/agarden_2001/p/De82JZovFEF/"
           ],
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka"
+          },
           "person_notes": {
             "羽琉那": "首次當值"
           }
@@ -7601,8 +7723,8 @@ window.MAID_ROSTERS = {
               "鴨鴨",
               "Lori",
               "奶昔",
-              "Rinka",
-              "Uri",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
+              "Uri ⟦@N_Uri⟧",
               "KK",
               "Sumire",
               "Mercy",
@@ -7657,14 +7779,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "當值精靈",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "Uri",
+              "name": "Uri ⟦@N_Uri⟧",
               "role": "當值精靈",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -7753,7 +7875,11 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/agarden_2001/p/DfBz2HGvD8A/",
             "https://www.instagram.com/agarden_2001/p/DfEr4oCvBV5/"
-          ]
+          ],
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka",
+            "Uri ⟦@N_Uri⟧": "Uri"
+          }
         },
         {
           "date": "2026-10-31",
@@ -8063,6 +8189,323 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/agarden_2001/p/De351jJj4N7/"
         },
         {
+          "date": "2026-11-02",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "鴨鴨",
+              "幼幼",
+              "Sumire",
+              "Mercy",
+              "咩咩",
+              "zoe",
+              "kiukiu"
+            ],
+            "限定精靈": [
+              "小白虎"
+            ],
+            "花園守護": [
+              "Pikachu"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "鴨鴨",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幼幼",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "咩咩",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "zoe",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kiukiu",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小白虎",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Pikachu",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfICJzLHaBV/"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "豆豆",
+              "阿月",
+              "aya",
+              "小睡",
+              "烏龜",
+              "zoe"
+            ],
+            "限定精靈": [
+              "Rxsa",
+              "毛毛"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "豆豆",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "aya",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "zoe",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rxsa",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "毛毛",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfICJzLHaBV/"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值精靈": [
+              "Akari",
+              "P4",
+              "Yuki",
+              "蛋蛋",
+              "麻糬",
+              "小睡",
+              "Yumi",
+              "魚骨",
+              "羽琉那",
+              "mona",
+              "咩咩",
+              "kiukiu"
+            ],
+            "限定精靈": [
+              "呆呆"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "P4",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuki",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "麻糬",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小睡",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yumi",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "魚骨",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "羽琉那",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "咩咩",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kiukiu",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "呆呆",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfICJzLHaBV/"
+        },
+        {
           "date": "2026-11-05",
           "hours": "17:00-22:00",
           "groups": {
@@ -8075,6 +8518,9 @@ window.MAID_ROSTERS = {
               "絲",
               "鴨鴨",
               "Hami"
+            ],
+            "花園守護": [
+              "Whitney"
             ]
           },
           "attendance_records": [
@@ -8133,6 +8579,13 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DerCCV1vGat/",
@@ -8142,12 +8595,288 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-06",
+          "hours": "17:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "Akari",
+              "Lori",
+              "Uri ⟦@P_726b4d61480e4f52⟧",
+              "蛋蛋",
+              "Mercy",
+              "小眠",
+              "Rei",
+              "mona",
+              "千暮雪",
+              "烏龜",
+              "留多晚"
+            ],
+            "限定精靈": [
+              "üu",
+              "Aki"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Akari",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Lori",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Uri ⟦@P_726b4d61480e4f52⟧",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蛋蛋",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mercy",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小眠",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rei",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "mona",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千暮雪",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "烏龜",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "留多晚",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "üu",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Aki",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+          "source_names": {
+            "Uri ⟦@P_726b4d61480e4f52⟧": "Uri"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "15:00-23:00",
+          "groups": {
+            "當值精靈": [
+              "絲",
+              "Yuki",
+              "KK",
+              "Sumire",
+              "阿月",
+              "彌亞",
+              "Rinka ⟦@P_a8fc5cffa8164698⟧",
+              "呆呆",
+              "Aiya",
+              "澄澄",
+              "Zoe"
+            ],
+            "限定精靈": [
+              "千銀",
+              "109",
+              "小璃",
+              "寶寶"
+            ],
+            "花園守護": [
+              "Whitney"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "絲",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuki",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "KK",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sumire",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿月",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "彌亞",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rinka ⟦@P_a8fc5cffa8164698⟧",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "呆呆",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Aiya",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "澄澄",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Zoe",
+              "role": "當值精靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千銀",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "109",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小璃",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "寶寶",
+              "role": "限定精靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+          "source_names": {
+            "Rinka ⟦@P_a8fc5cffa8164698⟧": "Rinka"
+          }
+        },
+        {
           "date": "2026-11-08",
           "hours": "15:00-22:00",
           "groups": {
             "活動出席精靈": [
               "Hami",
-              "Uri",
+              "Uri ⟦@N_Uri⟧",
               "奶昔",
               "幼幼",
               "水母",
@@ -8156,6 +8885,9 @@ window.MAID_ROSTERS = {
               "骨頭",
               "鴨鴨",
               "昭子"
+            ],
+            "花園守護": [
+              "Whitney"
             ]
           },
           "attendance_records": [
@@ -8167,7 +8899,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Uri",
+              "name": "Uri ⟦@N_Uri⟧",
               "role": "活動出席精靈",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -8228,13 +8960,20 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "Whitney",
+              "role": "花園守護",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/cec.akiko/p/De3FNaBI74l/",
           "event_name": "「想你的話...你會出現嗎？」 昭子一週年",
           "person_notes": {
             "Hami": "個人時段未另行列明。",
-            "Uri": "個人時段未另行列明。",
+            "Uri ⟦@N_Uri⟧": "個人時段未另行列明。",
             "奶昔": "個人時段未另行列明。",
             "幼幼": "個人時段未另行列明。",
             "水母": "個人時段未另行列明。",
@@ -8243,6 +8982,9 @@ window.MAID_ROSTERS = {
             "骨頭": "個人時段未另行列明。",
             "鴨鴨": "個人時段未另行列明。",
             "昭子": "用戶確認補回週年主角；原帖海報昭子一週年。個人時段未另行列明。"
+          },
+          "source_names": {
+            "Uri ⟦@N_Uri⟧": "Uri"
           }
         },
         {
@@ -8253,7 +8995,7 @@ window.MAID_ROSTERS = {
               "Bibi",
               "Kora",
               "Nemu",
-              "Rinka",
+              "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "小蛾",
               "Saki",
               "Sumire",
@@ -8288,7 +9030,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Rinka",
+              "name": "Rinka ⟦@hoshimiya_.rinka0226⟧",
               "role": "活動出席精靈",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -8367,7 +9109,7 @@ window.MAID_ROSTERS = {
             "Bibi": "個人時段未另行列明。",
             "Kora": "個人時段未另行列明。",
             "Nemu": "個人時段未另行列明。",
-            "Rinka": "個人時段未另行列明。",
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "個人時段未另行列明。",
             "小蛾": "個人時段未另行列明。",
             "Saki": "個人時段未另行列明。",
             "Sumire": "個人時段未另行列明。",
@@ -8377,6 +9119,9 @@ window.MAID_ROSTERS = {
             "笛子": "個人時段未另行列明。",
             "蛋蛋": "個人時段未另行列明。",
             "鴨鴨": "個人時段未另行列明。"
+          },
+          "source_names": {
+            "Rinka ⟦@hoshimiya_.rinka0226⟧": "Rinka"
           },
           "notes": "個人時段未另行列明。"
         }
@@ -9964,7 +10709,7 @@ window.MAID_ROSTERS = {
               "水獺",
               "Fumi"
             ],
-            "限定人偶": [
+            "新生人偶": [
               "FY",
               "Ruri"
             ]
@@ -10028,20 +10773,23 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "FY",
-              "role": "限定人偶",
+              "role": "新生人偶",
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Ruri",
-              "role": "限定人偶",
+              "role": "新生人偶",
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
+          "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
+          "alternate_sources": [
+            "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -13376,7 +14124,16 @@ window.MAID_ROSTERS = {
             "當值女僕": [
               "三文魚公主",
               "小茵",
-              "椰奶"
+              "椰奶",
+              "999",
+              "小緒"
+            ],
+            "限定月下執事": [
+              "小然"
+            ],
+            "限定月下夜僕": [
+              "路奇",
+              "牙米"
             ]
           },
           "attendance_records": [
@@ -13400,10 +14157,55 @@ window.MAID_ROSTERS = {
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "小然",
+              "role": "限定月下執事",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "路奇",
+              "role": "限定月下夜僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙米",
+              "role": "限定月下夜僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "999",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小緒",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
-          "event_name": "月下夜僕、悪戯の時間だよ"
+          "event_name": "月下夜僕、悪戯の時間だよ",
+          "person_notes": {
+            "小然": "個人時段：15:00-20:00",
+            "路奇": "個人時段：15:00-20:00",
+            "牙米": "個人時段：15:00-20:00"
+          },
+          "person_times": {
+            "小然": "15:00-20:00",
+            "路奇": "15:00-20:00",
+            "牙米": "15:00-20:00"
+          }
         },
         {
           "date": "2026-11-01",
@@ -13415,6 +14217,13 @@ window.MAID_ROSTERS = {
               "小茵",
               "牙涼",
               "霖霖"
+            ],
+            "限定月下夜僕": [
+              "紀砂",
+              "豆沙"
+            ],
+            "限定月下執事": [
+              "Haruna"
             ]
           },
           "attendance_records": [
@@ -13452,10 +14261,41 @@ window.MAID_ROSTERS = {
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "紀砂",
+              "role": "限定月下夜僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "豆沙",
+              "role": "限定月下夜僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Haruna",
+              "role": "限定月下執事",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_baberucafe/p/Dd_NkUrk8MD/",
-          "event_name": "月下夜僕、悪戯の時間だよ"
+          "event_name": "月下夜僕、悪戯の時間だよ",
+          "person_notes": {
+            "紀砂": "個人時段：15:00-20:00",
+            "豆沙": "個人時段：15:00-20:00",
+            "Haruna": "個人時段：15:00-20:00"
+          },
+          "person_times": {
+            "紀砂": "15:00-20:00",
+            "豆沙": "15:00-20:00",
+            "Haruna": "15:00-20:00"
+          }
         }
       ],
       "address": "太子大南街98號",
@@ -15112,7 +15952,8 @@ window.MAID_ROSTERS = {
           "groups": {
             "一日限定女僕": [
               "YK",
-              "Kuro"
+              "Kuro",
+              "YK Kuro"
             ]
           },
           "attendance_records": [
@@ -15129,11 +15970,22 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "YK Kuro",
+              "role": "一日限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/",
           "person_notes": {
-            "YK": "原合寫YK Kuro為兩人；圖片位置標註已核。"
+            "YK": "原合寫YK Kuro為兩人；圖片位置標註已核。",
+            "YK Kuro": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "YK Kuro": "18:30-21:30"
           }
         },
         {
@@ -15161,10 +16013,20 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/maidcafe.misty/p/DeR38_bqVJx/",
+          "source": "https://www.instagram.com/p/DeR4O1jqYvK/",
           "alternate_sources": [
-            "https://www.instagram.com/maidcafe.misty/p/DeR4O1jqYvK/"
-          ]
+            "https://www.instagram.com/maidcafe.misty/p/DeR4O1jqYvK/",
+            "https://www.instagram.com/maidcafe.misty/p/DeR38_bqVJx/"
+          ],
+          "person_notes": {
+            "Maru": "個人時段：18:30-21:30",
+            "Mio": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "Maru": "18:30-21:30",
+            "Mio": "18:30-21:30"
+          },
+          "notes": "個人時段：18:30-21:30"
         },
         {
           "date": "2026-10-28",
@@ -20317,21 +21179,21 @@ window.MAID_ROSTERS = {
             {
               "name": "Kokona",
               "role": "下午場特邀魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "下午場特邀魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "晚上場參演魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -20340,7 +21202,8 @@ window.MAID_ROSTERS = {
           "event_name": "魔女觀察日記 2026 - 最終回",
           "alternate_sources": [
             "https://www.instagram.com/sugarfactorycafe/p/DeoQ9N2BjLu/",
-            "https://www.instagram.com/stories/highlights/18083791973269073/"
+            "https://www.instagram.com/stories/highlights/18083791973269073/",
+            "https://www.instagram.com/sugarfactorycafe/p/DeoRDhohJJT/"
           ],
           "person_notes": {
             "Kona": "個人時段：13:00-17:00、18:00-22:00；兩場活動各自列明。",
@@ -20362,6 +21225,590 @@ window.MAID_ROSTERS = {
             "Saki": "13:00-17:00",
             "水水": "18:00-22:00"
           }
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Kona",
+              "水水"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "水水",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Kona": "個人時段：13:00-22:00",
+            "水水": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Kona": "13:00-22:00",
+            "水水": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Meru",
+              "花琉"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Meru": "個人時段：13:00-22:00",
+            "花琉": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Meru": "13:00-22:00",
+            "花琉": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Kona",
+              "東東",
+              "紗月"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Kona": "個人時段：13:00-22:00",
+            "東東": "個人時段：13:00-18:00",
+            "紗月": "個人時段：13:00-18:00"
+          },
+          "person_times": {
+            "Kona": "13:00-22:00",
+            "東東": "13:00-18:00",
+            "紗月": "13:00-18:00"
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Onime",
+              "小莓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Onime": "個人時段：13:00-22:00",
+            "小莓": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Onime": "13:00-22:00",
+            "小莓": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Meru",
+              "紗月",
+              "Akane"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Meru": "個人時段：13:00-22:00",
+            "紗月": "個人時段：13:00-18:00",
+            "Akane": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Meru": "13:00-22:00",
+            "紗月": "13:00-18:00",
+            "Akane": "17:00-22:00"
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Onime",
+              "小莓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Onime": "個人時段：13:00-22:00",
+            "小莓": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Onime": "13:00-22:00",
+            "小莓": "17:00-22:00"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "紗月",
+              "花琉"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "紗月",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "紗月": "個人時段：13:00-22:00",
+            "花琉": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "紗月": "13:00-22:00",
+            "花琉": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Yukiko",
+              "Kona"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Yukiko": "個人時段：13:00-22:00",
+            "Kona": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Yukiko": "13:00-22:00",
+            "Kona": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-09",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Yukiko",
+              "花琉"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "花琉",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Yukiko": "個人時段：13:00-22:00",
+            "花琉": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Yukiko": "13:00-22:00",
+            "花琉": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-10",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Kona",
+              "Meru"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Kona": "個人時段：13:00-22:00",
+            "Meru": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Kona": "13:00-22:00",
+            "Meru": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-11",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Onime",
+              "東東",
+              "小莓",
+              "Akane"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Onime": "個人時段：13:00-22:00",
+            "東東": "個人時段：13:00-22:00",
+            "小莓": "個人時段：13:00-18:00",
+            "Akane": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Onime": "13:00-22:00",
+            "東東": "13:00-22:00",
+            "小莓": "13:00-18:00",
+            "Akane": "17:00-22:00"
+          }
+        },
+        {
+          "date": "2026-11-12",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "東東",
+              "Meru"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "東東",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Meru",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "東東": "個人時段：13:00-22:00",
+            "Meru": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "東東": "13:00-22:00",
+            "Meru": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
+        },
+        {
+          "date": "2026-11-13",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Onime",
+              "Akane",
+              "小莓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Akane",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小莓",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Onime": "個人時段：13:00-22:00",
+            "Akane": "個人時段：17:00-22:00",
+            "小莓": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Onime": "13:00-22:00",
+            "Akane": "17:00-22:00",
+            "小莓": "17:00-22:00"
+          }
+        },
+        {
+          "date": "2026-11-14",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Yukiko",
+              "Onime"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Yukiko",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Onime",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Yukiko": "個人時段：13:00-22:00",
+            "Onime": "個人時段：13:00-18:00"
+          },
+          "person_times": {
+            "Yukiko": "13:00-22:00",
+            "Onime": "13:00-18:00"
+          }
+        },
+        {
+          "date": "2026-11-15",
+          "hours": "13:00-22:00",
+          "groups": {
+            "當值女僕": [
+              "Kona",
+              "水水"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kona",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "水水",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/stories/highlights/18083791973269073/",
+          "person_notes": {
+            "Kona": "個人時段：13:00-22:00",
+            "水水": "個人時段：13:00-22:00"
+          },
+          "person_times": {
+            "Kona": "13:00-22:00",
+            "水水": "13:00-22:00"
+          },
+          "notes": "個人時段：13:00-22:00"
         }
       ],
       "notice": "星期六 20:00 後為 Girls Bar 時段。",
@@ -21296,11 +22743,18 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+          "source": "https://www.instagram.com/p/DfHI1WCJTnJ/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
-            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
-          ]
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
+            "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
+          ],
+          "person_notes": {
+            "小鈴": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "小鈴": "18:30-21:30"
+          }
         },
         {
           "date": "2026-10-31",
@@ -21358,8 +22812,17 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
-            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/"
-          ]
+            "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
+            "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
+          ],
+          "person_notes": {
+            "Hanami": "個人時段：18:30-21:30",
+            "靜流": "個人時段：18:30-21:30"
+          },
+          "person_times": {
+            "Hanami": "18:30-21:30",
+            "靜流": "18:30-21:30"
+          }
         },
         {
           "date": "2026-11-01",
@@ -22522,6 +23985,9 @@ window.MAID_ROSTERS = {
             ],
             "限定天使": [
               "真奈"
+            ],
+            "當值天使": [
+              "Moli"
             ]
           },
           "attendance_records": [
@@ -22559,6 +24025,13 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "Moli",
+              "role": "當值天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
@@ -22569,8 +24042,7 @@ window.MAID_ROSTERS = {
             "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          }
         },
         {
           "date": "2026-10-31",
@@ -24001,7 +25473,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "陀螺盃／萬聖節event",
           "alternate_sources": [
-            "https://www.instagram.com/mistia_luna/p/De5ThBOztfW/"
+            "https://www.instagram.com/mistia_luna/p/De5ThBOztfW/",
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
           ],
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
@@ -24230,7 +25703,10 @@ window.MAID_ROSTERS = {
             "Mo": "12:00-17:00",
             "バカ": "12:00-17:00",
             "九四": "18:00-23:00"
-          }
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ]
         },
         {
           "date": "2026-10-28",
@@ -24317,7 +25793,7 @@ window.MAID_ROSTERS = {
             "玄幽": "個人時段：17:00-23:00",
             "玲奈": "個人時段：17:00-23:00",
             "神樂": "個人時段：12:00-17:00",
-            "奈雅": "個人時段：12:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
             "真冬": "個人時段：17:00-23:00",
             "Haru": "個人時段：18:00-23:00"
           },
@@ -24327,10 +25803,13 @@ window.MAID_ROSTERS = {
             "玄幽": "17:00-23:00",
             "玲奈": "17:00-23:00",
             "神樂": "12:00-17:00",
-            "奈雅": "12:00-23:00",
+            "奈雅": "12:00-17:00",
             "真冬": "17:00-23:00",
             "Haru": "18:00-23:00"
-          }
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ]
         },
         {
           "date": "2026-10-29",
@@ -24435,7 +25914,7 @@ window.MAID_ROSTERS = {
             "小嵐": "個人時段：17:00-23:00",
             "玲奈": "個人時段：17:00-23:00",
             "神樂": "個人時段：12:00-17:00",
-            "奈雅": "個人時段：12:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
             "真冬": "個人時段：17:00-23:00",
             "小汐": "個人時段：18:00-23:00"
           },
@@ -24447,10 +25926,13 @@ window.MAID_ROSTERS = {
             "小嵐": "17:00-23:00",
             "玲奈": "17:00-23:00",
             "神樂": "12:00-17:00",
-            "奈雅": "12:00-23:00",
+            "奈雅": "12:00-17:00",
             "真冬": "17:00-23:00",
             "小汐": "18:00-23:00"
-          }
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -24462,12 +25944,16 @@ window.MAID_ROSTERS = {
               "Toffee",
               "yuzu",
               "バカ",
-              "玲奈"
+              "玲奈",
+              "萌え魚"
             ],
             "當值廚娘": [
               "Kaoko",
               "Mo",
               "真冬"
+            ],
+            "限定當值女僕": [
+              "Hina"
             ]
           },
           "attendance_records": [
@@ -24533,6 +26019,20 @@ window.MAID_ROSTERS = {
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hina",
+              "role": "限定當值女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
@@ -24546,7 +26046,9 @@ window.MAID_ROSTERS = {
             "玲奈": "個人時段：15:00-23:00",
             "Kaoko": "個人時段：20:00-23:00",
             "Mo": "個人時段：17:00-23:00",
-            "真冬": "個人時段：12:00-17:00"
+            "真冬": "個人時段：12:00-17:00",
+            "萌え魚": "個人時段：12:00-17:00",
+            "Hina": "個人時段：18:00-23:00"
           },
           "person_times": {
             "Riley": "15:00-23:00",
@@ -24557,7 +26059,9 @@ window.MAID_ROSTERS = {
             "玲奈": "15:00-23:00",
             "Kaoko": "20:00-23:00",
             "Mo": "17:00-23:00",
-            "真冬": "12:00-17:00"
+            "真冬": "12:00-17:00",
+            "萌え魚": "12:00-17:00",
+            "Hina": "18:00-23:00"
           }
         },
         {
@@ -24689,6 +26193,111 @@ window.MAID_ROSTERS = {
             "真冬": "20:00-23:00",
             "奶茶": "18:00-23:00"
           }
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "12:00-23:00",
+          "groups": {
+            "限定當值女僕": [
+              "Tina"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Tina",
+              "role": "限定當值女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfH3JTdTlMv/",
+          "person_notes": {
+            "Tina": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Tina": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "12:00-23:00",
+          "groups": {
+            "活動嘉賓": [
+              "Yuzuki",
+              "Azusa",
+              "Moku",
+              "Miyuki",
+              "小雪"
+            ],
+            "生誕主角": [
+              "pikari"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Yuzuki",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Azusa",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Moku",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Miyuki",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小雪",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "pikari",
+              "role": "生誕主角",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+          "event_name": "pikari 初の生誕祭·魔法小兔茶會",
+          "person_notes": {
+            "Yuzuki": "個人時段：18:00-23:00",
+            "Azusa": "個人時段：18:00-23:00",
+            "Moku": "個人時段：18:00-23:00",
+            "Miyuki": "個人時段：18:00-23:00",
+            "小雪": "個人時段：18:00-23:00",
+            "pikari": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "Yuzuki": "18:00-23:00",
+            "Azusa": "18:00-23:00",
+            "Moku": "18:00-23:00",
+            "Miyuki": "18:00-23:00",
+            "小雪": "18:00-23:00",
+            "pikari": "18:00-23:00"
+          },
+          "notes": "個人時段：18:00-23:00"
         }
       ],
       "address": "深水埗福榮街31號A地下",
@@ -26977,21 +28586,22 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/",
           "alternate_sources": [
-            "https://www.instagram.com/itotsuki.cafe/p/DesuuOnE-dc/"
+            "https://www.instagram.com/itotsuki.cafe/p/DesuuOnE-dc/",
+            "https://www.instagram.com/itotsuki.cafe/p/DepOrldTufP/"
           ],
           "person_notes": {
             "SOKU": "個人時段：18:00-01:00",
             "Eve": "個人時段：20:00-01:00",
             "Tina": "個人時段：17:00-01:00",
-            "Aino": "個人時段：19:00-翌日00:00",
-            "Chizuru": "個人時段：19:00-翌日00:00"
+            "Aino": "個人時段：19:00-24:00",
+            "Chizuru": "個人時段：19:00-24:00"
           },
           "person_times": {
             "SOKU": "18:00-01:00",
             "Eve": "20:00-01:00",
             "Tina": "17:00-01:00",
-            "Aino": "19:00-翌日00:00",
-            "Chizuru": "19:00-翌日00:00"
+            "Aino": "19:00-24:00",
+            "Chizuru": "19:00-24:00"
           }
         },
         {
@@ -27655,6 +29265,360 @@ window.MAID_ROSTERS = {
             "Yuzuki": "17:00-21:00",
             "小霧": "21:00-01:00",
             "詩桜": "21:00-01:00"
+          }
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "Kana",
+              "Yuzuki",
+              "Miyuki"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuzuki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Miyuki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "Kana": "個人時段：17:00-23:00",
+            "Yuzuki": "個人時段：17:00-23:00",
+            "Miyuki": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "Kana": "17:00-23:00",
+            "Yuzuki": "17:00-23:00",
+            "Miyuki": "17:00-23:00"
+          },
+          "notes": "個人時段：17:00-23:00"
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "501小白",
+              "Kana"
+            ],
+            "限定當值": [
+              "Kira",
+              "Hobi"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kira",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hobi",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "501小白": "個人時段：17:00-23:00",
+            "Kana": "個人時段：17:00-23:00",
+            "Kira": "個人時段：18:00-23:00",
+            "Hobi": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "501小白": "17:00-23:00",
+            "Kana": "17:00-23:00",
+            "Kira": "18:00-23:00",
+            "Hobi": "18:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "Kana",
+              "Hiri",
+              "詩桜"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hiri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "詩桜",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "Kana": "個人時段：17:00-23:00",
+            "Hiri": "個人時段：18:00-23:00",
+            "詩桜": "個人時段：20:30-23:00"
+          },
+          "person_times": {
+            "Kana": "17:00-23:00",
+            "Hiri": "18:00-23:00",
+            "詩桜": "20:30-23:00"
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "殺奇",
+              "Raku",
+              "小欣"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "殺奇",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Raku",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "殺奇": "個人時段：17:00-23:00",
+            "Raku": "個人時段：17:00-23:00",
+            "小欣": "個人時段：19:00-23:00"
+          },
+          "person_times": {
+            "殺奇": "17:00-23:00",
+            "Raku": "17:00-23:00",
+            "小欣": "19:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "17:00-23:00",
+          "groups": {
+            "女僕": [
+              "Tina",
+              "Haruki"
+            ],
+            "限定當值": [
+              "紫音",
+              "飄",
+              "霍霍"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Tina",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Haruki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "紫音",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "飄",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "霍霍",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "Tina": "個人時段：17:00-23:00",
+            "Haruki": "個人時段：20:00-23:00"
+          },
+          "person_times": {
+            "Tina": "17:00-23:00",
+            "Haruki": "20:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "17:00-01:00",
+          "groups": {
+            "女僕": [
+              "501小白",
+              "Eve"
+            ],
+            "限定當值": [
+              "Harmonic Rhythm"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "501小白",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Eve",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Harmonic Rhythm",
+              "role": "限定當值",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "501小白": "個人時段：17:00-01:00",
+            "Eve": "個人時段：20:00-01:00"
+          },
+          "person_times": {
+            "501小白": "17:00-01:00",
+            "Eve": "20:00-01:00"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "17:00-01:00",
+          "groups": {
+            "女僕": [
+              "Kana",
+              "Rio",
+              "Yuzuki",
+              "小欣"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kana",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rio",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuzuki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小欣",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+          "person_notes": {
+            "Kana": "個人時段：17:00-01:00",
+            "Rio": "個人時段：17:00-01:00",
+            "Yuzuki": "個人時段：17:00-01:00",
+            "小欣": "個人時段：19:00-01:00"
+          },
+          "person_times": {
+            "Kana": "17:00-01:00",
+            "Rio": "17:00-01:00",
+            "Yuzuki": "17:00-01:00",
+            "小欣": "19:00-01:00"
           }
         }
       ],
@@ -28457,7 +30421,7 @@ window.MAID_ROSTERS = {
     "94": {
       "person_id": "N_94",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": [
         {
           "handle": "ouo._.926",
@@ -29130,8 +31094,13 @@ window.MAID_ROSTERS = {
     "Haru": {
       "person_id": "N_Haru",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "haru_undf",
+          "status": "current"
+        }
+      ],
       "names": [
         "Haru"
       ]
@@ -31910,7 +33879,7 @@ window.MAID_ROSTERS = {
     "奶茶": {
       "person_id": "N___432",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": [
         {
           "handle": "cos06.28",
@@ -32132,7 +34101,7 @@ window.MAID_ROSTERS = {
     "小汐": {
       "person_id": "N___458",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": [
         {
           "handle": "xiaoxi_coser",
@@ -34176,7 +36145,7 @@ window.MAID_ROSTERS = {
     "天使": {
       "person_id": "A_18_132",
       "profile_image": "",
-      "identity_status": "provisional",
+      "identity_status": "confirmed",
       "instagram_accounts": [
         {
           "handle": "y._.tenshi_0.2",
@@ -35274,8 +37243,13 @@ window.MAID_ROSTERS = {
     "莓": {
       "person_id": "R_18_3fea1a0e7092",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "c_cxiii",
+          "status": "current"
+        }
+      ],
       "names": [
         "莓"
       ]
@@ -36570,6 +38544,170 @@ window.MAID_ROSTERS = {
       "names": [
         "飯團"
       ]
+    },
+    "日井": {
+      "person_id": "P_ae6d872c84c04895",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "日井"
+      ]
+    },
+    "Zoru": {
+      "person_id": "P_b1c090d3060a4f4f",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Zoru"
+      ]
+    },
+    "Enna": {
+      "person_id": "P_ced6561770de4882",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Enna"
+      ]
+    },
+    "Mayako": {
+      "person_id": "P_235e1724dace4fe4",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Mayako"
+      ]
+    },
+    "小白虎": {
+      "person_id": "P_564c5efc333c4367",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "小白虎"
+      ]
+    },
+    "Rxsa": {
+      "person_id": "P_6484754a09c947c9",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Rxsa"
+      ]
+    },
+    "üu": {
+      "person_id": "P_42327e6e9c594259",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "üu"
+      ]
+    },
+    "澄澄": {
+      "person_id": "P_1ec01808a1b64aaa",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "澄澄"
+      ]
+    },
+    "千銀": {
+      "person_id": "P_ed7f777175de4288",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "千銀"
+      ]
+    },
+    "109": {
+      "person_id": "P_8c656427230648be",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "109"
+      ]
+    },
+    "小緒": {
+      "person_id": "P_f8e66517b043429b",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "小緒"
+      ]
+    },
+    "Hobi": {
+      "person_id": "P_f052f47cc40e4fe6",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "zeit_hobi",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "Hobi"
+      ]
+    },
+    "飄": {
+      "person_id": "P_1cd9bf370074483a",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "_ppiyoo_",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "飄"
+      ]
+    },
+    "Harmonic Rhythm": {
+      "person_id": "P_bb28a6c053534efa",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "harmonic_rhythm_official",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "Harmonic Rhythm"
+      ]
+    },
+    "小雪": {
+      "person_id": "P_5d7886ac084d4578",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "aurelia_yuki_",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "小雪"
+      ]
+    },
+    "pikari": {
+      "person_id": "P_c31d0f87b8474db3",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "pikari"
+      ]
     }
   },
   "person_accounts": {
@@ -37259,6 +39397,12 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "日井": {
+        "person_id": "P_ae6d872c84c04895",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De1ompxyJtv/",
+        "instagram_accounts": []
+      },
       "kokona": {
         "person_id": "R_1_e3b3e6a498ff",
         "profile_image": "",
@@ -37526,7 +39670,12 @@ window.MAID_ROSTERS = {
         "person_id": "N_Haru",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "haru_undf",
+            "status": "current"
+          }
+        ]
       },
       "Haruna": {
         "person_id": "N_Haruna",
@@ -38480,6 +40629,24 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "Zoru": {
+        "person_id": "P_b1c090d3060a4f4f",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfH7BaWCV60/",
+        "instagram_accounts": []
+      },
+      "Enna": {
+        "person_id": "P_ced6561770de4882",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfH7BaWCV60/",
+        "instagram_accounts": []
+      },
+      "Mayako": {
+        "person_id": "P_235e1724dace4fe4",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfH6yfACaTI/",
+        "instagram_accounts": []
       }
     },
     "Aurelia Garden": {
@@ -38576,15 +40743,10 @@ window.MAID_ROSTERS = {
         ]
       },
       "Rinka": {
-        "person_id": "N_Rinka",
+        "person_id": "P_a8fc5cffa8164698",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": [
-          {
-            "handle": "hoshimiya_.rinka0226",
-            "status": "current"
-          }
-        ]
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
       },
       "昭子": {
         "person_id": "N___499",
@@ -38628,9 +40790,9 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "Uri": {
-        "person_id": "N_Uri",
+        "person_id": "P_726b4d61480e4f52",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
         "instagram_accounts": []
       },
       "Yumi": {
@@ -39180,6 +41342,77 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "小白虎": {
+        "person_id": "P_564c5efc333c4367",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "Rxsa": {
+        "person_id": "P_6484754a09c947c9",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "毛毛": {
+        "person_id": "P_d380ba45132445ca",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "üu": {
+        "person_id": "P_42327e6e9c594259",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "Aki": {
+        "person_id": "P_e8ddf4342c7e4e6d",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "澄澄": {
+        "person_id": "P_1ec01808a1b64aaa",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "千銀": {
+        "person_id": "P_ed7f777175de4288",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "109": {
+        "person_id": "P_8c656427230648be",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "寶寶": {
+        "person_id": "P_fc3905700c6d4ee9",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfICJzLHaBV/",
+        "instagram_accounts": []
+      },
+      "Rinka ⟦@hoshimiya_.rinka0226⟧": {
+        "person_id": "N_Rinka",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "hoshimiya_.rinka0226",
+            "status": "current"
+          }
+        ]
+      },
+      "Uri ⟦@N_Uri⟧": {
+        "person_id": "N_Uri",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "URI": {
         "person_id": "R_4_21f0dac29f88",
         "profile_image": "",
@@ -39223,6 +41456,18 @@ window.MAID_ROSTERS = {
       },
       "Bibi": {
         "person_id": "N_Bibi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Uri ⟦@P_726b4d61480e4f52⟧": {
+        "person_id": "P_726b4d61480e4f52",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Rinka ⟦@P_a8fc5cffa8164698⟧": {
+        "person_id": "P_a8fc5cffa8164698",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -40898,6 +43143,48 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "紀砂": {
+        "person_id": "P_6a83a55302ec4517",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFQk7mTNJ_/",
+        "instagram_accounts": []
+      },
+      "豆沙": {
+        "person_id": "P_4f52c33c80654897",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFQbPgzSak/",
+        "instagram_accounts": []
+      },
+      "Haruna": {
+        "person_id": "P_12007739ba344bbf",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFQLbwTy2f/",
+        "instagram_accounts": []
+      },
+      "小然": {
+        "person_id": "P_b7056e5da6f2434b",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfEqa8Rzti7/",
+        "instagram_accounts": []
+      },
+      "路奇": {
+        "person_id": "P_e0dd2d72a40d47c9",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfEqRp1zn60/",
+        "instagram_accounts": []
+      },
+      "牙米": {
+        "person_id": "P_b7729e3103834ee9",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfEp8Klzgc7/",
+        "instagram_accounts": []
+      },
+      "小緒": {
+        "person_id": "P_f8e66517b043429b",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfEqa8Rzti7/",
+        "instagram_accounts": []
       }
     },
     "Maid Eidolon": {
@@ -41478,6 +43765,12 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "YK Kuro": {
+        "person_id": "P_e2a17055413e45d8",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DeohHEYKkxo/",
+        "instagram_accounts": []
       }
     },
     "CosPlace Café": {
@@ -44017,7 +46310,12 @@ window.MAID_ROSTERS = {
         "person_id": "R_18_3fea1a0e7092",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "c_cxiii",
+            "status": "current"
+          }
+        ]
       },
       "九四": {
         "person_id": "R_18_cfea9c6ea7f1",
@@ -44035,7 +46333,12 @@ window.MAID_ROSTERS = {
         "person_id": "N_Haru",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "haru_undf",
+            "status": "current"
+          }
+        ]
       },
       "Nanami": {
         "person_id": "R_18_c656ccb2a47c",
@@ -44070,6 +46373,78 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "Hina": {
+        "person_id": "P_84ed50ea6a22476e",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De5GktnEzqA/",
+        "instagram_accounts": [
+          {
+            "handle": "_hnhina_",
+            "status": "current"
+          }
+        ]
+      },
+      "Yuzuki": {
+        "person_id": "P_b10c430b48f84cbc",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": [
+          {
+            "handle": "pchord_yuzuki",
+            "status": "current"
+          }
+        ]
+      },
+      "Azusa": {
+        "person_id": "P_806d5dd9499d4f06",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": [
+          {
+            "handle": "pchord_azusa",
+            "status": "current"
+          }
+        ]
+      },
+      "Moku": {
+        "person_id": "P_b568023e317b4a93",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": [
+          {
+            "handle": "pchord_moku",
+            "status": "current"
+          }
+        ]
+      },
+      "Miyuki": {
+        "person_id": "P_239ad9a7eefa4ed4",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": [
+          {
+            "handle": "pchord_miyuki",
+            "status": "current"
+          }
+        ]
+      },
+      "小雪": {
+        "person_id": "P_5d7886ac084d4578",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": [
+          {
+            "handle": "aurelia_yuki_",
+            "status": "current"
+          }
+        ]
+      },
+      "pikari": {
+        "person_id": "P_c31d0f87b8474db3",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+        "instagram_accounts": []
       }
     },
     "Kirakira Maido": {
@@ -44820,6 +47195,72 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "Kira": {
+        "person_id": "P_09dabbc6bc224029",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De9Cxuck7sx/",
+        "instagram_accounts": [
+          {
+            "handle": "kira_5a9ra",
+            "status": "current"
+          }
+        ]
+      },
+      "Hobi": {
+        "person_id": "P_f052f47cc40e4fe6",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/De9Cxuck7sx/",
+        "instagram_accounts": [
+          {
+            "handle": "zeit_hobi",
+            "status": "current"
+          }
+        ]
+      },
+      "紫音": {
+        "person_id": "P_34d3c510cca94cd3",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+        "instagram_accounts": [
+          {
+            "handle": "shionkurokawa",
+            "status": "current"
+          }
+        ]
+      },
+      "飄": {
+        "person_id": "P_1cd9bf370074483a",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+        "instagram_accounts": [
+          {
+            "handle": "_ppiyoo_",
+            "status": "current"
+          }
+        ]
+      },
+      "霍霍": {
+        "person_id": "P_ce5a6074946a4205",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+        "instagram_accounts": [
+          {
+            "handle": "fokfokqvq",
+            "status": "current"
+          }
+        ]
+      },
+      "Harmonic Rhythm": {
+        "person_id": "P_bb28a6c053534efa",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfFGmEUTxAe/",
+        "instagram_accounts": [
+          {
+            "handle": "harmonic_rhythm_official",
+            "status": "current"
+          }
+        ]
       }
     }
   },
@@ -44881,8 +47322,12 @@ window.MAID_ROSTERS = {
     },
     "P0031": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
     },
     "P0040": {
       "override": null,
@@ -46058,12 +48503,10 @@ window.MAID_ROSTERS = {
     "N_Kokona": {
       "override": null,
       "default": [
-        "Maid Academy",
-        "Sugar Factory Cafe"
+        "Maid Academy"
       ],
       "shops": [
-        "Maid Academy",
-        "Sugar Factory Cafe"
+        "Maid Academy"
       ]
     },
     "N_Kola": {
@@ -46805,13 +49248,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [
         "Maid Planet",
-        "Maid Academy",
-        "Sugar Factory Cafe"
+        "Maid Academy"
       ],
       "shops": [
         "Maid Planet",
-        "Maid Academy",
-        "Sugar Factory Cafe"
+        "Maid Academy"
       ]
     },
     "N_Sayu": {
@@ -47575,8 +50016,12 @@ window.MAID_ROSTERS = {
     },
     "N_zoe": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
     },
     "N__": {
       "override": null,
@@ -47960,8 +50405,12 @@ window.MAID_ROSTERS = {
     },
     "N___412": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
     },
     "N___413": {
       "override": null,
@@ -51959,6 +54408,202 @@ window.MAID_ROSTERS = {
       "shops": [
         "Queen’s Garden"
       ]
+    },
+    "P_ae6d872c84c04895": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b1c090d3060a4f4f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_ced6561770de4882": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_235e1724dace4fe4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_564c5efc333c4367": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_6484754a09c947c9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_d380ba45132445ca": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_726b4d61480e4f52": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "P_42327e6e9c594259": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_e8ddf4342c7e4e6d": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_a8fc5cffa8164698": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "P_1ec01808a1b64aaa": {
+      "override": null,
+      "default": [
+        "Aurelia Garden"
+      ],
+      "shops": [
+        "Aurelia Garden"
+      ]
+    },
+    "P_ed7f777175de4288": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_8c656427230648be": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_fc3905700c6d4ee9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_6a83a55302ec4517": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_4f52c33c80654897": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_12007739ba344bbf": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b7056e5da6f2434b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_e0dd2d72a40d47c9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b7729e3103834ee9": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_f8e66517b043429b": {
+      "override": null,
+      "default": [
+        "Baberu Cafe"
+      ],
+      "shops": [
+        "Baberu Cafe"
+      ]
+    },
+    "P_e2a17055413e45d8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_84ed50ea6a22476e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_09dabbc6bc224029": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_f052f47cc40e4fe6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_34d3c510cca94cd3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_1cd9bf370074483a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_ce5a6074946a4205": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_bb28a6c053534efa": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b10c430b48f84cbc": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_806d5dd9499d4f06": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b568023e317b4a93": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_239ad9a7eefa4ed4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_5d7886ac084d4578": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_c31d0f87b8474db3": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -52415,5 +55060,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T10:56+08:00"
+  "published_at": "2026-10-31T07:34+08:00"
 };

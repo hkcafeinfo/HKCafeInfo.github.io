@@ -14879,12 +14879,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "15:00-22:00",
           "groups": {
-            "女僕": [
-              "Yura",
-              "魚"
-            ],
             "見習女僕": [
-              "Emi",
+              "Yura",
+              "Emi"
+            ],
+            "女僕": [
+              "魚",
               "Simanna",
               "許洛"
             ]
@@ -14892,7 +14892,7 @@ window.MAID_ROSTERS = {
           "attendance_records": [
             {
               "name": "Yura",
-              "role": "女僕",
+              "role": "見習女僕",
               "type": "當值"
             },
             {
@@ -14907,19 +14907,27 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "Simanna",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值"
             },
             {
               "name": "許洛",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值"
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
           "alternate_sources": [
-            "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/"
-          ]
+            "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/",
+            "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
+          ],
+          "review_names": {
+            "Yura": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "魚": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "Emi": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "Simanna": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "許洛": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees."
+          }
         },
         {
           "date": "2026-10-14",
@@ -38047,6 +38055,17 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "halo": {
+        "person_id": "N_YY",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "_yuet.big.dick_",
+            "status": "current"
+          }
+        ]
       }
     },
     "Sugar Factory Cafe": {
@@ -42104,9 +42123,11 @@ window.MAID_ROSTERS = {
     "N_YY": {
       "override": null,
       "default": [
+        "Comma Cafe",
         "Maid Academy"
       ],
       "shops": [
+        "Comma Cafe",
         "Maid Academy"
       ]
     },
@@ -47461,5 +47482,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T10:01+08:00"
+  "published_at": "2026-10-30T10:12+08:00"
 };

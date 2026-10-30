@@ -14916,7 +14916,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
+          "source": "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/",
           "alternate_sources": [
             "https://www.instagram.com/commacafe_8/p/DebvdN_to0x/",
             "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
@@ -15572,7 +15572,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
+          "source": "https://www.instagram.com/commacafe_8/p/De_vyhftHmV/",
           "event_name": "萬聖節Event",
           "alternate_sources": [
             "https://www.instagram.com/commacafe_8/p/De_vyhftHmV/",
@@ -15678,7 +15678,7 @@ window.MAID_ROSTERS = {
               "type": "當值"
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
+          "source": "https://www.instagram.com/commacafe_8/p/DfEvnb3tsL9/",
           "event_name": "萬聖節Event",
           "alternate_sources": [
             "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
@@ -47482,5 +47482,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T10:12+08:00"
+  "published_at": "2026-10-30T10:14+08:00"
 };

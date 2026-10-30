@@ -343,17 +343,30 @@
     const list = $("people-list");
     list.replaceChildren();
     const sorted = [...people.values()].map((person) => {
-      const names = new Set([person.name]), handles = new Set();
+      const names = new Map(), handles = new Map();
+      const addName = (value) => {
+        const name = HKCI.displayName(value).trim();
+        if (!name) return;
+        const key = name.normalize("NFKC").toLocaleLowerCase();
+        if (!names.has(key)) names.set(key, name);
+      };
+      const addHandle = (value) => {
+        const handle = String(value || "").replace(/^@+/, "").trim();
+        if (!handle) return;
+        const key = handle.toLocaleLowerCase();
+        if (!handles.has(key)) handles.set(key, handle);
+      };
       for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
-        names.add(name); for (const alias of info.names || []) if (alias) names.add(alias);
-        for (const account of info.instagram_accounts || []) if (account.handle) handles.add(account.handle);
-        const handle = HKCI.handle(info.instagram || ""); if (handle) handles.add(handle);
+        addName(name); for (const alias of info.names || []) addName(alias);
+        for (const account of info.instagram_accounts || []) addHandle(account.handle);
+        addHandle(HKCI.handle(info.instagram || ""));
       }
       for (const entries of Object.values(data.person_accounts || {})) for (const [name, info] of Object.entries(entries || {})) if (person.pid && info.person_id === person.pid) {
-        names.add(name); for (const account of info.instagram_accounts || []) if (account.handle) handles.add(account.handle);
-        const handle = HKCI.handle(info.instagram || ""); if (handle) handles.add(handle);
+        addName(name); for (const account of info.instagram_accounts || []) addHandle(account.handle);
+        addHandle(HKCI.handle(info.instagram || ""));
       }
-      person.allNames = [...names].filter(Boolean); person.handles = [...handles].filter(Boolean); return person;
+      addName(person.name);
+      person.allNames = [...names.values()]; person.handles = [...handles.values()]; return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName) => {
       if (!entries.length) return;

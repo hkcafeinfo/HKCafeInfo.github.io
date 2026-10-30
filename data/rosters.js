@@ -55098,8 +55098,36 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/misty_2026-10-31_hotaru.jpg",
       "source": "https://www.instagram.com/htr.aruaru/p/DeLJ97hSl-O/",
       "opacity": ""
+    },
+    {
+      "shop": "Mistia Luna",
+      "event_name": "pikari 初の生誕祭·魔法小兔茶會",
+      "image_path": "data/event_images/mistia_luna_2026-11-06_pikari.jpg",
+      "source": "https://www.instagram.com/p/De_vUgbz1-v/",
+      "opacity": ""
+    },
+    {
+      "shop": "Maid Planet",
+      "event_name": "Halloween Party",
+      "image_path": "data/event_images/maid_planet_2026-10-31_halloween.jpg",
+      "source": "https://www.instagram.com/p/DfCdLPXmTLw/",
+      "opacity": ""
+    },
+    {
+      "shop": "Queen’s Garden",
+      "event_name": "Sun仔生誕祭",
+      "image_path": "data/event_images/queens_garden_2026-10-29_sun.jpg",
+      "source": "https://www.instagram.com/p/DfEvsGczMKU/",
+      "opacity": ""
+    },
+    {
+      "shop": "Queen’s Garden",
+      "event_name": "百鬼夜行・萬聖之夜",
+      "image_path": "data/event_images/queens_garden_2026-10-31_halloween.jpg",
+      "source": "https://www.instagram.com/p/De4qw1WxtWe/",
+      "opacity": ""
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T07:35+08:00"
+  "published_at": "2026-10-31T07:38+08:00"
 };

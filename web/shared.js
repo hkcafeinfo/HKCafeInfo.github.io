@@ -46,16 +46,22 @@
     return roleCategoryOrder.map((label) => [label, buckets.get(label)]).filter(([, entries]) => entries.length);
   }
   function personKey(shop, name) { return JSON.stringify([shop, name.trim().toLocaleLowerCase()]); }
+  function accountHandle(info) {
+    const accounts = info?.instagram_accounts || [];
+    const account = accounts.find((item) => item.status === "current") || accounts[0];
+    const value = String(account?.handle || "").trim();
+    return (handle(value).replace(/^@/, "") || value.replace(/^@+/, "")).toLocaleLowerCase();
+  }
   let conflicts;
   function personIdentity(data, shop, name) {
     const account = data.person_accounts?.[shop]?.[name];
     const shared = data.people?.[name];
-    const username = handle(account?.instagram || shared?.instagram).toLocaleLowerCase();
+    const username = accountHandle(account) || accountHandle(shared);
     let personId = account?.person_id;
     if (!personId && username) {
       for (const accounts of Object.values(data.person_accounts || {})) {
         for (const info of Object.values(accounts || {})) {
-          if (info?.person_id && handle(info.instagram).toLocaleLowerCase() === username) {
+          if (info?.person_id && accountHandle(info) === username) {
             personId = info.person_id;
             break;
           }

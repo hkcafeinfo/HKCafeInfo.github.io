@@ -359,11 +359,9 @@
       for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
         addName(name); for (const alias of info.names || []) addName(alias);
         for (const account of info.instagram_accounts || []) addHandle(account.handle);
-        addHandle(HKCI.handle(info.instagram || ""));
       }
       for (const entries of Object.values(data.person_accounts || {})) for (const [name, info] of Object.entries(entries || {})) if (person.pid && info.person_id === person.pid) {
         addName(name); for (const account of info.instagram_accounts || []) addHandle(account.handle);
-        addHandle(HKCI.handle(info.instagram || ""));
       }
       addName(person.name);
       person.allNames = [...names.values()]; person.handles = [...handles.values()]; return person;

@@ -246,7 +246,6 @@
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
         const sharedInfo = data.people?.[person.name] || Object.values(data.people || {}).find(info => person.personId && info.person_id === person.personId) || {};
         const info = { ...sharedInfo, ...shopInfo,
-          instagram: shopInfo.instagram || sharedInfo.instagram || "",
           profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
         const allNames = new Set([person.name]), allHandles = new Map();
         const addInstagramAccount = (account) => {
@@ -261,12 +260,10 @@
           for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
             allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);
             for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
-            addInstagramAccount({ handle: candidate.instagram, status: "current" });
           }
           for (const entries of Object.values(data.person_accounts || {})) for (const [name, candidate] of Object.entries(entries || {})) if (candidate.person_id === person.personId) {
             allNames.add(name);
             for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
-            addInstagramAccount({ handle: candidate.instagram, status: "current" });
           }
         }
         const top = make("div", "person-card-top");
@@ -277,7 +274,7 @@
         const identity = make("div", "person-identity");
         identity.append(make("strong", null, [...allNames].map(HKCI.displayName).join(" ／ ")));
         const instagramAccounts = Array.isArray(info?.instagram_accounts) ? info.instagram_accounts : [];
-        const links = allHandles.size ? [...allHandles.values()] : (instagramAccounts.length ? instagramAccounts : (info?.instagram ? [{ handle: info.instagram, status: "current" }] : []));
+        const links = allHandles.size ? [...allHandles.values()] : instagramAccounts;
         const igList = make("div", "people-ig-list");
         for (const account of links) {
           const url = HKCI.instagram(account.handle?.startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`);

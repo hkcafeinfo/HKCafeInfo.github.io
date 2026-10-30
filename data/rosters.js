@@ -13606,7 +13606,7 @@ window.MAID_ROSTERS = {
               "Yuki",
               "セレナ"
             ],
-            "限定女僕": [
+            "限定海盜": [
               "咩咩"
             ]
           },
@@ -13633,14 +13633,19 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "咩咩",
-              "role": "限定女僕",
+              "role": "限定海盜",
               "type": "限定"
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "alternate_sources": [
-            "https://www.instagram.com/maid.kaizokuhouse/p/De4NnNlzztr/"
-          ]
+            "https://www.instagram.com/maid.kaizokuhouse/p/De4NnNlzztr/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/De2cdXczyTn/"
+          ],
+          "review_names": {
+            "咩咩": "Specific official limited-maid post supersedes the prior weekly entry’s start time; original source retained as alternate."
+          }
         },
         {
           "date": "2026-10-26",
@@ -13653,7 +13658,7 @@ window.MAID_ROSTERS = {
             "Pirate Maid": [
               "セレナ"
             ],
-            "限定女僕": [
+            "限定海盜": [
               "Mizuka",
               "Teo"
             ]
@@ -13676,16 +13681,20 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "Mizuka",
-              "role": "限定女僕",
+              "role": "限定海盜",
               "type": "限定"
             },
             {
               "name": "Teo",
-              "role": "限定女僕",
+              "role": "限定海盜",
               "type": "限定"
             }
           ],
-          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+          "alternate_sources": [
+            "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/De340OYk7eV/"
+          ]
         },
         {
           "date": "2026-10-27",
@@ -13699,10 +13708,8 @@ window.MAID_ROSTERS = {
             "Pirate Maid": [
               "小睡"
             ],
-            "限定女僕": [
-              "照美"
-            ],
             "限定海盜": [
+              "照美",
               "Bake"
             ]
           },
@@ -13729,7 +13736,7 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "照美",
-              "role": "限定女僕",
+              "role": "限定海盜",
               "type": "限定"
             },
             {
@@ -13740,7 +13747,9 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "alternate_sources": [
-            "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/"
+            "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/Dem3_GNzjAz/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/Dem4Izgz-5v/"
           ],
           "person_notes": {
             "Bake": "限定海盜成員出沒公告；個人出沒時間18:00-23:00。"
@@ -13900,7 +13909,8 @@ window.MAID_ROSTERS = {
               "Serena",
               "月牙",
               "浠浠",
-              "茶茶"
+              "茶茶",
+              "牙喵"
             ]
           },
           "attendance_records": [
@@ -13928,23 +13938,48 @@ window.MAID_ROSTERS = {
               "name": "茶茶",
               "role": "活動嘉賓",
               "type": "活動嘉賓"
+            },
+            {
+              "name": "牙喵",
+              "role": "活動嘉賓",
+              "type": "活動嘉賓"
             }
           ],
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
           "event_name": "受傷的AV女優",
           "alternate_sources": [
-            "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/"
-          ]
+            "https://www.instagram.com/infinitedreams.project_8/p/De32QuMKO4g/",
+            "https://www.instagram.com/maid.kaizokuhouse/p/DfAfQSJz1ym/"
+          ],
+          "review_names": {
+            "牙喵": "Addendum to the existing official event lineup; rostered from the shop’s own current post."
+          },
+          "person_notes": {
+            "牙喵": "官方活動帖明確列特別嘉賓 @meow__0825；同一海報標示「牙喵／新人出道」。"
+          }
         }
       ],
       "address": "旺角登打士街36號恆威商業中心12樓全層",
       "address_source": "https://www.instagram.com/maid.kaizokuhouse/",
       "profile_image": "data/profile_images/shops/maid.jpg",
       "opening_hours": "星期一至日 18:00–23:00",
-      "opening_hours_source": "https://www.instagram.com/maid.kaizokuhouse/p/De2GdyhE-3P/",
-      "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [],
-      "date_notices": []
+      "opening_hours_source": "https://www.instagram.com/maid.kaizokuhouse/p/DfBhoA0E1Jx/",
+      "opening_hours_checked_at": "2026-10-30",
+      "date_notices": [
+        {
+          "date": "2026-11-29",
+          "title": "受傷的海盜特別活動預告",
+          "detail": "店方預告於11月最後兩天舉辦特別活動「受傷的海盜」；本帖未公布當值名單及活動時段。",
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfBhoA0E1Jx/"
+        },
+        {
+          "date": "2026-11-30",
+          "title": "受傷的海盜特別活動預告",
+          "detail": "店方預告於11月最後兩天舉辦特別活動「受傷的海盜」；本帖未公布當值名單及活動時段。",
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfBhoA0E1Jx/"
+        }
+      ],
+      "unresolved": []
     },
     {
       "shop": "Queen’s Garden",
@@ -24847,10 +24882,16 @@ window.MAID_ROSTERS = {
       "person_id": "N_Mizuka",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "mizu.ka_097",
+          "status": "current"
+        }
+      ],
       "names": [
         "Mizuka"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/mizu.ka_097/"
     },
     "Mo": {
       "person_id": "N_Mo",
@@ -26791,11 +26832,17 @@ window.MAID_ROSTERS = {
     "咩咩": {
       "person_id": "N___415",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "7re1y_u",
+          "status": "current"
+        }
+      ],
       "names": [
         "咩咩"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/7re1y_u/"
     },
     "咬牙": {
       "person_id": "N___416",
@@ -30318,10 +30365,16 @@ window.MAID_ROSTERS = {
       "person_id": "R_12_fac622b0d7b4",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "teo_dayo00",
+          "status": "current"
+        }
+      ],
       "names": [
         "Teo"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/teo_dayo00/"
     },
     "小憐": {
       "person_id": "R_19_09b96c1b4b4d",
@@ -30407,11 +30460,17 @@ window.MAID_ROSTERS = {
     "Bake": {
       "person_id": "R_12_15e03a4063c8",
       "profile_image": "",
-      "identity_status": "provisional",
-      "instagram_accounts": [],
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "bake.in_rlyeh",
+          "status": "current"
+        }
+      ],
       "names": [
         "Bake"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/bake.in_rlyeh/"
     },
     "皇蕾": {
       "person_id": "R_19_4671460d2df0",
@@ -31260,10 +31319,16 @@ window.MAID_ROSTERS = {
       "person_id": "R_11_5adf2f173b94",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "kathywnt",
+          "status": "current"
+        }
+      ],
       "names": [
         "發發"
-      ]
+      ],
+      "instagram": "https://www.instagram.com/kathywnt/"
     },
     "Kura": {
       "person_id": "R_5_43cc84a2aabb",
@@ -31627,6 +31692,21 @@ window.MAID_ROSTERS = {
         "ろく"
       ],
       "instagram": "https://www.instagram.com/roku_399/"
+    },
+    "牙喵": {
+      "person_id": "N_Kaizoku_meow0825",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "meow__0825",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "牙喵"
+      ],
+      "instagram": "https://www.instagram.com/meow__0825/"
     }
   },
   "person_accounts": {
@@ -33723,9 +33803,14 @@ window.MAID_ROSTERS = {
         "person_id": "N_Mizuka",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/mizu.ka_097/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "mizu.ka_097",
+            "status": "current"
+          }
+        ]
       },
       "Haruna": {
         "person_id": "N_Haruna",
@@ -34540,9 +34625,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___415",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/7re1y_u/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "7re1y_u",
+            "status": "current"
+          }
+        ]
       },
       "水母": {
         "person_id": "N___526",
@@ -35080,9 +35170,14 @@ window.MAID_ROSTERS = {
         "person_id": "N___415",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/7re1y_u/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "7re1y_u",
+            "status": "current"
+          }
+        ]
       },
       "Fumi": {
         "person_id": "N_Fumi",
@@ -38693,25 +38788,40 @@ window.MAID_ROSTERS = {
         "person_id": "N___415",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/7re1y_u/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "7re1y_u",
+            "status": "current"
+          }
+        ]
       },
       "Mizuka": {
         "person_id": "N_Mizuka",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/mizu.ka_097/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "mizu.ka_097",
+            "status": "current"
+          }
+        ]
       },
       "Teo": {
         "person_id": "R_12_fac622b0d7b4",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/teo_dayo00/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "teo_dayo00",
+            "status": "current"
+          }
+        ]
       },
       "小睡": {
         "person_id": "N___463",
@@ -38738,9 +38848,14 @@ window.MAID_ROSTERS = {
         "person_id": "R_12_15e03a4063c8",
         "profile_image": "",
         "source": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/bake.in_rlyeh/",
         "former_handles": [],
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "bake.in_rlyeh",
+            "status": "current"
+          }
+        ]
       },
       "Soso": {
         "person_id": "R_12_61649adbbe73",
@@ -38792,6 +38907,19 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "serena_a.219",
+            "status": "current"
+          }
+        ]
+      },
+      "牙喵": {
+        "person_id": "N_Kaizoku_meow0825",
+        "profile_image": "",
+        "source": "",
+        "instagram": "https://www.instagram.com/meow__0825/",
+        "former_handles": [],
+        "instagram_accounts": [
+          {
+            "handle": "meow__0825",
             "status": "current"
           }
         ]
@@ -49160,6 +49288,11 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "N_Kaizoku_meow0825": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -49616,5 +49749,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-30T07:59+08:00"
+  "published_at": "2026-10-30T08:32+08:00"
 };

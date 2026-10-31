@@ -1,6 +1,6 @@
 // 由 data/hkcafe.sqlite 產生；修改資料後請執行 python3 tools/產生每日更表.py
 window.MAID_ROSTERS = {
-  "checked_at": "2026-10-25",
+  "checked_at": "2026-10-31",
   "timezone": "Asia/Hong_Kong",
   "shops": [
     {
@@ -58096,5 +58096,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:49+08:00"
+  "published_at": "2026-10-31T22:51+08:00"
 };

@@ -1948,6 +1948,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-15",
           "reason": "Haruka Book 訂場活動；週更表未列活動嘉賓與常規當值名單，需查獨立活動帖。",
           "source": "https://www.instagram.com/maid_academy/p/DeWB3N-Ef_H/"
+        },
+        {
+          "date": "2026-11-08",
+          "reason": "本輪原圖列Yufina，但完整caption上部及下部Guest均未列；沒有明確取消／編輯先後證據，尚不可判定參與或場次。保留候選自行追查，不以圖片猜時段。",
+          "source": "https://www.instagram.com/p/De1ompxyJtv/"
         }
       ]
     },
@@ -2392,7 +2397,7 @@ window.MAID_ROSTERS = {
               "Ikuya",
               "堯堯"
             ],
-            "當值護士": [
+            "當值女僕": [
               "Bonnie",
               "Qquie",
               "小堇",
@@ -2431,42 +2436,42 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "Bonnie",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Qquie",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "小堇",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "小蚊",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "棉花",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "蚊蚊",
-              "role": "當值護士",
+              "role": "當值女僕",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
@@ -2501,7 +2506,15 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeWe-DQGImO/",
-          "event_name": "💘あなたに愛されるウサギになりたい 🐰垂耳兔ev 💘"
+          "event_name": "💘あなたに愛されるウサギになりたい 🐰垂耳兔ev 💘",
+          "review_names": {
+            "Bonnie": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/",
+            "Qquie": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/",
+            "小堇": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/",
+            "小蚊": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/",
+            "棉花": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/",
+            "蚊蚊": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/Deg5AGABHIW/"
+          }
         },
         {
           "date": "2026-10-18",
@@ -2609,26 +2622,26 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "新生護士": [
-              "MOKA",
+              "Moka",
               "什幽",
               "彌亞",
               "機8喵"
             ],
             "當值護士": [
-              "BIBI",
+              "Bibi",
               "棉花",
               "笛子",
               "蚊蚊"
             ],
             "限定女僕": [
-              "AME",
-              "AYU",
+              "Ame",
+              "Ayu",
               "小鉛梓"
             ]
           },
           "attendance_records": [
             {
-              "name": "MOKA",
+              "name": "Moka",
               "role": "新生護士",
               "type": "當值",
               "cancelled": false,
@@ -2656,7 +2669,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "BIBI",
+              "name": "Bibi",
               "role": "當值護士",
               "type": "當值",
               "cancelled": false,
@@ -2684,14 +2697,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "AME",
+              "name": "Ame",
               "role": "限定女僕",
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "AYU",
+              "name": "Ayu",
               "role": "限定女僕",
               "type": "限定",
               "cancelled": false,
@@ -2708,7 +2721,13 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
-          ]
+          ],
+          "review_names": {
+            "Moka": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Bibi": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Ame": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Ayu": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/"
+          }
         },
         {
           "date": "2026-10-20",
@@ -2721,7 +2740,7 @@ window.MAID_ROSTERS = {
               "彌亞"
             ],
             "當值護士": [
-              "RAKU",
+              "Raku",
               "星星",
               "柔柔",
               "毛毛"
@@ -2757,7 +2776,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "RAKU",
+              "name": "Raku",
               "role": "當值護士",
               "type": "當值",
               "cancelled": false,
@@ -2788,20 +2807,23 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
-          ]
+          ],
+          "review_names": {
+            "Raku": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/"
+          }
         },
         {
           "date": "2026-10-21",
           "hours": "17:00-22:00",
           "groups": {
             "新生護士": [
-              "CREAM",
-              "MOKA",
+              "Cream",
+              "Moka",
               "地鼠",
               "小丸"
             ],
             "當值護士": [
-              "BIBI",
+              "Bibi",
               "心心",
               "棉花",
               "毛毛",
@@ -2810,14 +2832,14 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "CREAM",
+              "name": "Cream",
               "role": "新生護士",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "MOKA",
+              "name": "Moka",
               "role": "新生護士",
               "type": "當值",
               "cancelled": false,
@@ -2838,7 +2860,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "BIBI",
+              "name": "Bibi",
               "role": "當值護士",
               "type": "當值",
               "cancelled": false,
@@ -2876,25 +2898,30 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
-          ]
+          ],
+          "review_names": {
+            "Cream": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Moka": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Bibi": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/"
+          }
         },
         {
           "date": "2026-10-22",
           "hours": "17:00-22:00",
           "groups": {
             "新生護士": [
-              "CREAM",
+              "Cream",
               "乳酪",
               "地鼠",
               "桃奈"
             ],
             "當值護士": [
-              "MIYA"
+              "Miya"
             ]
           },
           "attendance_records": [
             {
-              "name": "CREAM",
+              "name": "Cream",
               "role": "新生護士",
               "type": "當值",
               "cancelled": false,
@@ -2922,7 +2949,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "MIYA",
+              "name": "Miya",
               "role": "當值護士",
               "type": "當值",
               "cancelled": false,
@@ -2932,7 +2959,11 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
-          ]
+          ],
+          "review_names": {
+            "Cream": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Miya": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/"
+          }
         },
         {
           "date": "2026-10-23",
@@ -3040,7 +3071,7 @@ window.MAID_ROSTERS = {
           "hours": "15:00-23:00",
           "groups": {
             "新生護士": [
-              "YUZU",
+              "Yuzu",
               "布布",
               "阿敏"
             ],
@@ -3052,14 +3083,14 @@ window.MAID_ROSTERS = {
               "喵璃"
             ],
             "限定護士": [
-              "MIDORIN",
-              "WIFI",
+              "Midorin",
+              "WiFi",
               "懵"
             ]
           },
           "attendance_records": [
             {
-              "name": "YUZU",
+              "name": "Yuzu",
               "role": "新生護士",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -3115,14 +3146,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "MIDORIN",
+              "name": "Midorin",
               "role": "限定護士",
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "WIFI",
+              "name": "WiFi",
               "role": "限定護士",
               "type": "限定",
               "cancelled": false,
@@ -3141,7 +3172,12 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/",
             "https://www.instagram.com/maid_clinic/p/Dejnf2psVRL/|https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/"
-          ]
+          ],
+          "review_names": {
+            "Yuzu": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "Midorin": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/",
+            "WiFi": "按本輪完整caption原文；保留原person_id。 https://www.instagram.com/p/DeosjqLGMoP/"
+          }
         },
         {
           "date": "2026-10-25",
@@ -40249,46 +40285,34 @@ window.MAID_ROSTERS = {
           }
         ]
       },
-      "MOKA": {
-        "person_id": "N_Moka",
+      "Ayu": {
+        "person_id": "N_AYU",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
       },
-      "BIBI": {
-        "person_id": "N_Bibi",
+      "Yuzu": {
+        "person_id": "N_YUZU",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "AME": {
-        "person_id": "N_Ame",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "RAKU": {
-        "person_id": "N_RAKU",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "CREAM": {
-        "person_id": "N_Cream",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "MIYA": {
-        "person_id": "P0036",
-        "profile_image": "data/profile_images/people/_miya_desu_.jpg",
         "source": "",
         "instagram_accounts": [
           {
-            "handle": "_miya_desu_",
+            "handle": "yuzuuu._q",
             "status": "current"
           }
         ]
+      },
+      "Midorin": {
+        "person_id": "N_MIDORIN",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "WiFi": {
+        "person_id": "N_WIFI",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       },
       "bibi": {
         "person_id": "N_Bibi",
@@ -55479,5 +55503,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:43+08:00"
+  "published_at": "2026-10-31T12:46+08:00"
 };

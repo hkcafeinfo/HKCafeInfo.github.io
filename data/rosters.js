@@ -26033,6 +26033,9 @@ window.MAID_ROSTERS = {
             "限定當值女僕": [
               "Nyanko",
               "ゆみ"
+            ],
+            "館主／裁判": [
+              "玄幽"
             ]
           },
           "attendance_records": [
@@ -26098,6 +26101,13 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "玄幽",
+              "role": "館主／裁判",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/mistia_luna/p/Degvs-Hk21H/",
@@ -26110,7 +26120,8 @@ window.MAID_ROSTERS = {
             "奈雅": "個人時段：12:00-17:00",
             "真冬": "個人時段：20:00-23:00",
             "Nyanko": "個人時段：18:00-23:00",
-            "ゆみ": "個人時段：18:00-23:00"
+            "ゆみ": "個人時段：18:00-23:00",
+            "玄幽": "活動13:45報到、14:30開賽；來源未列個人離場時間，不把報到/開賽時間當完整當值時段。"
           },
           "person_times": {
             "Hecate": "12:00-17:00",
@@ -57935,5 +57946,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:30+08:00"
+  "published_at": "2026-10-31T22:35+08:00"
 };

@@ -24451,7 +24451,8 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "alternate_sources": [
-            "https://www.instagram.com/maid_minori/p/Deh9u9EzIPm/"
+            "https://www.instagram.com/maid_minori/p/Deh9u9EzIPm/",
+            "https://www.instagram.com/maid_minori/p/Deh9u9EzIPm/\nhttps://www.instagram.com/p/Deh9u9EzIPm/"
           ],
           "person_notes": {
             "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
@@ -24459,9 +24460,11 @@ window.MAID_ROSTERS = {
             "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "羊咩": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "香取": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+            "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
           },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          "person_times": {
+            "tomori": "17:00-22:00"
+          }
         },
         {
           "date": "2026-10-27",
@@ -24519,16 +24522,19 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "alternate_sources": [
-            "https://www.instagram.com/maid_minori/p/Deh91Z7zFWk/"
+            "https://www.instagram.com/maid_minori/p/Deh91Z7zFWk/",
+            "https://www.instagram.com/maid_minori/p/Deh91Z7zFWk/\nhttps://www.instagram.com/p/Deh91Z7zFWk/"
           ],
           "person_notes": {
             "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+            "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
           },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          "person_times": {
+            "haka": "17:00-22:00"
+          }
         },
         {
           "date": "2026-10-28",
@@ -24594,17 +24600,21 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
           "alternate_sources": [
-            "https://www.instagram.com/maid_minori/p/Deh977Pz8w6/"
+            "https://www.instagram.com/maid_minori/p/Deh977Pz8w6/",
+            "https://www.instagram.com/maid_minori/p/Deh977Pz8w6/\nhttps://www.instagram.com/p/Deh977Pz8w6/"
           ],
           "person_notes": {
             "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Fumi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+            "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00",
+            "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
           },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          "person_times": {
+            "Miharu": "17:00-22:00",
+            "菜菜": "17:00-22:00"
+          }
         },
         {
           "date": "2026-10-29",
@@ -24683,10 +24693,16 @@ window.MAID_ROSTERS = {
             "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "未來": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kai": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "甘樂": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+            "Kai": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00",
+            "甘樂": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
           },
-          "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+          "person_times": {
+            "Kai": "17:00-22:00",
+            "甘樂": "17:00-22:00"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/p/Deh-ENOTCPv/"
+          ]
         },
         {
           "date": "2026-10-30",
@@ -24698,13 +24714,11 @@ window.MAID_ROSTERS = {
             "水色天使": [
               "Hayu",
               "Sinyu",
-              "すみれ"
+              "すみれ",
+              "Moli"
             ],
             "限定天使": [
               "真奈"
-            ],
-            "當值天使": [
-              "Moli"
             ]
           },
           "attendance_records": [
@@ -24745,7 +24759,7 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "Moli",
-              "role": "當值天使",
+              "role": "水色天使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -24758,8 +24772,14 @@ window.MAID_ROSTERS = {
             "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
-          }
+            "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "真奈": "17:00-22:00"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/p/Deh-L_KTA4n/"
+          ]
         },
         {
           "date": "2026-10-31",
@@ -57807,5 +57827,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:36+08:00"
+  "published_at": "2026-10-31T21:40+08:00"
 };

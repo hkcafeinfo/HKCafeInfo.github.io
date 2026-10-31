@@ -24813,6 +24813,775 @@ window.MAID_ROSTERS = {
             "Yuzuha": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "notes": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Reimu",
+              "檸檬"
+            ],
+            "測試天使": [
+              "Mio",
+              "Nanona"
+            ],
+            "限定天使": [
+              "小嘉",
+              "瑤瑤"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Reimu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "檸檬",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mio",
+              "role": "測試天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Nanona",
+              "role": "測試天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小嘉",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "瑤瑤",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/",
+          "person_notes": {
+            "Mio": "一期生測試；通過後才成為見習天使。",
+            "Nanona": "一期生測試；通過後才成為見習天使。"
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "阿糖",
+              "羊咩",
+              "Moli"
+            ],
+            "限定天使": [
+              "貓貓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "羊咩",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Moli",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "貓貓",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "Reimu"
+            ],
+            "水色天使": [
+              "Toyu",
+              "椰奶",
+              "布布"
+            ],
+            "限定天使": [
+              "櫻子"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Reimu",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "椰奶",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "布布",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "櫻子",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "阿糖",
+              "Sinyu",
+              "小葵"
+            ],
+            "限定天使": [
+              "朱古力",
+              "Yuki"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿糖",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小葵",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "朱古力",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuki",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "すみれ",
+              "Hiri"
+            ],
+            "限定天使": [
+              "呆呆"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hiri",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "呆呆",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Rina",
+              "可妍",
+              "Toyu",
+              "Yuzuha"
+            ],
+            "限定天使": [
+              "Kico"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rina",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "可妍",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuzuha",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kico",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "喵喵",
+              "Hayu",
+              "Sinyu",
+              "香取"
+            ],
+            "限定天使": [
+              "正子"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hayu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "香取",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "正子",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-10",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Reimu",
+              "Fuwa",
+              "赤來"
+            ],
+            "限定天使": [
+              "小酸"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Reimu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "赤來",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小酸",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-11",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "阿糖"
+            ],
+            "水色天使": [
+              "Toyu",
+              "Moli"
+            ],
+            "限定天使": [
+              "北企鵝"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "阿糖",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Toyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Moli",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "北企鵝",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-12",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "喵喵",
+              "香取",
+              "小葵"
+            ],
+            "限定天使": [
+              "Smile"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "香取",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小葵",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Smile",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-13",
+          "hours": "17:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "すみれ",
+              "Hayu",
+              "Mii"
+            ],
+            "限定天使": [
+              "iori"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "すみれ",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hayu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mii",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "iori",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-14",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Sinyu",
+              "Fuwa",
+              "檸檬",
+              "Hiri"
+            ],
+            "限定天使": [
+              "芋圓"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sinyu",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Fuwa",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "檸檬",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hiri",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "芋圓",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
+        },
+        {
+          "date": "2026-11-15",
+          "hours": "15:00-22:00",
+          "groups": {
+            "廚師": [
+              "蛋撻"
+            ],
+            "水色天使": [
+              "Rina",
+              "喵喵",
+              "香取",
+              "Mii",
+              "Yuzuha"
+            ],
+            "限定天使": [
+              "滿月"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "蛋撻",
+              "role": "廚師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Rina",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵喵",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "香取",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mii",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuzuha",
+              "role": "水色天使",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "滿月",
+              "role": "限定天使",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJyvIlk9Di/"
         }
       ],
       "address": "太子道西150–152號太子商業大廈1304室",
@@ -39684,6 +40453,78 @@ window.MAID_ROSTERS = {
       "names": [
         "fumi"
       ]
+    },
+    "Nanona": {
+      "person_id": "P_36bc1d8f298743f5",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Nanona"
+      ]
+    },
+    "赤來": {
+      "person_id": "P_417e97e535434ab8",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "赤來"
+      ]
+    },
+    "小酸": {
+      "person_id": "P_39b348040ee6442c",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "小酸"
+      ]
+    },
+    "北企鵝": {
+      "person_id": "P_064559c176974b16",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "北企鵝"
+      ]
+    },
+    "Smile": {
+      "person_id": "P_384570b34925467f",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Smile"
+      ]
+    },
+    "iori": {
+      "person_id": "P_6f2918d8b9ff4aa8",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "iori"
+      ]
+    },
+    "芋圓": {
+      "person_id": "P_ee01b2b815ed48f4",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "芋圓"
+      ]
+    },
+    "滿月": {
+      "person_id": "P_536c5ad0b0ad404d",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "滿月"
+      ]
     }
   },
   "person_accounts": {
@@ -47319,6 +48160,132 @@ window.MAID_ROSTERS = {
       },
       "真奈": {
         "person_id": "N___558",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Mio": {
+        "person_id": "P_f52d27d19e514c27",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Nanona": {
+        "person_id": "P_36bc1d8f298743f5",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "小嘉": {
+        "person_id": "P_fd424d0ba3bc4b49",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "瑤瑤": {
+        "person_id": "P_110b2aa9916b4cf1",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "貓貓": {
+        "person_id": "P_169ab4081fcd4b57",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "椰奶": {
+        "person_id": "P_2c2ed6a4e0584460",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "布布": {
+        "person_id": "P_e1c933430eeb450f",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "櫻子": {
+        "person_id": "P_15c9be9497aa48cf",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "朱古力": {
+        "person_id": "P_98ee768d87614bb7",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Yuki": {
+        "person_id": "P_97429e1039354fbb",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Hiri": {
+        "person_id": "P_776244bbbb5a4a42",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "呆呆": {
+        "person_id": "P_c3e3aff52f9445e4",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Kico": {
+        "person_id": "P_75a23c139006413f",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "正子": {
+        "person_id": "P_f719d7ba6f1a4eca",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "赤來": {
+        "person_id": "P_417e97e535434ab8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "小酸": {
+        "person_id": "P_39b348040ee6442c",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "北企鵝": {
+        "person_id": "P_064559c176974b16",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Smile": {
+        "person_id": "P_384570b34925467f",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "iori": {
+        "person_id": "P_6f2918d8b9ff4aa8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "芋圓": {
+        "person_id": "P_ee01b2b815ed48f4",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "滿月": {
+        "person_id": "P_536c5ad0b0ad404d",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -56216,6 +57183,135 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_f52d27d19e514c27": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_36bc1d8f298743f5": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_fd424d0ba3bc4b49": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_110b2aa9916b4cf1": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_169ab4081fcd4b57": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_2c2ed6a4e0584460": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_e1c933430eeb450f": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_15c9be9497aa48cf": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_98ee768d87614bb7": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_97429e1039354fbb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_776244bbbb5a4a42": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_c3e3aff52f9445e4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_75a23c139006413f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_f719d7ba6f1a4eca": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_417e97e535434ab8": {
+      "override": null,
+      "default": [
+        "Maid Minori"
+      ],
+      "shops": [
+        "Maid Minori"
+      ]
+    },
+    "P_39b348040ee6442c": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_064559c176974b16": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_384570b34925467f": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_6f2918d8b9ff4aa8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_ee01b2b815ed48f4": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_536c5ad0b0ad404d": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -56700,5 +57796,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:32+08:00"
+  "published_at": "2026-10-31T21:34+08:00"
 };

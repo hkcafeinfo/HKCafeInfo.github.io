@@ -12421,6 +12421,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-30",
           "reason": "本輪 caption 原文「粟米」，SQLite既有「栗米」分屬不同 provisional person_id，無IG證據；不合併或重複新增，待用戶核實。",
           "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "10/30同一活動週表寫粟米、獨立caption寫栗米，原圖寫粟米；現保留既有栗米person_id，待直接IG／改名證據，不因相似名另建重複出勤或合併人物。",
+          "source": "https://www.instagram.com/p/DfEtY9TkhWM/"
         }
       ],
       "date_notices": []
@@ -55629,5 +55634,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:55+08:00"
+  "published_at": "2026-10-31T12:59+08:00"
 };

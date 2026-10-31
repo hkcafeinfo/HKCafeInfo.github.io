@@ -23479,7 +23479,8 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "貓神",
-              "ジル"
+              "ジル",
+              "いせ"
             ],
             "試工女僕": [
               "Maru"
@@ -23524,13 +23525,21 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "いせ",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
           "event_name": "Manor Circus Night",
           "alternate_sources": [
             "https://www.instagram.com/themanorcafe/p/DeqVXsvCfCq/",
-            "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/"
+            "https://www.instagram.com/themanorcafe/p/De8_LHYiYtS/",
+            "https://www.instagram.com/p/DfJISYypkj2/"
           ],
           "person_notes": {
             "Hanami": "個人時段：18:30-21:30",
@@ -57851,5 +57860,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:10+08:00"
+  "published_at": "2026-10-31T22:19+08:00"
 };

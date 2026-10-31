@@ -15973,6 +15973,410 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
           ]
+        },
+        {
+          "date": "2026-11-01",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定幽靈": [
+              "Rei"
+            ],
+            "當值幽靈": [
+              "yui",
+              "riko",
+              "阿橦",
+              "阿初",
+              "藍莓",
+              "kumo",
+              "ame"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Rei",
+              "role": "限定幽靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "riko",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿橦",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿初",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "藍莓",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kumo",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "ame",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
+          "event_name": "萬聖節event"
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定幽靈": [
+              "津津",
+              "Haruka"
+            ],
+            "當值幽靈": [
+              "小南",
+              "龍蝦",
+              "harei",
+              "小困",
+              "米子"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "津津",
+              "role": "限定幽靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Haruka",
+              "role": "限定幽靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小南",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "harei",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小困",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "米子",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
+          "event_name": "萬聖節event"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值幽靈": [
+              "reda",
+              "hari",
+              "龍蝦",
+              "riko",
+              "nekome",
+              "咬牙",
+              "九千",
+              "牙涼",
+              "fumi"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "hari",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "riko",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "nekome",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "咬牙",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "九千",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙涼",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "fumi",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
+          "event_name": "萬聖節event"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定幽靈": [
+              "鈺"
+            ],
+            "當值幽靈": [
+              "reda",
+              "hari",
+              "999",
+              "丑",
+              "kokomi",
+              "kusuki",
+              "kaka",
+              "nako",
+              "yuki"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "鈺",
+              "role": "限定幽靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "hari",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "999",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "丑",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kusuki",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kaka",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "nako",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuki",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
+          "event_name": "萬聖節event"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定幽靈": [
+              "梓叔"
+            ],
+            "當值幽靈": [
+              "reda",
+              "大毛",
+              "kokomi",
+              "yui",
+              "龍蝦",
+              "剎那",
+              "牙涼"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "梓叔",
+              "role": "限定幽靈",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "reda",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "大毛",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "kokomi",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yui",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "龍蝦",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "剎那",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙涼",
+              "role": "當值幽靈",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
+          "event_name": "萬聖節event"
         }
       ],
       "address": "旺角西洋菜南街5號好望角大廈1902室",
@@ -39253,6 +39657,33 @@ window.MAID_ROSTERS = {
       "names": [
         "ひなき"
       ]
+    },
+    "ame": {
+      "person_id": "P_f1a9cbd3d1e14f20",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "ame"
+      ]
+    },
+    "米子": {
+      "person_id": "P_e2510a09c1d14ee1",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "米子"
+      ]
+    },
+    "fumi": {
+      "person_id": "P_720094ca61d442a9",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "fumi"
+      ]
     }
   },
   "person_accounts": {
@@ -44125,6 +44556,60 @@ window.MAID_ROSTERS = {
       },
       "赤夜": {
         "person_id": "R_9_d7b0db7622fb",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Rei": {
+        "person_id": "P_5000923b42664afb",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "ame": {
+        "person_id": "P_f1a9cbd3d1e14f20",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "津津": {
+        "person_id": "P_2533289c38cf45d8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Haruka": {
+        "person_id": "P_b9a2abe212fe4e9e",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "米子": {
+        "person_id": "P_e2510a09c1d14ee1",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "九千": {
+        "person_id": "P_7980ccecb7f04cb2",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "fumi": {
+        "person_id": "P_720094ca61d442a9",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "鈺": {
+        "person_id": "P_1674226e4c4e464a",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "梓叔": {
+        "person_id": "P_7042fcfaae1f4cea",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -55670,6 +56155,67 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_5000923b42664afb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_f1a9cbd3d1e14f20": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "P_2533289c38cf45d8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b9a2abe212fe4e9e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_e2510a09c1d14ee1": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "P_7980ccecb7f04cb2": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "P_720094ca61d442a9": {
+      "override": null,
+      "default": [
+        "Maid Eidolon"
+      ],
+      "shops": [
+        "Maid Eidolon"
+      ]
+    },
+    "P_1674226e4c4e464a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_7042fcfaae1f4cea": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -56154,5 +56700,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:31+08:00"
+  "published_at": "2026-10-31T21:32+08:00"
 };

@@ -50138,12 +50138,12 @@ window.MAID_ROSTERS = {
     "N_999": {
       "override": null,
       "default": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Baberu Cafe",
+        "Maid Eidolon"
       ],
       "shops": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Baberu Cafe",
+        "Maid Eidolon"
       ]
     },
     "N__cream_ice_cos_0614": {
@@ -53273,12 +53273,12 @@ window.MAID_ROSTERS = {
     "N___464": {
       "override": null,
       "default": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Baberu Cafe",
+        "Maid Eidolon"
       ],
       "shops": [
-        "Maid Eidolon",
-        "Baberu Cafe"
+        "Baberu Cafe",
+        "Maid Eidolon"
       ]
     },
     "N___465": {
@@ -57860,5 +57860,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:19+08:00"
+  "published_at": "2026-10-31T22:22+08:00"
 };

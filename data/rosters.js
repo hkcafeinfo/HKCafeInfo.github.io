@@ -1953,6 +1953,11 @@ window.MAID_ROSTERS = {
           "date": "2026-11-08",
           "reason": "本輪原圖列Yufina，但完整caption上部及下部Guest均未列；沒有明確取消／編輯先後證據，尚不可判定參與或場次。保留候選自行追查，不以圖片猜時段。",
           "source": "https://www.instagram.com/p/De1ompxyJtv/"
+        },
+        {
+          "date": "2026-11-08",
+          "reason": "caption上部17-20及下部20-23各Guest已逐名核對；原圖額外有Yufina，兩場caption均未列，記內容衝突自行追查，未猜場次。",
+          "source": "https://www.instagram.com/p/De1ompxyJtv/"
         }
       ]
     },
@@ -4048,6 +4053,11 @@ window.MAID_ROSTERS = {
         {
           "date": "2026-11-07",
           "reason": "本輪羊誕祭海報Guest另列Yuko，完整caption僅列7個Guest IG，未明示Yuko對應或取消；保留候選自行追查，不猜配IG。",
+          "source": "https://www.instagram.com/p/Des_DDmqOXN/"
+        },
+        {
+          "date": "2026-11-07",
+          "reason": "11/7羊誕祭15-23；caption7個Guest IG及主角羊與DB一致；原圖多Yuko，列為內容差異自行追查，不猜身份/改名。",
           "source": "https://www.instagram.com/p/Des_DDmqOXN/"
         }
       ],
@@ -9189,6 +9199,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-31",
           "reason": "同一活動陣容來源稱「月」及「Yume」，SQLite當日既有來源名分別為「阿月」及「Yumi」；無同一IG或其他身份證據，不合併亦不改原名。請後續來源核對或用戶裁決。",
           "source": "https://www.instagram.com/agarden_2001/p/DfEyxmSPNT5/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "31日圖/caption月、Yume與週表阿月、Yumi差異保留，不以相似名建立第二人；其餘十人與DB一致。",
+          "source": "https://www.instagram.com/p/DfEyxmSPNT5/"
         }
       ],
       "date_notices": []
@@ -12528,6 +12543,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-30",
           "reason": "10/30同一活動週表寫粟米、獨立caption寫栗米，原圖寫粟米；現保留既有栗米person_id，待直接IG／改名證據，不因相似名另建重複出勤或合併人物。",
           "source": "https://www.instagram.com/p/DfEtY9TkhWM/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "30/10–1/11逐日名單已比對；開門時間依獨立活動30日17-24、31日16-22；前置4個人像名字未附日期不當作排班。粟米/栗米拼字差異保留候選，不依相似名合併。",
+          "source": "https://www.instagram.com/p/DfEtY9TkhWM/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "30/10–1/11逐日名單已比對；開門時間依獨立活動30日17-24、31日16-22；前置4個人像名字未附日期不當作排班。粟米/栗米拼字差異保留候選，不依相似名合併。",
+          "source": "https://www.instagram.com/p/DfEtY9TkhWM/"
+        },
+        {
+          "date": "2026-11-01",
+          "reason": "30/10–1/11逐日名單已比對；開門時間依獨立活動30日17-24、31日16-22；前置4個人像名字未附日期不當作排班。粟米/栗米拼字差異保留候選，不依相似名合併。",
+          "source": "https://www.instagram.com/p/DfEtY9TkhWM/"
         }
       ],
       "date_notices": []
@@ -14080,6 +14110,71 @@ window.MAID_ROSTERS = {
           "date": "2026-10-23",
           "reason": "週表caption標示租場活動，但SQLite仍有11筆人員更表；需核對是否移除／來源時間線。",
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DerDvMGh-zc/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "鬼新娘captionつゆめ與較新週表もえね差異，保留最新週表Bride角色；不依相似姓名合併。原圖嘉賓無額外新日期。",
+          "source": "https://www.instagram.com/p/De1Y_JaOvwj/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "26–1/11逐日逐角色比對，喵哥已補；1/11包場依企鵝獨立帖八人。28日Meika/Fuyo不同候選保留較新週表，不新增同日第二人。",
+          "source": "https://www.instagram.com/p/De8jnEARTyn/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "奶糖原圖28/10 18–23；Fuyo與最新週表Meika差異保留候選不猜IG。",
+          "source": "https://www.instagram.com/p/De9wT_myybb/"
+        },
+        {
+          "date": "2026-10-19",
+          "reason": "19–25逐日角色比對；租場21/23不代表休息；24日以獨立活動名單處理。",
+          "source": "https://www.instagram.com/p/DerDvMGh-zc/"
+        },
+        {
+          "date": "2026-10-20",
+          "reason": "19–25逐日角色比對；租場21/23不代表休息；24日以獨立活動名單處理。",
+          "source": "https://www.instagram.com/p/DerDvMGh-zc/"
+        },
+        {
+          "date": "2026-10-22",
+          "reason": "19–25逐日角色比對；租場21/23不代表休息；24日以獨立活動名單處理。",
+          "source": "https://www.instagram.com/p/DerDvMGh-zc/"
+        },
+        {
+          "date": "2026-10-24",
+          "reason": "19–25逐日角色比對；租場21/23不代表休息；24日以獨立活動名單處理。",
+          "source": "https://www.instagram.com/p/DerDvMGh-zc/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "19–25逐日角色比對；租場21/23不代表休息；24日以獨立活動名單處理。",
+          "source": "https://www.instagram.com/p/DerDvMGh-zc/"
         }
       ],
       "date_notices": []
@@ -16409,6 +16504,101 @@ window.MAID_ROSTERS = {
         {
           "date": "2026-10-31",
           "reason": "同一活動caption17:00-22:00、原圖17:00-24:00，缺明確版本先後；保留caption時段並自行續查。",
+          "source": "https://www.instagram.com/p/DfB_BTCTNU-/"
+        },
+        {
+          "date": "2026-10-20",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-22",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-23",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-24",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/25阿橦後續完整週表未列，保留後版；赤夜/akaya候選未以讀音合併。",
+          "source": "https://www.instagram.com/p/DegcYpdzpvV/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。10/30小六/ろく缺直接同人證據，保留候選不重複出勤。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "本輪完整caption及原圖實讀，逐日名字/17–22與DB比對；照片回顧非完整取消名單，保留週表其他人。同活動圖17–24與caption17–22衝突，保持現有明確caption並自行追查。",
           "source": "https://www.instagram.com/p/DfB_BTCTNU-/"
         }
       ],
@@ -18826,7 +19016,48 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfBhoA0E1Jx/"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        {
+          "date": "2026-10-24",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "24–31全週姓名職位比對；新增29日Reii，原Bake修回本次原文Beka；29日Yuki/Sumiyo舊版本候選保留audit3491，不因當前省略就刪。25日個別來源19時開門保留。",
+          "source": "https://www.instagram.com/p/De2GdyhE-3P/"
+        }
+      ]
     },
     {
       "shop": "Queen’s Garden",
@@ -19866,6 +20097,131 @@ window.MAID_ROSTERS = {
           "date": "2026-10-25",
           "reason": "2026-10-30 re-read edited White Fox birthday caption lists 悅夢、貓貓、茹兒; SQLite also has 飯糰. Existing prior weekly and current edited specific source conflict; hold roster changes pending source chronology / whether lineup was revised.",
           "source": "https://www.instagram.com/queens_x_garden/p/De6cmtiRtcE/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "26–31逐日及明確IG核對；29日名單採獨立生日公告；31日週表22時與月表23時衝突，保留既有23時待確認，無改寫成已一致。",
+          "source": "https://www.instagram.com/reel/De8S7vOzmMV/"
+        },
+        {
+          "date": "2026-10-12",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-13",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-14",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-15",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-16",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-17",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-18",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-19",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-20",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-22",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-23",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-24",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "月表12–31逐日比對；30日多Viko明確文字，已另建本店provisional，不與別店viko合併；28日桃子週表沒有仍保留候選。1–11舊日期未全入庫，保留原文待補。 已逐日補1–10明確名單及職位，11日只有待更新無人名，不偽造班；舊日期只內部保留。",
+          "source": "https://www.instagram.com/p/DeBJJFuRUFe/"
         }
       ],
       "date_notices": []
@@ -25660,6 +26016,76 @@ window.MAID_ROSTERS = {
           "date": "2026-10-31",
           "reason": "本輪10/31更表原圖列限定Ayane、Stellar，完整caption未列；來源版本取代時間未能確認，保留現有可信值，自行追查不可推定取消。",
           "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-16",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-17",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-18",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-20",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-21",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-22",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-23",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-24",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "本輪完整caption與各頁原圖已讀；逐日原名/職位/時間已比對。10/31原圖限定Ayane/Stellar與caption不一致，保留現有可信caption，另存衝突自行追查；10/30 Moli依caption水色天使。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
         }
       ],
       "date_notices": []
@@ -27879,6 +28305,41 @@ window.MAID_ROSTERS = {
           "date": "2026-10-28",
           "reason": "10/28 玲奈個人時段原帖印為「午5:00-23:00」，無法確定是否表示 17:00-23:00；需核對原圖。",
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-25",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-26",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-27",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-29",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "25–31七天每行姓名角色及個人時間逐項assert一致；27日バカ是廚娘；28日午5:00按午後17:00既有明文處理；31日舊Riley未在本次caption仍保留候選，待版本證據，不刪其他來源。",
+          "source": "https://www.instagram.com/p/De5GktnEzqA/"
         }
       ],
       "date_notices": []
@@ -58085,5 +58546,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:44+08:00"
+  "published_at": "2026-10-31T22:45+08:00"
 };

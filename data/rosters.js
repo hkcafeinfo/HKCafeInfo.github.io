@@ -15155,13 +15155,13 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值幽靈": [
               "鰻魚",
-              "raku",
-              "harei",
+              "Raku",
+              "Harei",
               "龍蝦",
               "七月",
-              "kusuki",
+              "Kusuki",
               "大毛",
-              "nako"
+              "Nako"
             ],
             "限定幽靈": [
               "小嘉"
@@ -15176,14 +15176,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "raku",
+              "name": "Raku",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "harei",
+              "name": "Harei",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15204,7 +15204,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "kusuki",
+              "name": "Kusuki",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15218,7 +15218,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "nako",
+              "name": "Nako",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15232,7 +15232,13 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
+          "source": "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/",
+          "review_names": {
+            "Raku": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfGOfodTOOO/",
+            "Harei": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfGOfodTOOO/",
+            "Kusuki": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfGOfodTOOO/",
+            "Nako": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfGOfodTOOO/"
+          }
         },
         {
           "date": "2026-10-25",
@@ -15391,9 +15397,9 @@ window.MAID_ROSTERS = {
           "hours": "17:00-22:00",
           "groups": {
             "當值幽靈": [
-              "reda",
+              "Reda",
               "mizore",
-              "usagi",
+              "Usagi",
               "阿初",
               "大毛",
               "龍蝦",
@@ -15403,7 +15409,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "reda",
+              "name": "Reda",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15417,7 +15423,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "usagi",
+              "name": "Usagi",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15463,7 +15469,11 @@ window.MAID_ROSTERS = {
           "event_name": "萬聖節event",
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/"
-          ]
+          ],
+          "review_names": {
+            "Reda": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIqtHdTCOM/",
+            "Usagi": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIqtHdTCOM/"
+          }
         },
         {
           "date": "2026-10-28",
@@ -15471,18 +15481,18 @@ window.MAID_ROSTERS = {
           "groups": {
             "當值幽靈": [
               "空雪",
-              "hari",
+              "Hari",
               "牙涼",
               "七月",
-              "kusuki",
-              "nano",
+              "Kusuki",
+              "Nano",
               "999",
               "鬼鬼",
               "reda",
-              "kokomi"
+              "Kokomi"
             ],
             "限定幽靈": [
-              "akaya"
+              "Akaya"
             ]
           },
           "attendance_records": [
@@ -15494,7 +15504,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "hari",
+              "name": "Hari",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15515,14 +15525,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "kusuki",
+              "name": "Kusuki",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "nano",
+              "name": "Nano",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
@@ -15550,14 +15560,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "kokomi",
+              "name": "Kokomi",
               "role": "當值幽靈",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
-              "name": "akaya",
+              "name": "Akaya",
               "role": "限定幽靈",
               "type": "限定",
               "cancelled": false,
@@ -15569,9 +15579,16 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De16PcuTQP0/"
           ],
+          "review_names": {
+            "Hari": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIrGPVT-o4/",
+            "Kusuki": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIrGPVT-o4/",
+            "Nano": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIrGPVT-o4/",
+            "Kokomi": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIrGPVT-o4/",
+            "Akaya": "保留較新回顧帖原文大小寫；不改person_id、不以局部回顧刪除週表其他人員。 https://www.instagram.com/p/DfIrGPVT-o4/"
+          },
           "person_notes": {
             "reda": "此為店舖開放時間；個人時段未另行列明。",
-            "kokomi": "此為店舖開放時間；個人時段未另行列明。"
+            "Kokomi": "此為店舖開放時間；個人時段未另行列明。"
           }
         },
         {
@@ -43819,14 +43836,56 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "Raku": {
+        "person_id": "N_raku",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Harei": {
+        "person_id": "N_harei",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Kusuki": {
+        "person_id": "N_kusuki",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Nako": {
+        "person_id": "N_nako",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "reda": {
         "person_id": "N_Reda",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
       },
-      "nano": {
-        "person_id": "N_Nano",
+      "Usagi": {
+        "person_id": "N_usagi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Hari": {
+        "person_id": "N_hari",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Kokomi": {
+        "person_id": "N_kokomi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Akaya": {
+        "person_id": "N_akaya",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -55570,5 +55629,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:53+08:00"
+  "published_at": "2026-10-31T12:55+08:00"
 };

@@ -15889,6 +15889,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-23",
           "reason": "2026-10-23試業day8 recap列ruika、大毛、kumo、小狐狸、小困；SQLite另有八田、小南、阿橦。貼文是試業回顧，沒有說明是否為完整當日更表，暫不刪除資料。",
           "source": "https://www.instagram.com/maid_eidolon/p/De7_ZeHzVq-/"
+        },
+        {
+          "date": "2026-10-30",
+          "reason": "週表小六與限定帖ろく（直接IG roku_399）尚無同一人直接證據；不因翻譯或相似名稱合併，保留已核實ろく並續查週表身份。",
+          "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "週表akaya與獨立限定赤夜尚無直接IG／同人證據；不以讀音相似合併或新增重複出勤。",
+          "source": "https://www.instagram.com/p/De16PcuTQP0/"
+        },
+        {
+          "date": "2026-10-31",
+          "reason": "同一活動caption17:00-22:00、原圖17:00-24:00，缺明確版本先後；保留caption時段並自行續查。",
+          "source": "https://www.instagram.com/p/DfB_BTCTNU-/"
         }
       ],
       "date_notices": []
@@ -39001,6 +39016,96 @@ window.MAID_ROSTERS = {
       "names": [
         "MIA"
       ]
+    },
+    "yumi": {
+      "person_id": "P_3301c516feed46f6",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "yumi"
+      ]
+    },
+    "shura": {
+      "person_id": "P_4532a71fa3184a0d",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "shura"
+      ]
+    },
+    "bulu": {
+      "person_id": "P_3d12a786a60a4389",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "bulu"
+      ]
+    },
+    "千言": {
+      "person_id": "P_9e8e4ba9e9c349fd",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "千言"
+      ]
+    },
+    "nami": {
+      "person_id": "P_d8dcc275a1284c2b",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "nami"
+      ]
+    },
+    "Kaka": {
+      "person_id": "P_62b1c94c01fa40eb",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Kaka"
+      ]
+    },
+    "哎呀": {
+      "person_id": "P_0de562f2ee5f4455",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "哎呀"
+      ]
+    },
+    "小杏": {
+      "person_id": "P_ae2ae9c9fb9a487e",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "小杏"
+      ]
+    },
+    "Usawa": {
+      "person_id": "P_daec0f84db824950",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Usawa"
+      ]
+    },
+    "佩玲": {
+      "person_id": "P_72bfd2246ea04a87",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "佩玲"
+      ]
     }
   },
   "person_accounts": {
@@ -44485,6 +44590,113 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "yumi": {
+        "person_id": "P_3301c516feed46f6",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "shura": {
+        "person_id": "P_4532a71fa3184a0d",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "bulu": {
+        "person_id": "P_3d12a786a60a4389",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "千言": {
+        "person_id": "P_9e8e4ba9e9c349fd",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "nami": {
+        "person_id": "P_d8dcc275a1284c2b",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Kaka": {
+        "person_id": "P_62b1c94c01fa40eb",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "牙米": {
+        "person_id": "P_7ae2852183914e62",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "哎呀": {
+        "person_id": "P_0de562f2ee5f4455",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "安安": {
+        "person_id": "P_b61fd00b92fc4df8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "小杏": {
+        "person_id": "P_ae2ae9c9fb9a487e",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Usawa": {
+        "person_id": "P_daec0f84db824950",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "瑤瑤": {
+        "person_id": "P_0e88ec1aab474c35",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "丑": {
+        "person_id": "P_c331e96e3f214b31",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "佩玲": {
+        "person_id": "P_72bfd2246ea04a87",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Nana": {
+        "person_id": "P_4baf22c8cd934546",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "發發": {
+        "person_id": "R_11_5adf2f173b94",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "kathywnt",
+            "status": "current"
+          }
+        ]
+      },
+      "elika": {
+        "person_id": "N_Elika",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       }
     },
     "Kaizoku House": {
@@ -55150,6 +55362,81 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_3301c516feed46f6": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_4532a71fa3184a0d": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_3d12a786a60a4389": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_9e8e4ba9e9c349fd": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_d8dcc275a1284c2b": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_62b1c94c01fa40eb": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_7ae2852183914e62": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_0de562f2ee5f4455": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_b61fd00b92fc4df8": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_ae2ae9c9fb9a487e": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_daec0f84db824950": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_0e88ec1aab474c35": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_c331e96e3f214b31": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_72bfd2246ea04a87": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_4baf22c8cd934546": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -55634,5 +55921,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:59+08:00"
+  "published_at": "2026-10-31T13:04+08:00"
 };

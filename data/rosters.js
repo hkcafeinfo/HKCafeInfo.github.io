@@ -4903,7 +4903,7 @@ window.MAID_ROSTERS = {
               "Sayori"
             ],
             "甜品": [
-              "Sai",
+              "サイ",
               "Toto",
               "安晚",
               "梓叔",
@@ -4933,7 +4933,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Sai",
+              "name": "サイ",
               "role": "甜品",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -4977,7 +4977,7 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "Ina": "個人時段：18:00-23:00；個別時段按活動帖。",
             "Sayori": "個人時段：18:00-23:00",
-            "Sai": "個人時段：19:00-01:30；個別時段按活動帖。",
+            "サイ": "個人時段：19:00-01:30；個別時段按活動帖。",
             "Toto": "個人時段：18:00-01:30；個別時段按活動帖。",
             "安晚": "個人時段：19:00-01:30；個別時段按活動帖。",
             "梓叔": "個人時段：18:00-01:30；個別時段按活動帖。",
@@ -4986,7 +4986,7 @@ window.MAID_ROSTERS = {
           "person_times": {
             "Ina": "18:00-23:00",
             "Sayori": "18:00-23:00",
-            "Sai": "19:00-01:30",
+            "サイ": "19:00-01:30",
             "Toto": "18:00-01:30",
             "安晚": "19:00-01:30",
             "梓叔": "18:00-01:30",
@@ -5309,7 +5309,7 @@ window.MAID_ROSTERS = {
               "Sayori"
             ],
             "Head Nurse": [
-              "Sai"
+              "サイ"
             ],
             "廚娘": [
               "NØNNØ"
@@ -5359,7 +5359,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Sai",
+              "name": "サイ",
               "role": "Head Nurse",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -5386,7 +5386,7 @@ window.MAID_ROSTERS = {
             "Itsu": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
             "Natsumi": "個人時段：19:30-00:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
             "Sayori": "個人時段：18:00-23:00；原帖跨午夜時間寫法以店舖營業時間解讀。",
-            "Sai": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。"
+            "サイ": "個人時段：19:00-00:30；原帖跨午夜時間寫法以店舖營業時間解讀。"
           },
           "person_times": {
             "安晚": "19:00-00:30",
@@ -5395,7 +5395,7 @@ window.MAID_ROSTERS = {
             "Itsu": "18:00-23:00",
             "Natsumi": "19:30-00:00",
             "Sayori": "18:00-23:00",
-            "Sai": "19:00-00:30"
+            "サイ": "19:00-00:30"
           }
         },
         {
@@ -42500,6 +42500,17 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "サイ": {
+        "person_id": "P0051",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "sai_nekopill",
+            "status": "current"
+          }
+        ]
       }
     },
     "Aurelia Garden": {
@@ -57840,5 +57851,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:54+08:00"
+  "published_at": "2026-10-31T22:10+08:00"
 };

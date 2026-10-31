@@ -25621,7 +25621,13 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一 休息\n星期二至五 17:00–22:00\n星期六日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [],
+      "unresolved": [
+        {
+          "date": "2026-10-31",
+          "reason": "本輪10/31更表原圖列限定Ayane、Stellar，完整caption未列；來源版本取代時間未能確認，保留現有可信值，自行追查不可推定取消。",
+          "source": "https://www.instagram.com/p/DededLPEzFe/"
+        }
+      ],
       "date_notices": []
     },
     {
@@ -57824,8 +57830,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/queens_garden_2026-10-31_halloween.jpg",
       "source": "https://www.instagram.com/p/De4qw1WxtWe/",
       "opacity": ""
+    },
+    {
+      "shop": "Maidoll Mirage",
+      "event_name": "魚望週年",
+      "image_path": "data/event_images/mirage_2026-11-06_sakana_siumong.jpg",
+      "source": "https://www.instagram.com/p/DfJ9GNxjpfQ/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:40+08:00"
+  "published_at": "2026-10-31T21:54+08:00"
 };

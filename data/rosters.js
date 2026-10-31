@@ -24887,9 +24887,20 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/p/DfJyvIlk9Di/",
           "person_notes": {
-            "Mio": "一期生測試；通過後才成為見習天使。",
-            "Nanona": "一期生測試；通過後才成為見習天使。"
-          }
+            "Mio": "個人時段：17:00-22:00；一期生測試；通過後才成為見習天使。",
+            "Nanona": "個人時段：17:00-22:00；一期生測試；通過後才成為見習天使。",
+            "小嘉": "個人時段：17:00-22:00",
+            "瑤瑤": "個人時段：17:00-22:00"
+          },
+          "person_times": {
+            "Mio": "17:00-22:00",
+            "Nanona": "17:00-22:00",
+            "小嘉": "17:00-22:00",
+            "瑤瑤": "17:00-22:00"
+          },
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfJyvIlk9Di/"
+          ]
         },
         {
           "date": "2026-11-03",
@@ -57796,5 +57807,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T21:34+08:00"
+  "published_at": "2026-10-31T21:36+08:00"
 };

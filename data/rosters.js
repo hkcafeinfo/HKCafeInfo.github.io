@@ -16605,8 +16605,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "一日限定女僕": [
               "YK",
-              "Kuro",
-              "YK Kuro"
+              "Kuro"
             ]
           },
           "attendance_records": [
@@ -16623,22 +16622,11 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
-            },
-            {
-              "name": "YK Kuro",
-              "role": "一日限定女僕",
-              "type": "限定",
-              "cancelled": false,
-              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/maidcafe.misty/p/DeohHEYKkxo/",
           "person_notes": {
-            "YK": "原合寫YK Kuro為兩人；圖片位置標註已核。",
-            "YK Kuro": "個人時段：18:30-21:30"
-          },
-          "person_times": {
-            "YK Kuro": "18:30-21:30"
+            "YK": "原合寫YK Kuro為兩人；圖片位置標註已核。"
           }
         },
         {
@@ -45843,7 +45831,7 @@ window.MAID_ROSTERS = {
       "YK Kuro": {
         "person_id": "P_e2a17055413e45d8",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeohHEYKkxo/",
         "instagram_accounts": []
       }
     },
@@ -57947,5 +57935,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:27+08:00"
+  "published_at": "2026-10-31T22:30+08:00"
 };

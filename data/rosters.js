@@ -18480,7 +18480,7 @@ window.MAID_ROSTERS = {
             ],
             "限定海盜": [
               "照美",
-              "Bake"
+              "Beka"
             ]
           },
           "attendance_records": [
@@ -18520,7 +18520,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "Bake",
+              "name": "Beka",
               "role": "限定海盜",
               "type": "限定",
               "cancelled": false,
@@ -18534,7 +18534,7 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/maid.kaizokuhouse/p/Dem4Izgz-5v/"
           ],
           "person_notes": {
-            "Bake": "限定海盜成員出沒公告；個人出沒時間18:00-23:00。"
+            "Beka": "限定海盜成員出沒公告；個人出沒時間18:00-23:00。"
           }
         },
         {
@@ -18595,7 +18595,8 @@ window.MAID_ROSTERS = {
           "hours": "18:00-23:00",
           "groups": {
             "Maid": [
-              "幽靈"
+              "幽靈",
+              "Reii"
             ],
             "Pirate Maid": [
               "Mirei",
@@ -18631,6 +18632,13 @@ window.MAID_ROSTERS = {
               "name": "Sumiyo",
               "role": "限定女僕",
               "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Reii",
+              "role": "Maid",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -18789,6 +18797,25 @@ window.MAID_ROSTERS = {
           "person_notes": {
             "牙喵": "官方活動帖明確列特別嘉賓 @meow__0825；同一海報標示「牙喵／新人出道」。"
           }
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定海盜": [
+              "Kayla"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Kayla",
+              "role": "限定海盜",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/Dew3Iw7zvOm/"
         }
       ],
       "address": "旺角登打士街36號恆威商業中心12樓全層",
@@ -46703,11 +46730,28 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "Kayla": {
+        "person_id": "P_70c5e1425aec4fee",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "天使 ⟦@R_12_e5cc77f2dee8⟧": {
         "person_id": "R_12_e5cc77f2dee8",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "Beka": {
+        "person_id": "R_12_15e03a4063c8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "bake.in_rlyeh",
+            "status": "current"
+          }
+        ]
       },
       "YUKI": {
         "person_id": "R_12_8c9c51b2e66f",
@@ -57403,6 +57447,15 @@ window.MAID_ROSTERS = {
       "shops": [
         "Queen’s Garden"
       ]
+    },
+    "P_70c5e1425aec4fee": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
     }
   },
   "weekly_events": [
@@ -57894,5 +57947,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:25+08:00"
+  "published_at": "2026-10-31T22:27+08:00"
 };

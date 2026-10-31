@@ -29102,7 +29102,8 @@ window.MAID_ROSTERS = {
               "Kiyoko",
               "Snowy",
               "芙恩",
-              "紫喵"
+              "紫喵",
+              "地鼠"
             ],
             "魔法導師": [
               "茈"
@@ -29161,6 +29162,13 @@ window.MAID_ROSTERS = {
             {
               "name": "茈",
               "role": "魔法導師",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "地鼠",
+              "role": "魔法使",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -57946,5 +57954,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:41+08:00"
+  "published_at": "2026-10-31T22:43+08:00"
 };

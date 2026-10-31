@@ -19350,7 +19350,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "茶茶",
+              "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "青蛙",
               "魚"
             ],
@@ -19367,7 +19367,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶",
+              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -19395,7 +19395,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
+          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
+          "source_names": {
+            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
+          }
         },
         {
           "date": "2026-10-15",
@@ -19511,7 +19514,7 @@ window.MAID_ROSTERS = {
               "Ellie",
               "安柚",
               "芊夏",
-              "茶茶",
+              "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "雅木",
               "霜糖",
               "青蛙"
@@ -19540,7 +19543,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶",
+              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -19572,7 +19575,10 @@ window.MAID_ROSTERS = {
           "event_name": "芊夏偶像生日祭",
           "alternate_sources": [
             "https://www.instagram.com/chi_ka_qq/p/DeKAkUmk0j-/"
-          ]
+          ],
+          "source_names": {
+            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
+          }
         },
         {
           "date": "2026-10-18",
@@ -19741,7 +19747,7 @@ window.MAID_ROSTERS = {
               "Yuri",
               "兔仔",
               "晏咲",
-              "茶茶",
+              "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "青蛙"
             ]
           },
@@ -19768,7 +19774,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶",
+              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -19786,14 +19792,17 @@ window.MAID_ROSTERS = {
           "event_name": "萬聖節Event",
           "alternate_sources": [
             "https://www.instagram.com/commacafe_8/p/DewT4aRtrjv/"
-          ]
+          ],
+          "source_names": {
+            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
+          }
         },
         {
           "date": "2026-10-22",
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "茶茶",
+              "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "蕉蕉",
               "貓月",
               "青蛙"
@@ -19804,7 +19813,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "茶茶",
+              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -19840,7 +19849,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event"
+          "event_name": "萬聖節Event",
+          "source_names": {
+            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
+          }
         },
         {
           "date": "2026-10-23",
@@ -20156,7 +20168,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "茶茶",
+              "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "貓月"
             ],
             "見習女僕": [
@@ -20173,7 +20185,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶",
+              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -20202,7 +20214,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event"
+          "event_name": "萬聖節Event",
+          "source_names": {
+            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
+          }
         },
         {
           "date": "2026-10-29",
@@ -20505,6 +20520,7 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
       "opening_hours_checked_at": "2026-10-26",
+      "date_notices": [],
       "unresolved": [
         {
           "date": "2026-10-24",
@@ -20516,8 +20532,7 @@ window.MAID_ROSTERS = {
           "reason": "Caption name 茶 could refer to Comma 茶茶 per user direction; identity mapping remains provisional pending direct handle evidence.",
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
         }
-      ],
-      "date_notices": []
+      ]
     },
     {
       "shop": "Sugar Factory Cafe",
@@ -45566,11 +45581,32 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "茶茶 ⟦@R_14_143787021eebbd05⟧": {
+        "person_id": "R_14_143787021eebbd05",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "yuri": {
         "person_id": "R_14_ab997328677e",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "茶茶 ⟦@jianakwok_⟧": {
+        "person_id": "N___588",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "jianakwok_",
+            "status": "current"
+          },
+          {
+            "handle": "ttea_maid_",
+            "status": "current"
+          }
+        ]
       }
     },
     "Sugar Factory Cafe": {
@@ -55443,5 +55479,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:40+08:00"
+  "published_at": "2026-10-31T12:43+08:00"
 };

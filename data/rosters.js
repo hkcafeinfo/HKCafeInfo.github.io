@@ -58086,8 +58086,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/mirage_2026-11-06_sakana_siumong.jpg",
       "source": "https://www.instagram.com/p/DfJ9GNxjpfQ/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Mistia Luna",
+      "event_name": "第三屆陀螺盃—全攻型道館挑戰賽",
+      "image_path": "data/event_images/mistia_2026-10-17_beyblade.jpg",
+      "source": "https://www.instagram.com/p/DecFh8XT2BS/",
+      "opacity": "0.22"
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:48+08:00"
+  "published_at": "2026-10-31T22:49+08:00"
 };

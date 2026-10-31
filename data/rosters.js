@@ -11042,6 +11042,108 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/maidollmirage/p/De_qOyhiSn6/",
           "event_name": "咩咩生誕"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "17:00-21:30",
+          "groups": {
+            "女僕人偶": [
+              "魚仔",
+              "筱望",
+              "小凌",
+              "Yuka",
+              "淘淘",
+              "Apple",
+              "年子",
+              "奶糖"
+            ],
+            "限定人偶": [
+              "Cwai",
+              "楡榎",
+              "ひなき"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "魚仔",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "筱望",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小凌",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuka",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "淘淘",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Apple",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "年子",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "奶糖",
+              "role": "女僕人偶",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Cwai",
+              "role": "限定人偶",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "楡榎",
+              "role": "限定人偶",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "ひなき",
+              "role": "限定人偶",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfJ9GNxjpfQ/",
+          "event_name": "魚望週年"
         }
       ],
       "address": "旺角黑布街96–102號威發大廈2樓B室",
@@ -39106,6 +39208,51 @@ window.MAID_ROSTERS = {
       "names": [
         "佩玲"
       ]
+    },
+    "魚仔": {
+      "person_id": "P_08168b3a741e4cd4",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "魚仔"
+      ]
+    },
+    "Apple": {
+      "person_id": "P_8bc59fd3c7e9429e",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Apple"
+      ]
+    },
+    "Cwai": {
+      "person_id": "P_282aff08cbfd49cc",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Cwai"
+      ]
+    },
+    "楡榎": {
+      "person_id": "P_ee64a472faed4422",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "楡榎"
+      ]
+    },
+    "ひなき": {
+      "person_id": "P_d5cf78eba62b4440",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "ひなき"
+      ]
     }
   },
   "person_accounts": {
@@ -42512,6 +42659,42 @@ window.MAID_ROSTERS = {
       },
       "霏霏": {
         "person_id": "R_5_e308ce5edf65",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "魚仔": {
+        "person_id": "P_08168b3a741e4cd4",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Apple": {
+        "person_id": "P_8bc59fd3c7e9429e",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "奶糖": {
+        "person_id": "P_011ea7a9cc084bd2",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Cwai": {
+        "person_id": "P_282aff08cbfd49cc",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "楡榎": {
+        "person_id": "P_ee64a472faed4422",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "ひなき": {
+        "person_id": "P_d5cf78eba62b4440",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -53591,13 +53774,21 @@ window.MAID_ROSTERS = {
     },
     "R_5_0103fe832812": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
     },
     "R_5_ff35584321af": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
     },
     "R_15_d81f6aa49d96": {
       "override": null,
@@ -55437,6 +55628,48 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_08168b3a741e4cd4": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "P_8bc59fd3c7e9429e": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "P_011ea7a9cc084bd2": {
+      "override": null,
+      "default": [
+        "Maidoll Mirage"
+      ],
+      "shops": [
+        "Maidoll Mirage"
+      ]
+    },
+    "P_282aff08cbfd49cc": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_ee64a472faed4422": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "P_d5cf78eba62b4440": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -55921,5 +56154,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T13:08+08:00"
+  "published_at": "2026-10-31T21:31+08:00"
 };

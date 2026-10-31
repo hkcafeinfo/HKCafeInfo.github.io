@@ -27772,6 +27772,17 @@ window.MAID_ROSTERS = {
           "groups": {
             "限定當值女僕": [
               "Tina"
+            ],
+            "當值女僕": [
+              "Toffee",
+              "玄幽",
+              "Koe",
+              "玲奈",
+              "mogu",
+              "94"
+            ],
+            "當值廚娘": [
+              "奈雅"
             ]
           },
           "attendance_records": [
@@ -27781,16 +27792,430 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "Toffee",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Koe",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "mogu",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "94",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DfH3JTdTlMv/",
+          "event_name": "陀螺盃",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfKufcwEy5D/"
+          ],
           "person_notes": {
-            "Tina": "個人時段：18:00-23:00"
+            "Tina": "個人時段：18:00-23:00",
+            "Toffee": "個人時段：12:00-17:00",
+            "玄幽": "個人時段：13:00-20:00",
+            "Koe": "個人時段：13:00-20:00",
+            "玲奈": "個人時段：17:00-23:00",
+            "mogu": "個人時段：17:00-23:00",
+            "94": "個人時段：17:00-23:00",
+            "奈雅": "個人時段：12:00-17:00"
           },
           "person_times": {
-            "Tina": "18:00-23:00"
+            "Tina": "18:00-23:00",
+            "Toffee": "12:00-17:00",
+            "玄幽": "13:00-20:00",
+            "Koe": "13:00-20:00",
+            "玲奈": "17:00-23:00",
+            "mogu": "17:00-23:00",
+            "94": "17:00-23:00",
+            "奈雅": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "バカ",
+              "Sirius",
+              "萌え魚"
+            ],
+            "當值廚娘": [
+              "奈雅"
+            ]
           },
-          "notes": "個人時段：18:00-23:00"
+          "attendance_records": [
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfKufcwEy5D/",
+          "person_notes": {
+            "バカ": "個人時段：12:00-17:00",
+            "Sirius": "個人時段：14:00-19:00",
+            "萌え魚": "個人時段：17:00-23:00",
+            "奈雅": "個人時段：12:00-17:00"
+          },
+          "person_times": {
+            "バカ": "12:00-17:00",
+            "Sirius": "14:00-19:00",
+            "萌え魚": "17:00-23:00",
+            "奈雅": "12:00-17:00"
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "Sirius",
+              "バカ",
+              "Riya",
+              "Riley"
+            ],
+            "當值廚娘": [
+              "yuzu",
+              "真冬",
+              "Mo"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Sirius",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Riya",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuzu",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfKufcwEy5D/",
+          "person_notes": {
+            "Sirius": "個人時段：15:00-23:00",
+            "バカ": "個人時段：17:00-23:00",
+            "Riya": "個人時段：17:00-23:00",
+            "Riley": "個人時段：17:00-23:00",
+            "yuzu": "個人時段：12:00-17:00",
+            "真冬": "個人時段：12:00-17:00",
+            "Mo": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "Sirius": "15:00-23:00",
+            "バカ": "17:00-23:00",
+            "Riya": "17:00-23:00",
+            "Riley": "17:00-23:00",
+            "yuzu": "12:00-17:00",
+            "真冬": "12:00-17:00",
+            "Mo": "17:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "神樂",
+              "yuzu",
+              "幽玄",
+              "玲奈",
+              "バカ",
+              "萌え魚",
+              "94",
+              "Riley"
+            ],
+            "當值廚娘": [
+              "奈雅",
+              "真冬"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "神樂",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽玄",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "玲奈",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "萌え魚",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "94",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Riley",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfKufcwEy5D/",
+          "person_notes": {
+            "神樂": "個人時段：12:00-17:00",
+            "yuzu": "個人時段：12:00-17:00",
+            "幽玄": "個人時段：17:00-23:00",
+            "玲奈": "個人時段：17:00-23:00",
+            "バカ": "個人時段：17:00-23:00",
+            "萌え魚": "個人時段：17:00-23:00",
+            "94": "個人時段：17:00-23:00",
+            "Riley": "個人時段：17:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
+            "真冬": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "神樂": "12:00-17:00",
+            "yuzu": "12:00-17:00",
+            "幽玄": "17:00-23:00",
+            "玲奈": "17:00-23:00",
+            "バカ": "17:00-23:00",
+            "萌え魚": "17:00-23:00",
+            "94": "17:00-23:00",
+            "Riley": "17:00-23:00",
+            "奈雅": "12:00-17:00",
+            "真冬": "17:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "バカ",
+              "sirius",
+              "Gigi",
+              "小嵐",
+              "莓"
+            ],
+            "當值廚娘": [
+              "Mo",
+              "真冬"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "バカ",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "sirius",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "莓",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfKufcwEy5D/",
+          "person_notes": {
+            "バカ": "個人時段：12:00-17:00",
+            "sirius": "個人時段：14:00-19:00",
+            "Gigi": "個人時段：17:00-23:00",
+            "小嵐": "個人時段：17:00-23:00",
+            "莓": "個人時段：17:00-23:00",
+            "Mo": "個人時段：12:00-17:00",
+            "真冬": "個人時段：17:00-23:00"
+          },
+          "person_times": {
+            "バカ": "12:00-17:00",
+            "sirius": "14:00-19:00",
+            "Gigi": "17:00-23:00",
+            "小嵐": "17:00-23:00",
+            "莓": "17:00-23:00",
+            "Mo": "12:00-17:00",
+            "真冬": "17:00-23:00"
+          }
         },
         {
           "date": "2026-11-06",
@@ -27805,6 +28230,13 @@ window.MAID_ROSTERS = {
             ],
             "生誕主角": [
               "pikari"
+            ],
+            "當值女僕": [
+              "玄幽"
+            ],
+            "當值廚娘": [
+              "Mo",
+              "真冬"
             ]
           },
           "attendance_records": [
@@ -27849,6 +28281,27 @@ window.MAID_ROSTERS = {
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "玄幽",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "真冬",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/De_vUgbz1-v/",
@@ -27859,7 +28312,10 @@ window.MAID_ROSTERS = {
             "Moku": "個人時段：18:00-23:00",
             "Miyuki": "個人時段：18:00-23:00",
             "小雪": "個人時段：18:00-23:00",
-            "pikari": "個人時段：18:00-23:00"
+            "pikari": "個人時段：18:00-23:00",
+            "玄幽": "個人時段：15:00-23:00",
+            "Mo": "個人時段：12:00-17:00",
+            "真冬": "個人時段：17:00-23:00"
           },
           "person_times": {
             "Yuzuki": "18:00-23:00",
@@ -27867,9 +28323,150 @@ window.MAID_ROSTERS = {
             "Moku": "18:00-23:00",
             "Miyuki": "18:00-23:00",
             "小雪": "18:00-23:00",
-            "pikari": "18:00-23:00"
+            "pikari": "18:00-23:00",
+            "玄幽": "15:00-23:00",
+            "Mo": "12:00-17:00",
+            "真冬": "17:00-23:00"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "12:00-23:00",
+          "groups": {
+            "當值女僕": [
+              "神樂",
+              "喵酱",
+              "狸子",
+              "Sora",
+              "Riri",
+              "Gigi",
+              "小嵐",
+              "yuzu",
+              "Hina"
+            ],
+            "當值廚娘": [
+              "奈雅",
+              "Mo"
+            ],
+            "限定當值女僕": [
+              "曲奇"
+            ]
           },
-          "notes": "個人時段：18:00-23:00"
+          "attendance_records": [
+            {
+              "name": "神樂",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵酱",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "狸子",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sora",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Riri",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Gigi",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小嵐",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuzu",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hina",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "奈雅",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mo",
+              "role": "當值廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "曲奇",
+              "role": "限定當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfKufcwEy5D/",
+          "person_notes": {
+            "神樂": "個人時段：12:00-17:00",
+            "喵酱": "個人時段：12:00-17:00",
+            "狸子": "個人時段：14:00-19:00",
+            "Sora": "個人時段：15:00-23:00",
+            "Riri": "個人時段：17:00-23:00",
+            "Gigi": "個人時段：17:00-23:00",
+            "小嵐": "個人時段：17:00-23:00",
+            "yuzu": "個人時段：17:00-23:00",
+            "Hina": "個人時段：17:00-23:00",
+            "奈雅": "個人時段：12:00-17:00",
+            "Mo": "個人時段：17:00-23:00",
+            "曲奇": "個人時段：18:00-23:00"
+          },
+          "person_times": {
+            "神樂": "12:00-17:00",
+            "喵酱": "12:00-17:00",
+            "狸子": "14:00-19:00",
+            "Sora": "15:00-23:00",
+            "Riri": "17:00-23:00",
+            "Gigi": "17:00-23:00",
+            "小嵐": "17:00-23:00",
+            "yuzu": "17:00-23:00",
+            "Hina": "17:00-23:00",
+            "奈雅": "12:00-17:00",
+            "Mo": "17:00-23:00",
+            "曲奇": "18:00-23:00"
+          }
         }
       ],
       "address": "深水埗福榮街31號A地下",
@@ -34091,7 +34688,12 @@ window.MAID_ROSTERS = {
       "person_id": "N_Tina",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "kumaya_tina_prettykiller",
+          "status": "current"
+        }
+      ],
       "names": [
         "Tina"
       ]
@@ -40645,6 +41247,33 @@ window.MAID_ROSTERS = {
       "instagram_accounts": [],
       "names": [
         "奈悠"
+      ]
+    },
+    "幽玄": {
+      "person_id": "P_439c9e1e557e4df2",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "幽玄"
+      ]
+    },
+    "喵酱": {
+      "person_id": "P_a5fb4d2312c2421f",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "喵酱"
+      ]
+    },
+    "狸子": {
+      "person_id": "P_c824d04c1a7448a1",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "狸子"
       ]
     }
   },
@@ -48690,7 +49319,12 @@ window.MAID_ROSTERS = {
         "person_id": "N_Tina",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "kumaya_tina_prettykiller",
+            "status": "current"
+          }
+        ]
       },
       "mogu": {
         "person_id": "P0027",
@@ -48968,6 +49602,53 @@ window.MAID_ROSTERS = {
       },
       "pikari": {
         "person_id": "P_c31d0f87b8474db3",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "94": {
+        "person_id": "P_a5c3ddd0264a4500",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "幽玄": {
+        "person_id": "P_439c9e1e557e4df2",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "喵酱": {
+        "person_id": "P_a5fb4d2312c2421f",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "狸子": {
+        "person_id": "P_c824d04c1a7448a1",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "曲奇": {
+        "person_id": "P_56061536790c4125",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "kurupadoru",
+            "status": "current"
+          }
+        ]
+      },
+      "sirius": {
+        "person_id": "N_Sirius",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Sora": {
+        "person_id": "N_sora",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -49675,7 +50356,12 @@ window.MAID_ROSTERS = {
         "person_id": "N_Tina",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "kumaya_tina_prettykiller",
+            "status": "current"
+          }
+        ]
       },
       "Aino": {
         "person_id": "N_Aino",
@@ -49877,10 +50563,12 @@ window.MAID_ROSTERS = {
     "P0027": {
       "override": null,
       "default": [
-        "Queen’s Garden"
+        "Queen’s Garden",
+        "Mistia Luna"
       ],
       "shops": [
-        "Queen’s Garden"
+        "Queen’s Garden",
+        "Mistia Luna"
       ]
     },
     "P0031": {
@@ -49955,8 +50643,12 @@ window.MAID_ROSTERS = {
     },
     "P0033": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
     },
     "P0037": {
       "override": null,
@@ -55932,8 +56624,12 @@ window.MAID_ROSTERS = {
     },
     "R_18_3fea1a0e7092": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
     },
     "R_13_ff63e183e4ee": {
       "override": null,
@@ -57079,8 +57775,12 @@ window.MAID_ROSTERS = {
     },
     "P_84ed50ea6a22476e": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
     },
     "P_09dabbc6bc224029": {
       "override": null,
@@ -57598,6 +58298,51 @@ window.MAID_ROSTERS = {
       "shops": [
         "Queen’s Garden"
       ]
+    },
+    "P_a5c3ddd0264a4500": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P_439c9e1e557e4df2": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P_a5fb4d2312c2421f": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P_c824d04c1a7448a1": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
+    },
+    "P_56061536790c4125": {
+      "override": null,
+      "default": [
+        "Mistia Luna"
+      ],
+      "shops": [
+        "Mistia Luna"
+      ]
     }
   },
   "weekly_events": [
@@ -58096,5 +58841,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:51+08:00"
+  "published_at": "2026-11-01T03:34+08:00"
 };

@@ -40624,6 +40624,24 @@ window.MAID_ROSTERS = {
       "names": [
         "Viko"
       ]
+    },
+    "木木": {
+      "person_id": "P_a9039fd1af2e49f0",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "木木"
+      ]
+    },
+    "奈悠": {
+      "person_id": "P_e78628f7dd5d440e",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "奈悠"
+      ]
     }
   },
   "person_accounts": {
@@ -47252,6 +47270,48 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "木木": {
+        "person_id": "P_a9039fd1af2e49f0",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "mikan": {
+        "person_id": "P_7edd2f31d2be46da",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "YK": {
+        "person_id": "P_3779a59ed9004061",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "小凌": {
+        "person_id": "P_61f7b7e691904025",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "奈悠": {
+        "person_id": "P_e78628f7dd5d440e",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "kusuki": {
+        "person_id": "P_98f0dfd54e3d49aa",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "七月": {
+        "person_id": "P_4ef6b23e96464786",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "mogu ⟦@N_mogu⟧": {
         "person_id": "N_mogu",
         "profile_image": "",
@@ -53721,8 +53781,12 @@ window.MAID_ROSTERS = {
     },
     "N___509": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
     },
     "N___510": {
       "override": null,
@@ -53735,8 +53799,12 @@ window.MAID_ROSTERS = {
     },
     "N___511": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
     },
     "N___512": {
       "override": null,
@@ -54387,14 +54455,14 @@ window.MAID_ROSTERS = {
     "N___594": {
       "override": null,
       "default": [
+        "Queen’s Garden",
         "Maid Minori",
-        "Mistia Luna",
-        "Queen’s Garden"
+        "Mistia Luna"
       ],
       "shops": [
+        "Queen’s Garden",
         "Maid Minori",
-        "Mistia Luna",
-        "Queen’s Garden"
+        "Mistia Luna"
       ]
     },
     "N___595": {
@@ -57463,6 +57531,69 @@ window.MAID_ROSTERS = {
       "shops": [
         "Kaizoku House"
       ]
+    },
+    "P_a9039fd1af2e49f0": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_7edd2f31d2be46da": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_3779a59ed9004061": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_61f7b7e691904025": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_e78628f7dd5d440e": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_98f0dfd54e3d49aa": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "P_4ef6b23e96464786": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
     }
   },
   "weekly_events": [
@@ -57954,5 +58085,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:43+08:00"
+  "published_at": "2026-10-31T22:44+08:00"
 };

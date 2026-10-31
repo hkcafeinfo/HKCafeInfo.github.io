@@ -19284,12 +19284,12 @@ window.MAID_ROSTERS = {
           "date": "2026-10-13",
           "hours": "15:00-22:00",
           "groups": {
-            "見習女僕": [
-              "Yura",
-              "Emi"
-            ],
             "女僕": [
-              "魚",
+              "Yura",
+              "魚"
+            ],
+            "見習女僕": [
+              "Emi",
               "Simanna",
               "許洛"
             ]
@@ -19297,7 +19297,7 @@ window.MAID_ROSTERS = {
           "attendance_records": [
             {
               "name": "Yura",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -19318,14 +19318,14 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "Simanna",
-              "role": "女僕",
+              "role": "見習女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "許洛",
-              "role": "女僕",
+              "role": "見習女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -19337,11 +19337,11 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
           ],
           "review_names": {
-            "Yura": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
+            "Yura": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/Dd_lEvOtqNZ/",
             "Emi": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
             "魚": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
-            "Simanna": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees.",
-            "許洛": "2026-10-30 review: newer daily caption De bvdN_to0x explicitly marks 許洛、魚、Simanna as maid duty and Yura、Emi as trainees."
+            "Simanna": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/Dd_lEvOtqNZ/",
+            "許洛": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/Dd_lEvOtqNZ/"
           }
         },
         {
@@ -20083,11 +20083,11 @@ window.MAID_ROSTERS = {
             "女僕": [
               "Yura",
               "青蛙",
-              "啾咿"
+              "兔仔",
+              "狗狗"
             ],
             "見習女僕": [
-              "兔仔",
-              "狗狗",
+              "啾咿",
               "Simanna"
             ]
           },
@@ -20108,21 +20108,21 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "啾咿",
-              "role": "女僕",
+              "role": "見習女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "兔仔",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "狗狗",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -20144,9 +20144,9 @@ window.MAID_ROSTERS = {
           "review_names": {
             "Yura": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
             "青蛙": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "啾咿": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "兔仔": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
-            "狗狗": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles.",
+            "啾咿": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/DewVFYTNJ13/",
+            "兔仔": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/DewVFYTNJ13/",
+            "狗狗": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/DewVFYTNJ13/",
             "Simanna": "10/27 daily caption explicitly lists 青蛙、啾咿、yura as maid duty and 兔仔、狗狗、Simanna as trainee; corrects earlier weekly roster roles."
           }
         },
@@ -20208,21 +20208,21 @@ window.MAID_ROSTERS = {
           "date": "2026-10-29",
           "hours": "15:00-22:00",
           "groups": {
-            "見習女僕": [
-              "晏咲",
-              "Halo",
-              "金魚"
-            ],
             "女僕": [
+              "晏咲",
               "蕉蕉",
-              "青蛙",
+              "青蛙"
+            ],
+            "見習女僕": [
+              "Halo",
+              "金魚",
               "方包"
             ]
           },
           "attendance_records": [
             {
               "name": "晏咲",
-              "role": "見習女僕",
+              "role": "女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -20257,7 +20257,7 @@ window.MAID_ROSTERS = {
             },
             {
               "name": "方包",
-              "role": "女僕",
+              "role": "見習女僕",
               "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
@@ -20269,12 +20269,12 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
           ],
           "review_names": {
-            "晏咲": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
+            "晏咲": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/DewVFYTNJ13/",
             "Halo": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
             "金魚": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
             "蕉蕉": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
             "青蛙": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles.",
-            "方包": "10/29 daily caption explicitly lists 方包、蕉蕉、青蛙 as maid duty and 金魚、halo、晏咲 as trainee; corrects the earlier weekly roster roles."
+            "方包": "職位按文字週表明列的見習女僕欄；日帖僅稱當值女僕，不能以沙漏圖示推斷職位。 https://www.instagram.com/p/DewVFYTNJ13/"
           }
         },
         {
@@ -45560,6 +45560,12 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "包包": {
+        "person_id": "P_f7f79606ff164edc",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "yuri": {
         "person_id": "R_14_ab997328677e",
         "profile_image": "",
@@ -54944,6 +54950,15 @@ window.MAID_ROSTERS = {
       "shops": [
         "Dear Devil"
       ]
+    },
+    "P_f7f79606ff164edc": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
     }
   },
   "weekly_events": [
@@ -55428,5 +55443,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:28+08:00"
+  "published_at": "2026-10-31T12:40+08:00"
 };

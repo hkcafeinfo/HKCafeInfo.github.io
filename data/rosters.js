@@ -19729,6 +19729,9 @@ window.MAID_ROSTERS = {
             "限定居民": [
               "奶茶",
               "海塩"
+            ],
+            "活動出席居民": [
+              "Viko"
             ]
           },
           "attendance_records": [
@@ -19764,6 +19767,13 @@ window.MAID_ROSTERS = {
               "name": "海塩",
               "role": "限定居民",
               "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Viko",
+              "role": "活動出席居民",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -40571,6 +40581,15 @@ window.MAID_ROSTERS = {
       "names": [
         "滿月"
       ]
+    },
+    "Viko": {
+      "person_id": "P_97f5d21be794492a",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Viko"
+      ]
     }
   },
   "person_accounts": {
@@ -47175,6 +47194,12 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "Viko": {
+        "person_id": "P_97f5d21be794492a",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       },
       "mogu ⟦@N_mogu⟧": {
         "person_id": "N_mogu",
@@ -57369,6 +57394,15 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "P_97f5d21be794492a": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
     }
   },
   "weekly_events": [
@@ -57860,5 +57894,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T22:22+08:00"
+  "published_at": "2026-10-31T22:25+08:00"
 };

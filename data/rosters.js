@@ -4044,7 +4044,13 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至四 17:00–22:00\n星期五 17:00–23:00\n星期六、日及公眾假期 15:00–23:00",
       "opening_hours_source": "https://www.instagram.com/maid_clinic/p/De7C3IAGEwm/",
       "opening_hours_checked_at": "2026-10-28",
-      "unresolved": [],
+      "unresolved": [
+        {
+          "date": "2026-11-07",
+          "reason": "本輪羊誕祭海報Guest另列Yuko，完整caption僅列7個Guest IG，未明示Yuko對應或取消；保留候選自行追查，不猜配IG。",
+          "source": "https://www.instagram.com/p/Des_DDmqOXN/"
+        }
+      ],
       "date_notices": []
     },
     {
@@ -12000,7 +12006,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-28",
-          "hours": "17:00-22:00",
+          "hours": "15:00-22:00",
           "groups": {
             "一日限定": [
               "正子"
@@ -12072,7 +12078,10 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/cafemaidplanet/p/DfAa8VoBsvG/|https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
           ],
           "person_notes": {
-            "正子": "來源貼文明列當值時間17:00-22:00。"
+            "正子": "個人時段：17:00-22:00；限定帖只列個人時段，店舖正常開放15:00-22:00。"
+          },
+          "person_times": {
+            "正子": "17:00-22:00"
           }
         },
         {
@@ -12150,9 +12159,11 @@ window.MAID_ROSTERS = {
           "date": "2026-10-30",
           "hours": "17:00-24:00",
           "groups": {
-            "駐場ハートびと": [
+            "大會保安": [
               "小犬",
-              "Kira",
+              "Kira"
+            ],
+            "水吧大神": [
               "Miyabi"
             ],
             "當值": [
@@ -12170,21 +12181,21 @@ window.MAID_ROSTERS = {
           "attendance_records": [
             {
               "name": "小犬",
-              "role": "駐場ハートびと",
+              "role": "大會保安",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Kira",
-              "role": "駐場ハートびと",
+              "role": "大會保安",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Miyabi",
-              "role": "駐場ハートびと",
+              "role": "水吧大神",
               "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
@@ -12243,7 +12254,12 @@ window.MAID_ROSTERS = {
           "event_name": "Girls Bar ドキ💓プラネット Halloween篇",
           "alternate_sources": [
             "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
-          ]
+          ],
+          "review_names": {
+            "小犬": "獨立活動原圖第二頁明列職位。 https://www.instagram.com/p/De9OK74mdLQ/",
+            "Kira": "獨立活動原圖第二頁明列職位。 https://www.instagram.com/p/De9OK74mdLQ/",
+            "Miyabi": "獨立活動原圖第二頁明列職位。 https://www.instagram.com/p/De9OK74mdLQ/"
+          }
         },
         {
           "date": "2026-10-31",
@@ -12355,6 +12371,30 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "",
+          "groups": {
+            "周年主角": [
+              "MIA"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "MIA",
+              "role": "周年主角",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/De151PgO97N/",
+          "event_name": "MIA 女僕周年",
+          "person_notes": {
+            "MIA": "活動時間及其他名單未公布；不以一般營業時間充當活動時段。"
+          },
+          "notes": "活動時間及其他名單未公布；不以一般營業時間充當活動時段。"
         }
       ],
       "notice": "逢星期一休息（公眾假期除外）；特別活動營業時間可能改動",
@@ -38923,6 +38963,15 @@ window.MAID_ROSTERS = {
       "names": [
         "羊"
       ]
+    },
+    "MIA": {
+      "person_id": "P_27d1b960fffb4e53",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "MIA"
+      ]
     }
   },
   "person_accounts": {
@@ -42654,6 +42703,12 @@ window.MAID_ROSTERS = {
       },
       "Yuna": {
         "person_id": "N_Yuna",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "MIA": {
+        "person_id": "P_27d1b960fffb4e53",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -55019,6 +55074,11 @@ window.MAID_ROSTERS = {
       "shops": [
         "Comma Cafe"
       ]
+    },
+    "P_27d1b960fffb4e53": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -55503,5 +55563,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:46+08:00"
+  "published_at": "2026-10-31T12:51+08:00"
 };

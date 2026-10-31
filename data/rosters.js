@@ -12370,7 +12370,14 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/"
+          "source": "https://www.instagram.com/cafemaidplanet/p/DfEtY9TkhWM/",
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "review_names": {
+            "卡咩": "店方caption明列10/24–11/6主題期間；沒有另行取消。 https://www.instagram.com/p/De151PgO97N/",
+            "小犬": "店方caption明列10/24–11/6主題期間；沒有另行取消。 https://www.instagram.com/p/De151PgO97N/",
+            "淺": "店方caption明列10/24–11/6主題期間；沒有另行取消。 https://www.instagram.com/p/De151PgO97N/",
+            "Haku": "店方caption明列10/24–11/6主題期間；沒有另行取消。 https://www.instagram.com/p/De151PgO97N/"
+          }
         },
         {
           "date": "2026-11-06",
@@ -55563,5 +55570,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-10-31T12:51+08:00"
+  "published_at": "2026-10-31T12:53+08:00"
 };

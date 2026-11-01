@@ -3964,7 +3964,7 @@ window.MAID_ROSTERS = {
           "hours": "15:00-23:00",
           "groups": {
             "生誕嘉賓": [
-              "@candy_pang",
+              "Candy",
               "@ch_afork_tsz",
               "棉花",
               "@j.y.w.t",
@@ -3978,7 +3978,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "@candy_pang",
+              "name": "Candy",
               "role": "生誕嘉賓",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -4035,7 +4035,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/yoh.sy/p/Des_DDmqOXN/",
-          "event_name": "羊誕祭"
+          "event_name": "羊誕祭",
+          "source_names": {
+            "Candy": "@candy_pang"
+          }
         }
       ],
       "address": "旺角西洋菜南街88號聯興大廈10樓88室",
@@ -8635,7 +8638,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -9016,7 +9019,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Whitney",
               "role": "花園守護",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -10826,14 +10829,14 @@ window.MAID_ROSTERS = {
             {
               "name": "FY",
               "role": "新生人偶",
-              "type": "限定",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Ruri",
               "role": "新生人偶",
-              "type": "限定",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -11067,56 +11070,56 @@ window.MAID_ROSTERS = {
             {
               "name": "魚仔",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "筱望",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "小凌",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Yuka",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "淘淘",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Apple",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "年子",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "奶糖",
               "role": "女僕人偶",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
@@ -12381,49 +12384,49 @@ window.MAID_ROSTERS = {
             {
               "name": "海藍",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "小犬",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "早早",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "小藍",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Airin",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "古喵",
               "role": "駐場魔女",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -12493,7 +12496,7 @@ window.MAID_ROSTERS = {
             {
               "name": "MIA",
               "role": "周年主角",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -17451,7 +17454,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Shu",
               "role": "當值執事",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -17561,7 +17564,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Shu",
               "role": "當值執事",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -18798,7 +18801,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Kayla",
               "role": "限定海盜",
-              "type": "當值",
+              "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -19697,28 +19700,28 @@ window.MAID_ROSTERS = {
             {
               "name": "悅夢",
               "role": "當值魔法使",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "當值魔法使",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "飯團",
               "role": "當值魔法使",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Snowyyyy",
               "role": "當值魔法使",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -19788,7 +19791,7 @@ window.MAID_ROSTERS = {
             {
               "name": "Viko",
               "role": "活動出席居民",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -19817,28 +19820,28 @@ window.MAID_ROSTERS = {
             {
               "name": "aki",
               "role": "出沒居民",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "悅夢",
               "role": "出沒居民",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "歪歪",
               "role": "出沒居民",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "葉子",
               "role": "出沒居民",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -20001,7 +20004,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "茶茶",
               "青蛙",
               "魚"
             ],
@@ -20018,7 +20021,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "name": "茶茶",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -20046,10 +20049,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/",
-          "source_names": {
-            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
-          }
+          "source": "https://www.instagram.com/commacafe_8/p/Dd_lEvOtqNZ/"
         },
         {
           "date": "2026-10-15",
@@ -20165,7 +20165,7 @@ window.MAID_ROSTERS = {
               "Ellie",
               "安柚",
               "芊夏",
-              "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "茶茶",
               "雅木",
               "霜糖",
               "青蛙"
@@ -20194,7 +20194,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "name": "茶茶",
               "role": "女僕",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -20226,10 +20226,7 @@ window.MAID_ROSTERS = {
           "event_name": "芊夏偶像生日祭",
           "alternate_sources": [
             "https://www.instagram.com/chi_ka_qq/p/DeKAkUmk0j-/"
-          ],
-          "source_names": {
-            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
-          }
+          ]
         },
         {
           "date": "2026-10-18",
@@ -20398,7 +20395,7 @@ window.MAID_ROSTERS = {
               "Yuri",
               "兔仔",
               "晏咲",
-              "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "茶茶",
               "青蛙"
             ]
           },
@@ -20425,7 +20422,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "name": "茶茶",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -20443,17 +20440,14 @@ window.MAID_ROSTERS = {
           "event_name": "萬聖節Event",
           "alternate_sources": [
             "https://www.instagram.com/commacafe_8/p/DewT4aRtrjv/"
-          ],
-          "source_names": {
-            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
-          }
+          ]
         },
         {
           "date": "2026-10-22",
           "hours": "15:00-22:00",
           "groups": {
             "女僕": [
-              "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "茶茶",
               "蕉蕉",
               "貓月",
               "青蛙"
@@ -20464,7 +20458,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "name": "茶茶",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -20500,10 +20494,7 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event",
-          "source_names": {
-            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
-          }
+          "event_name": "萬聖節Event"
         },
         {
           "date": "2026-10-23",
@@ -20819,7 +20810,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Yuri",
-              "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "茶茶",
               "貓月"
             ],
             "見習女僕": [
@@ -20836,7 +20827,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "茶茶 ⟦@R_14_143787021eebbd05⟧",
+              "name": "茶茶",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -20865,10 +20856,7 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
-          "event_name": "萬聖節Event",
-          "source_names": {
-            "茶茶 ⟦@R_14_143787021eebbd05⟧": "茶茶"
-          }
+          "event_name": "萬聖節Event"
         },
         {
           "date": "2026-10-29",
@@ -21171,7 +21159,6 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期一至日 15:00–22:00",
       "opening_hours_source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/",
       "opening_hours_checked_at": "2026-10-26",
-      "date_notices": [],
       "unresolved": [
         {
           "date": "2026-10-24",
@@ -21183,7 +21170,8 @@ window.MAID_ROSTERS = {
           "reason": "Caption name 茶 could refer to Comma 茶茶 per user direction; identity mapping remains provisional pending direct handle evidence.",
           "source": "https://www.instagram.com/commacafe_8/p/DewVFYTNJ13/"
         }
-      ]
+      ],
+      "date_notices": []
     },
     {
       "shop": "Sugar Factory Cafe",
@@ -21885,56 +21873,56 @@ window.MAID_ROSTERS = {
             {
               "name": "Kona",
               "role": "下午及晚上參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Meru",
               "role": "下午及晚上參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Onime",
               "role": "下午及晚上參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Yukiko",
               "role": "下午及晚上參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "東東",
               "role": "下午及晚上參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Kokona",
               "role": "下午場特邀魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Saki",
               "role": "下午場特邀魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "水水",
               "role": "晚上場參演魔女",
-              "type": "活動嘉賓",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -24494,7 +24482,7 @@ window.MAID_ROSTERS = {
             "喵喵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "羊咩": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "香取": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "tomori": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+            "tomori": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "person_times": {
             "tomori": "17:00-22:00"
@@ -24564,7 +24552,7 @@ window.MAID_ROSTERS = {
             "Mii": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Toyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "可妍": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "haka": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+            "haka": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "person_times": {
             "haka": "17:00-22:00"
@@ -24642,8 +24630,8 @@ window.MAID_ROSTERS = {
             "Fumi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Reimu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "gigi": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Miharu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00",
-            "菜菜": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+            "Miharu": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "菜菜": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "person_times": {
             "Miharu": "17:00-22:00",
@@ -24721,22 +24709,22 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
+          "alternate_sources": [
+            "https://www.instagram.com/p/Deh-ENOTCPv/"
+          ],
           "person_notes": {
             "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "小葵": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "未來": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "阿糖": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "Kai": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00",
-            "甘樂": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+            "Kai": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
+            "甘樂": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "person_times": {
             "Kai": "17:00-22:00",
             "甘樂": "17:00-22:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/p/Deh-ENOTCPv/"
-          ]
+          }
         },
         {
           "date": "2026-10-30",
@@ -24801,19 +24789,19 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/maid_minori/p/DededLPEzFe/",
           "event_name": "血光暗影祭",
+          "alternate_sources": [
+            "https://www.instagram.com/p/Deh-L_KTA4n/"
+          ],
           "person_notes": {
             "蛋撻": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Hayu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "Sinyu": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
             "すみれ": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。",
-            "真奈": "貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。；個人時段：17:00-22:00"
+            "真奈": "個人時段：17:00-22:00；貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明。"
           },
           "person_times": {
             "真奈": "17:00-22:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/p/Deh-L_KTA4n/"
-          ]
+          }
         },
         {
           "date": "2026-10-31",
@@ -24940,6 +24928,9 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DfJyvIlk9Di/",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfJyvIlk9Di/"
+          ],
           "person_notes": {
             "Mio": "個人時段：17:00-22:00；一期生測試；通過後才成為見習天使。",
             "Nanona": "個人時段：17:00-22:00；一期生測試；通過後才成為見習天使。",
@@ -24951,10 +24942,7 @@ window.MAID_ROSTERS = {
             "Nanona": "17:00-22:00",
             "小嘉": "17:00-22:00",
             "瑤瑤": "17:00-22:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/p/DfJyvIlk9Di/"
-          ]
+          }
         },
         {
           "date": "2026-11-03",
@@ -26042,49 +26030,49 @@ window.MAID_ROSTERS = {
             {
               "name": "Hecate",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "sora",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "瑤瑤",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "石榴",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "綰綰",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "奈雅",
               "role": "當值廚娘",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
@@ -26105,7 +26093,7 @@ window.MAID_ROSTERS = {
             {
               "name": "玄幽",
               "role": "館主／裁判",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -27256,6 +27244,9 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ],
           "person_notes": {
             "Gigi": "個人時段：17:00-22:00",
             "Sirius": "個人時段：14:00-19:00",
@@ -27275,10 +27266,7 @@ window.MAID_ROSTERS = {
             "Mo": "12:00-17:00",
             "バカ": "12:00-17:00",
             "九四": "18:00-23:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
-          ]
+          }
         },
         {
           "date": "2026-10-28",
@@ -27359,6 +27347,9 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ],
           "person_notes": {
             "Sirius": "個人時段：12:00-17:00",
             "バカ": "個人時段：17:00-23:00",
@@ -27378,10 +27369,7 @@ window.MAID_ROSTERS = {
             "奈雅": "12:00-17:00",
             "真冬": "17:00-23:00",
             "Haru": "18:00-23:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
-          ]
+          }
         },
         {
           "date": "2026-10-29",
@@ -27478,6 +27466,9 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/",
           "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
+          ],
           "person_notes": {
             "Gigi": "個人時段：17:00-23:00",
             "Nanami": "個人時段：13:00-20:00",
@@ -27501,10 +27492,7 @@ window.MAID_ROSTERS = {
             "奈雅": "12:00-17:00",
             "真冬": "17:00-23:00",
             "小汐": "18:00-23:00"
-          },
-          "alternate_sources": [
-            "https://www.instagram.com/mistia_luna/p/De5GktnEzqA/"
-          ]
+          }
         },
         {
           "date": "2026-10-30",
@@ -28285,21 +28273,21 @@ window.MAID_ROSTERS = {
             {
               "name": "玄幽",
               "role": "當值女僕",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "Mo",
               "role": "當值廚娘",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             },
             {
               "name": "真冬",
               "role": "當值廚娘",
-              "type": "當值",
+              "type": "活動嘉賓",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -28433,7 +28421,7 @@ window.MAID_ROSTERS = {
             {
               "name": "曲奇",
               "role": "限定當值女僕",
-              "type": "當值",
+              "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             }
@@ -31908,7 +31896,8 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "mogu"
+        "mogu",
+        "mogu ⟦@_mogu.126_⟧"
       ]
     },
     "yuki": {
@@ -32238,7 +32227,8 @@ window.MAID_ROSTERS = {
       ],
       "names": [
         "sai",
-        "Sai"
+        "Sai",
+        "サイ"
       ]
     },
     "Miya": {
@@ -32609,7 +32599,8 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "94"
+        "94",
+        "九四"
       ]
     },
     "999": {
@@ -32812,7 +32803,8 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "Aki @aki_.aki45"
+        "Aki @aki_.aki45",
+        "aki"
       ]
     },
     "Aki @unknowndelete_aki": {
@@ -33968,7 +33960,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "Miyabi"
+        "Miyabi",
+        "Miyabi ⟦@N_Miyabi⟧"
       ]
     },
     "Miyuki": {
@@ -34390,7 +34383,8 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "Rinka"
+        "Rinka",
+        "Rinka ⟦@hoshimiya_.rinka0226⟧"
       ]
     },
     "Rinki": {
@@ -34778,7 +34772,8 @@ window.MAID_ROSTERS = {
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "Uri"
+        "Uri",
+        "Uri ⟦@N_Uri⟧"
       ]
     },
     "Uta": {
@@ -38357,7 +38352,9 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "天使"
+        "天使",
+        "夢川",
+        "天使 ⟦@y._.tenshi_0.2⟧"
       ]
     },
     "小白": {
@@ -39535,7 +39532,8 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
-        "Bake"
+        "Bake",
+        "Beka"
       ]
     },
     "皇蕾": {
@@ -39864,7 +39862,7 @@ window.MAID_ROSTERS = {
         "美恩"
       ]
     },
-    "@candy_pang": {
+    "Candy": {
       "person_id": "R_2_e3070717d696",
       "profile_image": "",
       "identity_status": "provisional",
@@ -39875,6 +39873,7 @@ window.MAID_ROSTERS = {
         }
       ],
       "names": [
+        "Candy",
         "@candy_pang"
       ]
     },
@@ -42637,6 +42636,23 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "Candy": {
+        "person_id": "R_2_e3070717d696",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "candy_pang",
+            "status": "current"
+          }
+        ]
+      },
+      "Miyabi ⟦@N_Miyabi⟧": {
+        "person_id": "N_Miyabi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "Ayu": {
         "person_id": "N_AYU",
         "profile_image": "",
@@ -42668,12 +42684,6 @@ window.MAID_ROSTERS = {
       },
       "bibi": {
         "person_id": "N_Bibi",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "Miyabi ⟦@N_Miyabi⟧": {
-        "person_id": "N_Miyabi",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -43996,14 +44006,26 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "aya": {
-        "person_id": "N_Aya",
+      "RINKA": {
+        "person_id": "N_RINKA",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
       },
-      "RINKA": {
-        "person_id": "N_RINKA",
+      "Uri ⟦@P_726b4d61480e4f52⟧": {
+        "person_id": "P_726b4d61480e4f52",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Rinka ⟦@P_a8fc5cffa8164698⟧": {
+        "person_id": "P_a8fc5cffa8164698",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "aya": {
+        "person_id": "N_Aya",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -44033,18 +44055,6 @@ window.MAID_ROSTERS = {
       },
       "Bibi": {
         "person_id": "N_Bibi",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "Uri ⟦@P_726b4d61480e4f52⟧": {
-        "person_id": "P_726b4d61480e4f52",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "Rinka ⟦@P_a8fc5cffa8164698⟧": {
-        "person_id": "P_a8fc5cffa8164698",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -45649,14 +45659,14 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "Midorinn": {
-        "person_id": "N_Midorinn",
+      "Kuri": {
+        "person_id": "R_7_3a741e723c95",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
       },
-      "Kuri": {
-        "person_id": "R_7_3a741e723c95",
+      "Midorinn": {
+        "person_id": "N_Midorinn",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -46864,108 +46874,91 @@ window.MAID_ROSTERS = {
       "yumi": {
         "person_id": "P_3301c516feed46f6",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdQmEV-zua1/",
         "instagram_accounts": []
       },
       "shura": {
         "person_id": "P_4532a71fa3184a0d",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdQmEV-zua1/",
         "instagram_accounts": []
       },
       "bulu": {
         "person_id": "P_3d12a786a60a4389",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdQmEV-zua1/",
         "instagram_accounts": []
       },
       "千言": {
         "person_id": "P_9e8e4ba9e9c349fd",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdQmEV-zua1/",
         "instagram_accounts": []
       },
       "nami": {
         "person_id": "P_d8dcc275a1284c2b",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdQmEV-zua1/",
         "instagram_accounts": []
       },
       "Kaka": {
         "person_id": "P_62b1c94c01fa40eb",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "牙米": {
         "person_id": "P_7ae2852183914e62",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "哎呀": {
         "person_id": "P_0de562f2ee5f4455",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "安安": {
         "person_id": "P_b61fd00b92fc4df8",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "小杏": {
         "person_id": "P_ae2ae9c9fb9a487e",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "Usawa": {
         "person_id": "P_daec0f84db824950",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "瑤瑤": {
         "person_id": "P_0e88ec1aab474c35",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "丑": {
         "person_id": "P_c331e96e3f214b31",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "佩玲": {
         "person_id": "P_72bfd2246ea04a87",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       },
       "Nana": {
         "person_id": "P_4baf22c8cd934546",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
-      },
-      "發發": {
-        "person_id": "R_11_5adf2f173b94",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": [
-          {
-            "handle": "kathywnt",
-            "status": "current"
-          }
-        ]
-      },
-      "elika": {
-        "person_id": "N_Elika",
-        "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
       }
     },
@@ -47906,43 +47899,43 @@ window.MAID_ROSTERS = {
       "木木": {
         "person_id": "P_a9039fd1af2e49f0",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "mikan": {
         "person_id": "P_7edd2f31d2be46da",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "YK": {
         "person_id": "P_3779a59ed9004061",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "小凌": {
         "person_id": "P_61f7b7e691904025",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "奈悠": {
         "person_id": "P_e78628f7dd5d440e",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "kusuki": {
         "person_id": "P_98f0dfd54e3d49aa",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "七月": {
         "person_id": "P_4ef6b23e96464786",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/DeBJJFuRUFe/",
         "instagram_accounts": []
       },
       "mogu ⟦@N_mogu⟧": {
@@ -47951,17 +47944,6 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "小sakura": {
-        "person_id": "N__Sakura",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": [
-          {
-            "handle": "zz_sakura_zz",
-            "status": "current"
-          }
-        ]
-      },
       "mogu ⟦@_mogu.126_⟧": {
         "person_id": "P0027",
         "profile_image": "",
@@ -47969,6 +47951,17 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "_mogu.126_",
+            "status": "current"
+          }
+        ]
+      },
+      "小sakura": {
+        "person_id": "N__Sakura",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "zz_sakura_zz",
             "status": "current"
           }
         ]
@@ -48275,7 +48268,7 @@ window.MAID_ROSTERS = {
       "包包": {
         "person_id": "P_f7f79606ff164edc",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/p/Dd_lEvOtqNZ/",
         "instagram_accounts": []
       },
       "茶茶 ⟦@R_14_143787021eebbd05⟧": {
@@ -48289,21 +48282,6 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
-      },
-      "茶茶 ⟦@jianakwok_⟧": {
-        "person_id": "N___588",
-        "profile_image": "",
-        "source": "",
-        "instagram_accounts": [
-          {
-            "handle": "jianakwok_",
-            "status": "current"
-          },
-          {
-            "handle": "ttea_maid_",
-            "status": "current"
-          }
-        ]
       }
     },
     "Sugar Factory Cafe": {
@@ -50970,12 +50948,12 @@ window.MAID_ROSTERS = {
     "N_999": {
       "override": null,
       "default": [
-        "Baberu Cafe",
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ],
       "shops": [
-        "Baberu Cafe",
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ]
     },
     "N__cream_ice_cos_0614": {
@@ -51511,11 +51489,9 @@ window.MAID_ROSTERS = {
     "N_Hecate": {
       "override": null,
       "default": [
-        "Mistia Luna",
         "Aurelia Garden"
       ],
       "shops": [
-        "Mistia Luna",
         "Aurelia Garden"
       ]
     },
@@ -51758,10 +51734,12 @@ window.MAID_ROSTERS = {
     "N_Kokona": {
       "override": null,
       "default": [
-        "Maid Academy"
+        "Maid Academy",
+        "Sugar Factory Cafe"
       ],
       "shops": [
-        "Maid Academy"
+        "Maid Academy",
+        "Sugar Factory Cafe"
       ]
     },
     "N_Kola": {
@@ -52503,11 +52481,13 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [
         "Maid Planet",
-        "Maid Academy"
+        "Maid Academy",
+        "Sugar Factory Cafe"
       ],
       "shops": [
         "Maid Planet",
-        "Maid Academy"
+        "Maid Academy",
+        "Sugar Factory Cafe"
       ]
     },
     "N_Sayu": {
@@ -54105,12 +54085,12 @@ window.MAID_ROSTERS = {
     "N___464": {
       "override": null,
       "default": [
-        "Baberu Cafe",
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ],
       "shops": [
-        "Baberu Cafe",
-        "Maid Eidolon"
+        "Maid Eidolon",
+        "Baberu Cafe"
       ]
     },
     "N___465": {
@@ -54477,12 +54457,8 @@ window.MAID_ROSTERS = {
     },
     "N___509": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___510": {
       "override": null,
@@ -54495,12 +54471,8 @@ window.MAID_ROSTERS = {
     },
     "N___511": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___512": {
       "override": null,
@@ -54604,12 +54576,8 @@ window.MAID_ROSTERS = {
     },
     "N___524": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___525": {
       "override": null,
@@ -54808,12 +54776,8 @@ window.MAID_ROSTERS = {
     },
     "N___550": {
       "override": null,
-      "default": [
-        "Mistia Luna"
-      ],
-      "shops": [
-        "Mistia Luna"
-      ]
+      "default": [],
+      "shops": []
     },
     "N___551": {
       "override": null,
@@ -55151,14 +55115,14 @@ window.MAID_ROSTERS = {
     "N___594": {
       "override": null,
       "default": [
-        "Queen’s Garden",
         "Maid Minori",
-        "Mistia Luna"
+        "Mistia Luna",
+        "Queen’s Garden"
       ],
       "shops": [
-        "Queen’s Garden",
         "Maid Minori",
-        "Mistia Luna"
+        "Mistia Luna",
+        "Queen’s Garden"
       ]
     },
     "N___595": {
@@ -56123,21 +56087,13 @@ window.MAID_ROSTERS = {
     },
     "R_5_0103fe832812": {
       "override": null,
-      "default": [
-        "Maidoll Mirage"
-      ],
-      "shops": [
-        "Maidoll Mirage"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_5_ff35584321af": {
       "override": null,
-      "default": [
-        "Maidoll Mirage"
-      ],
-      "shops": [
-        "Maidoll Mirage"
-      ]
+      "default": [],
+      "shops": []
     },
     "R_15_d81f6aa49d96": {
       "override": null,
@@ -57635,12 +57591,8 @@ window.MAID_ROSTERS = {
     },
     "R_2fc7a9af2cf3ba51": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_ae6d872c84c04895": {
       "override": null,
@@ -57881,12 +57833,8 @@ window.MAID_ROSTERS = {
     },
     "P_32de1688d5b64d2b": {
       "override": null,
-      "default": [
-        "CosPlace Café"
-      ],
-      "shops": [
-        "CosPlace Café"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_133cdea132014958": {
       "override": null,
@@ -57899,17 +57847,17 @@ window.MAID_ROSTERS = {
     },
     "P_f7f79606ff164edc": {
       "override": null,
-      "default": [
-        "Comma Cafe"
-      ],
-      "shops": [
-        "Comma Cafe"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_27d1b960fffb4e53": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
     },
     "P_3301c516feed46f6": {
       "override": null,
@@ -57988,30 +57936,18 @@ window.MAID_ROSTERS = {
     },
     "P_08168b3a741e4cd4": {
       "override": null,
-      "default": [
-        "Maidoll Mirage"
-      ],
-      "shops": [
-        "Maidoll Mirage"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_8bc59fd3c7e9429e": {
       "override": null,
-      "default": [
-        "Maidoll Mirage"
-      ],
-      "shops": [
-        "Maidoll Mirage"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_011ea7a9cc084bd2": {
       "override": null,
-      "default": [
-        "Maidoll Mirage"
-      ],
-      "shops": [
-        "Maidoll Mirage"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_282aff08cbfd49cc": {
       "override": null,
@@ -58220,84 +58156,48 @@ window.MAID_ROSTERS = {
     },
     "P_97f5d21be794492a": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_70c5e1425aec4fee": {
       "override": null,
-      "default": [
-        "Kaizoku House"
-      ],
-      "shops": [
-        "Kaizoku House"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_a9039fd1af2e49f0": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_7edd2f31d2be46da": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_3779a59ed9004061": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_61f7b7e691904025": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_e78628f7dd5d440e": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_98f0dfd54e3d49aa": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_4ef6b23e96464786": {
       "override": null,
-      "default": [
-        "Queen’s Garden"
-      ],
-      "shops": [
-        "Queen’s Garden"
-      ]
+      "default": [],
+      "shops": []
     },
     "P_a5c3ddd0264a4500": {
       "override": null,
@@ -58337,12 +58237,8 @@ window.MAID_ROSTERS = {
     },
     "P_56061536790c4125": {
       "override": null,
-      "default": [
-        "Mistia Luna"
-      ],
-      "shops": [
-        "Mistia Luna"
-      ]
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -58841,5 +58737,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-01T03:43+08:00"
+  "published_at": "2026-11-01T11:12+08:00"
 };

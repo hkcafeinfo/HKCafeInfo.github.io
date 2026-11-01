@@ -18790,11 +18790,124 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-01",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Pirate Maid": [
+              "潼潼",
+              "蘿夏",
+              "セレナ"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "潼潼",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蘿夏",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "review_names": {
+            "潼潼": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "蘿夏": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "セレナ": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "天使 ⟦@R_12_e5cc77f2dee8⟧",
+              "幽靈",
+              "晴兒",
+              "Amy"
+            ],
+            "Pirate Maid": [
+              "YUKI"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "天使 ⟦@R_12_e5cc77f2dee8⟧",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "晴兒",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Amy",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YUKI",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "source_names": {
+            "天使 ⟦@R_12_e5cc77f2dee8⟧": "天使"
+          },
+          "review_names": {
+            "天使 ⟦@R_12_e5cc77f2dee8⟧": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "幽靈": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "晴兒": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Amy": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "YUKI": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
           "date": "2026-11-03",
           "hours": "18:00-23:00",
           "groups": {
             "限定海盜": [
               "Kayla"
+            ],
+            "Maid": [
+              "月牙",
+              "茶々",
+              "KAY"
+            ],
+            "Pirate Maid": [
+              "セレナ"
             ]
           },
           "attendance_records": [
@@ -18804,9 +18917,310 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "茶々",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "KAY",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "セレナ",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/p/Dew3Iw7zvOm/"
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "alternate_sources": [
+            "https://www.instagram.com/p/Dew3Iw7zvOm/"
+          ],
+          "review_names": {
+            "月牙": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "茶々": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "KAY": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "セレナ": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "月牙",
+              "天使 ⟦@R_12_e5cc77f2dee8⟧"
+            ],
+            "Pirate Maid": [
+              "Mirei",
+              "蘿夏"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "天使 ⟦@R_12_e5cc77f2dee8⟧",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mirei",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蘿夏",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "review_names": {
+            "月牙": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "天使 ⟦@R_12_e5cc77f2dee8⟧": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Mirei": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "蘿夏": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          },
+          "source_names": {
+            "天使 ⟦@R_12_e5cc77f2dee8⟧": "天使"
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "幽靈",
+              "小瑤"
+            ],
+            "Pirate Maid": [
+              "Asaki"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小瑤",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Asaki",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "review_names": {
+            "幽靈": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "小瑤": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Asaki": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "18:00-23:00",
+          "groups": {
+            "Maid": [
+              "小葵",
+              "幽靈",
+              "Julie"
+            ],
+            "Pirate Maid": [
+              "Ayane",
+              "YUKI"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "小葵",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Julie",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Ayane",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YUKI",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "review_names": {
+            "小葵": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "幽靈": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Julie": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Ayane": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "YUKI": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "18:00-23:00",
+          "groups": {
+            "活動人員": [
+              "月牙",
+              "茶々",
+              "澳洲小白",
+              "Amy"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "月牙",
+              "role": "活動人員",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "茶々",
+              "role": "活動人員",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "澳洲小白",
+              "role": "活動人員",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Amy",
+              "role": "活動人員",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "月牙 茶茶 生誕",
+          "review_names": {
+            "月牙": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "茶々": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "澳洲小白": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "Amy": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
+        },
+        {
+          "date": "2026-11-09",
+          "hours": "18:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "牙喵"
+            ],
+            "Maid": [
+              "月牙",
+              "幽靈"
+            ],
+            "Pirate Maid": [
+              "YUKI"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "牙喵",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "月牙",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽靈",
+              "role": "Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YUKI",
+              "role": "Pirate Maid",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/",
+          "event_name": "賽車服Event",
+          "review_names": {
+            "牙喵": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "月牙": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "幽靈": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。",
+            "YUKI": "本輪完整官方caption逐日核對；6張輪播為人物照，無額外排班文字。"
+          }
         }
       ],
       "address": "旺角登打士街36號恆威商業中心12樓全層",
@@ -18827,6 +19241,12 @@ window.MAID_ROSTERS = {
           "title": "受傷的海盜特別活動預告",
           "detail": "店方預告於11月最後兩天舉辦特別活動「受傷的海盜」；本帖未公布當值名單及活動時段。",
           "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfBhoA0E1Jx/"
+        },
+        {
+          "date": "2026-11-08",
+          "title": "包場活動",
+          "detail": "店方週表公告當日包場；未公布公開當值名單。",
+          "source": "https://www.instagram.com/maid.kaizokuhouse/p/DfL0v2SEw5T/"
         }
       ],
       "unresolved": []
@@ -41274,6 +41694,15 @@ window.MAID_ROSTERS = {
       "names": [
         "狸子"
       ]
+    },
+    "澳洲小白": {
+      "person_id": "R_12_46b21a710688",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "澳洲小白"
+      ]
     }
   },
   "person_accounts": {
@@ -47420,6 +47849,35 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "Julie": {
+        "person_id": "R_12_abaa68c541ef",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Ayane": {
+        "person_id": "R_12_1345f8726814",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "澳洲小白": {
+        "person_id": "R_12_46b21a710688",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "KAY": {
+        "person_id": "N_Kay",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "kay.k0saki",
+            "status": "current"
+          }
+        ]
       }
     },
     "Queen’s Garden": {
@@ -50741,8 +51199,12 @@ window.MAID_ROSTERS = {
     },
     "P0020": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
     },
     "P0014": {
       "override": null,
@@ -54672,8 +55134,12 @@ window.MAID_ROSTERS = {
     },
     "N___536": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
     },
     "N___537": {
       "override": null,
@@ -56795,8 +57261,12 @@ window.MAID_ROSTERS = {
     },
     "R_12_8c9c51b2e66f": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
     },
     "R_12_685542e4d37b": {
       "override": null,
@@ -58239,6 +58709,29 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_12_abaa68c541ef": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_12_1345f8726814": {
+      "override": null,
+      "default": [
+        "Kaizoku House"
+      ],
+      "shops": [
+        "Kaizoku House"
+      ]
+    },
+    "R_12_46b21a710688": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -58305,6 +58798,10 @@ window.MAID_ROSTERS = {
     {
       "shop": "The Misty",
       "event_name": "CE 混亂邪惡魔法週"
+    },
+    {
+      "shop": "Kaizoku House",
+      "event_name": "賽車服Event"
     }
   ],
   "event_images": [
@@ -58737,5 +59234,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-01T11:12+08:00"
+  "published_at": "2026-11-01T12:15+08:00"
 };

@@ -16385,9 +16385,9 @@ window.MAID_ROSTERS = {
       "address": "旺角西洋菜南街5號好望角大廈1902室",
       "address_source": "https://www.instagram.com/maid_eidolon/",
       "profile_image": "data/profile_images/shops/maid_eidolon.jpg",
-      "opening_hours": "10月份營業日 17:00–22:00",
-      "opening_hours_source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/",
-      "opening_hours_checked_at": "2026-10-26",
+      "opening_hours": "營業日 17:00–22:00",
+      "opening_hours_source": "https://www.instagram.com/maid_eidolon/",
+      "opening_hours_checked_at": "2026-11-01",
       "unresolved": [
         {
           "date": "2026-10-25",
@@ -59234,5 +59234,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-01T12:15+08:00"
+  "published_at": "2026-11-01T12:33+08:00"
 };

@@ -3550,6 +3550,7 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/maid_clinic/p/DeosjqLGMoP/",
+          "event_name": "Cumsumi's Belated Birthday",
           "alternate_sources": [
             "https://www.instagram.com/maid_clinic/p/DeomdAUMjPv/|https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/"
           ],
@@ -62360,8 +62361,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/dear_devil_2026-11-02_xiaoyao.jpg",
       "source": "https://www.instagram.com/p/DfLeDXlsyMQ/",
       "opacity": "0.19"
+    },
+    {
+      "shop": "Maid Clinic",
+      "event_name": "Cumsumi's Belated Birthday",
+      "image_path": "data/event_images/maid_clinic_2026-10-23_cumsumi.jpg",
+      "source": "https://www.instagram.com/panda_sumsum/p/DerjjHOvcU4/",
+      "opacity": "0.19"
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:19+08:00"
+  "published_at": "2026-11-02T12:01+08:00"
 };

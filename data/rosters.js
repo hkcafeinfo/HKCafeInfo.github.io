@@ -13176,6 +13176,219 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-03",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Luna",
+              "卡咩",
+              "Misaki",
+              "小雪",
+              "小楠",
+              "古喵"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Luna",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "卡咩",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Misaki",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小雪",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小楠",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "古喵",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "person_notes": {
+            "Luna": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "卡咩": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "Misaki": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "小雪": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "小楠": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "古喵": "官方caption明確列名；未有個人IG證據者保留provisional"
+          },
+          "notes": "官方caption明確列名；未有個人IG證據者保留provisional"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "Miyabi",
+              "紅豆",
+              "貓丸",
+              "Nedo",
+              "Miku",
+              "早早"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Miyabi",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "紅豆",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "貓丸",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Nedo",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Miku",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "早早",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "person_notes": {
+            "Miyabi": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "紅豆": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "貓丸": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "Nedo": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "Miku": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "早早": "官方caption明確列名；未有個人IG證據者保留provisional"
+          },
+          "notes": "官方caption明確列名；未有個人IG證據者保留provisional"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "15:00-22:00",
+          "groups": {
+            "當值": [
+              "古喵",
+              "Bella",
+              "理子",
+              "hani",
+              "幽幽",
+              "可娜",
+              "小金"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "古喵",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Bella",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "理子",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "hani",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "幽幽",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "可娜",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小金",
+              "role": "當值",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "person_notes": {
+            "古喵": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "Bella": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "理子": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "hani": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "幽幽": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "可娜": "官方caption明確列名；未有個人IG證據者保留provisional",
+            "小金": "官方caption明確列名；未有個人IG證據者保留provisional"
+          },
+          "notes": "官方caption明確列名；未有個人IG證據者保留provisional"
+        },
+        {
           "date": "2026-11-06",
           "hours": "",
           "groups": {
@@ -42448,6 +42661,15 @@ window.MAID_ROSTERS = {
       "names": [
         "車車"
       ]
+    },
+    "Misaki": {
+      "person_id": "R_6_62bf42fa45f8",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Misaki"
+      ]
     }
   },
   "person_accounts": {
@@ -46356,6 +46578,18 @@ window.MAID_ROSTERS = {
       },
       "MIA": {
         "person_id": "P_27d1b960fffb4e53",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Misaki": {
+        "person_id": "R_6_62bf42fa45f8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "小雪": {
+        "person_id": "R_6_3a7c0989884a",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -59685,6 +59919,24 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_6_62bf42fa45f8": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
+    },
+    "R_6_3a7c0989884a": {
+      "override": null,
+      "default": [
+        "Maid Planet"
+      ],
+      "shops": [
+        "Maid Planet"
+      ]
     }
   },
   "weekly_events": [
@@ -60187,5 +60439,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:03+08:00"
+  "published_at": "2026-11-02T10:06+08:00"
 };

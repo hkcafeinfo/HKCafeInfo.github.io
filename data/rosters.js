@@ -1420,7 +1420,7 @@ window.MAID_ROSTERS = {
           "hours": "17:00-23:00",
           "groups": {
             "活動嘉賓": [
-              "小小牛",
+              "小牛",
               "奶糖",
               "霧切 きり",
               "星奈",
@@ -1434,7 +1434,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "小小牛",
+              "name": "小牛",
               "role": "活動嘉賓",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -1505,7 +1505,7 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/De6NUqCRMqj/",
-          "event_name": "小小牛2026生蛋",
+          "event_name": "小牛2026生蛋",
           "alternate_sources": [
             "https://www.instagram.com/maid_academy/p/De7IoA3k7i_/"
           ]
@@ -3960,6 +3960,370 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-02",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值護士": [
+              "棉花",
+              "星星",
+              "RAKU"
+            ],
+            "新生護士": [
+              "乳酪",
+              "小丸",
+              "彌亞"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "星星",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "RAKU",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "person_notes": {
+            "棉花": "依官方更表圖片文字版；人物名稱按原文保留",
+            "星星": "依官方更表圖片文字版；人物名稱按原文保留",
+            "RAKU": "依官方更表圖片文字版；人物名稱按原文保留",
+            "乳酪": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小丸": "依官方更表圖片文字版；人物名稱按原文保留",
+            "彌亞": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "17:00-22:00",
+          "groups": {
+            "限定女僕": [
+              "CHOCOLATE"
+            ],
+            "當值護士": [
+              "棉花"
+            ],
+            "新生護士": [
+              "彌亞",
+              "地鼠",
+              "小丸"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "CHOCOLATE",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小丸",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "person_notes": {
+            "CHOCOLATE": "依官方更表圖片文字版；人物名稱按原文保留",
+            "棉花": "依官方更表圖片文字版；人物名稱按原文保留",
+            "彌亞": "依官方更表圖片文字版；人物名稱按原文保留",
+            "地鼠": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小丸": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值護士": [
+              "心心",
+              "毛毛",
+              "柔柔"
+            ],
+            "新生護士": [
+              "CREAM"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "心心",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "毛毛",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "柔柔",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "CREAM",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "person_notes": {
+            "心心": "依官方更表圖片文字版；人物名稱按原文保留",
+            "毛毛": "依官方更表圖片文字版；人物名稱按原文保留",
+            "柔柔": "依官方更表圖片文字版；人物名稱按原文保留",
+            "CREAM": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "17:00-22:00",
+          "groups": {
+            "當值護士": [
+              "棉花",
+              "RAKU",
+              "企鵝"
+            ],
+            "新生護士": [
+              "堯堯",
+              "彌亞"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "棉花",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "RAKU",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "企鵝",
+              "role": "當值護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "堯堯",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "彌亞",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "person_notes": {
+            "棉花": "依官方更表圖片文字版；人物名稱按原文保留",
+            "RAKU": "依官方更表圖片文字版；人物名稱按原文保留",
+            "企鵝": "依官方更表圖片文字版；人物名稱按原文保留",
+            "堯堯": "依官方更表圖片文字版；人物名稱按原文保留",
+            "彌亞": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "17:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "MOMOCHAN",
+              "YCC"
+            ],
+            "當值女僕": [
+              "BIBI",
+              "小蚊",
+              "棉花",
+              "小堇",
+              "心心"
+            ],
+            "新生護士": [
+              "CREAM",
+              "乳酪",
+              "露露",
+              "地鼠"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "MOMOCHAN",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YCC",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "BIBI",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小蚊",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "棉花",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小堇",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "心心",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "CREAM",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "露露",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "地鼠",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "event_name": "天使＆惡魔日",
+          "person_notes": {
+            "MOMOCHAN": "依官方更表圖片文字版；人物名稱按原文保留",
+            "YCC": "依官方更表圖片文字版；人物名稱按原文保留",
+            "BIBI": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小蚊": "依官方更表圖片文字版；人物名稱按原文保留",
+            "棉花": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小堇": "依官方更表圖片文字版；人物名稱按原文保留",
+            "心心": "依官方更表圖片文字版；人物名稱按原文保留",
+            "CREAM": "依官方更表圖片文字版；人物名稱按原文保留",
+            "乳酪": "依官方更表圖片文字版；人物名稱按原文保留",
+            "露露": "依官方更表圖片文字版；人物名稱按原文保留",
+            "地鼠": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
+        },
+        {
           "date": "2026-11-07",
           "hours": "15:00-23:00",
           "groups": {
@@ -4039,6 +4403,160 @@ window.MAID_ROSTERS = {
           "source_names": {
             "Candy": "@candy_pang"
           }
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "15:00-23:00",
+          "groups": {
+            "限定女僕": [
+              "HARU",
+              "AYU"
+            ],
+            "當值女僕": [
+              "棉花",
+              "小蚊",
+              "小堇",
+              "星星",
+              "QQUIE",
+              "喵璃"
+            ],
+            "新生護士": [
+              "千羽",
+              "堯堯",
+              "機8貓",
+              "刺刺",
+              "CREAM",
+              "吱吱",
+              "乳酪"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "HARU",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "AYU",
+              "role": "限定女僕",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "棉花",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小蚊",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小堇",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "星星",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "QQUIE",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵璃",
+              "role": "當值女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千羽",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "堯堯",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "機8貓",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "刺刺",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "CREAM",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "吱吱",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "乳酪",
+              "role": "新生護士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/maid_clinic/p/DfNDH5eBXcI/",
+          "event_name": "天使＆惡魔日",
+          "person_notes": {
+            "HARU": "依官方更表圖片文字版；人物名稱按原文保留",
+            "AYU": "依官方更表圖片文字版；人物名稱按原文保留",
+            "棉花": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小蚊": "依官方更表圖片文字版；人物名稱按原文保留",
+            "小堇": "依官方更表圖片文字版；人物名稱按原文保留",
+            "星星": "依官方更表圖片文字版；人物名稱按原文保留",
+            "QQUIE": "依官方更表圖片文字版；人物名稱按原文保留",
+            "喵璃": "依官方更表圖片文字版；人物名稱按原文保留",
+            "千羽": "依官方更表圖片文字版；人物名稱按原文保留",
+            "堯堯": "依官方更表圖片文字版；人物名稱按原文保留",
+            "機8貓": "依官方更表圖片文字版；人物名稱按原文保留",
+            "刺刺": "依官方更表圖片文字版；人物名稱按原文保留",
+            "CREAM": "依官方更表圖片文字版；人物名稱按原文保留",
+            "吱吱": "依官方更表圖片文字版；人物名稱按原文保留",
+            "乳酪": "依官方更表圖片文字版；人物名稱按原文保留"
+          },
+          "notes": "依官方更表圖片文字版；人物名稱按原文保留"
         }
       ],
       "address": "旺角西洋菜南街88號聯興大廈10樓88室",
@@ -40484,13 +41002,13 @@ window.MAID_ROSTERS = {
         "Shimo"
       ]
     },
-    "小小牛": {
+    "小牛": {
       "person_id": "R_1_b91b69234e35",
       "profile_image": "",
       "identity_status": "provisional",
       "instagram_accounts": [],
       "names": [
-        "小小牛"
+        "小牛"
       ]
     },
     "奶糖": {
@@ -41703,6 +42221,42 @@ window.MAID_ROSTERS = {
       "names": [
         "澳洲小白"
       ]
+    },
+    "MOMOCHAN": {
+      "person_id": "R_2_db23ab4434d5",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "MOMOCHAN"
+      ]
+    },
+    "YCC": {
+      "person_id": "R_2_62fb51f621c3",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "YCC"
+      ]
+    },
+    "機8貓": {
+      "person_id": "R_2_be8ea549a0d8",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "機8貓"
+      ]
+    },
+    "刺刺": {
+      "person_id": "R_2_10f4fc4297cf",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "刺刺"
+      ]
     }
   },
   "person_accounts": {
@@ -42191,7 +42745,7 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
-      "小小牛": {
+      "小牛": {
         "person_id": "R_1_b91b69234e35",
         "profile_image": "",
         "source": "",
@@ -43082,6 +43636,36 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "MOMOCHAN": {
+        "person_id": "R_2_db23ab4434d5",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "YCC": {
+        "person_id": "R_2_62fb51f621c3",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "機8貓": {
+        "person_id": "R_2_be8ea549a0d8",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "刺刺": {
+        "person_id": "R_2_10f4fc4297cf",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "吱吱": {
+        "person_id": "R_2_344b86a1e2aa",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "Ayu": {
         "person_id": "N_AYU",
         "profile_image": "",
@@ -43113,6 +43697,47 @@ window.MAID_ROSTERS = {
       },
       "bibi": {
         "person_id": "N_Bibi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "RAKU": {
+        "person_id": "N_RAKU",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "CHOCOLATE": {
+        "person_id": "N_Chocolate",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "CREAM": {
+        "person_id": "N_Cream",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "BIBI": {
+        "person_id": "N_Bibi",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "HARU": {
+        "person_id": "N_Haru",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "haru_undf",
+            "status": "current"
+          }
+        ]
+      },
+      "QQUIE": {
+        "person_id": "N_Qquie",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -51018,8 +51643,12 @@ window.MAID_ROSTERS = {
     },
     "P0040": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
     },
     "P0017": {
       "override": null,
@@ -52724,8 +53353,12 @@ window.MAID_ROSTERS = {
     },
     "N_Qquie": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
     },
     "N_Qubi": {
       "override": null,
@@ -54020,8 +54653,12 @@ window.MAID_ROSTERS = {
     },
     "N___402": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
     },
     "N___403": {
       "override": null,
@@ -54215,8 +54852,12 @@ window.MAID_ROSTERS = {
     },
     "N___425": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
     },
     "N___426": {
       "override": null,
@@ -58732,6 +59373,43 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_2_db23ab4434d5": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_62fb51f621c3": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_2_be8ea549a0d8": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "R_2_10f4fc4297cf": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
+    },
+    "R_2_344b86a1e2aa": {
+      "override": null,
+      "default": [
+        "Maid Clinic"
+      ],
+      "shops": [
+        "Maid Clinic"
+      ]
     }
   },
   "weekly_events": [
@@ -59066,7 +59744,7 @@ window.MAID_ROSTERS = {
     },
     {
       "shop": "Maid Academy",
-      "event_name": "小小牛2026生蛋",
+      "event_name": "小牛2026生蛋",
       "image_path": "data/event_images/maid_academy_2026-10-30_cow.jpg",
       "source": "https://www.instagram.com/p/De6NUqCRMqj/",
       "opacity": "0.19"
@@ -59234,5 +59912,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-01T12:33+08:00"
+  "published_at": "2026-11-02T10:00+08:00"
 };

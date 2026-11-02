@@ -512,6 +512,7 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 /* Final banner overrides: keep the subhead and controls visible on small screens. */
 .hero .hero-slide-title{font-size:clamp(40px,4.5vw,66px);line-height:1.2;margin:9px 0 10px}
+@media(min-width:1101px){.hero .hero-slide-title{font-size:clamp(40px,calc(4.5vw - 4px),62px)}}
 .hero .hero-dots button{width:28px;height:22px;padding:7px}
 .hero .hero-dots button:after{width:14px;height:3px;border-radius:3px}
 .hero .hero-dots button[aria-pressed="true"]:after{width:20px}

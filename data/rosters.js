@@ -13725,6 +13725,19 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfNH_3WGarA/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ],
+          "review_names": {
+            "Luna": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "卡咩": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "Misaki": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "小雪": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "小楠": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "古喵": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。"
+          },
           "person_notes": {
             "Luna": "官方caption明確列名；未有個人IG證據者保留provisional",
             "卡咩": "官方caption明確列名；未有個人IG證據者保留provisional",
@@ -13793,6 +13806,19 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfNH_3WGarA/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ],
+          "review_names": {
+            "Miyabi": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "紅豆": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "貓丸": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "Nedo": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "Miku": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "早早": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。"
+          },
           "person_notes": {
             "Miyabi": "官方caption明確列名；未有個人IG證據者保留provisional",
             "紅豆": "官方caption明確列名；未有個人IG證據者保留provisional",
@@ -13869,6 +13895,20 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/p/DfNH_3WGarA/",
+          "event_name": "萌星人IN DEJAVU Part.2",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfNH_3WGarA/",
+            "https://www.instagram.com/cafemaidplanet/p/De151PgO97N/"
+          ],
+          "review_names": {
+            "古喵": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "Bella": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "理子": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "hani": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "幽幽": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "可娜": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。",
+            "小金": "活動週名稱依官方活動日程caption De151PgO97N；保留當值性質。"
+          },
           "person_notes": {
             "古喵": "官方caption明確列名；未有個人IG證據者保留provisional",
             "Bella": "官方caption明確列名；未有個人IG證據者保留provisional",
@@ -62371,5 +62411,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T12:01+08:00"
+  "published_at": "2026-11-02T12:41+08:00"
 };

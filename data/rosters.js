@@ -4733,7 +4733,7 @@ window.MAID_ROSTERS = {
               "Isako"
             ],
             "資深修女": [
-              "NØNNØ",
+              "NØNNØ ⟦@N_N_NN_⟧",
               "ムギ"
             ],
             "限定修女": [
@@ -4756,7 +4756,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "資深修女",
               "type": "當值",
               "cancelled": false,
@@ -4781,7 +4781,10 @@ window.MAID_ROSTERS = {
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
-          ]
+          ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-10-15",
@@ -4791,7 +4794,7 @@ window.MAID_ROSTERS = {
               "Riki"
             ],
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "正式修女": [
               "Nekona"
@@ -4813,7 +4816,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -4852,7 +4855,10 @@ window.MAID_ROSTERS = {
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
-          ]
+          ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-10-16",
@@ -5132,7 +5138,7 @@ window.MAID_ROSTERS = {
           "hours": "18:00-00:30",
           "groups": {
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "正式修女": [
               "Cheese",
@@ -5147,7 +5153,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -5187,14 +5193,17 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DejkW39ictp/",
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
-          ]
+          ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-10-21",
           "hours": "18:00-00:30",
           "groups": {
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "正式修女": [
               "黑井"
@@ -5210,7 +5219,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -5256,14 +5265,17 @@ window.MAID_ROSTERS = {
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
-          ]
+          ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-10-22",
           "hours": "18:00-00:30",
           "groups": {
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "正式修女": [
               "Raku"
@@ -5279,7 +5291,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -5327,6 +5339,9 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/elysium.cafe21/p/DetkezsifaD/",
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          },
           "person_notes": {
             "YY": "個人時段：18:00-23:00",
             "柔柔": "個人時段：18:00-23:00"
@@ -5348,7 +5363,7 @@ window.MAID_ROSTERS = {
             ],
             "資深修女": [
               "Nazuna",
-              "NØNNØ",
+              "NØNNØ ⟦@N_N_NN_⟧",
               "小奈"
             ],
             "限定修女": [
@@ -5378,7 +5393,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "資深修女",
               "type": "當值",
               "cancelled": false,
@@ -5405,6 +5420,9 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/",
             "https://www.instagram.com/elysium.cafe21/p/Detk-lkCjyq/"
           ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          },
           "person_notes": {
             "真奈": "個人時段：18:00-23:00；週表列明全店名單，限定修女真奈另有個別公告。"
           },
@@ -5587,7 +5605,7 @@ window.MAID_ROSTERS = {
           "hours": "18:00-00:30",
           "groups": {
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "正式修女": [
               "提提"
@@ -5603,7 +5621,7 @@ window.MAID_ROSTERS = {
           },
           "attendance_records": [
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -5651,6 +5669,9 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/elysium.cafe21/p/De4aLdEkl4X/",
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          },
           "person_notes": {
             "NingNing": "個人時段：18:00-23:00",
             "YK": "個人時段：18:00-23:00"
@@ -5674,7 +5695,7 @@ window.MAID_ROSTERS = {
               "黑井"
             ],
             "資深修女": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "限定修士": [
               "風藍"
@@ -5703,7 +5724,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "資深修女",
               "type": "當值",
               "cancelled": false,
@@ -5721,7 +5742,10 @@ window.MAID_ROSTERS = {
           "event_name": "東方靈符與西方十字交會之夜",
           "alternate_sources": [
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
-          ]
+          ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-10-28",
@@ -5731,7 +5755,7 @@ window.MAID_ROSTERS = {
               "Yukimi"
             ],
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "資深修士": [
               "千秋"
@@ -5754,7 +5778,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "當值",
               "cancelled": false,
@@ -5802,6 +5826,9 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/elysium.cafe21/p/De8r9zqiV9W/",
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          },
           "person_notes": {
             "Kola": "個人時段：18:00-23:00",
             "藍南": "個人時段：18:00-23:00",
@@ -5833,7 +5860,7 @@ window.MAID_ROSTERS = {
               "サイ"
             ],
             "廚娘": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ]
           },
           "attendance_records": [
@@ -5887,7 +5914,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "廚娘",
               "type": "活動嘉賓",
               "cancelled": false,
@@ -5917,6 +5944,9 @@ window.MAID_ROSTERS = {
             "Natsumi": "19:30-00:00",
             "Sayori": "18:00-23:00",
             "サイ": "19:00-00:30"
+          },
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
           }
         },
         {
@@ -5933,7 +5963,7 @@ window.MAID_ROSTERS = {
               "Mio"
             ],
             "資深修女": [
-              "NØNNØ"
+              "NØNNØ ⟦@N_N_NN_⟧"
             ],
             "限定修士": [
               "Haruna"
@@ -5962,7 +5992,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "NØNNØ",
+              "name": "NØNNØ ⟦@N_N_NN_⟧",
               "role": "資深修女",
               "type": "當值",
               "cancelled": false,
@@ -5982,6 +6012,9 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/elysium.cafe21/p/DfAE-sTEuMV/",
             "https://www.instagram.com/elysium.cafe21/p/DeZTQZUJUkZ/"
           ],
+          "source_names": {
+            "NØNNØ ⟦@N_N_NN_⟧": "NØNNØ"
+          },
           "person_notes": {
             "Haruna": "個人時段：18:00-23:00"
           },
@@ -6195,6 +6228,146 @@ window.MAID_ROSTERS = {
             "Enna": "18:00-23:00"
           },
           "notes": "個人時段：18:00-23:00"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "18:00-01:30",
+          "groups": {
+            "資深修女": [
+              "Mizuka",
+              "小奈"
+            ],
+            "實習修女": [
+              "Riki"
+            ],
+            "廚娘": [
+              "NØNNØ ⟦@R_3_c1150fcc0415⟧"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Mizuka",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小奈",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Riki",
+              "role": "實習修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/",
+          "person_notes": {
+            "Mizuka": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "小奈": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "Riki": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional"
+          },
+          "source_names": {
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "NØNNØ"
+          },
+          "notes": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional"
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "18:00-01:30",
+          "groups": {
+            "資深修女": [
+              "TsumI",
+              "Morie"
+            ],
+            "正式修女": [
+              "Raku"
+            ],
+            "限定修女": [
+              "Hime",
+              "車車",
+              "Apple"
+            ],
+            "廚娘": [
+              "小奈"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "TsumI",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Morie",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Raku",
+              "role": "正式修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hime",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "車車",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Apple",
+              "role": "限定修女",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小奈",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/",
+          "person_notes": {
+            "TsumI": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "Morie": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "Raku": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "Hime": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "車車": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "Apple": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional",
+            "小奈": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional"
+          },
+          "notes": "按官方11月1-7日當值表原文；IG未由本來源提供，未知人物保留provisional"
         }
       ],
       "address": "旺角登打士街43號登打士廣場2105–2106室",
@@ -42257,6 +42430,24 @@ window.MAID_ROSTERS = {
       "names": [
         "刺刺"
       ]
+    },
+    "TsumI": {
+      "person_id": "R_3_fab27550a933",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "TsumI"
+      ]
+    },
+    "車車": {
+      "person_id": "R_3_84a3c09f5f20",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "車車"
+      ]
     }
   },
   "person_accounts": {
@@ -43828,7 +44019,7 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "NØNNØ": {
-        "person_id": "N_N_NN_",
+        "person_id": "R_3_c1150fcc0415",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -44288,6 +44479,48 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ]
+      },
+      "TsumI": {
+        "person_id": "R_3_fab27550a933",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Morie": {
+        "person_id": "R_3_cd6966f07b48",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Hime": {
+        "person_id": "R_3_bf83c8887513",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "車車": {
+        "person_id": "R_3_84a3c09f5f20",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Apple": {
+        "person_id": "R_3_ff8528ca3492",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "NØNNØ ⟦@N_N_NN_⟧": {
+        "person_id": "N_N_NN_",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "NØNNØ ⟦@R_3_c1150fcc0415⟧": {
+        "person_id": "R_3_c1150fcc0415",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       }
     },
     "Aurelia Garden": {
@@ -59410,6 +59643,48 @@ window.MAID_ROSTERS = {
       "shops": [
         "Maid Clinic"
       ]
+    },
+    "R_3_c1150fcc0415": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_fab27550a933": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_cd6966f07b48": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_bf83c8887513": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_84a3c09f5f20": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_3_ff8528ca3492": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -59912,5 +60187,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:00+08:00"
+  "published_at": "2026-11-02T10:03+08:00"
 };

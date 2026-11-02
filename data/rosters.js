@@ -13453,7 +13453,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "女僕": [
               "Fuyo",
-              "周瑜",
+              "周瑜 ⟦@N___413⟧",
               "璧璧"
             ],
             "魔域管理員": [
@@ -13469,7 +13469,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "周瑜",
+              "name": "周瑜 ⟦@N___413⟧",
               "role": "女僕",
               "type": "當值",
               "cancelled": false,
@@ -13490,7 +13490,10 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/"
+          "source": "https://www.instagram.com/deardevil_maid.butler/p/DeYuEnpJmIw/",
+          "source_names": {
+            "周瑜 ⟦@N___413⟧": "周瑜"
+          }
         },
         {
           "date": "2026-10-13",
@@ -13761,7 +13764,7 @@ window.MAID_ROSTERS = {
             "Maid": [
               "Yorumi",
               "卡路里",
-              "霍霍",
+              "霍霍 ⟦@N___642⟧",
               "黛柔"
             ],
             "限定女僕": [
@@ -13787,7 +13790,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "霍霍",
+              "name": "霍霍 ⟦@N___642⟧",
               "role": "Maid",
               "type": "當值",
               "cancelled": false,
@@ -13816,6 +13819,9 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/DeecNLPhLSa/",
+          "source_names": {
+            "霍霍 ⟦@N___642⟧": "霍霍"
+          },
           "person_notes": {
             "藍幽": "個人時段：17:00-23:00"
           },
@@ -14061,7 +14067,7 @@ window.MAID_ROSTERS = {
               "Yuna",
               "小欣",
               "貓羅",
-              "霍霍"
+              "霍霍 ⟦@N___642⟧"
             ],
             "限定女僕": [
               "九千",
@@ -14109,7 +14115,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "霍霍",
+              "name": "霍霍 ⟦@N___642⟧",
               "role": "Maid",
               "type": "當值",
               "cancelled": false,
@@ -14148,6 +14154,9 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/deardevil_maid.butler/p/DemlpbenyOU/"
           ],
+          "source_names": {
+            "霍霍 ⟦@N___642⟧": "霍霍"
+          },
           "person_notes": {
             "九千": "個人時段：19:00-23:00",
             "八田": "個人時段：19:00-23:00",
@@ -14411,7 +14420,7 @@ window.MAID_ROSTERS = {
             "Maid": [
               "璧璧",
               "小廻",
-              "周瑜",
+              "周瑜 ⟦@N___413⟧",
               "Yorumi",
               "Anzu",
               "Yuzuki",
@@ -14437,7 +14446,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "周瑜",
+              "name": "周瑜 ⟦@N___413⟧",
               "role": "Maid",
               "type": "當值",
               "cancelled": false,
@@ -14480,7 +14489,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
-          "event_name": "殭屍小惡魔萬聖節派對"
+          "event_name": "殭屍小惡魔萬聖節派對",
+          "source_names": {
+            "周瑜 ⟦@N___413⟧": "周瑜"
+          }
         },
         {
           "date": "2026-10-27",
@@ -14722,7 +14734,7 @@ window.MAID_ROSTERS = {
           "groups": {
             "Maid": [
               "奶茶",
-              "霍霍",
+              "霍霍 ⟦@N___642⟧",
               "璧璧",
               "卡路里",
               "Beru",
@@ -14741,7 +14753,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "霍霍",
+              "name": "霍霍 ⟦@N___642⟧",
               "role": "Maid",
               "type": "當值",
               "cancelled": false,
@@ -14784,7 +14796,10 @@ window.MAID_ROSTERS = {
             }
           ],
           "source": "https://www.instagram.com/deardevil_maid.butler/p/De8jnEARTyn/",
-          "event_name": "殭屍小惡魔萬聖節派對"
+          "event_name": "殭屍小惡魔萬聖節派對",
+          "source_names": {
+            "霍霍 ⟦@N___642⟧": "霍霍"
+          }
         },
         {
           "date": "2026-10-31",
@@ -14964,6 +14979,70 @@ window.MAID_ROSTERS = {
             "朱朱": "包場活動。",
             "詩弦": "包場活動。"
           }
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "18:00-23:00",
+          "groups": {
+            "生誕嘉賓": [
+              "安妮",
+              "霍霍 ⟦@fokfokouo⟧",
+              "夏生",
+              "周瑜 ⟦@6_____yu⟧",
+              "小羽"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "安妮",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "霍霍 ⟦@fokfokouo⟧",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "夏生",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "周瑜 ⟦@6_____yu⟧",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小羽",
+              "role": "生誕嘉賓",
+              "type": "活動嘉賓",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfLeDXlsyMQ/",
+          "event_name": "小瑤生誕祭",
+          "person_notes": {
+            "安妮": "官方活動帖同列姓名及IG；活動原圖保存為背景",
+            "霍霍 ⟦@fokfokouo⟧": "官方活動帖同列姓名及IG；活動原圖保存為背景",
+            "夏生": "官方活動帖同列姓名及IG；活動原圖保存為背景",
+            "周瑜 ⟦@6_____yu⟧": "官方活動帖同列姓名及IG；活動原圖保存為背景",
+            "小羽": "官方活動帖同列姓名及IG；活動原圖保存為背景"
+          },
+          "source_names": {
+            "霍霍 ⟦@fokfokouo⟧": "霍霍",
+            "周瑜 ⟦@6_____yu⟧": "周瑜"
+          },
+          "notes": "官方活動帖同列姓名及IG；活動原圖保存為背景"
         }
       ],
       "address": "旺角彌敦道646號陶德大廈3樓",
@@ -42670,6 +42749,48 @@ window.MAID_ROSTERS = {
       "names": [
         "Misaki"
       ]
+    },
+    "安妮": {
+      "person_id": "R_7_3da1daa717a2",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "kawaiiqqbitch_annaqaq",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "安妮"
+      ]
+    },
+    "夏生": {
+      "person_id": "R_7_16e44654a316",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "aoba.natsuki",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "夏生"
+      ]
+    },
+    "小羽": {
+      "person_id": "R_7_b97348c8e3e3",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "yuu.meow213",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "小羽"
+      ]
     }
   },
   "person_accounts": {
@@ -46603,10 +46724,15 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "周瑜": {
-        "person_id": "N___413",
+        "person_id": "R_7_89b6ba2956b2",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
+        "source": "https://www.instagram.com/p/DfLeDXlsyMQ/",
+        "instagram_accounts": [
+          {
+            "handle": "6_____yu",
+            "status": "current"
+          }
+        ]
       },
       "璧璧": {
         "person_id": "N___551",
@@ -46764,10 +46890,15 @@ window.MAID_ROSTERS = {
         "instagram_accounts": []
       },
       "霍霍": {
-        "person_id": "N___642",
+        "person_id": "R_7_334180d62dcf",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
+        "source": "https://www.instagram.com/p/DfLeDXlsyMQ/",
+        "instagram_accounts": [
+          {
+            "handle": "fokfokouo",
+            "status": "current"
+          }
+        ]
       },
       "藍幽": {
         "person_id": "N___602",
@@ -47186,11 +47317,78 @@ window.MAID_ROSTERS = {
         "source": "",
         "instagram_accounts": []
       },
+      "安妮": {
+        "person_id": "R_7_3da1daa717a2",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "kawaiiqqbitch_annaqaq",
+            "status": "current"
+          }
+        ]
+      },
+      "夏生": {
+        "person_id": "R_7_16e44654a316",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "aoba.natsuki",
+            "status": "current"
+          }
+        ]
+      },
+      "小羽": {
+        "person_id": "R_7_b97348c8e3e3",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "yuu.meow213",
+            "status": "current"
+          }
+        ]
+      },
+      "周瑜 ⟦@N___413⟧": {
+        "person_id": "N___413",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "霍霍 ⟦@N___642⟧": {
+        "person_id": "N___642",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "Midorinn": {
         "person_id": "N_Midorinn",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "霍霍 ⟦@fokfokouo⟧": {
+        "person_id": "R_7_334180d62dcf",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "fokfokouo",
+            "status": "current"
+          }
+        ]
+      },
+      "周瑜 ⟦@6_____yu⟧": {
+        "person_id": "R_7_89b6ba2956b2",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "6_____yu",
+            "status": "current"
+          }
+        ]
       }
     },
     "Baberu Cafe": {
@@ -59937,6 +60135,31 @@ window.MAID_ROSTERS = {
       "shops": [
         "Maid Planet"
       ]
+    },
+    "R_7_3da1daa717a2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_334180d62dcf": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_16e44654a316": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_89b6ba2956b2": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_7_b97348c8e3e3": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -60436,8 +60659,15 @@ window.MAID_ROSTERS = {
       "image_path": "data/event_images/mistia_2026-10-17_beyblade.jpg",
       "source": "https://www.instagram.com/p/DecFh8XT2BS/",
       "opacity": "0.22"
+    },
+    {
+      "shop": "Dear Devil",
+      "event_name": "小瑤生誕祭",
+      "image_path": "data/event_images/dear_devil_2026-11-02_xiaoyao.jpg",
+      "source": "https://www.instagram.com/p/DfLeDXlsyMQ/",
+      "opacity": "0.19"
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:06+08:00"
+  "published_at": "2026-11-02T10:08+08:00"
 };

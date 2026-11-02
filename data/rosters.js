@@ -1581,6 +1581,80 @@ window.MAID_ROSTERS = {
           "event_name": "Halloween活動周"
         },
         {
+          "date": "2026-11-02",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會幹部": [
+              "Domo魚",
+              "Kokona"
+            ],
+            "學生會": [
+              "小六"
+            ],
+            "女僕研習生": [
+              "Yoku",
+              "Yuri"
+            ],
+            "實習生": [
+              "Snow"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Snow",
+              "role": "實習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfM7UMEE7uS/",
+          "person_notes": {
+            "Domo魚": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Kokona": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "小六": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yoku": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yuri": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Snow": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+          },
+          "notes": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+        },
+        {
           "date": "2026-11-03",
           "hours": "18:00-22:00",
           "groups": {
@@ -1668,27 +1742,444 @@ window.MAID_ROSTERS = {
           "date": "2026-11-04",
           "hours": "17:00-22:00",
           "groups": {
-            "限定學妹": [
+            "一日交流生": [
               "aeri"
+            ],
+            "學生會幹部": [
+              "Haruka",
+              "Domo魚",
+              "Kokona"
+            ],
+            "學生會": [
+              "Qubi",
+              "小六",
+              "YY"
+            ],
+            "女僕研習生": [
+              "Yoku",
+              "悠悠",
+              "小酒",
+              "津津",
+              "桐桐"
+            ],
+            "實習生": [
+              "Piko"
             ]
           },
           "attendance_records": [
             {
               "name": "aeri",
-              "role": "限定學妹",
-              "type": "限定",
+              "role": "一日交流生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Haruka",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Qubi",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "悠悠",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小酒",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "津津",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "桐桐",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Piko",
+              "role": "實習生",
+              "type": "當值",
               "cancelled": false,
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/maid_academy/p/De_UgL7RH_8/",
+          "source": "https://www.instagram.com/p/DfM7UMEE7uS/",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfM7UMEE7uS/"
+          ],
           "person_notes": {
-            "aeri": "個人時段：18:00-22:00"
+            "aeri": "個人時段：18:00-22:00",
+            "Haruka": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Domo魚": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Kokona": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Qubi": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "小六": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "YY": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yoku": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "悠悠": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "小酒": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "津津": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "桐桐": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Piko": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
           },
           "person_times": {
             "aeri": "18:00-22:00"
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會幹部": [
+              "Kokona",
+              "Domo魚"
+            ],
+            "學生會": [
+              "冬瓜",
+              "靈兒",
+              "斯洛",
+              "喵"
+            ],
+            "實習生": [
+              "Snow",
+              "阿毛"
+            ]
           },
-          "notes": "個人時段：18:00-22:00"
+          "attendance_records": [
+            {
+              "name": "Kokona",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Domo魚",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "冬瓜",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "靈兒",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "斯洛",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "喵",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Snow",
+              "role": "實習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "阿毛",
+              "role": "實習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfM7UMEE7uS/",
+          "person_notes": {
+            "Kokona": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Domo魚": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "冬瓜": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "靈兒": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "斯洛": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "喵": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Snow": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "阿毛": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+          },
+          "notes": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會幹部": [
+              "Haruka"
+            ],
+            "學生會": [
+              "千靈",
+              "YY",
+              "Miya",
+              "小六"
+            ],
+            "女僕研習生": [
+              "風花",
+              "Yoku",
+              "Yuri",
+              "津津"
+            ],
+            "實習生": [
+              "Piko"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Haruka",
+              "role": "學生會幹部",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千靈",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Miya",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "風花",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "津津",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Piko",
+              "role": "實習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfM7UMEE7uS/",
+          "person_notes": {
+            "Haruka": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "千靈": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "YY": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Miya": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "小六": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "風花": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yoku": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yuri": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "津津": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Piko": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+          },
+          "notes": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "17:00-22:00",
+          "groups": {
+            "學生會": [
+              "YY",
+              "千靈",
+              "Qubi",
+              "小六"
+            ],
+            "女僕研習生": [
+              "Yoku",
+              "風花",
+              "零治",
+              "Hani"
+            ],
+            "實習生": [
+              "Piko"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "YY",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千靈",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Qubi",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小六",
+              "role": "學生會",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yoku",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "風花",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "零治",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hani",
+              "role": "女僕研習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Piko",
+              "role": "實習生",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfM7UMEE7uS/",
+          "person_notes": {
+            "YY": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "千靈": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Qubi": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "小六": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Yoku": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "風花": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "零治": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Hani": "依官方11/2–8完整caption；原名保留，未核IG者provisional",
+            "Piko": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
+          },
+          "notes": "依官方11/2–8完整caption；原名保留，未核IG者provisional"
         },
         {
           "date": "2026-11-08",
@@ -1784,7 +2275,7 @@ window.MAID_ROSTERS = {
           "source": "https://www.instagram.com/p/De1ompxyJtv/",
           "event_name": "Pink Eclipse 2026 生誕祭",
           "alternate_sources": [
-            "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/"
+            "https://www.instagram.com/yatcheng_/p/De1ompxyJtv/\nhttps://www.instagram.com/p/DfM7UMEE7uS/"
           ],
           "person_notes": {
             "Cyan": "個人時段：17:00-20:00、20:00-23:00；按活動上／下部Guest名單。",
@@ -43138,7 +43629,12 @@ window.MAID_ROSTERS = {
       "person_id": "P_ae6d872c84c04895",
       "profile_image": "",
       "identity_status": "provisional",
-      "instagram_accounts": [],
+      "instagram_accounts": [
+        {
+          "handle": "yatcheng_",
+          "status": "current"
+        }
+      ],
       "names": [
         "日井"
       ]
@@ -43790,6 +44286,15 @@ window.MAID_ROSTERS = {
       ],
       "names": [
         "溢日"
+      ]
+    },
+    "喵": {
+      "person_id": "R_1_ab735cc3cff4",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "喵"
       ]
     }
   },
@@ -44484,10 +44989,33 @@ window.MAID_ROSTERS = {
         "person_id": "P_ae6d872c84c04895",
         "profile_image": "",
         "source": "",
-        "instagram_accounts": []
+        "instagram_accounts": [
+          {
+            "handle": "yatcheng_",
+            "status": "current"
+          }
+        ]
       },
       "kokona": {
         "person_id": "R_1_e3b3e6a498ff",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "Yuri": {
+        "person_id": "R_1_e2e9d5cd59fd",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "喵": {
+        "person_id": "R_1_ab735cc3cff4",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "零治": {
+        "person_id": "R_1_42ed29c7c2d7",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -59254,8 +59782,12 @@ window.MAID_ROSTERS = {
     },
     "R_1_994e5414447b": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
     },
     "R_1_55ffdc5a8cd1": {
       "override": null,
@@ -59865,8 +60397,12 @@ window.MAID_ROSTERS = {
     },
     "R_1_1640d2c53147": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
     },
     "R_1_f7ebf38d41e5": {
       "override": null,
@@ -59979,8 +60515,12 @@ window.MAID_ROSTERS = {
     },
     "R_1_b7f0ad528022": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
     },
     "R_9_d7b0db7622fb": {
       "override": null,
@@ -61287,6 +61827,33 @@ window.MAID_ROSTERS = {
       "shops": [
         "Comma Cafe"
       ]
+    },
+    "R_1_e2e9d5cd59fd": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_ab735cc3cff4": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
+    },
+    "R_1_42ed29c7c2d7": {
+      "override": null,
+      "default": [
+        "Maid Academy"
+      ],
+      "shops": [
+        "Maid Academy"
+      ]
     }
   },
   "weekly_events": [
@@ -61796,5 +62363,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:15+08:00"
+  "published_at": "2026-11-02T10:19+08:00"
 };

@@ -53,10 +53,17 @@
   }
   function personKey(shop, name) { return JSON.stringify([shop, name.trim().toLocaleLowerCase()]); }
   function accountHandle(info) {
-    const accounts = info?.instagram_accounts || [];
+    const accounts = [...(info?.work_instagram_accounts || []), ...(info?.instagram_accounts || [])];
     const account = accounts.find((item) => item.status === "current") || accounts[0];
     const value = String(account?.handle || "").trim();
     return (handle(value).replace(/^@/, "") || value.replace(/^@+/, "")).toLocaleLowerCase();
+  }
+  function matchesPerson(data, shop, name, query) {
+    const local = data.person_accounts?.[shop]?.[name] || {};
+    const shared = data.people?.[name] || {};
+    const accounts = [...(local.work_instagram_accounts || []), ...(local.instagram_accounts || []), ...(shared.instagram_accounts || [])];
+    const values = [displayName(name), ...(shared.person_id === local.person_id ? shared.names || [] : []), ...accounts.map(a => a.handle)];
+    return values.some(value => String(value || "").toLocaleLowerCase().includes(query.replace(/^@/, "")));
   }
   let conflicts;
   function personIdentity(data, shop, name) {
@@ -240,5 +247,5 @@
     }
     return card;
   }
-  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

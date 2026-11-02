@@ -200,7 +200,7 @@
     let count = 0;
     for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
       for (const [role, names] of roleGroups) {
-      const matched = names.filter((name) => shop.shop.toLocaleLowerCase().includes(search) || HKCI.displayName(name).toLocaleLowerCase().includes(search));
+      const matched = names.filter((name) => shop.shop.toLocaleLowerCase().includes(search) || HKCI.matchesPerson(data, shop.shop, name, search));
       if (!matched.length) continue;
       count += matched.length;
       const group = make("div", "role-group");

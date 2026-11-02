@@ -106,7 +106,7 @@
   }
   function includesPerson(shop, date) {
     const shift = (shop.shifts || []).find((item) => item.date === date);
-    return Boolean(shift && shop.shop.toLocaleLowerCase().includes(state.search)) || Object.values(shift?.groups || {}).some((names) => names.some((name) => name.toLocaleLowerCase().includes(state.search)));
+    return Boolean(shift && shop.shop.toLocaleLowerCase().includes(state.search)) || Object.values(shift?.groups || {}).some((names) => names.some((name) => HKCI.matchesPerson(data, shop.shop, name, state.search)));
   }
   function visible() {
     let shownDates = dates;
@@ -161,7 +161,7 @@
       let count = 0;
       for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
         for (const [role, names] of roleGroups) {
-        const people = state.search ? names.filter((name) => HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) : names;
+        const people = state.search ? names.filter((name) => HKCI.matchesPerson(data, shop.shop, name, state.search)) : names;
         if (!people.length) continue;
         count += people.length;
         const group = make("div", "matrix-role");
@@ -237,7 +237,7 @@
         if (state.range !== "all" && shift.date < today) continue;
         for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
-          if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.displayName(name).toLocaleLowerCase().includes(state.search)) continue;
+          if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.matchesPerson(data, shop.shop, name, state.search)) continue;
           const key = HKCI.identityKey(data, shop.shop, name);
           if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || data.people?.[name]?.person_id || "", shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
@@ -268,11 +268,11 @@
         if (person.personId) {
           for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
             allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);
-            for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
+            for (const account of [...(candidate.work_instagram_accounts || []), ...(candidate.instagram_accounts || [])]) addInstagramAccount(account);
           }
           for (const entries of Object.values(data.person_accounts || {})) for (const [name, candidate] of Object.entries(entries || {})) if (candidate.person_id === person.personId) {
             allNames.add(name);
-            for (const account of candidate.instagram_accounts || []) addInstagramAccount(account);
+            for (const account of [...(candidate.work_instagram_accounts || []), ...(candidate.instagram_accounts || [])]) addInstagramAccount(account);
           }
         }
         const top = make("div", "person-card-top");
@@ -282,7 +282,7 @@
         } else profile.append(make("span", "person-photo-placeholder", "♡"));
         const identity = make("div", "person-identity");
         identity.append(make("strong", null, [...allNames].map(HKCI.displayName).join(" ／ ")));
-        const instagramAccounts = Array.isArray(info?.instagram_accounts) ? info.instagram_accounts : [];
+        const instagramAccounts = [...(info?.work_instagram_accounts || []), ...(info?.instagram_accounts || [])];
         const links = allHandles.size ? [...allHandles.values()] : instagramAccounts;
         const igList = make("div", "people-ig-list");
         for (const account of links) {

@@ -19001,8 +19001,8 @@ window.MAID_ROSTERS = {
               "name": "梳乎厘",
               "role": "當值執事",
               "type": "活動嘉賓",
-              "cancelled": false,
-              "cancellation_source": ""
+              "cancelled": true,
+              "cancellation_source": "https://www.instagram.com/stories/highlights/18111337829272821/"
             },
             {
               "name": "Elika",
@@ -19015,8 +19015,8 @@ window.MAID_ROSTERS = {
               "name": "霜",
               "role": "當值執事",
               "type": "活動嘉賓",
-              "cancelled": false,
-              "cancellation_source": ""
+              "cancelled": true,
+              "cancellation_source": "https://www.instagram.com/stories/highlights/18111337829272821/"
             },
             {
               "name": "Heymeow",
@@ -19029,22 +19029,22 @@ window.MAID_ROSTERS = {
               "name": "亞希",
               "role": "當值執事",
               "type": "活動嘉賓",
-              "cancelled": false,
-              "cancellation_source": ""
+              "cancelled": true,
+              "cancellation_source": "https://www.instagram.com/stories/highlights/18111337829272821/"
             },
             {
               "name": "Lori",
               "role": "當值執事",
               "type": "活動嘉賓",
-              "cancelled": false,
-              "cancellation_source": ""
+              "cancelled": true,
+              "cancellation_source": "https://www.instagram.com/stories/highlights/18111337829272821/"
             },
             {
               "name": "Youko",
               "role": "當值執事",
               "type": "活動嘉賓",
-              "cancelled": false,
-              "cancellation_source": ""
+              "cancelled": true,
+              "cancellation_source": "https://www.instagram.com/stories/highlights/18111337829272821/"
             },
             {
               "name": "夜宵",
@@ -19067,6 +19067,13 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/cosplace_cafe/p/De9AV3APuCd/",
             "https://www.instagram.com/stories/highlights/18111337829272821/"
           ],
+          "review_names": {
+            "梳乎厘": "11/1當日Highlight名單圖打叉；保留原始排班記錄並標已取消。",
+            "霜": "11/1當日Highlight名單圖打叉；保留原始排班記錄並標已取消。",
+            "亞希": "11/1當日Highlight名單圖打叉；保留原始排班記錄並標已取消。",
+            "Lori": "11/1當日Highlight名單圖打叉；保留原始排班記錄並標已取消。",
+            "Youko": "11/1當日Highlight名單圖打叉；保留原始排班記錄並標已取消。"
+          },
           "person_notes": {
             "Shu": "個人時段：17:00-22:00"
           },
@@ -50231,6 +50238,17 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "https://www.instagram.com/p/DdEqcO4PKOF/",
         "instagram_accounts": []
+      },
+      "發發": {
+        "person_id": "R_11_5adf2f173b94",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "kathywnt",
+            "status": "current"
+          }
+        ]
       }
     },
     "Kaizoku House": {
@@ -62394,5 +62412,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T13:20+08:00"
+  "published_at": "2026-11-02T13:58+08:00"
 };

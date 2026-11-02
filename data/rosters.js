@@ -6595,12 +6595,81 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-01",
+          "hours": "18:00-00:30",
+          "groups": {
+            "資深修女": [
+              "Momoki"
+            ],
+            "資深修士": [
+              "千秋"
+            ],
+            "實習修女": [
+              "Saki"
+            ],
+            "廚娘": [
+              "NØNNØ ⟦@R_3_c1150fcc0415⟧"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "千秋",
+              "role": "資深修士",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Saki",
+              "role": "實習修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/",
+          "person_notes": {
+            "Momoki": "本輪逐日對照官方完整週表；保留貼文原名",
+            "千秋": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Saki": "本輪逐日對照官方完整週表；保留貼文原名",
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "本輪逐日對照官方完整週表；保留貼文原名"
+          },
+          "source_names": {
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "NØNNØ"
+          },
+          "notes": "本輪逐日對照官方完整週表；保留貼文原名"
+        },
+        {
           "date": "2026-11-02",
           "hours": "18:00-00:30",
           "groups": {
             "限定修女": [
               "玄幽",
               "Toffee"
+            ],
+            "資深修女": [
+              "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "雪喵"
+            ],
+            "正式修女": [
+              "黑井"
+            ],
+            "廚娘": [
+              "Isako"
             ]
           },
           "attendance_records": [
@@ -6617,21 +6686,56 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "雪喵",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "黑井",
+              "role": "正式修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/elysium.cafe21/p/DfAGXDtiT9k/",
           "alternate_sources": [
-            "https://www.instagram.com/elysium.cafe21/p/DfAGObUiY6E/"
+            "https://www.instagram.com/elysium.cafe21/p/DfAGObUiY6E/",
+            "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/"
           ],
           "person_notes": {
             "玄幽": "個人時段：18:00-23:00",
-            "Toffee": "個人時段：18:00-23:00"
+            "Toffee": "個人時段：18:00-23:00",
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "本輪逐日對照官方完整週表；保留貼文原名",
+            "雪喵": "本輪逐日對照官方完整週表；保留貼文原名",
+            "黑井": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Isako": "本輪逐日對照官方完整週表；保留貼文原名"
           },
           "person_times": {
             "玄幽": "18:00-23:00",
             "Toffee": "18:00-23:00"
           },
-          "notes": "個人時段：18:00-23:00"
+          "source_names": {
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-11-03",
@@ -6639,6 +6743,16 @@ window.MAID_ROSTERS = {
           "groups": {
             "限定修女": [
               "Sayori"
+            ],
+            "資深修女": [
+              "Momoki",
+              "小奈"
+            ],
+            "實習修女": [
+              "てお"
+            ],
+            "廚娘": [
+              "サイ"
             ]
           },
           "attendance_records": [
@@ -6648,16 +6762,50 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "Momoki",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "小奈",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "てお",
+              "role": "實習修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "サイ",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DfH6USFiUEO/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/"
+          ],
           "person_notes": {
-            "Sayori": "個人時段：18:00-23:00"
+            "Sayori": "個人時段：18:00-23:00",
+            "Momoki": "本輪逐日對照官方完整週表；保留貼文原名",
+            "小奈": "本輪逐日對照官方完整週表；保留貼文原名",
+            "てお": "本輪逐日對照官方完整週表；保留貼文原名",
+            "サイ": "本輪逐日對照官方完整週表；保留貼文原名"
           },
           "person_times": {
             "Sayori": "18:00-23:00"
-          },
-          "notes": "個人時段：18:00-23:00"
+          }
         },
         {
           "date": "2026-11-04",
@@ -6665,6 +6813,16 @@ window.MAID_ROSTERS = {
           "groups": {
             "限定修女": [
               "Mayako"
+            ],
+            "資深修女": [
+              "雪喵",
+              "Mizuka"
+            ],
+            "正式修女": [
+              "黑井"
+            ],
+            "廚娘": [
+              "NØNNØ ⟦@R_3_c1150fcc0415⟧"
             ]
           },
           "attendance_records": [
@@ -6674,16 +6832,53 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "雪喵",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Mizuka",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "黑井",
+              "role": "正式修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DfH6yfACaTI/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/"
+          ],
           "person_notes": {
-            "Mayako": "個人時段：18:00-23:00"
+            "Mayako": "個人時段：18:00-23:00",
+            "雪喵": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Mizuka": "本輪逐日對照官方完整週表；保留貼文原名",
+            "黑井": "本輪逐日對照官方完整週表；保留貼文原名",
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "本輪逐日對照官方完整週表；保留貼文原名"
           },
           "person_times": {
             "Mayako": "18:00-23:00"
           },
-          "notes": "個人時段：18:00-23:00"
+          "source_names": {
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-11-05",
@@ -6692,6 +6887,18 @@ window.MAID_ROSTERS = {
             "限定修女": [
               "Zoru",
               "Enna"
+            ],
+            "資深修女": [
+              "NØNNØ ⟦@R_3_c1150fcc0415⟧"
+            ],
+            "正式修女": [
+              "Teddy"
+            ],
+            "實習修女": [
+              "Hina"
+            ],
+            "廚娘": [
+              "Isako"
             ]
           },
           "attendance_records": [
@@ -6708,18 +6915,58 @@ window.MAID_ROSTERS = {
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
+            },
+            {
+              "name": "NØNNØ ⟦@R_3_c1150fcc0415⟧",
+              "role": "資深修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Teddy",
+              "role": "正式修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Hina",
+              "role": "實習修女",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Isako",
+              "role": "廚娘",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
             }
           ],
           "source": "https://www.instagram.com/p/DfH7BaWCV60/",
+          "alternate_sources": [
+            "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/"
+          ],
+          "review_names": {
+            "Zoru": "來源拼寫衝突：置頂週表列 Zold；獨立限定公告列 Zoru。暫保留明確帳戶公告中的 Zoru，身份未合併。"
+          },
           "person_notes": {
             "Zoru": "個人時段：18:00-23:00",
-            "Enna": "個人時段：18:00-23:00"
+            "Enna": "個人時段：18:00-23:00",
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Teddy": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Hina": "本輪逐日對照官方完整週表；保留貼文原名",
+            "Isako": "本輪逐日對照官方完整週表；保留貼文原名"
           },
           "person_times": {
             "Zoru": "18:00-23:00",
             "Enna": "18:00-23:00"
           },
-          "notes": "個人時段：18:00-23:00"
+          "source_names": {
+            "NØNNØ ⟦@R_3_c1150fcc0415⟧": "NØNNØ"
+          }
         },
         {
           "date": "2026-11-06",
@@ -6958,7 +7205,13 @@ window.MAID_ROSTERS = {
       "opening_hours": "星期日至四 18:00–次日00:30\n星期五、六及公眾假期前夕 18:00–次日01:30",
       "opening_hours_source": "https://www.instagram.com/elysium.cafe21/p/De1ZH1ekst-/",
       "opening_hours_checked_at": "2026-10-26",
-      "unresolved": [],
+      "unresolved": [
+        {
+          "date": "2026-11-05",
+          "reason": "置頂週表 DfMiToRCaiJ 的 11/5 名單寫「Zold」；獨立限定公告 DfH7BaWCV60 寫「Zoru」。無可靠發布時間／帳戶證據可確認是否同一人或哪版較新；保留原有 Zoru，不合併、不另造同日 Zold 人物。",
+          "source": "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/ | https://www.instagram.com/elysium.cafe21/p/DfH7BaWCV60/"
+        }
+      ],
       "date_notices": []
     },
     {
@@ -44416,6 +44669,15 @@ window.MAID_ROSTERS = {
       "names": [
         "喵"
       ]
+    },
+    "Teddy": {
+      "person_id": "R_3_d694dcb4aeb02c1d",
+      "profile_image": "",
+      "identity_status": "provisional",
+      "instagram_accounts": [],
+      "names": [
+        "Teddy"
+      ]
     }
   },
   "person_accounts": {
@@ -44451,63 +44713,117 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "qqkokonyann",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "Mori": {
         "person_id": "N_Mori",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "morimori.117",
+            "status": "current",
+            "source_url": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/"
+          }
+        ]
       },
       "akana": {
         "person_id": "R_1_1dac0608b4b8",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_2nyachan_q",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "chika": {
         "person_id": "R_1_1e31cdeeb18e",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "chika_s.clover",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "domo": {
         "person_id": "R_1_74ca7f73c6f3",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "domo.o8",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "kanon": {
         "person_id": "R_1_0b04231a94b6",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kan0n._.0v0",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "rena": {
         "person_id": "N_rena",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "rena_sweetie.chu",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "soy": {
         "person_id": "R_1_a2db9cab4db3",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "soy_sweetie.chu",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "千羽": {
         "person_id": "N___402",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "1hane___",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "小蚊": {
         "person_id": "P0040",
@@ -44526,7 +44842,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "xindizi0",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeEjkdeTPsZ/"
+          }
+        ]
       },
       "Qb": {
         "person_id": "N_Qb",
@@ -44615,7 +44937,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kora.chi_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/kora.chi_/"
+          }
+        ]
       },
       "Saki": {
         "person_id": "N_Saki",
@@ -44664,7 +44992,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "makingboyssscry",
+            "status": "current",
+            "source_url": "https://www.instagram.com/makingboyssscry/"
+          }
+        ]
       },
       "斯洛": {
         "person_id": "N___494",
@@ -44690,7 +45024,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "koaz1a",
+            "status": "current",
+            "source_url": "https://www.instagram.com/koaz1a/"
+          }
+        ]
       },
       "ぴこ": {
         "person_id": "R_1_d3386b9a96f7",
@@ -44742,14 +45082,26 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "haruka16o_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/"
+          }
+        ]
       },
       "桃井プイ": {
         "person_id": "N___515",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "puipui_hakuchu",
+            "status": "current",
+            "source_url": "https://www.instagram.com/tadano_gaisha/p/DeOAIt0PZkq/"
+          }
+        ]
       },
       "小白": {
         "person_id": "R_1_7488c0d74b7a",
@@ -44770,42 +45122,78 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "dontshoothepubby",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "Ikuya": {
         "person_id": "N_Ikuya",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "ikuya._xd",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "小泉": {
         "person_id": "R_1_8c53bbeb7892",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "koizumi_hani",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "津津": {
         "person_id": "R_1_994e5414447b",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "ri2u_0x",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "薑餅": {
         "person_id": "R_1_55ffdc5a8cd1",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "beung_cos",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "藍可奇": {
         "person_id": "R_1_03b883edf598",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "blue_coki_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DeGwbs4vVIy/"
+          }
+        ]
       },
       "ゆこ": {
         "person_id": "N___373",
@@ -44976,7 +45364,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "ccwc_mew",
+            "status": "current",
+            "source_url": "https://www.instagram.com/ccwc_mew/"
+          }
+        ]
       },
       "小牛": {
         "person_id": "R_1_b91b69234e35",
@@ -45309,7 +45703,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "hoshino.momona_1015",
+            "status": "current",
+            "source_url": "https://www.instagram.com/hoshino.momona_1015/"
+          }
+        ]
       },
       "Miya": {
         "person_id": "P0036",
@@ -45441,7 +45841,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kyooo_xux",
+            "status": "current",
+            "source_url": "https://www.instagram.com/kyooo_xux/"
+          }
+        ]
       },
       "毛毛": {
         "person_id": "N___525",
@@ -46157,7 +46563,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "teo_dayo00",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DfPVujAzzLH/"
+          }
+        ]
       },
       "Isako": {
         "person_id": "N_Isako",
@@ -46244,7 +46656,7 @@ window.MAID_ROSTERS = {
       "NØNNØ": {
         "person_id": "R_3_c1150fcc0415",
         "profile_image": "",
-        "source": "",
+        "source": "https://www.instagram.com/elysium.cafe21/p/DfMiToRCaiJ/",
         "instagram_accounts": [],
         "work_instagram_accounts": []
       },
@@ -46276,7 +46688,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_ttwyy._._",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_ttwyy._._/"
+          }
+        ]
       },
       "千秋": {
         "person_id": "N___401",
@@ -46480,7 +46898,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kuroikuroipi",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DfPVujAzzLH/"
+          }
+        ]
       },
       "Julie": {
         "person_id": "N_Julie",
@@ -46506,7 +46930,13 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "yyam2z",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DfPVujAzzLH/"
+          }
+        ]
       },
       "柔柔": {
         "person_id": "N___513",
@@ -46589,7 +47019,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "itsurtii",
+            "status": "current",
+            "source_url": "https://www.instagram.com/itsurtii/"
+          }
+        ]
       },
       "NingNing": {
         "person_id": "R_3_17187e1e1f01",
@@ -46798,6 +47234,20 @@ window.MAID_ROSTERS = {
       },
       "Apple": {
         "person_id": "R_3_ff8528ca3492",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [],
+        "work_instagram_accounts": []
+      },
+      "Saki": {
+        "person_id": "R_3_9b03cd30902dc7f0",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [],
+        "work_instagram_accounts": []
+      },
+      "Teddy": {
+        "person_id": "R_3_d694dcb4aeb02c1d",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
@@ -47055,7 +47505,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "mercyx__x",
+            "status": "current",
+            "source_url": "https://www.instagram.com/mercyx__x/"
+          }
+        ]
       },
       "Rizuko": {
         "person_id": "N_Rizuko",
@@ -47324,7 +47780,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "lori_kohaku.e",
+            "status": "current",
+            "source_url": "https://www.instagram.com/lori_kohaku.e/"
+          }
+        ]
       },
       "mona": {
         "person_id": "N_mona",
@@ -47839,7 +48301,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "fumi._eyy",
+            "status": "current",
+            "source_url": "https://www.instagram.com/fumi._eyy/"
+          }
+        ]
       },
       "Kkuma": {
         "person_id": "N_Kkuma",
@@ -47860,7 +48328,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "mafu0104",
+            "status": "current",
+            "source_url": "https://www.instagram.com/mafu0104/"
+          }
+        ]
       },
       "Mia": {
         "person_id": "N_Mia",
@@ -48057,7 +48531,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "masako_0v0",
+            "status": "current",
+            "source_url": "https://www.instagram.com/masako_0v0/"
+          }
+        ]
       },
       "盈盈": {
         "person_id": "R_5_a021e0e76216",
@@ -48122,7 +48602,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "chiyu_hanakoto",
+            "status": "current",
+            "source_url": "https://www.instagram.com/chiyu_hanakoto/"
+          }
+        ]
       },
       "Yuki": {
         "person_id": "N_Yuki",
@@ -48150,7 +48636,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "hiiiiiima_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/hiiiiiima_/"
+          }
+        ]
       },
       "小倩": {
         "person_id": "N___442",
@@ -48356,7 +48848,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kura_vahdoll",
+            "status": "current",
+            "source_url": "https://www.instagram.com/kura_vahdoll/"
+          }
+        ]
       },
       "小影": {
         "person_id": "R_5_e5baa7766e3a",
@@ -48440,7 +48938,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "la.ra.lara",
+            "status": "current",
+            "source_url": "https://www.instagram.com/la.ra.lara/"
+          }
+        ]
       },
       "Chika": {
         "person_id": "N_Chika",
@@ -48662,7 +49166,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "airin_hakuchu",
+            "status": "current",
+            "source_url": "https://www.instagram.com/airin_hakuchu/"
+          }
+        ]
       },
       "Bochi": {
         "person_id": "N_Bochi",
@@ -48739,7 +49249,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "hkcos._.raichi",
+            "status": "current",
+            "source_url": "https://www.instagram.com/hkcos._.raichi/"
+          }
+        ]
       },
       "Mika": {
         "person_id": "N_Mika",
@@ -48822,14 +49338,26 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_azuki.maid.hime_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_azuki.maid.hime_/"
+          }
+        ]
       },
       "真祐": {
         "person_id": "N___559",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "mayuu._maid",
+            "status": "current",
+            "source_url": "https://www.instagram.com/mayuu._maid/"
+          }
+        ]
       },
       "Aiko": {
         "person_id": "N_Aiko",
@@ -48864,7 +49392,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "aoba.natsuki",
+            "status": "current",
+            "source_url": "https://www.instagram.com/aoba.natsuki/"
+          }
+        ]
       },
       "MIKAN": {
         "person_id": "R_6_1e6ea465c29d",
@@ -48911,14 +49445,26 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "aina.__.cos",
+            "status": "current",
+            "source_url": "https://www.instagram.com/aina.__.cos/"
+          }
+        ]
       },
       "古喵": {
         "person_id": "R_6_38f5bdc365da",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_kunyako_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_kunyako_/"
+          }
+        ]
       },
       "Neneko": {
         "person_id": "R_6_2d160606996a",
@@ -49187,7 +49733,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "fumi_cyan_tengoku_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/fumi_cyan_tengoku_/"
+          }
+        ]
       },
       "つゆめ": {
         "person_id": "N___368",
@@ -49953,7 +50505,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "hari_8.222himesaki",
+            "status": "current",
+            "source_url": "https://www.instagram.com/hari_8.222himesaki/"
+          }
+        ]
       },
       "kokomi": {
         "person_id": "N_kokomi",
@@ -50023,7 +50581,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kaka_qxq",
+            "status": "current",
+            "source_url": "https://www.instagram.com/kaka_qxq/"
+          }
+        ]
       },
       "剎那": {
         "person_id": "N___399",
@@ -50077,7 +50641,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_rikoo.oxo_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_rikoo.oxo_/"
+          }
+        ]
       },
       "sanada": {
         "person_id": "N_sanada",
@@ -50157,7 +50727,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "ahitomi_mokomoko",
+            "status": "current",
+            "source_url": "https://www.instagram.com/ahitomi_mokomoko/"
+          }
+        ]
       },
       "harei": {
         "person_id": "N_harei",
@@ -50774,14 +51350,26 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_fufu_qvq_",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_fufu_qvq_/"
+          }
+        ]
       },
       "池池": {
         "person_id": "N___530",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_chihiro_1",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_chihiro_1/"
+          }
+        ]
       },
       "Youko": {
         "person_id": "N_Youko",
@@ -50828,7 +51416,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "cookies._.cos",
+            "status": "current",
+            "source_url": "https://www.instagram.com/cookies._.cos/"
+          }
+        ]
       },
       "潔蘿": {
         "person_id": "N___535",
@@ -50940,7 +51534,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "lori_kohaku.e",
+            "status": "current",
+            "source_url": "https://www.instagram.com/lori_kohaku.e/"
+          }
+        ]
       },
       "Soya": {
         "person_id": "N_Soya",
@@ -50980,7 +51580,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "cream_ice_cos.0614",
+            "status": "current",
+            "source_url": "https://www.instagram.com/cream_ice_cos.0614/"
+          }
+        ]
       },
       "蕾": {
         "person_id": "R_11_4a4bd493cc1e",
@@ -51446,7 +52052,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "celiaaaaaa_awa",
+            "status": "current",
+            "source_url": "https://www.instagram.com/celiaaaaaa_awa/"
+          }
+        ]
       },
       "Mari": {
         "person_id": "N_Mari",
@@ -51983,7 +52595,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "meowling.18",
+            "status": "current",
+            "source_url": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
+          }
+        ]
       },
       "小汐": {
         "person_id": "N___458",
@@ -52181,7 +52799,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "amy_0701hei",
+            "status": "current",
+            "source_url": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
+          }
+        ]
       },
       "ほたる": {
         "person_id": "N_Hotaru",
@@ -52313,6 +52937,11 @@ window.MAID_ROSTERS = {
             "handle": "aki_aki45",
             "status": "current",
             "source_url": "https://www.instagram.com/reel/De8S7vOzmMV/"
+          },
+          {
+            "handle": "unknowndelete_aki",
+            "status": "current",
+            "source_url": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
           }
         ]
       },
@@ -52450,7 +53079,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "choco.choco.fish",
+            "status": "current",
+            "source_url": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
+          }
+        ]
       },
       "小sakura": {
         "person_id": "N__Sakura",
@@ -52637,14 +53272,26 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "bunnyovo.maid",
+            "status": "current",
+            "source_url": "https://www.instagram.com/bunnyovo.maid/"
+          }
+        ]
       },
       "金魚": {
         "person_id": "N___625",
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "maid_fish10.22",
+            "status": "current",
+            "source_url": "https://www.instagram.com/maid_fish10.22/"
+          }
+        ]
       },
       "安柚": {
         "person_id": "N___438",
@@ -52670,7 +53317,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "icing.sakamaki",
+            "status": "current",
+            "source_url": "https://www.instagram.com/icing.sakamaki/"
+          }
+        ]
       },
       "有栖": {
         "person_id": "N___507",
@@ -52745,7 +53398,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "catto_maid.cos",
+            "status": "current",
+            "source_url": "https://www.instagram.com/catto_maid.cos/"
+          }
+        ]
       },
       "茶 ⟦@R_14_143787021eebbd05⟧": {
         "person_id": "R_14_143787021eebbd05",
@@ -52759,7 +53418,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "ha_a.lo",
+            "status": "current",
+            "source_url": "https://www.instagram.com/ha_a.lo/"
+          }
+        ]
       },
       "Yuki": {
         "person_id": "IG_8f1575c578ebf5b4",
@@ -53015,7 +53680,13 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "mao_frontier",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DfO5GCeifc0/"
+          }
+        ]
       },
       "いせ": {
         "person_id": "P0005",
@@ -53192,7 +53863,13 @@ window.MAID_ROSTERS = {
             "status": "current"
           }
         ],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "chinthedarkness",
+            "status": "current",
+            "source_url": "https://www.instagram.com/p/DfO5GCeifc0/"
+          }
+        ]
       },
       "肉鬆": {
         "person_id": "P0017",
@@ -53380,7 +54057,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "fuwa_kitsune030",
+            "status": "current",
+            "source_url": "https://www.instagram.com/fuwa_kitsune030/"
+          }
+        ]
       },
       "小葵": {
         "person_id": "N___466",
@@ -53447,7 +54130,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "c.yin_maid",
+            "status": "current",
+            "source_url": "https://www.instagram.com/c.yin_maid/"
+          }
+        ]
       },
       "菌子": {
         "person_id": "N___592",
@@ -53810,7 +54499,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "baka_neko_owo",
+            "status": "current",
+            "source_url": "https://www.instagram.com/baka_neko_owo/"
+          }
+        ]
       },
       "玄幽": {
         "person_id": "P0034",
@@ -53916,7 +54611,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "maid_reina",
+            "status": "current",
+            "source_url": "https://www.instagram.com/maid_reina/"
+          }
+        ]
       },
       "Kaoko": {
         "person_id": "N_Kaoko",
@@ -54258,7 +54959,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "k.h.n._1215",
+            "status": "current",
+            "source_url": "https://www.instagram.com/k.h.n._1215/"
+          }
+        ]
       },
       "奶茶": {
         "person_id": "N___432",
@@ -54475,7 +55182,18 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "kkataboo",
+            "status": "current",
+            "source_url": "https://www.instagram.com/kkataboo/"
+          },
+          {
+            "handle": "k4talinax",
+            "status": "current",
+            "source_url": "https://www.instagram.com/k4talinax/"
+          }
+        ]
       },
       "Husky": {
         "person_id": "N_Husky",
@@ -54669,7 +55387,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "k00n44",
+            "status": "current",
+            "source_url": "https://www.instagram.com/k00n44/"
+          }
+        ]
       },
       "Neya": {
         "person_id": "N_Neya",
@@ -54789,7 +55513,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "_fue.nx",
+            "status": "current",
+            "source_url": "https://www.instagram.com/_fue.nx/"
+          }
+        ]
       },
       "小白": {
         "person_id": "A_19_133",
@@ -54977,7 +55707,13 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": [],
-        "work_instagram_accounts": []
+        "work_instagram_accounts": [
+          {
+            "handle": "eveferno",
+            "status": "current",
+            "source_url": "https://www.instagram.com/eveferno/"
+          }
+        ]
       },
       "Miyuki": {
         "person_id": "N_Miyuki",
@@ -55602,8 +56338,12 @@ window.MAID_ROSTERS = {
     },
     "P0051": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
     },
     "P0054": {
       "override": null,
@@ -63373,6 +64113,24 @@ window.MAID_ROSTERS = {
       "shops": [
         "Maid Academy"
       ]
+    },
+    "R_3_9b03cd30902dc7f0": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
+    },
+    "R_3_d694dcb4aeb02c1d": {
+      "override": null,
+      "default": [
+        "Elysium Cafe"
+      ],
+      "shops": [
+        "Elysium Cafe"
+      ]
     }
   },
   "weekly_events": [
@@ -63896,5 +64654,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T17:43+08:00"
+  "published_at": "2026-11-03T00:11+08:00"
 };

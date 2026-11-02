@@ -17309,12 +17309,11 @@ window.MAID_ROSTERS = {
               "剎那",
               "raku",
               "小狐狸",
-              "牙涼",
-              "空雪"
+              "牙涼"
             ],
             "限定幽靈": [
               "Nana",
-              "ろく"
+              "小六"
             ]
           },
           "attendance_records": [
@@ -17375,13 +17374,6 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "空雪",
-              "role": "當值幽靈",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
               "name": "Nana",
               "role": "限定幽靈",
               "type": "限定",
@@ -17389,7 +17381,7 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "ろく",
+              "name": "小六",
               "role": "限定幽靈",
               "type": "限定",
               "cancelled": false,
@@ -17402,7 +17394,7 @@ window.MAID_ROSTERS = {
             "https://www.instagram.com/maid_eidolon/p/De3OC0ZTRmz/|https://www.instagram.com/maid_eidolon/p/DegcYpdzpvV/|https://www.instagram.com/maid_eidolon/p/De3N8Lrzym7/"
           ],
           "person_notes": {
-            "ろく": "限定幽靈海報caption列沒出時間17:00~22:00；handle由同帖直接標註roku_399核實。"
+            "小六": "來源原文為「小六」；尚無直接證據連結已核實帳戶 roku_399，保留 provisional 人物，不合併。"
           }
         },
         {
@@ -17736,7 +17728,6 @@ window.MAID_ROSTERS = {
               "hari",
               "999",
               "丑",
-              "kokomi",
               "kusuki",
               "kaka",
               "nako",
@@ -17780,13 +17771,6 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "kokomi",
-              "role": "當值幽靈",
-              "type": "當值",
-              "cancelled": false,
-              "cancellation_source": ""
-            },
-            {
               "name": "kusuki",
               "role": "當值幽靈",
               "type": "當值",
@@ -17815,8 +17799,11 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/p/DfJmee4TJTx/",
-          "event_name": "萬聖節event"
+          "source": "https://www.instagram.com/maid_eidolon/p/DfMQS2JTF2z/",
+          "event_name": "萬聖節event",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfJmee4TJTx/"
+          ]
         },
         {
           "date": "2026-11-05",
@@ -17905,18 +17892,8 @@ window.MAID_ROSTERS = {
       "opening_hours_checked_at": "2026-11-01",
       "unresolved": [
         {
-          "date": "2026-10-25",
-          "reason": "已編輯的新帖 DeYd4QEPxQO 未列出舊更表中的「阿橦」；其餘名單相符。此人員是否已取消需店方確認，先保留原記錄並標記待核對。",
-          "source": "https://www.instagram.com/maid_eidolon/p/Deyd4QEPxQO/"
-        },
-        {
-          "date": "2026-10-23",
-          "reason": "2026-10-23試業day8 recap列ruika、大毛、kumo、小狐狸、小困；SQLite另有八田、小南、阿橦。貼文是試業回顧，沒有說明是否為完整當日更表，暫不刪除資料。",
-          "source": "https://www.instagram.com/maid_eidolon/p/De7_ZeHzVq-/"
-        },
-        {
           "date": "2026-10-30",
-          "reason": "週表小六與限定帖ろく（直接IG roku_399）尚無同一人直接證據；不因翻譯或相似名稱合併，保留已核實ろく並續查週表身份。",
+          "reason": "來源原文為「小六」，按固定人物ID保留 provisional N___443；雖有另一來源直接證實帳戶roku_399屬「ろく」，目前沒有直接證據證明兩個名稱是同一人，故不合併、不重複新增。",
           "source": "https://www.instagram.com/p/Deyd4QEPxQO/"
         },
         {
@@ -17926,7 +17903,7 @@ window.MAID_ROSTERS = {
         },
         {
           "date": "2026-10-31",
-          "reason": "同一活動caption17:00-22:00、原圖17:00-24:00，缺明確版本先後；保留caption時段並自行續查。",
+          "reason": "10/31同一活動來源caption列17:00–22:00、獨立活動原圖列17:00–24:00；公開更表沿用caption的17:00–22:00，矛盾已記錄，留待後續官方更正來源比對。",
           "source": "https://www.instagram.com/p/DfB_BTCTNU-/"
         }
       ],
@@ -49567,6 +49544,12 @@ window.MAID_ROSTERS = {
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
+      },
+      "小六": {
+        "person_id": "N___443",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
       }
     },
     "The Misty": {
@@ -62411,5 +62394,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T12:41+08:00"
+  "published_at": "2026-11-02T13:20+08:00"
 };

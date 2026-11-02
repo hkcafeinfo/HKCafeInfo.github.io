@@ -179,5 +179,5 @@
   window.HKCIData = { receive(key, value) { const request = pending.get(key); if (request) request.payload = value; },
     dates, shops, catalog, searchDates,
     stats: () => ({ cachedParts: cache.size, pendingParts: pending.size }) };
-  window.HKCILoading = { render, clear, each, batches, image, background, turn };
+  window.HKCILoading = { render, clear, each, batches, image, background, turn, error: showError };
 })();

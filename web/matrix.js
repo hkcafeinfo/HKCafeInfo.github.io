@@ -38,6 +38,7 @@
   const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
   let focusTodayOnNextRender = state.across === "dates";
   let firstRender = true;
+  let stopProgressive = () => {};
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
   const sticky = makeSticky();
@@ -209,6 +210,7 @@
     return node;
   }
   function render() {
+    stopProgressive();
     if ($("matrix-view").hidden) return;
     return HKCILoading.render(matrix, async active => {
     const valid = () => active() && !$("matrix-view").hidden;
@@ -224,6 +226,12 @@
     $("matrix-view").classList.toggle("people-card-view", personMode);
     $("person-back").hidden = !personMode;
     const { shownDates, shops: selectedShops } = visible();
+    if (!personMode && shownDates.length > 90 && selectedShops.length) {
+      await renderProgressive(shownDates, selectedShops, previousScroll, valid);
+      return;
+    }
+    matrix.removeAttribute("data-viewport-ready");
+    matrix.removeAttribute("data-archive-complete");
     const requestedDates = personMode ? await HKCIData.searchDates(state.search, state.person, state.range, today) : shownDates;
     if (!valid()) return;
     const loadedShops = await HKCIData.shops(requestedDates, valid);
@@ -393,6 +401,157 @@
     sticky.replaceChildren(); updateSticky();
     });
   }
+  async function renderProgressive(shownDates, shops, previousScroll, active) {
+    const axis = state.across;
+    const dayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", month: "numeric", day: "numeric" });
+    const weekdayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", weekday: "short" });
+    const labelForDate = date => { const value = new Date(`${date}T12:00:00Z`); return { day: dayFormat.format(value), weekday: weekdayFormat.format(value) }; };
+    let stopped = false, scheduled = false, backgroundTimer;
+    const valid = () => !stopped && active();
+    const oldHeights = new Map();
+    const oldAxis = matrix.querySelector('.matrix-colhead[data-date]') ? "dates" : "shops";
+    if (oldAxis === axis) for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
+      const item = row.querySelector(".matrix-cell");
+      if (item) oldHeights.set(axis === "dates" ? item.dataset.shop : item.dataset.date, row.getBoundingClientRect().height);
+    }
+    const initialColumnWidth = matrix.querySelector(".matrix-colhead")?.getBoundingClientRect().width || 252;
+    const focusIndex = focusTodayOnNextRender ? shownDates.indexOf(today) : shownDates.indexOf(state.focusTarget?.date);
+    const initialIndex = axis === "dates" ? (focusIndex >= 0 ? focusIndex : Math.floor(previousScroll / initialColumnWidth)) : 0;
+    const seed = shownDates.slice(Math.max(0, initialIndex - 2), initialIndex + Math.ceil(viewport.clientWidth / initialColumnWidth) + 4);
+    // Start the foreground download while the inexpensive table shells are built.
+    const firstData = HKCIData.shops(seed, valid).then(value => ({ value }), error => ({ error }));
+    HKCILoading.clear(matrix);
+    matrix.dataset.viewportReady = "false";
+    matrix.dataset.archiveComplete = "false";
+    matrix.setAttribute("role", "table");
+    const columns = axis === "dates" ? shownDates : shops;
+    const rows = axis === "dates" ? shops : shownDates;
+    matrix.style.setProperty("--columns", String(columns.length));
+    const header = make("div", "matrix-row matrix-header"); header.setAttribute("role", "row");
+    const corner = make("div", "matrix-corner", axis === "dates" ? "CAFE / 日期" : "日期 / CAFE");
+    corner.setAttribute("role", "columnheader"); header.append(corner);
+    await HKCILoading.each(columns, item => {
+      if (axis === "dates") {
+        const label = labelForDate(item), node = columnHead(label.day, label.weekday, item === today);
+        node.dataset.date = item; header.append(node);
+      } else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
+    }, valid);
+    matrix.append(header);
+    const slots = new Map(), rowNodes = [];
+    const key = (shop, date) => JSON.stringify([shop, date]);
+    const placeholder = (shop, date) => {
+      const node = make("div", "matrix-cell matrix-cell-empty");
+      node.setAttribute("role", "cell"); node.setAttribute("aria-busy", "true");
+      node.dataset.shop = shop.shop; node.dataset.date = date;
+      node.append(make("span", "matrix-empty-copy", "載入中…"));
+      slots.set(key(shop.shop, date), node);
+      return node;
+    };
+    for (const item of rows) {
+      if (!valid()) return;
+      const row = make("div", "matrix-row"); row.setAttribute("role", "row");
+      const height = oldHeights.get(axis === "dates" ? item.shop : item);
+      if (height) row.style.minHeight = `${height}px`;
+      if (axis === "dates") {
+        row.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
+        await HKCILoading.each(shownDates, date => row.append(placeholder(item, date)), valid);
+      } else {
+        const label = labelForDate(item); row.append(rowHead(label.day, label.weekday, null));
+        for (const shop of shops) row.append(placeholder(shop, item));
+      }
+      matrix.append(row); rowNodes.push(row);
+    }
+    viewport.scrollLeft = previousScroll;
+    if (axis === "dates" && focusIndex >= 0) {
+      viewport.scrollLeft = focusIndex * header.children[1].getBoundingClientRect().width;
+      focusTodayOnNextRender = false;
+    }
+    $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
+    $("scroll-hint").textContent = axis === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
+    sticky.replaceChildren(); updateSticky();
+    const loaded = new Set(), pending = new Map();
+    async function paint(days, payload) {
+      const requested = new Set(days.filter(date => !loaded.has(date)));
+      for (const shop of payload.filter(item => shops.some(selected => selected.shop === item.shop))) {
+        await HKCILoading.each([...requested], date => {
+          const id = key(shop.shop, date), current = slots.get(id);
+          if (!current?.isConnected) return;
+          const node = cell(shop, date); current.replaceWith(node); slots.set(id, node);
+        }, valid);
+      }
+      if (valid()) for (const date of requested) loaded.add(date);
+    }
+    async function loadDays(days) {
+      const required = days.filter(day => !loaded.has(day));
+      const fresh = required.filter(day => !pending.has(day));
+      if (fresh.length) {
+        const task = HKCIData.shops(fresh, valid).then(payload => paint(fresh, payload)).finally(() => {
+          for (const day of fresh) pending.delete(day);
+        });
+        for (const day of fresh) pending.set(day, task);
+      }
+      await Promise.all([...new Set(required.map(day => pending.get(day)).filter(Boolean))]);
+    }
+    function nearbyDates() {
+      if (axis === "dates") {
+        const width = header.children[1].getBoundingClientRect().width;
+        const start = Math.max(0, Math.floor(viewport.scrollLeft / width) - 2);
+        return shownDates.slice(start, Math.ceil((viewport.scrollLeft + viewport.clientWidth) / width) + 3);
+      }
+      const top = Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) - 400;
+      // The unchanged rows remain in normal document flow; binary search avoids
+      // measuring all five years on each vertical scroll.
+      let lo = 0, hi = rowNodes.length;
+      while (lo < hi) { const mid = (lo + hi) >> 1; if (rowNodes[mid].getBoundingClientRect().bottom < top) lo = mid + 1; else hi = mid; }
+      const result = [];
+      for (let i = Math.max(0, lo - 1); i < rowNodes.length; i++) {
+        if (result.length && rowNodes[i].getBoundingClientRect().top > innerHeight + 600) break;
+        result.push(shownDates[i]);
+      }
+      return result;
+    }
+    const failed = error => {
+      if (!valid() || error.name === "AbortError") return;
+      const target = [...slots.values()].find(node => node.getAttribute("aria-busy") === "true" && node.getBoundingClientRect().top < innerHeight && node.getBoundingClientRect().bottom > 0);
+      if (target) { target.replaceChildren(); target.removeAttribute("aria-busy"); HKCILoading.error(target, () => loadDays(nearbyDates()).catch(failed), error); }
+    };
+    const watch = () => {
+      if (scheduled || !valid()) return;
+      scheduled = true;
+      requestAnimationFrame(() => { scheduled = false; if (valid()) loadDays(nearbyDates()).catch(failed); });
+    };
+    stopProgressive = () => {
+      stopped = true; clearTimeout(backgroundTimer);
+      viewport.removeEventListener("scroll", watch); window.removeEventListener("scroll", watch); window.removeEventListener("resize", watch);
+    };
+    const first = await firstData;
+    if (!valid()) return;
+    if (first.error) throw first.error;
+    await paint(seed, first.value);
+    await loadDays(nearbyDates());
+    if (!valid()) return;
+    matrix.dataset.viewportReady = "true";
+    requestAnimationFrame(alignRosterFooters);
+    viewport.addEventListener("scroll", watch, { passive: true });
+    window.addEventListener("scroll", watch, { passive: true }); window.addEventListener("resize", watch);
+    const months = [...new Set(shownDates.map(date => date.slice(0, 7)))];
+    const pivot = shownDates[Math.max(0, initialIndex)]?.slice(0, 7) || months[0];
+    const monthOrder = new Map(months.map((month, i) => [month, i]));
+    months.sort((a, b) => Math.abs(monthOrder.get(a) - monthOrder.get(pivot)) - Math.abs(monthOrder.get(b) - monthOrder.get(pivot)));
+    async function backfill() {
+      for (const month of months) {
+        if (!valid()) return;
+        await loadDays(shownDates.filter(day => day.startsWith(month)));
+        await HKCILoading.turn();
+      }
+      if (!valid()) return;
+      for (const row of rowNodes) row.style.removeProperty("min-height");
+      alignRosterFooters();
+      matrix.dataset.archiveComplete = "true";
+      updateSticky();
+    }
+    backgroundTimer = setTimeout(() => backfill().catch(failed), 50);
+  }
   function alignRosterFooters() {
     if (matrix.getAttribute("aria-busy") === "true") return;
     for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
@@ -417,6 +576,7 @@
     state.range = "all";
     state.across = "dates";
     state.focusTarget = { shop, date };
+    focusTodayOnNextRender = false;
     $("name-search").value = "";
     persist();
     window.dispatchEvent(new Event("hkcafeinfo:show-matrix"));
@@ -467,7 +627,7 @@
   });
   window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "all"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
   window.addEventListener("maid:visibility-change", render);
-  window.addEventListener("hkcafeinfo:view-change", updateSticky);
+  window.addEventListener("hkcafeinfo:view-change", () => { if ($("matrix-view").hidden) stopProgressive(); updateSticky(); });
   window.addEventListener("hkcafeinfo:reset-view", () => {
     state.search = ""; state.person = null; state.range = "future"; state.across = "dates";
     $("name-search").value = "";

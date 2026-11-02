@@ -22757,6 +22757,316 @@ window.MAID_ROSTERS = {
           }
         },
         {
+          "date": "2026-11-02",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "貓月",
+              "yuri"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "貓月": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "yuki",
+              "蕉蕉"
+            ],
+            "見習女僕": [
+              "Emi"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蕉蕉",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Emi",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yuki": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "蕉蕉": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Emi": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "包包",
+              "貓月"
+            ],
+            "見習女僕": [
+              "牙米"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "包包",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "包包": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "貓月": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "牙米": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "yuri",
+              "晏咲"
+            ],
+            "見習女僕": [
+              "金魚"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "晏咲",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "晏咲": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "金魚": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "雅木",
+              "Yuki",
+              "蕉蕉",
+              "Ellie"
+            ],
+            "見習女僕": [
+              "Asuka"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuki",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "蕉蕉",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Ellie",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Asuka",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "雅木": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Yuki": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "蕉蕉": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Ellie": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Asuka": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-07",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "yuri"
+            ],
+            "見習女僕": [
+              "Moku",
+              "牙米"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Moku",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Moku": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "牙米": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
           "date": "2026-11-08",
           "hours": "15:00-22:00",
           "groups": {
@@ -22831,6 +23141,9 @@ window.MAID_ROSTERS = {
           ],
           "source": "https://www.instagram.com/comma_event.info/p/De_IM3RgXvZ/",
           "event_name": "牛郎之夜•第五章",
+          "alternate_sources": [
+            "https://www.instagram.com/p/DfNL0nXtmQd/"
+          ],
           "person_notes": {
             "有栖": "本帖標註 @pum_pkin_a；個人時段未另列。",
             "貓月": "本帖標註 @maau_yut_；個人時段未另列。",
@@ -22841,6 +23154,364 @@ window.MAID_ROSTERS = {
             "許洛": "本帖標註 @_luy_bnw_；個人時段未另列。",
             "青蛙": "本帖標註 @frog._.maid；個人時段未另列。"
           }
+        },
+        {
+          "date": "2026-11-09",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "雅木",
+              "晏咲",
+              "yuri",
+              "yura",
+              "狗狗"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "晏咲",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "yura",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "雅木": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "晏咲": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "yura": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "狗狗": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-10",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "青蛙",
+              "狗狗"
+            ],
+            "見習女僕": [
+              "許洛",
+              "金魚"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "青蛙",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "許洛",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "金魚",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "青蛙": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "狗狗": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "許洛": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "金魚": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-11",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "茶茶",
+              "Yuri"
+            ],
+            "見習女僕": [
+              "啾咿",
+              "牙米",
+              "halo"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "啾咿",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "牙米",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "halo",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "茶茶": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "啾咿": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "牙米": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "halo": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-12",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "yuri",
+              "Yura",
+              "狗狗"
+            ],
+            "見習女僕": [
+              "Asuka",
+              "許洛"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yura",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "狗狗",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Asuka",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "許洛",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Yura": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "狗狗": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Asuka": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "許洛": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-13",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "兔仔",
+              "雅木",
+              "茶茶"
+            ],
+            "見習女僕": [
+              "方包",
+              "Yana",
+              "Emi"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "兔仔",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "雅木",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "茶茶",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "方包",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yana",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Emi",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "兔仔": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "雅木": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "茶茶": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "方包": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Yana": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Emi": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+        },
+        {
+          "date": "2026-11-14",
+          "hours": "15:00-22:00",
+          "groups": {
+            "女僕": [
+              "貓月",
+              "Yuri",
+              "茶 ⟦@R_14_24a4e6070ea9⟧"
+            ],
+            "見習女僕": [
+              "Moku"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "貓月",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Yuri",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "茶 ⟦@R_14_24a4e6070ea9⟧",
+              "role": "女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Moku",
+              "role": "見習女僕",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+          "person_notes": {
+            "貓月": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Yuri": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "茶 ⟦@R_14_24a4e6070ea9⟧": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional",
+            "Moku": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
+          },
+          "source_names": {
+            "茶 ⟦@R_14_24a4e6070ea9⟧": "茶"
+          },
+          "notes": "依官方11/2–14文字更表；IG未由此來源列出者保留provisional"
         }
       ],
       "address": "旺角砵蘭街215號朗晴坊8樓",
@@ -50400,7 +51071,7 @@ window.MAID_ROSTERS = {
       "包包": {
         "person_id": "P_f7f79606ff164edc",
         "profile_image": "",
-        "source": "https://www.instagram.com/p/Dd_lEvOtqNZ/",
+        "source": "",
         "instagram_accounts": []
       },
       "茶茶 ⟦@R_14_143787021eebbd05⟧": {
@@ -50411,6 +51082,41 @@ window.MAID_ROSTERS = {
       },
       "yuri": {
         "person_id": "R_14_ab997328677e",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "茶": {
+        "person_id": "R_14_24a4e6070ea9",
+        "profile_image": "",
+        "source": "https://www.instagram.com/p/DfNL0nXtmQd/",
+        "instagram_accounts": []
+      },
+      "yuki": {
+        "person_id": "IG_8f1575c578ebf5b4",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "yukiii._.1111",
+            "status": "current"
+          }
+        ]
+      },
+      "yura": {
+        "person_id": "N_Yura",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "halo": {
+        "person_id": "R_14_f47331651bd5",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
+      "茶 ⟦@R_14_24a4e6070ea9⟧": {
+        "person_id": "R_14_24a4e6070ea9",
         "profile_image": "",
         "source": "",
         "instagram_accounts": []
@@ -60007,8 +60713,12 @@ window.MAID_ROSTERS = {
     },
     "P_f7f79606ff164edc": {
       "override": null,
-      "default": [],
-      "shops": []
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
     },
     "P_27d1b960fffb4e53": {
       "override": null,
@@ -60568,6 +61278,15 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_14_24a4e6070ea9": {
+      "override": null,
+      "default": [
+        "Comma Cafe"
+      ],
+      "shops": [
+        "Comma Cafe"
+      ]
     }
   },
   "weekly_events": [
@@ -61077,5 +61796,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:12+08:00"
+  "published_at": "2026-11-02T10:15+08:00"
 };

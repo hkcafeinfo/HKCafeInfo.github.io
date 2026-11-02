@@ -20801,7 +20801,7 @@ window.MAID_ROSTERS = {
             ],
             "限定居民": [
               "ほたる",
-              "朱古力"
+              "朱古力 ⟦@N___509⟧"
             ]
           },
           "attendance_records": [
@@ -20834,14 +20834,17 @@ window.MAID_ROSTERS = {
               "cancellation_source": ""
             },
             {
-              "name": "朱古力",
+              "name": "朱古力 ⟦@N___509⟧",
               "role": "限定居民",
               "type": "限定",
               "cancelled": false,
               "cancellation_source": ""
             }
           ],
-          "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/"
+          "source": "https://www.instagram.com/queens_x_garden/reel/DemVntIzAMK/",
+          "source_names": {
+            "朱古力 ⟦@N___509⟧": "朱古力"
+          }
         },
         {
           "date": "2026-10-24",
@@ -21254,6 +21257,290 @@ window.MAID_ROSTERS = {
           "alternate_sources": [
             "https://www.instagram.com/queens_x_garden/p/DeBJJFuRUFe/"
           ]
+        },
+        {
+          "date": "2026-11-02",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "バカ猫",
+              "葉子"
+            ],
+            "限定居民": [
+              "朱古力 ⟦@choco.choco.fish⟧"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "バカ猫",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "葉子",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "朱古力 ⟦@choco.choco.fish⟧",
+              "role": "限定居民",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "バカ猫": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "葉子": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "朱古力 ⟦@choco.choco.fish⟧": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "source_names": {
+            "朱古力 ⟦@choco.choco.fish⟧": "朱古力"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+        },
+        {
+          "date": "2026-11-03",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "萌え魚",
+              "悅夢",
+              "櫻子"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "櫻子",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "萌え魚": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "悅夢": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "櫻子": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+        },
+        {
+          "date": "2026-11-04",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "啫喱魚",
+              "RuRu",
+              "Sumika"
+            ],
+            "限定居民": [
+              "Nene"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "啫喱魚",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "RuRu",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Nene",
+              "role": "限定居民",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "啫喱魚": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "RuRu": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "Sumika": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "Nene": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+        },
+        {
+          "date": "2026-11-05",
+          "hours": "18:00-23:00",
+          "groups": {
+            "出沒居民": [
+              "悅夢",
+              "Snowyyyy",
+              "凡尼莎"
+            ],
+            "限定居民": [
+              "昭昭"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Snowyyyy",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "凡尼莎",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "昭昭",
+              "role": "限定居民",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "悅夢": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "Snowyyyy": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "凡尼莎": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "昭昭": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+        },
+        {
+          "date": "2026-11-06",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "萌え魚",
+              "Sumika",
+              "JoJo"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "萌え魚",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "Sumika",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "JoJo",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "萌え魚": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "Sumika": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "JoJo": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+        },
+        {
+          "date": "2026-11-08",
+          "hours": "18:00-22:00",
+          "groups": {
+            "出沒居民": [
+              "悅夢",
+              "葉子"
+            ],
+            "限定居民": [
+              "溢日",
+              "歪歪"
+            ]
+          },
+          "attendance_records": [
+            {
+              "name": "悅夢",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "葉子",
+              "role": "出沒居民",
+              "type": "當值",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "溢日",
+              "role": "限定居民",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            },
+            {
+              "name": "歪歪",
+              "role": "限定居民",
+              "type": "限定",
+              "cancelled": false,
+              "cancellation_source": ""
+            }
+          ],
+          "source": "https://www.instagram.com/reel/DfN7P0ezeaB/",
+          "person_notes": {
+            "悅夢": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "葉子": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "溢日": "來源直接列出姓名及IG；帳戶用於固定person_id配對",
+            "歪歪": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
+          },
+          "notes": "來源直接列出姓名及IG；帳戶用於固定person_id配對"
         }
       ],
       "address": "旺角西洋菜街遠景大廈3樓H2室",
@@ -42791,6 +43078,48 @@ window.MAID_ROSTERS = {
       "names": [
         "小羽"
       ]
+    },
+    "凡尼莎": {
+      "person_id": "R_13_ded6943370fb",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "sssumyin",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "凡尼莎"
+      ]
+    },
+    "昭昭": {
+      "person_id": "R_13_03889f70bf91",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "zzz_mewio",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "昭昭"
+      ]
+    },
+    "溢日": {
+      "person_id": "R_13_d9ad3573262a",
+      "profile_image": "",
+      "identity_status": "confirmed",
+      "instagram_accounts": [
+        {
+          "handle": "x.mitsuru.x",
+          "status": "current"
+        }
+      ],
+      "names": [
+        "溢日"
+      ]
     }
   },
   "person_accounts": {
@@ -49528,10 +49857,15 @@ window.MAID_ROSTERS = {
         ]
       },
       "朱古力": {
-        "person_id": "N___509",
+        "person_id": "R_13_4c020255e70a",
         "profile_image": "",
-        "source": "",
-        "instagram_accounts": []
+        "source": "https://www.instagram.com/reel/DfN67t7TWAl/",
+        "instagram_accounts": [
+          {
+            "handle": "choco.choco.fish",
+            "status": "current"
+          }
+        ]
       },
       "Oscar": {
         "person_id": "N_Oscar",
@@ -49703,6 +50037,45 @@ window.MAID_ROSTERS = {
           }
         ]
       },
+      "凡尼莎": {
+        "person_id": "R_13_ded6943370fb",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "sssumyin",
+            "status": "current"
+          }
+        ]
+      },
+      "昭昭": {
+        "person_id": "R_13_03889f70bf91",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "zzz_mewio",
+            "status": "current"
+          }
+        ]
+      },
+      "溢日": {
+        "person_id": "R_13_d9ad3573262a",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "x.mitsuru.x",
+            "status": "current"
+          }
+        ]
+      },
+      "朱古力 ⟦@N___509⟧": {
+        "person_id": "N___509",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": []
+      },
       "小sakura": {
         "person_id": "N__Sakura",
         "profile_image": "",
@@ -49710,6 +50083,17 @@ window.MAID_ROSTERS = {
         "instagram_accounts": [
           {
             "handle": "zz_sakura_zz",
+            "status": "current"
+          }
+        ]
+      },
+      "朱古力 ⟦@choco.choco.fish⟧": {
+        "person_id": "R_13_4c020255e70a",
+        "profile_image": "",
+        "source": "",
+        "instagram_accounts": [
+          {
+            "handle": "choco.choco.fish",
             "status": "current"
           }
         ]
@@ -60160,6 +60544,30 @@ window.MAID_ROSTERS = {
       "override": null,
       "default": [],
       "shops": []
+    },
+    "R_13_4c020255e70a": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_13_ded6943370fb": {
+      "override": null,
+      "default": [
+        "Queen’s Garden"
+      ],
+      "shops": [
+        "Queen’s Garden"
+      ]
+    },
+    "R_13_03889f70bf91": {
+      "override": null,
+      "default": [],
+      "shops": []
+    },
+    "R_13_d9ad3573262a": {
+      "override": null,
+      "default": [],
+      "shops": []
     }
   },
   "weekly_events": [
@@ -60669,5 +61077,5 @@ window.MAID_ROSTERS = {
     }
   ],
   "feedback": [],
-  "published_at": "2026-11-02T10:08+08:00"
+  "published_at": "2026-11-02T10:12+08:00"
 };

@@ -39,6 +39,7 @@
   let focusTodayOnNextRender = state.across === "dates";
   let firstRender = true;
   let stopProgressive = () => {};
+  let pendingJump = null;
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
   const sticky = makeSticky();
@@ -415,7 +416,7 @@
       if (item) oldHeights.set(axis === "dates" ? item.dataset.shop : item.dataset.date, row.getBoundingClientRect().height);
     }
     const initialColumnWidth = matrix.querySelector(".matrix-colhead")?.getBoundingClientRect().width || 252;
-    const focusIndex = focusTodayOnNextRender ? shownDates.indexOf(today) : shownDates.indexOf(state.focusTarget?.date);
+    const focusIndex = focusTodayOnNextRender ? shownDates.indexOf(today) : shownDates.indexOf(pendingJump);
     const initialIndex = axis === "dates" ? (focusIndex >= 0 ? focusIndex : Math.floor(previousScroll / initialColumnWidth)) : 0;
     const seed = shownDates.slice(Math.max(0, initialIndex - 2), initialIndex + Math.ceil(viewport.clientWidth / initialColumnWidth) + 4);
     // Start the foreground download while the inexpensive table shells are built.
@@ -463,9 +464,11 @@
     }
     viewport.scrollLeft = previousScroll;
     if (axis === "dates" && focusIndex >= 0) {
-      viewport.scrollLeft = focusIndex * header.children[1].getBoundingClientRect().width;
-      focusTodayOnNextRender = false;
+      const heading = header.children[focusIndex + 1];
+      const labelWidth = rowNodes[0]?.firstElementChild.getBoundingClientRect().width || 0;
+      viewport.scrollLeft += heading.getBoundingClientRect().left - viewport.getBoundingClientRect().left - labelWidth;
     }
+    if (axis === "dates") focusTodayOnNextRender = false;
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
     $("scroll-hint").textContent = axis === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
     sticky.replaceChildren(); updateSticky();
@@ -577,10 +580,12 @@
     state.across = "dates";
     state.focusTarget = { shop, date };
     focusTodayOnNextRender = false;
+    pendingJump = date;
     $("name-search").value = "";
     persist();
     window.dispatchEvent(new Event("hkcafeinfo:show-matrix"));
     await render();
+    if (pendingJump === date) pendingJump = null;
     requestAnimationFrame(() => {
       const target = [...matrix.querySelectorAll(".matrix-cell")].find((item) => item.dataset.shop === shop && item.dataset.date === date);
       if (!target) return;

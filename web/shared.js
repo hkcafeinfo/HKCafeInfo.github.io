@@ -86,6 +86,10 @@
   }
   function identityKey(data, shop, name) {
     const key = personIdentity(data, shop, name);
+    if (data.identity_conflicts) {
+      if (!conflicts) conflicts = new Set(data.identity_conflicts);
+      return conflicts.has(key) ? `${key}|shop:${shop}` : key;
+    }
     if (!conflicts) {
       const appearances = new Map(); conflicts = new Set();
       for (const cafe of data.shops || []) for (const shift of cafe.shifts || [])
@@ -171,9 +175,10 @@
   }
   function eventArt(data, shop, shift, node) {
     const event = shift?.event_name;
-    const image = (data.event_images || []).find((item) => item.shop === shop.shop && item.event_name === event);
+    const indexed = shift && Object.hasOwn(shift, "event_art");
+    const image = indexed ? shift.event_art : (data.event_images || []).find((item) => item.shop === shop.shop && item.event_name === event);
     if (!image || !/^data\/event_images\/[\w.-]+\.(?:jpg|jpeg|png|webp)$/i.test(image.image_path)) return;
-    const dates = [...new Set((shop.shifts || []).filter((item) => item.event_name === event).map((item) => item.date))].sort();
+    const dates = indexed ? [] : [...new Set((shop.shifts || []).filter((item) => item.event_name === event).map((item) => item.date))].sort();
     let streak = [];
     for (const date of dates) {
       const previous = streak.at(-1);
@@ -185,7 +190,7 @@
     }
     if (streak.length >= 3 && streak.includes(shift.date)) return;
     node.classList.add("has-event-art");
-    node.style.setProperty("--event-image", `url("../${image.image_path}")`);
+    HKCILoading.background(node, image.image_path);
     node.style.setProperty("--event-opacity", String(Math.min(0.24, Math.max(0.04, Number(image.opacity) || 0.12))));
   }
   function getFeedback() {
@@ -220,7 +225,7 @@
   function shopIntro(shop) {
     const card = document.createElement("article"); card.className = "shop-intro";
     const shopHeading = document.createElement("div"); shopHeading.className = "shop-intro-heading";
-    if (shop.profile_image) { const img = document.createElement("img"); img.src = shop.profile_image; img.alt = ""; img.className = "shop-profile-photo"; img.loading = "lazy"; shopHeading.append(img); }
+    if (shop.profile_image) { const img = document.createElement("img"); HKCILoading.image(img, shop.profile_image); img.alt = ""; img.className = "shop-profile-photo"; shopHeading.append(img); }
     const title = document.createElement("h3"); title.textContent = shop.shop; shopHeading.append(title); card.append(shopHeading);
     const profileUrl = instagram(shop.profile);
     if (profileUrl) {

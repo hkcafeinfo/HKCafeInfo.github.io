@@ -16,14 +16,10 @@
     return handle.replace(/^@+/, "").replace(/[/?#].*$/, "").trim().toLocaleLowerCase();
   }
   if (!data || !Array.isArray(data.shops)) {
-    matrix.textContent = "讀唔到更表資料。請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
+    matrix.textContent = "讀唔到更表資料。請確認 data/roster-index.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
-  const rosterDates = [...new Set(data.shops.flatMap((shop) => [
-    ...(shop.shifts || []).map((shift) => shift.date),
-    ...(shop.unresolved || []).map((item) => item.date),
-    ...(shop.date_notices || []).map((item) => item.date),
-  ]))].sort();
+  const rosterDates = HKCIData.dates();
   // Keep calendar days with no published roster visible as empty columns. This
   // makes gaps such as 6/11 explicit instead of making the table look incomplete.
   const dates = rosterDates.length ? (() => {
@@ -112,10 +108,6 @@
     let shownDates = dates;
     if (state.range !== "all") shownDates = shownDates.filter((date) => date >= today);
     let shops = data.shops.filter((shop) => state.search || shop.shop === state.focusTarget?.shop || window.MAID_VISIBLE_SHOPS?.has(shop.shop));
-    if (state.search && !state.person) {
-      shownDates = shownDates.filter((date) => shops.some((shop) => includesPerson(shop, date)));
-      shops = shops.filter((shop) => shownDates.some((date) => includesPerson(shop, date)));
-    }
     return { shownDates, shops };
   }
   function shopHours(shop) {
@@ -130,7 +122,7 @@
     const url = instagramUrl(profile);
     const title = make(url ? "a" : "strong", "rowhead-title", label);
     if (url) { title.href = url; title.target = "_blank"; title.rel = "noopener noreferrer"; }
-    if (photo) { const img = make("img", "shop-profile-photo"); img.src = photo; img.alt = ""; node.append(img); }
+    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; node.append(img); }
     node.append(title);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
     node.append(shop ? HKCI.addressLink(shop, "rowhead-subtitle") : make("span", "rowhead-subtitle", subtitle));
@@ -140,7 +132,7 @@
   function columnHead(label, subtitle, active, photo, profile, shop) {
     const node = make("div", `matrix-colhead${active ? " is-today" : ""}`);
     node.setAttribute("role", "columnheader");
-    if (photo) { const img = make("img", "shop-profile-photo"); img.src = photo; img.alt = ""; node.append(img); }
+    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; node.append(img); }
     node.append(make("strong", null, label));
     const url = HKCI.instagram(profile);
     if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
@@ -217,6 +209,9 @@
     return node;
   }
   function render() {
+    if ($("matrix-view").hidden) return;
+    return HKCILoading.render(matrix, async active => {
+    const valid = () => active() && !$("matrix-view").hidden;
     for (const button of $("date-range").querySelectorAll("[data-range]")) {
       const active = button.dataset.range === state.range;
       button.classList.toggle("active", active);
@@ -228,12 +223,17 @@
     document.body.classList.toggle("person-search-mode", personMode && !$("matrix-view").hidden);
     $("matrix-view").classList.toggle("people-card-view", personMode);
     $("person-back").hidden = !personMode;
-    const { shownDates, shops } = visible();
+    const { shownDates, shops: selectedShops } = visible();
+    const requestedDates = personMode ? await HKCIData.searchDates(state.search, state.person, state.range, today) : shownDates;
+    if (!valid()) return;
+    const loadedShops = await HKCIData.shops(requestedDates, valid);
+    if (!valid()) return;
+    const shops = selectedShops.map(shop => loadedShops.find(item => item.shop === shop.shop));
     if (state.search || state.person) {
-      matrix.replaceChildren();
+      HKCILoading.clear(matrix);
       matrix.removeAttribute("role");
       const groups = new Map();
-      for (const shop of data.shops) for (const shift of shop.shifts || []) {
+      for (const shop of loadedShops) for (const shift of shop.shifts || []) {
         if (state.range !== "all" && shift.date < today) continue;
         for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
@@ -250,7 +250,10 @@
         }
       }
       const list = make("div", "person-card-list");
-      for (const person of [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK"))) {
+      if (!groups.size) matrix.append(make("p", "matrix-no-dates", "呢個範圍搵唔到當值記錄；可切換「全部更表」睇舊更表。"));
+      else matrix.append(list);
+      $("matrix-result-count").textContent = `${groups.size} 位女僕`;
+      await HKCILoading.batches(list, [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK")), async person => {
         const card = make("article", "person-card");
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
         const sharedInfo = data.people?.[person.name] || Object.values(data.people || {}).find(info => person.personId && info.person_id === person.personId) || {};
@@ -278,7 +281,7 @@
         const top = make("div", "person-card-top");
         const profile = make("div", "person-search-profile");
         if (info?.profile_image) {
-          const photo = make("img", "person-photo"); photo.src = info.profile_image; photo.alt = ""; profile.append(photo);
+          const photo = make("img", "person-photo"); HKCILoading.image(photo, info.profile_image); photo.alt = ""; profile.append(photo);
         } else profile.append(make("span", "person-photo-placeholder", "♡"));
         const identity = make("div", "person-identity");
         identity.append(make("strong", null, [...allNames].map(HKCI.displayName).join(" ／ ")));
@@ -301,7 +304,7 @@
         for (const label of ["日期", "店舖", "Event", "類型", "來源"]) headings.append(make("th", null, label));
         head.append(headings); table.append(head);
         const body = make("tbody");
-        for (const { shop, shift, attendanceType } of person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date))) {
+        await HKCILoading.each(person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date)), ({ shop, shift, attendanceType }) => {
           const row = make("tr");
           const addJumpCell = (value, label) => {
             const cell = make("td", "person-roster-jump-cell");
@@ -325,20 +328,17 @@
           }
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";
           row.append(source); body.append(row);
-        }
+        }, valid);
         table.append(body);
         const results = make("div", "person-results-wrap");
         results.append(table); card.append(results); list.append(card);
-      }
-      if (!list.childElementCount) matrix.append(make("p", "matrix-no-dates", "呢個範圍搵唔到當值記錄；可切換「全部更表」睇舊更表。"));
-      else matrix.append(list);
-      $("matrix-result-count").textContent = `${groups.size} 位女僕`;
+      }, valid, 8);
       updateSticky();
       return;
     }
     const columns = state.across === "dates" ? shownDates : shops;
     const rows = state.across === "dates" ? shops : shownDates;
-    matrix.replaceChildren();
+    HKCILoading.clear(matrix);
     matrix.style.setProperty("--columns", String(columns.length));
     if (!columns.length || !rows.length) {
       matrix.removeAttribute("role");
@@ -352,7 +352,7 @@
     const corner = make("div", "matrix-corner", state.across === "dates" ? "CAFE / 日期" : "日期 / CAFE");
     corner.setAttribute("role", "columnheader");
     header.append(corner);
-    for (const item of columns) {
+    await HKCILoading.each(columns, item => {
       if (state.across === "dates") {
         const info = dateLabel(item);
         const heading = columnHead(info.day, info.weekday, item === today);
@@ -360,20 +360,22 @@
         header.append(heading);
       }
       else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
-    }
+    }, valid);
     matrix.append(header);
     for (const item of rows) {
       const line = make("div", "matrix-row");
       line.setAttribute("role", "row");
       if (state.across === "dates") {
         line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
-        for (const date of shownDates) line.append(cell(item, date));
+        await HKCILoading.each(shownDates, date => line.append(cell(item, date)), valid);
       } else {
         const info = dateLabel(item);
         line.append(rowHead(info.day, info.weekday, null));
-        for (const shop of shops) line.append(cell(shop, item));
+        await HKCILoading.each(shops, shop => line.append(cell(shop, item)), valid);
       }
+      if (!valid()) return;
       matrix.append(line);
+      await HKCILoading.turn();
     }
     requestAnimationFrame(alignRosterFooters);
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
@@ -389,8 +391,10 @@
       }
     }
     sticky.replaceChildren(); updateSticky();
+    });
   }
   function alignRosterFooters() {
+    if (matrix.getAttribute("aria-busy") === "true") return;
     for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
       const cells = [...row.querySelectorAll(".matrix-cell-roster")];
       if (!cells.length) continue;
@@ -407,7 +411,7 @@
     observedMatrixSize = size;
     requestAnimationFrame(alignRosterFooters);
   }).observe(matrix);
-  function jumpToRosterCell(shop, date) {
+  async function jumpToRosterCell(shop, date) {
     state.person = null;
     state.search = "";
     state.range = "all";
@@ -416,7 +420,7 @@
     $("name-search").value = "";
     persist();
     window.dispatchEvent(new Event("hkcafeinfo:show-matrix"));
-    render();
+    await render();
     requestAnimationFrame(() => {
       const target = [...matrix.querySelectorAll(".matrix-cell")].find((item) => item.dataset.shop === shop && item.dataset.date === date);
       if (!target) return;

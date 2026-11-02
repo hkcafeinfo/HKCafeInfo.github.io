@@ -28,9 +28,11 @@ jobs:
         run: |
           mkdir -p _site/data _site/web
           cp index.html _site/index.html
-          cp data/rosters.js _site/data/rosters.js
+          cp data/roster-index.js _site/data/roster-index.js
+          cp -R data/roster-parts _site/data/
           cp -R data/profile_images data/event_images _site/data/
-          cp web/app.js web/shared.js web/matrix.js web/style.css web/closed_illustration.png _site/web/
+          if [ -d data/cancellation_images ]; then cp -R data/cancellation_images _site/data/; fi
+          cp web/app.js web/shared.js web/matrix.js web/loading.js web/style.css web/closed_illustration.png _site/web/
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -7,7 +7,7 @@
   const $ = (id) => document.getElementById(id);
   const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count"), footerVersion: $("footer-version") };
   if (!data || !Array.isArray(data.shops)) {
-    nodes.grid.textContent = "讀唔到更表資料，請確認 data/rosters.js 同 index.html 放喺原本嘅資料夾結構。";
+    nodes.grid.textContent = "讀唔到更表資料，請確認 data/roster-index.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
   const lastUpdate = (() => {
@@ -18,13 +18,9 @@
   })();
   if (nodes.footerVersion) nodes.footerVersion.textContent = `最後更新：${lastUpdate}（香港時間）`;
 
-  const allDates = [...new Set(data.shops.flatMap((shop) => [
-    ...(shop.shifts || []).map((shift) => shift.date),
-    ...(shop.unresolved || []).map((item) => item.date),
-    ...(shop.date_notices || []).map((item) => item.date),
-  ]))].sort();
+  const allDates = HKCIData.dates();
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
-  const total = data.shops.reduce((sum, shop) => sum + (shop.shifts || []).reduce((count, shift) =>
+  const total = data.entry_count ?? data.shops.reduce((sum, shop) => sum + (shop.shifts || []).reduce((count, shift) =>
     count + Object.values(shift.groups || {}).reduce((people, names) => people + names.length, 0), 0), 0);
   let selectedDate = allDates.includes(today) ? today : (allDates.find((date) => date > today) || allDates.at(-1) || "all");
   const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
@@ -113,7 +109,7 @@
   for (const [index, shop] of bannerShops.entries()) {
     if (!shop.profile_image) continue;
     const panel = make("div", "hero-logo-panel");
-    const logo = make("img", "hero-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.decoding = "async";
+    const logo = make("img", "hero-logo"); HKCILoading.image(logo, shop.profile_image); logo.alt = ""; logo.decoding = "async";
     panel.append(logo); heroLogos.append(panel);
   }
 
@@ -183,7 +179,7 @@
     const iconText = { "Maid Clinic": "✚", "Maid Academy": "✦", "Maid Planet": "✳", "Maid Eidolon": "✞", "CosPlace Café": "♡", "Maidoll Mirage": "◇", "Dear Devil": "♠", "Elysium Cafe": "✟", "Maid Jinja": "⛩" };
     if (shop.profile_image) {
       const photo = make("img", "shop-profile-photo");
-      photo.src = shop.profile_image;
+      HKCILoading.image(photo, shop.profile_image);
       photo.alt = "";
       title.append(photo);
     } else title.append(make("span", `shop-icon ${shop.shop.toLowerCase().replace(/[^a-z]+/g, "-")}`, iconText[shop.shop] || "✦"));
@@ -261,37 +257,55 @@
     return element;
   }
   function renderCards() {
+    if (document.body.dataset.view !== "cards" || search) return;
+    return HKCILoading.render(nodes.grid, async active => {
+    const valid = () => active() && !$("card-view").hidden;
     for (const button of $("card-date-range").querySelectorAll("[data-range]")) {
       const active = button.dataset.range === cardRange;
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", String(active));
     }
-    nodes.grid.replaceChildren();
+    HKCILoading.clear(nodes.grid);
     const dates = (selectedDate === "all" || search) ? cardDates() : [selectedDate];
-    const shops = data.shops.filter((shop) => visibleNames.has(shop.shop));
+    const visibleShops = data.shops.filter((shop) => visibleNames.has(shop.shop));
     let cards = 0, people = 0;
-    for (const date of dates) {
+    const availableDates = dates.filter(date => visibleShops.some(shop => {
+      const summary = data.schedule?.[shop.shop]?.[date];
+      return selectedDate !== "all" || !data.format_version || summary && (summary[0] || (summary[1] & 6));
+    }));
+    if (data.schedule) {
+      for (const date of dates) for (const shop of visibleShops) {
+        const [count, flags] = data.schedule[shop.shop]?.[date] || [0, 0];
+        if (flags & 1) { if (count) { cards++; people += count; } }
+        else if (flags & 2 || selectedDate !== "all" || flags & 4) cards++;
+      }
+    }
+    await HKCILoading.batches(nodes.grid, availableDates, async date => {
+      const shops = (await HKCIData.shops([date], valid)).filter(shop => visibleNames.has(shop.shop));
+      if (!valid()) return;
       const grid = make("div", "date-grid");
       for (const shop of shops) {
         const shift = (shop.shifts || []).find((item) => item.date === date);
         const unresolved = (shop.unresolved || []).find((item) => item.date === date);
         if (shift) {
           const result = card(shop, shift, date);
-          if (result.count) { grid.append(result.element); cards++; people += result.count; }
-        } else if (!search && unresolved) { grid.append(unresolvedCard(shop, unresolved, date)); cards++; }
-        else if (!search && (selectedDate !== "all" || HKCI.dateNotice(shop, date))) { grid.append(missingCard(shop, date)); cards++; }
+          if (result.count) { grid.append(result.element); if (!data.schedule) { cards++; people += result.count; } }
+        } else if (!search && unresolved) { grid.append(unresolvedCard(shop, unresolved, date)); if (!data.schedule) cards++; }
+        else if (!search && (selectedDate !== "all" || HKCI.dateNotice(shop, date))) { grid.append(missingCard(shop, date)); if (!data.schedule) cards++; }
       }
       if (grid.childElementCount) {
         if (selectedDate === "all" || search) nodes.grid.append(make("h3", "grid-date-heading", `${date} · ${dateLabel(date).weekday}`));
         nodes.grid.append(grid);
       }
-    }
+    }, valid, 1);
+    if (!valid()) return;
     if (!cards) {
       const empty = make("div", "empty-state");
       empty.append(make("strong", null, "搵唔到符合條件嘅更表"), make("p", null, "試下換個日期、店舖或者人名。"));
       nodes.grid.append(empty);
     }
     nodes.result.textContent = search ? `${people} 筆符合搜尋` : `${cards} 張店舖卡片`;
+    });
   }
   renderChecklist();
   $("card-date-range").addEventListener("click", (event) => {
@@ -332,25 +346,15 @@
     renderCards();
     if (search) showView("matrix");
   });
-  const people = new Map();
-  for (const shop of data.shops) for (const shift of shop.shifts || []) {
-    for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
-      const pid = data.person_accounts?.[shop.shop]?.[name]?.person_id || data.people?.[name]?.person_id;
-      const key = pid ? `person:${pid}` : HKCI.identityKey(data, shop.shop, name);
-      const record = people.get(key) || { name, pid, shops: new Map() };
-      if (record.name === record.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) record.name = name;
-      const appearance = record.shops.get(shop.shop) || { name, hasDuty: false };
-      if (appearance.name === appearance.name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) appearance.name = name;
-      const attendance = shift.attendance_records?.find((item) => item.name === name && item.role === role)?.type || "當值";
-      const reunionException = shop.shop === "Maid Academy" && shift.event_name === "Maid Academy Reunion SP";
-      if (attendance === "當值" || reunionException) appearance.hasDuty = true;
-      record.shops.set(shop.shop, appearance);
-      people.set(key, record);
-    }
-  }
+  let peopleRendered = false;
   function renderPeople() {
+    if (peopleRendered) return;
     const list = $("people-list");
-    list.replaceChildren();
+    return HKCILoading.render(list, async valid => {
+    await HKCIData.catalog();
+    if (!valid()) return;
+    const people = new Map((data.directory || []).map((person, index) => [index, { ...person, shops: new Map(Object.entries(person.shops)) }]));
+    HKCILoading.clear(list);
     const sorted = [...people.values()].map((person) => {
       const names = new Map();
       const addName = (value) => {
@@ -373,7 +377,7 @@
       const section = make("details", "people-shop-group"); section.open = true;
       const heading = make("summary", "people-shop-heading");
       const shop = data.shops.find(item => item.shop === shopName);
-      if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
+      if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); HKCILoading.image(logo, shop.profile_image); logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
       heading.append(make("span", "people-shop-title", title),
         make("span", "people-shop-count", `${entries.length} 位女僕`));
       const items = make("div", "people-shop-items");
@@ -406,6 +410,8 @@
       .map((person) => ({ person, name: person.name }));
     appendGroup("限定暫無所屬", unassigned, null);
     $("people-count").textContent = `${sorted.length} 位女僕`;
+    peopleRendered = true;
+    });
   }
   function showView(mode) {
     document.body.dataset.view = mode;
@@ -417,7 +423,8 @@
     $("shops-view").hidden = mode !== "shops";
     $("events-view").hidden = mode !== "events";
     if (mode === "events") renderEvents();
-    if (mode === "cards") renderDates();
+    if (mode === "cards") { renderDates(); renderCards(); }
+    if (mode === "people") renderPeople();
     document.body.classList.toggle("person-search-mode", Boolean(search) && mode === "matrix");
     for (const [id, active] of [["show-events", mode === "events"], ["show-cards", mode === "cards"], ["show-matrix", mode === "matrix"], ["show-people", mode === "people"], ["show-shops", mode === "shops"]]) {
       $(id).classList.toggle("active", active);
@@ -442,18 +449,30 @@
   // Hong Kong public holidays that fall within the currently published event dates.
   const hkPublicHolidays = new Set(["2026-10-19"]); // Chung Yeung Festival
   function renderEvents() {
+    if ($("events-view").hidden) return;
     const list = $("events-list");
     const openShops = new Set([...list.querySelectorAll("details[open]")].map(node => node.dataset.shop));
-    list.replaceChildren();
-    for (const shop of data.shops.filter(item => visibleNames.has(item.shop))) {
-      const shifts = (shop.shifts || []).filter(shift => shift.event_name && !(data.weekly_events || []).some(item => item.shop === shop.shop && item.event_name === shift.event_name) && !/活動[週周]|[週周]活動|[週周]表|更表/.test(shift.event_name) && (eventsRange === "all" || shift.date >= today)).sort((a,b) => a.date.localeCompare(b.date));
-      if (!shifts.length) continue;
-      const group = make("details", "event-shop"); group.dataset.shop = shop.shop; group.open = openShops.has(shop.shop);
+    HKCILoading.clear(list);
+    for (const cafe of data.shops.filter(item => visibleNames.has(item.shop))) {
+      const days = Object.entries(data.schedule?.[cafe.shop] || {}).filter(([date, summary]) => (summary[1] & 8) && (eventsRange === "all" || date >= today)).map(([date]) => date).sort();
+      if (!days.length) continue;
+      const group = make("details", "event-shop"); group.dataset.shop = cafe.shop; group.open = openShops.has(cafe.shop);
       const heading = make("summary", "event-shop-heading");
-      if (shop.profile_image) { const logo = make("img", "group-shop-logo"); logo.src = shop.profile_image; logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
-      heading.append(make("span", null, shop.shop)); group.append(heading);
+      if (cafe.profile_image) { const logo = make("img", "group-shop-logo"); HKCILoading.image(logo, cafe.profile_image); logo.alt = ""; heading.append(logo); }
+      heading.append(make("span", null, cafe.shop)); group.append(heading);
       const grid = make("div", "events-grid");
-      for (const shift of shifts) {
+      let started = false;
+      const load = () => {
+        if (!group.open || started) return;
+        started = true;
+        HKCILoading.render(grid, async active => {
+          const valid = () => active() && group.isConnected;
+          HKCILoading.clear(grid);
+          await HKCILoading.batches(grid, days, async date => {
+            const shop = (await HKCIData.shops([date], valid)).find(item => item.shop === cafe.shop);
+            if (!valid()) return;
+            const shift = shop.shifts.find(item => item.date === date);
+            if (!shift) return;
         const result = card(shop, shift, shift.date).element;
         result.classList.add("event-calendar-card");
         result.querySelector(".card-date")?.remove();
@@ -484,8 +503,12 @@
         calendar.append(make("span", "event-calendar-month", `${year}年${Number(month)}月`), make("strong", "event-calendar-day", String(Number(day))), make("span", "event-calendar-weekday", dateLabel(shift.date).weekday));
         head.append(calendar);
         grid.append(result);
-      }
+          }, valid, 6);
+        });
+      };
       group.append(grid); list.append(group);
+      group.addEventListener("toggle", load);
+      load();
     }
     if (!list.childElementCount) list.append(make("p", "shops-help", "暫時未有符合日期範圍嘅活動資料。"));
   }
@@ -516,13 +539,21 @@
     document.getElementById(`${mode}-list`).addEventListener("toggle", sync, true);
     window.addEventListener("hkcafeinfo:view-change", sync);
   }
-  renderPeople();
   renderDates();
   renderCards();
   nodes.dates.hidden = Boolean(search);
   updateDateScrollButtons();
   showView(search ? "matrix" : (["cards", "matrix", "events", "people", "shops"].includes(savedPage.mode) ? savedPage.mode : "matrix"));
-  requestAnimationFrame(() => { if (Number.isFinite(savedPage.scrollY)) window.scrollTo(0, savedPage.scrollY); });
+  if (Number.isFinite(savedPage.scrollY)) {
+    let restored = false;
+    const restore = () => requestAnimationFrame(() => {
+      if (restored || document.querySelector('[aria-busy="true"]')) return;
+      restored = true; window.scrollTo(0, savedPage.scrollY);
+      window.removeEventListener("hkcafeinfo:loaded", restore);
+    });
+    window.addEventListener("hkcafeinfo:loaded", restore);
+    window.addEventListener("load", restore, { once: true });
+  }
 })();
 
 (() => {

@@ -549,6 +549,7 @@
       }
       if (!valid()) return;
       for (const row of rowNodes) row.style.removeProperty("min-height");
+      matrix.dataset.archiveComplete = "finishing";
       alignRosterFooters();
       matrix.dataset.archiveComplete = "true";
       updateSticky();
@@ -556,15 +557,17 @@
     backgroundTimer = setTimeout(() => backfill().catch(failed), 50);
   }
   function alignRosterFooters() {
-    if (matrix.getAttribute("aria-busy") === "true") return;
-    for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
-      const cells = [...row.querySelectorAll(".matrix-cell-roster")];
-      if (!cells.length) continue;
-      cells.forEach((cell) => cell.style.removeProperty("min-height"));
-      const height = Math.ceil(row.getBoundingClientRect().height);
-      if (!height) continue;
-      cells.forEach((cell) => cell.style.setProperty("min-height", `${height}px`));
-    }
+    if (matrix.getAttribute("aria-busy") === "true" || matrix.dataset.archiveComplete === "false") return;
+    const rows = [...matrix.querySelectorAll(".matrix-row:not(.matrix-header)")]
+      .map(row => ({ row, cells: [...row.querySelectorAll(".matrix-cell-roster")] })).filter(item => item.cells.length);
+    // Each grid row sizes independently. Keep the identical height calculation,
+    // but clear -> measure -> apply in batches instead of forcing a layout for
+    // every one of thousands of rows.
+    for (const { cells } of rows) for (const cell of cells) cell.style.removeProperty("min-height");
+    const heights = rows.map(({ row }) => Math.ceil(row.getBoundingClientRect().height));
+    rows.forEach(({ cells }, index) => {
+      if (heights[index]) for (const cell of cells) cell.style.setProperty("min-height", `${heights[index]}px`);
+    });
   }
   let observedMatrixSize = "";
   new ResizeObserver(([entry]) => {

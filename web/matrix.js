@@ -262,6 +262,24 @@
     if (row) window.scrollTo({ top: window.scrollY + row.getBoundingClientRect().top - position.rowTop, behavior: "instant" });
     updateSticky(); persist();
   }
+  function constrainRangePosition(position) {
+    if (position && state.range === "future" && position.date < today) {
+      position.date = today;
+      if (state.across === "dates") position.columnOffset = 0;
+    }
+  }
+  function replaceTable(content, columns, position) {
+    // Keep the connected table intact while async work yields. Clearing it
+    // early resets mobile scroll/snap positions before the anchor is restored.
+    // If the user moved meanwhile, carry their latest position into the swap.
+    if (position && position.intent !== scrollIntent) {
+      const latest = capturePosition();
+      if (latest) { Object.assign(position, latest); constrainRangePosition(position); }
+    }
+    HKCILoading.clear(matrix);
+    matrix.style.setProperty("--columns", String(columns));
+    matrix.append(content);
+  }
   async function render(position) {
     // Event listeners also call render directly; only a captured table position
     // is an anchor, never the click/input event itself.
@@ -408,44 +426,51 @@
     }
     const columns = state.across === "dates" ? shownDates : shops;
     const rows = state.across === "dates" ? shops : shownDates;
-    HKCILoading.clear(matrix);
-    matrix.style.setProperty("--columns", String(columns.length));
-    if (!columns.length || !rows.length) {
-      matrix.removeAttribute("role");
-      matrix.append(make("div", "matrix-no-dates", "呢個日期範圍暫時冇資料，請選「全部更表」。"));
-      $("matrix-result-count").textContent = "0 筆資料";
-      return;
-    }
-    matrix.setAttribute("role", "table");
-    const header = make("div", "matrix-row matrix-header");
-    header.setAttribute("role", "row");
-    header.append(cornerHead(state.across));
-    await HKCILoading.each(columns, item => {
-      if (state.across === "dates") {
-        const info = dateLabel(item);
-        const heading = columnHead(info.day, info.weekday, item === today);
-        heading.dataset.date = item;
-        header.append(heading);
+    const content = document.createDocumentFragment();
+    try {
+      if (!columns.length || !rows.length) {
+        replaceTable(content, columns.length, position);
+        matrix.removeAttribute("role");
+        matrix.append(make("div", "matrix-no-dates", "呢個日期範圍暫時冇資料，請選「全部更表」。"));
+        $("matrix-result-count").textContent = "0 筆資料";
+        return;
       }
-      else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
-    }, valid);
-    matrix.append(header);
-    for (const item of rows) {
-      const line = make("div", "matrix-row");
-      line.setAttribute("role", "row");
-      if (state.across === "dates") {
-        line.dataset.shop = item.shop;
-        line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
-        await HKCILoading.each(shownDates, date => line.append(cell(item, date)), valid);
-      } else {
-        line.dataset.date = item;
-        const info = dateLabel(item);
-        line.append(rowHead(info.day, info.weekday, null));
-        await HKCILoading.each(shops, shop => line.append(cell(shop, item)), valid);
+      matrix.setAttribute("role", "table");
+      const header = make("div", "matrix-row matrix-header");
+      header.setAttribute("role", "row");
+      header.append(cornerHead(state.across));
+      content.append(header);
+      await HKCILoading.each(columns, item => {
+        if (state.across === "dates") {
+          const info = dateLabel(item);
+          const heading = columnHead(info.day, info.weekday, item === today);
+          heading.dataset.date = item;
+          header.append(heading);
+        }
+        else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
+      }, valid);
+      for (const item of rows) {
+        const line = make("div", "matrix-row");
+        line.setAttribute("role", "row");
+        content.append(line);
+        if (state.across === "dates") {
+          line.dataset.shop = item.shop;
+          line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
+          await HKCILoading.each(shownDates, date => line.append(cell(item, date)), valid);
+        } else {
+          line.dataset.date = item;
+          const info = dateLabel(item);
+          line.append(rowHead(info.day, info.weekday, null));
+          await HKCILoading.each(shops, shop => line.append(cell(shop, item)), valid);
+        }
+        if (!valid()) return;
+        await HKCILoading.turn();
       }
       if (!valid()) return;
-      matrix.append(line);
-      await HKCILoading.turn();
+      replaceTable(content, columns.length, position);
+    } finally {
+      // Discard observers for an interrupted build; a committed fragment is empty.
+      if (content.childNodes.length) HKCILoading.clear(content);
     }
     requestAnimationFrame(alignRosterFooters);
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
@@ -487,13 +512,12 @@
     const seed = shownDates.slice(Math.max(0, initialIndex - 2), initialIndex + Math.ceil(viewport.clientWidth / initialColumnWidth) + 4);
     // Start the foreground download while the inexpensive table shells are built.
     const firstData = HKCIData.shops(seed, valid).then(value => ({ value }), error => ({ error }));
-    HKCILoading.clear(matrix);
+    const content = document.createDocumentFragment();
     matrix.dataset.viewportReady = "false";
     matrix.dataset.archiveComplete = "false";
     matrix.setAttribute("role", "table");
     const columns = axis === "dates" ? shownDates : shops;
     const rows = axis === "dates" ? shops : shownDates;
-    matrix.style.setProperty("--columns", String(columns.length));
     const header = make("div", "matrix-row matrix-header"); header.setAttribute("role", "row");
     header.append(cornerHead(axis));
     await HKCILoading.each(columns, item => {
@@ -502,7 +526,7 @@
         node.dataset.date = item; header.append(node);
       } else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
     }, valid);
-    matrix.append(header);
+    content.append(header);
     const slots = new Map(), rowNodes = [];
     const key = (shop, date) => JSON.stringify([shop, date]);
     const placeholder = (shop, date) => {
@@ -527,8 +551,10 @@
         const label = labelForDate(item); row.append(rowHead(label.day, label.weekday, null));
         for (const shop of shops) row.append(placeholder(shop, item));
       }
-      matrix.append(row); rowNodes.push(row);
+      content.append(row); rowNodes.push(row);
     }
+    if (!valid()) { HKCILoading.clear(content); return; }
+    replaceTable(content, columns.length, position);
     viewport.scrollLeft = previousScroll;
     if (axis === "dates" && focusIndex >= 0) {
       const heading = header.children[focusIndex + 1];
@@ -696,19 +722,16 @@
   $("date-range").addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");
     if (!button) return;
-    const position = rangePosition || capturePosition();
+    const position = rangePosition?.intent === scrollIntent ? rangePosition : capturePosition();
     if (position) position.intent = scrollIntent;
     state.range = button.dataset.range === "all" ? "all" : "future";
     focusTodayOnNextRender = false;
-    if (position && state.range === "future" && position.date < today) {
-      position.date = today;
-      if (state.across === "dates") position.columnOffset = 0;
-    }
+    constrainRangePosition(position);
     rangePosition = position;
     persist(); render(position);
   });
   function goToToday() {
-    const position = rangePosition || capturePosition();
+    const position = rangePosition?.intent === scrollIntent ? rangePosition : capturePosition();
     if (!position) return;
     position.intent = scrollIntent;
     position.date = today;

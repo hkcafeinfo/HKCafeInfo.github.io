@@ -289,7 +289,7 @@ body[data-view="shops"] .view-switch{justify-self:start}
 .matrix-navigation button{width:40px;height:40px;border-radius:10px}
 .matrix-viewport{border-radius:12px}
 .people-help,.shops-help{margin:0 0 16px;color:#667287;font-size:13px;line-height:1.65}
-.people-help button{margin-left:8px;border:1px solid #dfe4ed;border-radius:8px;background:#fff;color:#5365a5;padding:7px 10px;font-size:12px;font-weight:700}
+.people-controls-row>#export-feedback{border:1px solid #dfe4ed;border-radius:8px;background:#fff;color:#5365a5;padding:7px 10px;font-size:12px;font-weight:700;white-space:nowrap;flex:0 0 auto}
 .people-list{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-top:14px}
 .people-item{min-height:48px;padding:9px 12px;border-radius:11px}
 .people-item strong,.people-name{font-size:13px}
@@ -572,7 +572,10 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 .people-shop-title,.people-shop-count{display:block}
 .people-shop-count{margin-top:4px;color:#9aa3b0;font-size:11px;font-weight:500}
 .people-shop-items{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px}
-.people-other-title{margin:36px 0 18px;color:#303b4d;font-size:24px;font-weight:700;letter-spacing:-.02em}
+.people-kitchen-group{margin:18px 0 22px 12px}
+.people-kitchen-group>.people-shop-heading{border:0;padding:0;margin-bottom:7px}
+.people-kitchen-group .matrix-role-label{margin:0}
+.people-kitchen-group .people-shop-count{font-size:10px;margin:0}
 .people-shop-items .people-item{flex:0 0 auto;width:max-content;min-width:0}
 .person-card .person-results-wrap{overflow:hidden}
 .person-card .person-results{width:100%;min-width:0;table-layout:fixed}
@@ -647,6 +650,10 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .people-shop-group:not([open])>.people-shop-items{display:none}
 
 .fold-controls{display:flex;justify-content:flex-end;margin:12px 0}
+.people-controls-row{display:flex;align-items:center;gap:12px;flex-wrap:nowrap}
+.people-controls-row>.people-help{margin:0;min-width:0}
+.people-controls-row>.fold-controls{margin:0 0 0 auto;flex:0 0 auto}
+@media(max-width:700px){.people-controls-row{flex-wrap:wrap;gap:8px}.people-controls-row>.people-help{flex:1 0 100%}.people-controls-row .range-toggle-button{padding-inline:8px}}
 
 .events-controls-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0;min-width:0}
 .events-controls-row>.fold-controls{margin:0 0 0 auto;flex:0 0 auto}

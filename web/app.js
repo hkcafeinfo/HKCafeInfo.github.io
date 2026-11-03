@@ -374,13 +374,13 @@
       addName(person.name);
       person.allNames = [...names.values()]; return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
-    const appendGroup = (title, entries, shopName, unit = "女僕") => {
+    const appendGroup = (title, entries, shopName, unit = "女僕", parent = list, nested = false) => {
       if (!entries.length) return;
-      const section = make("details", "people-shop-group"); section.open = true;
+      const section = make("details", `people-shop-group${nested ? " people-kitchen-group" : ""}`); section.open = true;
       const heading = make("summary", "people-shop-heading");
       const shop = data.shops.find(item => item.shop === shopName);
-      if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); HKCILoading.image(logo, shop.profile_image); logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
-      heading.append(make("span", "people-shop-title", title),
+      if (shop?.profile_image && !nested) { const logo = make("img", "group-shop-logo"); HKCILoading.image(logo, shop.profile_image); logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
+      heading.append(make("span", `people-shop-title${nested ? " matrix-role-label" : ""}`, title),
         make("span", "people-shop-count", `${entries.length} 位${unit}`));
       const items = make("div", "people-shop-items");
       for (const { person, name } of entries) {
@@ -397,7 +397,7 @@
         items.append(item);
       }
       section.append(heading, items);
-      list.append(section);
+      parent.append(section);
     };
     const maids = sorted.filter(person => !person.kitchenOnly);
     const kitchen = sorted.filter(person => person.kitchenOnly);
@@ -414,11 +414,19 @@
       .map((person) => ({ person, name: person.name }));
     appendGroup("限定暫無所屬", unassigned, null);
     if (kitchen.length) {
-      list.append(make("h3", "people-other-title", "其他"));
+      const other = make("details", "people-shop-group people-other-group"); other.open = true;
+      const heading = make("summary", "people-shop-heading");
+      heading.append(make("span", "people-shop-title people-other-title", "其他"),
+        make("span", "people-shop-count", `${kitchen.length} 位人員`));
+      other.append(heading);
+      list.append(other);
       for (const shop of data.shops) {
-        const members = kitchen.filter(person => person.kitchenShops.includes(shop.shop))
-          .map(person => ({ person, name: person.shops.get(shop.shop)?.name || person.name }));
-        appendGroup(`${shop.shop}-廚房職`, members, shop.shop, "人員");
+        const roles = new Map();
+        for (const person of kitchen) for (const role of person.kitchenRoles?.[shop.shop] || []) {
+          if (!roles.has(role)) roles.set(role, []);
+          roles.get(role).push({ person, name: person.shops.get(shop.shop)?.name || person.name });
+        }
+        for (const [role, members] of roles) appendGroup(`${shop.shop}-${role}`, members, shop.shop, "人員", other, true);
       }
     }
     $("people-count").textContent = `${maids.length} 位女僕`;

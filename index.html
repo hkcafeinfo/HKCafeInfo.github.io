@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>香港MaidCafe當值更表 @hkcafeinfo</title>
-  <link rel="stylesheet" href="web/style.css?v=ead77559f49cfced">
+  <link rel="stylesheet" href="web/style.css?v=bbd5956f55e1ed30">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-  <script src="data/roster-index.js?v=ac9150f71a604fa4" defer></script>
+  <script src="data/roster-index.js?v=56e3c17fe2bcc23d" defer></script>
   <script src="web/loading.js?v=0f67ea14d48057d5" defer></script>
   <script src="web/shared.js?v=1b05cf102b0eebab" defer></script>
-  <script src="web/app.js?v=c85d4d22dba117c6" defer></script>
+  <script src="web/app.js?v=85673ce63cba68fb" defer></script>
   <script src="web/matrix.js?v=933482972f438fcf" defer></script>
 </head>
 <body>
@@ -101,8 +101,12 @@
 
       <section class="people-section" id="people-view" aria-labelledby="people-heading" hidden>
         <div class="section-topline"><div><span class="section-kicker">MAIDS INFO</span><h2 id="people-heading">女僕</h2></div><span class="result-count" id="people-count"></span></div>
-        <p class="people-help">撳人名查看已收錄嘅當值日期同店舖。<button type="button" id="export-feedback">匯出回報 CSV</button></p>
-        <div class="fold-controls"><div class="range-toggle" id="people-fold-controls" role="group" aria-label="女僕店舖摺疊"><button type="button" class="range-toggle-button" data-fold="closed" aria-pressed="false">全部摺疊</button><button type="button" class="range-toggle-button" data-fold="open" aria-pressed="false">全部展開</button></div></div><div id="people-list" class="people-list"></div>
+        <div class="people-controls-row">
+          <p class="people-help">撳人名查看已收錄嘅當值日期同店舖。</p>
+          <button type="button" id="export-feedback">匯出回報 CSV</button>
+          <div class="fold-controls"><div class="range-toggle" id="people-fold-controls" role="group" aria-label="女僕店舖摺疊"><button type="button" class="range-toggle-button" data-fold="closed" aria-pressed="false">全部摺疊</button><button type="button" class="range-toggle-button" data-fold="open" aria-pressed="false">全部展開</button></div></div>
+        </div>
+        <div id="people-list" class="people-list"></div>
       </section>
 
       <section class="matrix-section" id="matrix-view" aria-labelledby="matrix-heading" hidden>

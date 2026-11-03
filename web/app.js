@@ -193,12 +193,14 @@
     element.append(head);
     if (selectedDate === "all" || search) element.append(make("div", "card-date", `${date} · ${dateLabel(date).weekday}`));
     if (shift.event_name) element.append(make("div", "event-name", shift.event_name));
-    let count = 0;
+    let count = 0, kitchenCount = 0;
+    const kitchenOnlyNames = new Set(shift.kitchen_only_names || []);
     for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
       for (const [role, names] of roleGroups) {
       const matched = names.filter((name) => shop.shop.toLocaleLowerCase().includes(search) || HKCI.matchesPerson(data, shop.shop, name, search));
       if (!matched.length) continue;
       count += matched.length;
+      kitchenCount += matched.filter(name => kitchenOnlyNames.has(name)).length;
       const group = make("div", "role-group");
       group.append(make("div", "role-name", role));
       const tags = make("div", "person-tags");
@@ -225,7 +227,7 @@
     }
     if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) element.append(make("p", "card-note", shift.notes));
     const foot = make("div", "card-foot");
-    foot.append(make("span", "headcount", `${count} 位女僕`));
+    foot.append(make("span", "headcount", count === kitchenCount ? `${count} 位廚房職` : `${count - kitchenCount} 位女僕`));
     const link = sourceLink(shop, shift.source);
     if (link) foot.append(link);
     element.append(foot);
@@ -372,14 +374,14 @@
       addName(person.name);
       person.allNames = [...names.values()]; return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
-    const appendGroup = (title, entries, shopName) => {
+    const appendGroup = (title, entries, shopName, unit = "女僕") => {
       if (!entries.length) return;
       const section = make("details", "people-shop-group"); section.open = true;
       const heading = make("summary", "people-shop-heading");
       const shop = data.shops.find(item => item.shop === shopName);
       if (shop?.profile_image) { const logo = make("img", "group-shop-logo"); HKCILoading.image(logo, shop.profile_image); logo.alt = ""; logo.loading = "lazy"; heading.append(logo); }
       heading.append(make("span", "people-shop-title", title),
-        make("span", "people-shop-count", `${entries.length} 位女僕`));
+        make("span", "people-shop-count", `${entries.length} 位${unit}`));
       const items = make("div", "people-shop-items");
       for (const { person, name } of entries) {
         const item = make("div", "people-item");
@@ -397,8 +399,10 @@
       section.append(heading, items);
       list.append(section);
     };
+    const maids = sorted.filter(person => !person.kitchenOnly);
+    const kitchen = sorted.filter(person => person.kitchenOnly);
     for (const shop of data.shops) {
-      const members = sorted.flatMap((person) => {
+      const members = maids.flatMap((person) => {
         const appearance = person.shops.get(shop.shop);
         const affiliation = data.person_affiliations?.[person.pid];
         const belongs = affiliation ? affiliation.shops.includes(shop.shop) : appearance?.hasDuty;
@@ -406,10 +410,18 @@
       });
       appendGroup(shop.shop, members, shop.shop);
     }
-    const unassigned = sorted.filter((person) => data.person_affiliations?.[person.pid] ? !data.person_affiliations[person.pid].shops.length : ![...person.shops.values()].some((appearance) => appearance.hasDuty))
+    const unassigned = maids.filter((person) => data.person_affiliations?.[person.pid] ? !data.person_affiliations[person.pid].shops.length : ![...person.shops.values()].some((appearance) => appearance.hasDuty))
       .map((person) => ({ person, name: person.name }));
     appendGroup("限定暫無所屬", unassigned, null);
-    $("people-count").textContent = `${sorted.length} 位女僕`;
+    if (kitchen.length) {
+      list.append(make("h3", "people-other-title", "其他"));
+      for (const shop of data.shops) {
+        const members = kitchen.filter(person => person.kitchenShops.includes(shop.shop))
+          .map(person => ({ person, name: person.shops.get(shop.shop)?.name || person.name }));
+        appendGroup(`${shop.shop}-廚房職`, members, shop.shop, "人員");
+      }
+    }
+    $("people-count").textContent = `${maids.length} 位女僕`;
     peopleRendered = true;
     });
   }

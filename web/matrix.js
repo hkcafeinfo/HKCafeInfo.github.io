@@ -40,6 +40,11 @@
   let firstRender = true;
   let stopProgressive = () => {};
   let pendingJump = null;
+  let rangePosition = null;
+  let scrollIntent = 0;
+  // A background batch must not undo a scroll the user made while it yielded.
+  for (const type of ["wheel", "touchmove", "pointerdown", "keydown"]) window.addEventListener(type, () => { scrollIntent++; }, { passive: true });
+  window.addEventListener("pointermove", event => { if (event.buttons) scrollIntent++; }, { passive: true });
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
   const sticky = makeSticky();
@@ -134,6 +139,7 @@
   function columnHead(label, subtitle, active, photo, profile, shop) {
     const node = make("div", `matrix-colhead${active ? " is-today" : ""}`);
     node.setAttribute("role", "columnheader");
+    if (shop) node.dataset.shop = shop.shop;
     if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; node.append(img); }
     node.append(make("strong", null, label));
     const url = HKCI.instagram(profile);
@@ -210,11 +216,46 @@
     }
     return node;
   }
-  function render() {
+  function capturePosition() {
+    if (state.search || state.person) return null;
+    const header = matrix.firstElementChild;
+    const rows = [...matrix.children].slice(1);
+    if (!header?.classList.contains("matrix-header") || !rows.length || !header.children[1]) return null;
+    const width = header.children[1].getBoundingClientRect().width;
+    const column = header.children[Math.min(header.children.length - 1, Math.floor((viewport.scrollLeft + 1) / width) + 1)];
+    const top = (document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) + header.getBoundingClientRect().height;
+    let lo = 0, hi = rows.length;
+    while (lo < hi) { const mid = (lo + hi) >> 1; if (rows[mid].getBoundingClientRect().bottom <= top) lo = mid + 1; else hi = mid; }
+    const row = rows[Math.min(lo, rows.length - 1)];
+    return { axis: state.across, intent: scrollIntent, date: state.across === "dates" ? column.dataset.date : row.dataset.date,
+      shop: state.across === "dates" ? row.dataset.shop : column.dataset.shop,
+      columnOffset: column.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - header.firstElementChild.getBoundingClientRect().width,
+      rowTop: row.getBoundingClientRect().top };
+  }
+  function restorePosition(position) {
+    if (!position || position.axis !== state.across || position.intent !== scrollIntent) return;
+    const header = matrix.firstElementChild;
+    if (!header) return;
+    const horizontal = state.across === "dates" ? "date" : "shop", vertical = state.across === "dates" ? "shop" : "date";
+    const column = [...header.children].find(node => node.dataset[horizontal] === position[horizontal]);
+    const row = [...matrix.children].find(node => node.dataset[vertical] === position[vertical]);
+    if (column) viewport.scrollLeft += column.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - header.firstElementChild.getBoundingClientRect().width - position.columnOffset;
+    if (row) window.scrollTo({ top: window.scrollY + row.getBoundingClientRect().top - position.rowTop, behavior: "instant" });
+    updateSticky(); persist();
+  }
+  async function render(position) {
+    // Event listeners also call render directly; only a captured table position
+    // is an anchor, never the click/input event itself.
+    position = position?.axis ? position : null;
+    if (!position) rangePosition = null;
     stopProgressive();
     if ($("matrix-view").hidden) return;
-    return HKCILoading.render(matrix, async active => {
+    let current = () => false;
+    if (position) matrix.style.minHeight = `${matrix.getBoundingClientRect().height}px`;
+    else matrix.style.removeProperty("min-height");
+    await HKCILoading.render(matrix, async active => {
     const valid = () => active() && !$("matrix-view").hidden;
+    current = valid;
     for (const button of $("date-range").querySelectorAll("[data-range]")) {
       const active = button.dataset.range === state.range;
       button.classList.toggle("active", active);
@@ -226,9 +267,10 @@
     document.body.classList.toggle("person-search-mode", personMode && !$("matrix-view").hidden);
     $("matrix-view").classList.toggle("people-card-view", personMode);
     $("person-back").hidden = !personMode;
+    fitControls(true);
     const { shownDates, shops: selectedShops } = visible();
     if (!personMode && shownDates.length > 90 && selectedShops.length) {
-      await renderProgressive(shownDates, selectedShops, previousScroll, valid);
+      await renderProgressive(shownDates, selectedShops, previousScroll, valid, position);
       return;
     }
     matrix.removeAttribute("data-viewport-ready");
@@ -375,9 +417,11 @@
       const line = make("div", "matrix-row");
       line.setAttribute("role", "row");
       if (state.across === "dates") {
+        line.dataset.shop = item.shop;
         line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
         await HKCILoading.each(shownDates, date => line.append(cell(item, date)), valid);
       } else {
+        line.dataset.date = item;
         const info = dateLabel(item);
         line.append(rowHead(info.day, info.weekday, null));
         await HKCILoading.each(shops, shop => line.append(cell(shop, item)), valid);
@@ -401,8 +445,13 @@
     }
     sticky.replaceChildren(); updateSticky();
     });
+    if (current()) {
+      matrix.style.removeProperty("min-height");
+      if (position) { alignRosterFooters(); restorePosition(position); }
+      if (rangePosition === position) rangePosition = null;
+    }
   }
-  async function renderProgressive(shownDates, shops, previousScroll, active) {
+  async function renderProgressive(shownDates, shops, previousScroll, active, position) {
     const axis = state.across;
     const dayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", month: "numeric", day: "numeric" });
     const weekdayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", weekday: "short" });
@@ -416,8 +465,8 @@
       if (item) oldHeights.set(axis === "dates" ? item.dataset.shop : item.dataset.date, row.getBoundingClientRect().height);
     }
     const initialColumnWidth = matrix.querySelector(".matrix-colhead")?.getBoundingClientRect().width || 252;
-    const focusIndex = focusTodayOnNextRender ? shownDates.indexOf(today) : shownDates.indexOf(pendingJump);
-    const initialIndex = axis === "dates" ? (focusIndex >= 0 ? focusIndex : Math.floor(previousScroll / initialColumnWidth)) : 0;
+    const focusIndex = shownDates.indexOf(position?.date || (focusTodayOnNextRender ? today : pendingJump));
+    const initialIndex = focusIndex >= 0 ? focusIndex : (axis === "dates" ? Math.floor(previousScroll / initialColumnWidth) : 0);
     const seed = shownDates.slice(Math.max(0, initialIndex - 2), initialIndex + Math.ceil(viewport.clientWidth / initialColumnWidth) + 4);
     // Start the foreground download while the inexpensive table shells are built.
     const firstData = HKCIData.shops(seed, valid).then(value => ({ value }), error => ({ error }));
@@ -454,9 +503,11 @@
       const height = oldHeights.get(axis === "dates" ? item.shop : item);
       if (height) row.style.minHeight = `${height}px`;
       if (axis === "dates") {
+        row.dataset.shop = item.shop;
         row.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
         await HKCILoading.each(shownDates, date => row.append(placeholder(item, date)), valid);
       } else {
+        row.dataset.date = item;
         const label = labelForDate(item); row.append(rowHead(label.day, label.weekday, null));
         for (const shop of shops) row.append(placeholder(shop, item));
       }
@@ -469,11 +520,13 @@
       viewport.scrollLeft += heading.getBoundingClientRect().left - viewport.getBoundingClientRect().left - labelWidth;
     }
     if (axis === "dates") focusTodayOnNextRender = false;
+    restorePosition(position);
     $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
     $("scroll-hint").textContent = axis === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
     sticky.replaceChildren(); updateSticky();
     const loaded = new Set(), pending = new Map();
     async function paint(days, payload) {
+      const anchor = matrix.dataset.viewportReady === "true" ? capturePosition() : null;
       const requested = new Set(days.filter(date => !loaded.has(date)));
       for (const shop of payload.filter(item => shops.some(selected => selected.shop === item.shop))) {
         await HKCILoading.each([...requested], date => {
@@ -483,6 +536,7 @@
         }, valid);
       }
       if (valid()) for (const date of requested) loaded.add(date);
+      if (valid()) restorePosition(anchor);
     }
     async function loadDays(days) {
       const required = days.filter(day => !loaded.has(day));
@@ -531,6 +585,7 @@
     if (!valid()) return;
     if (first.error) throw first.error;
     await paint(seed, first.value);
+    restorePosition(position);
     await loadDays(nearbyDates());
     if (!valid()) return;
     matrix.dataset.viewportReady = "true";
@@ -548,10 +603,12 @@
         await HKCILoading.turn();
       }
       if (!valid()) return;
+      const anchor = capturePosition();
       for (const row of rowNodes) row.style.removeProperty("min-height");
       matrix.dataset.archiveComplete = "finishing";
       alignRosterFooters();
       matrix.dataset.archiveComplete = "true";
+      restorePosition(anchor);
       updateSticky();
     }
     backgroundTimer = setTimeout(() => backfill().catch(failed), 50);
@@ -623,9 +680,27 @@
   $("date-range").addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");
     if (!button) return;
+    const position = rangePosition || capturePosition();
+    if (position) position.intent = scrollIntent;
     state.range = button.dataset.range === "all" ? "all" : "future";
-    focusTodayOnNextRender = state.across === "dates";
-    persist(); render();
+    focusTodayOnNextRender = false;
+    if (position && state.range === "future" && position.date < today) {
+      position.date = today;
+      if (state.across === "dates") position.columnOffset = 0;
+    }
+    rangePosition = position;
+    persist(); render(position);
+  });
+  $("matrix-today").addEventListener("click", () => {
+    const position = rangePosition || capturePosition();
+    if (!position) return;
+    position.intent = scrollIntent;
+    position.date = today;
+    if (state.across === "dates") position.columnOffset = 0;
+    else position.rowTop = (document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) + (matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0);
+    focusTodayOnNextRender = false;
+    if (matrix.getAttribute("aria-busy") === "true") { rangePosition = position; render(position); }
+    else restorePosition(position);
   });
   $("name-search").addEventListener("input", (event) => {
     const wasSearching = Boolean(state.search || state.person);
@@ -660,15 +735,35 @@
   for (const [id, active] of [["dates-across", state.across === "dates"], ["shops-across", state.across === "shops"]]) { $(id).classList.toggle("active", active); $(id).setAttribute("aria-pressed", String(active)); }
   const controlRow = document.querySelector(".matrix-controls-row");
   let lastControlWidth = -1;
-  new ResizeObserver(() => {
+  function fitControls(force = false) {
     const width = controlRow.clientWidth;
-    if (!width || width === lastControlWidth) return;
+    if (!width || (!force && width === lastControlWidth)) return;
     lastControlWidth = width;
     controlRow.classList.remove("is-wrapped");
     const filters = controlRow.querySelector(".matrix-filter-controls");
     const navigation = controlRow.querySelector(".matrix-navigation");
+    const todayButton = $("matrix-today"), buttons = [...filters.querySelectorAll("button")];
+    filters.style.removeProperty("max-width");
+    for (const button of buttons) { button.style.removeProperty("padding-left"); button.style.removeProperty("padding-right"); }
     const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
-    controlRow.classList.toggle("is-wrapped", filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width);
-  }).observe(controlRow);
+    // Measure the original controls without Today, keeping the exact existing
+    // wrap boundary. Fit the extra button with padding, not another line.
+    todayButton.style.display = "none";
+    const wrapped = filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width;
+    todayButton.style.removeProperty("display");
+    controlRow.classList.toggle("is-wrapped", wrapped);
+    if ($("matrix-view").classList.contains("people-card-view")) return;
+    const available = wrapped ? width : width - navigation.getBoundingClientRect().width - gap;
+    filters.style.maxWidth = `${available}px`;
+    const padding = buttons.map(button => parseFloat(getComputedStyle(button).paddingLeft));
+    for (let trim = 1; trim <= Math.max(...padding); trim++) {
+      const right = filters.getBoundingClientRect().right;
+      if (buttons.every(button => button.getBoundingClientRect().right <= right + 0.5) && [...filters.children].every(node => node.scrollWidth <= node.clientWidth + 1)) break;
+      buttons.forEach((button, i) => { button.style.paddingLeft = button.style.paddingRight = `${Math.max(1, padding[i] - trim)}px`; });
+    }
+  }
+  new ResizeObserver(() => fitControls()).observe(controlRow);
+  document.fonts?.ready.then(() => fitControls(true));
+  window.addEventListener("hkcafeinfo:view-change", () => fitControls(true));
   render();
 })();

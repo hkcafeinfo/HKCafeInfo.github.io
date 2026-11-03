@@ -448,6 +448,14 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 #matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}
 
+/* Keep Today beside the range switch; fit by trimming padding, never labels. */
+#matrix-view .matrix-filter-controls{flex-wrap:nowrap}
+#matrix-view .matrix-today{flex:0 0 auto;border:1px solid #e0e5ed;border-radius:8px;background:#fff;color:#5e6db5;font-size:12px;font-weight:800;height:40px;padding:0 10px;white-space:nowrap}
+#matrix-view .matrix-today:hover{background:#eef0ff}
+#matrix-view.people-card-view .matrix-today{display:none}
+@media(max-width:700px){#matrix-view .matrix-today{font-size:11px;height:40px;padding:0 6px}}
+@media(max-width:370px){#matrix-view .matrix-today{font-size:10px}}
+
 /* Place the person-search return button after both filters and align it right. */
 #matrix-view .matrix-controls-row>.person-back{height:50px;min-height:50px;margin:0 0 0 auto;padding:0 12px;align-self:center}
 .person-search-mode #matrix-view .matrix-navigation{display:none}

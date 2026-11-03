@@ -448,13 +448,16 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 
 #matrix-view .matrix-controls-row.is-wrapped>.matrix-filter-controls{flex:1 1 100%}
 
-/* Keep Today beside the range switch; fit by trimming padding, never labels. */
+/* The original toolbar wrap boundary stays unchanged after moving Today. */
 #matrix-view .matrix-filter-controls{flex-wrap:nowrap}
-#matrix-view .matrix-today{flex:0 0 auto;border:1px solid #e0e5ed;border-radius:8px;background:#fff;color:#5e6db5;font-size:12px;font-weight:800;height:40px;padding:0 10px;white-space:nowrap}
-#matrix-view .matrix-today:hover{background:#eef0ff}
-#matrix-view.people-card-view .matrix-today{display:none}
-@media(max-width:700px){#matrix-view .matrix-today{font-size:11px;height:40px;padding:0 6px}}
-@media(max-width:370px){#matrix-view .matrix-today{font-size:10px}}
+
+/* A quiet, single-line action in both the real and floating table corner. */
+.matrix-corner{flex-direction:row;align-items:center;justify-content:space-between;gap:5px;padding-inline:10px;letter-spacing:0;white-space:nowrap}
+.matrix-corner-label{flex:0 0 auto;font-size:10px;line-height:1.2;white-space:nowrap}
+.matrix-today{flex:0 0 auto;border:1px solid #cbd5e6;border-radius:5px;background:#ffffff70;color:#596b99;font-family:inherit;font-size:10px;font-weight:700;line-height:1.2;height:28px;padding:0 5px;letter-spacing:0;white-space:nowrap;pointer-events:auto}
+.matrix-today:hover{background:#fff;border-color:#aab9d4}
+.matrix-today:focus-visible{outline:2px solid #7384d1;outline-offset:2px}
+@media(max-width:700px){.matrix-corner{gap:3px;padding-inline:4px}.matrix-corner-label,.matrix-today{font-size:9px}.matrix-today{height:28px;padding-inline:3px}}
 
 /* Place the person-search return button after both filters and align it right. */
 #matrix-view .matrix-controls-row>.person-back{height:50px;min-height:50px;margin:0 0 0 auto;padding:0 12px;align-self:center}

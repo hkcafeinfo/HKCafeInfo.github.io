@@ -49,7 +49,8 @@
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
   const sticky = makeSticky();
   function makeSticky() {
-    const node = document.createElement("div"); node.className = "matrix-sticky-header"; node.setAttribute("aria-hidden", "true");
+    const node = document.createElement("div"); node.className = "matrix-sticky-header"; node.hidden = true;
+    node.setAttribute("role", "group"); node.setAttribute("aria-label", "固定更表表頭");
     document.body.append(node); return node;
   }
   function updateSticky() {
@@ -62,12 +63,20 @@
     sticky.style.top = `${top}px`;
     const visible = headerBounds.top <= top && bounds.bottom > top + height;
     sticky.hidden = !visible;
+    const originalToday = header.querySelector(".matrix-today");
+    if (originalToday) originalToday.tabIndex = visible ? -1 : 0;
     if (!visible) return;
     sticky.style.left = `${bounds.left}px`; sticky.style.width = `${bounds.width}px`; sticky.style.height = `${height}px`;
     let copy = sticky.firstElementChild;
     if (!copy || copy.dataset.originalWidth !== String(header.getBoundingClientRect().width)) {
       copy = header.cloneNode(true);
-      copy.inert = true;
+      copy.removeAttribute("role");
+      // Only Today is interactive in the floating copy; keep the duplicated
+      // headings and profile links out of keyboard and screen-reader navigation.
+      for (const heading of [...copy.children].slice(1)) { heading.inert = true; heading.setAttribute("aria-hidden", "true"); }
+      copy.firstElementChild.removeAttribute("role");
+      const todayButton = copy.querySelector(".matrix-today");
+      todayButton.id = "matrix-sticky-today"; todayButton.tabIndex = 0;
       copy.dataset.originalWidth = String(header.getBoundingClientRect().width);
       copy.style.gridTemplateColumns = getComputedStyle(header).gridTemplateColumns;
       copy.style.width = `${header.getBoundingClientRect().width}px`;
@@ -147,6 +156,16 @@
     node.append(shop ? HKCI.addressLink(shop) : make("span", null, subtitle));
     if (shop) node.append(shopHours(shop));
     return node;
+  }
+  function cornerHead(axis) {
+    const corner = make("div", "matrix-corner");
+    corner.setAttribute("role", "columnheader");
+    const label = make("span", "matrix-corner-label", axis === "dates" ? "CAFE / 日期" : "日期 / CAFE");
+    const button = make("button", "matrix-today", "回到今日");
+    button.type = "button"; button.id = "matrix-today";
+    button.title = "回到今日，保留目前店舖位置";
+    corner.append(label, button);
+    return corner;
   }
   function cell(shop, date) {
     const node = make("div", "matrix-cell");
@@ -400,9 +419,7 @@
     matrix.setAttribute("role", "table");
     const header = make("div", "matrix-row matrix-header");
     header.setAttribute("role", "row");
-    const corner = make("div", "matrix-corner", state.across === "dates" ? "CAFE / 日期" : "日期 / CAFE");
-    corner.setAttribute("role", "columnheader");
-    header.append(corner);
+    header.append(cornerHead(state.across));
     await HKCILoading.each(columns, item => {
       if (state.across === "dates") {
         const info = dateLabel(item);
@@ -478,8 +495,7 @@
     const rows = axis === "dates" ? shops : shownDates;
     matrix.style.setProperty("--columns", String(columns.length));
     const header = make("div", "matrix-row matrix-header"); header.setAttribute("role", "row");
-    const corner = make("div", "matrix-corner", axis === "dates" ? "CAFE / 日期" : "日期 / CAFE");
-    corner.setAttribute("role", "columnheader"); header.append(corner);
+    header.append(cornerHead(axis));
     await HKCILoading.each(columns, item => {
       if (axis === "dates") {
         const label = labelForDate(item), node = columnHead(label.day, label.weekday, item === today);
@@ -691,7 +707,7 @@
     rangePosition = position;
     persist(); render(position);
   });
-  $("matrix-today").addEventListener("click", () => {
+  function goToToday() {
     const position = rangePosition || capturePosition();
     if (!position) return;
     position.intent = scrollIntent;
@@ -701,6 +717,9 @@
     focusTodayOnNextRender = false;
     if (matrix.getAttribute("aria-busy") === "true") { rangePosition = position; render(position); }
     else restorePosition(position);
+  }
+  for (const root of [matrix, sticky]) root.addEventListener("click", event => {
+    if (event.target.closest(".matrix-today")) goToToday();
   });
   $("name-search").addEventListener("input", (event) => {
     const wasSearching = Boolean(state.search || state.person);
@@ -742,25 +761,8 @@
     controlRow.classList.remove("is-wrapped");
     const filters = controlRow.querySelector(".matrix-filter-controls");
     const navigation = controlRow.querySelector(".matrix-navigation");
-    const todayButton = $("matrix-today"), buttons = [...filters.querySelectorAll("button")];
-    filters.style.removeProperty("max-width");
-    for (const button of buttons) { button.style.removeProperty("padding-left"); button.style.removeProperty("padding-right"); }
     const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
-    // Measure the original controls without Today, keeping the exact existing
-    // wrap boundary. Fit the extra button with padding, not another line.
-    todayButton.style.display = "none";
-    const wrapped = filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width;
-    todayButton.style.removeProperty("display");
-    controlRow.classList.toggle("is-wrapped", wrapped);
-    if ($("matrix-view").classList.contains("people-card-view")) return;
-    const available = wrapped ? width : width - navigation.getBoundingClientRect().width - gap;
-    filters.style.maxWidth = `${available}px`;
-    const padding = buttons.map(button => parseFloat(getComputedStyle(button).paddingLeft));
-    for (let trim = 1; trim <= Math.max(...padding); trim++) {
-      const right = filters.getBoundingClientRect().right;
-      if (buttons.every(button => button.getBoundingClientRect().right <= right + 0.5) && [...filters.children].every(node => node.scrollWidth <= node.clientWidth + 1)) break;
-      buttons.forEach((button, i) => { button.style.paddingLeft = button.style.paddingRight = `${Math.max(1, padding[i] - trim)}px`; });
-    }
+    controlRow.classList.toggle("is-wrapped", filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width);
   }
   new ResizeObserver(() => fitControls()).observe(controlRow);
   document.fonts?.ready.then(() => fitControls(true));

@@ -189,7 +189,7 @@
         if (!people.length) continue;
         count += people.length;
         const group = make("div", "matrix-role");
-        group.append(make("span", "matrix-role-label", role));
+        group.append(make("span", "matrix-role-label", HKCI.roleLabel(shop.shop, role)));
         const tags = make("div", "matrix-people");
         for (const name of people) {
           const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};

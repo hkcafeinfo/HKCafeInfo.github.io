@@ -219,7 +219,7 @@
       count += matched.length;
       kitchenCount += matched.filter(name => kitchenOnlyNames.has(name)).length;
       const group = make("div", "role-group");
-      group.append(make("div", "role-name", role));
+      group.append(make("div", "role-name", HKCI.roleLabel(shop.shop, role)));
       const tags = make("div", "person-tags");
       for (const name of matched) {
         const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
@@ -247,7 +247,7 @@
     }
     if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) element.append(make("p", "card-note", shift.notes));
     const foot = make("div", "card-foot");
-    foot.append(make("span", "headcount", count === kitchenCount ? `${count} 位廚房職` : `${count - kitchenCount} 位女僕`));
+    foot.append(make("span", "headcount", count === kitchenCount ? `${count} 位廚房職` : `${count - kitchenCount} 位${HKCI.staffTerm(shop.shop)}`));
     const link = sourceLink(shop, shift.source);
     if (link) foot.append(link);
     element.append(foot);
@@ -433,7 +433,7 @@
         const belongs = affiliation ? affiliation.shops.includes(shop.shop) : appearance?.hasDuty;
         return belongs ? [{ person, name: appearance?.name || person.name }] : [];
       });
-      appendGroup(shop.shop, members, shop.shop);
+      appendGroup(shop.shop, members, shop.shop, HKCI.staffTerm(shop.shop));
     }
     const unassigned = maids.filter((person) => data.person_affiliations?.[person.pid] ? !data.person_affiliations[person.pid].shops.length : ![...person.shops.values()].some((appearance) => appearance.hasDuty))
       .map((person) => ({ person, name: person.name }));

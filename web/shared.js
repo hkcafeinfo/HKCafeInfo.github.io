@@ -17,6 +17,8 @@
     try { const url = new URL(source); return ["http:", "https:"].includes(url.protocol) ? url.href : ""; }
     catch { return ""; }
   }
+  function staffTerm(shop) { return shop === "Itotsuki Cafe" ? "店員" : "女僕"; }
+  function roleLabel(shop, role) { return shop === "Itotsuki Cafe" ? String(role).replace(/女僕/g, "店員") : role; }
   function displayName(name) { return String(name || "").replace(/ ⟦@[^⟧]+⟧$/u, ""); }
   function personNames(values, accounts = []) {
     const handles = new Set(accounts.map(account => handle(instagram(
@@ -267,5 +269,5 @@
     wrapper.append(tag, marker);
     return wrapper;
   }
-  window.HKCI = { storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

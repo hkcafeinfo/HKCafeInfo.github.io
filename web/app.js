@@ -369,6 +369,8 @@
         const key = name.normalize("NFKC").toLocaleLowerCase();
         if (!names.has(key)) names.set(key, name);
       };
+      const primary = data.people_by_id?.[person.pid];
+      if(primary){addName(primary.display_name);for(const alias of primary.names||[])addName(alias);accounts.push(...(primary.instagram_accounts||[]));}
       for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
         addName(name); for (const alias of info.names || []) addName(alias);
         accounts.push(...(info.instagram_accounts || []), ...(info.work_instagram_accounts || []));
@@ -519,8 +521,13 @@
         } else times.textContent = shift.hours || "時間未註明";
         hours?.remove();
         foot.prepend(times);
-        const fee = shift.entry_fee || shift.admission_fee || (shift.notes || "").match(/(?:入場費|入場料金|門票)[：:\s]*((?:HK\$|HKD|\$)\s*\d+(?:\s*[／/]\s*[^；;。\n]+)?|免費)/i)?.[1];
-        if (fee) times.after(make("span", "event-footer-fee", `入場 ${fee}`));
+        const fee = shift.entry_fee;
+        if (fee) {
+          const feeNode = make("span", "event-footer-fee");
+          const clauses = fee.split("｜").map(text => text.trim()).filter(Boolean);
+          clauses.forEach((clause, index) => feeNode.append(make("span", "event-footer-fee-clause", clause + (index < clauses.length - 1 ? "｜" : ""))));
+          times.after(feeNode);
+        }
         const source = foot.querySelector("a");
         if (source) source.textContent = "來源 ↗";
         const calendar = make("time", "event-calendar");

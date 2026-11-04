@@ -72,7 +72,7 @@
   }
   function matchesPerson(data, shop, name, query) {
     const local = data.person_accounts?.[shop]?.[name] || {};
-    const candidate = data.people?.[name];
+    const candidate = data.people_by_id?.[local.person_id] || data.people?.[name];
     const shared = local.person_id && candidate?.person_id === local.person_id ? candidate : {};
     const accounts = [...(local.work_instagram_accounts || []), ...(local.instagram_accounts || []), ...(shared.instagram_accounts || [])];
     const values = [displayName(name), ...(shared.names || []), ...accounts.map(a => a.handle)];

@@ -361,11 +361,11 @@
         const card = make("article", "person-card");
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
         const sharedInfo = person.personId
-          ? Object.values(data.people || {}).find(info => info.person_id === person.personId) || {}
+          ? data.people_by_id?.[person.personId] || Object.values(data.people || {}).find(info => info.person_id === person.personId) || {}
           : {};
         const info = { ...sharedInfo, ...shopInfo,
           profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
-        const allNames = new Set([person.name]), allHandles = new Map();
+        const allNames = new Set([sharedInfo.display_name, ...(sharedInfo.names || []), person.name].filter(Boolean)), allHandles = new Map();
         const addInstagramAccount = (account) => {
           const handle = normalizedInstagramHandle(account?.handle);
           if (!handle) return;
@@ -374,6 +374,7 @@
             allHandles.set(handle, { ...account, handle });
           }
         };
+        for (const account of sharedInfo.instagram_accounts || []) addInstagramAccount(account);
         if (person.personId) {
           for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
             allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);

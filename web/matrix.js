@@ -308,6 +308,14 @@
     const previousScroll = firstRender ? (saved.scrollLeft || 0) : viewport.scrollLeft;
     firstRender = false;
     const personMode = Boolean(state.search || state.person);
+    // A person's historical month may still need downloading. Do not expose
+    // the previous full roster as though clicking the name returned to it.
+    if (personMode) {
+      HKCILoading.clear(matrix);
+      const loading = make('p', 'person-loading', '正在載入人物資料…');
+      loading.setAttribute('role', 'status');
+      matrix.append(loading);
+    }
     document.body.classList.toggle("person-search-mode", personMode && !$("matrix-view").hidden);
     $("matrix-view").classList.toggle("people-card-view", personMode);
     $("person-back").hidden = !personMode;

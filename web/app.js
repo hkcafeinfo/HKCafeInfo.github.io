@@ -6,6 +6,23 @@
   const data = window.MAID_ROSTERS;
   const $ = (id) => document.getElementById(id);
   const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count"), footerVersion: $("footer-version") };
+  const hero = document.querySelector(".hero");
+  const firstHeroTitle = $("page-title");
+  function alignHeroArtToQuestion() {
+    const label = firstHeroTitle?.firstChild;
+    const questionIndex = label?.textContent?.lastIndexOf("？") ?? -1;
+    if (!hero || !label || questionIndex < 0) return;
+    const question = document.createRange();
+    question.setStart(label, questionIndex);
+    question.setEnd(label, questionIndex + 1);
+    const start = question.getBoundingClientRect().right - hero.getBoundingClientRect().left;
+    hero.style.setProperty("--hero-image-start", `${Math.max(0, Math.round(start))}px`);
+  }
+  if (hero && firstHeroTitle) {
+    new ResizeObserver(alignHeroArtToQuestion).observe(hero);
+    document.fonts?.ready.then(alignHeroArtToQuestion);
+    alignHeroArtToQuestion();
+  }
   if (!data || !Array.isArray(data.shops)) {
     nodes.grid.textContent = "讀唔到更表資料，請確認 data/roster-index.js 同 index.html 放喺原本嘅資料夾結構。";
     return;

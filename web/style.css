@@ -539,6 +539,11 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 }
 @media(max-width:370px){.hero .hero-slide-title{font-size:34px}}
 
+/* Let the portrait strip emerge immediately after the first headline's question mark. */
+.hero-logo-collage{left:var(--hero-image-start,27%);right:0;width:auto;mask-image:linear-gradient(to right,transparent 0,#000 14px,#000 calc(100% - 50px),transparent 100%)}
+.hero:after{background:linear-gradient(90deg,#eef4fb 0,#eef4fb var(--hero-image-start,27%),transparent calc(var(--hero-image-start,27%) + 80px))}
+@media(max-width:700px){.hero-logo-collage{left:var(--hero-image-start,56%);right:0;width:auto;opacity:.42}.hero:after{background:linear-gradient(90deg,#eef4fb 0,#eef4fbee var(--hero-image-start,56%),#eef4fb55 calc(var(--hero-image-start,56%) + 80px))}}
+
 /* Shop directory cards: make maps links visible and pin sources to the lower edge. */
 .shop-directory{align-items:stretch}
 .shop-intro{position:relative;padding-bottom:58px}

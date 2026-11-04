@@ -149,11 +149,14 @@
     const node = make("div", `matrix-colhead${active ? " is-today" : ""}`);
     node.setAttribute("role", "columnheader");
     if (shop) node.dataset.shop = shop.shop;
-    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; node.append(img); }
-    node.append(make("strong", null, label));
+    const identity = shop ? make("div", "matrix-shop-heading") : node;
+    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; identity.append(img); }
+    const copy = shop ? make("div", "matrix-shop-copy") : node;
+    copy.append(make("strong", null, label));
     const url = HKCI.instagram(profile);
-    if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
-    node.append(shop ? HKCI.addressLink(shop) : make("span", null, subtitle));
+    if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; copy.append(ig); }
+    copy.append(shop ? HKCI.addressLink(shop, "rowhead-subtitle") : make("span", null, subtitle));
+    if (shop) { identity.append(copy); node.append(identity); }
     if (shop) node.append(shopHours(shop));
     return node;
   }

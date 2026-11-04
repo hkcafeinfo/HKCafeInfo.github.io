@@ -663,12 +663,12 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 /* Shared cards fill the available row; names and hours share the heading row. */
 .date-grid,.events-grid{gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(300px,calc((100% - 12px)/2)),1fr))}
 .roster-card{--card-pad-x:16px;--card-pad-top:18px;min-width:0;padding:18px 16px 14px;container-type:inline-size}
-.roster-card .card-head:has(.time-badge){display:grid;grid-template-columns:24px minmax(0,1fr) max-content;column-gap:8px;row-gap:2px;align-items:center;padding-bottom:12px}
+.roster-card .card-head:has(.time-badge){display:grid;grid-template-columns:48px minmax(0,1fr) max-content;column-gap:8px;row-gap:2px;align-items:center;padding-bottom:12px}
 .roster-card .card-head:has(.time-badge) .card-title-wrap,
 .roster-card .card-head:has(.time-badge) .card-title-wrap>div{display:contents}
 .roster-card .card-head:has(.time-badge) .shop-profile-photo,
-.roster-card .card-head:has(.time-badge) .shop-icon{grid-column:1;grid-row:1/4;width:24px;height:24px;font-size:16px}
-.roster-card .card-head:has(.time-badge) .shop-name{grid-column:2;grid-row:1;margin:0;font-size:14px;min-width:0;white-space:nowrap;overflow-wrap:normal}
+.roster-card .card-head:has(.time-badge) .shop-icon{grid-column:1;grid-row:1/4;width:48px;height:48px;font-size:24px}
+.roster-card .card-head:has(.time-badge) .shop-name{grid-column:2;grid-row:1;margin:0;font-size:14px;min-width:0;white-space:normal;overflow-wrap:anywhere}
 .roster-card .card-head:has(.time-badge) .shop-ig{grid-column:2/4;grid-row:2}
 .roster-card .card-head:has(.time-badge) .shop-address{grid-column:2/4;grid-row:3}
 .roster-card .time-badge{grid-column:3;grid-row:1;justify-self:end;font-size:10px;padding:5px 6px}
@@ -680,13 +680,13 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
   .unresolved-card .card-head{flex-wrap:wrap}
   .unresolved-card .card-title-wrap{flex:1 1 100%}
   .unresolved-card .pending-icon{display:none}
-  .roster-card .card-head:has(.time-badge){grid-template-columns:minmax(0,1fr) max-content;column-gap:4px}
+  .roster-card .card-head:has(.time-badge){grid-template-columns:36px minmax(0,1fr);column-gap:6px}
   .roster-card .card-head:has(.time-badge) .shop-profile-photo,
-  .roster-card .card-head:has(.time-badge) .shop-icon{display:none}
-  .roster-card .card-head:has(.time-badge) .shop-name{grid-column:1;font-size:clamp(8px,6cqi,14px)}
-  .roster-card .time-badge{grid-column:2;font-size:clamp(7px,4.5cqi,10px);padding:4px 2px}
+  .roster-card .card-head:has(.time-badge) .shop-icon{display:block;width:36px;height:36px}
+  .roster-card .card-head:has(.time-badge) .shop-name{grid-column:2;font-size:clamp(8px,6cqi,14px)}
+  .roster-card .time-badge{grid-column:2;grid-row:4;justify-self:start;font-size:clamp(7px,4.5cqi,10px);padding:4px 2px}
   .roster-card .card-head:has(.time-badge) .shop-ig,
-  .roster-card .card-head:has(.time-badge) .shop-address{grid-column:1/3}
+  .roster-card .card-head:has(.time-badge) .shop-address{grid-column:2}
   .roster-card .shop-address{font-size:10px}
   .roster-card .person-tags{gap:5px}
   .roster-card .person-tag{font-size:11px;min-height:30px;padding:5px 6px}
@@ -742,3 +742,26 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .date-button.is-sunday.active .date-weekday,.date-button.is-sunday.active .date-day{color:#b83e49}
 .roster-note-divider,footer{background-color:#eef4fb;background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),linear-gradient(106deg,#eef4fb 0%,#eef1fb 52%,#fbeff1 100%);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .person-attendance{display:inline-flex;align-items:center;gap:3px;max-width:100%}.cancelled-name{color:#b13e4c;text-decoration-line:line-through;text-decoration-style:double;text-decoration-thickness:1.5px}.cancelled-attendance-link,.cancelled-attendance-label{color:#b13e4c;font-size:.9em;font-weight:700;white-space:nowrap;text-decoration:none}.cancelled-attendance-link:hover{text-decoration:underline}
+
+/* Shop identity uses the height already occupied by its name, IG and address. */
+.matrix-colhead[data-shop]{justify-content:flex-start;padding-block:10px}
+.matrix-shop-heading{display:flex;align-items:center;gap:9px;min-width:0}
+.matrix-shop-heading>.shop-profile-photo{width:48px;height:48px;flex:0 0 48px}
+.matrix-shop-copy{min-width:0;flex:1}
+.matrix-shop-copy>strong{display:block;line-height:1.3;overflow-wrap:anywhere}
+.matrix-shop-copy>.rowhead-subtitle{display:block;font-size:10px;line-height:1.65;color:#637087;overflow-wrap:anywhere}
+.matrix-colhead[data-shop] .matrix-opening-hours{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 8px;margin-top:5px}
+.matrix-colhead[data-shop] .hours-heading{grid-column:1/-1}
+.matrix-colhead[data-shop] .hours-line{min-width:0}
+.shop-intro-heading{display:flex;align-items:center;gap:11px;margin-bottom:6px}
+.shop-intro-heading>.shop-profile-photo{width:52px;height:52px;flex:0 0 52px;margin:0;border-radius:12px}
+.shop-intro-copy{flex:1;min-width:0}
+.shop-intro-copy .shop-intro-ig{display:block;min-height:0;margin-top:3px}
+.event-calendar-card .card-title-wrap>.shop-profile-photo,
+.event-calendar-card .card-title-wrap>.shop-icon{width:48px;height:48px;flex:0 0 48px}
+@media(max-width:700px){
+  .matrix-colhead[data-shop]{padding-block:7px}
+  .matrix-shop-heading{gap:7px}
+  .matrix-shop-heading>.shop-profile-photo{width:44px;height:44px;flex-basis:44px}
+  .shop-intro-heading>.shop-profile-photo{width:48px;height:48px;flex-basis:48px}
+}

@@ -60,29 +60,18 @@
   }
   function matchesPerson(data, shop, name, query) {
     const local = data.person_accounts?.[shop]?.[name] || {};
-    const shared = data.people?.[name] || {};
+    const candidate = data.people?.[name];
+    const shared = local.person_id && candidate?.person_id === local.person_id ? candidate : {};
     const accounts = [...(local.work_instagram_accounts || []), ...(local.instagram_accounts || []), ...(shared.instagram_accounts || [])];
-    const values = [displayName(name), ...(shared.person_id === local.person_id ? shared.names || [] : []), ...accounts.map(a => a.handle)];
-    return values.some(value => String(value || "").toLocaleLowerCase().includes(query.replace(/^@/, "")));
+    const values = [displayName(name), ...(shared.names || []), ...accounts.map(a => a.handle)];
+    return values.some(value => String(value || "").toLocaleLowerCase().includes(String(query || "").replace(/^@/, "").toLocaleLowerCase()));
   }
   let conflicts;
   function personIdentity(data, shop, name) {
     const account = data.person_accounts?.[shop]?.[name];
-    const shared = data.people?.[name];
-    const username = accountHandle(account) || accountHandle(shared);
-    let personId = account?.person_id;
-    if (!personId && username) {
-      for (const accounts of Object.values(data.person_accounts || {})) {
-        for (const info of Object.values(accounts || {})) {
-          if (info?.person_id && accountHandle(info) === username) {
-            personId = info.person_id;
-            break;
-          }
-        }
-        if (personId) break;
-      }
-    }
-    return personId ? `person:${personId}` : (username ? `ig:${username}` : `name:${name.trim().toLocaleLowerCase()}`);
+    const username = accountHandle(account);
+    return account?.person_id ? `person:${account.person_id}`
+      : (username ? `ig:${username}` : `name:${JSON.stringify([shop, name.trim().toLocaleLowerCase()])}`);
   }
   function identityKey(data, shop, name) {
     const key = personIdentity(data, shop, name);

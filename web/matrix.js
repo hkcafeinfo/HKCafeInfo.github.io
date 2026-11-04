@@ -327,7 +327,7 @@
           if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
           if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.matchesPerson(data, shop.shop, name, state.search)) continue;
           const key = HKCI.identityKey(data, shop.shop, name);
-          if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || data.people?.[name]?.person_id || "", shifts: [], shops: new Set() });
+          if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || "", shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
           groups.get(key).shops.add(shop.shop);
           const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
@@ -344,7 +344,9 @@
       await HKCILoading.batches(list, [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK")), async person => {
         const card = make("article", "person-card");
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
-        const sharedInfo = data.people?.[person.name] || Object.values(data.people || {}).find(info => person.personId && info.person_id === person.personId) || {};
+        const sharedInfo = person.personId
+          ? Object.values(data.people || {}).find(info => info.person_id === person.personId) || {}
+          : {};
         const info = { ...sharedInfo, ...shopInfo,
           profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
         const allNames = new Set([person.name]), allHandles = new Map();

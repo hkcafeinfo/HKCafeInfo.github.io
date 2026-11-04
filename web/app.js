@@ -675,6 +675,9 @@
     if (busy) return bottom;
     busy = true;
     if (reset) bindings.forEach(release);
+    const common = bindings[0].node;
+    common.classList.remove('sticky-search-compact');
+    bindings.forEach(({node}) => node.classList.remove('sticky-search-actions'));
     let top = Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom);
     const fixed = [];
     for (const item of bindings) {
@@ -691,7 +694,26 @@
       const rect = slot.getBoundingClientRect();
       node.classList.remove('sticky-controls-last');
       node.style.left = `${rect.left}px`; node.style.width = `${rect.width}px`; node.style.top = `${top}px`;
-      top += node.getBoundingClientRect().height;
+      node.style.setProperty('--sticky-left', `${rect.left}px`);
+      const search = common.querySelector('.global-search:not(.shop-search)');
+      const tabs = common.querySelector('.view-switch');
+      const mergeCandidate = (document.body.dataset.view === 'cards' && node.matches('.card-range-controls')) ||
+        (document.body.dataset.view === 'people' && node.matches('.people-controls-row'));
+      const searchRect = search.getBoundingClientRect();
+      const actions = mergeCandidate && node.querySelector('.range-toggle');
+      const actionWidth = actions ? Math.ceil(actions.getBoundingClientRect().width) : 0;
+      if (actions && bindings[0].pinned && searchRect.width > 0 &&
+          searchRect.top >= tabs.getBoundingClientRect().bottom && searchRect.width - actionWidth - 8 >= 100) {
+        const oldHeight = common.getBoundingClientRect().height;
+        common.style.setProperty('--search-actions-width', `${actionWidth}px`);
+        common.classList.add('sticky-search-compact');
+        top += common.getBoundingClientRect().height - oldHeight;
+        const compactSearch = search.getBoundingClientRect();
+        node.classList.add('sticky-search-actions');
+        node.style.top = `${compactSearch.top - 5}px`;
+        node.style.left = `${compactSearch.right + 8}px`;
+        node.style.width = `${actionWidth}px`;
+      } else top += node.getBoundingClientRect().height;
       fixed.push(node);
     }
     fixed.at(-1)?.classList.add('sticky-controls-last');

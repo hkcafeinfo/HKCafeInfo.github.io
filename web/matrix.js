@@ -194,15 +194,16 @@
         for (const name of people) {
           const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
           const cancelled = attendance.story_status === "absent" || Boolean(attendance.cancelled);
-          const storyLabel = attendance.story_status === "absent" ? "（缺席）" : "（已取消）";
+          const storyLabel = "（已取消）";
           const tag = make("button", `matrix-person${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");
           tag.type = "button";
           tag.append(make("span", cancelled ? "cancelled-name" : null, HKCI.displayName(name)));
-          if (attendance.story_status === "extra") tag.append(make("small", "person-time", "（加更）"));
           if (shift.person_times?.[name]) tag.append(make("small", "person-time", HKCI.formatPersonTimes(shift.person_times[name])));
           tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
           if (shift.review_names?.[name]) tag.title = shift.review_names[name];
-          if (cancelled) {
+          if (attendance.story_status === 'absent' || attendance.story_status === 'extra') {
+            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source));
+          } else if (cancelled) {
             const source = HKCI.cancellationSource(attendance.story_source || attendance.cancellation_source);
             const marker = source ? make("a", "cancelled-attendance-link", storyLabel) : make("span", "cancelled-attendance-label", storyLabel);
             if (source) { marker.href = source; marker.target = "_blank"; marker.rel = "noopener noreferrer"; }
@@ -409,7 +410,7 @@
         for (const label of ["日期", "店舖", "Event", "類型", "來源"]) headings.append(make("th", null, label));
         head.append(headings); table.append(head);
         const body = make("tbody");
-        await HKCILoading.each(person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date)), ({ shop, shift, attendanceType }) => {
+        await HKCILoading.each(person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date)), ({ shop, shift, attendanceType, storyStatus, cancelled, cancellationSource }) => {
           const row = make("tr");
           const addJumpCell = (value, label) => {
             const cell = make("td", "person-roster-jump-cell");
@@ -425,12 +426,15 @@
           addJumpCell(shop.shop, "店舖");
           addJumpCell(shift.event_name || "—", "活動");
           const typeCell = addJumpCell(attendanceType, "類型");
-          if (shift.storyStatus === "extra") typeCell.append(make("span", "person-time", "（加更）"));
-          if (shift.cancelled) {
-            const storyLabel = shift.storyStatus === "absent" ? "（缺席）" : "（已取消）";
-            const href = HKCI.cancellationSource(shift.cancellationSource);
-            const marker = href ? make("a", "cancelled-attendance-link", storyLabel) : make("span", "cancelled-attendance-label", storyLabel);
-            if (href) { marker.href = href; marker.target = "_blank"; marker.rel = "noopener noreferrer"; }
+          typeCell.classList.add('story-attendance-cell');
+          if (storyStatus === 'absent' || storyStatus === 'extra') {
+            const typeTag = typeCell.querySelector('button');
+            typeTag.classList.add('story-type-tag');
+            typeCell.replaceChildren(HKCI.storyAttendanceTag(typeTag, storyStatus, cancellationSource));
+          } else if (cancelled) {
+            const href = HKCI.cancellationSource(cancellationSource);
+            const marker = href ? make('a', 'cancelled-attendance-link', '（已取消）') : make('span', 'cancelled-attendance-label', '（已取消）');
+            if (href) { marker.href = href; marker.target = '_blank'; marker.rel = 'noopener noreferrer'; }
             typeCell.append(marker);
           }
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";

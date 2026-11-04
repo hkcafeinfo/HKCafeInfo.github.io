@@ -791,3 +791,18 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 #matrix-view .matrix-controls-row.sticky-controls .matrix-navigation button{height:40px;min-height:40px}
 .has-sticky-controls .cafe-sidebar:not([hidden]){z-index:60;top:calc(var(--controls-sticky-bottom,68px) + 8px)!important;max-height:calc(100dvh - var(--controls-sticky-bottom,68px) - 24px)}
 #matrix-view{scroll-margin-top:calc(var(--controls-sticky-bottom,var(--topbar-sticky-height)) + 12px)}
+
+/* A full backing shape connects each Story status to its preceding tag. */
+.person-attendance.story-linked{position:relative;isolation:isolate;gap:0;align-items:stretch;flex-wrap:nowrap;white-space:nowrap;vertical-align:middle;border-radius:7px;padding:0}
+.story-linked:has(.matrix-person),.story-linked:has(.story-type-tag){border-radius:6px}
+.person-attendance.story-linked:before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--story-status-background)}
+.story-linked.absent{--story-status-background:#f8e2e7;--story-status-foreground:#a33d53}
+.story-linked.extra{--story-status-background:#dcefe5;--story-status-foreground:#286c52}
+.story-linked .person-tag,.story-linked .matrix-person,.story-linked .story-type-tag{position:relative;z-index:1;margin:0;border-radius:inherit}
+.story-linked-status{display:inline-flex;align-items:center;align-self:stretch;justify-content:center;margin:0;padding:0 6px 0 5px;font-size:10px;font-weight:600;line-height:1.2;white-space:nowrap;letter-spacing:0;flex-shrink:0;color:var(--story-status-foreground);text-decoration:none}
+.story-linked-status[href]:hover{text-decoration:underline;text-underline-offset:2px}
+.story-linked .cancelled-name{text-decoration-style:solid;text-decoration-thickness:1px}
+.person-card .person-results th:nth-child(4),.person-card .person-results td:nth-child(4){text-align:center;vertical-align:middle}
+.person-card .story-attendance-cell .story-linked{max-width:100%;white-space:normal;vertical-align:middle}
+.person-card .story-attendance-cell .story-type-tag{display:inline-flex;align-items:center;justify-content:center;width:auto;height:auto;min-height:24px;padding:4px 3px;border:0;background:#f4f5f8;color:#566175;font-size:10px;line-height:1.2;text-align:center;overflow-wrap:anywhere;min-width:0}
+.person-card .story-attendance-cell .story-linked-status{padding-inline:3px}

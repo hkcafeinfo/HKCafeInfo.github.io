@@ -254,5 +254,18 @@
     }
     return card;
   }
-  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  function storyAttendanceTag(tag, status, source) {
+    const wrapper = document.createElement('span');
+    wrapper.className = 'person-attendance story-linked ' + status;
+    const label = status === 'absent' ? '缺席' : '加更';
+    const href = cancellationSource(source);
+    const marker = document.createElement(href ? 'a' : 'span');
+    marker.className = 'story-linked-status';
+    marker.textContent = label;
+    marker.setAttribute('aria-label', tag.textContent + '：' + label + (href ? '，查看來源' : ''));
+    if (href) { marker.href = href; marker.target = '_blank'; marker.rel = 'noopener noreferrer'; }
+    wrapper.append(tag, marker);
+    return wrapper;
+  }
+  window.HKCI = { storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

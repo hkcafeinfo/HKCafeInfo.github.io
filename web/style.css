@@ -816,9 +816,6 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .person-card .person-results th:nth-child(4),.person-card .person-results td:nth-child(4){width:24%}
 .person-card .story-attendance-cell .story-type-tag{white-space:nowrap;flex-shrink:0}
 
-.person-duty-summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 10px;color:#68758b;font-size:11px;line-height:1.5}
-.person-duty-summary strong{color:#354158;font-weight:600}
-.person-duty-summary span{white-space:nowrap}
 .person-card .story-attendance-cell .story-type-tag{border-radius:6px;vertical-align:middle}
 
 /* Approved compact sticky search row; original controls retain focus/listeners. */

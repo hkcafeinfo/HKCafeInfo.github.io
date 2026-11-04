@@ -406,30 +406,6 @@
         const report = make("button", "person-report", "回報 IG／錯誤"); report.type = "button";
         report.addEventListener("click", () => HKCI.report(person.shop.shop, HKCI.displayName(person.name)));
         top.append(report); card.append(top);
-        // A person can appear in several roles on the same shop/date. Count
-        // that duty once; extra duty is a subset of duty, absence is excluded.
-        const dutyDays = new Map();
-        for (const item of person.shifts) {
-          const key = JSON.stringify([item.shop.shop, item.shift.date]);
-          const day = dutyDays.get(key) || { absent: false, extra: false, cancelled: false };
-          day.absent ||= item.storyStatus === 'absent';
-          day.extra ||= item.storyStatus === 'extra';
-          day.cancelled ||= item.cancelled;
-          dutyDays.set(key, day);
-        }
-        const totals = { duty: 0, extra: 0, absent: 0, cancelled: 0 };
-        for (const day of dutyDays.values()) {
-          if (day.absent) totals.absent++;
-          else if (day.cancelled) totals.cancelled++;
-          else { totals.duty++; if (day.extra) totals.extra++; }
-        }
-        const summary = make('div', 'person-duty-summary');
-        summary.setAttribute('aria-label', '目前列表統計，同店同日只計一次');
-        summary.append(make('strong', null, `當值 ${totals.duty} 次`),
-          make('span', null, `其中加更 ${totals.extra} 次`),
-          make('span', null, `缺席 ${totals.absent} 次`));
-        if (totals.cancelled) summary.append(make('span', null, `已取消 ${totals.cancelled} 次`));
-        card.append(summary);
         const table = make("table", "person-results");
         const head = make("thead"), headings = make("tr");
         for (const label of ["日期", "店舖", "Event", "類型", "來源"]) headings.append(make("th", null, label));

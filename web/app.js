@@ -394,7 +394,7 @@
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;
           window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: homeShop, name: appearance?.name || name } }));
-          window.scrollTo({ top: $("matrix-view").offsetTop - 30, behavior: "smooth" });
+          window.scrollTo({ top: window.scrollY + $("matrix-view").getBoundingClientRect().top - (window.HKCISticky?.bottom() || 0) - 12, behavior: "smooth" });
         });
         items.append(item);
       }
@@ -611,4 +611,79 @@
   hero.addEventListener("focusout", () => requestAnimationFrame(schedule));
   document.addEventListener("visibilitychange", schedule);
   schedule();
+})();
+
+// Pin the original controls, retaining their listeners, input focus and IDs.
+(() => {
+  const bindings = [];
+  let busy = false, scheduled = false, bottom = 0;
+  const add = selector => {
+    const node = document.querySelector(selector);
+    if (!node) return;
+    const slot = document.createElement('div');
+    slot.className = 'control-slot'; slot.hidden = true; slot.setAttribute('aria-hidden','true');
+    node.before(slot);
+    bindings.push({node,slot,pinned:false,style:node.getAttribute('style')});
+  };
+  add('.view-controls');
+  add('#card-view .card-range-controls');
+  add('#date-selector-wrap');
+  add('#matrix-view .matrix-controls-row');
+  add('.events-controls-row');
+  add('.people-controls-row');
+  function release(item) {
+    if (!item.pinned) return;
+    item.node.classList.remove('sticky-controls','sticky-controls-last');
+    if (item.style === null) item.node.removeAttribute('style');
+    else item.node.setAttribute('style',item.style);
+    item.slot.hidden = true; item.pinned = false;
+  }
+  function refresh(reset = false) {
+    if (busy) return bottom;
+    busy = true;
+    if (reset) bindings.forEach(release);
+    let top = Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom);
+    const fixed = [];
+    for (const item of bindings) {
+      const {node,slot} = item;
+      if (node.closest('[hidden]') || !node.getClientRects().length) { release(item); continue; }
+      const anchor = (item.pinned ? slot : node).getBoundingClientRect();
+      if (anchor.top > top + 0.5) { release(item); continue; }
+      if (!item.pinned) {
+        const style = getComputedStyle(node);
+        slot.style.cssText = `height:${anchor.height}px;width:${anchor.width}px;margin:${style.margin};flex:0 0 auto`;
+        slot.hidden = false; item.pinned = true;
+        node.classList.add('sticky-controls');
+      }
+      const rect = slot.getBoundingClientRect();
+      node.classList.remove('sticky-controls-last');
+      node.style.left = `${rect.left}px`; node.style.width = `${rect.width}px`; node.style.top = `${top}px`;
+      top += node.getBoundingClientRect().height;
+      fixed.push(node);
+    }
+    fixed.at(-1)?.classList.add('sticky-controls-last');
+    const changed = Math.abs(bottom-top)>0.5;
+    bottom = top;
+    document.documentElement.style.setProperty('--controls-sticky-bottom',`${bottom}px`);
+    busy = false;
+    if (changed) window.dispatchEvent(new Event('hkcafeinfo:sticky-change'));
+    return bottom;
+  }
+  function schedule(reset = false) {
+    if (reset) bindings.forEach(release);
+    if (scheduled) return;
+    scheduled = true; requestAnimationFrame(()=>{scheduled=false;refresh();});
+  }
+  window.HKCISticky = {bottom:()=>bottom || Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom),refresh};
+  document.documentElement.classList.add('has-sticky-controls');
+  window.addEventListener('scroll',()=>refresh(),{passive:true});
+  window.addEventListener('resize',()=>schedule(true));
+  window.visualViewport?.addEventListener('resize',()=>schedule());
+  window.visualViewport?.addEventListener('scroll',()=>schedule());
+  window.addEventListener('hkcafeinfo:view-change',()=>schedule(true));
+  window.addEventListener('hkcafeinfo:loaded',()=>schedule());
+  document.fonts?.ready.then(()=>schedule(true));
+  new ResizeObserver(()=>schedule()).observe(document.querySelector('.topbar'));
+  bindings.forEach(({node})=>new ResizeObserver(()=>schedule()).observe(node));
+  refresh();
 })();

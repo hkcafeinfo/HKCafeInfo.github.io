@@ -522,8 +522,10 @@ body:not([data-view="shops"]) .content-main .view-controls>.global-search:not(.s
 }
 
 /* Final banner overrides: keep the subhead and controls visible on small screens. */
-.hero .hero-slide-title{font-size:clamp(40px,4.5vw,66px);line-height:1.2;margin:9px 0 10px}
-@media(min-width:1101px){.hero .hero-slide-title{font-size:clamp(40px,calc(4.5vw - 8px),58px)}}
+/* No reduction through 768px; ease up to 4pt (5.333px) at 1024px. */
+.hero{--heading-reduction:clamp(0px,calc(2.0833333333vw - 16px),4pt)}
+.hero .hero-slide-title{font-size:calc(clamp(40px,4.5vw,66px) - var(--heading-reduction));line-height:1.2;margin:9px 0 10px}
+@media(min-width:1101px){.hero .hero-slide-title{font-size:calc(clamp(40px,calc(4.5vw - 8px),58px) - var(--heading-reduction))}}
 .hero .hero-dots button{width:28px;height:22px;padding:7px}
 .hero .hero-dots button:after{width:14px;height:3px;border-radius:3px}
 .hero .hero-dots button[aria-pressed="true"]:after{width:20px}
@@ -765,3 +767,27 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
   .matrix-shop-heading>.shop-profile-photo{width:44px;height:44px;flex-basis:44px}
   .shop-intro-heading>.shop-profile-photo{width:48px;height:48px;flex-basis:48px}
 }
+
+/* Progressive sticky controls: keep the original interactive elements. */
+.control-slot{pointer-events:none;overflow-anchor:none;max-width:100%}
+.has-sticky-controls #date-selector-wrap{position:relative;top:auto}
+.sticky-controls{position:fixed!important;z-index:45!important;margin:0!important;padding:5px 0!important;box-sizing:border-box;background:#fbfbf9;isolation:isolate;overflow-anchor:none}
+.sticky-controls::before{content:"";position:absolute;inset:0 -16px;background:#fbfbf9;border-bottom:1px solid #e7eaf1;z-index:-1;pointer-events:none}
+.sticky-controls.sticky-controls-last::before{box-shadow:0 5px 10px #26334c0b}
+.sticky-controls .result-count,.sticky-controls .people-help,.sticky-controls #export-feedback{display:none!important}
+.sticky-controls.card-range-controls{flex-wrap:nowrap!important}
+.sticky-controls.people-controls-row{justify-content:flex-end;flex-wrap:nowrap!important}
+#date-selector-wrap.sticky-controls{position:fixed;padding:5px 0 0!important}
+.sticky-controls .date-bar{padding-bottom:8px}
+.sticky-controls .matrix-navigation{margin-top:0!important}
+#matrix-view .matrix-controls-row.controls-layout{flex-wrap:wrap;gap:8px}
+#matrix-view .matrix-controls-row.controls-layout>.matrix-filter-controls{flex:0 0 auto}
+#matrix-view .matrix-controls-row.controls-inline{flex-wrap:nowrap}
+#matrix-view .matrix-controls-row.controls-tight{gap:6px}
+#matrix-view .matrix-controls-row.controls-tight .matrix-filter-controls{gap:4px}
+#matrix-view .matrix-controls-row.controls-tight .range-toggle,#matrix-view .matrix-controls-row.controls-tight .axis-switch{padding-inline:3px;gap:2px}
+#matrix-view .matrix-controls-row.controls-tight .range-toggle-button,#matrix-view .matrix-controls-row.controls-tight .axis-button{padding-inline:5px;white-space:nowrap}
+#matrix-view .matrix-controls-row.controls-hide-hint .matrix-navigation span{display:none!important}
+#matrix-view .matrix-controls-row.sticky-controls .matrix-navigation button{height:40px;min-height:40px}
+.has-sticky-controls .cafe-sidebar:not([hidden]){z-index:60;top:calc(var(--controls-sticky-bottom,68px) + 8px)!important;max-height:calc(100dvh - var(--controls-sticky-bottom,68px) - 24px)}
+#matrix-view{scroll-margin-top:calc(var(--controls-sticky-bottom,var(--topbar-sticky-height)) + 12px)}

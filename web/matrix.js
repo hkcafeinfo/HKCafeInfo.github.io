@@ -53,13 +53,14 @@
     node.setAttribute("role", "group"); node.setAttribute("aria-label", "固定更表表頭");
     document.body.append(node); return node;
   }
+  function controlsBottom() { return window.HKCISticky?.refresh() ?? Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0); }
   function updateSticky() {
     const header = matrix.querySelector(".matrix-header");
     if (!header || $("matrix-view").hidden) { sticky.hidden = true; return; }
     const bounds = viewport.getBoundingClientRect();
     const headerBounds = header.getBoundingClientRect();
     const height = headerBounds.height;
-    const top = Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0);
+    const top = controlsBottom();
     sticky.style.top = `${top}px`;
     const visible = headerBounds.top <= top && bounds.bottom > top + height;
     sticky.hidden = !visible;
@@ -86,6 +87,7 @@
     if (copy.firstElementChild) copy.firstElementChild.style.transform = `translateX(${viewport.scrollLeft}px)`;
   }
   window.addEventListener("scroll", updateSticky, { passive: true });
+  window.addEventListener("hkcafeinfo:sticky-change", updateSticky);
   window.addEventListener("resize", () => { sticky.replaceChildren(); updateSticky(); });
 
   function make(tag, className, value) {
@@ -247,7 +249,7 @@
     if (!header?.classList.contains("matrix-header") || !rows.length || !header.children[1]) return null;
     const width = header.children[1].getBoundingClientRect().width;
     const column = header.children[Math.min(header.children.length - 1, Math.floor((viewport.scrollLeft + 1) / width) + 1)];
-    const top = (document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) + header.getBoundingClientRect().height;
+    const top = controlsBottom() + header.getBoundingClientRect().height;
     let lo = 0, hi = rows.length;
     while (lo < hi) { const mid = (lo + hi) >> 1; if (rows[mid].getBoundingClientRect().bottom <= top) lo = mid + 1; else hi = mid; }
     const row = rows[Math.min(lo, rows.length - 1)];
@@ -606,7 +608,7 @@
         const start = Math.max(0, Math.floor(viewport.scrollLeft / width) - 2);
         return shownDates.slice(start, Math.ceil((viewport.scrollLeft + viewport.clientWidth) / width) + 3);
       }
-      const top = Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) - 400;
+      const top = controlsBottom() - 400;
       // The unchanged rows remain in normal document flow; binary search avoids
       // measuring all five years on each vertical scroll.
       let lo = 0, hi = rowNodes.length;
@@ -708,7 +710,7 @@
         behavior: "smooth",
       });
       const headerHeight = matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0;
-      const topbarHeight = document.querySelector(".topbar")?.getBoundingClientRect().height || 0;
+      const topbarHeight = controlsBottom();
       window.scrollTo({
         top: window.scrollY + cellBounds.top - topbarHeight - headerHeight - 12,
         behavior: "smooth",
@@ -745,7 +747,7 @@
     position.intent = scrollIntent;
     position.date = today;
     if (state.across === "dates") position.columnOffset = 0;
-    else position.rowTop = (document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0) + (matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0);
+    else position.rowTop = controlsBottom() + (matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0);
     focusTodayOnNextRender = false;
     if (matrix.getAttribute("aria-busy") === "true") { rangePosition = position; render(position); }
     else restorePosition(position);
@@ -790,11 +792,17 @@
     const width = controlRow.clientWidth;
     if (!width || (!force && width === lastControlWidth)) return;
     lastControlWidth = width;
-    controlRow.classList.remove("is-wrapped");
-    const filters = controlRow.querySelector(".matrix-filter-controls");
-    const navigation = controlRow.querySelector(".matrix-navigation");
-    const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
-    controlRow.classList.toggle("is-wrapped", filters.getBoundingClientRect().width + navigation.getBoundingClientRect().width + gap > width);
+    controlRow.classList.add("controls-layout");
+    controlRow.classList.remove("is-wrapped", "controls-tight", "controls-hide-hint", "controls-inline");
+    const fits = () => {
+      const children = [...controlRow.children].filter(node => !node.hidden && node.getBoundingClientRect().width);
+      const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
+      return children.reduce((sum,node) => sum + node.getBoundingClientRect().width, 0) + gap * Math.max(0,children.length-1) <= width + 0.5;
+    };
+    if (!fits()) controlRow.classList.add("controls-tight");
+    if (!fits()) controlRow.classList.add("controls-hide-hint");
+    controlRow.classList.toggle("controls-inline", fits());
+    window.HKCISticky?.refresh();
   }
   new ResizeObserver(() => fitControls()).observe(controlRow);
   document.fonts?.ready.then(() => fitControls(true));

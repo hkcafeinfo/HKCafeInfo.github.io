@@ -206,18 +206,20 @@
       const tags = make("div", "person-tags");
       for (const name of matched) {
         const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
-        const cancelled = Boolean(attendance.cancelled);
+        const cancelled = attendance.story_status === "absent" || Boolean(attendance.cancelled);
+          const storyLabel = attendance.story_status === "absent" ? "（缺席）" : "（已取消）";
         const tag = make("button", `person-tag${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");
         tag.type = "button";
         tag.append(make("span", cancelled ? "cancelled-name" : null, HKCI.displayName(name)));
+          if (attendance.story_status === "extra") tag.append(make("small", "person-time", "（加更）"));
         if (shift.person_times?.[name]) tag.append(make("small", "person-time", HKCI.formatPersonTimes(shift.person_times[name])));
         tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
         if (shift.review_names?.[name]) tag.title = shift.review_names[name];
         if (cancelled) {
           const marker = make("span", "cancelled-attendance");
-          const source = HKCI.cancellationSource(attendance.cancellation_source);
-          if (source) { const link = make("a", "cancelled-attendance-link", "（已取消）"); link.href = source; link.target = "_blank"; link.rel = "noopener noreferrer"; marker.append(link); }
-          else marker.append(make("span", "cancelled-attendance-label", "（已取消）"));
+          const source = HKCI.cancellationSource(attendance.story_source || attendance.cancellation_source);
+          if (source) { const link = make("a", "cancelled-attendance-link", storyLabel); link.href = source; link.target = "_blank"; link.rel = "noopener noreferrer"; marker.append(link); }
+          else marker.append(make("span", "cancelled-attendance-label", storyLabel));
           const attendanceTag = make("span", "person-attendance"); attendanceTag.append(tag, marker); tags.append(attendanceTag);
         } else tags.append(tag);
       }

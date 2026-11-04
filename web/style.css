@@ -708,9 +708,9 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
   .date-grid,.events-grid{grid-template-columns:repeat(auto-fill,minmax(max(calc((100% - 24px)/3),min(300px,calc((100% - 12px)/2))),1fr))}
 }
 
-/* Event calendar 41C: larger calendar within a compact shop header. */
-.event-calendar-card .card-head{min-height:88px;padding:5px 0 11px;align-items:flex-start;gap:12px}
-.event-calendar-card .card-title-wrap{flex:1;min-width:0;gap:10px}
+/* Calendar stays 8px from the top, right and end of the banner. */
+.event-calendar-card .card-head{min-height:0;margin-top:calc(8px - var(--card-pad-top, 18px));margin-right:calc(8px - var(--card-pad-x, 16px));padding:0 0 8px;align-items:flex-start;gap:12px}
+.event-calendar-card .card-title-wrap{flex:1;min-width:0;gap:10px;margin-top:calc(var(--card-pad-top, 18px) - 3px)}
 .event-calendar-card .shop-name{white-space:normal;overflow-wrap:anywhere}
 .event-calendar-card .shop-address{line-height:1.4}
 .event-calendar{display:flex;flex-direction:column;width:78px;flex:0 0 78px;text-align:center;border:1px solid #cbd4e9;border-radius:8px;overflow:hidden;background:#fff;color:#6575b9;font-style:normal}

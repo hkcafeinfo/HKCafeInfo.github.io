@@ -361,6 +361,7 @@
     HKCILoading.clear(list);
     const sorted = [...people.values()].map((person) => {
       const names = new Map();
+      const accounts = [];
       const addName = (value) => {
         const name = HKCI.displayName(value).trim();
         if (!name) return;
@@ -369,12 +370,14 @@
       };
       for (const [name, info] of Object.entries(data.people || {})) if (person.pid && info.person_id === person.pid) {
         addName(name); for (const alias of info.names || []) addName(alias);
+        accounts.push(...(info.instagram_accounts || []), ...(info.work_instagram_accounts || []));
       }
       for (const entries of Object.values(data.person_accounts || {})) for (const [name, info] of Object.entries(entries || {})) if (person.pid && info.person_id === person.pid) {
         addName(name);
+        accounts.push(...(info.instagram_accounts || []), ...(info.work_instagram_accounts || []));
       }
       addName(person.name);
-      person.allNames = [...names.values()]; return person;
+      person.allNames = HKCI.personNames(names.values(), accounts); return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName, unit = "女僕", parent = list, nested = false) => {
       if (!entries.length) return;

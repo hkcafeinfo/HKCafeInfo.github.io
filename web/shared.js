@@ -18,6 +18,18 @@
     catch { return ""; }
   }
   function displayName(name) { return String(name || "").replace(/ ⟦@[^⟧]+⟧$/u, ""); }
+  function personNames(values, accounts = []) {
+    const handles = new Set(accounts.map(account => handle(instagram(
+      String(account.handle || "").startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`
+    )).replace(/^@/, "").toLocaleLowerCase()));
+    const labels = new Map();
+    for (const value of values) {
+      const label = displayName(value).trim();
+      if (label) labels.set(label.normalize("NFKC").toLocaleLowerCase(), label);
+    }
+    const names = [...labels.values()].filter(label => !/^@|^https?:\/\//i.test(label) && !(/[._0-9]/.test(label) && handles.has(label.toLocaleLowerCase())));
+    return names.length ? names : [...labels.values()].slice(0, 1);
+  }
   function formatPersonTimes(value) { return String(value || "").replace(/、\s*/g, "\n"); }
   const roleCategoryOrder = ["活動職", "限定", "資深", "普通", "見習", "廚房"];
   const roleCategoryByShop = {
@@ -242,5 +254,5 @@
     }
     return card;
   }
-  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

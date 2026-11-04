@@ -381,7 +381,7 @@
           const photo = make("img", "person-photo"); HKCILoading.image(photo, info.profile_image); photo.alt = ""; profile.append(photo);
         } else profile.append(make("span", "person-photo-placeholder", "♡"));
         const identity = make("div", "person-identity");
-        identity.append(make("strong", null, [...allNames].map(HKCI.displayName).join(" ／ ")));
+        identity.append(make("strong", null, HKCI.personNames(allNames, [...allHandles.values()]).join(" ／ ")));
         const instagramAccounts = [...(info?.work_instagram_accounts || []), ...(info?.instagram_accounts || [])];
         const links = allHandles.size ? [...allHandles.values()] : instagramAccounts;
         const igList = make("div", "people-ig-list");

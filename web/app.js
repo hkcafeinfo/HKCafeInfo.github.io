@@ -507,9 +507,14 @@
         foot.querySelector(".headcount")?.remove();
         const times = make("div", "event-footer-times");
         const sessionPattern = /([ABＡＢ上下])\s*場[：:\s]*([0-2]?\d)[：:]?(\d{2})\s*[-–—至]\s*([0-2]?\d)[：:]?(\d{2})/g;
-        const sessions = [...`${shift.hours || ""} ${shift.notes || ""}`.matchAll(sessionPattern)];
+        const sessions = [...new Map([...`${shift.hours || ""} ${shift.notes || ""}`.matchAll(sessionPattern)]
+          .map(match => [`${match[1]}:${match[2]}:${match[3]}:${match[4]}:${match[5]}`, match])).values()];
         if (sessions.length > 1) {
           for (const match of sessions) times.append(make("div", null, `${match[1]}場：${match[2].padStart(2, "0")}${match[3]}-${match[4].padStart(2, "0")}${match[5]}`));
+          // The footer now displays these sessions. Remove a note consisting
+          // solely of the same sessions; preserve any extra announcement.
+          const remainder = (shift.notes || "").replace(sessionPattern, "").replace(/[活動分時間場次：:、；。\s]/g, "");
+          if (!remainder) result.querySelector(".card-note")?.remove();
         } else times.textContent = shift.hours || "時間未註明";
         hours?.remove();
         foot.prepend(times);

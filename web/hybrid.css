@@ -299,3 +299,12 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
   margin:0!important;padding:0!important;opacity:0;
 }
 :is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle,.axis-switch){position:relative;z-index:1}
+
+/* Next shift shares the exact content edges of the results table. */
+.person-card .hybrid-next{box-sizing:border-box;width:100%;margin:14px 0;border:1px solid var(--hybrid-line);border-left:3px solid var(--hybrid-purple);border-radius:10px;padding:14px 15px;background:linear-gradient(115deg,var(--hybrid-soft),#fcfbfe);gap:12px}
+.person-card .hybrid-next .eyebrow{display:flex;align-items:center;gap:6px;font-size:11px;line-height:1.5;font-weight:650;letter-spacing:.04em}
+.person-card .hybrid-next .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--hybrid-purple);flex:none}
+.person-card .hybrid-next b{margin:7px 0 2px;font-size:20px;line-height:1.4;font-weight:750}
+.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px;font-weight:600;line-height:1.6;margin:6px 0 0}
+.person-card .hybrid-next-actions .hybrid-button{min-height:34px;border-color:var(--hybrid-line);color:var(--hybrid-purple-strong);background:#ffffffd9}
+@media(max-width:700px){.person-card .hybrid-next{margin:12px 0;padding:12px;gap:8px}.person-card .hybrid-next b{font-size:18px}.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:15px}}

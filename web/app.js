@@ -579,7 +579,7 @@
   function renderShops() {
     const query = $("shop-search").value.trim().toLocaleLowerCase();
     const visibleShops = data.shops.filter(shop => visibleNames.has(shop.shop));
-    const shops = visibleShops.filter(shop => `${shop.shop} ${shop.address || ""}`.toLocaleLowerCase().includes(query));
+    const shops = visibleShops.filter(shop => [shop.shop, shop.address || "", ...(shop.aliases || [])].some(value => value.toLocaleLowerCase().includes(query)));
     $("shops-count").textContent = query ? `${shops.length} / ${visibleShops.length} 間店舖` : `全部 ${visibleShops.length} 間店舖`;
     $("shop-directory").replaceChildren(...shops.map(shop => HKCI.shopIntro(shop)));
     if (!shops.length) $("shop-directory").append(make("p", "shops-help", "搵唔到符合嘅店舖，試下其他店名或地址。"));

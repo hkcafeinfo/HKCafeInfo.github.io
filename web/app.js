@@ -338,6 +338,7 @@
     const availableDates = cardDates();
     selectedDate = availableDates.includes(today) ? today : (availableDates[0] || "all");
     savePage(); renderDates(); renderCards();
+    window.dispatchEvent(new CustomEvent("hkcafeinfo:card-range-change", { detail: { date: selectedDate } }));
   });
   const dateScrollStep = () => {
     const first = nodes.dates.querySelector(".date-button");

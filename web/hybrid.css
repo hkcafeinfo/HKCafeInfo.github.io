@@ -201,3 +201,8 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
  .hybrid-bottom-nav button{font-size:12px;min-height:58px;font-weight:500}
  .hybrid-bottom-nav .hybrid-nav-icon{font-size:25px}
 }
+
+/* Card range stays in the visible date controls when dates are rebuilt. */
+[data-date-control="cards"]>.hybrid-date-top{flex-wrap:wrap;gap:10px}
+[data-date-control="cards"] #card-date-range{margin-left:auto;flex:0 0 auto}
+@media(max-width:700px){[data-date-control="cards"]>.hybrid-date-top{gap:7px}[data-date-control="cards"] #card-date-range{flex:1 0 100%;justify-content:center}[data-date-control="cards"] #card-date-range .range-toggle-button{flex:1}}

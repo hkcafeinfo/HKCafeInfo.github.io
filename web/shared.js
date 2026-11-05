@@ -220,6 +220,10 @@
     node.className = className;
     node.textContent = shop.address || "地址待確認";
     if (shop.address) {
+      node.classList.add("hybrid-address-link");
+      const label = document.createElement("span"); label.className = "hybrid-address-label"; label.textContent = shop.address;
+      node.replaceChildren(label);
+      node.insertAdjacentHTML("afterbegin", '<svg class="hybrid-map-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>');
       node.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("香港 " + shop.address);
       node.target = "_blank"; node.rel = "noopener noreferrer";
     }

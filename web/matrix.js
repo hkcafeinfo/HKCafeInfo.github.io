@@ -45,6 +45,27 @@
   // A background batch must not undo a scroll the user made while it yielded.
   for (const type of ["wheel", "touchmove", "pointerdown", "keydown"]) window.addEventListener(type, () => { scrollIntent++; }, { passive: true });
   window.addEventListener("pointermove", event => { if (event.buttons) scrollIntent++; }, { passive: true });
+  let measuredColumnWidth = 0, sizingColumns = false;
+  function sizeCompleteColumns() {
+    if (sizingColumns || !viewport.clientWidth || document.body.classList.contains("person-search-mode")) return;
+    sizingColumns = true;
+    const label = parseFloat(getComputedStyle(matrix).getPropertyValue("--label-width")) || 164;
+    const available = Math.max(1, viewport.clientWidth - label);
+    const count = Math.max(1, Math.floor(available / 240));
+    const width = available / count;
+    const oldWidth = measuredColumnWidth || parseFloat(getComputedStyle(matrix).getPropertyValue("--column-width")) || width;
+    if (Math.abs(width - measuredColumnWidth) > 0.05) {
+      const column = Math.round(viewport.scrollLeft / oldWidth);
+      matrix.style.setProperty("--column-width", width + "px");
+      viewport.style.scrollPaddingLeft = label + "px";
+      measuredColumnWidth = width;
+      viewport.scrollLeft = column * width;
+      requestAnimationFrame(() => { sticky.replaceChildren(); updateSticky(); });
+    }
+    sizingColumns = false;
+  }
+  new ResizeObserver(sizeCompleteColumns).observe(viewport);
+  window.addEventListener("hkcafeinfo:view-change", () => requestAnimationFrame(sizeCompleteColumns));
   function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
   viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
   const sticky = makeSticky();
@@ -131,7 +152,7 @@
   function shopHours(shop) {
     const hours = make("div", "matrix-opening-hours");
     hours.append(make("span", "hours-heading", "營業時間"));
-    for (const line of (shop.opening_hours || "常規營業時間待確認").split("\n")) hours.append(make("span", "hours-line", line));
+    for (const line of (shop.opening_hours || "常規營業時間待確認").split("\n")) hours.append(HKCI.appendTimeText(make("span", "hours-line"), line));
     return hours;
   }
   function rowHead(label, subtitle, profile, photo, shop) {
@@ -506,7 +527,7 @@
       if (todayHeading) {
         const viewportLeft = viewport.getBoundingClientRect().left;
         const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
-        viewport.scrollLeft += todayHeading.getBoundingClientRect().left - viewportLeft - rowLabelWidth;
+        viewport.scrollLeft += todayHeading.getBoundingClientRect().left - viewportLeft - viewport.clientLeft - rowLabelWidth;
       }
     }
     sticky.replaceChildren(); updateSticky();
@@ -583,7 +604,7 @@
     if (axis === "dates" && focusIndex >= 0) {
       const heading = header.children[focusIndex + 1];
       const labelWidth = rowNodes[0]?.firstElementChild.getBoundingClientRect().width || 0;
-      viewport.scrollLeft += heading.getBoundingClientRect().left - viewport.getBoundingClientRect().left - labelWidth;
+      viewport.scrollLeft += heading.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - labelWidth;
     }
     if (axis === "dates") focusTodayOnNextRender = false;
     restorePosition(position);
@@ -719,7 +740,7 @@
       const cellBounds = target.getBoundingClientRect();
       const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
       viewport.scrollTo({
-        left: viewport.scrollLeft + cellBounds.left - viewportBounds.left - rowLabelWidth,
+        left: viewport.scrollLeft + cellBounds.left - viewportBounds.left - viewport.clientLeft - rowLabelWidth,
         behavior: "smooth",
       });
       const headerHeight = matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0;
@@ -742,7 +763,7 @@
     }
     render();
   }
-  window.HybridMatrix = { person: detail => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", {detail})), jump: jumpToRosterCell, range: value => {state.range=value;persist();render();}, date: async value => {state.person=null;state.search="";state.range=value<today?"all":"future";focusTodayOnNextRender=false;pendingJump=value;persist();await render();pendingJump=null;requestAnimationFrame(()=>{const sel=state.across==="dates"?`.matrix-colhead[data-date="${value}"]`:`.matrix-row[data-date="${value}"]`;const target=matrix.querySelector(sel);if(target){if(state.across==="dates"){const label=matrix.querySelector(".matrix-rowhead");viewport.scrollLeft+=target.getBoundingClientRect().left-viewport.getBoundingClientRect().left-(label?.getBoundingClientRect().width||0);}else window.scrollTo({top:scrollY+target.getBoundingClientRect().top-controlsBottom()-70,behavior:"smooth"});}});} };
+  window.HybridMatrix = { person: detail => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", {detail})), jump: jumpToRosterCell, range: value => {state.range=value;persist();render();}, date: async value => {state.person=null;state.search="";state.range=value<today?"all":"future";focusTodayOnNextRender=false;pendingJump=value;persist();await render();pendingJump=null;requestAnimationFrame(()=>{const sel=state.across==="dates"?`.matrix-colhead[data-date="${value}"]`:`.matrix-row[data-date="${value}"]`;const target=matrix.querySelector(sel);if(target){if(state.across==="dates"){const label=matrix.querySelector(".matrix-rowhead");viewport.scrollLeft+=target.getBoundingClientRect().left-viewport.getBoundingClientRect().left-viewport.clientLeft-(label?.getBoundingClientRect().width||0);}else window.scrollTo({top:scrollY+target.getBoundingClientRect().top-controlsBottom()-70,behavior:"smooth"});}});} };
   $("name-search").value = state.search;
   $("date-range").addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");
@@ -792,7 +813,7 @@
     const max = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
     const current = Math.min(max, Math.max(0, viewport.scrollLeft));
     const step = column?.getBoundingClientRect().width || 260;
-    const target = Math.min(max, Math.max(0, current + direction * step));
+    const target = Math.min(max, Math.max(0, (Math.round(current / step) + direction) * step));
     if (Math.abs(target - current) > 1) viewport.scrollTo({ left: target, behavior: "smooth" });
   }
   $("matrix-prev").addEventListener("click", () => move(-1));

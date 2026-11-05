@@ -215,6 +215,18 @@
     const link = document.createElement("a"); link.href = url; link.download = "人物資料待審回報.csv"; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
+  function appendTimeText(node, value) {
+    const text = String(value || "");
+    const pattern = /(?:翌日)?\d{1,2}:\d{2}\s*[–－—-]\s*(?:翌日)?\d{1,2}:\d{2}/g;
+    let start = 0;
+    for (const match of text.matchAll(pattern)) {
+      node.append(document.createTextNode(text.slice(start, match.index)));
+      const time = document.createElement("span"); time.className = "hybrid-time-range"; time.textContent = match[0]; node.append(time);
+      start = match.index + match[0].length;
+    }
+    node.append(document.createTextNode(text.slice(start)));
+    return node;
+  }
   function addressLink(shop, className = "") {
     const node = document.createElement(shop.address ? "a" : "span");
     node.className = className;
@@ -246,7 +258,7 @@
     for (const line of (shop.opening_hours || "").split("\n").filter(Boolean)) {
       const match = line.match(/^(.+?)\s+((?:\d{2}:|休息).*)$/);
       const term = document.createElement("dt"), value = document.createElement("dd");
-      term.textContent = match ? match[1] : "營業時間"; value.textContent = match ? match[2] : line;
+      term.textContent = match ? match[1] : "營業時間"; appendTimeText(value, match ? match[2] : line);
       hours.append(term, value);
     }
     if (hours.childElementCount) card.append(hours);
@@ -273,5 +285,5 @@
     wrapper.append(tag, marker);
     return wrapper;
   }
-  window.HKCI = { staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

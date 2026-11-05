@@ -32,7 +32,7 @@ jobs:
           cp -R data/roster-parts _site/data/
           cp -R data/profile_images data/event_images _site/data/
           if [ -d data/cancellation_images ]; then cp -R data/cancellation_images _site/data/; fi
-          cp web/app.js web/shared.js web/matrix.js web/loading.js web/style.css web/closed_illustration.png _site/web/
+          cp web/app.js web/shared.js web/matrix.js web/loading.js web/style.css web/closed_illustration.png web/hybrid.js web/hybrid.css web/hybrid-data.js _site/web/
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:

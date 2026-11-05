@@ -443,7 +443,7 @@
         }, valid);
         table.append(body);
         const results = make("div", "person-results-wrap");
-        results.append(table); card.append(results); list.append(card);
+        results.append(table); card.append(results); window.Hybrid?.decoratePerson(card, person); list.append(card);
       }, valid, 8);
       updateSticky();
       return;
@@ -742,6 +742,7 @@
     }
     render();
   }
+  window.HybridMatrix = { person: detail => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", {detail})), jump: jumpToRosterCell, range: value => {state.range=value;persist();render();}, date: async value => {state.person=null;state.search="";state.range=value<today?"all":"future";focusTodayOnNextRender=false;pendingJump=value;persist();await render();pendingJump=null;requestAnimationFrame(()=>{const sel=state.across==="dates"?`.matrix-colhead[data-date="${value}"]`:`.matrix-row[data-date="${value}"]`;const target=matrix.querySelector(sel);if(target){if(state.across==="dates"){const label=matrix.querySelector(".matrix-rowhead");viewport.scrollLeft+=target.getBoundingClientRect().left-viewport.getBoundingClientRect().left-(label?.getBoundingClientRect().width||0);}else window.scrollTo({top:scrollY+target.getBoundingClientRect().top-controlsBottom()-70,behavior:"smooth"});}});} };
   $("name-search").value = state.search;
   $("date-range").addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");
@@ -774,7 +775,7 @@
     if (state.search && !wasSearching) state.range = "all";
     persist(); render();
   });
-  window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "all"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
+  window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "future"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
   window.addEventListener("maid:visibility-change", render);
   window.addEventListener("hkcafeinfo:view-change", () => { if ($("matrix-view").hidden) stopProgressive(); updateSticky(); });
   window.addEventListener("hkcafeinfo:reset-view", () => {

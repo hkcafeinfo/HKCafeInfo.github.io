@@ -52,8 +52,8 @@
     try { sessionStorage.setItem("hkcafeinfo-page-v1", JSON.stringify({ mode: mode || document.body.dataset.view || "matrix", selectedDate, cardRange, search, scrollY: window.scrollY })); } catch { /* optional */ }
   }
   window.addEventListener("scroll", () => savePage(), { passive: true });
-  const storageKey = "maid-roster-visible-shops-v2";
-  const topNames = new Set(data.shops.filter((shop) => shop.default_visible).map((shop) => shop.shop));
+  const storageKey = "hybrid-visible-shops-v1";
+  const topNames = new Set(data.shops.map((shop) => shop.shop));
   let saved;
   try { saved = JSON.parse(localStorage.getItem(storageKey)); } catch { saved = null; }
   const availableNames = new Set(data.shops.map((shop) => shop.shop));
@@ -66,7 +66,7 @@
     sidebar.hidden = !open;
     sidebar.parentElement.classList.toggle("sidebar-collapsed", !open);
     sidebarToggle.setAttribute("aria-expanded", String(open));
-    sidebarToggle.firstChild.textContent = open ? "✕ 隱藏列表 " : "☰ 店舖顯示 ";
+    sidebarToggle.firstChild.textContent = open ? "☰ 篩選店舖 " : "☰ 篩選店舖 ";
     try { localStorage.setItem("maid-roster-sidebar-open-v1", String(open)); } catch { /* storage may be unavailable */ }
   }
   let sidebarWasOpen = false;
@@ -251,6 +251,7 @@
     const link = sourceLink(shop, shift.source);
     if (link) foot.append(link);
     element.append(foot);
+    window.Hybrid?.decorateCard(element, shop, shift);
     return { element, count };
   }
   function unresolvedCard(shop, item, date) {
@@ -557,6 +558,7 @@
         if (hkPublicHolidays.has(shift.date)) calendar.setAttribute("aria-label", `${shift.date} ${dateLabel(shift.date).weekday} 香港公眾假期`);
         calendar.append(make("span", "event-calendar-month", `${year}年${Number(month)}月`), make("strong", "event-calendar-day", String(Number(day))), make("span", "event-calendar-weekday", dateLabel(shift.date).weekday));
         head.append(calendar);
+        window.Hybrid?.decorateEvent(result, shop, shift);
         grid.append(result);
           }, valid, 6);
         });
@@ -582,6 +584,7 @@
     if (!shops.length) $("shop-directory").append(make("p", "shops-help", "搵唔到符合嘅店舖，試下其他店名或地址。"));
   }
   $("shop-search").addEventListener("input", renderShops);
+  window.HybridApp = { ensureShop: value => {if(!visibleNames.has(value)){visibleNames.add(value);saveVisibility();}}, view: chooseView, show: showView, date: value => { selectedDate=value; cardRange=value<today?"all":"future"; renderDates(); renderCards(); savePage(); }, renderCards, shop: value => { if(!visibleNames.has(value)){visibleNames.add(value);saveVisibility();} $("shop-search").value=value; chooseView("shops"); renderShops(); } };
   renderShops();
   $("export-feedback").addEventListener("click", HKCI.exportFeedback);
   window.addEventListener("hkcafeinfo:person", () => { returnView = document.body.dataset.view || "matrix"; search = ""; nodes.search.value = ""; savePage("matrix"); showView("matrix"); });
@@ -618,7 +621,7 @@
   const dots = [...hero.querySelectorAll("[data-hero-slide]")];
   const pause = document.getElementById("hero-pause");
   let current = 0, timer;
-  let paused = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let paused = true;
   function schedule() {
     clearInterval(timer);
     if (!paused && !document.hidden && !hero.matches(":hover, :focus-within")) timer = setInterval(() => show(current + 1), 6000);
@@ -646,99 +649,24 @@
   schedule();
 })();
 
-// Pin the original controls, retaining their listeners, input focus and IDs.
+// Keep every visible control row docked from first render; reserve its full height.
 (() => {
-  const bindings = [];
-  let busy = false, scheduled = false, bottom = 0;
-  const add = selector => {
-    const node = document.querySelector(selector);
-    if (!node) return;
-    const slot = document.createElement('div');
-    slot.className = 'control-slot'; slot.hidden = true; slot.setAttribute('aria-hidden','true');
-    node.before(slot);
-    bindings.push({node,slot,pinned:false,style:node.getAttribute('style')});
-  };
-  add('.view-controls');
-  add('#card-view .card-range-controls');
-  add('#date-selector-wrap');
-  add('#matrix-view .matrix-controls-row');
-  add('.events-controls-row');
-  add('.people-controls-row');
-  function release(item) {
-    if (!item.pinned) return;
-    item.node.classList.remove('sticky-controls','sticky-controls-last');
-    if (item.style === null) item.node.removeAttribute('style');
-    else item.node.setAttribute('style',item.style);
-    item.slot.hidden = true; item.pinned = false;
+ const rows=[];let bottom=0,busy=false,queued=false;
+ for(const selector of ['.view-controls','#card-view .card-range-controls','#date-selector-wrap','#matrix-view .matrix-controls-row','.events-controls-row']){
+  const node=document.querySelector(selector);if(!node)continue;
+  const slot=document.createElement('div');slot.className='hybrid-dock-slot';slot.hidden=true;slot.setAttribute('aria-hidden','true');node.before(slot);rows.push({node,slot,style:node.getAttribute('style')});
+ }
+ function release(item){const {node,slot,style}=item;node.classList.remove('hybrid-docked');if(style===null)node.removeAttribute('style');else node.setAttribute('style',style);slot.hidden=true;}
+ function refresh(){if(busy)return bottom;busy=true;let top=Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom);
+  for(const item of rows){const {node,slot}=item;if(node.closest('[hidden]')||!node.getClientRects().length){release(item);continue;}
+   if(!node.classList.contains('hybrid-docked')){const rect=node.getBoundingClientRect();slot.style.height=rect.height+'px';slot.hidden=false;node.classList.add('hybrid-docked');}
+   const rect=slot.getBoundingClientRect();node.style.left=rect.left+'px';node.style.width=rect.width+'px';node.style.top=top+'px';node.style.setProperty('--dock-top',top+'px');node.style.setProperty('--dock-left',rect.left+'px');node.style.setProperty('--sticky-left',rect.left+'px');
+   const height=node.getBoundingClientRect().height;slot.style.height=height+'px';top+=height;
   }
-  function refresh(reset = false) {
-    if (busy) return bottom;
-    busy = true;
-    if (reset) bindings.forEach(release);
-    const common = bindings[0].node;
-    common.classList.remove('sticky-search-compact');
-    bindings.forEach(({node}) => node.classList.remove('sticky-search-actions'));
-    let top = Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom);
-    const fixed = [];
-    for (const item of bindings) {
-      const {node,slot} = item;
-      if (node.closest('[hidden]') || !node.getClientRects().length) { release(item); continue; }
-      const anchor = (item.pinned ? slot : node).getBoundingClientRect();
-      if (anchor.top > top + 0.5) { release(item); continue; }
-      if (!item.pinned) {
-        const style = getComputedStyle(node);
-        slot.style.cssText = `height:${anchor.height}px;width:${anchor.width}px;margin:${style.margin};flex:0 0 auto`;
-        slot.hidden = false; item.pinned = true;
-        node.classList.add('sticky-controls');
-      }
-      const rect = slot.getBoundingClientRect();
-      node.classList.remove('sticky-controls-last');
-      node.style.left = `${rect.left}px`; node.style.width = `${rect.width}px`; node.style.top = `${top}px`;
-      node.style.setProperty('--sticky-left', `${rect.left}px`);
-      const search = common.querySelector('.global-search:not(.shop-search)');
-      const tabs = common.querySelector('.view-switch');
-      const mergeCandidate = (document.body.dataset.view === 'cards' && node.matches('.card-range-controls')) ||
-        (document.body.dataset.view === 'people' && node.matches('.people-controls-row'));
-      const searchRect = search.getBoundingClientRect();
-      const actions = mergeCandidate && node.querySelector('.range-toggle');
-      const actionWidth = actions ? Math.ceil(actions.getBoundingClientRect().width) : 0;
-      if (actions && bindings[0].pinned && searchRect.width > 0 &&
-          searchRect.top >= tabs.getBoundingClientRect().bottom && searchRect.width - actionWidth - 8 >= 100) {
-        const oldHeight = common.getBoundingClientRect().height;
-        common.style.setProperty('--search-actions-width', `${actionWidth}px`);
-        common.classList.add('sticky-search-compact');
-        top += common.getBoundingClientRect().height - oldHeight;
-        const compactSearch = search.getBoundingClientRect();
-        node.classList.add('sticky-search-actions');
-        node.style.top = `${compactSearch.top - 5}px`;
-        node.style.left = `${compactSearch.right + 8}px`;
-        node.style.width = `${actionWidth}px`;
-      } else top += node.getBoundingClientRect().height;
-      fixed.push(node);
-    }
-    fixed.at(-1)?.classList.add('sticky-controls-last');
-    const changed = Math.abs(bottom-top)>0.5;
-    bottom = top;
-    document.documentElement.style.setProperty('--controls-sticky-bottom',`${bottom}px`);
-    busy = false;
-    if (changed) window.dispatchEvent(new Event('hkcafeinfo:sticky-change'));
-    return bottom;
-  }
-  function schedule(reset = false) {
-    if (reset) bindings.forEach(release);
-    if (scheduled) return;
-    scheduled = true; requestAnimationFrame(()=>{scheduled=false;refresh();});
-  }
-  window.HKCISticky = {bottom:()=>bottom || Math.max(0,document.querySelector('.topbar').getBoundingClientRect().bottom),refresh};
-  document.documentElement.classList.add('has-sticky-controls');
-  window.addEventListener('scroll',()=>refresh(),{passive:true});
-  window.addEventListener('resize',()=>schedule(true));
-  window.visualViewport?.addEventListener('resize',()=>schedule());
-  window.visualViewport?.addEventListener('scroll',()=>schedule());
-  window.addEventListener('hkcafeinfo:view-change',()=>schedule(true));
-  window.addEventListener('hkcafeinfo:loaded',()=>schedule());
-  document.fonts?.ready.then(()=>schedule(true));
-  new ResizeObserver(()=>schedule()).observe(document.querySelector('.topbar'));
-  bindings.forEach(({node})=>new ResizeObserver(()=>schedule()).observe(node));
-  refresh();
+  const changed=Math.abs(bottom-top)>.5;bottom=top;document.documentElement.style.setProperty('--controls-sticky-bottom',bottom+'px');busy=false;if(changed)window.dispatchEvent(new Event('hkcafeinfo:sticky-change'));return bottom;
+ }
+ function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;refresh()})}
+ window.HKCISticky={bottom:()=>bottom,refresh};document.documentElement.classList.add('has-sticky-controls');
+ for(const name of ['scroll','resize','hkcafeinfo:view-change','hkcafeinfo:loaded'])window.addEventListener(name,schedule,{passive:true});
+ new ResizeObserver(schedule).observe(document.querySelector('.topbar'));rows.forEach(({node})=>new ResizeObserver(schedule).observe(node));document.fonts?.ready.then(schedule);refresh();
 })();

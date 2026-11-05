@@ -4,23 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>香港MaidCafe當值更表 @hkcafeinfo</title>
+  <title>HKCafeInfo · 香港 MaidCafe 更表</title>
   <link rel="stylesheet" href="web/style.css?v=0af9f2c484b75c6c">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-  <script src="data/roster-index.js?v=d317af006def3009" defer></script>
+  <script src="data/roster-index.js?v=59b8730b7e7f6908" defer></script>
   <script src="web/loading.js?v=0f67ea14d48057d5" defer></script>
   <script src="web/shared.js?v=a487b70997d90d37" defer></script>
-  <script src="web/app.js?v=33f34997e6964fa0" defer></script>
-  <script src="web/matrix.js?v=f256b811a7227c42" defer></script>
+  <script src="web/app.js?v=aaf7bb904b2d4cce" defer></script>
+  <script src="web/matrix.js?v=98e187ac6069b5c9" defer></script>
+  <link rel="stylesheet" href="web/hybrid.css?v=4765e99fbc06a13a">
+<script src="web/hybrid-data.js?v=dd3af8082a0cd31b" defer></script><script src="web/hybrid.js?v=22bb1d0feac1c77b" defer></script>
 </head>
 <body>
   <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="index.html" aria-label="返回更表首頁"><span class="brand-mark">✦</span><span class="brand-copy"><span class="brand-title">香港MaidCafe當值更表</span></span></a>
-      <span class="instagram-credit">instagram <a class="topbar-instagram" href="https://www.instagram.com/hkcafeinfo/" target="_blank" rel="noopener noreferrer">@hkcafeinfo</a></span>
-    </header>
+    <header class="topbar"><a class="hybrid-brand" href="https://www.instagram.com/hkcafeinfo/" target="_blank" rel="noopener noreferrer" aria-label="HKCafeInfo Instagram（另開分頁）"><span class="hybrid-brand-mark">✦</span><strong>HKCafeInfo</strong></a><nav class="hybrid-header-nav" aria-label="主要導覽"></nav><a class="hybrid-instagram" href="https://www.instagram.com/hkcafeinfo/" target="_blank" rel="noopener">@hkcafeinfo ↗</a></header>
 
     <main>
       <section class="hero" aria-label="香港MaidCafe當值更表介紹" aria-roledescription="輪播">
@@ -59,7 +55,7 @@
         <div class="hero-art hero-logo-collage" id="hero-logos" aria-hidden="true"></div>
       </section>
 
-      <section class="summary" aria-label="資料概況">
+      <section hidden class="summary" aria-label="資料概況">
         <div class="summary-item"><strong id="shop-count">—</strong><span>間店舖</span></div>
         <div class="summary-item"><strong id="date-count">—</strong><span>個有資料日期</span></div>
         <div class="summary-item"><strong id="person-count">—</strong><span>筆當值記錄</span></div>
@@ -74,16 +70,16 @@
         <div id="cafe-checklist" class="cafe-checklist" role="group" aria-label="選擇顯示店舖"></div>
       </aside>
       <div class="content-main">
-      <div class="view-controls">
-        <button id="toggle-cafe-sidebar" class="sidebar-toggle" type="button" aria-controls="cafe-sidebar" aria-expanded="false">☰ 店舖顯示 <span id="sidebar-toggle-count"></span></button>
+      <div class="view-controls"><label class="hybrid-search-field"><span aria-hidden="true">⌕</span><input id="hybrid-search" type="search" placeholder="搜尋女僕、店舖或活動…" aria-label="搜尋女僕、店舖或活動" autocomplete="off"></label>
+        <button id="toggle-cafe-sidebar" class="sidebar-toggle" type="button" aria-controls="cafe-sidebar" aria-expanded="false">☰ 篩選店舖 <span id="sidebar-toggle-count"></span></button>
         <label class="field search-field global-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋人名或店舖名稱</span><input id="name-search" type="search" placeholder="搜尋人名或店舖名稱…" autocomplete="off"></label>
         <label class="field search-field global-search shop-search"><span class="field-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋店名或地址</span><input id="shop-search" type="search" placeholder="搜尋店名或地址…"></label>
         <div class="view-switch" role="group" aria-label="選擇顯示方式"><button id="show-cards" type="button" class="view-button" aria-pressed="false">日表</button><button id="show-matrix" type="button" class="view-button active" aria-pressed="true">列表</button><button id="show-events" type="button" class="view-button" aria-pressed="false">活動</button><button id="show-people" type="button" class="view-button" aria-pressed="false">女僕</button><button id="show-shops" type="button" class="view-button" aria-pressed="false">店舖</button></div>
       </div>
 
-      <section class="roster-section" id="card-view" aria-labelledby="roster-heading">
+      <section id="hybrid-search-results" class="hybrid-inline-section" hidden></section><section id="hybrid-extra-view" class="hybrid-inline-section" hidden></section><section class="roster-section" id="card-view" aria-labelledby="roster-heading">
         <div class="section-topline"><div><span class="section-kicker">EXPLORE THE SCHEDULE</span><h2 id="roster-heading">每日更表</h2></div><div class="card-range-controls"><div class="range-toggle" id="card-date-range" role="group" aria-label="每日更表日期範圍"><button type="button" class="range-toggle-button" data-range="all" aria-pressed="false">所有更表</button><button type="button" class="range-toggle-button" data-range="future" aria-pressed="true">接下來的更表</button></div><span class="result-count" id="result-count"></span></div></div>
-        <div class="date-selector-wrap" id="date-selector-wrap">
+        <div class="date-selector-wrap" id="date-selector-wrap"><div class="hybrid-date-control" data-date-control="cards"></div>
           <div class="date-bar" id="date-bar" role="group" aria-label="選擇日期"></div>
           <button type="button" class="date-scroll-button date-scroll-prev" id="date-scroll-prev" aria-label="向左捲動日期" title="向左捲動" hidden>‹</button>
           <button type="button" class="date-scroll-button date-scroll-next" id="date-scroll-next" aria-label="向右捲動日期" title="向右捲動" hidden>›</button>
@@ -111,7 +107,7 @@
 
       <section class="matrix-section" id="matrix-view" aria-labelledby="matrix-heading" hidden>
         <div class="section-topline"><div><span class="section-kicker">ALL CAFES · ONE TABLE</span><h2 id="matrix-heading">各店更表</h2></div><span class="result-count" id="matrix-result-count"></span></div>
-        <div class="matrix-controls-row">
+        <div class="matrix-controls-row"><div class="hybrid-date-control" data-date-control="matrix"></div>
           <div class="matrix-filter-controls">
           <div class="range-toggle" id="date-range" role="group" aria-label="總表日期範圍"><button type="button" class="range-toggle-button" data-range="all" aria-pressed="false">所有更表</button><button type="button" class="range-toggle-button" data-range="future" aria-pressed="true">接下來的更表</button></div>
           <div class="axis-switch" role="group" aria-label="總表方向"><button id="dates-across" type="button" class="axis-button active" aria-pressed="true">日期橫排</button><button id="shops-across" type="button" class="axis-button" aria-pressed="false">店舖橫排</button></div>
@@ -124,9 +120,8 @@
 
       </div></div>
     </main>
-    <div class="roster-note-divider"><p class="roster-disclaimer" aria-label="資料注意事項"><span>注意：</span><span>「未公布名單」代表原帖有提及活動但未列人名；「未找到更表」代表目前未有資料，唔代表店舖休息。營業時間同個別當值時段可能不同，出發前請核對來源貼文。</span></p></div>
-    <footer><span class="instagram-credit">instagram <a href="https://www.instagram.com/hkcafeinfo/" target="_blank" rel="noopener noreferrer">@hkcafeinfo</a></span><span id="footer-version">資料版本載入中…</span></footer>
+    <footer class="hybrid-footer"><p>資料由公開公告整理。有更表唔代表全日當值；未有資料亦唔代表休息。營業、個人時段及臨時安排，請以店舖最新公告為準。</p><p>HKCafeInfo · 最後更新：2026-11-05</p></footer>
   </div>
 
-</body>
+<nav class="hybrid-bottom-nav" aria-label="主要導覽"></nav><div class="hybrid-toast" id="hybrid-toast" role="status"></div></body>
 </html>

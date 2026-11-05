@@ -271,3 +271,31 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 #date-selector-wrap .fit-small #card-date-range .range-toggle-button{font-size:9px!important;padding-inline:3px!important}
 #date-selector-wrap .fit-micro #card-date-range .range-toggle-button{font-size:8px!important;padding-inline:1px!important}
 [data-date-control="cards"] #card-date-range{flex-basis:auto!important;justify-content:flex-start!important}
+
+/* Keep the visible date label centred inside the actual tappable button. */
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-day{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;box-sizing:border-box;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-day>span{margin-top:2px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle-button,.axis-button,.hybrid-button){
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  text-align:center!important;vertical-align:middle;box-sizing:border-box;
+  line-height:1.2!important;padding-top:0!important;padding-bottom:0!important;
+}
+
+/* Clip the native date control to the visible calendar icon on narrow rows. */
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker{
+  position:relative;flex:0 0 28px!important;width:28px!important;min-width:28px!important;
+  max-width:28px!important;overflow:hidden;isolation:isolate;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker label{
+  position:relative;box-sizing:border-box;width:28px!important;min-width:28px!important;
+  max-width:28px!important;height:38px!important;overflow:hidden;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker input{
+  position:absolute!important;inset:0!important;box-sizing:border-box;width:100%!important;
+  max-width:100%!important;height:100%!important;min-width:0!important;
+  margin:0!important;padding:0!important;opacity:0;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle,.axis-switch){position:relative;z-index:1}

@@ -204,3 +204,70 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 
 /* Cards use the same date-first layout and compact control row as the matrix. */
 [data-date-control="cards"] #card-date-range{margin-left:auto;flex:0 0 auto}
+
+/* One theme for controls and person result tables. */
+.content-main .view-controls>.sidebar-toggle{color:var(--hybrid-purple-strong)!important}
+.content-main .view-controls>.sidebar-toggle>span{color:var(--hybrid-muted)}
+.person-card .person-results{border-color:var(--hybrid-line);color:var(--hybrid-purple-strong)}
+.person-card .person-results th{background:var(--hybrid-soft);color:var(--hybrid-purple-strong);border-color:var(--hybrid-line)}
+.person-card .person-results td,.person-card .person-results button{color:#61556f;border-color:var(--hybrid-line)}
+.person-card .person-results tbody tr:nth-child(even) td{background:#faf8fd}
+.person-card .person-results .story-type-tag{background:var(--hybrid-soft);color:var(--hybrid-purple-strong)}
+.people-name{background:transparent!important;color:var(--hybrid-purple-strong)}
+.hybrid-time-range{display:inline-block;white-space:nowrap!important;overflow-wrap:normal;word-break:keep-all}
+.matrix-opening-hours .hours-line{overflow-wrap:normal;word-break:normal}
+.matrix-opening-hours .hybrid-time-range{font-size:min(1em,10px);letter-spacing:-.2px}
+.opening-hours dd{white-space:nowrap!important;overflow-wrap:normal}
+.hybrid-brand small{display:flex;align-items:center;gap:3px;color:var(--hybrid-purple-strong)}
+.hybrid-instagram-icon{width:11px;height:11px;flex:0 0 11px;color:var(--hybrid-purple-strong)}
+/* Original navigation height, with larger content fitted inside. */
+@media(max-width:700px){
+ .hybrid-bottom-nav{padding-top:5px;padding-bottom:max(8px,env(safe-area-inset-bottom))}
+ .hybrid-bottom-nav button{height:48px;min-height:48px;padding:3px 0;gap:2px;line-height:1.1;font-size:12px}
+ .hybrid-bottom-nav .hybrid-nav-icon{font-size:25px;line-height:1.1}
+}
+/* Match the first-row button and search field heights. */
+.content-main .view-controls>.sidebar-toggle,.content-main .view-controls>.hybrid-search-field,.content-main .view-controls>.view-switch{box-sizing:border-box;height:44px!important;min-height:44px!important}
+.content-main .view-controls>.hybrid-search-field input{height:42px!important}
+.content-main .view-controls>.view-switch{align-items:stretch!important;padding:4px!important}
+.content-main .view-controls>.view-switch>.view-button{height:34px!important;min-height:34px!important;padding-top:0!important;padding-bottom:0!important}
+/* Both layouts put the week strip first, then the shared shortcut/filter row. */
+#card-view .hybrid-date-control{display:flex;flex-direction:column;align-items:stretch;gap:8px}
+[data-date-control="cards"]>.hybrid-week-strip{order:0;flex:none;width:100%}
+[data-date-control="cards"]>.hybrid-date-top{order:1;flex-wrap:nowrap;justify-content:flex-start;gap:10px;min-width:0;max-width:100%}
+[data-date-control="cards"] #card-date-range{margin-left:auto;flex:0 0 auto!important;justify-content:flex-start}
+[data-date-control]>.hybrid-date-top .hybrid-button,[data-date-control]>.hybrid-date-top .hybrid-date-picker input,[data-date-control]>.hybrid-date-top .hybrid-date-picker label,[data-date-control]>.hybrid-date-top .range-toggle,[data-date-control]>.hybrid-date-top .axis-switch{box-sizing:border-box;height:38px!important;min-height:38px!important}
+[data-date-control]>.hybrid-date-top .range-toggle,[data-date-control]>.hybrid-date-top .axis-switch{padding:3px!important;align-items:stretch!important}
+[data-date-control]>.hybrid-date-top .range-toggle-button,[data-date-control]>.hybrid-date-top .axis-button{height:30px!important;min-height:30px!important;padding-top:0!important;padding-bottom:0!important;line-height:30px!important}
+
+/* Keep the combined control row on one line, progressively simplifying the picker. */
+:is([data-date-control="cards"],[data-date-control="cards"])>.hybrid-date-top{overflow:visible;flex-wrap:nowrap;scrollbar-width:none}
+:is([data-date-control="cards"],[data-date-control="cards"])>.hybrid-date-top::-webkit-scrollbar{display:none}
+.hybrid-picker-text{display:none}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight{gap:5px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .hybrid-quick{gap:3px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .hybrid-button{padding-inline:7px;font-size:11px}
+#date-selector-wrap .fit-tight>.matrix-filter-controls{gap:4px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .range-toggle,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .axis-switch{padding:3px!important;gap:1px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .range-toggle-button,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .axis-button{padding-inline:6px!important;font-size:11px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label{position:relative;display:flex;align-items:center;justify-content:center;min-height:34px;width:91px;border:1px solid var(--hybrid-line);border-radius:9px;background:#fff;color:#70617e}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker input{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;cursor:pointer;padding:0;border:0}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-picker-text{display:block;pointer-events:none;white-space:nowrap;font-size:11px;padding-right:18px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label::after{content:"";width:13px;height:13px;position:absolute;right:6px;pointer-events:none;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' d='M5 5h14v16H5zM8 2v6m8-6v6M5 10h14'/%3E%3C/svg%3E") center/contain no-repeat}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label{width:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-picker-text{display:none}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label::after{right:7px;width:15px;height:15px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small{gap:3px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-button{font-size:9px;padding-inline:4px;min-height:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-quick{gap:2px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .range-toggle-button,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .axis-button{font-size:9px!important;padding-inline:3px!important;min-height:28px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .range-toggle,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .axis-switch{padding:2px!important}
+#date-selector-wrap .fit-small>.matrix-filter-controls{gap:2px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label{width:26px;min-height:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label::after{right:5px}
+
+
+#date-selector-wrap .hybrid-date-top.fit-tight{gap:5px}
+#date-selector-wrap .fit-small #card-date-range .range-toggle-button{font-size:9px!important;padding-inline:3px!important}
+#date-selector-wrap .fit-micro #card-date-range .range-toggle-button{font-size:8px!important;padding-inline:1px!important}
+[data-date-control="cards"] #card-date-range{flex-basis:auto!important;justify-content:flex-start!important}

@@ -308,3 +308,8 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px;font-weight:600;line-height:1.6;margin:6px 0 0}
 .person-card .hybrid-next-actions .hybrid-button{min-height:34px;border-color:var(--hybrid-line);color:var(--hybrid-purple-strong);background:#ffffffd9}
 @media(max-width:700px){.person-card .hybrid-next{margin:12px 0;padding:12px;gap:8px}.person-card .hybrid-next b{font-size:18px}.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:15px}}
+
+/* Safari rubber-band scrolling can move the sticky header between frames.
+   Extend the first docked row's opaque backing behind it so no page content
+   flashes through the transient gap; the header itself remains on top. */
+.content-main .view-controls.hybrid-docked::before{top:-100dvh}

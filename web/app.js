@@ -669,5 +669,9 @@
  function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;refresh()})}
  window.HKCISticky={bottom:()=>bottom,refresh};document.documentElement.classList.add('has-sticky-controls');
  for(const name of ['scroll','resize','hkcafeinfo:view-change','hkcafeinfo:loaded'])window.addEventListener(name,schedule,{passive:true});
+ window.visualViewport?.addEventListener('scroll',schedule,{passive:true});
+ window.visualViewport?.addEventListener('resize',schedule,{passive:true});
+ window.addEventListener('touchmove',schedule,{passive:true});
+ window.addEventListener('touchend',schedule,{passive:true});
  new ResizeObserver(schedule).observe(document.querySelector('.topbar'));rows.forEach(({node})=>new ResizeObserver(schedule).observe(node));document.fonts?.ready.then(schedule);refresh();
 })();

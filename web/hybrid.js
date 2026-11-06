@@ -62,4 +62,29 @@ new MutationObserver(()=>{placePersonFilters();nav()}).observe(document.body,{at
 const mobileQuery=matchMedia('(max-width:700px)');function searchPlaceholder(){ $('#hybrid-search').placeholder=mobileQuery.matches?'搵人／店／活動…':'搜尋女僕、店舖或活動…'; }mobileQuery.addEventListener('change',searchPlaceholder);searchPlaceholder();const headerCollage=$('#hero-logos');if(headerCollage){$('.topbar').prepend(headerCollage);headerCollage.classList.add('hybrid-header-collage');}const switchIcon=kind=>`<svg class="hybrid-switch-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${kind==='cards'?'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>':'<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>'}</svg>`;$('#show-cards').innerHTML=switchIcon('cards')+'<span>卡片</span>';$('#show-matrix').innerHTML=switchIcon('matrix')+'<span>總表</span>';dates();nav();maps();const footer=$('.hybrid-footer p:last-child');if(footer)footer.textContent='HKCafeInfo · 最後更新：'+(window.MAID_ROSTERS.published_at||window.MAID_ROSTERS.checked_at||D.checkedAt||'').slice(0,10);
 
 const bottomNavigation=$('.hybrid-bottom-nav');function reserveBottomNavigation(){document.documentElement.style.setProperty('--hybrid-bottom-space',bottomNavigation.getBoundingClientRect().height+'px')}new ResizeObserver(reserveBottomNavigation).observe(bottomNavigation);window.visualViewport?.addEventListener('resize',reserveBottomNavigation);reserveBottomNavigation();
+
+// Keep the dropdown attached to the visible trigger through resize and scrolling.
+const shopFilter=$('#cafe-sidebar'),shopFilterToggle=$('#toggle-cafe-sidebar');
+function positionShopFilter(){
+ if(shopFilter.hidden)return;
+ const rect=shopFilterToggle.getBoundingClientRect(),vv=window.visualViewport;
+ const viewportLeft=vv?.offsetLeft||0,viewportRight=viewportLeft+(vv?.width||innerWidth);
+ const width=Math.min(320,viewportRight-viewportLeft-32);
+ const left=Math.max(viewportLeft+16,Math.min(rect.left,viewportRight-width-16));
+ const top=rect.bottom+6;
+ const navBounds=$('.hybrid-bottom-nav').getBoundingClientRect();
+ const bottom=Math.min((vv?.offsetTop||0)+(vv?.height||innerHeight),navBounds.height?navBounds.top:innerHeight);
+ shopFilter.style.setProperty('--filter-top',top+'px');
+ shopFilter.style.setProperty('--filter-left',left+'px');
+ shopFilter.style.setProperty('--filter-width',width+'px');
+ shopFilter.style.setProperty('--filter-height',Math.max(0,bottom-top-8)+'px');
+}
+let filterQueued=false;
+function queueShopFilter(){if(filterQueued)return;filterQueued=true;requestAnimationFrame(()=>{filterQueued=false;positionShopFilter()})}
+new MutationObserver(positionShopFilter).observe(shopFilter,{attributes:true,attributeFilter:['hidden']});
+new ResizeObserver(queueShopFilter).observe(shopFilterToggle);
+for(const event of ['scroll','resize','hkcafeinfo:sticky-change','hkcafeinfo:view-change'])window.addEventListener(event,queueShopFilter,{passive:true});
+window.visualViewport?.addEventListener('resize',queueShopFilter,{passive:true});
+window.visualViewport?.addEventListener('scroll',queueShopFilter,{passive:true});
+positionShopFilter();
 })();

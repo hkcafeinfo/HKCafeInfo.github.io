@@ -330,3 +330,6 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .person-no-shifts p:last-child{margin:0}
 .person-search-mode #matrix-view .matrix-controls-row>.matrix-filter-controls{margin-left:0!important;margin-right:auto!important;order:0}
 .person-search-mode #matrix-view .matrix-controls-row>.person-back{order:1}
+
+/* Anchor the shop filter directly below its trigger, not below all date rows. */
+.has-sticky-controls #cafe-sidebar:not([hidden]){position:fixed;top:var(--filter-top)!important;left:var(--filter-left);width:var(--filter-width);max-height:var(--filter-height);margin:0;z-index:60;box-sizing:border-box;overscroll-behavior:contain}

@@ -413,16 +413,16 @@
         make("span", "people-shop-count", `${entries.length} 位${unit}`));
       const items = make("div", "people-shop-items");
       for (const { person, name } of entries) {
-        const item = make("div", "people-item");
-        const nameButton = make("button", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
-        nameButton.type = "button";
-        item.append(nameButton);
+        const item = make("button", "people-item");
+        item.type = "button";
+        const nameLabel = make("span", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
+        item.append(nameLabel);
         const accountNote = make('span', 'people-account-note', person.accounts.length
           ? person.accounts.map(account => HKCI.handle(String(account.handle || '').startsWith('http')
             ? account.handle : `https://www.instagram.com/${String(account.handle || '').replace(/^@/, '')}/`)).filter(Boolean).join(' · ')
           : 'IG 尚未確認');
         item.append(accountNote);
-        nameButton.addEventListener("click", () => {
+        item.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;
           window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: homeShop, name: appearance?.name || name } }));

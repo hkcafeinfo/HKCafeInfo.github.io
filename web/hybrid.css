@@ -300,14 +300,20 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 }
 :is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle,.axis-switch){position:relative;z-index:1}
 
-/* Next shift shares the exact content edges of the results table. */
-.person-card .hybrid-next{box-sizing:border-box;width:100%;margin:14px 0;border:1px solid var(--hybrid-line);border-left:3px solid var(--hybrid-purple);border-radius:10px;padding:14px 15px;background:linear-gradient(115deg,var(--hybrid-soft),#fcfbfe);gap:12px}
-.person-card .hybrid-next .eyebrow{display:flex;align-items:center;gap:6px;font-size:11px;line-height:1.5;font-weight:650;letter-spacing:.04em}
-.person-card .hybrid-next .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--hybrid-purple);flex:none}
-.person-card .hybrid-next b{margin:7px 0 2px;font-size:20px;line-height:1.4;font-weight:750}
-.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px;font-weight:600;line-height:1.6;margin:6px 0 0}
-.person-card .hybrid-next-actions .hybrid-button{min-height:34px;border-color:var(--hybrid-line);color:var(--hybrid-purple-strong);background:#ffffffd9}
-@media(max-width:700px){.person-card .hybrid-next{margin:12px 0;padding:12px;gap:8px}.person-card .hybrid-next b{font-size:18px}.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:15px}}
+/* Approved layout 05 + colour 01: inset timeline on extra-light wisteria. */
+.person-card .hybrid-next{box-sizing:border-box;width:100%;margin:14px 0;border:1px solid #e4dbef;border-radius:10px;padding:18px 16px 18px 44px;background:#f8f5fc;gap:12px}
+.person-card .hybrid-next-info{position:relative;min-width:0;flex:1}
+.person-card .hybrid-next-info::before{content:"";position:absolute;left:-18px;top:7px;bottom:5px;width:2px;background:#bca6d3}
+.person-card .hybrid-next .eyebrow{display:block;font-size:11px;line-height:1.5;font-weight:650;letter-spacing:.04em;margin-bottom:12px}
+.person-card .hybrid-next .eyebrow::before{content:"";position:absolute;left:-21px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--hybrid-purple);box-shadow:0 0 0 3px #f8f5fc}
+.person-card .hybrid-next b{margin:0;font-size:22px;line-height:1.25;font-weight:750;letter-spacing:-.7px}
+.person-card .hybrid-next-weekday{font-size:10px;font-weight:500;letter-spacing:0;margin-left:5px}
+.person-card .hybrid-next-shop{margin-top:6px;font-size:12px;line-height:1.5;color:var(--hybrid-purple-strong)}
+.person-card .hybrid-next p{margin-top:3px;font-size:10px;line-height:1.5}
+.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px;font-weight:600;line-height:1.6;letter-spacing:0;margin:0}
+.person-card .hybrid-next-actions{gap:12px}
+.person-card .hybrid-next-actions .hybrid-button{min-height:32px;padding:6px 7px;font-size:9px;border-color:var(--hybrid-line);color:var(--hybrid-purple-strong);background:#ffffffdf}
+@media(max-width:700px){.person-card .hybrid-next{margin:12px 0;padding-right:12px}.person-card .hybrid-next b{font-size:21px}.person-card .hybrid-next-weekday{display:block;margin-left:0;margin-top:3px}.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px}}
 
 /* Safari rubber-band scrolling can move the sticky header between frames.
    Extend the first docked row's opaque backing behind it so no page content

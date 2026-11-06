@@ -399,6 +399,8 @@
         accounts.push(...(info.instagram_accounts || []), ...(info.work_instagram_accounts || []));
       }
       addName(person.name);
+      person.accounts = [...new Map(accounts.filter(account => account.status !== 'former')
+        .map(account => [String(account.handle || '').replace(/^@/, '').toLowerCase(), account])).values()];
       person.allNames = HKCI.personNames(names.values(), accounts); return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName, unit = "女僕", parent = list, nested = false) => {
@@ -415,6 +417,11 @@
         const nameButton = make("button", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
         nameButton.type = "button";
         item.append(nameButton);
+        const accountNote = make('span', 'people-account-note', person.accounts.length
+          ? person.accounts.map(account => HKCI.handle(String(account.handle || '').startsWith('http')
+            ? account.handle : `https://www.instagram.com/${String(account.handle || '').replace(/^@/, '')}/`)).filter(Boolean).join(' · ')
+          : 'IG 尚未確認');
+        item.append(accountNote);
         nameButton.addEventListener("click", () => {
           const appearance = shopName && person.shops.get(shopName);
           const homeShop = person.shops.has(shopName) ? shopName : person.shops.keys().next().value;

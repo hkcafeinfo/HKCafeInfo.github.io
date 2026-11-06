@@ -423,6 +423,7 @@
           ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; igList.append(ig);
         }
         if (igList.childElementCount) identity.append(igList);
+        else identity.append(make('span', 'people-account-note', 'IG 尚未確認'));
         profile.append(identity); top.append(profile);
         const report = make("button", "person-report", "回報 IG／錯誤"); report.type = "button";
         report.addEventListener("click", () => HKCI.report(person.shop.shop, HKCI.displayName(person.name)));

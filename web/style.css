@@ -220,6 +220,7 @@
 /* Person cards show every name and link each known Instagram account. */
 .people-item{display:flex;flex-direction:column;align-items:flex-start;max-width:100%;}
 .people-item .people-name{max-width:100%;white-space:normal;line-height:1.5;overflow-wrap:anywhere;}
+.people-account-note{display:block;max-width:100%;font-size:11px;line-height:1.5;color:#66758e;overflow-wrap:anywhere}
 .people-accounts{display:flex;flex-wrap:wrap;gap:3px 8px;max-width:100%;margin:3px 0 0;padding-left:7px;}
 .people-accounts .people-ig{font-size:10px;color:#6879b8;white-space:normal;overflow-wrap:anywhere;text-decoration:none;}
 .people-accounts .people-ig:hover{text-decoration:underline;}

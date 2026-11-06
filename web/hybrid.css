@@ -313,3 +313,14 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
    Extend the first docked row's opaque backing behind it so no page content
    flashes through the transient gap; the header itself remains on top. */
 .content-main .view-controls.hybrid-docked::before{top:-100dvh}
+
+/* Keep person navigation visible and distinct from IG / save / report actions. */
+.hybrid-search-person{cursor:pointer}
+.hybrid-person-open{border:0;background:none;color:var(--hybrid-purple-strong);font:inherit;text-align:left;padding:0;cursor:pointer}
+.hybrid-person-open:hover strong{color:var(--hybrid-purple)}
+.hybrid-person-details{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;padding:9px 2px 1px;border:0;border-top:1px solid var(--hybrid-line);background:none;color:var(--hybrid-purple-strong);font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif;cursor:pointer;text-align:left}
+.person-card .person-results .person-no-shifts{padding:14px 10px;text-align:center;color:var(--hybrid-muted)}
+.person-no-shifts p{margin:0 0 8px}
+.person-no-shifts p:last-child{margin:0}
+.person-search-mode #matrix-view .matrix-controls-row>.matrix-filter-controls{margin-left:0!important;margin-right:auto!important;order:0}
+.person-search-mode #matrix-view .matrix-controls-row>.person-back{order:1}

@@ -358,6 +358,18 @@
       HKCILoading.clear(matrix);
       matrix.removeAttribute("role");
       const groups = new Map();
+      // A selected person exists independently of the current date range.
+      // Seed their profile from the catalog, even when no shifts match.
+      if (state.person) {
+        const shop = loadedShops.find(item => item.shop === state.person.shop);
+        if (shop) {
+          const name = state.person.name;
+          groups.set(HKCI.identityKey(data, shop.shop, name), {
+            shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || "",
+            shifts: [], shops: new Set([shop.shop])
+          });
+        }
+      }
       for (const shop of loadedShops) for (const shift of shop.shifts || []) {
         if (state.range !== "all" && shift.date < today) continue;
         for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
@@ -463,6 +475,18 @@
           const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";
           row.append(source); body.append(row);
         }, valid);
+        if (!person.shifts.length) {
+          const row = make("tr"), cell = make("td", "person-no-shifts");
+          cell.colSpan = 5;
+          cell.append(make("p", null, state.range === "all" ? "暫未有當值記錄。" : "暫未有接下來的更表。"));
+          if (state.range !== "all") {
+            const all = make("button", "hybrid-button person-show-all", "查看所有更表");
+            all.type = "button";
+            all.addEventListener("click", () => $("date-range").querySelector('[data-range="all"]').click());
+            cell.append(all);
+          }
+          row.append(cell); body.append(row);
+        }
         table.append(body);
         const results = make("div", "person-results-wrap");
         results.append(table); card.append(results); window.Hybrid?.decoratePerson(card, person); list.append(card);

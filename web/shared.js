@@ -89,6 +89,9 @@
   }
   function identityKey(data, shop, name) {
     const key = personIdentity(data, shop, name);
+    // An explicit UID remains one person even when two recorded shifts clash.
+    // Keep both dated sources on their card; a schedule conflict is not a new identity.
+    if (data.person_accounts?.[shop]?.[name]?.person_id) return key;
     if (data.identity_conflicts) {
       if (!conflicts) conflicts = new Set(data.identity_conflicts);
       return conflicts.has(key) ? `${key}|shop:${shop}` : key;

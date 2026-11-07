@@ -429,3 +429,4 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .matrix-colhead[data-date]>.matrix-date-bottom{display:flex;align-items:center;gap:6px;font-size:9px;line-height:11px;white-space:nowrap}
 .matrix-colhead[data-date]>.matrix-date-label::after{content:none!important}
 .matrix-date-bottom>.matrix-date-today{font-size:9px;line-height:11px;font-weight:700;color:var(--ui-accent);border-left:1px solid var(--ui-accent);padding-left:6px}
+.matrix-colhead[data-date] :is(.matrix-date-year,.matrix-date-bottom,.matrix-date-today){margin-top:0}

@@ -398,5 +398,5 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 @media(max-width:700px){.person-card .person-results th,.person-card .person-results td{padding-top:5px;padding-bottom:5px}}
 
 /* Keep the next-shift calendar legible when a person card gets narrow. */
-@media(max-width:700px){.person-card .hybrid-next.has-shift{grid-template-columns:72px minmax(0,1fr) auto}.person-card .hybrid-next.has-shift>.hybrid-calendar-date{min-width:0}.person-card .hybrid-calendar-date>span{font-size:9px;padding-inline:2px}}
-@media(max-width:380px){.person-card .hybrid-next.has-shift{grid-template-columns:68px minmax(0,1fr) auto;column-gap:6px}.person-card .hybrid-next.has-shift>.hybrid-next-actions .hybrid-button{padding-inline:5px;font-size:8px}}
+@media(max-width:700px){.person-card .hybrid-next.has-shift{grid-template-columns:84px minmax(0,1fr) auto}.person-card .hybrid-next.has-shift>.hybrid-calendar-date{min-width:0}.person-card .hybrid-calendar-date>span{font-size:9px;padding-inline:5px}}
+@media(max-width:380px){.person-card .hybrid-next.has-shift{grid-template-columns:76px minmax(0,1fr) auto;column-gap:6px}.person-card .hybrid-next.has-shift>.hybrid-next-actions .hybrid-button{padding-inline:5px;font-size:8px}}

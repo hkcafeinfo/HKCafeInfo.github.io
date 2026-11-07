@@ -184,7 +184,7 @@
     return node;
   }
   function dateColumnHead(date) {
-    const info = labelForDate(date);
+    const info = dateLabel(date);
     const node = columnHead("", "", date === today);
     node.dataset.date = date;
     const [year, month, day] = date.split("-").map(Number);

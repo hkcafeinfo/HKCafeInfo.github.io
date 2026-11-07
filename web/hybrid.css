@@ -333,3 +333,31 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 
 /* Anchor the shop filter directly below its trigger, not below all date rows. */
 .has-sticky-controls #cafe-sidebar:not([hidden]){position:fixed;top:var(--filter-top)!important;left:var(--filter-left);width:var(--filter-width);max-height:var(--filter-height);margin:0;z-index:60;box-sizing:border-box;overscroll-behavior:contain}
+
+/* Approved profile: primary name, alias pills, full-height avatar, stacked actions. */
+.person-card .person-card-top{display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px;padding:4px 0 12px}
+.person-card .person-search-profile{display:grid;grid-template-columns:min(var(--person-avatar-height,64px),96px) minmax(0,1fr);gap:9px;align-items:start;padding:0;min-width:0}
+.person-card .person-search-profile :is(.person-photo,.person-photo-placeholder){width:min(var(--person-avatar-height,64px),96px);height:var(--person-avatar-height,64px);border-radius:50%;object-fit:cover;font-size:24px;box-sizing:border-box}
+.person-card .person-identity strong{font-size:20px;line-height:1.35;display:block}
+.hybrid-person-aliases{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0;color:var(--hybrid-muted)}
+.hybrid-person-aliases>span{font-size:9px;line-height:1.5;padding:2px 6px;border-radius:20px;background:#f5f1fa;overflow-wrap:anywhere}
+.person-card .people-ig{display:inline-flex;align-items:center;gap:3px;white-space:normal;overflow-wrap:anywhere;font-size:10px;color:var(--hybrid-purple)}
+.hybrid-profile-ig-icon{width:11px;height:11px;flex:none}
+.person-card .hybrid-person-actions{display:flex;flex-direction:column;gap:6px;align-items:stretch;margin:0}
+.person-card .person-card-top .hybrid-person-actions :is(.hybrid-button,.hybrid-heart){min-height:29px;padding:5px 7px;font:500 10px/1.4 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif!important;gap:5px}
+.person-card .hybrid-person-actions .heart-icon{display:inline-flex;align-items:center;justify-content:center;width:13px;height:13px;font-size:17px;line-height:13px}
+.hybrid-action-icon{width:13px;height:13px;flex:none}
+/* Calendar at left; shop and time immediately to its right. */
+.person-card .hybrid-next{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:center;padding:14px 12px;background:#f8f5fc}
+.person-card .hybrid-next>.eyebrow{grid-column:1/-1;margin:0;font-size:11px}
+.person-card .hybrid-next .eyebrow::before,.person-card .hybrid-next-info::before{content:none}
+.person-card .hybrid-calendar-date{border:1px solid #dfd3ed;border-radius:8px;background:#fff;text-align:center;overflow:hidden;color:var(--hybrid-purple-strong)}
+.hybrid-calendar-date>span{display:block;background:#eee6f7;padding:3px;font-size:10px}
+.person-card .hybrid-calendar-date>b{display:block;font-size:29px;line-height:1.2;margin:3px 0 0;letter-spacing:0}
+.hybrid-calendar-date>small{display:block;font-size:9px;padding:2px 0 6px}
+.person-card .hybrid-next-shop{font-size:12px;font-weight:600;margin:0;line-height:1.5}
+.person-card .hybrid-next-info p{font-size:10px;line-height:1.5;margin-top:5px;white-space:nowrap;letter-spacing:-.2px}
+.person-card .hybrid-next-actions{gap:7px}
+.person-card .hybrid-next-actions .hybrid-button{font-size:9px;min-height:30px;padding:5px 6px}
+.person-card .hybrid-next.no-shift{grid-template-columns:minmax(0,1fr)}
+@media(max-width:360px){.person-card .hybrid-next{grid-template-columns:48px minmax(0,1fr) auto;gap:7px;padding:12px 9px}.person-card .hybrid-next.no-shift{grid-template-columns:1fr}.person-card .person-card-top{gap:7px}.person-card .person-search-profile{gap:7px}.person-card .hybrid-next-shop{font-size:11px}}

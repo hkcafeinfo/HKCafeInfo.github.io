@@ -427,6 +427,9 @@
         identity.append(make("strong", null, HKCI.personNames(allNames, [...allHandles.values()]).join(" ／ ")));
         const instagramAccounts = [...(info?.work_instagram_accounts || []), ...(info?.instagram_accounts || [])];
         const links = allHandles.size ? [...allHandles.values()] : instagramAccounts;
+        const primaryAccount = HKCI.primaryInstagramAccount(info, links);
+        const mainHandle = normalizedInstagramHandle(primaryAccount?.handle);
+        links.sort((a, b) => Number(normalizedInstagramHandle(b.handle) === mainHandle) - Number(normalizedInstagramHandle(a.handle) === mainHandle));
         const igList = make("div", "people-ig-list");
         for (const account of links) {
           const url = HKCI.instagram(account.handle?.startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`);

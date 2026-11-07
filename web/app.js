@@ -401,7 +401,9 @@
       addName(person.name);
       person.accounts = [...new Map(accounts.filter(account => account.status !== 'former')
         .map(account => [String(account.handle || '').replace(/^@/, '').toLowerCase(), account])).values()];
-      person.allNames = HKCI.personNames(names.values(), accounts); return person;
+      person.allNames = HKCI.personNames(names.values(), accounts);
+      person.primaryName = HKCI.displayName(primary?.display_name || person.name || person.allNames[0] || "");
+      return person;
     }).sort((a, b) => a.name.localeCompare(b.name, "zh-HK"));
     const appendGroup = (title, entries, shopName, unit = "女僕", parent = list, nested = false) => {
       if (!entries.length) return;
@@ -415,7 +417,7 @@
       for (const { person, name } of entries) {
         const item = make("button", "people-item");
         item.type = "button";
-        const nameLabel = make("span", "people-name", person.allNames.map(HKCI.displayName).join(" ／ "));
+        const nameLabel = make("span", "people-name", person.primaryName);
         item.append(nameLabel);
         const accountNote = make('span', 'people-account-note', person.accounts.length
           ? person.accounts.map(account => HKCI.handle(String(account.handle || '').startsWith('http')

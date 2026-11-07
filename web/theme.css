@@ -1,0 +1,26 @@
+/* Saved palettes from the 2026-11-07 Japanese colour demos. */
+:root[data-theme="amber"]{--theme-main:#62463c;--theme-dark:#45322b;--theme-soft:#f0eceb;--theme-line:#ddd7d4;--theme-ink:#2f2622;--theme-muted:#705d57;--theme-bg:#fbfbfb;--theme-tint:#f4f2f1;--theme-chip:#f3f1ec;--theme-focus:#ebe5db;--theme-focus-ink:#755b2f;--theme-accent:#755b2f}
+:root[data-theme="fuji"]{--theme-main:#4f3f5f;--theme-dark:#382d43;--theme-soft:#edebef;--theme-line:#d9d5dc;--theme-ink:#29222f;--theme-muted:#645770;--theme-bg:#fbfbfb;--theme-tint:#f2f1f3;--theme-chip:#f0eef2;--theme-focus:#e4dfe7;--theme-focus-ink:#554063;--theme-accent:#554063}
+:root[data-theme="skyblue"]{--theme-main:#1c6482;--theme-dark:#14475c;--theme-soft:#e6f0f4;--theme-line:#cddee5;--theme-ink:#222c2f;--theme-muted:#576970;--theme-bg:#fbfbfc;--theme-tint:#eff4f6;--theme-chip:#eaf2f5;--theme-focus:#d6e9f0;--theme-focus-ink:#1d6987;--theme-accent:#1d6987}
+:root[data-theme="firebrick"]{--theme-main:#7f1f1f;--theme-dark:#5a1616;--theme-soft:#f4e6e6;--theme-line:#e4cece;--theme-ink:#2f2222;--theme-muted:#705757;--theme-bg:#fcfbfb;--theme-tint:#f6efef;--theme-chip:#f5eaea;--theme-focus:#f0d6d6;--theme-focus-ink:#871d1d;--theme-accent:#871d1d}
+:root[data-theme="moonlight"]{--theme-main:#473d61;--theme-dark:#322b45;--theme-soft:#ecebf0;--theme-line:#d7d4dd;--theme-ink:#26222f;--theme-muted:#5e5770;--theme-bg:#fbfbfb;--theme-tint:#f2f1f4;--theme-chip:#efedf3;--theme-focus:#e2dce9;--theme-focus-ink:#4d376d;--theme-accent:#4d376d}
+:root[data-theme="hojicha"]{--theme-main:#5f4b3f;--theme-dark:#44352d;--theme-soft:#efedeb;--theme-line:#ddd8d5;--theme-ink:#2f2722;--theme-muted:#706057;--theme-bg:#fbfbfb;--theme-tint:#f3f2f1;--theme-chip:#f3f0ed;--theme-focus:#e9e3dc;--theme-focus-ink:#6d5037;--theme-accent:#6d5037}
+:root[data-theme]{--hybrid-purple:var(--theme-main);--hybrid-purple-strong:var(--theme-dark);--hybrid-soft:var(--theme-soft);--hybrid-line:var(--theme-line);--hybrid-ink:var(--theme-ink);--hybrid-muted:var(--theme-muted);--hybrid-bg:var(--theme-bg);--hybrid-tint:var(--theme-tint)}
+:root[data-theme] body,:root[data-theme] .app-shell,:root[data-theme] main{background:var(--theme-bg);color:var(--theme-ink)}
+:root[data-theme] .topbar{background:color-mix(in srgb,var(--theme-bg) 95%,transparent)}
+:root[data-theme] .hybrid-brand,:root[data-theme] .hybrid-brand strong,:root[data-theme] .matrix-rowhead strong{color:var(--theme-ink)}
+:root[data-theme] .hybrid-brand-mark,:root[data-theme] .hybrid-day.active,:root[data-theme] .hybrid-button.active,:root[data-theme] .hybrid-button.primary{background:var(--theme-main);border-color:var(--theme-main);color:#fff}
+:root[data-theme] .hybrid-day.active b,:root[data-theme] .hybrid-day.active span{color:#fff}
+:root[data-theme] .hybrid-header-nav button.active{color:var(--theme-dark);border-bottom-color:var(--theme-main)}
+:root[data-theme] .hybrid-search-field{border-color:var(--theme-line);color:var(--theme-main)}
+:root[data-theme] .hybrid-week-arrow,:root[data-theme] .hybrid-table-arrows .matrix-navigation button{color:var(--theme-main);background:var(--theme-focus)}
+:root[data-theme] .view-switch{background:var(--theme-soft)}
+:root[data-theme] .matrix-corner,:root[data-theme] .matrix-colhead,:root[data-theme] .matrix-header,:root[data-theme] .matrix-rowhead,:root[data-theme] .matrix-row:nth-child(even) .matrix-rowhead{background:var(--theme-tint)}
+:root[data-theme] .matrix-colhead.is-today{position:relative;background:var(--theme-focus);border-color:var(--theme-line);box-shadow:inset 5px 0 0 var(--theme-accent)}
+:root[data-theme] .matrix-colhead.is-today strong,:root[data-theme] .matrix-colhead.is-today span{color:var(--theme-focus-ink)}
+:root[data-theme] .matrix-colhead.is-today::after{content:"今日";position:absolute;top:7px;right:8px;padding:2px 5px;border-radius:5px;background:var(--theme-accent);color:#fff;font:700 10px/1.2 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif}
+:root[data-theme] .person-tag:not(.needs-review):not(.cancelled-person),:root[data-theme] .matrix-person:not(.needs-review):not(.cancelled-person),:root[data-theme] .people-name,:root[data-theme] .time-badge{background:var(--theme-chip);color:var(--theme-focus-ink)}
+:root[data-theme] .hybrid-bottom-nav button.active{background:var(--theme-focus);color:var(--theme-focus-ink)}
+:root[data-theme] .hybrid-bottom-nav button.active *{color:var(--theme-focus-ink)}
+:root[data-theme] .hybrid-docked,:root[data-theme] .view-controls.hybrid-docked,:root[data-theme] #matrix-view .matrix-controls-row.hybrid-docked,:root[data-theme] .hybrid-docked::before{background:var(--theme-bg)}
+:root[data-theme] .matrix-person,:root[data-theme] .source-link,:root[data-theme] .hybrid-instagram{color:var(--theme-main)}

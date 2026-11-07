@@ -421,3 +421,11 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .hybrid-table-arrows .matrix-navigation button{width:35px!important;min-width:35px!important;flex-basis:35px!important;height:26px!important;min-height:26px!important;max-height:26px!important;border-radius:6px!important;font:550 9px/1 -apple-system,BlinkMacSystemFont,'PingFang HK',sans-serif;gap:2px!important}
 .hybrid-table-arrows .matrix-navigation button svg{width:9px!important;height:9px!important}
 .matrix-colhead.is-today>strong::after{font-size:9px!important;line-height:1.1;padding-left:5px!important;margin-left:5px;border-left-width:1px!important}
+
+/* D08: three compact lines inside the original 65px / 60px date header. */
+.matrix-colhead[data-date]{padding-top:4px;padding-bottom:4px;gap:1px;justify-content:center}
+.matrix-colhead[data-date]>.matrix-date-year{font-size:9px;line-height:11px;letter-spacing:1px}
+.matrix-colhead[data-date]>.matrix-date-label{font-size:22px;line-height:26px;font-weight:750;white-space:nowrap}
+.matrix-colhead[data-date]>.matrix-date-bottom{display:flex;align-items:center;gap:6px;font-size:9px;line-height:11px;white-space:nowrap}
+.matrix-colhead[data-date]>.matrix-date-label::after{content:none!important}
+.matrix-date-bottom>.matrix-date-today{font-size:9px;line-height:11px;font-weight:700;color:var(--ui-accent);border-left:1px solid var(--ui-accent);padding-left:6px}

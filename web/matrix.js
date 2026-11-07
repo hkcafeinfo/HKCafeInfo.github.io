@@ -183,6 +183,17 @@
     if (shop) node.append(shopHours(shop));
     return node;
   }
+  function dateColumnHead(date) {
+    const info = labelForDate(date);
+    const node = columnHead("", "", date === today);
+    node.dataset.date = date;
+    const [year, month, day] = date.split("-").map(Number);
+    const bottom = make("span", "matrix-date-bottom", info.weekday);
+    if (date === today) bottom.append(make("span", "matrix-date-today", "今日"));
+    node.replaceChildren(make("span", "matrix-date-year", year + "年"),
+      make("strong", "matrix-date-label", month + "月" + day + "日"), bottom);
+    return node;
+  }
   function cornerHead(axis) {
     const corner = make("div", "matrix-corner");
     corner.setAttribute("role", "columnheader");
@@ -516,7 +527,7 @@
       await HKCILoading.each(columns, item => {
         if (state.across === "dates") {
           const info = dateLabel(item);
-          const heading = columnHead(info.day, info.weekday, item === today);
+          const heading = dateColumnHead(item);
           heading.dataset.date = item;
           header.append(heading);
         }
@@ -595,7 +606,7 @@
     header.append(cornerHead(axis));
     await HKCILoading.each(columns, item => {
       if (axis === "dates") {
-        const label = labelForDate(item), node = columnHead(label.day, label.weekday, item === today);
+        const node = dateColumnHead(item);
         node.dataset.date = item; header.append(node);
       } else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
     }, valid);

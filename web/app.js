@@ -401,6 +401,7 @@
       addName(person.name);
       person.accounts = [...new Map(accounts.filter(account => account.status !== 'former')
         .map(account => [String(account.handle || '').replace(/^@/, '').toLowerCase(), account])).values()];
+      person.primaryAccount = HKCI.primaryInstagramAccount(primary, person.accounts);
       person.allNames = HKCI.personNames(names.values(), accounts);
       person.primaryName = HKCI.displayName(primary?.display_name || person.name || person.allNames[0] || "");
       return person;
@@ -419,9 +420,9 @@
         item.type = "button";
         const nameLabel = make("span", "people-name", person.primaryName);
         item.append(nameLabel);
-        const accountNote = make('span', 'people-account-note', person.accounts.length
-          ? person.accounts.map(account => HKCI.handle(String(account.handle || '').startsWith('http')
-            ? account.handle : `https://www.instagram.com/${String(account.handle || '').replace(/^@/, '')}/`)).filter(Boolean).join(' · ')
+        const mainAccount = person.primaryAccount;
+        const accountNote = make('span', 'people-account-note', mainAccount
+          ? HKCI.handle(String(mainAccount.handle || '').startsWith('http') ? mainAccount.handle : `https://www.instagram.com/${String(mainAccount.handle || '').replace(/^@/, '')}/`)
           : 'IG 尚未確認');
         item.append(accountNote);
         item.addEventListener("click", () => {

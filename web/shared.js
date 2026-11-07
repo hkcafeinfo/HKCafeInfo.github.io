@@ -20,6 +20,13 @@
   function staffTerm(shop) { return shop === "Itotsuki Cafe" ? "店員" : "女僕"; }
   function roleLabel(shop, role) { return shop === "Itotsuki Cafe" ? String(role).replace(/女僕/g, "店員") : role; }
   function displayName(name) { return String(name || "").replace(/ ⟦@[^⟧]+⟧$/u, ""); }
+  function primaryInstagramAccount(info, accounts = []) {
+    const normalize = value => String(value || '').trim().replace(/^https?:\/\/(?:www\.)?instagram\.com\//i, '').replace(/^@+/, '').split(/[/?#]/)[0].toLowerCase();
+    const available = accounts.filter(account => account.status !== 'former' && normalize(account.handle));
+    const preferred = normalize(info?.primary_instagram);
+    return available.find(account => preferred && normalize(account.handle) === preferred)
+      || available.find(account => account.status === 'current') || available[0] || null;
+  }
   function personNames(values, accounts = []) {
     const handles = new Set(accounts.map(account => handle(instagram(
       String(account.handle || "").startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`
@@ -288,5 +295,5 @@
     wrapper.append(tag, marker);
     return wrapper;
   }
-  window.HKCI = { appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

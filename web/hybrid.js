@@ -65,6 +65,11 @@ $('.view-controls').append($('.people-controls-row'));
 // Keep the original table navigation listeners while moving the arrows over the header.
 const tableArrows=el('<div class="hybrid-table-arrows" hidden></div>');
 $('#matrix-viewport').after(tableArrows);tableArrows.append($('#matrix-view .matrix-navigation'));
+// Preserve original buttons and listeners; only replace their arrow artwork.
+for(const [id,path] of [['matrix-prev','M9 3 4 8l5 5'],['matrix-next','M5 3l5 5-5 5']]){
+ document.getElementById(id).innerHTML=`<svg viewBox="0 0 14 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${path}"/></svg>`;
+}
+
 let arrowsQueued=false;
 function positionTableArrows(){const view=$('#matrix-view'),viewport=$('#matrix-viewport'),header=$('#roster-matrix .matrix-header');if(view.hidden||document.body.classList.contains('hybrid-searching')||document.body.classList.contains('hybrid-extra')||document.body.classList.contains('person-search-mode')||!header){tableArrows.hidden=true;return}const bounds=viewport.getBoundingClientRect(),height=header.getBoundingClientRect().height,top=Math.max(bounds.top,window.HKCISticky?.bottom()||0);tableArrows.hidden=bounds.bottom<=top+height||top>=innerHeight;if(tableArrows.hidden)return;tableArrows.style.left=bounds.left+'px';tableArrows.style.top=top+'px';tableArrows.style.width=bounds.width+'px';tableArrows.style.height=height+'px';tableArrows.style.setProperty('--table-label-width',getComputedStyle($('#roster-matrix')).getPropertyValue('--label-width')||'164px')}
 function queueTableArrows(){if(arrowsQueued)return;arrowsQueued=true;requestAnimationFrame(()=>{arrowsQueued=false;positionTableArrows()})}

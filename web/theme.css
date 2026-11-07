@@ -24,3 +24,11 @@
 :root[data-theme] .hybrid-bottom-nav button.active *{color:var(--theme-focus-ink)}
 :root[data-theme] .hybrid-docked,:root[data-theme] .view-controls.hybrid-docked,:root[data-theme] #matrix-view .matrix-controls-row.hybrid-docked,:root[data-theme] .hybrid-docked::before{background:var(--theme-bg)}
 :root[data-theme] .matrix-person,:root[data-theme] .source-link,:root[data-theme] .hybrid-instagram{color:var(--theme-main)}
+/* Person card: keep the existing timeline layout and weekday meaning, colour it with the active theme. */
+:root[data-theme] .person-card .hybrid-next{background:var(--theme-tint);border-color:var(--theme-line)}
+:root[data-theme] .person-card .hybrid-next::before{background:var(--theme-accent)}
+:root[data-theme] .person-card .hybrid-next>.eyebrow::before{background:var(--theme-accent);box-shadow:0 0 0 3px var(--theme-tint)}
+:root[data-theme] .person-card .hybrid-calendar-date,
+:root[data-theme] .person-card .hybrid-calendar-date.is-saturday,
+:root[data-theme] .person-card .hybrid-calendar-date.is-sunday{--calendar-ink:var(--theme-main);--calendar-band:var(--theme-accent);--calendar-edge:var(--theme-line);background:#fff}
+:root[data-theme] .person-card .hybrid-next-shop{color:var(--theme-dark)}

@@ -430,3 +430,22 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .matrix-colhead[data-date]>.matrix-date-label::after{content:none!important}
 .matrix-date-bottom>.matrix-date-today{font-size:9px;line-height:11px;font-weight:700;color:var(--ui-accent);border-left:1px solid var(--ui-accent);padding-left:6px}
 .matrix-colhead[data-date] :is(.matrix-date-year,.matrix-date-bottom,.matrix-date-today){margin-top:0}
+
+/* Approved navigation: semantic theme colours, no text outline. */
+.hybrid-header-nav button{justify-content:center;border:0!important;border-radius:0!important;padding-inline:0;flex:none;width:64px}
+.hybrid-header-nav button[data-id=today]{width:98px}
+.hybrid-header-nav button[data-id=people]{width:81px}
+.hybrid-header-nav button.active{background:color-mix(in srgb,var(--ui-primary) 24%,transparent)!important;box-shadow:inset 0 -2px var(--ui-primary);color:var(--ui-primary)}
+.hybrid-header-nav button.active span{font-size:18px;font-weight:800;-webkit-text-stroke:0}
+@media(min-width:701px) and (max-width:1000px){
+.hybrid-header-nav button{width:46px;padding-inline:0}
+.hybrid-header-nav button[data-id=today]{width:76px}
+.hybrid-header-nav button[data-id=people]{width:61px}
+}
+@media(max-width:700px){
+.hybrid-bottom-nav{padding:0;gap:0;height:calc(54px + max(8px,env(safe-area-inset-bottom)));box-sizing:border-box}
+.hybrid-bottom-nav button{height:100%;min-height:0;max-height:none;padding:0 0 max(0px,calc(env(safe-area-inset-bottom) - 8px));gap:1px;justify-content:center;border-radius:0;font-size:11px;line-height:12px;background:transparent}
+.hybrid-bottom-nav button.active{background:color-mix(in srgb,var(--ui-primary) 14%,transparent);box-shadow:inset 0 2px var(--ui-primary);color:var(--ui-primary);font-weight:700}
+.hybrid-bottom-nav .hybrid-nav-icon{display:flex;align-items:center;justify-content:center;width:32px;height:32px;min-height:32px;line-height:1}
+.hybrid-bottom-nav svg{width:30px;height:30px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}
+}

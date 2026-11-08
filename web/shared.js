@@ -304,5 +304,18 @@
     wrapper.append(tag, marker);
     return wrapper;
   }
+  // Let mobile browsers follow Instagram universal links in the current tab,
+  // so iOS / Android can hand them to the installed Instagram app.
+  document.addEventListener("click", event => {
+    const anchor = event.target.closest?.("a[href]");
+    if (!anchor) return;
+    const url = instagram(anchor.href);
+    const phone = /iPhone|iPod|Android.*Mobile|Mobile.*Android/i.test(navigator.userAgent)
+      || (navigator.maxTouchPoints > 1 && /iPad/i.test(navigator.userAgent));
+    if (url && phone) {
+      anchor.href = url;
+      anchor.removeAttribute("target");
+    }
+  }, true);
   window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

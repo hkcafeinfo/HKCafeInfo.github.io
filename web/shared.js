@@ -115,6 +115,15 @@
     }
     return conflicts.has(key) ? `${key}|shop:${shop}` : key;
   }
+  function missingRosterText(date) {
+    const timezone = window.MAID_ROSTERS?.timezone || "Asia/Hong_Kong";
+    const today = new Intl.DateTimeFormat("en-CA", {
+      timeZone: timezone, year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date());
+    return date > "2026-10-20" && date < today
+      ? "老細沒有更新這一天的更表"
+      : "未找到更表";
+  }
   function dateNotice(shop, date) {
     return (shop.date_notices || []).find((item) => item.date === date);
   }
@@ -295,5 +304,5 @@
     wrapper.append(tag, marker);
     return wrapper;
   }
-  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

@@ -266,7 +266,7 @@
       const dated = HKCI.dateNotice(shop, date);
       if (dated) node.append(HKCI.dateNoticeView(dated));
       else if (closed) node.append(HKCI.closedNotice(shop));
-      else node.append(make("span", "matrix-empty-symbol", "—"), make("span", "matrix-empty-copy", "未找到更表"));
+      else node.append(make("span", "matrix-empty-symbol", "—"), make("span", "matrix-empty-copy", HKCI.missingRosterText(date)));
       if (shop.notice && !closed && !dated) {
         node.title = shop.notice;
         const link = sourceLink(shop);

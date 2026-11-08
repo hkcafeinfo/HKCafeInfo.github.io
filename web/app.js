@@ -275,7 +275,7 @@
     const closed = HKCI.closed(shop, date);
     const dated = HKCI.dateNotice(shop, date);
     element.append(make("span", "missing-icon", shop.notice ? "!" : "·"), make("h3", "shop-name", shop.shop),
-      dated ? HKCI.dateNoticeView(dated) : closed ? HKCI.closedNotice(shop) : make("p", "missing-copy", "呢日暫時未找到更表資料"));
+      dated ? HKCI.dateNoticeView(dated) : closed ? HKCI.closedNotice(shop) : make("p", "missing-copy", HKCI.missingRosterText(date)));
     if (shop.notice && !closed && !dated) { const link = sourceLink(shop); if (link) element.append(link); }
     return element;
   }

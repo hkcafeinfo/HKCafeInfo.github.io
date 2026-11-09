@@ -1,881 +1,451 @@
-(() => {
-  "use strict";
-  const data = window.MAID_ROSTERS;
-  const $ = (id) => document.getElementById(id);
-  const matrix = $("roster-matrix");
-  const viewport = $("matrix-viewport");
-  function normalizedInstagramHandle(value) {
-    let handle = String(value || "").trim().replace(/^@+/, "");
-    if (!handle) return "";
-    if (/^(?:https?:\/\/)?(?:www\.)?instagram\.com\//i.test(handle)) {
-      try {
-        const url = new URL(/^https?:\/\//i.test(handle) ? handle : `https://${handle}`);
-        handle = url.pathname.split("/").filter(Boolean)[0] || "";
-      } catch { return ""; }
-    }
-    return handle.replace(/^@+/, "").replace(/[/?#].*$/, "").trim().toLocaleLowerCase();
-  }
-  if (!data || !Array.isArray(data.shops)) {
-    matrix.textContent = "讀唔到更表資料。請確認 data/roster-index.js 同 index.html 放喺原本嘅資料夾結構。";
-    return;
-  }
-  const rosterDates = HKCIData.dates();
-  // Keep calendar days with no published roster visible as empty columns. This
-  // makes gaps such as 6/11 explicit instead of making the table look incomplete.
-  const dates = rosterDates.length ? (() => {
-    const result = [];
-    const cursor = new Date(`${rosterDates[0]}T12:00:00Z`);
-    const end = new Date(`${rosterDates.at(-1)}T12:00:00Z`);
-    while (cursor <= end) {
-      result.push(cursor.toISOString().slice(0, 10));
-      cursor.setUTCDate(cursor.getUTCDate() + 1);
-    }
-    return result;
-  })() : [];
-  const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
-  const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
-  const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
-  const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
-  let focusTodayOnNextRender = state.across === "dates";
-  let firstRender = true;
-  let stopProgressive = () => {};
-  let pendingJump = null;
-  let rangePosition = null;
-  let scrollIntent = 0;
-  // A background batch must not undo a scroll the user made while it yielded.
-  for (const type of ["wheel", "touchmove", "pointerdown", "keydown"]) window.addEventListener(type, () => { scrollIntent++; }, { passive: true });
-  window.addEventListener("pointermove", event => { if (event.buttons) scrollIntent++; }, { passive: true });
-  let measuredColumnWidth = 0, sizingColumns = false;
-  function sizeCompleteColumns() {
-    if (sizingColumns || !viewport.clientWidth || document.body.classList.contains("person-search-mode")) return;
-    sizingColumns = true;
-    const label = parseFloat(getComputedStyle(matrix).getPropertyValue("--label-width")) || 164;
-    const available = Math.max(1, viewport.clientWidth - label);
-    const count = Math.max(1, Math.floor(available / 240));
-    const width = available / count;
-    const oldWidth = measuredColumnWidth || parseFloat(getComputedStyle(matrix).getPropertyValue("--column-width")) || width;
-    if (Math.abs(width - measuredColumnWidth) > 0.05) {
-      const column = Math.round(viewport.scrollLeft / oldWidth);
-      matrix.style.setProperty("--column-width", width + "px");
-      viewport.style.scrollPaddingLeft = label + "px";
-      measuredColumnWidth = width;
-      viewport.scrollLeft = column * width;
-      requestAnimationFrame(() => { sticky.replaceChildren(); updateSticky(); });
-    }
-    sizingColumns = false;
-  }
-  new ResizeObserver(sizeCompleteColumns).observe(viewport);
-  window.addEventListener("hkcafeinfo:view-change", () => requestAnimationFrame(sizeCompleteColumns));
-  function persist() { try { sessionStorage.setItem("hkcafeinfo-matrix-v1", JSON.stringify({ ...state, scrollLeft: viewport.scrollLeft })); } catch { /* optional */ } }
-  viewport.addEventListener("scroll", () => { persist(); updateSticky(); }, { passive: true });
-  const sticky = makeSticky();
-  function makeSticky() {
-    const node = document.createElement("div"); node.className = "matrix-sticky-header"; node.hidden = true;
-    node.setAttribute("role", "group"); node.setAttribute("aria-label", "固定更表表頭");
-    document.body.append(node); return node;
-  }
-  function controlsBottom() { return window.HKCISticky?.refresh() ?? Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0); }
-  function updateSticky() {
-    const header = matrix.querySelector(".matrix-header");
-    if (!header || $("matrix-view").hidden) { sticky.hidden = true; return; }
-    const bounds = viewport.getBoundingClientRect();
-    const headerBounds = header.getBoundingClientRect();
-    const height = headerBounds.height;
-    const top = controlsBottom();
-    sticky.style.top = `${top}px`;
-    const visible = headerBounds.top <= top && bounds.bottom > top + height;
-    sticky.hidden = !visible;
-    const originalToday = header.querySelector(".matrix-today");
-    if (originalToday) originalToday.tabIndex = visible ? -1 : 0;
-    if (!visible) return;
-    sticky.style.left = `${bounds.left}px`; sticky.style.width = `${bounds.width}px`; sticky.style.height = `${height}px`;
-    let copy = sticky.firstElementChild;
-    if (!copy || copy.dataset.originalWidth !== String(header.getBoundingClientRect().width)) {
-      copy = header.cloneNode(true);
-      copy.removeAttribute("role");
-      // Only Today is interactive in the floating copy; keep the duplicated
-      // headings and profile links out of keyboard and screen-reader navigation.
-      for (const heading of [...copy.children].slice(1)) { heading.inert = true; heading.setAttribute("aria-hidden", "true"); }
-      copy.firstElementChild.removeAttribute("role");
-      const todayButton = copy.querySelector(".matrix-today");
-      todayButton.id = "matrix-sticky-today"; todayButton.tabIndex = 0;
-      copy.dataset.originalWidth = String(header.getBoundingClientRect().width);
-      copy.style.gridTemplateColumns = getComputedStyle(header).gridTemplateColumns;
-      copy.style.width = `${header.getBoundingClientRect().width}px`;
-      sticky.replaceChildren(copy);
-    }
-    copy.style.transform = `translateX(${-viewport.scrollLeft}px)`;
-    if (copy.firstElementChild) copy.firstElementChild.style.transform = `translateX(${viewport.scrollLeft}px)`;
-  }
-  window.addEventListener("scroll", updateSticky, { passive: true });
-  window.addEventListener("hkcafeinfo:sticky-change", updateSticky);
-  window.addEventListener("resize", () => { sticky.replaceChildren(); updateSticky(); });
+:root{--hybrid-purple:var(--ui-primary);--hybrid-soft:var(--ui-soft);--hybrid-line:var(--ui-border)}body{font-family:-apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif}.topbar{display:flex;gap:25px;align-items:center;min-height:74px;padding:14px 28px;background:color-mix(in srgb, var(--ui-surface) 96.8627%, transparent);backdrop-filter:blur(16px)}.hybrid-brand{display:flex;align-items:center;gap:10px;color:var(--ui-text);text-decoration:none;white-space:nowrap}.hybrid-brand strong{font-size:21px;letter-spacing:-.7px}.hybrid-brand-mark{height:36px;width:36px;border-radius:12px;background:var(--hybrid-purple);color:var(--ui-on-primary);display:grid;place-items:center;font-size:23px}.hybrid-header-nav{display:flex;gap:5px;align-self:stretch;align-items:center}.hybrid-header-nav button{padding:10px 14px;border:0;background:none;color:var(--ui-primary);font-size:13px;border-radius:10px}.hybrid-header-nav button.active{background:var(--hybrid-soft);color:var(--hybrid-purple);font-weight:650}.hybrid-demo-label{margin-left:auto;background:var(--hybrid-soft);border:1px solid var(--hybrid-line);padding:3px 8px;border-radius:6px;color:var(--ui-muted);font-size:10px;white-space:nowrap}.hybrid-instagram{font-size:11px;color:var(--ui-primary);white-space:nowrap}.hybrid-preview-note{padding:8px 24px;font-size:10px;color:var(--ui-muted);border-bottom:1px solid var(--ui-border)}.hybrid-preview-note a{color:var(--ui-primary)}.summary,.hero-carousel-controls,.hero-slide:not(:first-child),.hero .eyebrow{display:none!important}.hero{margin-bottom:22px}.hero .hero-slide-title{font-size:39px}.hero p{font-size:13px}.hero-meta{margin-top:12px}.hero-copy{padding-block:24px}.view-controls>.global-search{display:none!important}.view-controls{gap:10px!important;align-items:center!important;flex-wrap:wrap!important}.hybrid-search-field{order:1;display:flex;align-items:center;gap:10px;flex:1 1 300px;background:var(--ui-surface);border:1px solid var(--ui-border);border-radius:13px;padding:0 15px;min-height:48px;color:var(--hybrid-purple)}.hybrid-search-field:focus-within{outline:2px solid var(--ui-focus);outline-offset:1px}.hybrid-search-field input{font:inherit;font-size:13px;color:var(--ui-text);background:none;border:0;outline:0;min-width:0;width:100%;height:46px}.hybrid-search-field>span{font-size:24px}.view-controls>.sidebar-toggle{order:0;border-radius:12px;background:var(--ui-surface);border-color:var(--hybrid-line);font-size:12px}.view-switch{order:2;border-radius:12px!important;background:var(--ui-soft)!important}.view-switch .view-button{font-size:12px!important}.view-switch #show-events,.view-switch #show-people,.view-switch #show-shops{display:none!important}.view-switch .view-button.active{color:var(--hybrid-purple)!important}.view-controls.sticky-controls{background:color-mix(in srgb, var(--ui-page) 97.2549%, transparent)!important;box-shadow:0 6px 12px color-mix(in srgb, var(--ui-shadow) 2.7451%, transparent)}.hybrid-date-control{width:100%;display:flex;flex-direction:column;gap:10px;padding:6px 0}.hybrid-date-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.hybrid-quick{display:flex;align-items:center;gap:6px}.hybrid-button{border:1px solid var(--hybrid-line);border-radius:10px;padding:8px 12px;min-height:37px;background:var(--ui-surface);color:var(--ui-primary);font:inherit;font-size:12px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:5px;white-space:nowrap}.hybrid-button.active,.hybrid-button.primary{background:var(--hybrid-purple);color:var(--ui-on-primary);border-color:var(--hybrid-purple)}.hybrid-button.soft{background:var(--hybrid-soft);color:var(--hybrid-purple)}.hybrid-date-picker{display:flex;gap:6px;align-items:center}.hybrid-date-picker input{font:inherit;font-size:12px;padding:7px;border:1px solid var(--hybrid-line);border-radius:9px;background:var(--ui-surface);color:var(--ui-muted);min-height:37px;width:140px}.hybrid-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px}.hybrid-day{font:inherit;border:1px solid var(--hybrid-line);background:var(--ui-surface);border-radius:11px;padding:7px 2px;color:var(--ui-muted);min-height:65px;cursor:pointer}.hybrid-day span{font-size:10px;display:block}.hybrid-day b{font-size:19px;display:block;color:var(--ui-text);line-height:1.5}.hybrid-day.active{background:var(--hybrid-purple);color:var(--ui-on-primary);border-color:var(--hybrid-purple)}.hybrid-day.active b{color:var(--ui-on-primary)}#date-bar,#date-scroll-prev,#date-scroll-next{display:none!important}#date-selector-wrap{padding:0!important;background:transparent}#date-selector-wrap:before,#date-selector-wrap:after{display:none!important}#matrix-view .matrix-controls-row{display:flex!important;flex-wrap:wrap!important;gap:10px!important;padding:0 0 10px!important;background:var(--ui-page)}#matrix-view .matrix-controls-row>.hybrid-date-control{flex:1 1 100%;width:100%;order:-1}.matrix-controls-row .matrix-filter-controls{flex:1 1 auto!important}.matrix-controls-row .matrix-navigation{margin-left:auto!important}.person-search-mode :is([data-date-control="matrix"],[data-date-control="cards"]){display:none!important}.person-search-mode .matrix-filter-controls .axis-switch{display:none!important}body:not([data-view="cards"]):not([data-view="matrix"]) .view-switch,body.hybrid-extra .view-switch{display:none!important}.hybrid-heart{background:var(--ui-surface);border:1px solid var(--ui-border);color:var(--ui-muted);border-radius:9px;padding:6px 9px;font:inherit;font-size:11px;min-height:32px;cursor:pointer;white-space:nowrap;display:inline-flex;gap:4px;align-items:center;justify-content:center}.hybrid-heart.saved{background:var(--ui-soft);color:var(--ui-primary);border-color:var(--ui-border)}.hybrid-heart .heart-icon{font-size:17px;line-height:1}.card-foot .hybrid-heart{margin-left:auto}.card-foot .hybrid-heart+.source-link{margin-left:0}.hybrid-event-actions{display:flex;gap:8px;justify-content:flex-end;padding:9px 0 0;margin-top:8px;border-top:1px solid var(--ui-border);position:relative;z-index:1}.hybrid-event-actions .hybrid-button,.hybrid-event-actions .hybrid-heart{font-size:10px;padding:5px 9px;min-height:31px}.hybrid-next{padding:14px 17px;border:1px solid var(--ui-border);border-radius:13px;background:var(--ui-tint);margin:14px 0}.hybrid-next .eyebrow{font-size:10px;display:block;color:var(--ui-muted)}.hybrid-next b{font-size:16px;color:var(--ui-primary);display:block;margin:5px 0}.hybrid-next p{font-size:11px;color:var(--ui-muted);margin:0}.hybrid-next .hybrid-button{margin-top:9px;background:var(--ui-surface);font-size:11px;min-height:31px;padding:5px 9px}.person-card-top>.hybrid-heart{margin-left:auto}.person-card-top .person-report{margin-left:0}.person-photo-placeholder{background:var(--ui-tint)!important;color:var(--ui-muted)!important}.hybrid-map-icon{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;vertical-align:middle;margin-right:5px;flex-shrink:0}.shop-intro-address a,.shop-address{display:inline-flex;align-items:start}.hybrid-inline-section{padding:20px 0;min-height:400px}.hybrid-inline-section h2{font-size:23px;margin:0 0 8px}.hybrid-inline-section>.hybrid-description{font-size:12px;color:var(--ui-muted);margin:0 0 20px}.hybrid-result-group{margin-bottom:23px}.hybrid-result-group>h3{font-size:13px;color:var(--ui-muted);margin:16px 0 10px}.hybrid-result-row{display:flex;width:100%;align-items:center;gap:12px;text-align:left;border:1px solid var(--ui-border);border-radius:12px;padding:13px 15px;background:var(--ui-surface);margin-bottom:8px;color:var(--ui-muted);cursor:pointer;font:inherit}.hybrid-result-row img{width:38px;height:38px;object-fit:cover;border-radius:10px}.hybrid-result-row b{display:block;font-size:13px}.hybrid-result-row small{display:block;font-size:11px;color:var(--ui-muted)}.hybrid-result-row>span{flex:1}.hybrid-result-row>i{font-style:normal;color:var(--ui-muted)}.hybrid-searching .content-main>section:not(#hybrid-search-results),.hybrid-searching .content-main>.control-slot,.hybrid-extra .content-main>section:not(#hybrid-extra-view){display:none!important}.hybrid-searching #hybrid-search-results,.hybrid-extra #hybrid-extra-view{display:block!important}.hybrid-searching .matrix-sticky-header,.hybrid-extra .matrix-sticky-header{display:none!important}.hybrid-saved-group{margin:24px 0}.hybrid-saved-group>h3{font-size:15px;margin-bottom:13px}.hybrid-saved-row{display:flex;align-items:center;gap:10px;border:1px solid var(--ui-border);border-radius:12px;background:var(--ui-surface);padding:12px;margin-bottom:9px}.hybrid-saved-row>button:first-child{flex:1;border:0;background:none;text-align:left;font:inherit;font-size:13px;color:var(--ui-primary);cursor:pointer}.hybrid-empty{background:var(--ui-surface);border:1px dashed var(--ui-border);border-radius:16px;padding:30px;color:var(--ui-muted);text-align:center;font-size:13px}.hybrid-form{max-width:650px;background:var(--ui-surface);border:1px solid var(--ui-border);border-radius:18px;padding:22px}.hybrid-form label{display:block;color:var(--ui-muted);font-size:12px;margin:14px 0}.hybrid-form input,.hybrid-form select,.hybrid-form textarea{display:block;font:inherit;width:100%;border:1px solid var(--ui-border);border-radius:10px;padding:10px;background:var(--ui-surface);margin-top:7px;color:var(--ui-muted)}.hybrid-form textarea{resize:vertical;min-height:130px}.hybrid-report-note{padding:12px 14px;border-radius:10px;background:var(--ui-tint);color:var(--ui-muted);font-size:12px}.hybrid-inline-event{margin:20px 0}.hybrid-bottom-nav{display:none}.hybrid-toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--ui-primary);color:var(--ui-on-primary);padding:11px 18px;border-radius:12px;font-size:12px;z-index:150;box-shadow:0 6px 30px color-mix(in srgb, var(--ui-shadow) 6.6667%, transparent);max-width:90%;display:none}.hybrid-toast.show{display:block}#export-feedback{display:none!important}.person-report{font-size:10px!important}.summary[hidden]{display:none!important}.hybrid-extra .matrix-controls-row,.hybrid-extra .events-controls-row{display:none!important}body{padding-bottom:0}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--ui-focus);outline-offset:3px}
+@media(max-width:1000px){.hybrid-header-nav button{padding:8px 9px;font-size:12px}.topbar{gap:13px;padding:12px 20px}.hybrid-instagram{display:none}.hybrid-brand strong{font-size:19px}}
+@media(max-width:700px){body{padding-bottom:70px}.topbar{min-height:60px;padding:11px 17px;gap:12px}.hybrid-brand-mark{width:32px;height:32px;font-size:20px;border-radius:10px}.hybrid-brand strong{font-size:19px}.hybrid-header-nav{display:none}.hybrid-preview-note{font-size:9px;padding:6px 17px}.hero .hero-slide-title{font-size:30px}.hero-copy{padding-block:20px!important}.hero{margin-bottom:16px}.hero-meta{font-size:10px;margin-top:9px}.hero p{font-size:11px}.view-controls>.sidebar-toggle{font-size:10px;min-height:39px;padding:8px 10px;order:1}.hybrid-search-field{order:2;flex:1 1 100%;min-height:44px;padding:0 12px}.hybrid-search-field input{font-size:12px;height:42px}.view-switch{order:0;flex:1;justify-content:flex-start}.view-switch .view-button{padding:7px 14px!important;font-size:11px!important}.hybrid-date-picker input{font-size:11px;width:123px;min-height:34px;padding:5px}.hybrid-date-picker>.hybrid-button{display:none}.hybrid-button{font-size:11px;padding:6px 9px;min-height:34px}.hybrid-date-control{gap:8px;padding:4px 0}.hybrid-quick{gap:5px}.hybrid-week{gap:5px}.hybrid-day{padding:6px 2px;min-height:59px}.hybrid-day b{font-size:17px}.hybrid-day span{font-size:9px}.hybrid-date-top{gap:6px}.hybrid-bottom-nav{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;bottom:0;left:0;right:0;background:color-mix(in srgb, var(--ui-surface) 96.0784%, transparent);border-top:1px solid var(--hybrid-line);padding:5px 5px max(8px,env(safe-area-inset-bottom));z-index:120;backdrop-filter:blur(16px)}.hybrid-bottom-nav button{border:0;background:none;border-radius:10px;display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ui-primary);font:inherit;font-size:9px;min-height:48px;padding:4px 0}.hybrid-bottom-nav button.active{background:var(--ui-soft);color:var(--ui-primary);font-weight:600}.hybrid-nav-icon{font-size:19px;line-height:1.3}.hybrid-toast{bottom:85px;font-size:11px}.card-foot .hybrid-heart{font-size:10px;padding:5px 7px;min-height:30px}.card-foot{gap:7px;flex-wrap:wrap}.card-foot .headcount,.card-foot .source-link{font-size:10px}.hybrid-event-actions{padding-top:8px}.hybrid-event-actions .hybrid-button,.hybrid-event-actions .hybrid-heart{font-size:10px;min-height:30px}.person-card-top{flex-wrap:wrap!important}.person-card-top>.hybrid-heart{font-size:10px}.hybrid-next{padding:12px 14px}.hybrid-next b{font-size:14px}.hybrid-next p{font-size:10px}.hybrid-inline-section h2{font-size:20px}.hybrid-form{padding:16px}#matrix-view .matrix-controls-row>.matrix-filter-controls{gap:5px!important;flex:1 1 100%!important}.hybrid-inline-section{padding-top:13px}.section-kicker{font-size:9px}.hybrid-searching .view-switch{display:none!important}.hybrid-event-actions .hybrid-heart{margin-left:0}}
+/* Latest feedback: shorter banner and keep controls on one line where they fit. */
+.hero{padding:12px 28px!important;min-height:0!important;height:auto!important;margin-bottom:17px}.hero-copy{padding:2px 0!important}.hero .hero-slide-title{margin:0 0 6px!important;font-size:36px;line-height:1.2}.hero p{margin:0!important;line-height:1.5}.hero-meta{margin-top:6px;font-size:10px}.content-main .view-controls,.sidebar-collapsed .content-main .view-controls{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;gap:9px!important;align-items:center!important}.content-main .view-controls>.sidebar-toggle{order:0;flex:0 0 auto}.content-main .view-controls>.hybrid-search-field{order:1;flex:1 1 auto!important;min-width:0;width:auto}.content-main .view-controls>.view-switch{order:2;flex:0 0 auto!important}.content-main .view-controls>.global-search{display:none!important}#card-view .card-range-controls{display:none!important}.date-selector-wrap.sticky-controls,.hybrid-date-control{background:var(--ui-page)}#matrix-view .matrix-controls-row>.matrix-filter-controls{flex:0 0 auto!important}#matrix-view .matrix-filter-controls>.range-toggle,#matrix-view .matrix-filter-controls>.axis-switch{flex:0 0 auto!important}#matrix-view .matrix-filter-controls .range-toggle-button,#matrix-view .matrix-filter-controls .axis-button{flex:0 0 auto}.hybrid-next .hybrid-button{margin-right:4px}
+@media(min-width:1100px){.hybrid-date-control{flex-direction:row;gap:15px;align-items:center}.hybrid-date-top{flex:0 0 auto;gap:12px}.hybrid-week{flex:1;min-width:0}.hybrid-day{min-height:56px;padding:4px 2px}.hybrid-date-picker input{width:128px}.hybrid-date-picker .hybrid-button{padding-inline:9px}}
+@media(max-width:700px){.hero{padding:11px 22px!important;margin-bottom:13px}.hero .hero-slide-title{font-size:28px;margin-bottom:5px!important}.hero p{font-size:10px}.hero-meta{font-size:9px;margin-top:5px}.content-main .view-controls,.sidebar-collapsed .content-main .view-controls{gap:6px!important}.content-main .view-controls>.sidebar-toggle{font-size:9px;min-height:39px;padding:6px 7px}.content-main .view-controls>.hybrid-search-field{padding:0 8px;gap:5px;min-height:39px}.hybrid-search-field input{font-size:10px;height:37px}.hybrid-search-field>span{font-size:18px}.content-main .view-controls>.view-switch{gap:1px;padding:3px!important;min-width:0}.content-main .view-controls .view-button{padding:7px 8px!important;font-size:10px!important;min-width:0}.hybrid-day{min-height:54px;padding:4px 2px}.hybrid-day b{font-size:17px}#matrix-view .matrix-controls-row>.matrix-filter-controls{flex:0 0 auto!important;max-width:100%;gap:5px!important}#matrix-view .matrix-filter-controls .range-toggle-button,#matrix-view .matrix-filter-controls .axis-button{padding:7px 8px!important;font-size:10px!important}#matrix-view .matrix-controls-row>.matrix-navigation{display:none!important}#matrix-view .matrix-controls-row>.person-back{min-height:36px;height:36px;padding:0 9px;font-size:11px}.person-search-mode #matrix-view .matrix-controls-row{flex-wrap:nowrap!important}.person-search-mode #matrix-view .matrix-controls-row>.matrix-filter-controls{flex:0 1 auto!important}.person-search-mode #matrix-view .matrix-filter-controls>.range-toggle{flex:1 1 auto!important}.hybrid-next .hybrid-button{font-size:10px;padding:5px 7px}}
+@media(max-width:360px){.content-main .view-controls .view-button{padding:7px 6px!important}.content-main .view-controls>.sidebar-toggle{font-size:8px;padding:5px}.hybrid-search-field input{font-size:9px}#matrix-view .matrix-filter-controls .range-toggle-button,#matrix-view .matrix-filter-controls .axis-button{padding:6px 5px!important;font-size:9px!important}.hybrid-date-picker input{width:110px;font-size:10px}.hybrid-quick .hybrid-button{font-size:10px;padding:5px 7px}}
+.content-main .view-controls>.view-switch{width:auto!important;max-width:100%;min-width:0}.content-main .view-controls>.hybrid-search-field{flex-basis:0!important}.content-main .view-controls>.view-switch>.view-button{width:auto;min-width:0}
+@media(max-width:700px){.content-main .view-controls>.view-switch{max-width:100px;width:auto!important}.content-main .view-controls>.view-switch>.view-button{flex:0 0 auto!important;min-width:0!important;width:auto!important}.content-main .view-controls>.sidebar-toggle{max-width:90px}.content-main .view-controls>.hybrid-search-field{flex:1 1 0!important}}
 
-  function make(tag, className, value) {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    if (value != null) node.textContent = value;
-    return node;
-  }
-  function dateLabel(date) {
-    const value = new Date(`${date}T12:00:00Z`);
-    return {
-      day: new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", month: "numeric", day: "numeric" }).format(value),
-      weekday: new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", weekday: "short" }).format(value),
-    };
-  }
-  function instagramUrl(value) {
-    try {
-      const url = new URL(value);
-      return url.protocol === "https:" && url.hostname === "www.instagram.com" ? url.href : null;
-    } catch { return null; }
-  }
-  function sourceLink(shop, override) {
-    const url = instagramUrl(override || shop.source);
-    if (!url) return null;
-    const link = make("a", "matrix-source", "來源 ↗");
-    link.href = url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    return link;
-  }
-  function includesPerson(shop, date) {
-    const shift = (shop.shifts || []).find((item) => item.date === date);
-    return Boolean(shift && shop.shop.toLocaleLowerCase().includes(state.search)) || Object.values(shift?.groups || {}).some((names) => names.some((name) => HKCI.matchesPerson(data, shop.shop, name, state.search)));
-  }
-  function visible() {
-    let shownDates = dates;
-    if (state.range !== "all") shownDates = shownDates.filter((date) => date >= today);
-    let shops = data.shops.filter((shop) => state.search || shop.shop === state.focusTarget?.shop || window.MAID_VISIBLE_SHOPS?.has(shop.shop));
-    return { shownDates, shops };
-  }
-  function shopHours(shop) {
-    const hours = make("div", "matrix-opening-hours");
-    hours.append(make("span", "hours-heading", "營業時間"));
-    for (const line of (shop.opening_hours || "常規營業時間待確認").split("\n")) hours.append(HKCI.appendTimeText(make("span", "hours-line"), line));
-    return hours;
-  }
-  function rowHead(label, subtitle, profile, photo, shop) {
-    const node = make("div", "matrix-rowhead");
-    node.setAttribute("role", "rowheader");
-    const url = instagramUrl(profile);
-    const title = make(url ? "a" : "strong", "rowhead-title", label);
-    if (url) { title.href = url; title.target = "_blank"; title.rel = "noopener noreferrer"; }
-    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; node.append(img); }
-    node.append(title);
-    if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; node.append(ig); }
-    node.append(shop ? HKCI.addressLink(shop, "rowhead-subtitle") : make("span", "rowhead-subtitle", subtitle));
-    if (shop) node.append(shopHours(shop));
-    return node;
-  }
-  function columnHead(label, subtitle, active, photo, profile, shop) {
-    const node = make("div", `matrix-colhead${active ? " is-today" : ""}`);
-    node.setAttribute("role", "columnheader");
-    if (shop) node.dataset.shop = shop.shop;
-    const identity = shop ? make("div", "matrix-shop-heading") : node;
-    if (photo) { const img = make("img", "shop-profile-photo"); HKCILoading.image(img, photo); img.alt = ""; identity.append(img); }
-    const copy = shop ? make("div", "matrix-shop-copy") : node;
-    copy.append(make("strong", null, label));
-    const url = HKCI.instagram(profile);
-    if (url) { const ig = make("a", "shop-ig", HKCI.handle(url)); ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; copy.append(ig); }
-    copy.append(shop ? HKCI.addressLink(shop, "rowhead-subtitle") : make("span", null, subtitle));
-    if (shop) { identity.append(copy); node.append(identity); }
-    if (shop) node.append(shopHours(shop));
-    return node;
-  }
-  function dateColumnHead(date) {
-    const info = dateLabel(date);
-    const node = columnHead("", "", date === today);
-    node.dataset.date = date;
-    const [year, month, day] = date.split("-").map(Number);
-    const bottom = make("span", "matrix-date-bottom", info.weekday);
-    if (date === today) bottom.append(make("span", "matrix-date-today", "今日"));
-    node.replaceChildren(make("span", "matrix-date-year", year + "年"),
-      make("strong", "matrix-date-label", month + "月" + day + "日"), bottom);
-    return node;
-  }
-  function cornerHead(axis) {
-    const corner = make("div", "matrix-corner");
-    corner.setAttribute("role", "columnheader");
-    const label = make("span", "matrix-corner-label", axis === "dates" ? "CAFE / 日期" : "日期 / CAFE");
-    const button = make("button", "matrix-today", "回到今日");
-    button.type = "button"; button.id = "matrix-today";
-    button.title = "回到今日，保留目前店舖位置";
-    corner.append(label, button);
-    return corner;
-  }
-  function cell(shop, date) {
-    const node = make("div", "matrix-cell");
-    node.setAttribute("role", "cell");
-    node.dataset.shop = shop.shop;
-    node.dataset.date = date;
-    const shift = (shop.shifts || []).find((item) => item.date === date);
-    const unresolved = (shop.unresolved || []).find((item) => item.date === date);
-    if (shift) {
-      HKCI.eventArt(data, shop, shift, node);
-      if (shift.event_name) node.append(make("strong", "matrix-event-name", shift.event_name));
-      let count = 0;
-      for (const [, roleGroups] of HKCI.orderedRoleGroups(shift.groups, shop.shop)) {
-        for (const [role, names] of roleGroups) {
-        const people = state.search ? names.filter((name) => HKCI.matchesPerson(data, shop.shop, name, state.search)) : names;
-        if (!people.length) continue;
-        count += people.length;
-        const group = make("div", "matrix-role");
-        group.append(make("span", "matrix-role-label", HKCI.roleLabel(shop.shop, role)));
-        const tags = make("div", "matrix-people");
-        for (const name of people) {
-          const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
-          const cancelled = attendance.story_status === "absent" || Boolean(attendance.cancelled);
-          const storyLabel = "（已取消）";
-          const tag = make("button", `matrix-person${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");
-          tag.type = "button";
-          tag.append(make("span", cancelled ? "cancelled-name" : null, HKCI.displayName(name)));
-          if (shift.person_times?.[name]) tag.append(make("small", "person-time", HKCI.formatPersonTimes(shift.person_times[name])));
-          tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
-          if (shift.review_names?.[name]) tag.title = shift.review_names[name];
-          if (attendance.story_status === 'absent' || attendance.story_status === 'extra') {
-            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source, false));
-          } else if (cancelled) {
-            const marker = make("span", "cancelled-attendance-label", storyLabel);
-            const attendanceTag = make("span", "person-attendance"); attendanceTag.append(tag, marker); tags.append(attendanceTag);
-          } else tags.append(tag);
-        }
-        group.append(tags);
-        node.append(group);
-        }
-      }
-      if (count) {
-        node.classList.add("matrix-cell-roster");
-        if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) node.append(make("p", "matrix-note", shift.notes));
-        const foot = make("div", "matrix-cell-foot");
-        foot.append(make("span", null, shift.hours || "時間未註明"));
-        const sources = HKCI.rosterSourceLinks(shift);
-        if (sources) foot.append(sources);
-        node.append(foot);
-      } else { node.classList.add("matrix-cell-empty"); node.append(make("span", "matrix-empty-copy", "—")); }
-    } else if (unresolved && !state.search) {
-      node.classList.add("matrix-cell-pending");
-      node.append(make("strong", "matrix-status", "待核對名單"), make("p", "matrix-status-copy", unresolved.reason));
-      const link = sourceLink(shop, unresolved.source);
-      if (link) node.append(link);
-    } else {
-      node.classList.add("matrix-cell-empty");
-      const closed = HKCI.closed(shop, date);
-      const dated = HKCI.dateNotice(shop, date);
-      if (dated) node.append(HKCI.dateNoticeView(dated));
-      else if (closed) node.append(HKCI.closedNotice(shop));
-      else node.append(make("span", "matrix-empty-symbol", "—"), make("span", "matrix-empty-copy", HKCI.missingRosterText(date)));
-      if (shop.notice && !closed && !dated) {
-        node.title = shop.notice;
-        const link = sourceLink(shop);
-        if (link) node.append(link);
-      }
-    }
-    return node;
-  }
-  function capturePosition() {
-    if (state.search || state.person) return null;
-    const header = matrix.firstElementChild;
-    const rows = [...matrix.children].slice(1);
-    if (!header?.classList.contains("matrix-header") || !rows.length || !header.children[1]) return null;
-    const width = header.children[1].getBoundingClientRect().width;
-    const column = header.children[Math.min(header.children.length - 1, Math.floor((viewport.scrollLeft + 1) / width) + 1)];
-    const top = controlsBottom() + header.getBoundingClientRect().height;
-    let lo = 0, hi = rows.length;
-    while (lo < hi) { const mid = (lo + hi) >> 1; if (rows[mid].getBoundingClientRect().bottom <= top) lo = mid + 1; else hi = mid; }
-    const row = rows[Math.min(lo, rows.length - 1)];
-    return { axis: state.across, intent: scrollIntent, date: state.across === "dates" ? column.dataset.date : row.dataset.date,
-      shop: state.across === "dates" ? row.dataset.shop : column.dataset.shop,
-      columnOffset: column.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - header.firstElementChild.getBoundingClientRect().width,
-      rowTop: row.getBoundingClientRect().top };
-  }
-  function restorePosition(position) {
-    if (!position || position.axis !== state.across || position.intent !== scrollIntent) return;
-    const header = matrix.firstElementChild;
-    if (!header) return;
-    const horizontal = state.across === "dates" ? "date" : "shop", vertical = state.across === "dates" ? "shop" : "date";
-    const column = [...header.children].find(node => node.dataset[horizontal] === position[horizontal]);
-    const row = [...matrix.children].find(node => node.dataset[vertical] === position[vertical]);
-    if (column) viewport.scrollLeft += column.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - header.firstElementChild.getBoundingClientRect().width - position.columnOffset;
-    if (row) window.scrollTo({ top: window.scrollY + row.getBoundingClientRect().top - position.rowTop, behavior: "instant" });
-    updateSticky(); persist();
-  }
-  function constrainRangePosition(position) {
-    if (position && state.range === "future" && position.date < today) {
-      position.date = today;
-      if (state.across === "dates") position.columnOffset = 0;
-    }
-  }
-  function replaceTable(content, columns, position) {
-    // Keep the connected table intact while async work yields. Clearing it
-    // early resets mobile scroll/snap positions before the anchor is restored.
-    // If the user moved meanwhile, carry their latest position into the swap.
-    if (position && position.intent !== scrollIntent) {
-      const latest = capturePosition();
-      if (latest) { Object.assign(position, latest); constrainRangePosition(position); }
-    }
-    HKCILoading.clear(matrix);
-    matrix.style.setProperty("--columns", String(columns));
-    matrix.append(content);
-  }
-  async function render(position) {
-    // Event listeners also call render directly; only a captured table position
-    // is an anchor, never the click/input event itself.
-    position = position?.axis ? position : null;
-    if (!position) rangePosition = null;
-    stopProgressive();
-    if ($("matrix-view").hidden) return;
-    let current = () => false;
-    if (position) matrix.style.minHeight = `${matrix.getBoundingClientRect().height}px`;
-    else matrix.style.removeProperty("min-height");
-    await HKCILoading.render(matrix, async active => {
-    const valid = () => active() && !$("matrix-view").hidden;
-    current = valid;
-    for (const button of $("date-range").querySelectorAll("[data-range]")) {
-      const active = button.dataset.range === state.range;
-      button.classList.toggle("active", active);
-      button.setAttribute("aria-pressed", String(active));
-    }
-    const previousScroll = firstRender ? (saved.scrollLeft || 0) : viewport.scrollLeft;
-    firstRender = false;
-    const personMode = Boolean(state.search || state.person);
-    // A person's historical month may still need downloading. Do not expose
-    // the previous full roster as though clicking the name returned to it.
-    if (personMode) {
-      HKCILoading.clear(matrix);
-      const loading = make('p', 'person-loading', '正在載入人物資料…');
-      loading.setAttribute('role', 'status');
-      matrix.append(loading);
-    }
-    document.body.classList.toggle("person-search-mode", personMode && !$("matrix-view").hidden);
-    $("matrix-view").classList.toggle("people-card-view", personMode);
-    $("person-back").hidden = !personMode;
-    fitControls(true);
-    const { shownDates, shops: selectedShops } = visible();
-    if (!personMode && shownDates.length > 90 && selectedShops.length) {
-      await renderProgressive(shownDates, selectedShops, previousScroll, valid, position);
-      return;
-    }
-    matrix.removeAttribute("data-viewport-ready");
-    matrix.removeAttribute("data-archive-complete");
-    const requestedDates = personMode ? await HKCIData.searchDates(state.search, state.person, state.range, today) : shownDates;
-    if (!valid()) return;
-    const loadedShops = await HKCIData.shops(requestedDates, valid);
-    if (!valid()) return;
-    const shops = selectedShops.map(shop => loadedShops.find(item => item.shop === shop.shop));
-    if (state.search || state.person) {
-      HKCILoading.clear(matrix);
-      matrix.removeAttribute("role");
-      const groups = new Map();
-      // A selected person exists independently of the current date range.
-      // Seed their profile from the catalog, even when no shifts match.
-      if (state.person) {
-        const shop = loadedShops.find(item => item.shop === state.person.shop);
-        if (shop) {
-          const name = state.person.name;
-          groups.set(HKCI.identityKey(data, shop.shop, name), {
-            shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || "",
-            shifts: [], shops: new Set([shop.shop])
-          });
-        }
-      }
-      for (const shop of loadedShops) for (const shift of shop.shifts || []) {
-        if (state.range !== "all" && shift.date < today) continue;
-        for (const [role, names] of Object.entries(shift.groups || {})) for (const name of names) {
-          if (state.person && HKCI.identityKey(data, shop.shop, name) !== HKCI.identityKey(data, state.person.shop, state.person.name)) continue;
-          if (!state.person && !shop.shop.toLocaleLowerCase().includes(state.search) && !HKCI.matchesPerson(data, shop.shop, name, state.search)) continue;
-          const key = HKCI.identityKey(data, shop.shop, name);
-          if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || "", shifts: [], shops: new Set() });
-          if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
-          groups.get(key).shops.add(shop.shop);
-          const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
-          if (!groups.get(key).shifts.some((item) => item.shop.shop === shop.shop && item.shift === shift && item.role === role)) {
-            groups.get(key).shifts.push({ shop, shift, role, attendanceType: attendance?.type || "當值",
-              cancelled: attendance?.story_status === "absent" || Boolean(attendance?.cancelled), storyStatus: attendance?.story_status, cancellationSource: attendance?.story_source || attendance?.cancellation_source || "" });
-          }
-        }
-      }
-      const list = make("div", "person-card-list");
-      if (!groups.size) matrix.append(make("p", "matrix-no-dates", "呢個範圍搵唔到當值記錄；可切換「全部更表」睇舊更表。"));
-      else matrix.append(list);
-      $("matrix-result-count").textContent = `${groups.size} 位女僕`;
-      await HKCILoading.batches(list, [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK")), async person => {
-        const card = make("article", "person-card");
-        const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
-        const sharedInfo = person.personId
-          ? data.people_by_id?.[person.personId] || Object.values(data.people || {}).find(info => info.person_id === person.personId) || {}
-          : {};
-        const info = { ...sharedInfo, ...shopInfo,
-          profile_image: shopInfo.profile_image || sharedInfo.profile_image || "" };
-        const allNames = new Set([sharedInfo.display_name, ...(sharedInfo.names || []), person.name].filter(Boolean)), allHandles = new Map();
-        const addInstagramAccount = (account) => {
-          const handle = normalizedInstagramHandle(account?.handle);
-          if (!handle) return;
-          const existing = allHandles.get(handle);
-          if (!existing || (existing.status !== "current" && account.status === "current")) {
-            allHandles.set(handle, { ...account, handle });
-          }
-        };
-        for (const account of sharedInfo.instagram_accounts || []) addInstagramAccount(account);
-        if (person.personId) {
-          for (const [name, candidate] of Object.entries(data.people || {})) if (candidate.person_id === person.personId) {
-            allNames.add(name); for (const alias of candidate.names || []) if (alias) allNames.add(alias);
-            for (const account of [...(candidate.work_instagram_accounts || []), ...(candidate.instagram_accounts || [])]) addInstagramAccount(account);
-          }
-          for (const entries of Object.values(data.person_accounts || {})) for (const [name, candidate] of Object.entries(entries || {})) if (candidate.person_id === person.personId) {
-            allNames.add(name);
-            for (const account of [...(candidate.work_instagram_accounts || []), ...(candidate.instagram_accounts || [])]) addInstagramAccount(account);
-          }
-        }
-        const top = make("div", "person-card-top");
-        const profile = make("div", "person-search-profile");
-        if (info?.profile_image) {
-          const photo = make("img", "person-photo"); HKCILoading.image(photo, info.profile_image); photo.alt = ""; profile.append(photo);
-        } else profile.append(make("span", "person-photo-placeholder", "♡"));
-        const identity = make("div", "person-identity");
-        identity.append(make("strong", null, HKCI.personNames(allNames, [...allHandles.values()]).join(" ／ ")));
-        const instagramAccounts = [...(info?.work_instagram_accounts || []), ...(info?.instagram_accounts || [])];
-        const links = allHandles.size ? [...allHandles.values()] : instagramAccounts;
-        const primaryAccount = HKCI.primaryInstagramAccount(info, links);
-        const mainHandle = normalizedInstagramHandle(primaryAccount?.handle);
-        links.sort((a, b) => Number(normalizedInstagramHandle(b.handle) === mainHandle) - Number(normalizedInstagramHandle(a.handle) === mainHandle));
-        const igList = make("div", "people-ig-list");
-        for (const account of links) {
-          const url = HKCI.instagram(account.handle?.startsWith("http") ? account.handle : `https://www.instagram.com/${String(account.handle || "").replace(/^@/, "")}/`);
-          if (!url) continue;
-          const ig = make("a", "people-ig", `${HKCI.handle(url)}${account.status === "former" ? " · 曾用" : ""}`);
-          ig.href = url; ig.target = "_blank"; ig.rel = "noopener noreferrer"; igList.append(ig);
-        }
-        if (igList.childElementCount) identity.append(igList);
-        else identity.append(make('span', 'people-account-note', 'IG 尚未確認'));
-        profile.append(identity); top.append(profile);
-        const report = make("button", "person-report", "回報 IG／錯誤"); report.type = "button";
-        report.addEventListener("click", () => HKCI.report(person.shop.shop, HKCI.displayName(person.name)));
-        top.append(report); card.append(top);
-        const table = make("table", "person-results");
-        const head = make("thead"), headings = make("tr");
-        for (const label of ["日期", "店舖", "Event", "類型", "來源"]) headings.append(make("th", null, label));
-        head.append(headings); table.append(head);
-        const body = make("tbody");
-        await HKCILoading.each(person.shifts.sort((a,b) => a.shift.date.localeCompare(b.shift.date)), ({ shop, shift, attendanceType, storyStatus, cancelled, cancellationSource }) => {
-          const row = make("tr");
-          const addJumpCell = (value, label) => {
-            const cell = make("td", "person-roster-jump-cell");
-            const button = make("button", "person-roster-jump", value);
-            button.type = "button";
-            button.setAttribute("aria-label", `在列表查看 ${shift.date} ${shop.shop} ${label}`);
-            button.addEventListener("click", () => jumpToRosterCell(shop.shop, shift.date));
-            cell.append(button);
-            row.append(cell);
-            return cell;
-          };
-          addJumpCell(shift.date, "日期");
-          addJumpCell(shop.shop, "店舖");
-          addJumpCell(shift.event_name || "—", "活動");
-          const typeCell = addJumpCell(attendanceType, "類型");
-          typeCell.classList.add('story-attendance-cell');
-          const typeTag = typeCell.querySelector('button');
-          typeTag.classList.add('story-type-tag');
-          if (storyStatus === 'absent' || storyStatus === 'extra') {
-            typeCell.replaceChildren(HKCI.storyAttendanceTag(typeTag, storyStatus, cancellationSource, false));
-          } else if (cancelled) {
-            const marker = make('span', 'cancelled-attendance-label', '（已取消）');
-            typeCell.append(marker);
-          }
-          const source = make("td"); const links = HKCI.rosterSourceLinks(shift, "person-roster-sources"); if (links) source.append(links); else source.textContent = "—";
-          row.append(source); body.append(row);
-        }, valid);
-        if (!person.shifts.length) {
-          const row = make("tr"), cell = make("td", "person-no-shifts");
-          cell.colSpan = 5;
-          cell.append(make("p", null, state.range === "all" ? "暫未有當值記錄。" : "暫未有接下來的更表。"));
-          if (state.range !== "all") {
-            const all = make("button", "hybrid-button person-show-all", "查看所有更表");
-            all.type = "button";
-            all.addEventListener("click", () => $("date-range").querySelector('[data-range="all"]').click());
-            cell.append(all);
-          }
-          row.append(cell); body.append(row);
-        }
-        table.append(body);
-        const results = make("div", "person-results-wrap");
-        results.append(table); card.append(results); window.Hybrid?.decoratePerson(card, person); list.append(card);
-      }, valid, 8);
-      updateSticky();
-      return;
-    }
-    const columns = state.across === "dates" ? shownDates : shops;
-    const rows = state.across === "dates" ? shops : shownDates;
-    const content = document.createDocumentFragment();
-    try {
-      if (!columns.length || !rows.length) {
-        replaceTable(content, columns.length, position);
-        matrix.removeAttribute("role");
-        matrix.append(make("div", "matrix-no-dates", "呢個日期範圍暫時冇資料，請選「全部更表」。"));
-        $("matrix-result-count").textContent = "0 筆資料";
-        return;
-      }
-      matrix.setAttribute("role", "table");
-      const header = make("div", "matrix-row matrix-header");
-      header.setAttribute("role", "row");
-      header.append(cornerHead(state.across));
-      content.append(header);
-      await HKCILoading.each(columns, item => {
-        if (state.across === "dates") {
-          const info = dateLabel(item);
-          const heading = dateColumnHead(item);
-          heading.dataset.date = item;
-          header.append(heading);
-        }
-        else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
-      }, valid);
-      for (const item of rows) {
-        const line = make("div", "matrix-row");
-        line.setAttribute("role", "row");
-        content.append(line);
-        if (state.across === "dates") {
-          line.dataset.shop = item.shop;
-          line.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
-          await HKCILoading.each(shownDates, date => line.append(cell(item, date)), valid);
-        } else {
-          line.dataset.date = item;
-          const info = dateLabel(item);
-          line.append(rowHead(info.day, info.weekday, null));
-          await HKCILoading.each(shops, shop => line.append(cell(shop, item)), valid);
-        }
-        if (!valid()) return;
-        await HKCILoading.turn();
-      }
-      if (!valid()) return;
-      replaceTable(content, columns.length, position);
-    } finally {
-      // Discard observers for an interrupted build; a committed fragment is empty.
-      if (content.childNodes.length) HKCILoading.clear(content);
-    }
-    requestAnimationFrame(alignRosterFooters);
-    $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
-    $("scroll-hint").textContent = state.across === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
-    viewport.scrollLeft = previousScroll;
-    if (focusTodayOnNextRender && state.across === "dates") {
-      focusTodayOnNextRender = false;
-      const todayHeading = matrix.querySelector(`.matrix-colhead[data-date="${today}"]`);
-      if (todayHeading) {
-        const viewportLeft = viewport.getBoundingClientRect().left;
-        const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
-        viewport.scrollLeft += todayHeading.getBoundingClientRect().left - viewportLeft - viewport.clientLeft - rowLabelWidth;
-      }
-    }
-    sticky.replaceChildren(); updateSticky();
-    });
-    if (current()) {
-      matrix.style.removeProperty("min-height");
-      if (position) { alignRosterFooters(); restorePosition(position); }
-      if (rangePosition === position) rangePosition = null;
-    }
-  }
-  async function renderProgressive(shownDates, shops, previousScroll, active, position) {
-    const axis = state.across;
-    const dayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", month: "numeric", day: "numeric" });
-    const weekdayFormat = new Intl.DateTimeFormat("zh-HK", { timeZone: "UTC", weekday: "short" });
-    const labelForDate = date => { const value = new Date(`${date}T12:00:00Z`); return { day: dayFormat.format(value), weekday: weekdayFormat.format(value) }; };
-    let stopped = false, scheduled = false, backgroundTimer;
-    const valid = () => !stopped && active();
-    const oldHeights = new Map();
-    const oldAxis = matrix.querySelector('.matrix-colhead[data-date]') ? "dates" : "shops";
-    if (oldAxis === axis) for (const row of matrix.querySelectorAll(".matrix-row:not(.matrix-header)")) {
-      const item = row.querySelector(".matrix-cell");
-      if (item) oldHeights.set(axis === "dates" ? item.dataset.shop : item.dataset.date, row.getBoundingClientRect().height);
-    }
-    const initialColumnWidth = matrix.querySelector(".matrix-colhead")?.getBoundingClientRect().width || 252;
-    const focusIndex = shownDates.indexOf(position?.date || (focusTodayOnNextRender ? today : pendingJump));
-    const initialIndex = focusIndex >= 0 ? focusIndex : (axis === "dates" ? Math.floor(previousScroll / initialColumnWidth) : 0);
-    const seed = shownDates.slice(Math.max(0, initialIndex - 2), initialIndex + Math.ceil(viewport.clientWidth / initialColumnWidth) + 4);
-    // Start the foreground download while the inexpensive table shells are built.
-    const firstData = HKCIData.shops(seed, valid).then(value => ({ value }), error => ({ error }));
-    const content = document.createDocumentFragment();
-    matrix.dataset.viewportReady = "false";
-    matrix.dataset.archiveComplete = "false";
-    matrix.setAttribute("role", "table");
-    const columns = axis === "dates" ? shownDates : shops;
-    const rows = axis === "dates" ? shops : shownDates;
-    const header = make("div", "matrix-row matrix-header"); header.setAttribute("role", "row");
-    header.append(cornerHead(axis));
-    await HKCILoading.each(columns, item => {
-      if (axis === "dates") {
-        const node = dateColumnHead(item);
-        node.dataset.date = item; header.append(node);
-      } else header.append(columnHead(item.shop, item.address || "地址未提供", false, item.profile_image, item.profile, item));
-    }, valid);
-    content.append(header);
-    const slots = new Map(), rowNodes = [];
-    const key = (shop, date) => JSON.stringify([shop, date]);
-    const placeholder = (shop, date) => {
-      const node = make("div", "matrix-cell matrix-cell-empty");
-      node.setAttribute("role", "cell"); node.setAttribute("aria-busy", "true");
-      node.dataset.shop = shop.shop; node.dataset.date = date;
-      node.append(make("span", "matrix-empty-copy", "載入中…"));
-      slots.set(key(shop.shop, date), node);
-      return node;
-    };
-    for (const item of rows) {
-      if (!valid()) return;
-      const row = make("div", "matrix-row"); row.setAttribute("role", "row");
-      const height = oldHeights.get(axis === "dates" ? item.shop : item);
-      if (height) row.style.minHeight = `${height}px`;
-      if (axis === "dates") {
-        row.dataset.shop = item.shop;
-        row.append(rowHead(item.shop, item.address || "地址未提供", item.profile, item.profile_image, item));
-        await HKCILoading.each(shownDates, date => row.append(placeholder(item, date)), valid);
-      } else {
-        row.dataset.date = item;
-        const label = labelForDate(item); row.append(rowHead(label.day, label.weekday, null));
-        for (const shop of shops) row.append(placeholder(shop, item));
-      }
-      content.append(row); rowNodes.push(row);
-    }
-    if (!valid()) { HKCILoading.clear(content); return; }
-    replaceTable(content, columns.length, position);
-    viewport.scrollLeft = previousScroll;
-    if (axis === "dates" && focusIndex >= 0) {
-      const heading = header.children[focusIndex + 1];
-      const labelWidth = rowNodes[0]?.firstElementChild.getBoundingClientRect().width || 0;
-      viewport.scrollLeft += heading.getBoundingClientRect().left - viewport.getBoundingClientRect().left - viewport.clientLeft - labelWidth;
-    }
-    if (axis === "dates") focusTodayOnNextRender = false;
-    restorePosition(position);
-    $("matrix-result-count").textContent = `${shops.length} 間店 · ${shownDates.length} 日`;
-    $("scroll-hint").textContent = axis === "dates" ? "左右捲動查看更多日期" : "左右捲動查看更多店舖";
-    sticky.replaceChildren(); updateSticky();
-    const loaded = new Set(), pending = new Map();
-    async function paint(days, payload) {
-      const anchor = matrix.dataset.viewportReady === "true" ? capturePosition() : null;
-      const requested = new Set(days.filter(date => !loaded.has(date)));
-      for (const shop of payload.filter(item => shops.some(selected => selected.shop === item.shop))) {
-        await HKCILoading.each([...requested], date => {
-          const id = key(shop.shop, date), current = slots.get(id);
-          if (!current?.isConnected) return;
-          const node = cell(shop, date); current.replaceWith(node); slots.set(id, node);
-        }, valid);
-      }
-      if (valid()) for (const date of requested) loaded.add(date);
-      if (valid()) restorePosition(anchor);
-    }
-    async function loadDays(days) {
-      const required = days.filter(day => !loaded.has(day));
-      const fresh = required.filter(day => !pending.has(day));
-      if (fresh.length) {
-        const task = HKCIData.shops(fresh, valid).then(payload => paint(fresh, payload)).finally(() => {
-          for (const day of fresh) pending.delete(day);
-        });
-        for (const day of fresh) pending.set(day, task);
-      }
-      await Promise.all([...new Set(required.map(day => pending.get(day)).filter(Boolean))]);
-    }
-    function nearbyDates() {
-      if (axis === "dates") {
-        const width = header.children[1].getBoundingClientRect().width;
-        const start = Math.max(0, Math.floor(viewport.scrollLeft / width) - 2);
-        return shownDates.slice(start, Math.ceil((viewport.scrollLeft + viewport.clientWidth) / width) + 3);
-      }
-      const top = controlsBottom() - 400;
-      // The unchanged rows remain in normal document flow; binary search avoids
-      // measuring all five years on each vertical scroll.
-      let lo = 0, hi = rowNodes.length;
-      while (lo < hi) { const mid = (lo + hi) >> 1; if (rowNodes[mid].getBoundingClientRect().bottom < top) lo = mid + 1; else hi = mid; }
-      const result = [];
-      for (let i = Math.max(0, lo - 1); i < rowNodes.length; i++) {
-        if (result.length && rowNodes[i].getBoundingClientRect().top > innerHeight + 600) break;
-        result.push(shownDates[i]);
-      }
-      return result;
-    }
-    const failed = error => {
-      if (!valid() || error.name === "AbortError") return;
-      const target = [...slots.values()].find(node => node.getAttribute("aria-busy") === "true" && node.getBoundingClientRect().top < innerHeight && node.getBoundingClientRect().bottom > 0);
-      if (target) { target.replaceChildren(); target.removeAttribute("aria-busy"); HKCILoading.error(target, () => loadDays(nearbyDates()).catch(failed), error); }
-    };
-    const watch = () => {
-      if (scheduled || !valid()) return;
-      scheduled = true;
-      requestAnimationFrame(() => { scheduled = false; if (valid()) loadDays(nearbyDates()).catch(failed); });
-    };
-    stopProgressive = () => {
-      stopped = true; clearTimeout(backgroundTimer);
-      viewport.removeEventListener("scroll", watch); window.removeEventListener("scroll", watch); window.removeEventListener("resize", watch);
-    };
-    const first = await firstData;
-    if (!valid()) return;
-    if (first.error) throw first.error;
-    await paint(seed, first.value);
-    restorePosition(position);
-    await loadDays(nearbyDates());
-    if (!valid()) return;
-    matrix.dataset.viewportReady = "true";
-    requestAnimationFrame(alignRosterFooters);
-    viewport.addEventListener("scroll", watch, { passive: true });
-    window.addEventListener("scroll", watch, { passive: true }); window.addEventListener("resize", watch);
-    const months = [...new Set(shownDates.map(date => date.slice(0, 7)))];
-    const pivot = shownDates[Math.max(0, initialIndex)]?.slice(0, 7) || months[0];
-    const monthOrder = new Map(months.map((month, i) => [month, i]));
-    months.sort((a, b) => Math.abs(monthOrder.get(a) - monthOrder.get(pivot)) - Math.abs(monthOrder.get(b) - monthOrder.get(pivot)));
-    async function backfill() {
-      for (const month of months) {
-        if (!valid()) return;
-        await loadDays(shownDates.filter(day => day.startsWith(month)));
-        await HKCILoading.turn();
-      }
-      if (!valid()) return;
-      const anchor = capturePosition();
-      for (const row of rowNodes) row.style.removeProperty("min-height");
-      matrix.dataset.archiveComplete = "finishing";
-      alignRosterFooters();
-      matrix.dataset.archiveComplete = "true";
-      restorePosition(anchor);
-      updateSticky();
-    }
-    backgroundTimer = setTimeout(() => backfill().catch(failed), 50);
-  }
-  function alignRosterFooters() {
-    if (matrix.getAttribute("aria-busy") === "true" || matrix.dataset.archiveComplete === "false") return;
-    const rows = [...matrix.querySelectorAll(".matrix-row:not(.matrix-header)")]
-      .map(row => ({ row, cells: [...row.querySelectorAll(".matrix-cell-roster")] })).filter(item => item.cells.length);
-    // Each grid row sizes independently. Keep the identical height calculation,
-    // but clear -> measure -> apply in batches instead of forcing a layout for
-    // every one of thousands of rows.
-    for (const { cells } of rows) for (const cell of cells) cell.style.removeProperty("min-height");
-    const heights = rows.map(({ row }) => Math.ceil(row.getBoundingClientRect().height));
-    rows.forEach(({ cells }, index) => {
-      if (heights[index]) for (const cell of cells) cell.style.setProperty("min-height", `${heights[index]}px`);
-    });
-  }
-  let observedMatrixSize = "";
-  new ResizeObserver(([entry]) => {
-    const size = `${Math.round(entry.contentRect.width)}x${Math.round(entry.contentRect.height)}`;
-    if (!entry.contentRect.width || size === observedMatrixSize) return;
-    observedMatrixSize = size;
-    requestAnimationFrame(alignRosterFooters);
-  }).observe(matrix);
-  async function jumpToRosterCell(shop, date) {
-    state.person = null;
-    state.search = "";
-    state.range = "all";
-    state.across = "dates";
-    state.focusTarget = { shop, date };
-    focusTodayOnNextRender = false;
-    pendingJump = date;
-    $("name-search").value = "";
-    persist();
-    window.dispatchEvent(new Event("hkcafeinfo:show-matrix"));
-    await render();
-    if (pendingJump === date) pendingJump = null;
-    requestAnimationFrame(() => {
-      const target = [...matrix.querySelectorAll(".matrix-cell")].find((item) => item.dataset.shop === shop && item.dataset.date === date);
-      if (!target) return;
-      const viewportBounds = viewport.getBoundingClientRect();
-      const cellBounds = target.getBoundingClientRect();
-      const rowLabelWidth = matrix.querySelector(".matrix-rowhead")?.getBoundingClientRect().width || 0;
-      viewport.scrollTo({
-        left: viewport.scrollLeft + cellBounds.left - viewportBounds.left - viewport.clientLeft - rowLabelWidth,
-        behavior: "smooth",
-      });
-      const headerHeight = matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0;
-      const topbarHeight = controlsBottom();
-      window.scrollTo({
-        top: window.scrollY + cellBounds.top - topbarHeight - headerHeight - 12,
-        behavior: "smooth",
-      });
-      target.classList.add("matrix-cell-focused");
-      window.setTimeout(() => target.classList.remove("matrix-cell-focused"), 1800);
-    });
-  }
-  function setAcross(value) {
-    state.across = value;
-    focusTodayOnNextRender = value === "dates";
-    persist();
-    for (const [id, active] of [["dates-across", value === "dates"], ["shops-across", value === "shops"]]) {
-      $(id).classList.toggle("active", active);
-      $(id).setAttribute("aria-pressed", String(active));
-    }
-    render();
-  }
-  window.HybridMatrix = { person: detail => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", {detail})), jump: jumpToRosterCell, range: value => {state.range=value;persist();render();}, date: async value => {state.person=null;state.search="";state.range=value<today?"all":"future";focusTodayOnNextRender=false;pendingJump=value;persist();await render();pendingJump=null;requestAnimationFrame(()=>{const sel=state.across==="dates"?`.matrix-colhead[data-date="${value}"]`:`.matrix-row[data-date="${value}"]`;const target=matrix.querySelector(sel);if(target){if(state.across==="dates"){const label=matrix.querySelector(".matrix-rowhead");viewport.scrollLeft+=target.getBoundingClientRect().left-viewport.getBoundingClientRect().left-viewport.clientLeft-(label?.getBoundingClientRect().width||0);}else window.scrollTo({top:scrollY+target.getBoundingClientRect().top-controlsBottom()-70,behavior:"smooth"});}});} };
-  $("name-search").value = state.search;
-  $("date-range").addEventListener("click", (event) => {
-    const button = event.target.closest("[data-range]");
-    if (!button) return;
-    const position = rangePosition?.intent === scrollIntent ? rangePosition : capturePosition();
-    if (position) position.intent = scrollIntent;
-    state.range = button.dataset.range === "all" ? "all" : "future";
-    focusTodayOnNextRender = false;
-    constrainRangePosition(position);
-    rangePosition = position;
-    persist(); render(position);
-  });
-  function goToToday() {
-    const position = rangePosition?.intent === scrollIntent ? rangePosition : capturePosition();
-    if (!position) return;
-    position.intent = scrollIntent;
-    position.date = today;
-    if (state.across === "dates") position.columnOffset = 0;
-    else position.rowTop = controlsBottom() + (matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0);
-    focusTodayOnNextRender = false;
-    if (matrix.getAttribute("aria-busy") === "true") { rangePosition = position; render(position); }
-    else restorePosition(position);
-  }
-  for (const root of [matrix, sticky]) root.addEventListener("click", event => {
-    if (event.target.closest(".matrix-today")) goToToday();
-  });
-  $("name-search").addEventListener("input", (event) => {
-    const wasSearching = Boolean(state.search || state.person);
-    state.search = event.target.value.trim().toLocaleLowerCase(); state.person = null;
-    if (state.search && !wasSearching) state.range = "all";
-    persist(); render();
-  });
-  window.addEventListener("hkcafeinfo:person", (event) => { state.person = event.detail; state.search = ""; state.range = "future"; $("name-search").value = ""; persist(); render(); requestAnimationFrame(() => $("matrix-view").scrollIntoView({ block: "start", behavior: "smooth" })); });
-  window.addEventListener("maid:visibility-change", render);
-  window.addEventListener("hkcafeinfo:view-change", () => { if ($("matrix-view").hidden) stopProgressive(); updateSticky(); });
-  window.addEventListener("hkcafeinfo:reset-view", () => {
-    state.search = ""; state.person = null; state.range = "future"; state.across = "dates";
-    $("name-search").value = "";
-    $("dates-across").classList.add("active"); $("dates-across").setAttribute("aria-pressed", "true");
-    $("shops-across").classList.remove("active"); $("shops-across").setAttribute("aria-pressed", "false");
-    viewport.scrollLeft = 0; persist(); render();
-  });
-  $("dates-across").addEventListener("click", () => setAcross("dates"));
-  $("shops-across").addEventListener("click", () => setAcross("shops"));
-  function move(direction) {
-    const column = matrix.querySelector(".matrix-colhead");
-    const max = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
-    const current = Math.min(max, Math.max(0, viewport.scrollLeft));
-    const step = column?.getBoundingClientRect().width || 260;
-    const target = Math.min(max, Math.max(0, (Math.round(current / step) + direction) * step));
-    if (Math.abs(target - current) > 1) viewport.scrollTo({ left: target, behavior: "smooth" });
-  }
-  $("matrix-prev").addEventListener("click", () => move(-1));
-  $("matrix-next").addEventListener("click", () => move(1));
-  $("show-matrix").addEventListener("click", render);
-  $("person-back").addEventListener("click", () => window.dispatchEvent(new Event("hkcafeinfo:return-person")));
-  for (const [id, active] of [["dates-across", state.across === "dates"], ["shops-across", state.across === "shops"]]) { $(id).classList.toggle("active", active); $(id).setAttribute("aria-pressed", String(active)); }
-  const controlRow = document.querySelector(".matrix-controls-row");
-  let lastControlWidth = -1;
-  function fitControls(force = false) {
-    const width = controlRow.clientWidth;
-    if (!width || (!force && width === lastControlWidth)) return;
-    lastControlWidth = width;
-    controlRow.classList.add("controls-layout");
-    controlRow.classList.remove("is-wrapped", "controls-tight", "controls-hide-hint", "controls-inline");
-    const fits = () => {
-      const children = [...controlRow.children].filter(node => !node.hidden && node.getBoundingClientRect().width);
-      const gap = parseFloat(getComputedStyle(controlRow).columnGap) || 0;
-      return children.reduce((sum,node) => sum + node.getBoundingClientRect().width, 0) + gap * Math.max(0,children.length-1) <= width + 0.5;
-    };
-    if (!fits()) controlRow.classList.add("controls-tight");
-    if (!fits()) controlRow.classList.add("controls-hide-hint");
-    controlRow.classList.toggle("controls-inline", fits());
-    window.HKCISticky?.refresh();
-  }
-  new ResizeObserver(() => fitControls()).observe(controlRow);
-  document.fonts?.ready.then(() => fitControls(true));
-  window.addEventListener("hkcafeinfo:view-change", () => fitControls(true));
-  render();
-})();
+/* Header tabs follow the selected new-demo underline treatment. */
+.hybrid-header-nav{align-self:stretch;align-items:stretch;gap:6px;margin-block:-14px}.hybrid-header-nav button{display:flex;align-items:center;padding:3px 15px 0;border:0;border-bottom:3px solid transparent;border-radius:0;background:transparent;color:var(--ui-primary);font-size:14px;font-weight:400;white-space:nowrap}.hybrid-header-nav button.active{background:transparent;border-bottom-color:var(--ui-border-strong);color:var(--ui-primary);font-weight:650}.hybrid-header-nav button:hover{background:transparent;color:var(--ui-primary)}
+@media(max-width:1000px){.hybrid-header-nav{margin-block:-12px}.hybrid-header-nav button{padding-inline:11px;font-size:12px}}
+/* The shared Today shortcut replaces the duplicate table-corner action. */
+.matrix-today,#matrix-sticky-today{display:none!important}
+
+/* Remove the standalone banner and redundant page headings; keep its art in the header. */
+.hero,.hybrid-preview-note,.content-main .section-topline,.people-help,#shops-view>.shops-help{display:none!important}
+.topbar{isolation:isolate;background:color-mix(in srgb, var(--ui-tint) 93.3333%, transparent)}
+.topbar>#hero-logos.hybrid-header-collage{display:flex!important;position:absolute;inset:0;left:0;right:0;top:0;width:100%;height:100%;transform:none;opacity:.17;overflow:hidden;z-index:-1;pointer-events:none;mask-image:linear-gradient(90deg,transparent 0%,#000 30%,#000 95%,transparent 100%)}
+.topbar>#hero-logos .hero-logo-panel{height:100%;flex:0 0 120px;margin-left:-18px}.topbar>#hero-logos .hero-logo-panel:first-child{margin-left:0}.topbar>#hero-logos .hero-logo{height:100%;width:100%;object-fit:cover}
+.roster-section,.matrix-section,.events-section,.people-section,.shops-section{padding-top:14px!important}.hybrid-inline-section{padding-top:14px}
+.people-controls-row{margin-top:0!important}.content-main .view-controls{margin-top:16px!important}
+@media(max-width:700px){.topbar>#hero-logos.hybrid-header-collage{opacity:.15;mask-image:linear-gradient(90deg,transparent 0%,#000 35%,#000 100%)}.topbar>#hero-logos .hero-logo-panel{flex-basis:86px;margin-left:-14px}.content-main .view-controls{margin-top:12px!important}.roster-section,.matrix-section,.events-section,.people-section,.shops-section{padding-top:10px!important}}
+/* Shared palette for the integrated interface. Status colors retain their meaning. */
+:root{--hybrid-purple:var(--ui-primary);--hybrid-purple-strong:var(--ui-primary-strong);--hybrid-soft:var(--ui-soft);--hybrid-line:var(--ui-border);--hybrid-ink:var(--ui-text);--hybrid-muted:var(--ui-muted);--hybrid-bg:var(--ui-page);--hybrid-surface:var(--ui-surface);--hybrid-tint:var(--ui-tint)}
+body,.app-shell,main{background-color:var(--hybrid-bg);color:var(--hybrid-ink)}
+.hybrid-brand{order:0;color:var(--hybrid-ink)}.hybrid-demo-label{order:1;margin-left:0;color:var(--hybrid-muted);background:var(--hybrid-soft);border-color:var(--hybrid-line)}.hybrid-instagram{order:2;color:var(--hybrid-muted)}.hybrid-header-nav{order:3;margin-left:auto}.hybrid-header-nav button{color:var(--hybrid-muted)}.hybrid-header-nav button.active{color:var(--hybrid-purple-strong);border-bottom-color:var(--hybrid-purple)}
+.hybrid-search-field,.hybrid-date-picker input,.hybrid-button,.hybrid-heart,.sidebar-toggle,.roster-card,.shop-intro,.person-card,.hybrid-result-row,.hybrid-saved-row,.hybrid-form,.cafe-sidebar{border-color:var(--hybrid-line);background-color:var(--hybrid-surface)}
+.hybrid-search-field input,.shop-name,.person-identity strong,.person-identity,.shop-intro h3,.people-shop-title,.rowhead-title,.matrix-colhead strong,.person-results td,.person-results button,.hybrid-result-row b,.hybrid-saved-row b{color:var(--hybrid-ink)}
+.shop-ig,.shop-address,.shop-intro-address,.opening-hours,.hours-line,.rowhead-subtitle,.role-name,.matrix-role-label,.headcount,.card-date,.people-help,.shops-help,.people-shop-count,.hybrid-inline-section>.hybrid-description,.hybrid-result-row small,.hybrid-next p,footer{color:var(--hybrid-muted)}
+.source-link,.matrix-source,.shop-intro-ig,.shop-intro-source a,.event-name,.matrix-event-name,.people-ig,.hybrid-saved-row>button:first-child,.hybrid-map-icon{color:var(--hybrid-purple)}
+.view-switch,.range-toggle,.axis-switch{background:var(--hybrid-soft)!important;border-color:var(--hybrid-line)!important}.range-toggle-button,.axis-button,.view-switch .view-button{color:var(--hybrid-muted)!important}.range-toggle-button.active,.range-toggle-button[aria-pressed=true],.axis-button.active,.view-switch .view-button.active{color:var(--hybrid-purple-strong)!important;background:var(--hybrid-surface)!important;box-shadow:0 2px 5px color-mix(in srgb, var(--ui-shadow) 3.5294%, transparent)}
+.content-main .view-controls>.view-switch{width:auto!important;max-width:none!important;border-radius:12px!important;padding:4px!important;gap:3px!important}.content-main .view-controls>.view-switch>.view-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:9px;padding:8px 12px!important;min-height:36px;font-size:12px!important;font-weight:500}.content-main .view-controls>.view-switch>.view-button.active{font-weight:650}.hybrid-switch-icon{width:17px;height:17px;flex-shrink:0}
+.hybrid-day{min-height:40px;padding:5px 3px;border-color:var(--hybrid-line);background:var(--hybrid-surface);color:var(--hybrid-muted);border-radius:9px}.hybrid-day b{font-size:12px;line-height:1.4;font-weight:600;color:var(--hybrid-ink)}.hybrid-day span{font-size:10px;line-height:1.4;margin-top:2px}.hybrid-day.active,.hybrid-button.primary,.hybrid-button.active{background:var(--hybrid-purple);border-color:var(--hybrid-purple);color:var(--ui-on-primary)}.hybrid-day.active b{color:var(--ui-on-primary)}.hybrid-day.active span{color:var(--ui-on-primary)}
+.matrix-viewport,.matrix-row,.matrix-cell,.matrix-colhead,.matrix-rowhead,.matrix-corner,.card-head,.card-foot,.hybrid-event-actions,.person-results th,.person-results td{border-color:var(--hybrid-line)}.matrix-corner,.matrix-colhead,.matrix-header,.person-results th{background:var(--hybrid-tint);color:var(--hybrid-muted)}.matrix-colhead.is-today{background:var(--hybrid-soft)}.matrix-colhead.is-today strong{color:var(--hybrid-purple-strong)}.matrix-rowhead,.matrix-row:nth-child(even) .matrix-rowhead{background:var(--ui-tint)}.matrix-cell,.matrix-row:nth-child(odd) .matrix-cell{background:var(--hybrid-surface)}
+.person-tag:not(.needs-review):not(.cancelled-person),.matrix-person:not(.needs-review):not(.cancelled-person),.people-name,.time-badge{background:var(--ui-chip);color:var(--ui-muted)}.people-name{border-color:var(--hybrid-line)}.hybrid-heart{color:var(--hybrid-purple)}.hybrid-heart.saved{background:var(--hybrid-soft);border-color:var(--ui-border);color:var(--hybrid-purple-strong)}.hybrid-next,.hybrid-report-note{background:var(--hybrid-tint);border-color:var(--hybrid-line)}.hybrid-next b,.hybrid-next .eyebrow{color:var(--hybrid-purple-strong)}.matrix-navigation button,.person-back,.sidebar-actions button{border-color:var(--hybrid-line);color:var(--hybrid-purple);background:var(--hybrid-surface)}
+.view-controls.sticky-controls,.sticky-controls,.hybrid-date-control,.date-selector-wrap.sticky-controls,#matrix-view .matrix-controls-row{background-color:var(--hybrid-bg)!important}.hybrid-bottom-nav{border-color:var(--hybrid-line)}.hybrid-bottom-nav button{color:var(--hybrid-muted)}.hybrid-bottom-nav button.active{background:var(--hybrid-soft);color:var(--hybrid-purple-strong)}
+@media(max-width:1000px){.hybrid-header-nav button{padding-inline:10px}}
+@media(max-width:700px){.hybrid-demo-label{margin-left:auto}.content-main .view-controls>.view-switch{padding:3px!important;gap:1px!important}.content-main .view-controls>.view-switch>.view-button{gap:4px;padding:6px 6px!important;font-size:10px!important;min-height:32px}.hybrid-switch-icon{width:14px;height:14px}.hybrid-day{min-height:39px;padding:5px 1px}.hybrid-day b{font-size:10px;line-height:1.3}.hybrid-day span{font-size:9px;line-height:1.3;margin-top:2px}}
+@media(max-width:360px){.content-main .view-controls>.view-switch>.view-button{padding-inline:5px!important}.hybrid-day b{font-size:9px}.hybrid-day span{font-size:8px}}
+
+/* Navigation emphasis and normal-flow controls; no floating search/date rows. */
+.hybrid-header-nav button{font-size:17px;font-weight:750;color:var(--ui-primary)}
+.hybrid-header-nav button.active{font-weight:800;color:var(--hybrid-purple-strong)}
+.content-main .view-controls{margin-top:8px!important}
+.hybrid-week-strip{display:grid;grid-template-columns:26px minmax(0,1fr) 26px;gap:4px;align-items:stretch;min-width:0;width:100%}
+.hybrid-week-arrow{align-self:stretch;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;color:var(--hybrid-purple);font:500 32px/1 -apple-system,BlinkMacSystemFont,sans-serif;cursor:pointer;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);background:linear-gradient(90deg,color-mix(in srgb, var(--ui-soft) 50.1961%, transparent),color-mix(in srgb, var(--ui-page) 6.2745%, transparent))}
+.hybrid-week-arrow.next{background:linear-gradient(270deg,color-mix(in srgb, var(--ui-soft) 50.1961%, transparent),color-mix(in srgb, var(--ui-page) 6.2745%, transparent))}
+.hybrid-week-arrow:hover{color:var(--hybrid-purple-strong);background-color:color-mix(in srgb, var(--ui-soft) 31.3725%, transparent)}
+@media(min-width:1100px){.hybrid-week-strip{flex:1;min-width:0;width:auto}}
+@media(min-width:701px) and (max-width:1000px){.hybrid-header-nav button{font-size:15px;padding-inline:8px}.topbar{gap:10px}}
+@media(max-width:700px){.hybrid-week-strip{grid-template-columns:18px minmax(0,1fr) 18px;gap:2px}.hybrid-week{gap:3px}.hybrid-week-arrow{font-size:28px}}
+
+.hybrid-footer{display:block;padding:24px 0 28px;border-top:1px solid var(--hybrid-line);margin-top:24px;font-size:12px;color:var(--hybrid-muted);line-height:1.9}.hybrid-footer p{margin:0}.hybrid-footer p+p{margin-top:4px}
+
+/* Explicitly retire legacy floating control styles and keep full button outlines. */
+.content-main .view-controls,#date-selector-wrap,#matrix-view .matrix-controls-row,.events-controls-row,.people-controls-row{position:relative!important;top:auto!important;left:auto!important;z-index:auto!important;height:auto!important;max-height:none!important;overflow:visible!important;clip-path:none!important}
+.content-main .view-controls{padding:4px 0 8px!important;min-height:56px;align-items:center!important;background:var(--hybrid-bg)!important}
+.content-main .view-controls::before{display:none!important}
+.control-slot{display:none!important}
+
+/* Person cards share one next-shift layout in search and detail. */
+.hybrid-search-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.hybrid-search-people .person-card{min-width:0;border-color:var(--hybrid-line);border-radius:16px}
+.person-card-top{align-items:center;padding:15px 17px;gap:12px}
+.person-card-top .person-search-profile{min-width:0;flex:1}
+.person-identity{min-width:0;overflow-wrap:anywhere}.person-identity strong{font-size:15px}
+.hybrid-person-actions{display:flex;align-items:center;gap:8px;margin-left:auto;flex-shrink:0}
+.person-card-top .hybrid-person-actions .hybrid-button,.person-card-top .hybrid-person-actions .hybrid-heart{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:34px;padding:6px 10px;border:1px solid var(--hybrid-line);border-radius:10px;background:var(--ui-surface);color:var(--hybrid-purple);font:500 11px/1.4 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif!important;cursor:pointer;margin:0}
+.person-card-top .hybrid-person-actions .hybrid-heart.saved{background:var(--hybrid-soft);color:var(--hybrid-purple-strong)}
+.person-card-top .hybrid-person-actions .heart-icon{font-size:18px;line-height:1}
+.hybrid-next{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:14px 17px;padding:15px 17px}
+.hybrid-next-info{min-width:0;flex:1}.hybrid-next .eyebrow{font-size:11px;font-weight:700;letter-spacing:.05em}
+.hybrid-next b{font-size:19px;line-height:1.5;margin:5px 0 1px;overflow-wrap:anywhere}.hybrid-next-weekday{font-size:11px;font-weight:500;margin-left:8px;white-space:nowrap}
+.hybrid-next-shop{display:block;font-size:12px;color:var(--hybrid-muted);line-height:1.6;overflow-wrap:anywhere}.hybrid-next p{margin-top:5px}
+.hybrid-next-actions{display:flex;flex-direction:column;gap:7px;flex-shrink:0}.hybrid-next .hybrid-next-actions .hybrid-button{margin:0;min-height:32px;padding:6px 9px;font-size:11px}
+@media(max-width:1100px){.hybrid-search-people{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:700px){.person-card-top{padding:12px;gap:8px}.hybrid-person-actions{gap:5px}.person-card-top .hybrid-person-actions .hybrid-button,.person-card-top .hybrid-person-actions .hybrid-heart{padding:5px 8px;min-height:32px}.person-card-top .hybrid-person-actions{margin-left:auto}.hybrid-next{margin:10px 12px;padding:12px;gap:8px}.hybrid-next b{font-size:16px}.hybrid-next-weekday{display:block;margin-left:0;font-size:10px}.hybrid-next-shop{font-size:11px}.hybrid-next .hybrid-next-actions .hybrid-button{font-size:10px;padding:5px 7px}.person-identity strong{font-size:14px}}
+
+/* All controls dock together immediately, with measured placeholders. */
+.hybrid-dock-slot{width:100%;pointer-events:none;overflow-anchor:none}
+.hybrid-dock-slot[hidden]{display:none!important}
+.content-main .view-controls.hybrid-docked,#date-selector-wrap.hybrid-docked,#matrix-view .matrix-controls-row.hybrid-docked,.events-controls-row.hybrid-docked,.people-controls-row.hybrid-docked{position:fixed!important;z-index:45!important;margin:0!important;overflow:visible!important;isolation:isolate;background:var(--hybrid-bg)!important;box-sizing:border-box}
+/* Inline coordinates supplied by the dock coordinator take precedence. */
+.content-main .view-controls.hybrid-docked,#date-selector-wrap.hybrid-docked,#matrix-view .matrix-controls-row.hybrid-docked,.events-controls-row.hybrid-docked,.people-controls-row.hybrid-docked{top:var(--dock-top)!important;left:var(--dock-left)!important}
+.hybrid-docked::before{content:"";display:block!important;position:absolute;top:0;bottom:0;left:calc(-1 * var(--sticky-left,0px));width:100vw;background:var(--hybrid-bg);z-index:-1;pointer-events:none}
+.content-main .view-controls.hybrid-docked{padding:8px 0!important}
+#date-selector-wrap.hybrid-docked{padding:6px 0!important}
+#matrix-view .matrix-controls-row.hybrid-docked{padding:6px 0 10px!important}
+
+/* People fold controls sit on the search row. */
+.content-main .view-controls>.people-controls-row{display:none!important;position:static!important;margin:0!important;padding:0!important;width:auto!important;min-width:0;flex:0 0 auto;order:3}
+body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main .view-controls>.people-controls-row{display:flex!important}
+.content-main .view-controls>.people-controls-row .fold-controls{margin:0;flex:0 0 auto}
+@media(max-width:700px){.content-main .view-controls>.people-controls-row .range-toggle-button{font-size:9px!important;padding:0 5px!important}.content-main .view-controls>.people-controls-row .range-toggle{height:38px!important;min-height:38px!important}.content-main .view-controls>.people-controls-row .range-toggle-button{height:30px!important;min-height:30px!important;line-height:30px!important}.content-main .view-controls:has(>.people-controls-row) .hybrid-search-field{min-width:0}.view-controls>.sidebar-toggle{padding-inline:7px}}
+
+/* Date shortcuts and matrix filters share the row below the seven-day strip. */
+#matrix-view .matrix-controls-row>.hybrid-date-control,[data-date-control="cards"]{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-week-strip{order:0;flex:none;width:100%}
+:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top{order:1;justify-content:flex-start;gap:10px;min-width:0;max-width:100%;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top>.hybrid-quick,:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top>.hybrid-date-picker{flex:0 0 auto}
+#matrix-view .matrix-controls-row .hybrid-date-top>.matrix-filter-controls{display:flex;flex:0 0 auto!important;flex-wrap:nowrap!important;gap:8px;margin:0!important}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-picker input{width:128px}
+.hybrid-table-arrows{position:fixed;z-index:44;pointer-events:none}
+.hybrid-table-arrows[hidden]{display:none!important}
+.hybrid-table-arrows>.matrix-navigation{display:flex!important;align-items:center;justify-content:space-between;width:100%;height:100%;margin:0!important;padding:0 5px 0 calc(var(--table-label-width) - 16px);box-sizing:border-box;pointer-events:none}
+.hybrid-table-arrows #scroll-hint{display:none!important}
+.hybrid-table-arrows .matrix-navigation button{pointer-events:auto;flex:0 0 30px;width:30px;height:38px;min-height:38px;min-width:30px;padding:0;border:0;border-radius:8px;background:color-mix(in srgb, var(--ui-tint) 53.3333%, transparent);color:color-mix(in srgb, var(--ui-primary) 73.3333%, transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);font-size:24px;box-shadow:none;transition:background .15s,color .15s}
+.hybrid-table-arrows .matrix-navigation button:hover{background:color-mix(in srgb, var(--ui-soft) 86.6667%, transparent);color:var(--hybrid-purple-strong)}
+@media(max-width:700px){:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top{gap:7px}:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-picker input{width:120px}.hybrid-table-arrows>.matrix-navigation{padding-left:calc(var(--table-label-width) - 14px)}.hybrid-table-arrows .matrix-navigation button{flex-basis:28px;width:28px;min-width:28px;height:34px;min-height:34px;font-size:22px}}
+
+/* Full-height glass arrows, each gradient stop below 40% opacity. */
+.hybrid-table-arrows>.matrix-navigation{align-items:stretch;padding-left:calc(var(--table-label-width) - 40px)}
+.hybrid-table-arrows .matrix-navigation button{height:100%;min-height:0;border-radius:0;background:linear-gradient(90deg,color-mix(in srgb, var(--ui-soft) 32.0000%, transparent),color-mix(in srgb, var(--ui-page) 6.0000%, transparent));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.hybrid-table-arrows .matrix-navigation #matrix-next{background:linear-gradient(270deg,color-mix(in srgb, var(--ui-soft) 32.0000%, transparent),color-mix(in srgb, var(--ui-page) 6.0000%, transparent))}
+.hybrid-table-arrows .matrix-navigation button:hover{background:linear-gradient(90deg,color-mix(in srgb, var(--ui-soft) 36.0000%, transparent),color-mix(in srgb, var(--ui-soft) 12.0000%, transparent))}
+.hybrid-table-arrows .matrix-navigation #matrix-next:hover{background:linear-gradient(270deg,color-mix(in srgb, var(--ui-soft) 36.0000%, transparent),color-mix(in srgb, var(--ui-soft) 12.0000%, transparent))}
+.hybrid-week-arrow{background:linear-gradient(90deg,color-mix(in srgb, var(--ui-soft) 32.0000%, transparent),color-mix(in srgb, var(--ui-page) 6.0000%, transparent))}
+.hybrid-week-arrow.next{background:linear-gradient(270deg,color-mix(in srgb, var(--ui-soft) 32.0000%, transparent),color-mix(in srgb, var(--ui-page) 6.0000%, transparent))}
+.hybrid-week-arrow:hover{background-color:transparent;background-image:linear-gradient(90deg,color-mix(in srgb, var(--ui-soft) 36.0000%, transparent),color-mix(in srgb, var(--ui-soft) 12.0000%, transparent))}
+.hybrid-week-arrow.next:hover{background-image:linear-gradient(270deg,color-mix(in srgb, var(--ui-soft) 36.0000%, transparent),color-mix(in srgb, var(--ui-soft) 12.0000%, transparent))}
+.matrix-colhead.is-today{background:var(--ui-soft);border-color:var(--ui-border)}.matrix-colhead.is-today strong{color:var(--ui-primary);font-weight:800}.matrix-colhead.is-today span{color:var(--ui-muted)}
+@media(max-width:700px){.hybrid-table-arrows>.matrix-navigation{padding-left:calc(var(--table-label-width) - 36px)}.hybrid-table-arrows .matrix-navigation button{height:100%;min-height:0}}
+
+.hybrid-table-arrows .matrix-navigation button{height:100%!important;min-height:0!important;max-height:none!important}
+/* Keep the combined control row on one line, progressively simplifying the picker. */
+:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top{overflow:visible;flex-wrap:nowrap;scrollbar-width:none}
+:is([data-date-control="matrix"],[data-date-control="cards"])>.hybrid-date-top::-webkit-scrollbar{display:none}
+.hybrid-picker-text{display:none}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight{gap:5px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .hybrid-quick{gap:3px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .hybrid-button{padding-inline:7px;font-size:11px}
+#matrix-view .matrix-controls-row .fit-tight>.matrix-filter-controls{gap:4px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .range-toggle,:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .axis-switch{padding:3px!important;gap:1px!important}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .range-toggle-button,:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-tight .axis-button{padding-inline:6px!important;font-size:11px!important}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label{position:relative;display:flex;align-items:center;justify-content:center;min-height:34px;width:91px;border:1px solid var(--hybrid-line);border-radius:9px;background:var(--ui-surface);color:var(--ui-muted)}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker input{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;cursor:pointer;padding:0;border:0}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-yearless .hybrid-picker-text{display:block;pointer-events:none;white-space:nowrap;font-size:11px;padding-right:18px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label::after{content:"";width:13px;height:13px;position:absolute;right:6px;pointer-events:none;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' d='M5 5h14v16H5zM8 2v6m8-6v6M5 10h14'/%3E%3C/svg%3E") center/contain no-repeat}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label{width:30px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-icon .hybrid-picker-text{display:none}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label::after{right:7px;width:15px;height:15px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small{gap:3px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .hybrid-button{font-size:9px;padding-inline:4px;min-height:30px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .hybrid-quick{gap:2px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .range-toggle-button,:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .axis-button{font-size:9px!important;padding-inline:3px!important;min-height:28px!important}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .range-toggle,:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .axis-switch{padding:2px!important}
+#matrix-view .matrix-controls-row .fit-small>.matrix-filter-controls{gap:2px!important}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label{width:26px;min-height:30px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label::after{right:5px}
+
+/* Date cards adapt to their actual available width. */
+.hybrid-week{container-name:hybrid-days;container-type:inline-size}
+.hybrid-day b{white-space:nowrap}
+.hybrid-day b>span{display:inline;font:inherit;margin:0;color:inherit;line-height:inherit}
+@container hybrid-days (max-width:455px){
+ .hybrid-day{min-height:67px;padding:5px 1px}
+ .hybrid-day b>.hybrid-day-month{display:block;font-size:9px;line-height:1.3;font-weight:500}
+ .hybrid-day b>.hybrid-day-number{display:block;font-size:21px;line-height:1.2;font-weight:750}
+ .hybrid-day b>.hybrid-day-unit{display:none}
+ .hybrid-day>span{font-size:9px;white-space:nowrap;line-height:1.3;margin-top:2px}
+}
+#matrix-view .matrix-controls-row .hybrid-date-top>.matrix-filter-controls{margin-left:auto!important}
+[data-hybrid-report]{margin-left:clamp(16px,3vw,43px)!important;margin-right:clamp(16px,3vw,43px)!important}
+.hybrid-footer{padding-left:clamp(16px,3vw,43px);padding-right:clamp(16px,3vw,43px)}
+
+#matrix-view .matrix-controls-row .fit-micro .hybrid-button{font-size:8px;padding-inline:2px}
+#matrix-view .matrix-controls-row .fit-micro .matrix-filter-controls .range-toggle-button,#matrix-view .matrix-controls-row .fit-micro .matrix-filter-controls .axis-button{font-size:8px!important;padding-inline:1px!important}
+#matrix-view .matrix-controls-row .fit-micro .matrix-filter-controls .range-toggle,#matrix-view .matrix-controls-row .fit-micro .matrix-filter-controls .axis-switch{padding:1px!important;gap:0!important}
+#matrix-view .matrix-controls-row .fit-micro .hybrid-date-picker label{width:24px}
+
+/* Square table and the compact linked site identity. */
+.matrix-viewport,.matrix-sticky-header{border-radius:0!important}
+.hybrid-brand-copy{display:flex;flex-direction:column;gap:2px;min-width:0}
+.hybrid-brand strong{font-size:20px;letter-spacing:0;line-height:1.25}
+.hybrid-brand small{font-size:9px;line-height:1.2;font-weight:400;letter-spacing:.15px;color:var(--hybrid-muted)}
+@media(max-width:700px){.hybrid-brand strong{font-size:17px}.hybrid-brand small{font-size:8px}}
+@media(max-width:360px){.hybrid-brand strong{font-size:15px}.hybrid-brand{gap:8px}}
+
+/* Larger mobile navigation; the footer keeps its natural wrapped height. */
+.hybrid-footer{height:auto!important;min-height:0;overflow:visible;padding-top:24px;padding-bottom:28px}
+@media(max-width:700px){
+ body{padding-bottom:calc(var(--hybrid-bottom-space,88px) + 16px)!important}
+ .hybrid-bottom-nav{padding-top:7px;padding-bottom:max(8px,env(safe-area-inset-bottom))}
+ .hybrid-bottom-nav button{font-size:11px;line-height:1.35;min-height:56px;gap:5px;padding:5px 0}
+ .hybrid-bottom-nav .hybrid-nav-icon{font-size:24px;line-height:1.1}
+}
+
+/* Address pins everywhere, including table headers and search/saved cards. */
+.hybrid-address-link,.hybrid-address-link:hover,.hybrid-address-link:focus,.shop-intro-address a,.shop-intro-address a:hover,.shop-address,.shop-address:hover{display:inline-flex;align-items:flex-start;gap:4px;text-decoration:none!important}
+.hybrid-address-label{min-width:0;overflow-wrap:anywhere}
+.hybrid-address-link>.hybrid-map-icon{flex:0 0 1.15em;width:1.15em;height:1.3em;margin:0;stroke-width:1.8}
+.hybrid-address-text{display:flex!important;align-items:flex-start;gap:4px;text-decoration:none}
+.hybrid-address-text>.hybrid-map-icon{flex:0 0 13px;width:13px;height:15px;margin:0}
+.content-main .view-controls>.sidebar-toggle,body[data-view="shops"] .content-main .view-controls>.sidebar-toggle{display:inline-flex!important;align-items:center;justify-content:center;gap:6px;width:max-content!important;min-width:max-content;max-width:none;flex:0 0 auto;overflow:visible;padding-right:12px}
+.content-main .view-controls>.sidebar-toggle>span{margin-left:0;flex:0 0 auto;white-space:nowrap}
+@media(max-width:700px){
+ .content-main .view-controls>.sidebar-toggle{padding-left:8px!important;padding-right:11px!important;gap:5px}
+ .hybrid-bottom-nav button{font-size:12px;min-height:58px;font-weight:500}
+ .hybrid-bottom-nav .hybrid-nav-icon{font-size:25px}
+}
+
+/* Cards use the same date-first layout and compact control row as the matrix. */
+[data-date-control="cards"] #card-date-range{margin-left:auto;flex:0 0 auto}
+
+/* One theme for controls and person result tables. */
+.content-main .view-controls>.sidebar-toggle{color:var(--hybrid-purple-strong)!important}
+.content-main .view-controls>.sidebar-toggle>span{color:var(--hybrid-muted)}
+.person-card .person-results{border-color:var(--hybrid-line);color:var(--hybrid-purple-strong)}
+.person-card .person-results th{background:var(--hybrid-soft);color:var(--hybrid-purple-strong);border-color:var(--hybrid-line)}
+.person-card .person-results td,.person-card .person-results button{color:var(--ui-text);border-color:var(--hybrid-line)}
+.person-card .person-results tbody tr:nth-child(even) td{background:var(--ui-page)}
+.person-card .person-results .story-type-tag{background:var(--hybrid-soft);color:var(--hybrid-purple-strong)}
+.people-name{background:transparent!important;color:var(--hybrid-purple-strong)}
+.hybrid-time-range{display:inline-block;white-space:nowrap!important;overflow-wrap:normal;word-break:keep-all}
+.matrix-opening-hours .hours-line{overflow-wrap:normal;word-break:normal}
+.matrix-opening-hours .hybrid-time-range{font-size:min(1em,10px);letter-spacing:-.2px}
+.opening-hours dd{white-space:nowrap!important;overflow-wrap:normal}
+.hybrid-brand small{display:flex;align-items:center;gap:3px;color:var(--hybrid-purple-strong)}
+.hybrid-instagram-icon{width:11px;height:11px;flex:0 0 11px;color:var(--hybrid-purple-strong)}
+/* Original navigation height, with larger content fitted inside. */
+@media(max-width:700px){
+ .hybrid-bottom-nav{padding-top:5px;padding-bottom:max(8px,env(safe-area-inset-bottom))}
+ .hybrid-bottom-nav button{height:48px;min-height:48px;padding:3px 0;gap:2px;line-height:1.1;font-size:12px}
+ .hybrid-bottom-nav .hybrid-nav-icon{font-size:25px;line-height:1.1}
+}
+/* Match the first-row button and search field heights. */
+.content-main .view-controls>.sidebar-toggle,.content-main .view-controls>.hybrid-search-field,.content-main .view-controls>.view-switch{box-sizing:border-box;height:44px!important;min-height:44px!important}
+.content-main .view-controls>.hybrid-search-field input{height:42px!important}
+.content-main .view-controls>.view-switch{align-items:stretch!important;padding:4px!important}
+.content-main .view-controls>.view-switch>.view-button{height:34px!important;min-height:34px!important;padding-top:0!important;padding-bottom:0!important}
+/* Both layouts put the week strip first, then the shared shortcut/filter row. */
+#card-view .hybrid-date-control{display:flex;flex-direction:column;align-items:stretch;gap:8px}
+[data-date-control="cards"]>.hybrid-week-strip{order:0;flex:none;width:100%}
+[data-date-control="cards"]>.hybrid-date-top{order:1;flex-wrap:nowrap;justify-content:flex-start;gap:10px;min-width:0;max-width:100%}
+[data-date-control="cards"] #card-date-range{margin-left:auto;flex:0 0 auto!important;justify-content:flex-start}
+[data-date-control]>.hybrid-date-top .hybrid-button,[data-date-control]>.hybrid-date-top .hybrid-date-picker input,[data-date-control]>.hybrid-date-top .hybrid-date-picker label,[data-date-control]>.hybrid-date-top .range-toggle,[data-date-control]>.hybrid-date-top .axis-switch{box-sizing:border-box;height:38px!important;min-height:38px!important}
+[data-date-control]>.hybrid-date-top .range-toggle,[data-date-control]>.hybrid-date-top .axis-switch{padding:3px!important;align-items:stretch!important}
+[data-date-control]>.hybrid-date-top .range-toggle-button,[data-date-control]>.hybrid-date-top .axis-button{height:30px!important;min-height:30px!important;padding-top:0!important;padding-bottom:0!important;line-height:30px!important}
+
+/* Keep the combined control row on one line, progressively simplifying the picker. */
+:is([data-date-control="cards"],[data-date-control="cards"])>.hybrid-date-top{overflow:visible;flex-wrap:nowrap;scrollbar-width:none}
+:is([data-date-control="cards"],[data-date-control="cards"])>.hybrid-date-top::-webkit-scrollbar{display:none}
+.hybrid-picker-text{display:none}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight{gap:5px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .hybrid-quick{gap:3px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .hybrid-button{padding-inline:7px;font-size:11px}
+#date-selector-wrap .fit-tight>.matrix-filter-controls{gap:4px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .range-toggle,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .axis-switch{padding:3px!important;gap:1px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .range-toggle-button,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-tight .axis-button{padding-inline:6px!important;font-size:11px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label{position:relative;display:flex;align-items:center;justify-content:center;min-height:34px;width:91px;border:1px solid var(--hybrid-line);border-radius:9px;background:var(--ui-surface);color:var(--ui-muted)}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker input{position:absolute;inset:0;width:100%;height:100%;min-height:0;opacity:0;cursor:pointer;padding:0;border:0}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-picker-text{display:block;pointer-events:none;white-space:nowrap;font-size:11px;padding-right:18px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-yearless .hybrid-date-picker label::after{content:"";width:13px;height:13px;position:absolute;right:6px;pointer-events:none;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' d='M5 5h14v16H5zM8 2v6m8-6v6M5 10h14'/%3E%3C/svg%3E") center/contain no-repeat}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label{width:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-picker-text{display:none}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-icon .hybrid-date-picker label::after{right:7px;width:15px;height:15px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small{gap:3px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-button{font-size:9px;padding-inline:4px;min-height:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-quick{gap:2px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .range-toggle-button,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .axis-button{font-size:9px!important;padding-inline:3px!important;min-height:28px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .range-toggle,:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .axis-switch{padding:2px!important}
+#date-selector-wrap .fit-small>.matrix-filter-controls{gap:2px!important}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label{width:26px;min-height:30px}
+:is([data-date-control="cards"],[data-date-control="cards"]) .fit-small .hybrid-date-picker label::after{right:5px}
+
+
+#date-selector-wrap .hybrid-date-top.fit-tight{gap:5px}
+#date-selector-wrap .fit-small #card-date-range .range-toggle-button{font-size:9px!important;padding-inline:3px!important}
+#date-selector-wrap .fit-micro #card-date-range .range-toggle-button{font-size:8px!important;padding-inline:1px!important}
+[data-date-control="cards"] #card-date-range{flex-basis:auto!important;justify-content:flex-start!important}
+
+/* Keep the visible date label centred inside the actual tappable button. */
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-day{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;box-sizing:border-box;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-day>span{margin-top:2px}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle-button,.axis-button,.hybrid-button){
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  text-align:center!important;vertical-align:middle;box-sizing:border-box;
+  line-height:1.2!important;padding-top:0!important;padding-bottom:0!important;
+}
+
+/* Clip the native date control to the visible calendar icon on narrow rows. */
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker{
+  position:relative;flex:0 0 28px!important;width:28px!important;min-width:28px!important;
+  max-width:28px!important;overflow:hidden;isolation:isolate;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker label{
+  position:relative;box-sizing:border-box;width:28px!important;min-width:28px!important;
+  max-width:28px!important;height:38px!important;overflow:hidden;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top:is(.fit-icon,.fit-small,.fit-micro) .hybrid-date-picker input{
+  position:absolute!important;inset:0!important;box-sizing:border-box;width:100%!important;
+  max-width:100%!important;height:100%!important;min-width:0!important;
+  margin:0!important;padding:0!important;opacity:0;
+}
+:is([data-date-control="matrix"],[data-date-control="cards"]) .hybrid-date-top :is(.range-toggle,.axis-switch){position:relative;z-index:1}
+
+/* Approved layout 05 + colour 01: inset timeline on extra-light wisteria. */
+.person-card .hybrid-next{box-sizing:border-box;width:100%;margin:14px 0;border:1px solid var(--ui-border);border-radius:10px;padding:18px 16px 18px 44px;background:var(--ui-tint);gap:12px}
+.person-card .hybrid-next-info{position:relative;min-width:0;flex:1}
+.person-card .hybrid-next-info::before{content:"";position:absolute;left:-18px;top:7px;bottom:5px;width:2px;background:var(--ui-soft)}
+.person-card .hybrid-next .eyebrow{display:block;font-size:11px;line-height:1.5;font-weight:650;letter-spacing:.04em;margin-bottom:12px}
+.person-card .hybrid-next .eyebrow::before{content:"";position:absolute;left:-21px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--hybrid-purple);box-shadow:0 0 0 3px var(--ui-tint)}
+.person-card .hybrid-next b{margin:0;font-size:22px;line-height:1.25;font-weight:750;letter-spacing:-.7px}
+.person-card .hybrid-next-weekday{font-size:10px;font-weight:500;letter-spacing:0;margin-left:5px}
+.person-card .hybrid-next-shop{margin-top:6px;font-size:12px;line-height:1.5;color:var(--hybrid-purple-strong)}
+.person-card .hybrid-next p{margin-top:3px;font-size:10px;line-height:1.5}
+.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px;font-weight:600;line-height:1.6;letter-spacing:0;margin:0}
+.person-card .hybrid-next-actions{gap:12px}
+.person-card .hybrid-next-actions .hybrid-button{min-height:32px;padding:6px 7px;font-size:9px;border-color:var(--hybrid-line);color:var(--hybrid-purple-strong);background:color-mix(in srgb, var(--ui-surface) 87.4510%, transparent)}
+@media(max-width:700px){.person-card .hybrid-next{margin:12px 0;padding-right:12px}.person-card .hybrid-next b{font-size:21px}.person-card .hybrid-next-weekday{display:block;margin-left:0;margin-top:3px}.person-card .hybrid-next:not(:has(.hybrid-next-actions)) b{font-size:16px}}
+
+/* Safari rubber-band scrolling can move the sticky header between frames.
+   Extend the first docked row's opaque backing behind it so no page content
+   flashes through the transient gap; the header itself remains on top. */
+.content-main .view-controls.hybrid-docked::before{top:-100dvh}
+
+/* Keep person navigation visible and distinct from IG / save / report actions. */
+.hybrid-search-person{cursor:pointer}
+.hybrid-person-open{border:0;background:none;color:var(--hybrid-purple-strong);font:inherit;text-align:left;padding:0;cursor:pointer}
+.hybrid-person-open:hover strong{color:var(--hybrid-purple)}
+.hybrid-person-details{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;padding:9px 2px 1px;border:0;border-top:1px solid var(--hybrid-line);background:none;color:var(--hybrid-purple-strong);font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif;cursor:pointer;text-align:left}
+.person-card .person-results .person-no-shifts{padding:14px 10px;text-align:center;color:var(--hybrid-muted)}
+.person-no-shifts p{margin:0 0 8px}
+.person-no-shifts p:last-child{margin:0}
+.person-search-mode #matrix-view .matrix-controls-row>.matrix-filter-controls{margin-left:0!important;margin-right:auto!important;order:0}
+.person-search-mode #matrix-view .matrix-controls-row>.person-back{order:1}
+
+/* Anchor the shop filter directly below its trigger, not below all date rows. */
+.has-sticky-controls #cafe-sidebar:not([hidden]){position:fixed;top:var(--filter-top)!important;left:var(--filter-left);width:var(--filter-width);max-height:var(--filter-height);margin:0;z-index:60;box-sizing:border-box;overscroll-behavior:contain}
+
+/* Approved profile: primary name, alias pills, full-height avatar, stacked actions. */
+.person-card .person-card-top{display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px;padding:4px 0 12px}
+.person-card .person-search-profile{display:grid;grid-template-columns:min(var(--person-avatar-height,64px),96px) minmax(0,1fr);gap:9px;align-items:start;padding:0;min-width:0}
+.person-card .person-search-profile :is(.person-photo,.person-photo-placeholder){width:min(var(--person-avatar-height,64px),96px);height:var(--person-avatar-height,64px);border-radius:50%;object-fit:cover;font-size:24px;box-sizing:border-box}
+.person-card .person-identity strong{font-size:20px;line-height:1.35;display:block}
+.hybrid-person-aliases{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0;color:var(--hybrid-muted)}
+.hybrid-person-aliases>span{font-size:9px;line-height:1.5;padding:2px 6px;border-radius:20px;background:var(--ui-chip);overflow-wrap:anywhere}
+.person-card .people-ig{display:inline-flex;align-items:center;gap:3px;white-space:normal;overflow-wrap:anywhere;font-size:10px;color:var(--hybrid-purple)}
+.hybrid-profile-ig-icon{width:11px;height:11px;flex:none}
+.person-card .hybrid-person-actions{display:flex;flex-direction:column;gap:6px;align-items:stretch;margin:0}
+.person-card .person-card-top .hybrid-person-actions :is(.hybrid-button,.hybrid-heart){min-height:29px;padding:5px 7px;font:500 10px/1.4 -apple-system,BlinkMacSystemFont,"PingFang HK",sans-serif!important;gap:5px}
+.person-card .hybrid-person-actions .heart-icon{display:inline-flex;align-items:center;justify-content:center;width:13px;height:13px;font-size:17px;line-height:13px}
+.hybrid-action-icon{width:13px;height:13px;flex:none}
+/* Calendar at left; shop and time immediately to its right. */
+.person-card .hybrid-next{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:center;padding:14px 12px;background:var(--ui-tint)}
+.person-card .hybrid-next>.eyebrow{grid-column:1/-1;margin:0;font-size:11px}
+.person-card .hybrid-next .eyebrow::before,.person-card .hybrid-next-info::before{content:none}
+.person-card .hybrid-calendar-date{border:1px solid var(--ui-border);border-radius:8px;background:var(--ui-surface);text-align:center;overflow:hidden;color:var(--hybrid-purple-strong)}
+.hybrid-calendar-date>span{display:block;background:var(--ui-soft);padding:3px;font-size:10px}
+.person-card .hybrid-calendar-date>b{display:block;font-size:29px;line-height:1.2;margin:3px 0 0;letter-spacing:0}
+.hybrid-calendar-date>small{display:block;font-size:9px;padding:2px 0 6px}
+.person-card .hybrid-next-shop{font-size:12px;font-weight:600;margin:0;line-height:1.5}
+.person-card .hybrid-next-info p{font-size:10px;line-height:1.5;margin-top:5px;white-space:nowrap;letter-spacing:-.2px}
+.person-card .hybrid-next-actions{gap:7px}
+.person-card .hybrid-next-actions .hybrid-button{font-size:9px;min-height:30px;padding:5px 6px}
+.person-card .hybrid-next.no-shift{grid-template-columns:minmax(0,1fr)}
+@media(max-width:360px){.person-card .hybrid-next{grid-template-columns:48px minmax(0,1fr) auto;gap:7px;padding:12px 9px}.person-card .hybrid-next.no-shift{grid-template-columns:1fr}.person-card .person-card-top{gap:7px}.person-card .person-search-profile{gap:7px}.person-card .hybrid-next-shop{font-size:11px}}
+
+/* Match the requested reference: borderless tint, inset timeline, calendar badge. */
+.person-card .hybrid-next{position:relative;border:0;box-shadow:none;grid-template-columns:68px minmax(0,1fr) auto;padding:18px 16px 18px 44px;column-gap:12px;row-gap:12px}
+.person-card .hybrid-next::before{content:"";position:absolute;left:26px;top:32px;bottom:18px;width:2px;background:var(--ui-soft)}
+.person-card .hybrid-next>.eyebrow{position:relative;grid-column:1/3;grid-row:1;margin:0}
+.person-card .hybrid-next>.eyebrow::before{content:"";position:absolute;left:-21px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--hybrid-purple);box-shadow:0 0 0 3px var(--ui-tint)}
+.person-card .hybrid-next.has-shift>.hybrid-calendar-date{grid-column:1;grid-row:2}
+.person-card .hybrid-next.has-shift>.hybrid-next-info{grid-column:2;grid-row:2}
+.person-card .hybrid-next>.hybrid-next-actions{grid-column:3;grid-row:1/3;align-self:center}
+.person-card .hybrid-calendar-date{--calendar-ink:var(--ui-primary);--calendar-band:var(--ui-accent);--calendar-edge:var(--ui-border);color:var(--calendar-ink);border-color:var(--calendar-edge);border-radius:9px}
+.person-card .hybrid-calendar-date.is-sunday{--calendar-ink:var(--ui-primary);--calendar-band:var(--ui-accent);--calendar-edge:var(--ui-border)}
+.person-card .hybrid-calendar-date.is-saturday{--calendar-ink:var(--ui-primary);--calendar-band:var(--ui-accent);--calendar-edge:var(--ui-border)}
+.person-card .hybrid-calendar-date>span{background:var(--calendar-band);color:var(--ui-on-primary);font-size:10px;font-weight:700;white-space:nowrap;padding:3px 1px}
+.person-card .hybrid-calendar-date>b{color:var(--calendar-ink);font-size:34px;font-weight:800;line-height:1.2;margin:2px 0 0}
+.person-card .hybrid-calendar-date>small{font-size:10px;font-weight:650;padding:1px 0 5px}
+.person-card .hybrid-next-shop{font-weight:500}
+.person-card .hybrid-next.no-shift{grid-template-columns:minmax(0,1fr)}
+.person-card .hybrid-next.no-shift>.eyebrow{grid-column:1}
+@media(max-width:700px){.person-card .hybrid-next{grid-template-columns:56px minmax(0,1fr) auto;padding:16px 12px 16px 38px;column-gap:8px}.person-card .hybrid-next::before{left:20px;bottom:16px}.person-card .hybrid-calendar-date>span{font-size:9px}.person-card .hybrid-calendar-date>b{font-size:31px}.person-card .hybrid-next.no-shift{grid-template-columns:1fr}}
+
+/* Approved compact profile spacing; preserve the card's outer padding. */
+.person-card .person-card-top{padding-top:4px;padding-bottom:8px;margin-bottom:9px}
+.person-card .person-identity strong{line-height:1.2}
+.person-card .hybrid-person-aliases{margin-top:3px;margin-bottom:3px}
+.person-card .people-ig{margin-top:4px}
+.person-card .hybrid-person-actions{gap:5px}
+.person-card .hybrid-next{padding-top:10px;padding-bottom:10px;row-gap:6px;margin-bottom:9px}
+.person-card .hybrid-next::before{top:26px;bottom:10px}
+.person-card .hybrid-calendar-date>span{padding-top:2px;padding-bottom:2px;line-height:1.3}
+.person-card .hybrid-calendar-date>b{font-size:28px;line-height:1.1;margin-top:1px}
+.person-card .hybrid-calendar-date>small{padding-top:1px;padding-bottom:3px;line-height:1.3}
+.person-card .hybrid-next>.eyebrow{line-height:1.4}
+.person-card .hybrid-next-actions{gap:6px}
+.person-card .person-results th,.person-card .person-results td{padding-top:7px;padding-bottom:7px}
+@media(max-width:700px){.person-card .person-results th,.person-card .person-results td{padding-top:5px;padding-bottom:5px}}
+
+/* Keep the next-shift calendar legible when a person card gets narrow. */
+@media(max-width:700px){.person-card .hybrid-next.has-shift{grid-template-columns:84px minmax(0,1fr) auto}.person-card .hybrid-next.has-shift>.hybrid-calendar-date{min-width:0}.person-card .hybrid-calendar-date>span{font-size:9px;padding-inline:5px}}
+@media(max-width:380px){.person-card .hybrid-next.has-shift{grid-template-columns:76px minmax(0,1fr) auto;column-gap:6px}.person-card .hybrid-next.has-shift>.hybrid-next-actions .hybrid-button{padding-inline:5px;font-size:8px}}
+
+/* Approved P01 + S14 compact table navigation (2026-11-07). */
+
+.matrix-corner{padding:7px 7px 38px!important;justify-content:flex-start!important;align-items:center!important}
+.matrix-corner-label{width:100%;text-align:center;white-space:nowrap}
+.hybrid-table-arrows>.matrix-navigation{position:absolute;left:7px;bottom:6px;width:calc(var(--table-label-width) - 14px)!important;height:28px!important;padding:0!important;gap:6px;justify-content:center!important;align-items:center!important}
+.hybrid-table-arrows .matrix-navigation button{display:flex;align-items:center;justify-content:center;flex:0 0 32px!important;width:32px!important;min-width:32px!important;height:28px!important;min-height:28px!important;max-height:28px!important;padding:0!important;border:1px solid var(--ui-border-strong)!important;border-radius:7px!important;background:var(--ui-surface)!important;color:var(--ui-primary)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:none!important}
+.hybrid-table-arrows .matrix-navigation button:hover{background:var(--ui-soft)!important}
+.hybrid-table-arrows .matrix-navigation button:focus-visible{outline:2px solid var(--ui-focus);outline-offset:1px}
+.hybrid-table-arrows .matrix-navigation button svg{width:14px;height:14px;pointer-events:none}
+.matrix-colhead.is-today{box-shadow:inset 0 -2px 0 var(--ui-accent)!important}
+.matrix-colhead.is-today::after{content:none!important}
+.matrix-colhead.is-today>strong::after{content:'今日';display:inline-block;margin-left:6px;vertical-align:middle;padding:2px 5px;border-radius:5px;background:var(--ui-accent);color:var(--ui-on-primary);font:650 9px/1.2 -apple-system,BlinkMacSystemFont,'PingFang HK',sans-serif;letter-spacing:0}
+.hybrid-table-arrows .matrix-navigation button{width:40px!important;flex-basis:40px!important;gap:2px;font-size:9px}#matrix-prev::after{content:"前"}#matrix-next::before{content:"後"}.hybrid-table-arrows .matrix-navigation button svg{width:10px!important;height:10px!important}.hybrid-table-arrows>.matrix-navigation{gap:4px!important}.matrix-colhead.is-today>strong::after{background:none!important;color:var(--ui-accent)!important;padding:0 0 0 7px;border-left:2px solid var(--ui-accent);border-radius:0}
+/* Compact selected combination: visible shape and hit area are identical. */
+.matrix-corner{padding:8px 6px 34px!important}
+.matrix-corner-label{font-size:9px!important;font-weight:650;line-height:1.3;letter-spacing:0}
+.hybrid-table-arrows>.matrix-navigation{left:6px;bottom:7px;width:calc(var(--table-label-width) - 12px)!important;height:26px!important;gap:4px!important}
+.hybrid-table-arrows .matrix-navigation button{width:35px!important;min-width:35px!important;flex-basis:35px!important;height:26px!important;min-height:26px!important;max-height:26px!important;border-radius:6px!important;font:550 9px/1 -apple-system,BlinkMacSystemFont,'PingFang HK',sans-serif;gap:2px!important}
+.hybrid-table-arrows .matrix-navigation button svg{width:9px!important;height:9px!important}
+.matrix-colhead.is-today>strong::after{font-size:9px!important;line-height:1.1;padding-left:5px!important;margin-left:5px;border-left-width:1px!important}
+
+/* D08: three compact lines inside the original 65px / 60px date header. */
+.matrix-colhead[data-date]{padding-top:4px;padding-bottom:4px;gap:1px;justify-content:center}
+.matrix-colhead[data-date]>.matrix-date-year{font-size:9px;line-height:11px;letter-spacing:1px}
+.matrix-colhead[data-date]>.matrix-date-label{font-size:22px;line-height:26px;font-weight:750;white-space:nowrap}
+.matrix-colhead[data-date]>.matrix-date-bottom{display:flex;align-items:center;gap:6px;font-size:9px;line-height:11px;white-space:nowrap}
+.matrix-colhead[data-date]>.matrix-date-label::after{content:none!important}
+.matrix-date-bottom>.matrix-date-today{font-size:9px;line-height:11px;font-weight:700;color:var(--ui-accent);border-left:1px solid var(--ui-accent);padding-left:6px}
+.matrix-colhead[data-date] :is(.matrix-date-year,.matrix-date-bottom,.matrix-date-today){margin-top:0}
+
+/* Approved navigation: semantic theme colours, no text outline. */
+.hybrid-header-nav button{justify-content:center;border:0!important;border-radius:0!important;padding-inline:0;flex:none;width:64px}
+.hybrid-header-nav button[data-id=today]{width:98px}
+.hybrid-header-nav button[data-id=people]{width:81px}
+.hybrid-header-nav button.active{background:color-mix(in srgb,var(--ui-primary) 24%,transparent)!important;box-shadow:inset 0 -2px var(--ui-primary);color:var(--ui-primary)}
+.hybrid-header-nav button.active span{font-size:18px;font-weight:800;-webkit-text-stroke:0}
+@media(min-width:701px) and (max-width:1000px){
+.hybrid-header-nav button{width:46px;padding-inline:0}
+.hybrid-header-nav button[data-id=today]{width:76px}
+.hybrid-header-nav button[data-id=people]{width:61px}
+}
+@media(max-width:700px){
+.hybrid-bottom-nav{padding:0;gap:0;height:calc(54px + max(8px,env(safe-area-inset-bottom)));box-sizing:border-box}
+.hybrid-bottom-nav button{height:100%;min-height:0;max-height:none;padding:0 0 max(0px,calc(env(safe-area-inset-bottom) - 8px));gap:1px;justify-content:center;border-radius:0;font-size:11px;line-height:12px;background:transparent}
+.hybrid-bottom-nav button.active{background:color-mix(in srgb,var(--ui-primary) 14%,transparent);box-shadow:inset 0 2px var(--ui-primary);color:var(--ui-primary);font-weight:700}
+.hybrid-bottom-nav .hybrid-nav-icon{display:flex;align-items:center;justify-content:center;width:32px;height:32px;min-height:32px;line-height:1}
+.hybrid-bottom-nav svg{width:30px;height:30px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}
+}

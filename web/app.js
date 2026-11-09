@@ -232,12 +232,10 @@
         tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
         if (shift.review_names?.[name]) tag.title = shift.review_names[name];
         if (attendance.story_status === 'absent' || attendance.story_status === 'extra') {
-            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source));
+            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source, false));
           } else if (cancelled) {
           const marker = make("span", "cancelled-attendance");
-          const source = HKCI.cancellationSource(attendance.story_source || attendance.cancellation_source);
-          if (source) { const link = make("a", "cancelled-attendance-link", storyLabel); link.href = source; link.target = "_blank"; link.rel = "noopener noreferrer"; marker.append(link); }
-          else marker.append(make("span", "cancelled-attendance-label", storyLabel));
+          marker.append(make("span", "cancelled-attendance-label", storyLabel));
           const attendanceTag = make("span", "person-attendance"); attendanceTag.append(tag, marker); tags.append(attendanceTag);
         } else tags.append(tag);
       }
@@ -248,8 +246,8 @@
     if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) element.append(make("p", "card-note", shift.notes));
     const foot = make("div", "card-foot");
     foot.append(make("span", "headcount", count === kitchenCount ? `${count} 位廚房職` : `${count - kitchenCount} 位${HKCI.staffTerm(shop.shop)}`));
-    const link = sourceLink(shop, shift.source);
-    if (link) foot.append(link);
+    const sources = HKCI.rosterSourceLinks(shift);
+    if (sources) foot.append(sources);
     element.append(foot);
     window.Hybrid?.decorateCard(element, shop, shift);
     return { element, count };

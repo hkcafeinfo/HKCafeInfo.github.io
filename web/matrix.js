@@ -234,11 +234,9 @@
           tag.addEventListener("click", () => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", { detail: { shop: shop.shop, name } })));
           if (shift.review_names?.[name]) tag.title = shift.review_names[name];
           if (attendance.story_status === 'absent' || attendance.story_status === 'extra') {
-            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source));
+            tags.append(HKCI.storyAttendanceTag(tag, attendance.story_status, attendance.story_source, false));
           } else if (cancelled) {
-            const source = HKCI.cancellationSource(attendance.story_source || attendance.cancellation_source);
-            const marker = source ? make("a", "cancelled-attendance-link", storyLabel) : make("span", "cancelled-attendance-label", storyLabel);
-            if (source) { marker.href = source; marker.target = "_blank"; marker.rel = "noopener noreferrer"; }
+            const marker = make("span", "cancelled-attendance-label", storyLabel);
             const attendanceTag = make("span", "person-attendance"); attendanceTag.append(tag, marker); tags.append(attendanceTag);
           } else tags.append(tag);
         }
@@ -251,8 +249,8 @@
         if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) node.append(make("p", "matrix-note", shift.notes));
         const foot = make("div", "matrix-cell-foot");
         foot.append(make("span", null, shift.hours || "時間未註明"));
-        const link = sourceLink(shop, shift.source);
-        if (link) foot.append(link);
+        const sources = HKCI.rosterSourceLinks(shift);
+        if (sources) foot.append(sources);
         node.append(foot);
       } else { node.classList.add("matrix-cell-empty"); node.append(make("span", "matrix-empty-copy", "—")); }
     } else if (unresolved && !state.search) {
@@ -479,14 +477,12 @@
           const typeTag = typeCell.querySelector('button');
           typeTag.classList.add('story-type-tag');
           if (storyStatus === 'absent' || storyStatus === 'extra') {
-            typeCell.replaceChildren(HKCI.storyAttendanceTag(typeTag, storyStatus, cancellationSource));
+            typeCell.replaceChildren(HKCI.storyAttendanceTag(typeTag, storyStatus, cancellationSource, false));
           } else if (cancelled) {
-            const href = HKCI.cancellationSource(cancellationSource);
-            const marker = href ? make('a', 'cancelled-attendance-link', '（已取消）') : make('span', 'cancelled-attendance-label', '（已取消）');
-            if (href) { marker.href = href; marker.target = '_blank'; marker.rel = 'noopener noreferrer'; }
+            const marker = make('span', 'cancelled-attendance-label', '（已取消）');
             typeCell.append(marker);
           }
-          const source = make("td"); const link = sourceLink(shop, shift.source); if (link) { link.textContent = "↗"; link.setAttribute("aria-label", "開啟來源貼文"); source.append(link); } else source.textContent = "—";
+          const source = make("td"); const links = HKCI.rosterSourceLinks(shift, "person-roster-sources"); if (links) source.append(links); else source.textContent = "—";
           row.append(source); body.append(row);
         }, valid);
         if (!person.shifts.length) {

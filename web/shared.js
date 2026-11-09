@@ -291,11 +291,64 @@
     }
     return card;
   }
-  function storyAttendanceTag(tag, status, source) {
+  function rosterSources(shift) {
+    const records = shift?.attendance_records || [];
+    const sourceKey = value => {
+      const url = instagram(value);
+      if (!url) return "";
+      const parsed = new URL(url);
+      return `${parsed.hostname.replace(/^www\./, "")}${parsed.pathname.replace(/\/$/, "")}`;
+    };
+    const facts = record => [record.name, record.role, record.type, record.hours, record.event_name, record.notes]
+      .map(value => value || "").join("\u0000");
+    const bySource = new Map();
+    for (const record of records) {
+      const key = sourceKey(record.source);
+      if (key) {
+        if (!bySource.has(key)) bySource.set(key, { url: instagram(record.source), facts: new Set() });
+        bySource.get(key).facts.add(facts(record));
+      }
+    }
+    const ordered = [];
+    const primary = instagram(shift?.source) || bySource.values().next().value?.url || "";
+    const primaryKey = sourceKey(primary);
+    if (primary) ordered.push(primary);
+    const primaryFacts = bySource.get(primaryKey)?.facts || new Set();
+    for (const [key, item] of bySource) {
+      if (key !== primaryKey && [...item.facts].some(fact => !primaryFacts.has(fact))) ordered.push(item.url);
+    }
+    // Story additions, absences, and explicit cancellations are distinct changes,
+    // so retain their source even when the base roster source is already listed.
+    for (const record of records) {
+      if (record.story_status === "extra" || record.story_status === "absent" || record.cancelled) {
+        const url = instagram(record.story_source || record.cancellation_source);
+        if (url) ordered.push(url);
+      }
+    }
+    const result = [], seen = new Set();
+    for (const url of ordered) {
+      const key = sourceKey(url);
+      if (key && !seen.has(key)) { seen.add(key); result.push(url); }
+    }
+    return result;
+  }
+  function rosterSourceLinks(shift, className = "roster-source-links") {
+    const urls = rosterSources(shift);
+    if (!urls.length) return null;
+    const wrap = document.createElement("span"); wrap.className = className;
+    urls.forEach((url, index) => {
+      const link = document.createElement("a"); link.href = url;
+      link.target = "_blank"; link.rel = "noopener noreferrer";
+      link.textContent = urls.length === 1 ? "來源 ↗" : `來源 ${index + 1} ↗`;
+      wrap.append(link);
+    });
+    return wrap;
+  }
+  function storyAttendanceTag(tag, status, source, linkSource = true) {
     const wrapper = document.createElement('span');
     wrapper.className = 'person-attendance story-linked ' + status;
     const label = status === 'absent' ? '缺席' : '加更';
-    const href = cancellationSource(source);
+    const href = linkSource ? cancellationSource(source) : null;
     const marker = document.createElement(href ? 'a' : 'span');
     marker.className = 'story-linked-status';
     marker.textContent = label;
@@ -317,5 +370,5 @@
       anchor.removeAttribute("target");
     }
   }, true);
-  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

@@ -5,35 +5,11 @@
   headerObserver.observe(document.querySelector(".topbar"));
   const data = window.MAID_ROSTERS;
   const $ = (id) => document.getElementById(id);
-  const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count"), footerVersion: $("footer-version") };
-  const hero = document.querySelector(".hero");
-  const firstHeroTitle = $("page-title");
-  function alignHeroArtToQuestion() {
-    const label = firstHeroTitle?.firstChild;
-    const questionIndex = label?.textContent?.lastIndexOf("？") ?? -1;
-    if (!hero || !label || questionIndex < 0) return;
-    const question = document.createRange();
-    question.setStart(label, questionIndex);
-    question.setEnd(label, questionIndex + 1);
-    const start = question.getBoundingClientRect().right - hero.getBoundingClientRect().left;
-    hero.style.setProperty("--hero-image-start", `${Math.max(0, Math.round(start))}px`);
-  }
-  if (hero && firstHeroTitle) {
-    new ResizeObserver(alignHeroArtToQuestion).observe(hero);
-    document.fonts?.ready.then(alignHeroArtToQuestion);
-    alignHeroArtToQuestion();
-  }
+  const nodes = { dates: $("date-bar"), grid: $("roster-grid"), search: $("name-search"), result: $("result-count") };
   if (!data || !Array.isArray(data.shops)) {
     nodes.grid.textContent = "讀唔到更表資料，請確認 data/roster-index.js 同 index.html 放喺原本嘅資料夾結構。";
     return;
   }
-  const lastUpdate = (() => {
-    if (!data.published_at) return data.checked_at || "未標示";
-    const date = new Date(data.published_at);
-    if (Number.isNaN(date.getTime())) return data.checked_at || "未標示";
-    return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(date).replace(", ", " ");
-  })();
-  if (nodes.footerVersion) nodes.footerVersion.textContent = `最後更新：${lastUpdate}（香港時間）`;
 
   const allDates = HKCIData.dates();
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
@@ -111,10 +87,6 @@
   $("select-all-shops").addEventListener("click", () => { visibleNames = new Set(availableNames); window.MAID_VISIBLE_SHOPS = visibleNames; saveVisibility(); });
   $("select-top-shops").addEventListener("click", () => { visibleNames = new Set(topNames); window.MAID_VISIBLE_SHOPS = visibleNames; saveVisibility(); });
 
-  $("shop-count").textContent = data.shops.length;
-  $("date-count").textContent = allDates.length;
-  $("person-count").textContent = total;
-  $("updated-label").textContent = `最後更新：${lastUpdate}`;
   const heroLogos = $("hero-logos");
   const bannerOrder = [
     "Maidoll Mirage", "Maid Planet", "Maid Academy", "Maid Clinic", "Elysium Cafe",
@@ -621,41 +593,6 @@
     window.addEventListener("hkcafeinfo:loaded", restore);
     window.addEventListener("load", restore, { once: true });
   }
-})();
-
-(() => {
-  "use strict";
-  const hero = document.querySelector(".hero");
-  const slides = [...hero.querySelectorAll(".hero-slide")];
-  const dots = [...hero.querySelectorAll("[data-hero-slide]")];
-  const pause = document.getElementById("hero-pause");
-  let current = 0, timer;
-  let paused = true;
-  function schedule() {
-    clearInterval(timer);
-    if (!paused && !document.hidden && !hero.matches(":hover, :focus-within")) timer = setInterval(() => show(current + 1), 6000);
-    pause.textContent = paused ? "▶" : "Ⅱ";
-    pause.setAttribute("aria-label", paused ? "播放輪播" : "暫停輪播");
-    pause.setAttribute("aria-pressed", String(paused));
-  }
-  function show(index) {
-    current = (index + slides.length) % slides.length;
-    slides.forEach((slide, i) => {
-      slide.classList.toggle("is-active", i === current);
-      slide.setAttribute("aria-hidden", String(i !== current));
-      dots[i].setAttribute("aria-pressed", String(i === current));
-    });
-  }
-  dots.forEach((dot, i) => dot.addEventListener("click", () => { show(i); schedule(); }));
-  document.getElementById("hero-prev").addEventListener("click", () => { show(current - 1); schedule(); });
-  document.getElementById("hero-next").addEventListener("click", () => { show(current + 1); schedule(); });
-  pause.addEventListener("click", () => { paused = !paused; schedule(); });
-  hero.addEventListener("mouseenter", () => clearInterval(timer));
-  hero.addEventListener("mouseleave", schedule);
-  hero.addEventListener("focusin", () => clearInterval(timer));
-  hero.addEventListener("focusout", () => requestAnimationFrame(schedule));
-  document.addEventListener("visibilitychange", schedule);
-  schedule();
 })();
 
 // Keep every visible control row docked from first render; reserve its full height.

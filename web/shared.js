@@ -294,9 +294,16 @@
   function rosterSourceEntries(shift, onlyName = "") {
     const allRecords = shift?.attendance_records || [];
     const records = onlyName ? allRecords.filter(record => record.name === onlyName) : allRecords;
+    const localEvidencePath = value => {
+      const path = String(value || "").replace(/^\/+/, "");
+      return /^data\/(?:story_evidence|cancellation_images)\/[A-Za-z0-9._-]+$/i.test(path) ? path : "";
+    };
     const sourceKey = value => {
       const url = instagram(value);
-      if (!url) return "";
+      if (!url) {
+        const path = localEvidencePath(value);
+        return path ? `asset:${path}` : "";
+      }
       const parsed = new URL(url);
       return `${parsed.hostname.replace(/^www\./, "")}${parsed.pathname.replace(/\/$/, "")}`;
     };
@@ -331,7 +338,8 @@
     const add = (url, record, status = "") => {
       const key = sourceKey(url);
       if (!key) return;
-      if (!selected.has(key)) selected.set(key, { url: instagram(url), records: [], statuses: new Set() });
+      const target = instagram(url) || (localEvidencePath(url) ? `/${localEvidencePath(url)}` : "");
+      if (!selected.has(key)) selected.set(key, { url: target, records: [], statuses: new Set() });
       const entry = selected.get(key);
       if (record && !entry.records.includes(record)) entry.records.push(record);
       if (status) entry.statuses.add(status);

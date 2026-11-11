@@ -357,12 +357,16 @@
       }));
       for (const status of entry.statuses) categorySet.add(status);
       const nameText = shortNames(entry.records.map(record => record.name));
+      const namesFor = predicate => [...new Set(entry.records.filter(predicate).map(record => record.name).filter(Boolean))].join("、");
+      const extraNames = namesFor(record => record.story_status === "extra");
+      const absentNames = namesFor(record => record.story_status === "absent");
       const markers = [];
-      if (categorySet.has("加更")) markers.push("＋");
-      if (categorySet.has("缺席") || categorySet.has("取消")) markers.push("−");
-      const label = `${markers.join("") || "更表"} ↗`;
+      if (extraNames) markers.push(`➕${extraNames}`);
+      if (absentNames) markers.push(`➖${absentNames}`);
+      const kind = extraNames && absentNames ? "mixed" : extraNames ? "extra" : absentNames ? "absent" : "normal";
+      const label = `${markers.join("　") || "當值"} ↗`;
       const description = `${[...categorySet].join("、") || "更表來源"}${nameText ? `：${nameText}` : ""}`;
-      return { url: entry.url, label, description };
+      return { url: entry.url, label, description, kind };
     });
   }
   function rosterSources(shift) {
@@ -374,6 +378,7 @@
     const wrap = document.createElement("span"); wrap.className = className;
     entries.forEach(entry => {
       const link = document.createElement("a"); link.href = entry.url;
+      link.classList.add(`source-${entry.kind}`);
       link.target = "_blank"; link.rel = "noopener noreferrer";
       link.textContent = entry.label;
       link.title = entry.description;

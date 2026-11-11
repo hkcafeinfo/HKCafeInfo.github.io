@@ -833,6 +833,9 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 /* Compact, meaningful source labels stay on one line and align to the right. */
 .roster-source-links{display:flex;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:3px;margin-left:auto;min-width:0}
 .roster-source-links a{display:inline-flex;align-items:center;max-width:100%;padding:2px 4px;border-radius:5px;background:var(--ui-tint);color:var(--ui-primary);font-size:8px;line-height:1.2;white-space:nowrap;text-decoration:none}
+.roster-source-links a.source-extra{background:var(--status-extra-background);color:var(--status-extra-text)}
+.roster-source-links a.source-absent{background:var(--status-absent-background);color:var(--status-absent-text)}
+.roster-source-links a.source-mixed{background:linear-gradient(90deg,var(--status-extra-background) 0 50%,var(--status-absent-background) 50%);color:var(--ui-text)}
 .roster-source-links a:hover{text-decoration:underline;text-underline-offset:2px}
 .card-foot .roster-source-links{max-width:68%}
 .matrix-cell-foot .roster-source-links{max-width:72%}

@@ -345,10 +345,13 @@
       return unique.join("、");
     };
     return [...selected.values()].map(entry => {
+      const entryKey = sourceKey(entry.url);
       const categorySet = new Set(entry.records.map(record => {
-        if (record.story_status === "extra") return "加更";
-        if (record.story_status === "absent") return "缺席";
-        if (record.cancelled) return "取消";
+        const storyKey = sourceKey(record.story_source);
+        const cancellationKey = sourceKey(record.cancellation_source);
+        if (storyKey === entryKey && record.story_status === "extra") return "加更";
+        if (storyKey === entryKey && record.story_status === "absent") return "缺席";
+        if (cancellationKey === entryKey && record.cancelled) return "取消";
         const type = String(record.type || "");
         const role = String(record.role || "");
         if (type.includes("限定") || role.includes("限定")) return "限定";
@@ -358,8 +361,8 @@
       for (const status of entry.statuses) categorySet.add(status);
       const nameText = shortNames(entry.records.map(record => record.name));
       const namesFor = predicate => [...new Set(entry.records.filter(predicate).map(record => record.name).filter(Boolean))].join("、");
-      const extraNames = namesFor(record => record.story_status === "extra");
-      const absentNames = namesFor(record => record.story_status === "absent");
+      const extraNames = namesFor(record => record.story_status === "extra" && sourceKey(record.story_source) === entryKey);
+      const absentNames = namesFor(record => record.story_status === "absent" && sourceKey(record.story_source) === entryKey);
       const markers = [];
       if (extraNames) markers.push(`➕${extraNames}`);
       if (absentNames) markers.push(`➖${absentNames}`);

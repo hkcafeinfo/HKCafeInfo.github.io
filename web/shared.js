@@ -381,7 +381,7 @@
       if (extraNames) markers.push(`➕${extraNames}`);
       if (absentNames) markers.push(`➖${absentNames}`);
       const kind = extraNames && absentNames ? "mixed" : extraNames ? "extra" : absentNames ? "absent" : "normal";
-      const dutyLabel = entryKey === mainRosterKey ? "當值" : sourceNames.length === 1 ? `${sourceNames[0]}當值` : sourceNames.length > 1 ? "多人當值" : "更表";
+      const dutyLabel = entryKey === mainRosterKey ? "當值" : sourceNames.length ? `${sourceNames.join("&")}當值` : "更表";
       const label = `${markers.join("　") || dutyLabel} ↗`;
       const description = `${[...categorySet].join("、") || "更表來源"}${sourceNames.length ? `：${sourceNames.join("、")}` : nameText ? `：${nameText}` : ""}`;
       return { url: entry.url, label, description, kind };

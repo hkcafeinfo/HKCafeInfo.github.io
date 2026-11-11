@@ -302,23 +302,31 @@
     };
     const facts = record => [record.name, record.role, record.type, record.hours, record.event_name, record.notes]
       .map(value => value || "").join("\u0000");
-    const bySource = new Map();
-    for (const record of records) {
+    const groupBySource = sourceRecords => {
+      const grouped = new Map();
+      for (const record of sourceRecords) {
       const key = sourceKey(record.source);
       if (key) {
-        if (!bySource.has(key)) bySource.set(key, { url: instagram(record.source), facts: new Set(), records: [] });
-        bySource.get(key).facts.add(facts(record));
-        bySource.get(key).records.push(record);
+          if (!grouped.has(key)) grouped.set(key, { url: instagram(record.source), facts: new Set(), records: [] });
+          grouped.get(key).facts.add(facts(record));
+          grouped.get(key).records.push(record);
+        }
       }
-    }
+      return grouped;
+    };
+    const allBySource = groupBySource(allRecords);
+    const bySource = onlyName ? groupBySource(records) : allBySource;
     const primary = instagram(shift?.source) || bySource.values().next().value?.url || "";
     const primaryKey = sourceKey(primary);
-    const sourceCoverage = [...bySource].map(([key, item]) => [key, new Set(item.records.map(record => record.name).filter(Boolean)).size]);
+    // Decide which post is the main roster from the complete shift. A person-card
+    // row is scoped to one name, but that must not make their personal post look
+    // like the main roster simply because it is the only source left in scope.
+    const sourceCoverage = [...allBySource].map(([key, item]) => [key, new Set(item.records.map(record => record.name).filter(Boolean)).size]);
     const maxCoverage = Math.max(0, ...sourceCoverage.map(([, count]) => count));
     const mainRosterKey = sourceCoverage.find(([key, count]) => key === primaryKey && count === maxCoverage)?.[0]
       || sourceCoverage.find(([, count]) => count === maxCoverage && count > 0)?.[0]
       || primaryKey;
-    const primaryFacts = bySource.get(primaryKey)?.facts || new Set();
+    const primaryFacts = allBySource.get(primaryKey)?.facts || new Set();
     const selected = new Map();
     const add = (url, record, status = "") => {
       const key = sourceKey(url);
@@ -328,7 +336,7 @@
       if (record && !entry.records.includes(record)) entry.records.push(record);
       if (status) entry.statuses.add(status);
     };
-    if (primary) {
+    if (primary && (!onlyName || bySource.has(primaryKey))) {
       const primaryRecords = bySource.get(primaryKey)?.records || records.filter(record => !record.source);
       primaryRecords.forEach(record => add(primary, record));
       if (!primaryRecords.length) add(primary, null);

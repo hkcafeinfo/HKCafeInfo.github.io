@@ -384,20 +384,32 @@
       const dutyLabel = entryKey === mainRosterKey ? "當值" : sourceNames.length ? `${sourceNames.join("&")}當值` : "更表";
       const label = `${markers.join("　") || dutyLabel} ↗`;
       const description = `${[...categorySet].join("、") || "更表來源"}${sourceNames.length ? `：${sourceNames.join("、")}` : nameText ? `：${nameText}` : ""}`;
-      return { url: entry.url, label, description, kind };
+      const proof = entry.records.find(record => sourceKey(record.story_source) === entryKey
+        && record.story_source_backup && record.story_source_expires_at);
+      const backupUrl = proof && /^data\/story_evidence\/[A-Za-z0-9._-]+\.(?:jpg|jpeg|png|webp|mp4|mov)$/i.test(proof.story_source_backup)
+        ? `/${proof.story_source_backup}` : "";
+      const expiresAt = proof?.story_source_expires_at || "";
+      const expired = expiresAt && Number.isFinite(Date.parse(expiresAt)) && Date.now() >= Date.parse(expiresAt);
+      return { url: entry.url, href: expired && backupUrl ? backupUrl : entry.url,
+        backupUrl, expiresAt, label, description, kind };
     });
   }
   function rosterSources(shift) {
-    return rosterSourceEntries(shift).map(entry => entry.url);
+    return rosterSourceEntries(shift).map(entry => entry.href || entry.url);
   }
   function rosterSourceLinks(shift, className = "roster-source-links", onlyName = "") {
     const entries = rosterSourceEntries(shift, onlyName);
     if (!entries.length) return null;
     const wrap = document.createElement("span"); wrap.className = className;
     entries.forEach(entry => {
-      const link = document.createElement("a"); link.href = entry.url;
+      const link = document.createElement("a"); link.href = entry.href || entry.url;
       link.classList.add(`source-${entry.kind}`);
       link.target = "_blank"; link.rel = "noopener noreferrer";
+      if (entry.backupUrl) {
+        link.dataset.storySourceUrl = entry.url;
+        link.dataset.storyBackupUrl = entry.backupUrl;
+        link.dataset.storyExpiresAt = entry.expiresAt;
+      }
       link.textContent = entry.label;
       link.title = entry.description;
       link.setAttribute("aria-label", `${entry.description}，開啟 Instagram 貼文`);
@@ -423,6 +435,10 @@
   document.addEventListener("click", event => {
     const anchor = event.target.closest?.("a[href]");
     if (!anchor) return;
+    const expiresAt = Date.parse(anchor.dataset.storyExpiresAt || "");
+    if (anchor.dataset.storyBackupUrl && Number.isFinite(expiresAt)) {
+      anchor.href = Date.now() >= expiresAt ? anchor.dataset.storyBackupUrl : anchor.dataset.storySourceUrl;
+    }
     const url = instagram(anchor.href);
     const phone = /iPhone|iPod|Android.*Mobile|Mobile.*Android/i.test(navigator.userAgent)
       || (navigator.maxTouchPoints > 1 && /iPad/i.test(navigator.userAgent));

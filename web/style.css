@@ -829,3 +829,12 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .people-controls-row .range-toggle-button,.events-controls-row .range-toggle-button,.card-range-controls.sticky-controls .range-toggle-button{box-sizing:border-box;height:36px!important;min-height:36px!important;padding:0 7px!important;line-height:36px!important;white-space:nowrap!important;font-size:11px!important}
 /* Timed roster names size to their content instead of reserving a third of the row. */
 .matrix-people:has(.person-time) .matrix-person:has(.person-time){flex:0 1 auto;width:max-content;max-width:100%}
+
+/* Compact, meaningful source labels stay on one line and align to the right. */
+.roster-source-links{display:flex;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:3px;margin-left:auto;min-width:0}
+.roster-source-links a{display:inline-flex;align-items:center;max-width:100%;padding:2px 4px;border-radius:5px;background:var(--ui-tint);color:var(--ui-primary);font-size:8px;line-height:1.2;white-space:nowrap;text-decoration:none}
+.roster-source-links a:hover{text-decoration:underline;text-underline-offset:2px}
+.card-foot .roster-source-links{max-width:68%}
+.matrix-cell-foot .roster-source-links{max-width:72%}
+.person-roster-sources{justify-content:flex-end}
+.person-roster-sources a{font-size:8px}

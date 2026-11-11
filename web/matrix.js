@@ -482,7 +482,7 @@
             const marker = make('span', 'cancelled-attendance-label', '（已取消）');
             typeCell.append(marker);
           }
-          const source = make("td"); const links = HKCI.rosterSourceLinks(shift, "person-roster-sources"); if (links) source.append(links); else source.textContent = "—";
+          const source = make("td"); const links = HKCI.rosterSourceLinks(shift, "person-roster-sources", person.name); if (links) source.append(links); else source.textContent = "—";
           row.append(source); body.append(row);
         }, valid);
         if (!person.shifts.length) {

@@ -291,8 +291,9 @@
     }
     return card;
   }
-  function rosterSources(shift) {
-    const records = shift?.attendance_records || [];
+  function rosterSourceEntries(shift, onlyName = "") {
+    const allRecords = shift?.attendance_records || [];
+    const records = onlyName ? allRecords.filter(record => record.name === onlyName) : allRecords;
     const sourceKey = value => {
       const url = instagram(value);
       if (!url) return "";
@@ -305,41 +306,78 @@
     for (const record of records) {
       const key = sourceKey(record.source);
       if (key) {
-        if (!bySource.has(key)) bySource.set(key, { url: instagram(record.source), facts: new Set() });
+        if (!bySource.has(key)) bySource.set(key, { url: instagram(record.source), facts: new Set(), records: [] });
         bySource.get(key).facts.add(facts(record));
+        bySource.get(key).records.push(record);
       }
     }
-    const ordered = [];
     const primary = instagram(shift?.source) || bySource.values().next().value?.url || "";
     const primaryKey = sourceKey(primary);
-    if (primary) ordered.push(primary);
     const primaryFacts = bySource.get(primaryKey)?.facts || new Set();
+    const selected = new Map();
+    const add = (url, record, status = "") => {
+      const key = sourceKey(url);
+      if (!key) return;
+      if (!selected.has(key)) selected.set(key, { url: instagram(url), records: [], statuses: new Set() });
+      const entry = selected.get(key);
+      if (record && !entry.records.includes(record)) entry.records.push(record);
+      if (status) entry.statuses.add(status);
+    };
+    if (primary) {
+      const primaryRecords = bySource.get(primaryKey)?.records || records.filter(record => !record.source);
+      primaryRecords.forEach(record => add(primary, record));
+      if (!primaryRecords.length) add(primary, null);
+    }
     for (const [key, item] of bySource) {
-      if (key !== primaryKey && [...item.facts].some(fact => !primaryFacts.has(fact))) ordered.push(item.url);
+      if (key !== primaryKey && [...item.facts].some(fact => !primaryFacts.has(fact))) item.records.forEach(record => add(item.url, record));
     }
     // Story additions, absences, and explicit cancellations are distinct changes,
     // so retain their source even when the base roster source is already listed.
     for (const record of records) {
-      if (record.story_status === "extra" || record.story_status === "absent" || record.cancelled) {
-        const url = instagram(record.story_source || record.cancellation_source);
-        if (url) ordered.push(url);
-      }
+      const status = record.story_status === "extra" ? "加更" : record.story_status === "absent" ? "缺席" : record.cancelled ? "取消" : "";
+      if (status) add(record.story_source || record.cancellation_source, record, status);
     }
-    const result = [], seen = new Set();
-    for (const url of ordered) {
-      const key = sourceKey(url);
-      if (key && !seen.has(key)) { seen.add(key); result.push(url); }
-    }
-    return result;
+    const shortNames = names => {
+      const unique = [...new Set(names.filter(Boolean))];
+      if (!unique.length) return "";
+      if (onlyName) return unique[0];
+      if (unique.length > 2) return `${unique.length}人`;
+      return unique.join("、");
+    };
+    return [...selected.values()].map(entry => {
+      const categorySet = new Set(entry.records.map(record => {
+        if (record.story_status === "extra") return "加更";
+        if (record.story_status === "absent") return "缺席";
+        if (record.cancelled) return "取消";
+        const type = String(record.type || "");
+        const role = String(record.role || "");
+        if (type.includes("限定") || role.includes("限定")) return "限定";
+        if (type.includes("活動")) return "活動";
+        return "當值";
+      }));
+      for (const status of entry.statuses) categorySet.add(status);
+      const nameText = shortNames(entry.records.map(record => record.name));
+      const markers = [];
+      if (categorySet.has("加更")) markers.push("＋");
+      if (categorySet.has("缺席") || categorySet.has("取消")) markers.push("−");
+      const label = `${markers.join("") || "更表"} ↗`;
+      const description = `${[...categorySet].join("、") || "更表來源"}${nameText ? `：${nameText}` : ""}`;
+      return { url: entry.url, label, description };
+    });
   }
-  function rosterSourceLinks(shift, className = "roster-source-links") {
-    const urls = rosterSources(shift);
-    if (!urls.length) return null;
+  function rosterSources(shift) {
+    return rosterSourceEntries(shift).map(entry => entry.url);
+  }
+  function rosterSourceLinks(shift, className = "roster-source-links", onlyName = "") {
+    const entries = rosterSourceEntries(shift, onlyName);
+    if (!entries.length) return null;
     const wrap = document.createElement("span"); wrap.className = className;
-    urls.forEach((url, index) => {
-      const link = document.createElement("a"); link.href = url;
+    entries.forEach(entry => {
+      const link = document.createElement("a"); link.href = entry.url;
       link.target = "_blank"; link.rel = "noopener noreferrer";
-      link.textContent = urls.length === 1 ? "來源 ↗" : `來源 ${index + 1} ↗`;
+      link.textContent = entry.label;
+      link.title = entry.description;
+      link.setAttribute("aria-label", `${entry.description}，開啟 Instagram 貼文`);
       wrap.append(link);
     });
     return wrap;

@@ -313,6 +313,11 @@
     }
     const primary = instagram(shift?.source) || bySource.values().next().value?.url || "";
     const primaryKey = sourceKey(primary);
+    const sourceCoverage = [...bySource].map(([key, item]) => [key, new Set(item.records.map(record => record.name).filter(Boolean)).size]);
+    const maxCoverage = Math.max(0, ...sourceCoverage.map(([, count]) => count));
+    const mainRosterKey = sourceCoverage.find(([key, count]) => key === primaryKey && count === maxCoverage)?.[0]
+      || sourceCoverage.find(([, count]) => count === maxCoverage && count > 0)?.[0]
+      || primaryKey;
     const primaryFacts = bySource.get(primaryKey)?.facts || new Set();
     const selected = new Map();
     const add = (url, record, status = "") => {
@@ -361,14 +366,16 @@
       for (const status of entry.statuses) categorySet.add(status);
       const nameText = shortNames(entry.records.map(record => record.name));
       const namesFor = predicate => [...new Set(entry.records.filter(predicate).map(record => record.name).filter(Boolean))].join("、");
+      const sourceNames = [...new Set(entry.records.filter(record => sourceKey(record.source) === entryKey).map(record => record.name).filter(Boolean))];
       const extraNames = namesFor(record => record.story_status === "extra" && sourceKey(record.story_source) === entryKey);
       const absentNames = namesFor(record => record.story_status === "absent" && sourceKey(record.story_source) === entryKey);
       const markers = [];
       if (extraNames) markers.push(`➕${extraNames}`);
       if (absentNames) markers.push(`➖${absentNames}`);
       const kind = extraNames && absentNames ? "mixed" : extraNames ? "extra" : absentNames ? "absent" : "normal";
-      const label = `${markers.join("　") || "當值"} ↗`;
-      const description = `${[...categorySet].join("、") || "更表來源"}${nameText ? `：${nameText}` : ""}`;
+      const dutyLabel = entryKey === mainRosterKey ? "當值" : sourceNames.length === 1 ? `${sourceNames[0]}當值` : sourceNames.length > 1 ? "多人當值" : "更表";
+      const label = `${markers.join("　") || dutyLabel} ↗`;
+      const description = `${[...categorySet].join("、") || "更表來源"}${sourceNames.length ? `：${sourceNames.join("、")}` : nameText ? `：${nameText}` : ""}`;
       return { url: entry.url, label, description, kind };
     });
   }

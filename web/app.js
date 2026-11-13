@@ -92,7 +92,7 @@
     "Maidoll Mirage", "Maid Planet", "Maid Academy", "Maid Clinic", "Elysium Cafe",
     "The Misty", "Baberu Cafe", "Maid Eidolon", "Aurelia Garden", "Dear Devil",
     "CosPlace Café", "Kaizoku House", "Queen’s Garden", "Comma Cafe", "Sugar Factory Cafe",
-    "The Manor Cafe", "Maid Minori", "Mistia Luna", "Kirakira Maido", "Itotsuki Cafe",
+    "The Manor Cafe", "Maid Minori", "Maid Jinja", "Mistia Luna", "Kirakira Maido", "Itotsuki Cafe",
   ];
   const bannerShops = [...data.shops].sort((a, b) => bannerOrder.indexOf(a.shop) - bannerOrder.indexOf(b.shop));
   for (const [index, shop] of bannerShops.entries()) {

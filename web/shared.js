@@ -270,8 +270,9 @@
     if (profileUrl) {
       const account = document.createElement("a"); account.className = "shop-intro-ig"; account.href = profileUrl;
       account.textContent = handle(profileUrl); account.target = "_blank"; account.rel = "noopener noreferrer"; shopCopy.append(account);
+      account.insertAdjacentHTML('afterbegin', '<svg class="shop-intro-ig-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>');
     }
-    const address = document.createElement("p"); address.className = "shop-intro-address"; address.append(addressLink(shop)); card.append(address);
+    const address = document.createElement("p"); address.className = "shop-intro-address"; address.append(addressLink(shop)); shopCopy.append(address);
     const heading = document.createElement("h4"); heading.textContent = "營業時間"; card.append(heading);
     const hours = document.createElement("dl"); hours.className = "opening-hours";
     for (const line of (shop.opening_hours || "").split("\n").filter(Boolean)) {

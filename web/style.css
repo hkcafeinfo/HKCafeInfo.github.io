@@ -843,7 +843,11 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .person-roster-sources a{font-size:8px}
 
 /* Shop identity follows the event card: logo beside name, IG and address. */
-.shop-intro-heading{align-items:flex-start}
+.shop-intro-heading{align-items:flex-start;margin-bottom:20px}
+.shop-intro-heading>.shop-profile-photo{width:76px;height:76px;flex:0 0 76px;border-radius:12px;object-fit:contain}
+@media(max-width:600px){
+  .shop-intro-heading>.shop-profile-photo{width:68px;height:68px;flex-basis:68px}
+}
 .shop-intro-copy .shop-intro-ig{display:flex;align-items:center;gap:4px;text-decoration:none;overflow-wrap:anywhere}
 .shop-intro-ig-icon{width:12px;height:12px;flex:0 0 12px;color:currentColor}
 .shop-intro-copy .shop-intro-address{margin:4px 0 0}

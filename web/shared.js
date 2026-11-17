@@ -522,10 +522,16 @@
     const address = document.createElement("p"); address.className = "shop-intro-address"; address.append(addressLink(shop)); shopCopy.append(address);
     const heading = document.createElement("h4"); heading.textContent = "營業時間"; card.append(heading);
     const hours = document.createElement("dl"); hours.className = "opening-hours";
-    for (const line of (shop.opening_hours || "").split("\n").filter(Boolean)) {
-      const match = line.match(/^(.+?)\s+((?:\d{2}:|休息).*)$/);
+    const openingHourRows = String(shop.opening_hours || "")
+      .split(/[\n;；]+/)
+      .map((part) => part.trim())
+      .filter(Boolean);
+    for (const line of openingHourRows) {
+      // Split each day/rule at the first time or closed marker. Older data can
+      // omit the space before the time (for example「星期六20:00後…」).
+      const match = line.match(/^(.+?)(?=\s*(?:休息|\d{1,2}:\d{2}))\s*(休息|\d{1,2}:\d{2}.*)$/);
       const term = document.createElement("dt"), value = document.createElement("dd");
-      term.textContent = match ? match[1] : "營業時間"; appendTimeText(value, match ? match[2] : line);
+      term.textContent = match ? match[1].trim() : "營業時間"; appendTimeText(value, match ? match[2].trim() : line);
       hours.append(term, value);
     }
     if (hours.childElementCount) card.append(hours);

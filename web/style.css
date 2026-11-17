@@ -852,3 +852,6 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .shop-intro-ig-icon{width:12px;height:12px;flex:0 0 12px;color:currentColor}
 .shop-intro-copy .shop-intro-address{margin:4px 0 0}
 .shop-intro-copy .shop-intro-address a{text-decoration:none}
+.opening-hours{grid-template-columns:max-content minmax(0,1fr)}
+.opening-hours dt{white-space:nowrap;overflow-wrap:normal}
+.opening-hours dd{min-width:0;white-space:normal;overflow-wrap:normal;word-break:normal;text-align:left}

@@ -855,3 +855,8 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .opening-hours{grid-template-columns:max-content minmax(0,1fr)}
 .opening-hours dt{white-space:nowrap;overflow-wrap:normal}
 .opening-hours dd{min-width:0;white-space:normal;overflow-wrap:normal;word-break:normal;text-align:left}
+
+/* Keep the complete daily hours together; sources yield when space is tight. */
+.matrix-cell-foot{flex-wrap:wrap}
+.matrix-cell-foot>.matrix-shift-hours{white-space:nowrap;overflow-wrap:normal;word-break:normal;flex:0 0 auto}
+.matrix-cell-foot>.roster-source-links{margin-left:auto}

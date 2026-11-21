@@ -857,6 +857,6 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .opening-hours dd{min-width:0;white-space:normal;overflow-wrap:normal;word-break:normal;text-align:left}
 
 /* Reserve one line for hours; wrap individual source tags in the remaining space. */
-.matrix-cell-foot{flex-wrap:nowrap;align-items:flex-start}
-.matrix-cell-foot>.matrix-shift-hours{white-space:normal;overflow-wrap:normal;word-break:normal;flex:0 1 auto;min-width:min-content}
-.matrix-cell-foot>.roster-source-links{margin-left:auto;flex:1 1 0;max-width:none;min-width:0}
+.matrix-cell-foot{flex-wrap:wrap;align-items:flex-start}
+.matrix-cell-foot>.matrix-shift-hours{white-space:normal;overflow-wrap:normal;word-break:normal;flex:1 1 0;min-width:min-content}
+.matrix-cell-foot>.roster-source-links{margin-left:auto;flex:1 1 0;max-width:100%;min-width:min-content}

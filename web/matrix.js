@@ -248,7 +248,7 @@
         node.classList.add("matrix-cell-roster");
         if (shift.notes && !shift.notes.includes("貼文列出日程，時段為當日營業時間，個別人員更期未逐一註明")) node.append(make("p", "matrix-note", shift.notes));
         const foot = make("div", "matrix-cell-foot");
-        foot.append(make("span", "matrix-shift-hours", (shift.hours || "時間未註明").replace(/\s*\n\s*/g, " ／ ")));
+        foot.append(HKCI.appendTimeText(make("span", "matrix-shift-hours"), (shift.hours || "時間未註明").replace(/\s*\n\s*/g, " ／ ")));
         const sources = HKCI.rosterSourceLinks(shift);
         if (sources) foot.append(sources);
         node.append(foot);

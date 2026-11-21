@@ -483,7 +483,7 @@
   }
   function appendTimeText(node, value) {
     const text = String(value || "");
-    const pattern = /(?:翌日)?\d{1,2}:\d{2}\s*[–－—-]\s*(?:翌日)?\d{1,2}:\d{2}/g;
+    const pattern = /(?:(?:[A-Za-zＡ-Ｚａ-ｚ0-9一二三四五六七八九十]+場|午場|晚場|早場)\s*)?(?:翌日)?\d{1,2}:\d{2}\s*[–－—-]\s*(?:翌日)?\d{1,2}:\d{2}/g;
     let start = 0;
     for (const match of text.matchAll(pattern)) {
       node.append(document.createTextNode(text.slice(start, match.index)));

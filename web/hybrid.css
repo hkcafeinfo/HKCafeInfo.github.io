@@ -451,3 +451,16 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
 .hybrid-bottom-nav .hybrid-nav-icon{display:flex;align-items:center;justify-content:center;width:32px;height:32px;min-height:32px;line-height:1}
 .hybrid-bottom-nav svg{width:30px;height:30px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}
 }
+
+/* Shop hours: one rule per row; only the time range stays unbroken. */
+.shop-intro{min-width:0;container-type:inline-size}
+.shop-intro .opening-hours{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin:0;min-width:0}
+.shop-hours-row{display:grid;grid-template-columns:minmax(0,1fr) max-content;align-items:baseline;gap:4px 12px;min-width:0}
+.shop-intro .opening-hours dt{white-space:normal;overflow-wrap:anywhere;min-width:0}
+.shop-intro .opening-hours dd{white-space:normal!important;overflow-wrap:anywhere;min-width:0;text-align:right}
+.shop-hours-row:has(dd:not(:has(.hybrid-time-range))){grid-template-columns:minmax(0,1fr)}
+.shop-hours-row:has(dd:not(:has(.hybrid-time-range))) dd{text-align:left}
+@container(max-width:260px){
+ .shop-hours-row{grid-template-columns:minmax(0,1fr);gap:1px}
+ .shop-intro .opening-hours dd{text-align:left}
+}

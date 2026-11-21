@@ -523,6 +523,8 @@
     const heading = document.createElement("h4"); heading.textContent = "營業時間"; card.append(heading);
     const hours = document.createElement("dl"); hours.className = "opening-hours";
     const openingHourRows = String(shop.opening_hours || "")
+      .replace(/\\+n/g, "\n")
+      .replace(/(\d{1,2}:\d{2})\s*(?=星期|週|周)/g, "$1\n")
       .split(/[\n;；]+/)
       .map((part) => part.trim())
       .filter(Boolean);
@@ -532,7 +534,8 @@
       const match = line.match(/^(.+?)(?=\s*(?:休息|\d{1,2}:\d{2}))\s*(休息|\d{1,2}:\d{2}.*)$/);
       const term = document.createElement("dt"), value = document.createElement("dd");
       term.textContent = match ? match[1].trim() : "營業時間"; appendTimeText(value, match ? match[2].trim() : line);
-      hours.append(term, value);
+      const row = document.createElement("div"); row.className = "shop-hours-row";
+      row.append(term, value); hours.append(row);
     }
     if (hours.childElementCount) card.append(hours);
     else { const pending = document.createElement("p"); pending.className = "hours-pending"; pending.textContent = "常規營業時間待確認，請查看店舖公告。"; card.append(pending); }

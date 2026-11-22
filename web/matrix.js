@@ -857,6 +857,22 @@
     render();
   }
   window.HybridMatrix = { person: detail => window.dispatchEvent(new CustomEvent("hkcafeinfo:person", {detail})), jump: jumpToRosterCell, range: value => {state.range=value;persist();render();}, date: async value => {state.person=null;state.search="";state.range=value<today?"all":"future";focusTodayOnNextRender=false;pendingJump=value;persist();await render();pendingJump=null;requestAnimationFrame(()=>{const sel=state.across==="dates"?`.matrix-colhead[data-date="${value}"]`:`.matrix-row[data-date="${value}"]`;const target=matrix.querySelector(sel);if(target){if(state.across==="dates"){const label=matrix.querySelector(".matrix-rowhead");viewport.scrollLeft+=target.getBoundingClientRect().left-viewport.getBoundingClientRect().left-viewport.clientLeft-(label?.getBoundingClientRect().width||0);}else window.scrollTo({top:scrollY+target.getBoundingClientRect().top-controlsBottom()-70,behavior:"smooth"});}});} };
+  window.HybridMatrix.historySnapshot = () => ({ state: { ...state }, anchor: $("matrix-view").hidden ? null : capturePosition(), left: viewport.scrollLeft });
+  window.HybridMatrix.historyPosition = value => {
+    if (value?.anchor) restorePosition({ ...value.anchor, intent: scrollIntent });
+    else if (value) viewport.scrollLeft = value.left || 0;
+  };
+  window.HybridMatrix.historyRestore = async value => {
+    if (!value) return;
+    Object.assign(state, value.state); focusTodayOnNextRender = false; pendingJump = null;
+    const position = value.anchor ? { ...value.anchor, intent: scrollIntent } : null;
+    $("name-search").value = state.search;
+    for (const [id, axis] of [["dates-across", "dates"], ["shops-across", "shops"]]) {
+      $(id).classList.toggle("active", state.across === axis); $(id).setAttribute("aria-pressed", String(state.across === axis));
+    }
+    viewport.scrollLeft = value.left || 0;
+    await render(position); persist();
+  };
   $("name-search").value = state.search;
   $("date-range").addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");

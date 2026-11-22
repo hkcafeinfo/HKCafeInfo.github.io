@@ -113,4 +113,81 @@ for(const event of ['scroll','resize','hkcafeinfo:sticky-change','hkcafeinfo:vie
 window.visualViewport?.addEventListener('resize',queueShopFilter,{passive:true});
 window.visualViewport?.addEventListener('scroll',queueShopFilter,{passive:true});
 positionShopFilter();
+// BEGIN browser-history trial: same document, no new pages or routes.
+const historyFrame = () => new Promise(resolve => requestAnimationFrame(resolve));
+let historyRestoring = false, historyGeneration = 0, historyQueued = false;
+function historySnapshot() {
+ const folds = [...document.querySelectorAll('.event-shop,.people-shop-group')].map((node,index)=>({index,open:node.open}));
+ return {version:1,app:window.HybridApp.historySnapshot(),matrix:window.HybridMatrix.historySnapshot(),
+  hybrid:{selectedDate,weekStart,selectedQuick,extraMode,lastLayout,currentPerson,query:$('#hybrid-search').value},
+  folds,scrollY:window.scrollY};
+}
+function historySave() {
+ if(historyRestoring)return;
+ try { history.replaceState({...history.state,hkci:historySnapshot()},''); } catch {}
+}
+function historyQueue() {
+ if(historyQueued||historyRestoring)return;historyQueued=true;
+ requestAnimationFrame(()=>{historyQueued=false;historySave()});
+}
+async function historyRestore(value) {
+ const generation=++historyGeneration;historyRestoring=true;clearTimeout(search.timer);
+ try {
+  exitExtra();clearSearch();currentPerson=null;
+  await window.HybridApp.historyRestore(value.app);
+  if(generation!==historyGeneration)return;
+  const h=value.hybrid;
+  selectedDate=h.selectedDate;weekStart=h.weekStart;selectedQuick=h.selectedQuick;lastLayout=h.lastLayout;currentPerson=h.currentPerson;
+  await window.HybridMatrix.historyRestore(value.matrix);
+  if(generation!==historyGeneration)return;
+  extraMode=h.extraMode||'';document.body.classList.toggle('hybrid-extra',Boolean(extraMode));$('#hybrid-extra-view').hidden=!extraMode;
+  if(extraMode==='saved')renderSaved();
+  $('#hybrid-search').value=h.query||'';
+  if(h.query)search();
+  dates();nav();window.HKCISticky?.refresh();
+  // Let visible non-matrix lists finish their existing asynchronous rendering.
+  const deadline=performance.now()+10000;
+  do {
+   await historyFrame();if(generation!==historyGeneration)return;
+   const busy=[...document.querySelectorAll('[aria-busy="true"]')].some(node=>node.getClientRects().length&&!node.closest('#roster-matrix'));
+   if(!busy)break;
+  } while(performance.now()<deadline);
+  const folds=[...document.querySelectorAll('.event-shop,.people-shop-group')];
+  for(const item of value.folds||[])if(folds[item.index])folds[item.index].open=item.open;
+  await historyFrame();await historyFrame();if(generation!==historyGeneration)return;
+  window.scrollTo({top:value.scrollY||0,behavior:'instant'});
+  if(value.app.mode==='matrix'&&!value.matrix.state.person&&!value.matrix.state.search&&!h.query&&!extraMode){
+   window.HKCISticky?.refresh();window.HybridMatrix.historyPosition(value.matrix);
+  }
+ } finally {
+  if(generation===historyGeneration){historyRestoring=false;historySave();}
+ }
+}
+const historyNavigation = '[data-hybrid="nav"],[data-hybrid="person"],[data-hybrid="shop"],[data-hybrid="event"],[data-hybrid="jump"],[data-hybrid="date"],[data-hybrid="quick"],.matrix-person,.person-tag,.people-name,.people-item,.person-roster-jump,#show-cards,#show-matrix,#show-people,#show-events,#show-shops';
+document.addEventListener('click',event=>{
+ if(historyRestoring||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+ const target=event.target.closest(historyNavigation);
+ if(!target||target.classList.contains('active')||target.matches('a'))return;
+ // Save synchronously BEFORE the existing click handler changes the view.
+ historySave();
+ try{history.pushState({hkci:historySnapshot()},'')}catch{return;}
+ historyQueue();
+},true);
+window.addEventListener('popstate',event=>{
+ if(event.state?.hkci?.version===1)historyRestore(event.state.hkci).catch(()=>toast('返回畫面未完成，請重新整理再試。'));
+});
+for(const name of ['scroll','hkcafeinfo:view-change','hkcafeinfo:loaded'])window.addEventListener(name,historyQueue,{passive:true});
+$('#matrix-viewport').addEventListener('scroll',historyQueue,{passive:true});
+document.addEventListener('input',()=>{historyQueue();setTimeout(historyQueue,180)},{passive:true});
+document.addEventListener('change',historyQueue,{passive:true});
+document.addEventListener('toggle',historyQueue,true);
+for(const name of ['pointerdown','touchstart','wheel','keydown'])window.addEventListener(name,()=>{
+ if(historyRestoring){historyGeneration++;historyRestoring=false;historyQueue();}
+},{passive:true});
+window.addEventListener('pagehide',historySave);
+history.scrollRestoration='manual';
+const previousHistory=history.state?.hkci;
+if(previousHistory?.version===1)historyRestore(previousHistory).catch(()=>{historyRestoring=false;historySave()});
+else historySave();
+// END browser-history trial
 })();

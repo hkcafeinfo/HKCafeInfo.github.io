@@ -578,6 +578,25 @@
   }
   $("shop-search").addEventListener("input", renderShops);
   window.HybridApp = { ensureShop: value => {if(!visibleNames.has(value)){visibleNames.add(value);saveVisibility();}}, view: chooseView, show: showView, date: value => { selectedDate=value; cardRange=value<today?"all":"future"; renderDates(); renderCards(); savePage(); }, renderCards, shop: value => { if(!visibleNames.has(value)){visibleNames.add(value);saveVisibility();} $("shop-search").value=value; chooseView("shops"); renderShops(); } };
+  window.HybridApp.historySnapshot = () => ({ mode: document.body.dataset.view, selectedDate, cardRange, search, returnView, eventsRange, visible: [...visibleNames], shopSearch: $("shop-search").value, sidebarOpen: !sidebar.hidden });
+  window.HybridApp.historyRestore = async value => {
+    selectedDate = value.selectedDate; cardRange = value.cardRange; search = value.search || "";
+    returnView = value.returnView || "matrix"; eventsRange = value.eventsRange || "future";
+    visibleNames = new Set((value.visible || [...availableNames]).filter(name => availableNames.has(name)));
+    window.MAID_VISIBLE_SHOPS = visibleNames;
+    try { localStorage.setItem(storageKey, JSON.stringify([...visibleNames])); } catch {}
+    nodes.search.value = search; $("shop-search").value = value.shopSearch || "";
+    renderChecklist(); showView(value.mode || "matrix"); setSidebarOpen(Boolean(value.sidebarOpen));
+    for (const button of document.querySelectorAll(".card-range-controls [data-range]")) {
+      const active = button.dataset.range === cardRange;
+      button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active));
+    }
+    for (const button of $("events-date-range").querySelectorAll("[data-range]")) {
+      const active = button.dataset.range === eventsRange;
+      button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active));
+    }
+    renderShops();
+  };
   renderShops();
   $("export-feedback").addEventListener("click", HKCI.exportFeedback);
   window.addEventListener("hkcafeinfo:person", () => { returnView = document.body.dataset.view || "matrix"; search = ""; nodes.search.value = ""; savePage("matrix"); showView("matrix"); });

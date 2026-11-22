@@ -102,7 +102,7 @@
       // is already visible. A long row reaching its bottom mid-swipe stays native.
       if (bounds.top > top + 24 || bounds.bottom > bottom + 2) return;
       const touch = event.touches[0];
-      gesture = { x: touch.clientX, y: touch.clientY, next: rows[current + 1], captured: false, distance: 0 };
+      gesture = { x: touch.clientX, y: touch.clientY, next: rows[current + 1], captured: false, advanced: false };
     }, { passive: true });
     viewport.addEventListener("touchmove", event => {
       if (!gesture) return;
@@ -116,16 +116,18 @@
         if (!event.cancelable) { gesture = null; return; }
         event.preventDefault();
         gesture.captured = true;
-        gesture.distance = dy;
+        if (!gesture.advanced && dy >= 8 && gesture.next.isConnected) {
+          const target = window.scrollY + gesture.next.getBoundingClientRect().top - contentTop();
+          if (target > window.scrollY + 2) {
+            gesture.advanced = true;
+            window.scrollTo({ top: target, behavior: "instant" });
+          }
+        }
       }
     }, { passive: false });
-    viewport.addEventListener("touchend", () => {
-      const done = gesture; gesture = null;
-      if (!done?.captured || done.distance < 32 || !enabled() || !done.next.isConnected) return;
-      const target = window.scrollY + done.next.getBoundingClientRect().top - contentTop();
-      if (target <= window.scrollY + 2) return;
-      window.scrollTo({ top: target, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
-    }, { passive: true });
+    // Keep the gesture captured after advancing so the same finger movement
+    // cannot trigger a second row or restart native momentum.
+    viewport.addEventListener("touchend", () => { gesture = null; }, { passive: true });
     viewport.addEventListener("touchcancel", () => { gesture = null; }, { passive: true });
     window.addEventListener("hkcafeinfo:view-change", () => { gesture = null; });
   }

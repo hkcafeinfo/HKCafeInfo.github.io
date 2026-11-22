@@ -35,7 +35,7 @@
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const isReload = new URLSearchParams(location.search).get("reset") !== "1" && performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
-  const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
+  const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "future" ? "future" : "all", search: saved.search || "", person: saved.person || null, focusTarget: null };
   let focusTodayOnNextRender = state.across === "dates";
   let firstRender = true;
   let stopProgressive = () => {};
@@ -909,7 +909,7 @@
   window.addEventListener("maid:visibility-change", render);
   window.addEventListener("hkcafeinfo:view-change", () => { if ($("matrix-view").hidden) stopProgressive(); updateSticky(); });
   window.addEventListener("hkcafeinfo:reset-view", () => {
-    state.search = ""; state.person = null; state.range = "future"; state.across = "dates";
+    state.search = ""; state.person = null; state.range = "all"; state.across = "dates";
     $("name-search").value = "";
     $("dates-across").classList.add("active"); $("dates-across").setAttribute("aria-pressed", "true");
     $("shops-across").classList.remove("active"); $("shops-across").setAttribute("aria-pressed", "false");

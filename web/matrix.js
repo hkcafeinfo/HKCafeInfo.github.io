@@ -33,7 +33,7 @@
     return result;
   })() : [];
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: data.timezone || "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
-  const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
+  const isReload = new URLSearchParams(location.search).get("reset") !== "1" && performance.getEntriesByType("navigation")[0]?.type === "reload";
   const saved = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-matrix-v1") || "{}"); } catch { return {}; } })();
   const state = { across: saved.across === "shops" ? "shops" : "dates", range: saved.range === "all" ? "all" : "future", search: saved.search || "", person: saved.person || null, focusTarget: null };
   let focusTodayOnNextRender = state.across === "dates";

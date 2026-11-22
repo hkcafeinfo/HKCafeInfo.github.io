@@ -1,4 +1,9 @@
 (()=>{'use strict';
+if(new URLSearchParams(location.search).get('reset')==='1'){
+ const clean=new URL(location.href);clean.searchParams.delete('reset');clean.hash='';
+ history.replaceState(null,'',clean.pathname+clean.search);window.scrollTo(0,0);
+}
+
 const D=window.HybridData,TODAY=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()),$=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shops=new Map(D.shops.map(s=>[s.id,s])),byName=new Map(D.shops.map(s=>[s.name,s])),people=new Map(D.people.map(p=>[p.id,p])),events=new Map(D.events.map(e=>[e.id,e]));
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem('hkcafe-hybrid-'+key))??fallback}catch{return fallback}},write=(key,value)=>{try{localStorage.setItem('hkcafe-hybrid-'+key,JSON.stringify(value));return true}catch{toast('瀏覽器未能儲存，今次仍可操作。');return false}};

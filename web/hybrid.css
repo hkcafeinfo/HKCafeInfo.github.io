@@ -464,3 +464,6 @@ body[data-view="people"]:not(.hybrid-searching):not(.hybrid-extra) .content-main
  .shop-hours-row{grid-template-columns:minmax(0,1fr);gap:1px}
  .shop-intro .opening-hours dd{text-align:left}
 }
+
+.hybrid-home-link,.hybrid-account-link{color:inherit;text-decoration:none}
+.hybrid-home-link:focus-visible,.hybrid-account-link:focus-visible{outline:2px solid var(--ui-focus);outline-offset:3px}

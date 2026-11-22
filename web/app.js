@@ -16,7 +16,18 @@
   const total = data.entry_count ?? data.shops.reduce((sum, shop) => sum + (shop.shifts || []).reduce((count, shift) =>
     count + Object.values(shift.groups || {}).reduce((people, names) => people + names.length, 0), 0), 0);
   let selectedDate = allDates.includes(today) ? today : (allDates.find((date) => date > today) || allDates.at(-1) || "all");
-  const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
+  const resetHome = new URLSearchParams(location.search).get("reset") === "1";
+  if (resetHome) {
+    for (const key of ["hybrid-visible-shops-v1", "maid-roster-sidebar-open-v1"]) {
+      try { localStorage.removeItem(key); } catch { /* optional */ }
+    }
+    for (const key of ["hkcafeinfo-page-v1", "hkcafeinfo-matrix-v1"]) {
+      try { sessionStorage.removeItem(key); } catch { /* optional */ }
+    }
+    history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+  }
+  const isReload = !resetHome && performance.getEntriesByType("navigation")[0]?.type === "reload";
   const savedPage = (() => { if (!isReload) return {}; try { return JSON.parse(sessionStorage.getItem("hkcafeinfo-page-v1") || "{}"); } catch { return {}; } })();
   let cardRange = savedPage.cardRange === "all" ? "all" : "future";
   const cardDates = () => cardRange === "all" ? allDates : allDates.filter((date) => date >= today);

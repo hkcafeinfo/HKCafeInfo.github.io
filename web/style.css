@@ -860,3 +860,6 @@ body[data-view="events"] .content-main .view-controls .global-search{display:non
 .matrix-cell-foot{flex-wrap:wrap;align-items:flex-start}
 .matrix-cell-foot>.matrix-shift-hours{white-space:normal;overflow-wrap:normal;word-break:normal;flex:1 1 0;min-width:min-content}
 .matrix-cell-foot>.roster-source-links{margin-left:auto;flex:1 1 0;max-width:100%;min-width:min-content}
+
+/* Date-across shop information starts at the top of its full-height sticky cell. */
+.matrix-rowhead.matrix-shop-rowhead{justify-content:flex-start}

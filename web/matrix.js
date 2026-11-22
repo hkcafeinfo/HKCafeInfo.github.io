@@ -214,7 +214,7 @@
     return hours;
   }
   function rowHead(label, subtitle, profile, photo, shop) {
-    const node = make("div", "matrix-rowhead");
+    const node = make("div", `matrix-rowhead${shop ? " matrix-shop-rowhead" : ""}`);
     node.setAttribute("role", "rowheader");
     const url = instagramUrl(profile);
     const title = make(url ? "a" : "strong", "rowhead-title", label);

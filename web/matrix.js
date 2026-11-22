@@ -457,7 +457,7 @@
       if (!groups.size) matrix.append(make("p", "matrix-no-dates", "呢個範圍搵唔到當值記錄；可切換「全部更表」睇舊更表。"));
       else matrix.append(list);
       $("matrix-result-count").textContent = `${groups.size} 位女僕`;
-      await HKCILoading.batches(list, [...groups.values()].sort((a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK")), async person => {
+      await HKCILoading.batches(list, HKCI.rankSearch([...groups.values()], state.search, p => HKCI.personSearchFields(data, p.shop.shop, p.name), (a,b) => a.name.localeCompare(b.name, "zh-HK") || a.shop.shop.localeCompare(b.shop.shop, "zh-HK")), async person => {
         const card = make("article", "person-card");
         const shopInfo = data.person_accounts?.[person.shop.shop]?.[person.name] || {};
         const sharedInfo = person.personId

@@ -337,13 +337,56 @@
     const value = String(account?.handle || "").trim();
     return (handle(value).replace(/^@/, "") || value.replace(/^@+/, "")).toLocaleLowerCase();
   }
-  function matchesPerson(data, shop, name, query) {
+  // Search ranks are lexicographic: exact field, token coverage, match kind,
+  // then surplus characters. Attendance/popularity never influence relevance.
+  function normalizeSearch(value) {
+    return String(value || '').normalize('NFKC').trim().replace(/\s+/gu, ' ').toLocaleLowerCase('en');
+  }
+  function searchRank(fields, query) {
+    const q = normalizeSearch(query);
+    if (!q) return [0, 0, 0, 0];
+    const entries = [['name', 0], ['aliases', 1], ['handles', 2], ['related', 6]].flatMap(([key, kind]) =>
+      (Array.isArray(fields[key]) ? fields[key] : [fields[key]]).filter(Boolean).map(value => ({
+        value: normalizeSearch(value).replace(kind === 2 ? /^@+/u : /$^/u, ''), kind
+      })));
+    const tokens = [...new Set(q.split(' '))];
+    let covered = 0, best = [9, Infinity];
+    for (const token of tokens) {
+      let matched = false;
+      for (const entry of entries) {
+        const term = entry.kind === 2 ? token.replace(/^@+/u, '') : token;
+        if (!term || !entry.value.includes(term)) continue;
+        matched = true;
+        const kind = entry.kind === 6 ? 6 : entry.kind === 2 ? 5 : entry.value.startsWith(term) ? 3 : 4;
+        const extra = entry.value.length - term.length;
+        if (kind < best[0] || kind === best[0] && extra < best[1]) best = [kind, extra];
+      }
+      if (matched) covered++;
+    }
+    const exact = entries.filter(e => e.kind < 6 && e.value === (e.kind === 2 ? q.replace(/^@+/u, '') : q));
+    if (exact.length) return [Math.min(...exact.map(e => e.kind)), 0, 0, 0];
+    return covered ? [3, tokens.length - covered, ...best] : null;
+  }
+  function compareSearchRanks(a, b) {
+    for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return a[i] - b[i];
+    return 0;
+  }
+  function rankSearch(items, query, fields, tieBreak = () => 0) {
+    if (!normalizeSearch(query)) return [...items];
+    return items.map((item, index) => ({item, index, rank: searchRank(fields(item), query)}))
+      .filter(row => row.rank).sort((a, b) => compareSearchRanks(a.rank, b.rank) || tieBreak(a.item, b.item) || a.index - b.index)
+      .map(row => row.item);
+  }
+  function personSearchFields(data, shop, name) {
     const local = data.person_accounts?.[shop]?.[name] || {};
-    const candidate = data.people_by_id?.[local.person_id] || data.people?.[name];
-    const shared = local.person_id && candidate?.person_id === local.person_id ? candidate : {};
+    const shared = data.people_by_id?.[local.person_id] || data.people?.[name] || {};
     const accounts = [...(local.work_instagram_accounts || []), ...(local.instagram_accounts || []), ...(shared.instagram_accounts || [])];
-    const values = [displayName(name), ...(shared.names || []), ...accounts.map(a => a.handle)];
-    return values.some(value => String(value || "").toLocaleLowerCase().includes(String(query || "").replace(/^@/, "").toLocaleLowerCase()));
+    const cafe = data.shops?.find(item => item.shop === shop);
+    return { name: shared.display_name || displayName(name), aliases: [displayName(name), ...(shared.names || [])],
+      handles: accounts.map(a => a.handle), related: [shop, ...(cafe?.aliases || [])] };
+  }
+  function matchesPerson(data, shop, name, query) {
+    return Boolean(searchRank(personSearchFields(data, shop, name), query));
   }
   let conflicts;
   function personIdentity(data, shop, name) {
@@ -723,5 +766,5 @@
       anchor.removeAttribute("target");
     }
   }, true);
-  window.HKCI = { canonicalRole, primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { normalizeSearch, searchRank, compareSearchRanks, rankSearch, personSearchFields, canonicalRole, primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

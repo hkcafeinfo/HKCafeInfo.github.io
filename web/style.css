@@ -118,7 +118,7 @@
 .roster-card.has-event-art{overflow:hidden}
 .person-time{display:block;white-space:pre;font-size:10px;line-height:1.2;color:var(--ui-muted);font-weight:500;margin-top:3px;overflow-wrap:normal}
 .person-tag:has(.person-time),.matrix-person:has(.person-time){display:inline-flex;flex-direction:column;align-items:flex-start}
-.person-tags:has(.person-time) .person-tag:has(.person-time),.matrix-people:has(.person-time) .matrix-person:has(.person-time){flex:0 1 calc((100% - 14px)/3);width:calc((100% - 14px)/3);min-width:max-content;white-space:normal}
+.person-tags:has(.person-time) .person-tag:has(.person-time),.matrix-people:has(.person-time) .matrix-person:has(.person-time){flex:0 1 auto;width:max-content;max-width:100%;min-width:0;white-space:normal}
 @media(max-width:1100px){.hero-logo-collage{right:-12%;width:68%;opacity:.34}.hero-copy{max-width:64%}}
 @media(max-width:700px){.hero-logo-collage{display:flex;right:-17%;top:-20px;width:68%;height:calc(100% + 40px);opacity:.28}.hero-logo{width:54px;height:54px}.hero-logo-slash{font-size:24px}.hero-copy{max-width:100%}.hero:after{background:linear-gradient(90deg,var(--ui-tint) 0%,color-mix(in srgb, var(--ui-tint) 90.9804%, transparent) 58%,color-mix(in srgb, var(--ui-tint) 60.0000%, transparent) 100%)}}
 @media(prefers-reduced-motion:reduce){.hero-logo{animation:none}}

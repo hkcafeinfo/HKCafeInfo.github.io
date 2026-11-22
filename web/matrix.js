@@ -75,6 +75,62 @@
     document.body.append(node); return node;
   }
   function controlsBottom() { return window.HKCISticky?.refresh() ?? Math.max(0, document.querySelector(".topbar")?.getBoundingClientRect().bottom || 0); }
+  // BEGIN mobile-row-advance: remove this block alone to roll back the trial.
+  function installMobileRowAdvance() {
+    let gesture = null;
+    const enabled = () => matchMedia("(max-width: 700px) and (pointer: coarse)").matches
+      && !$("matrix-view").hidden && !document.body.classList.contains("person-search-mode")
+      && !state.person && !state.search;
+    const contentTop = () => controlsBottom() + (matrix.querySelector(".matrix-header")?.getBoundingClientRect().height || 0);
+    function contentBottom() {
+      const visual = window.visualViewport;
+      let bottom = visual ? visual.offsetTop + visual.height : window.innerHeight;
+      const nav = document.querySelector(".hybrid-bottom-nav");
+      if (nav && nav.getClientRects().length) bottom = Math.min(bottom, nav.getBoundingClientRect().top);
+      return bottom;
+    }
+    viewport.addEventListener("touchstart", event => {
+      gesture = null;
+      if (!enabled() || event.touches.length !== 1 || event.target.closest("input,select,textarea,[contenteditable=true]")) return;
+      const top = contentTop(), bottom = contentBottom();
+      if (bottom <= top + 50) return;
+      const rows = [...matrix.querySelectorAll(".matrix-row:not(.matrix-header)")];
+      const current = rows.findIndex(row => row.getBoundingClientRect().bottom > top + 8);
+      if (current < 0 || current >= rows.length - 1) return;
+      const bounds = rows[current].getBoundingClientRect();
+      // Arm only at the START of a new gesture, after the current row's footer
+      // is already visible. A long row reaching its bottom mid-swipe stays native.
+      if (bounds.top > top + 24 || bounds.bottom > bottom + 2) return;
+      const touch = event.touches[0];
+      gesture = { x: touch.clientX, y: touch.clientY, next: rows[current + 1], captured: false, distance: 0 };
+    }, { passive: true });
+    viewport.addEventListener("touchmove", event => {
+      if (!gesture) return;
+      if (!enabled() || event.touches.length !== 1) { gesture = null; return; }
+      const dx = Math.abs(event.touches[0].clientX - gesture.x);
+      const dy = gesture.y - event.touches[0].clientY;
+      if (!gesture.captured && (dy < -4 || dx > 8 && dx >= Math.abs(dy))) { gesture = null; return; }
+      if (gesture.captured || dy > 0 && dy > dx * 1.4) {
+        // Cancel native momentum for this one gesture; never intercept horizontal
+        // date scrolling, pinch zoom, or an ordinary swipe through a tall row.
+        if (!event.cancelable) { gesture = null; return; }
+        event.preventDefault();
+        gesture.captured = true;
+        gesture.distance = dy;
+      }
+    }, { passive: false });
+    viewport.addEventListener("touchend", () => {
+      const done = gesture; gesture = null;
+      if (!done?.captured || done.distance < 32 || !enabled() || !done.next.isConnected) return;
+      const target = window.scrollY + done.next.getBoundingClientRect().top - contentTop();
+      if (target <= window.scrollY + 2) return;
+      window.scrollTo({ top: target, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+    }, { passive: true });
+    viewport.addEventListener("touchcancel", () => { gesture = null; }, { passive: true });
+    window.addEventListener("hkcafeinfo:view-change", () => { gesture = null; });
+  }
+  installMobileRowAdvance();
+  // END mobile-row-advance
   function updateSticky() {
     const header = matrix.querySelector(".matrix-header");
     if (!header || $("matrix-view").hidden) { sticky.hidden = true; return; }

@@ -40,7 +40,7 @@
     return names.length ? names : [...labels.values()].slice(0, 1);
   }
   function formatPersonTimes(value) { return String(value || "").replace(/、\s*/g, "\n"); }
-  const roleCategoryOrder = ["限定", "高級", "正式", "見習", "廚房", "其他"];
+  const roleCategoryOrder = ["限定", "嘉賓", "高級", "正式", "見習", "其他", "廚房"];
   const roleCategoryByShop = {
     "Maid Academy": {
       "限定": [
@@ -310,12 +310,23 @@
       ]
     }
   };
+  function canonicalRole(role) {
+    const label = String(role || "").trim();
+    return /^guest$/i.test(label) ? "Guest" : label;
+  }
   function orderedRoleGroups(groups, shop) {
     const buckets = new Map(roleCategoryOrder.map((label) => [label, []]));
-    const explicit = new Map(Object.entries(roleCategoryByShop[shop] || {}).flatMap(([category, roles]) => roles.map((role) => [role, category])));
-    for (const entry of Object.entries(groups || {})) {
-      const category = explicit.get(entry[0]) || "其他";
-      buckets.get(category).push(entry);
+    const explicit = new Map(Object.entries(roleCategoryByShop[shop] || {}).flatMap(([category, roles]) => roles.map((role) => [canonicalRole(role), category])));
+    const merged = new Map();
+    for (const [rawRole, names] of Object.entries(groups || {})) {
+      const role = canonicalRole(rawRole);
+      if (!merged.has(role)) merged.set(role, new Set());
+      for (const name of names) merged.get(role).add(name);
+    }
+    for (const [role, names] of merged) {
+      const kitchen = /^(廚房|廚房職|廚房人員|廚師|廚娘|當值廚娘|kitchen|chef|bartender)$/i.test(role);
+      const category = explicit.get(role) || (kitchen ? "廚房" : role === "Guest" ? "嘉賓" : "其他");
+      buckets.get(category).push([role, [...names]]);
     }
     return roleCategoryOrder.map((label) => [label, buckets.get(label)]).filter(([, entries]) => entries.length);
   }
@@ -712,5 +723,5 @@
       anchor.removeAttribute("target");
     }
   }, true);
-  window.HKCI = { primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { canonicalRole, primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

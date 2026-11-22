@@ -195,7 +195,7 @@
       group.append(make("div", "role-name", HKCI.roleLabel(shop.shop, role)));
       const tags = make("div", "person-tags");
       for (const name of matched) {
-        const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
+        const attendance = shift.attendance_records?.find(record => record.name === name && HKCI.canonicalRole(record.role) === HKCI.canonicalRole(role)) || {};
         const cancelled = attendance.story_status === "absent" || Boolean(attendance.cancelled);
         const storyLabel = "（已取消）";
         const tag = make("button", `person-tag${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");

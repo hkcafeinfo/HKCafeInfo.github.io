@@ -224,7 +224,7 @@
         group.append(make("span", "matrix-role-label", HKCI.roleLabel(shop.shop, role)));
         const tags = make("div", "matrix-people");
         for (const name of people) {
-          const attendance = shift.attendance_records?.find(record => record.name === name && record.role === role) || {};
+          const attendance = shift.attendance_records?.find(record => record.name === name && HKCI.canonicalRole(record.role) === HKCI.canonicalRole(role)) || {};
           const cancelled = attendance.story_status === "absent" || Boolean(attendance.cancelled);
           const storyLabel = "（已取消）";
           const tag = make("button", `matrix-person${shift.review_names?.[name] ? " needs-review" : ""}${cancelled ? " cancelled-person" : ""}`, "");
@@ -388,7 +388,7 @@
           if (!groups.has(key)) groups.set(key, { shop, name, personId: data.person_accounts?.[shop.shop]?.[name]?.person_id || "", shifts: [], shops: new Set() });
           if (groups.get(key).name === groups.get(key).name.toLocaleUpperCase() && name !== name.toLocaleUpperCase()) groups.get(key).name = name;
           groups.get(key).shops.add(shop.shop);
-          const attendance = shift.attendance_records?.find((record) => record.name === name && record.role === role);
+          const attendance = shift.attendance_records?.find((record) => record.name === name && HKCI.canonicalRole(record.role) === HKCI.canonicalRole(role));
           if (!groups.get(key).shifts.some((item) => item.shop.shop === shop.shop && item.shift === shift && item.role === role)) {
             groups.get(key).shifts.push({ shop, shift, role, attendanceType: attendance?.type || "當值",
               cancelled: attendance?.story_status === "absent" || Boolean(attendance?.cancelled), storyStatus: attendance?.story_status, cancellationSource: attendance?.story_source || attendance?.cancellation_source || "" });

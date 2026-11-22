@@ -120,7 +120,7 @@
           const target = window.scrollY + gesture.next.getBoundingClientRect().top - contentTop();
           if (target > window.scrollY + 2) {
             gesture.advanced = true;
-            window.scrollTo({ top: target, behavior: "instant" });
+            window.scrollTo({ top: target, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
           }
         }
       }

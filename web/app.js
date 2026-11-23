@@ -254,10 +254,11 @@
   }
   function missingCard(shop, date) {
     const element = make("article", "roster-card missing-card");
-    const closed = HKCI.closed(shop, date);
+    const shift = (shop.shifts || []).find((item) => item.date === date);
+    const closed = HKCI.closedForDisplay(shop, date, shift);
     const dated = HKCI.dateNotice(shop, date);
     element.append(make("span", "missing-icon", shop.notice ? "!" : "·"), make("h3", "shop-name", shop.shop),
-      dated ? HKCI.dateNoticeView(dated) : closed ? HKCI.closedNotice(shop) : make("p", "missing-copy", HKCI.missingRosterText(date)));
+      closed ? HKCI.closedNotice(shop) : dated ? HKCI.dateNoticeView(dated) : make("p", "missing-copy", HKCI.missingRosterText(date)));
     if (shop.notice && !closed && !dated) { const link = sourceLink(shop); if (link) element.append(link); }
     return element;
   }

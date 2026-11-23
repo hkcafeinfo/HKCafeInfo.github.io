@@ -318,10 +318,10 @@
       if (link) node.append(link);
     } else {
       node.classList.add("matrix-cell-empty");
-      const closed = HKCI.closed(shop, date);
+      const closed = HKCI.closedForDisplay(shop, date, shift);
       const dated = HKCI.dateNotice(shop, date);
-      if (dated) node.append(HKCI.dateNoticeView(dated));
-      else if (closed) node.append(HKCI.closedNotice(shop));
+      if (closed) node.append(HKCI.closedNotice(shop));
+      else if (dated) node.append(HKCI.dateNoticeView(dated));
       else node.append(make("span", "matrix-empty-symbol", "—"), make("span", "matrix-empty-copy", HKCI.missingRosterText(date)));
       if (shop.notice && !closed && !dated) {
         node.title = shop.notice;

@@ -428,6 +428,17 @@
   function dateNotice(shop, date) {
     return (shop.date_notices || []).find((item) => item.date === date);
   }
+  function explicitlyOpen(shop, date) {
+    const notice = dateNotice(shop, date);
+    // A date-specific opening-hours notice is evidence of an opening exception.
+    // Event titles alone (and empty event cards) are not.
+    return Boolean(notice && /^(?:營業時間|活動時間)$/.test(notice.title || "") && (notice.detail || "").trim());
+  }
+  function closedForDisplay(shop, date, shift) {
+    if (!closed(shop, date) || explicitlyOpen(shop, date)) return false;
+    // A named roster is a concrete exception. Empty event cards are not.
+    return !Object.values(shift?.groups || {}).some((names) => names?.length);
+  }
   function dateNoticeView(item) {
     const node = document.createElement("div");
     node.className = "dated-roster-notice";
@@ -452,17 +463,6 @@
   function closed(shop, date) {
     const day = new Date(`${date}T12:00:00Z`).getUTCDay();
     return (shop.closed_weekdays || []).includes(day);
-  }
-  function explicitlyOpen(shop, date) {
-    const notice = dateNotice(shop, date);
-    // A date-specific opening-hours notice is evidence of an opening exception.
-    // Event titles alone (and empty event cards) are not.
-    return Boolean(notice && /^(?:營業時間|活動時間)$/.test(notice.title || "") && (notice.detail || "").trim());
-  }
-  function closedForDisplay(shop, date, shift) {
-    if (!closed(shop, date) || explicitlyOpen(shop, date)) return false;
-    // A named roster is a concrete exception. Empty event cards are not.
-    return !Object.values(shift?.groups || {}).some((names) => names?.length);
   }
   function closedNotice(shop) {
     const node = document.createElement("div");
@@ -777,5 +777,5 @@
       anchor.removeAttribute("target");
     }
   }, true);
-  window.HKCI = { normalizeSearch, searchRank, compareSearchRanks, rankSearch, personSearchFields, canonicalRole, primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, explicitlyOpen, closedForDisplay, missingRosterText, rosterSources, rosterSourceLinks, closed, closedNotice, eventArt, cancellationSource, report, exportFeedback };
+  window.HKCI = { normalizeSearch, searchRank, compareSearchRanks, rankSearch, personSearchFields, canonicalRole, primaryInstagramAccount, appendTimeText, staffTerm, roleLabel, storyAttendanceTag, addressLink, shopIntro, instagram, handle, displayName, personNames, matchesPerson, formatPersonTimes, orderedRoleGroups, personKey, identityKey, dateNotice, dateNoticeView, missingRosterText, rosterSources, rosterSourceLinks, closed, closedForDisplay, closedNotice, eventArt, cancellationSource, report, exportFeedback };
 })();

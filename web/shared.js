@@ -727,6 +727,28 @@
   function rosterSources(shift) {
     return rosterSourceEntries(shift).map(entry => entry.href || entry.url);
   }
+  let expiryTimer;
+  let nextExpiry = Infinity;
+  function scheduleExpiry(deadline) {
+    if (!Number.isFinite(deadline) || deadline >= nextExpiry) return;
+    clearTimeout(expiryTimer);
+    nextExpiry = deadline;
+    expiryTimer = setTimeout(refreshStoryLinks, Math.min(2147483647, Math.max(0, deadline - Date.now())));
+  }
+  function refreshStoryLinks() {
+    clearTimeout(expiryTimer);
+    nextExpiry = Infinity;
+    const now = Date.now();
+    for (const link of document.querySelectorAll("a[data-story-expires-at]")) {
+      const deadline = Date.parse(link.dataset.storyExpiresAt);
+      link.href = now >= deadline ? link.dataset.storyBackupUrl : link.dataset.storySourceUrl;
+      if (now < deadline) scheduleExpiry(deadline);
+    }
+  }
+  window.addEventListener("pageshow", refreshStoryLinks);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshStoryLinks();
+  });
   function rosterSourceLinks(shift, className = "roster-source-links", onlyName = "") {
     const entries = rosterSourceEntries(shift, onlyName);
     if (!entries.length) return null;
@@ -739,10 +761,11 @@
         link.dataset.storySourceUrl = entry.url;
         link.dataset.storyBackupUrl = entry.backupUrl;
         link.dataset.storyExpiresAt = entry.expiresAt;
+        if (entry.href !== entry.backupUrl) scheduleExpiry(Date.parse(entry.expiresAt));
       }
       link.textContent = entry.label;
       link.title = entry.description;
-      link.setAttribute("aria-label", `${entry.description}，開啟 Instagram 貼文`);
+      link.setAttribute("aria-label", `${entry.description}，查看來源`);
       wrap.append(link);
     });
     return wrap;

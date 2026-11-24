@@ -678,6 +678,7 @@
     // so retain their source even when the base roster source is already listed.
     for (const record of records) {
       const status = record.story_status === "extra" ? "加更" : record.story_status === "absent" ? "缺席" : record.cancelled ? "取消" : "";
+      if (!status && record.retain_story_evidence) add(record.story_source, record, "當值");
       if (status) add(record.story_source || record.cancellation_source, record, status);
     }
     const shortNames = names => {
@@ -704,7 +705,7 @@
       for (const status of entry.statuses) categorySet.add(status);
       const nameText = shortNames(entry.records.map(record => record.name));
       const namesFor = predicate => [...new Set(entry.records.filter(predicate).map(record => record.name).filter(Boolean))].join("、");
-      const sourceNames = [...new Set(entry.records.filter(record => sourceKey(record.source) === entryKey).map(record => record.name).filter(Boolean))];
+      const sourceNames = [...new Set(entry.records.filter(record => sourceKey(record.source) === entryKey || (record.retain_story_evidence && sourceKey(record.story_source) === entryKey)).map(record => record.name).filter(Boolean))];
       const extraNames = namesFor(record => record.story_status === "extra" && sourceKey(record.story_source) === entryKey);
       const absentNames = namesFor(record => record.story_status === "absent" && sourceKey(record.story_source) === entryKey);
       const markers = [];
